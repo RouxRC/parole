@@ -158,17 +158,17 @@ new Vue({
       name: "Affichage",
       selected: "prop",
       options: [{
-        id: "prop",
-        name: "Proportionnel",
-        icon: "dashboard"
+        id: "hebdo",
+        name: "Hebdomadaire",
+        icon: "equalizer"
       }, {
         id: "grow",
         name: "Cumulatif",
         icon: "timeline"
       }, {
-        id: "hebdo",
-        name: "Hebdomadaire",
-        icon: "equalizer"
+        id: "prop",
+        name: "Proportionnel",
+        icon: "dashboard"
       }]
     }, {
       name: "Débats considérés",
@@ -192,12 +192,30 @@ new Vue({
     resizing: null
   },
   mounted: function() {
-    this.colors = {}
-    d3.csv("data/parole-deputes.csv", function(d, i, columns) {
+    var totaux = {},
+      last;
+    d3.csv("data/parole-deputes.csv", function(d, idx, columns) {
+      var key;
       d.date = new Date(d.date);
-    //  for (var i=1, n=columns.length; i<n; ++i) d[columns[i]] = d[columns[i]] / 200000;
+      for (var i=1, n=columns.length; i<n; i++) {
+        d[columns[i]] = +d[columns[i]];
+        d[columns[i]+"_grow"] = d[columns[i]] + (last ? last[columns[i]+"_grow"] : 0);
+        key = columns[i].replace(/_[^_]*$/, "");
+        if (!totaux[key]) totaux[key] = 0;
+        totaux[key] += d[columns[i]];
+        if (!d[key+"_sum"]) d[key+"_sum"] = 0;
+        d[key+"_sum"] += d[columns[i]];
+        if (!d[key+"_tot"]) d[key+"_tot"] = 0;
+        d[key+"_tot"] += d[columns[i]+"_grow"];
+      }
+      for (var i=1, n=columns.length; i<n; i++) {
+        key = columns[i].replace(/_[^_]*$/, "");
+        if (totaux[key]) d[columns[i]+"_prop"] = d[columns[i]+"_grow"] / totaux[key];
+        else d[columns[i]+"_prop"] = 0;
+      }
+      last = d;
       return d;
-    }, this.drawChart);
+    }, this.initData);
   },
   methods: {
     onResize: function() {
@@ -211,19 +229,29 @@ new Vue({
           this.drawChart();
         }
       };
-      //console.log(id, list, e, this);
     },
-    drawChart: function(data, error) {
+    initData: function(data, error) {
       if (error) throw error;
-      if (data) this.data = data;
-      var colors = {};
-      for (var i=0, n=this.menus[0].options.length; i<n; i++)
-        if (this.menus[0].selected === this.menus[0].options[i].id) {
-          this.legende = this.menus[0].options[i].legende;
-          for (var j=0, m=this.legende.length; j<m; j++)
-            colors[this.legende[j].name] = this.legende[j].color;
-        }
-      var margin = {top: 50, right: 80, bottom: 140, left: 80},
+      this.data = data;
+      this.drawChart();
+    },
+    drawChart: function() {
+      var facet = this.menus[0].selected,
+        facets = this.menus[0].options,
+        view = this.menus[1].selected,
+        source = this.menus[2].selected,
+        cols = source + "_" + facet + "_",
+        colors = {};
+      for (var i=0, n=facets.length; i<n; i++)
+        if (facet === facets[i].id)
+          this.legende = facets[i].legende;
+      for (var i=0, n=this.legende.length; i<n; i++)
+        colors[this.legende[i].name] = this.legende[i].color;
+ 
+      var keys = this.legende.map(function(k) { return cols + k.name + (view !== "hebdo" ? "_"+view : "") });
+      if (facet === "groupes") keys.reverse();
+
+      var margin = {top: 50, right: 60, bottom: 140, left: 20},
         svgWidth = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgWidth - margin.left - margin.right,
         svgHeight = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
@@ -233,18 +261,16 @@ new Vue({
           .attr("height", svgHeight),
         xScale = d3.scaleTime().range([0, width])
           .domain(d3.extent(this.data, function(d) { return d.date; })),
-        yScale = d3.scaleLinear().range([height, 0])
-          .domain([0, 200000]),
-        cols = this.menus[2].selected + "_" + this.menus[0].selected + "_",
-        keys = this.legende.map(function(k){ return cols + k.name; });
-        if (this.menus[0].selected === "groupes") keys.reverse();
+        yScale = d3.scaleLinear().range([height, 0]),
         stack = d3.stack()
           .keys(keys),
         area = d3.area()
           .x(function(d) { return xScale(d.data.date); })
           .y0(function(d) { return yScale(d[0]); })
           .y1(function(d) { return yScale(d[1]); });
-    
+      if (view !== "prop")
+        yScale.domain([0, d3.max(this.data, function(d) { return d[cols+(view === "hebdo" ? "sum" : "tot")]; })]).nice();
+
       d3.select("svg g").remove();
       var g = svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
@@ -255,7 +281,7 @@ new Vue({
     
       layer.append("path")
         .attr("class", "area")
-        .style("fill", function(d){ return colors[d.key.replace(cols, "")]; })
+        .style("fill", function(d) { return colors[d.key.replace(cols, "").replace(/_(prop|grow)$/, "")]; })
         .attr("d", area);
     
       g.append("g")
@@ -263,19 +289,13 @@ new Vue({
         .attr("transform", "translate(0," + (height) + ")")
         .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%d %b")));
     
-      g.append("g")
-        .attr("class", "axis axis--y")
-        .call(d3.axisLeft(yScale));
-
       this.resizing = null;
     }
   }
 });
 /* TODO
-- order lines by legend
+- bring back locale
 - adjust legend positioning
-- set range by max value
-- make views
 - add tooltips
 - add url rooting
 */
