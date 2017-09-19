@@ -4,7 +4,6 @@
  <meta charset="UTF-8">
  <title>Parole - Regards Citoyens</title>
  <link href="css/roboto.css" rel="stylesheet">
- <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
  <link href="css/vuetify.min.css" rel="stylesheet">
 <style>
 html {
@@ -102,7 +101,7 @@ new Vue({
       options: [{
         id: "groupes",
         name: "Groupes politiques",
-        icon: "mdi-account-multiple",
+        icon: "people",
         legende: [{
           name: "LFI",
           color: "rgb(204,42,70)"
@@ -131,7 +130,7 @@ new Vue({
       }, {
         id: "sexe",
         name: "Sexes",
-        icon: "mdi-gender-male-female",
+        icon: "wc",
         legende: [{
           name: "Femmes",
           color: "pink"
@@ -142,7 +141,7 @@ new Vue({
       }, {
         id: "oldnew",
         name: "Anciens et nouveaux élus",
-        icon: "mdi-recycle",
+        icon: "repeat",
         legende: [{
           name: "Députés réélus",
           color: "lightgreen"
@@ -157,31 +156,31 @@ new Vue({
       options: [{
         id: "prop",
         name: "Proportionnel",
-        icon: "mdi-chart-pie"
+        icon: "dashboard"
       }, {
         id: "grow",
         name: "Cumulatif",
-        icon: "mdi-chart-line-stacked"
+        icon: "timeline"
       }, {
         id: "hebdo",
         name: "Hebdomadaire",
-        icon: "mdi-chart-histogram"
+        icon: "equalizer"
       }]
     }, {
       name: "DÉBATS CONSIDÉRÉS",
       selected: "total",
       options: [{
+        id: "total",
+        name: "Commissions et Hémicycle",
+        icon: "account_balance"
+      }, {
         id: "commissions",
         name: "Commissions uniquement",
-        icon: "mdi-microphone-outline"
+        icon: "mic"
       }, {
         id: "hemicycle",
         name: "Hémicycle uniquement",
-        icon: "mdi-looks"
-      }, {
-        id: "total",
-        name: "Commissions et Hémicycle",
-        icon: "mdi-microphone-variant"
+        icon: "looks"
       }]
     }],
     data: [],
