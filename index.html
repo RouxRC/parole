@@ -82,8 +82,8 @@ text {
       <v-container fill-height>
         <svg></svg>
         <div class="legende">
-          <button v-for="option in legende" type="button" class="btn btn--disabled btn--raised btn--round" v-bind:style="{'background-color': option.color+'!important'}">
-            <div class="btn__content">{{option.name}}</div>
+          <button v-for="option in legende" type="button" class="btn btn--disabled btn--raised btn--round" :style="{'background-color': option.color+'!important'}">
+            <div class="btn__content">{{ option.name }}</div>
           </button>
         </div>
       </v-container>
