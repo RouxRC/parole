@@ -79,13 +79,6 @@ text {
  <script src="js/vuetify.min.js"></script>
  <script>
 d3.timeFormat = d3.timeFormatLocale({
-  "dateTime": "%A, le %e %B %Y, %X",
-  "date": "%d/%m/%Y",
-  "time": "%H:%M:%S",
-  "periods": ["AM", "PM"],
-  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
-  "shortDays": ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
-  "months": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
   "shortMonths": ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 }).format;
 
@@ -93,133 +86,127 @@ d3.format = d3.formatLocale ({
   "decimal": ",",
   "thousands": " ",
   "grouping": [3],
-  "currency": ["", " €"],
 }).format;
 
 new Vue({
-  el: '#parole',
+  el: "#parole",
   data: {
     menus: [{
       name: "RÉPARTITION ENTRE",
-      selected: 'groupes',
+      selected: "groupes",
       options: [{
-        id: 'groupes',
-        name: 'Groupes politiques',
-        icon: 'mdi-account-multiple'
+        id: "groupes",
+        name: "Groupes politiques",
+        icon: "mdi-account-multiple"
       }, {
-        id: 'sexe',
-        name: 'Sexes',
-        icon: 'mdi-gender-male-female'
+        id: "sexe",
+        name: "Sexes",
+        icon: "mdi-gender-male-female"
       }, {
-        id: 'oldnew',
-        name: 'Anciens et nouveaux élus',
-        icon: 'mdi-recycle'
+        id: "oldnew",
+        name: "Anciens et nouveaux élus",
+        icon: "mdi-recycle"
       }]
     }, {
       name: "AFFICHAGE",
-      selected: 'prop',
+      selected: "prop",
       options: [{
-        id: 'prop',
-        name: 'Proportionnel',
-        icon: 'mdi-chart-pie'
+        id: "prop",
+        name: "Proportionnel",
+        icon: "mdi-chart-pie"
       }, {
-        id: 'grow',
-        name: 'Cumulé',
-        icon: 'mdi-chart-line-stacked'
+        id: "grow",
+        name: "Cumulatif",
+        icon: "mdi-chart-line-stacked"
       }, {
-        id: 'hebdo',
-        name: 'Hebdomadaire',
-        icon: 'mdi-chart-histogram'
+        id: "hebdo",
+        name: "Hebdomadaire",
+        icon: "mdi-chart-histogram"
       }]
     }, {
       name: "DÉBATS CONSIDÉRÉS",
-      selected: 'total',
+      selected: "total",
       options: [{
-        id: 'commissions',
-        name: 'Commissions uniquement',
-        icon: 'mdi-microphone-outline'
+        id: "commissions",
+        name: "Commissions uniquement",
+        icon: "mdi-microphone-outline"
       }, {
-        id: 'hemicycle',
-        name: 'Hémicycle uniquement',
-        icon: 'mdi-looks'
+        id: "hemicycle",
+        name: "Hémicycle uniquement",
+        icon: "mdi-looks"
       }, {
-        id: 'total',
-        name: 'Commissions et Hémicycle',
-        icon: 'mdi-microphone-variant'
+        id: "total",
+        name: "Commissions et Hémicycle",
+        icon: "mdi-microphone-variant"
       }]
     }],
     data: [],
     resizing: null
   },
   mounted: function() {
-    var self = this;
-    this.svg = d3.select("svg");
-    this.margin = {top: 50, right: 80, bottom: 80, left: 80};
-    this.z = d3.scaleOrdinal(d3.schemeCategory10);
-    this.stack = d3.stack();
-    this.area = d3.area()
-      .x(function(d, i) { return self.x(d.data.date); })
-      .y0(function(d) { return self.y(d[0]); })
-      .y1(function(d) { return self.y(d[1]); });
-
     d3.csv("data/parole-deputes.csv", function(d, i, columns) {
       d.date = new Date(d.date);
     //  for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = d[columns[i]] / 200000;
       return d;
-    }, function(error, data) {
-      if (error) throw error;
-      self.data = data;
-      self.drawChart();
-    });
+    }, this.drawChart);
   },
   methods: {
     onResize: function() {
       clearTimeout(this.resizing);
       this.resizing = setTimeout(this.drawChart, 50);
     },
-    selectOption: function(id, list, e) {
-      var self = this;
-      this.menus.forEach(function(x){
-        if (x.name === list && x.selected !== id)
-          x.selected = id;
-          self.drawChart();
-      });
-      console.log(id, list, e, this);
+    selectOption: function(optionId, optionMenu, e) {
+      for (var i = 0, n = this.menus.length; i < n; i++) {
+        if (this.menus[i].name === optionMenu && this.menus[i].selected !== optionId) {
+          this.menus[i].selected = optionId;
+          this.drawChart();
+        }
+      };
+      //console.log(id, list, e, this);
     },
-    drawChart: function() {
-        cols = this.menus[2].selected + "_" + this.menus[0].selected,
-        keys = this.data.columns.filter(function(c){ return c.startsWith(cols); })
-      var self = this,
+    drawChart: function(data, error) {
+      if (error) throw error;
+      if (data) this.data = data;
+      var margin = {top: 50, right: 80, bottom: 80, left: 80},
         svgWidth = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
-        svgHeight = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height;
-        width = svgWidth - this.margin.left - this.margin.right,
-        height = svgHeight - this.margin.top - this.margin.bottom;
-      this.svg.attr("width", svgWidth);
-      this.svg.attr("height", svgHeight);
-      this.x = d3.scaleTime().range([0, width]);
-      this.x.domain(d3.extent(this.data, function(d) { return d.date; }));
-      this.y = d3.scaleLinear().range([height, 0]);
-      this.y.domain([0, 200000]);
-      this.z.domain(keys);
-      this.stack.keys(keys);
+        width = svgWidth - margin.left - margin.right,
+        svgHeight = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
+        height = svgHeight - margin.top - margin.bottom,
+        svg = d3.select("svg")
+          .attr("width", svgWidth)
+          .attr("height", svgHeight),
+        xScale = d3.scaleTime().range([0, width])
+          .domain(d3.extent(this.data, function(d) { return d.date; })),
+        yScale = d3.scaleLinear().range([height, 0])
+          .domain([0, 200000]),
+        cols = this.menus[2].selected + "_" + this.menus[0].selected,
+        options = this.data.columns.filter(function(c){ return c.startsWith(cols); }),
+        zScale = d3.scaleOrdinal(d3.schemeCategory10)
+          .domain(options),
+        stack = d3.stack()
+          .keys(options),
+        area = d3.area()
+          .x(function(d) { return xScale(d.data.date); })
+          .y0(function(d) { return yScale(d[0]); })
+          .y1(function(d) { return yScale(d[1]); });
     
       d3.select("svg g").remove();
-      var g = this.svg.append("g")
-        .attr("transform", "translate(" + this.margin.left + "," + this.margin.top + ")"),
+      var g = svg.append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
       layer = g.selectAll(".layer")
-        .data(this.stack(this.data))
+        .data(stack(this.data))
         .enter().append("g")
           .attr("class", "layer");
     
       layer.append("path")
         .attr("class", "area")
-        .style("fill", function(d) { return self.z(d.key); })
-        .attr("d", this.area);
+        .style("fill", function(d) { return zScale(d.key); })
+        .attr("d", area);
     
       layer.filter(function(d) { return d[d.length - 1][1] - d[d.length - 1][0] > 0.01; })
         .append("text")
         .attr("x", width - 6)
-        .attr("y", function(d) { return self.y((d[d.length - 1][0] + d[d.length - 1][1]) / 2); })
+        .attr("y", function(d) { return yScale((d[d.length - 1][0] + d[d.length - 1][1]) / 2); })
         .attr("dy", ".35em")
         .style("text-anchor", "end")
         .text(function(d) { return d.key; });
@@ -227,11 +214,11 @@ new Vue({
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0," + (height) + ")")
-        .call(d3.axisBottom(this.x).tickFormat(d3.timeFormat("%d %b")));
+        .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%d %b")));
     
       g.append("g")
         .attr("class", "axis axis--y")
-        .call(d3.axisLeft(this.y));
+        .call(d3.axisLeft(yScale));
 
       this.resizing = null;
     }
