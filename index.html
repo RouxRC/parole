@@ -158,8 +158,8 @@ new Vue({
       name: "Affichage",
       selected: "prop",
       options: [{
-        id: "hebdo",
-        name: "Hebdomadaire",
+        id: "day",
+        name: "Quotidien",
         icon: "equalizer"
       }, {
         id: "grow",
@@ -248,41 +248,50 @@ new Vue({
       for (var i=0, n=this.legende.length; i<n; i++)
         colors[this.legende[i].name] = this.legende[i].color;
  
-      var keys = this.legende.map(function(k) { return cols + k.name + (view !== "hebdo" ? "_"+view : "") });
+      var keys = this.legende.map(function(k) {
+        return cols + k.name + (view !== "day" ? "_"+view : "");
+      });
       if (facet === "groupes") keys.reverse();
 
       var margin = {top: 50, right: 60, bottom: 140, left: 20},
-        svgWidth = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
-        width = svgWidth - margin.left - margin.right,
-        svgHeight = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
-        height = svgHeight - margin.top - margin.bottom,
-        svg = d3.select("svg")
-          .attr("width", svgWidth)
-          .attr("height", svgHeight),
+        svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
+        width = svgW - margin.left - margin.right,
+        svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
+        height = svgH - margin.top - margin.bottom,
+        svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
         xScale = d3.scaleTime().range([0, width])
           .domain(d3.extent(this.data, function(d) { return d.date; })),
         yScale = d3.scaleLinear().range([height, 0]),
-        stack = d3.stack()
-          .keys(keys),
-        area = d3.area()
-          .x(function(d) { return xScale(d.data.date); })
-          .y0(function(d) { return yScale(d[0]); })
-          .y1(function(d) { return yScale(d[1]); });
+        stack = d3.stack().keys(keys);
       if (view !== "prop")
-        yScale.domain([0, d3.max(this.data, function(d) { return d[cols+(view === "hebdo" ? "sum" : "tot")]; })]).nice();
+        yScale.domain([0, d3.max(this.data, function(d) {
+          return d[cols+(view === "day" ? "sum" : "tot")];
+        })]).nice();
 
       d3.select("svg g").remove();
       var g = svg.append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
-      layer = g.selectAll(".layer")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      g.append("g")
+        .selectAll("g")
         .data(stack(this.data))
         .enter().append("g")
-          .attr("class", "layer");
-    
-      layer.append("path")
-        .attr("class", "area")
-        .style("fill", function(d) { return colors[d.key.replace(cols, "").replace(/_(prop|grow)$/, "")]; })
-        .attr("d", area);
+          .attr("fill", function(d) {
+            return colors[d.key.replace(cols, "").replace(/_(prop|grow)$/, "")];
+          })
+        .selectAll("rect")
+        .data(function(d) { return d; })
+        .enter().append("rect")
+          .attr("x", function(d) { return xScale(d.data.date); })
+          .attr("y", function(d) { return yScale(d[1]); })
+          .attr("height", function(d) {
+            return yScale(d[0]) - yScale(d[1]) - 0.5;
+          })
+          .attr("width", function(d) {
+            var week = new Date(d.data.date);
+            week.setDate(week.getDate() + 1);
+            return xScale(week) - xScale(d.data.date) - 0.5;
+          });
     
       g.append("g")
         .attr("class", "axis axis--x")
