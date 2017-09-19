@@ -236,7 +236,8 @@ new Vue({
         yScale = d3.scaleLinear().range([height, 0])
           .domain([0, 200000]),
         cols = this.menus[2].selected + "_" + this.menus[0].selected + "_",
-        keys = this.data.columns.filter(function(c){ return c.startsWith(cols); }),
+        keys = this.legende.map(function(k){ return cols + k.name; });
+        if (this.menus[0].selected === "groupes") keys.reverse();
         stack = d3.stack()
           .keys(keys),
         area = d3.area()
@@ -254,7 +255,7 @@ new Vue({
     
       layer.append("path")
         .attr("class", "area")
-        .style("fill", function(d) { console.log(d); return colors[d.key.replace(cols, "")]; })
+        .style("fill", function(d){ return colors[d.key.replace(cols, "")]; })
         .attr("d", area);
     
       g.append("g")
