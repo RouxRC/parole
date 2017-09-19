@@ -14,11 +14,14 @@ html {
   overflow: hidden;
   z-index: 0;
 }
+.subheader {
+  text-transform: uppercase;
+}
 .selected {
   background-color: grey;
 }
 .selected .list__tile {
-  cursor: default;
+  opacity: 1!important;
 }
 .axis path, .axis line {
   stroke: #AAA;
@@ -54,8 +57,9 @@ text {
         <v-list-tile
           v-for="item in list.options"
           :key="item.id"
+          :disabled="list.selected === item.id"
           :class="{selected: list.selected === item.id}"
-          :ripple="list.selected !== item.id"
+          ripple
           @click="selectOption(item.id, list.name, $event)"
         >
           <v-list-tile-action>
@@ -96,7 +100,7 @@ new Vue({
   el: "#parole",
   data: {
     menus: [{
-      name: "RÉPARTITION ENTRE",
+      name: "Répartition entre",
       selected: "groupes",
       options: [{
         id: "groupes",
@@ -144,14 +148,14 @@ new Vue({
         icon: "repeat",
         legende: [{
           name: "Députés réélus",
-          color: "lightgreen"
+          color: "#B39DDB"
         }, {
           name: "Nouveaux députés",
-          color: "lightblue"
+          color: "#B2DFDB"
         }]
       }]
     }, {
-      name: "AFFICHAGE",
+      name: "Affichage",
       selected: "prop",
       options: [{
         id: "prop",
@@ -167,7 +171,7 @@ new Vue({
         icon: "equalizer"
       }]
     }, {
-      name: "DÉBATS CONSIDÉRÉS",
+      name: "Débats considérés",
       selected: "total",
       options: [{
         id: "total",
@@ -232,9 +236,9 @@ new Vue({
         yScale = d3.scaleLinear().range([height, 0])
           .domain([0, 200000]),
         cols = this.menus[2].selected + "_" + this.menus[0].selected + "_",
-        options = this.data.columns.filter(function(c){ return c.startsWith(cols); }),
+        keys = this.data.columns.filter(function(c){ return c.startsWith(cols); }),
         stack = d3.stack()
-          .keys(options),
+          .keys(keys),
         area = d3.area()
           .x(function(d) { return xScale(d.data.date); })
           .y0(function(d) { return yScale(d[0]); })
@@ -266,6 +270,15 @@ new Vue({
     }
   }
 });
+/* TODO
+- adjust mps colors
+- order lines by legend
+- adjust legend positioning
+- set range by max value
+- make views
+- add tooltips
+- add url rooting
+*/
  </script>
 </body>
 </html>
