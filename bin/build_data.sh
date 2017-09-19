@@ -30,23 +30,43 @@ AND type <> \"commission\"
 GROUP BY date, parlementaire_groupe_acronyme"
 
 query data/total_sexe "
-SELECT i.date, p.sexe, sum(i.nb_mots) as total
+SELECT i.date, IF(p.sexe = \"H\", \"Hommes\", \"Femmes\") as sexe, sum(i.nb_mots) as total
 FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id
 GROUP BY i.date, p.sexe"
 
 query data/commissions_sexe "
-SELECT i.date, p.sexe, sum(i.nb_mots) as total
+SELECT i.date, IF(p.sexe = \"H\", \"Hommes\", \"Femmes\") as sexe, sum(i.nb_mots) as total
 FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id
 WHERE i.type = \"commission\"
 GROUP BY i.date, p.sexe"
 
 query data/hemicycle_sexe "
-SELECT i.date, p.sexe, sum(i.nb_mots) as total
+SELECT i.date, IF(p.sexe = \"H\", \"Hommes\", \"Femmes\") as sexe, sum(i.nb_mots) as total
 FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id
 WHERE i.type <> \"commission\"
 GROUP BY i.date, p.sexe"
 
-python bin/assemble_data.py > data/parole-deputes.csv
+query data/total_oldnew "
+SELECT i.date, IF(url_ancien_cpc IS NULL, \"Nouveaux députés\", \"Députés réélus\") as oldnew, sum(i.nb_mots) as total
+FROM intervention i
+JOIN parlementaire p ON p.id = i.parlementaire_id
+GROUP BY i.date, oldnew"
+
+query data/commissions_oldnew "
+SELECT i.date, IF(url_ancien_cpc IS NULL, \"Nouveaux députés\", \"Députés réélus\") as oldnew, sum(i.nb_mots) as total
+FROM intervention i
+JOIN parlementaire p ON p.id = i.parlementaire_id
+WHERE i.type = \"commission\"
+GROUP BY i.date, oldnew"
+
+query data/hemicycle_oldnew "
+SELECT i.date, IF(url_ancien_cpc IS NULL, \"Nouveaux députés\", \"Députés réélus\") as oldnew, sum(i.nb_mots) as total
+FROM intervention i
+JOIN parlementaire p ON p.id = i.parlementaire_id
+WHERE i.type <> \"commission\"
+GROUP BY i.date, oldnew"
+
+bin/assemble_data.py > data/parole-deputes.csv

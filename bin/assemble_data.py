@@ -8,7 +8,7 @@ output = []
 keys = []
 
 for debats in ["total", "commissions", "hemicycle"]:
-    for typ in ["groupes", "sexe"]:
+    for typ in ["groupes", "sexe", "oldnew"]:
         fil = "%s_%s" % (debats, typ)
         with open(os.path.join("data", "%s.csv" % fil)) as f:
             for row in csv.DictReader(f):
