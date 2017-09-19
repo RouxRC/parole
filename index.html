@@ -32,6 +32,15 @@ text {
   font-size: 14px;
   font-family: Roboto;
 }
+.legende {
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+}
+.legende button {
+  color: black!important;
+  font-weight: bold;
+}
 </style>
 </head>
 <body>
@@ -46,7 +55,7 @@ text {
         <v-list-tile
           v-for="item in list.options"
           :key="item.id"
-          v-bind:class="{selected: list.selected === item.id}"
+          :class="{selected: list.selected === item.id}"
           :ripple="list.selected !== item.id"
           @click="selectOption(item.id, list.name, $event)"
         >
@@ -69,6 +78,11 @@ text {
     <main>
       <v-container fill-height>
         <svg></svg>
+        <div class="legende">
+          <button v-for="option in legende" type="button" class="btn btn--disabled btn--raised btn--round" v-bind:style="{'background-color': option.color+'!important'}">
+            <div class="btn__content">{{option.name}}</div>
+          </button>
+        </div>
       </v-container>
     </main>
   </v-app>
@@ -78,15 +92,6 @@ text {
  <script src="js/vue.min.js"></script>
  <script src="js/vuetify.min.js"></script>
  <script>
-d3.timeFormat = d3.timeFormatLocale({
-  "shortMonths": ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
-}).format;
-
-d3.format = d3.formatLocale ({
-  "decimal": ",",
-  "thousands": " ",
-  "grouping": [3],
-}).format;
 
 new Vue({
   el: "#parole",
@@ -97,15 +102,54 @@ new Vue({
       options: [{
         id: "groupes",
         name: "Groupes politiques",
-        icon: "mdi-account-multiple"
+        icon: "mdi-account-multiple",
+        legende: [{
+          name: "LFI",
+          color: "rgb(204,42,70)"
+        }, {
+          name: "GDR",
+          color: "rgb(255,30,30)"
+        }, {
+          name: "NG",
+          color: "rgb(255,50,190)"
+        }, {
+          name: "LREM",
+          color: "rgb(232,197,5)"
+        }, {
+          name: "MODEM",
+          color: "rgb(247,138,13)"
+        }, {
+          name: "LC",
+          color: "rgb(30,180,255)"
+        }, {
+          name: "LR",
+          color: "rgb(30,30,200)"
+        }, {
+          name: "NI",
+          color: "rgb(165,165,165)"
+        }]
       }, {
         id: "sexe",
         name: "Sexes",
-        icon: "mdi-gender-male-female"
+        icon: "mdi-gender-male-female",
+        legende: [{
+          name: "Femmes",
+          color: "pink"
+        }, {
+          name: "Hommes",
+          color: "lightblue"
+        }]
       }, {
         id: "oldnew",
         name: "Anciens et nouveaux élus",
-        icon: "mdi-recycle"
+        icon: "mdi-recycle",
+        legende: [{
+          name: "Députés réélus",
+          color: "lightgreen"
+        }, {
+          name: "Nouveaux députés",
+          color: "lightblue"
+        }]
       }]
     }, {
       name: "AFFICHAGE",
@@ -141,12 +185,14 @@ new Vue({
       }]
     }],
     data: [],
+    legende: [],
     resizing: null
   },
   mounted: function() {
+    this.colors = {}
     d3.csv("data/parole-deputes.csv", function(d, i, columns) {
       d.date = new Date(d.date);
-    //  for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = d[columns[i]] / 200000;
+    //  for (var i=1, n=columns.length; i<n; ++i) d[columns[i]] = d[columns[i]] / 200000;
       return d;
     }, this.drawChart);
   },
@@ -156,7 +202,7 @@ new Vue({
       this.resizing = setTimeout(this.drawChart, 50);
     },
     selectOption: function(optionId, optionMenu, e) {
-      for (var i = 0, n = this.menus.length; i < n; i++) {
+      for (var i=0, n=this.menus.length; i<n; i++) {
         if (this.menus[i].name === optionMenu && this.menus[i].selected !== optionId) {
           this.menus[i].selected = optionId;
           this.drawChart();
@@ -167,7 +213,14 @@ new Vue({
     drawChart: function(data, error) {
       if (error) throw error;
       if (data) this.data = data;
-      var margin = {top: 50, right: 80, bottom: 80, left: 80},
+      var colors = {};
+      for (var i=0, n=this.menus[0].options.length; i<n; i++)
+        if (this.menus[0].selected === this.menus[0].options[i].id) {
+          this.legende = this.menus[0].options[i].legende;
+          for (var j=0, m=this.legende.length; j<m; j++)
+            colors[this.legende[j].name] = this.legende[j].color;
+        }
+      var margin = {top: 50, right: 80, bottom: 140, left: 80},
         svgWidth = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgWidth - margin.left - margin.right,
         svgHeight = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
@@ -179,10 +232,8 @@ new Vue({
           .domain(d3.extent(this.data, function(d) { return d.date; })),
         yScale = d3.scaleLinear().range([height, 0])
           .domain([0, 200000]),
-        cols = this.menus[2].selected + "_" + this.menus[0].selected,
+        cols = this.menus[2].selected + "_" + this.menus[0].selected + "_",
         options = this.data.columns.filter(function(c){ return c.startsWith(cols); }),
-        zScale = d3.scaleOrdinal(d3.schemeCategory10)
-          .domain(options),
         stack = d3.stack()
           .keys(options),
         area = d3.area()
@@ -200,16 +251,8 @@ new Vue({
     
       layer.append("path")
         .attr("class", "area")
-        .style("fill", function(d) { return zScale(d.key); })
+        .style("fill", function(d) { console.log(d); return colors[d.key.replace(cols, "")]; })
         .attr("d", area);
-    
-      layer.filter(function(d) { return d[d.length - 1][1] - d[d.length - 1][0] > 0.01; })
-        .append("text")
-        .attr("x", width - 6)
-        .attr("y", function(d) { return yScale((d[d.length - 1][0] + d[d.length - 1][1]) / 2); })
-        .attr("dy", ".35em")
-        .style("text-anchor", "end")
-        .text(function(d) { return d.key; });
     
       g.append("g")
         .attr("class", "axis axis--x")
