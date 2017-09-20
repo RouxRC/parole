@@ -259,8 +259,9 @@ new Vue({
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
-        xScale = d3.scaleTime().range([0, width])
-          .domain(d3.extent(this.data, function(d) { return d.date; })),
+        xScale = d3.scaleTime().range([0, width - margin.right])
+          .domain(d3.extent(this.data, function(d) { return d.date; }))
+          .nice(),
         yScale = d3.scaleLinear().range([height, 0]),
         stack = d3.stack().keys(keys);
       if (view !== "prop")
@@ -285,12 +286,12 @@ new Vue({
           .attr("x", function(d) { return xScale(d.data.date); })
           .attr("y", function(d) { return yScale(d[1]); })
           .attr("height", function(d) {
-            return yScale(d[0]) - yScale(d[1]) - 0.5;
+            return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5);
           })
           .attr("width", function(d) {
             var week = new Date(d.data.date);
             week.setDate(week.getDate() + 1);
-            return xScale(week) - xScale(d.data.date) - 0.5;
+            return Math.max(0, xScale(week) - xScale(d.data.date) - 0.5);
           });
     
       g.append("g")
