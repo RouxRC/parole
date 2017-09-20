@@ -1,3 +1,4 @@
 bin/config.sh
 data/*_groupes.csv
+data/*_oldnew.csv
 data/*_sexe.csv
