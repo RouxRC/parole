@@ -43,6 +43,22 @@ text {
   color: black!important;
   font-weight: bold;
 }
+rect.tooltip {
+  fill: black;
+  fill-opacity: 0;
+}
+.tooltipBox {
+  background: white;
+  border: 1px solid black;
+  display: none;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 7px;
+  font-size: 14px;
+  z-index: 1000;
+}
 </style>
 </head>
 <body>
@@ -88,6 +104,8 @@ text {
         </div>
       </v-container>
     </main>
+    <div class="tooltipBox">
+    </div>
   </v-app>
   </div>
  
@@ -205,7 +223,7 @@ new Vue({
     resizing: null
   },
   mounted: function() {
-    window.addEventListener('hashchange', this.updateView);
+    window.addEventListener("hashchange", this.updateView);
     var totaux = {},
       last;
     d3.csv("data/parole-deputes.csv", function(d, idx, columns) {
@@ -321,13 +339,13 @@ new Vue({
         .enter().append("rect")
           .attr("x", function(d) { return xScale(d.data.date); })
           .attr("y", function(d) { return yScale(d[1]); })
-          .attr("height", function(d) {
-            return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5);
-          })
           .attr("width", function(d) {
             var week = new Date(d.data.date);
             week.setDate(week.getDate() + 1);
             return Math.max(0, xScale(week) - xScale(d.data.date) - 0.5);
+          })
+          .attr("height", function(d) {
+            return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5);
           });
     
       g.append("g")
@@ -335,13 +353,50 @@ new Vue({
         .attr("transform", "translate(0," + (height) + ")")
         .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%d %b")));
     
+      g.append("g")
+        .selectAll("rect.tooltip")
+        .data(this.data)
+        .enter().append("rect")
+          .classed("tooltip", true)
+          .attr("x", function (d) { return xScale(d.date); })
+          .attr("y", function (d) { return yScale.range()[1]; })
+          .attr("width", function(d) {
+            var week = new Date(d.date);
+            week.setDate(week.getDate() + 1);
+            return Math.max(0, xScale(week) - xScale(d.date));
+          })
+          .attr("height", function (d) { 
+            return yScale.range()[0] - yScale.range()[1];
+          })
+          .on("mouseover", function (x, idx, rects){
+            d3.select(rects[idx]).style("fill-opacity", 0.15);
+            console.log(x);
+          })
+          .on("mousemove", function(e) {
+            var x = d3.event.pageX - 100
+            d3.select(".tooltipBox")
+             .style("left", d3.event.pageX - 100 + "px")
+             .style("top", d3.event.pageY + 40 + "px")
+          //   .style("display", "block");
+          })
+          .on("mouseleave", function(x, idx, rects) {
+            d3.select(rects[idx]).style("fill-opacity", 0);
+            d3.select(".tooltipBox")
+             .style("display", "none");
+          })
+
       this.resizing = null;
     }
   }
 });
 /* TODO
+- adjust tooltips;
+ + fill values
+ + style with material
 - adjust legend positioning
-- add tooltips
+- add info credits
+- add more data ?
+- add more legislatures ?
 */
  </script>
 </body>
