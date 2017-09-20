@@ -51,7 +51,7 @@ text {
     <v-navigation-drawer permanent clipped absolute>
       <v-list
         v-for="list in menus"
-        :key="list.name"
+        :key="list.id"
       >
         <v-subheader class="mt-3 grey--text text--darken-1">{{ list.name }}</v-subheader>
         <v-list-tile
@@ -60,7 +60,7 @@ text {
           :disabled="list.selected === item.id"
           :class="{selected: list.selected === item.id}"
           ripple
-          @click="selectOption(item.id, list.name, $event)"
+          @click="selectOption(item.id, list.id, $event)"
         >
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -110,6 +110,7 @@ new Vue({
   el: "#parole",
   data: {
     menus: [{
+      id: "facet",
       name: "Répartition entre",
       selected: "groupes",
       options: [{
@@ -165,6 +166,7 @@ new Vue({
         }]
       }]
     }, {
+      id: "view",
       name: "Affichage",
       selected: "prop",
       options: [{
@@ -181,6 +183,7 @@ new Vue({
         icon: "dashboard"
       }]
     }, {
+      id: "source",
       name: "Débats considérés",
       selected: "total",
       options: [{
@@ -202,6 +205,7 @@ new Vue({
     resizing: null
   },
   mounted: function() {
+    window.addEventListener('hashchange', this.updateView);
     var totaux = {},
       last;
     d3.csv("data/parole-deputes.csv", function(d, idx, columns) {
@@ -232,17 +236,39 @@ new Vue({
       clearTimeout(this.resizing);
       this.resizing = setTimeout(this.drawChart, 50);
     },
-    selectOption: function(optionId, optionMenu, e) {
+    selectOption: function(optionId, menuId, e) {
       for (var i=0, n=this.menus.length; i<n; i++) {
-        if (this.menus[i].name === optionMenu && this.menus[i].selected !== optionId) {
+        if (this.menus[i].id === menuId && this.menus[i].selected !== optionId) {
           this.menus[i].selected = optionId;
+          this.setUrl();
           this.drawChart();
         }
       };
     },
+    setUrl: function() {
+      window.location.hash = this.menus.map(function(d) {
+        return d.id + "=" + d.selected;
+      }).join("&");
+    },
+    readUrl: function() {
+      var urlArgs = window.location.hash.slice(1).split(/&/),
+        el;
+      for (var i=0, n=urlArgs.length; i<n; i++) {
+        el = urlArgs[i].split(/=/);
+        this.menus.filter(function(d) {
+          return d.id === el[0];
+        }).forEach(function(d) {
+          d.selected = el[1];
+        });
+      }
+    },
     initData: function(data, error) {
       if (error) throw error;
       this.data = data;
+      this.updateView();
+    },
+    updateView: function() {
+      this.readUrl();
       this.drawChart();
     },
     drawChart: function() {
@@ -316,7 +342,6 @@ new Vue({
 /* TODO
 - adjust legend positioning
 - add tooltips
-- add url rooting
 */
  </script>
 </body>
