@@ -35,9 +35,8 @@ text {
   font-family: Roboto;
 }
 .legende {
-  width: 100%;
-  position: absolute;
-  bottom: 30px;
+  position: relative;
+  bottom: 90px;
 }
 .legende button {
   color: black!important;
@@ -95,14 +94,12 @@ rect.tooltip {
       </v-toolbar-title>
     </v-toolbar>
     <main>
-      <v-container fill-height>
-        <svg></svg>
-        <div class="legende">
-          <button v-for="option in legende" type="button" class="btn btn--disabled btn--raised btn--round" :style="{'background-color': option.color+'!important'}">
-            <div class="btn__content">{{ option.name }}</div>
-          </button>
-        </div>
-      </v-container>
+      <svg></svg>
+      <center><div class="legende">
+        <button v-for="option in legende" type="button" class="btn btn--disabled btn--raised btn--round" :style="{'background-color': option.color+'!important'}">
+          <div class="btn__content">{{ option.name }}</div>
+        </button>
+      </div></center>
     </main>
     <div class="tooltipBox">
     </div>
@@ -307,13 +304,13 @@ new Vue({
       });
       if (facet === "groupes") keys.reverse();
 
-      var margin = {top: 50, right: 40, bottom: 140, left: 40},
+      var margin = {top: 50, right: 80, bottom: 140, left: 80},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
-        xScale = d3.scaleTime().range([0, width - margin.right])
+        xScale = d3.scaleTime().range([0, width])
           .domain(d3.extent(this.data, function(d) { return d.date; }))
           .nice(),
         yScale = d3.scaleLinear().range([height, 0]),
@@ -393,7 +390,6 @@ new Vue({
 - adjust tooltips;
  + fill values
  + style with material
-- adjust legend positioning
 - add info credits
 - add more data ?
 - add more legislatures ?
