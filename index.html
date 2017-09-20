@@ -95,6 +95,16 @@ text {
  <script src="js/vue.min.js"></script>
  <script src="js/vuetify.min.js"></script>
  <script>
+d3.timeFormat = d3.timeFormatLocale({
+  "dateTime": "%A, le %e %B %Y, %X",
+  "date": "%d/%m/%Y",
+  "time": "%H:%M:%S",
+  "periods": ["AM", "PM"],
+  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  "shortDays": ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
+  "months": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+  "shortMonths": ["Janv.", "Févr.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."]
+}).format;
 
 new Vue({
   el: "#parole",
@@ -253,7 +263,7 @@ new Vue({
       });
       if (facet === "groupes") keys.reverse();
 
-      var margin = {top: 50, right: 60, bottom: 140, left: 20},
+      var margin = {top: 50, right: 40, bottom: 140, left: 40},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
@@ -304,7 +314,6 @@ new Vue({
   }
 });
 /* TODO
-- bring back locale
 - adjust legend positioning
 - add tooltips
 - add url rooting
