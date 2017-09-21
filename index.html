@@ -94,7 +94,7 @@ rect.tooltip {
     </div>
   </v-app>
   </div>
- 
+
  <script src="js/d3.v4.min.js"></script>
  <script src="js/vue.min.js"></script>
  <script src="js/vuetify.min.js"></script>
@@ -285,7 +285,7 @@ new Vue({
           this.legende = facets[i].legende;
       for (var i=0, n=this.legende.length; i<n; i++)
         colors[this.legende[i].name] = this.legende[i].color;
- 
+
       var keys = this.legende.map(function(k) {
         return cols + k.name + (view !== "day" ? "_"+view : "");
       });
@@ -327,12 +327,12 @@ new Vue({
           .attr("y", function(d) { return yScale(d[1]); })
           .attr("width", oneday - 0.5)
           .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
-    
+
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0," + (height) + ")")
-        .call(d3.axisBottom(xScale).tickFormat(d3.timeFormat("%d %b")));
-    
+        .call(d3.axisBottom(xScale).ticks(Math.floor(width / 175), d3.timeFormat("%d %b %y")));
+
       g.append("g")
         .selectAll("rect.tooltip")
         .data(this.data)
@@ -371,7 +371,6 @@ https://vuetifyjs.com/directives/tooltips
 - handle confusion prop/cumul => 2 entrées case à cocher uniquement
 - reorder options ?
 - remove ripple ?
-- limit ticks timeline
 - add comparator with actual proportion (reove nice on yscale)
 - add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE) (=> dense menu)
 - other legislatures
