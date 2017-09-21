@@ -9,28 +9,18 @@
 html {
   overflow: hidden;
 }
-#parole, #parole .container {
-  height: 100%;
-  overflow: hidden;
-  z-index: 0;
-}
 .subheader {
   text-transform: uppercase;
 }
-.selected {
+.list [disabled] {
   background-color: grey;
-}
-.selected .list__tile {
   opacity: 1!important;
 }
 .axis path, .axis line {
-  stroke: #AAA;
+  stroke: grey;
 }
 .axis text {
-  fill: #AAA;
-}
-text {
-  fill: #CCC;
+  fill: grey;
   font-size: 14px;
   font-family: Roboto;
 }
@@ -73,9 +63,8 @@ rect.tooltip {
           v-for="item in list.options"
           :key="item.id"
           :disabled="list.selected === item.id"
-          :class="{selected: list.selected === item.id}"
-          ripple
           @click="selectOption(item.id, list.id, $event)"
+          ripple
         >
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -388,11 +377,18 @@ new Vue({
 });
 /* TODO
 - adjust tooltips;
+https://vuetifyjs.com/directives/tooltips
  + fill values
  + style with material
+- handle confusion prop/cumul => 2 entrées case à cocher uniquement
+- reorder options ?
+- remove ripple ?
+- limit ticks timeline
+- add comparator with actual proportion (reove nice on yscale)
+- add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE) (=> dense menu)
+- other legislatures
+- update data
 - add info credits
-- add more data ?
-- add more legislatures ?
 */
  </script>
 </body>
