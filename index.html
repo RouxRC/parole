@@ -259,11 +259,9 @@ new Vue({
         el;
       for (var i=0, n=urlArgs.length; i<n; i++) {
         el = urlArgs[i].split(/=/);
-        this.menus.filter(function(d) {
-          return d.id === el[0];
-        }).forEach(function(d) {
-          d.selected = el[1];
-        });
+        this.menus
+          .filter(function(d) { return d.id === el[0]; })
+          .forEach(function(d) { d.selected = el[1]; });
       }
     },
     initData: function(data, error) {
@@ -302,8 +300,8 @@ new Vue({
         xScale = d3.scaleTime().range([0, width])
           .domain(d3.extent(this.data, function(d) { return d.date; }))
           .nice(),
-        yScale = d3.scaleLinear().range([height, 0]),
-        stack = d3.stack().keys(keys);
+        yScale = d3.scaleLinear().range([height, 0]);
+
       if (view !== "prop")
         yScale.domain([0, d3.max(this.data, function(d) {
           return d[cols+(view === "day" ? "sum" : "tot")];
@@ -311,7 +309,9 @@ new Vue({
 
       d3.select("svg g").remove();
       var g = svg.append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
+        stack = d3.stack().keys(keys),
+        oneday = width / (xScale.domain()[1] - xScale.domain()[0]) * 86400000;
 
       g.append("g")
         .selectAll("g")
@@ -325,14 +325,8 @@ new Vue({
         .enter().append("rect")
           .attr("x", function(d) { return xScale(d.data.date); })
           .attr("y", function(d) { return yScale(d[1]); })
-          .attr("width", function(d) {
-            var week = new Date(d.data.date);
-            week.setDate(week.getDate() + 1);
-            return Math.max(0, xScale(week) - xScale(d.data.date) - 0.5);
-          })
-          .attr("height", function(d) {
-            return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5);
-          });
+          .attr("width", oneday - 0.5)
+          .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
     
       g.append("g")
         .attr("class", "axis axis--x")
@@ -345,15 +339,9 @@ new Vue({
         .enter().append("rect")
           .classed("tooltip", true)
           .attr("x", function (d) { return xScale(d.date); })
-          .attr("y", function (d) { return yScale.range()[1]; })
-          .attr("width", function(d) {
-            var week = new Date(d.date);
-            week.setDate(week.getDate() + 1);
-            return Math.max(0, xScale(week) - xScale(d.date));
-          })
-          .attr("height", function (d) { 
-            return yScale.range()[0] - yScale.range()[1];
-          })
+          .attr("y", yScale.range()[1])
+          .attr("width", oneday)
+          .attr("height", yScale.range()[0] - yScale.range()[1])
           .on("mouseover", function (x, idx, rects){
             d3.select(rects[idx]).style("fill-opacity", 0.15);
             console.log(x);
