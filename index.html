@@ -12,9 +12,12 @@ html {
 .subheader {
   text-transform: uppercase;
 }
-.list [disabled] {
-  background-color: grey;
-  opacity: 1!important;
+.list [disabled], .list .selected {
+  background-color: #f44336;
+  opacity: 0.8!important;
+}
+.input-group.input-group--selection-controls.switch {
+  left: 35%;
 }
 .axis path, .axis line {
   stroke: grey;
@@ -57,12 +60,14 @@ rect.tooltip {
       <v-list
         v-for="list in menus"
         :key="list.id"
+        dense
       >
         <v-subheader class="mt-3 grey--text text--darken-1">{{ list.name }}</v-subheader>
         <v-list-tile
           v-for="item in list.options"
           :key="item.id"
           :disabled="list.selected === item.id"
+          :class="{'selected': item.selected}"
           @click="selectOption(item.id, list.id, $event)"
           ripple
         >
@@ -74,6 +79,9 @@ rect.tooltip {
               {{ item.name }}
             </v-list-tile-title>
           </v-list-tile-content>
+          <v-list-tile-action>
+            <v-switch v-if="list.multi" v-model="item.selected" light disabled></v-switch>
+          </v-list-tile-action>
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
@@ -114,6 +122,23 @@ new Vue({
   el: "#parole",
   data: {
     menus: [{
+      id: "source",
+      name: "Débats considérés",
+      selected: "total",
+      options: [{
+        id: "total",
+        name: "Commissions et Hémicycle",
+        icon: "account_balance"
+      }, {
+        id: "commissions",
+        name: "Commissions uniquement",
+        icon: "mic"
+      }, {
+        id: "hemicycle",
+        name: "Hémicycle uniquement",
+        icon: "looks"
+      }]
+    }, {
       id: "facet",
       name: "Répartition entre",
       selected: "groupes",
@@ -172,36 +197,17 @@ new Vue({
     }, {
       id: "view",
       name: "Affichage",
-      selected: "prop",
+      multi: true,
       options: [{
-        id: "day",
-        name: "Quotidien",
-        icon: "equalizer"
-      }, {
-        id: "grow",
+        id: "cumul",
         name: "Cumulatif",
-        icon: "timeline"
+        icon: "timeline",
+        selected: false
       }, {
         id: "prop",
         name: "Proportionnel",
-        icon: "dashboard"
-      }]
-    }, {
-      id: "source",
-      name: "Débats considérés",
-      selected: "total",
-      options: [{
-        id: "total",
-        name: "Commissions et Hémicycle",
-        icon: "account_balance"
-      }, {
-        id: "commissions",
-        name: "Commissions uniquement",
-        icon: "mic"
-      }, {
-        id: "hemicycle",
-        name: "Hémicycle uniquement",
-        icon: "looks"
+        icon: "dashboard",
+        selected: false
       }]
     }],
     data: [],
@@ -210,26 +216,21 @@ new Vue({
   },
   mounted: function() {
     window.addEventListener("hashchange", this.updateView);
-    var totaux = {},
-      last;
+    var last;
     d3.csv("data/parole-deputes.csv", function(d, idx, columns) {
       var key;
       d.date = new Date(d.date);
       for (var i=1, n=columns.length; i<n; i++) {
-        d[columns[i]] = +d[columns[i]];
-        d[columns[i]+"_grow"] = d[columns[i]] + (last ? last[columns[i]+"_grow"] : 0);
         key = columns[i].replace(/_[^_]*$/, "");
-        if (!totaux[key]) totaux[key] = 0;
-        totaux[key] += d[columns[i]];
-        if (!d[key+"_sum"]) d[key+"_sum"] = 0;
-        d[key+"_sum"] += d[columns[i]];
-        if (!d[key+"_tot"]) d[key+"_tot"] = 0;
-        d[key+"_tot"] += d[columns[i]+"_grow"];
+        d[columns[i]] = +d[columns[i]];
+        d[columns[i]+"_cumul"] = d[columns[i]] + (last ? last[columns[i]+"_cumul"] : 0);
+        d[key] = (d[key] || 0) + d[columns[i]];
+        d[key+"_cumul"] = (d[key+"_cumul"] || 0) + d[columns[i]+"_cumul"];
       }
       for (var i=1, n=columns.length; i<n; i++) {
         key = columns[i].replace(/_[^_]*$/, "");
-        if (totaux[key]) d[columns[i]+"_prop"] = d[columns[i]+"_grow"] / totaux[key];
-        else d[columns[i]+"_prop"] = 0;
+        d[columns[i]+"_prop"] = (d[key] ? d[columns[i]] / d[key] : 0);
+        d[columns[i]+"_cumul_prop"] = (d[key+"_cumul"] ? d[columns[i]+"_cumul"] / d[key+"_cumul"] : 0);
       }
       last = d;
       return d;
@@ -241,18 +242,30 @@ new Vue({
       this.resizing = setTimeout(this.drawChart, 50);
     },
     selectOption: function(optionId, menuId, e) {
-      for (var i=0, n=this.menus.length; i<n; i++) {
-        if (this.menus[i].id === menuId && this.menus[i].selected !== optionId) {
-          this.menus[i].selected = optionId;
-          this.setUrl();
-          this.drawChart();
+      var update = false;
+      this.menus.forEach(function(m) { if (m.id === menuId) {
+        if (m.multi) {
+          m.options.forEach(function(o) { if (o.id === optionId) {
+            o.selected = !o.selected;
+            update = true;
+          } });
+        } else if (m.selected !== optionId) {
+          m.selected = optionId;
+          update = true;
         }
-      };
+      } });
+      if (update) this.setUrl();
     },
     setUrl: function() {
-      window.location.hash = this.menus.map(function(d) {
-        return d.id + "=" + d.selected;
-      }).join("&");
+      window.location.hash = this.menus.map(function(m) {
+        return m.id + "=" + ( m.multi ?
+          m.options.filter(function(o) { return o.selected; })
+            .map(function(o) { return o.id; })
+            .join(",") :
+          m.selected
+        );
+      }).filter(function(d) { return /=./.test(d); })
+      .join("&");
     },
     readUrl: function() {
       var urlArgs = window.location.hash.slice(1).split(/&/),
@@ -260,25 +273,34 @@ new Vue({
       for (var i=0, n=urlArgs.length; i<n; i++) {
         el = urlArgs[i].split(/=/);
         this.menus
-          .filter(function(d) { return d.id === el[0]; })
-          .forEach(function(d) { d.selected = el[1]; });
+          .filter(function(m) { return m.id === el[0]; })
+          .forEach(function(m) {
+            if (m.multi) m.options
+              .forEach(function(o) { o.selected = !!~el[1].indexOf(o.id); });
+            else m.selected = el[1];
+          });
       }
     },
     initData: function(data, error) {
       if (error) throw error;
       this.data = data;
-      this.updateView();
+      this.readUrl();
+      this.setUrl();
     },
     updateView: function() {
       this.readUrl();
       this.drawChart();
     },
     drawChart: function() {
-      var facet = this.menus[0].selected,
-        facets = this.menus[0].options,
-        view = this.menus[1].selected,
-        source = this.menus[2].selected,
-        cols = source + "_" + facet + "_",
+      var source = this.menus[0].selected,
+        facet = this.menus[1].selected,
+        facets = this.menus[1].options,
+        views = [""]
+          .concat(this.menus[2].options
+            .filter(function(o) { return o.selected; })
+            .map(function(o) { return o.id; })
+          ).join("_"),
+        cols = [source, facet].join("_"),
         colors = {};
       for (var i=0, n=facets.length; i<n; i++)
         if (facet === facets[i].id)
@@ -287,7 +309,7 @@ new Vue({
         colors[this.legende[i].name] = this.legende[i].color;
 
       var keys = this.legende.map(function(k) {
-        return cols + k.name + (view !== "day" ? "_"+view : "");
+        return cols + "_" + k.name + views;
       });
       if (facet === "groupes") keys.reverse();
 
@@ -302,10 +324,8 @@ new Vue({
           .nice(),
         yScale = d3.scaleLinear().range([height, 0]);
 
-      if (view !== "prop")
-        yScale.domain([0, d3.max(this.data, function(d) {
-          return d[cols+(view === "day" ? "sum" : "tot")];
-        })]).nice();
+      if (!/prop/.test(views))
+        yScale.domain([0, d3.max(this.data, function(d) { return d[cols + views]; })]);
 
       d3.select("svg g").remove();
       var g = svg.append("g")
@@ -318,7 +338,7 @@ new Vue({
         .data(stack(this.data))
         .enter().append("g")
           .attr("fill", function(d) {
-            return colors[d.key.replace(cols, "").replace(/_(prop|grow)$/, "")];
+            return colors[d.key.replace(cols+"_", "").replace(/_(cumul|prop)/g, "")];
           })
         .selectAll("rect")
         .data(function(d) { return d; })
@@ -368,14 +388,13 @@ new Vue({
 https://vuetifyjs.com/directives/tooltips
  + fill values
  + style with material
-- handle confusion prop/cumul => 2 entrées case à cocher uniquement
-- reorder options ?
+- add transition d3 when switching view ?
 - remove ripple ?
-- add comparator with actual proportion (reove nice on yscale)
-- add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE) (=> dense menu)
+- add comparator with actual proportions when prop view
+- add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE)
 - other legislatures
-- update data
-- add info credits
+- data updates
+- add info button for credits
 */
  </script>
 </body>
