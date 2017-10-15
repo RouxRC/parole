@@ -9,6 +9,9 @@
 html {
   overflow: hidden;
 }
+.btn--floating.btn--small .icon {
+  font-size: 30px;
+}
 .subheader {
   text-transform: uppercase;
 }
@@ -51,6 +54,13 @@ rect.tooltip {
   font-size: 14px;
   z-index: 1000;
 }
+.dialog a, .dialog a:visited {
+  color: grey;
+  text-decoration: none;
+}
+.dialog a:hover, .dialog a:visited:hover {
+  text-decoration: underline;
+}
 </style>
 </head>
 <body>
@@ -87,8 +97,15 @@ rect.tooltip {
     </v-navigation-drawer>
     <v-toolbar class="red" fixed>
       <v-toolbar-title>
+        <a href="https://www.RegardsCitoyens.org" target="_blank" class="avatar mr-3">
+          <img src="img/RC-avatar.png" title="Regards Citoyens" alt="RC">
+        </a>
         Parole
       </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn fab small outline class="red ml-3" @click.native.stop="help=true">
+        <v-icon medium class="red">help</v-icon>
+      </v-btn>
     </v-toolbar>
     <main>
       <svg></svg>
@@ -100,6 +117,17 @@ rect.tooltip {
     </main>
     <div class="tooltipBox">
     </div>
+    <v-dialog v-model="help" width="33%">
+      <v-card>
+        <v-card-title class="headline">Parole <small>&nbsp;&nbsp;par&nbsp;<a href="https://www.regardscitoyens.org" target="_blank">Regards Citoyens</a></small></v-card-title>
+        <v-card-text>Réalisé à partir des <a href="https://github.com/regardscitoyens/nosdeputes.fr/blob/master/doc/opendata.md" target="_blank">données</a> de <a href="https://www.nosdeputes.fr" target="_blank">NosDéputés.fr</a> à l'aide de <a href="https://vuejs.org" target="_blank">VueJS</a> et <a href="https://vuetifyjs.com/" target="_blank">VuetifyJS</a>.</v-card-text>
+        <v-card-text>Cette application est un logiciel libre sous licence AGPL dont le code source est <a href="https://github.com/rouxrc/parole" target="_blank">disponible sur GitHub</a>.</v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn class="red--text darken-1" flat @click.native="help = false">Fermer</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </v-app>
   </div>
 
@@ -210,6 +238,7 @@ new Vue({
         selected: false
       }]
     }],
+    help: false,
     data: [],
     legende: [],
     resizing: null
