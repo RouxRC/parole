@@ -93,7 +93,7 @@ rect.tooltip {
     <main>
       <svg></svg>
       <center><div class="legende">
-        <button v-for="option in legende" type="button" class="btn btn--disabled btn--raised btn--round" :style="{'background-color': option.color+'!important'}">
+        <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
           <div class="btn__content">{{ option.name }}</div>
         </button>
       </div></center>
