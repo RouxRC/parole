@@ -43,16 +43,28 @@ rect.tooltip {
   fill-opacity: 0;
 }
 .tooltipBox {
-  background: white;
+  background: lightgrey;
   border: 1px solid black;
+  border-radius: 5px;
+  color: black;
   display: none;
-  width: 200px;
+  min-width: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
   padding: 7px;
   font-size: 14px;
   z-index: 1000;
+}
+.tooltipBox table {
+  margin: auto;
+  width: 100%;
+}
+.tooltipBox tr td:first-child {
+  font-weight: bold;
+}
+.tooltipBox tr td:last-child {
+  text-align: right;
 }
 .dialog a, .dialog a:visited {
   color: grey;
@@ -116,6 +128,14 @@ rect.tooltip {
       </div></center>
     </main>
     <div class="tooltipBox">
+      <center><b>{{ hoverDate }}</b></center>
+      <hr/>
+      <table>
+        <tr v-for="option in legende">
+          <td>{{ option.name }} :</td>
+          <td>{{ option.value }} {{ unit }}</td>
+        </tr>
+      </table>
     </div>
     <v-dialog v-model="help" width="33%">
       <v-card>
@@ -135,7 +155,13 @@ rect.tooltip {
  <script src="js/vue.min.js"></script>
  <script src="js/vuetify.min.js"></script>
  <script>
-d3.timeFormat = d3.timeFormatLocale({
+d3.formatDefaultLocale({
+  "decimal": ",",
+  "thousands": " ",
+  "grouping": [3],
+  "currency": ["€", ""],
+});
+d3.timeFormatDefaultLocale({
   "dateTime": "%A, le %e %B %Y, %X",
   "date": "%d/%m/%Y",
   "time": "%H:%M:%S",
@@ -144,7 +170,7 @@ d3.timeFormat = d3.timeFormatLocale({
   "shortDays": ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
   "months": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
   "shortMonths": ["Janv.", "Févr.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."]
-}).format;
+});
 
 new Vue({
   el: "#parole",
@@ -240,6 +266,10 @@ new Vue({
     }],
     help: false,
     data: [],
+    view: null,
+    prop: false,
+    unit: "mots",
+    hoverDate: "",
     legende: [],
     resizing: null
   },
@@ -341,6 +371,8 @@ new Vue({
         return cols + "_" + k.name + views;
       });
       if (facet === "groupes") keys.reverse();
+      this.view = cols + "_#" + views;
+      this.prop = /prop/.test(views);
 
       var margin = {top: 50, right: 80, bottom: 140, left: 80},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
@@ -353,7 +385,7 @@ new Vue({
           .nice(),
         yScale = d3.scaleLinear().range([height, 0]);
 
-      if (!/prop/.test(views))
+      if (!this.prop)
         yScale.domain([0, d3.max(this.data, function(d) { return d[cols + views]; })]);
 
       d3.select("svg g").remove();
@@ -387,21 +419,14 @@ new Vue({
         .data(this.data)
         .enter().append("rect")
           .classed("tooltip", true)
-          .attr("x", function (d) { return xScale(d.date); })
+          .attr("x", function(d) { return xScale(d.date); })
           .attr("y", yScale.range()[1])
           .attr("width", oneday)
           .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", function (x, idx, rects){
+          .on("mouseover", function(x, idx, rects) {
             d3.select(rects[idx]).style("fill-opacity", 0.15);
-            console.log(x);
           })
-          .on("mousemove", function(e) {
-            var x = d3.event.pageX - 100
-            d3.select(".tooltipBox")
-             .style("left", d3.event.pageX - 100 + "px")
-             .style("top", d3.event.pageY + 40 + "px")
-          //   .style("display", "block");
-          })
+          .on("mousemove", this.displayTooltip)
           .on("mouseleave", function(x, idx, rects) {
             d3.select(rects[idx]).style("fill-opacity", 0);
             d3.select(".tooltipBox")
@@ -409,21 +434,30 @@ new Vue({
           })
 
       this.resizing = null;
+    },
+    displayTooltip: function(x, idx, rects) {
+      this.hoverDate = d3.timeFormat("%d %B %Y")(new Date(x.date));
+      var tot = 0;
+      for (var i=0, n=this.legende.length; i<n; i++) {
+        this.legende[i].value = d3.format((this.prop ? ".2%" : ","))
+          (x[this.view.replace("#", this.legende[i].name)]);
+        tot += x[this.view.replace("#", this.legende[i].name)];
+      }
+      d3.select(".tooltipBox")
+       .style("left", d3.event.pageX - 100 + "px")
+       .style("top", d3.event.pageY + 30 + "px")
+       .style("display", (tot ? "block" : "none"));
     }
   }
 });
 /* TODO
-- adjust tooltips;
-https://vuetifyjs.com/directives/tooltips
- + fill values
- + style with material
+- add filters
 - add transition d3 when switching view ?
 - remove ripple ?
 - add comparator with actual proportions when prop view
 - add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE)
 - other legislatures
 - data updates
-- add info button for credits
 */
  </script>
 </body>
