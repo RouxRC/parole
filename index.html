@@ -95,13 +95,14 @@ rect.tooltip {
         <v-subheader class="mt-3 grey--text text--darken-1">{{ list.name }}</v-subheader>
         <v-list-tile ripple
           v-for="item in list.options"
+          v-if="!item.only || item.only === menus[0].selected"
           :key="item.id"
           :disabled="!list.filters && list.selected === item.id"
           :class="{'selected': !list.filters && item.selected}"
           @click="selectOption(item.id, list.id, list.filters)"
         >
           <v-list-tile-action>
-            <v-icon>{{ item.icon || list.icon }}</v-icon>
+            <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title v-if="!item.filters">
@@ -283,11 +284,12 @@ new Vue({
     }, {
       id: "filters",
       name: "Filtrer",
-      icon: "mic",
       filters: true,
       options: [{
         id: "debats",
         name: "Débats",
+        icon: "mic",
+        only: "parole",
         selected: "total",
         filters: [{
           id: "total",
