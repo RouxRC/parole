@@ -15,7 +15,7 @@ html {
 .subheader {
   text-transform: uppercase;
 }
-.list [disabled], .list .selected {
+.list [disabled] {
   background-color: #f44336;
   opacity: 1!important;
 }
@@ -24,11 +24,9 @@ html {
 }
 .list__tile--active, .input-group.input-group--focused .input-group__append-icon, .application--dark .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active) {
   color: #f44336;
-  font-weight: bold;
 }
 .unselected .list__tile--active, .unselected .input-group.input-group--focused .input-group__append-icon, .application--dark .unselected .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active) {
   color: white!important;
-  font-weight: normal!important;
   opacity: 0.2!important;
 }
 .input-group.input-group--text-field:not(.input-group--single-line):not(.input-group--error).input-group--focused label {
@@ -36,6 +34,12 @@ html {
 }
 .input-group.input-group--selection-controls.switch {
   left: 35%;
+}
+.application .selected .theme--light.switch.input-group--disabled .input-group--selection-controls__ripple:after {
+  background-color: #f44336!important;
+}
+.application .selected .theme--light.switch.input-group--disabled .input-group--selection-controls__toggle {
+  color: #f44336!important;
 }
 .axis path, .axis line {
   stroke: grey;
@@ -294,7 +298,7 @@ new Vue({
       options: [{
         id: "groupes",
         name: "Groupe politique",
-        icon: "person_outline",
+        icon: "person",
         selected: "tous",
         filters: [{
           id: "tous",
@@ -327,7 +331,7 @@ new Vue({
       }, {
         id: "genre",
         name: "Genre",
-        icon: "person_outline",
+        icon: "person",
         selected: "tous",
         filters: [{
           id: "tous",
@@ -503,7 +507,7 @@ new Vue({
       this.drawChart();
     },
     drawChart: function() {
-      var source = this.menus[2].options[0].selected,
+      var source = this.menus[2].options[3].selected,
         facet = this.menus[1].selected,
         facets = this.menus[1].options,
         views = [""]
@@ -605,10 +609,9 @@ new Vue({
 /* TODO
 - add filters
  + when set facet set filter's selected to all
- + move filters out
- + asjudt style enabled filter when diff all
  + hide in url filter all
  + color icon filter only when selected
+ + externalise filters and views and make view real button
 - splitted view
 - add transition d3 when switching view ?
 - remove ripple ?
