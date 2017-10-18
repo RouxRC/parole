@@ -425,7 +425,7 @@ new Vue({
     }],
     help: false,
     data: [],
-    view: null,
+    curData: [],
     prop: false,
     unit: "mots",
     hoverDate: "",
@@ -523,6 +523,7 @@ new Vue({
     initData: function(data, error) {
       if (error) throw error;
       this.data = data;
+      this.timeExtent = d3.extent(data, function(d) { return d.Date; });
       this.readUrl();
     },
     updateView: function() {
@@ -556,16 +557,13 @@ new Vue({
           return d[f[0]] === f[1];
         });
       })).map(function(k){
-        var o = {date: new Date(k.key)};
+        var o = {date: k.key, Date: new Date(k.key)};
         k.values.forEach(function(v) {
           o[v.key] = v.value;
         });
         return o;
       });
-console.log(data);
-
-      var source = this.menus[2].options[3].selected,
-        cols = [source, facet].join("_");
+      this.curData = data;
 
       this.legende = this.menus[1].options.filter(function(f) {
         return facet === f.id;
@@ -577,20 +575,15 @@ console.log(data);
         return k.id;
       });
       if (facet === "groupes") keys.reverse();
-      this.view = cols + "_#" + views;
       this.prop = /prop/.test(views);
 
-
-        console.log("TEST", filters, source, facet, views, cols, keys, this.prop);
       var margin = {top: 50, right: 80, bottom: 140, left: 80},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
-        xScale = d3.scaleTime().range([0, width])
-          .domain(d3.extent(this.data, function(d) { return d.Date; }))
-          .nice(),
+        xScale = d3.scaleTime().range([0, width]).domain(this.timeExtent).nice(),
         yScale = d3.scaleLinear().range([height, 0]);
 
       if (!this.prop)
@@ -612,10 +605,10 @@ console.log(data);
         .selectAll("rect")
         .data(function(d) { return d; })
         .enter().append("rect")
-          .attr("x", function(d) { return xScale(d.data.date); })
-          .attr("y", function(d) { return yScale(d[1]); })
+          .attr("x", function(d) { return xScale(d.data.Date); })
+          .attr("y", function(d) { return yScale(d[1]) || 0; })
           .attr("width", oneday - 0.5)
-          .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
+          .attr("height", function(d) { return Math.max(0, (yScale(d[0]) - yScale(d[1]) - 0.5) || 0); });
 
       g.append("g")
         .attr("class", "axis axis--x")
@@ -624,10 +617,10 @@ console.log(data);
 
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(data)
+        .data(d3.timeDay.range(this.timeExtent[0], this.timeExtent[1]).map(function(x) { return {date: x, iso: d3.timeFormat("%Y-%m-%d")(x)}; }))
         .enter().append("rect")
           .classed("tooltip", true)
-          .attr("x", function(d) { return xScale(d.Date); })
+          .attr("x", function(d) { return xScale(d.date); })
           .attr("y", yScale.range()[1])
           .attr("width", oneday)
           .attr("height", yScale.range()[0] - yScale.range()[1])
@@ -643,13 +636,15 @@ console.log(data);
 
       this.resizing = null;
     },
-    displayTooltip: function(x, idx, rects) {
-      this.hoverDate = d3.timeFormat("%d %B %Y")(new Date(x.Date));
-      var tot = 0;
+    displayTooltip: function(x) {
+      this.hoverDate = d3.timeFormat("%d %B %Y")(x.date);
+      var tot = 0,
+        dt = this.curData.filter(function(d) { return d.date === x.iso; });
+      dt = (dt.length ? dt[0] : {});
       for (var i=0, n=this.legende.length; i<n; i++) {
         this.legende[i].value = d3.format((this.prop ? ".2%" : ","))
-          (x[this.view.replace("#", this.legende[i].name)]);
-        tot += x[this.view.replace("#", this.legende[i].name)];
+          (dt[this.legende[i].id] || 0);
+        tot += dt[this.legende[i].id] || 0;
       }
       d3.select(".tooltipBox")
        .style("left", d3.event.pageX - 100 + "px")
@@ -661,6 +656,7 @@ console.log(data);
 /* TODO
 - reactive prop/cumul
 - button clear filters
+- adjust time bin
 - add activities (amdmts, PPL, QE)
 - add other legislatures
 - add splitted view
