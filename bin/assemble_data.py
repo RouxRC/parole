@@ -7,7 +7,7 @@ data = {}
 output = []
 keys = []
 
-for debats in ["tous", "commissions", "hemicycle"]:
+for debats in ["total", "commissions", "hemicycle"]:
     for typ in ["groupes", "genre", "renouveau"]:
         fil = "%s_%s" % (debats, typ)
         with open(os.path.join("data", "%s.csv" % fil)) as f:

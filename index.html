@@ -108,7 +108,7 @@ rect.tooltip {
           v-if="(!item.only || item.only === menus[0].selected) && !(list.filters && item.id === menus[1].selected)"
           :key="item.id"
           :disabled="list.selected === item.id"
-          :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && /^tou/.test(item.selected)}"
+          :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && item.selected === 'total'}"
           @click="selectOption(item.id, list.id, list.filters)"
         >
           <v-list-tile-action>
@@ -299,9 +299,9 @@ new Vue({
         id: "groupes",
         name: "Groupe politique",
         icon: "person",
-        selected: "tous",
+        selected: "total",
         filters: [{
-          id: "tous",
+          id: "total",
           name: "Tous les députés"
         }, {
           id: "LFI",
@@ -332,9 +332,9 @@ new Vue({
         id: "genre",
         name: "Genre",
         icon: "person",
-        selected: "tous",
+        selected: "total",
         filters: [{
-          id: "tous",
+          id: "total",
           name: "Tous les députés"
         }, {
           id: "F",
@@ -347,9 +347,9 @@ new Vue({
         id: "renouveau",
         name: "Ancienneté",
         icon: "person_outline",
-        selected: "tous",
+        selected: "total",
         filters: [{
-          id: "tous",
+          id: "total",
           name: "Tous les députés"
         }, {
           id: "anciens",
@@ -363,9 +363,9 @@ new Vue({
         name: "Débats",
         icon: "mic",
         only: "parole",
-        selected: "tous",
+        selected: "total",
         filters: [{
-          id: "tous",
+          id: "total",
           name: "Tous les débats"
         }, {
           id: "commissions",
@@ -379,9 +379,9 @@ new Vue({
         name: "Interventions",
         icon: "mic",
         only: "parole",
-        selected: "toutes",
+        selected: "total",
         filters: [{
-          id: "toutes",
+          id: "total",
           name: "Toutes les interventions"
         }, {
           id: "invectives",
@@ -467,7 +467,7 @@ new Vue({
             .join(",") :
           (m.filters ?
             m.options.filter(function(o) {
-              return !/^tou/.test(o.selected);
+              return o.selected !== "total";
             }).map(function(o) {
               return o.id + ":" + o.selected;
             }).join(",") :
@@ -480,6 +480,9 @@ new Vue({
     readUrl: function() {
       var urlArgs = window.location.hash.slice(1).split(/&/),
         el, el2;
+      this.menus[2].options.forEach(function(o) {
+        o.selected = "total";
+      });
       for (var i=0, n=urlArgs.length; i<n; i++) {
         el = urlArgs[i].split(/=/);
         this.menus

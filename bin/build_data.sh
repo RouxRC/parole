@@ -9,7 +9,7 @@ function query {
 
 mkdir -p data
 
-query data/tous_groupes "
+query data/total_groupes "
 SELECT date, parlementaire_groupe_acronyme as groupes, sum(nb_mots) as total
 FROM intervention
 WHERE parlementaire_groupe_acronyme IS NOT NULL
@@ -29,7 +29,7 @@ WHERE parlementaire_groupe_acronyme IS NOT NULL
 AND type <> \"commission\"
 GROUP BY date, parlementaire_groupe_acronyme"
 
-query data/tous_genre "
+query data/total_genre "
 SELECT i.date, IF(p.sexe = \"H\", \"Hommes\", \"Femmes\") as genre, sum(i.nb_mots) as total
 FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id
@@ -49,7 +49,7 @@ JOIN parlementaire p ON p.id = i.parlementaire_id
 WHERE i.type <> \"commission\"
 GROUP BY i.date, p.sexe"
 
-query data/tous_renouveau "
+query data/total_renouveau "
 SELECT i.date, IF(url_ancien_cpc IS NULL, \"Nouveaux députés\", \"Députés réélus\") as renouveau, sum(i.nb_mots) as total
 FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id
