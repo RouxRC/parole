@@ -24,6 +24,12 @@ html {
 }
 .list__tile--active, .input-group.input-group--focused .input-group__append-icon, .application--dark .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active) {
   color: #f44336;
+  font-weight: bold;
+}
+.unselected .list__tile--active, .unselected .input-group.input-group--focused .input-group__append-icon, .application--dark .unselected .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active) {
+  color: white!important;
+  font-weight: normal!important;
+  opacity: 0.2!important;
 }
 .input-group.input-group--text-field:not(.input-group--single-line):not(.input-group--error).input-group--focused label {
   color: white;
@@ -95,10 +101,10 @@ rect.tooltip {
         <v-subheader class="mt-3 grey--text text--darken-1">{{ list.name }}</v-subheader>
         <v-list-tile ripple
           v-for="item in list.options"
-          v-if="!item.only || item.only === menus[0].selected"
+          v-if="(!item.only || item.only === menus[0].selected) && !(list.filters && item.id === menus[1].selected)"
           :key="item.id"
-          :disabled="!list.filters && list.selected === item.id"
-          :class="{'selected': !list.filters && item.selected}"
+          :disabled="list.selected === item.id"
+          :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && /^tou/.test(item.selected)}"
           @click="selectOption(item.id, list.id, list.filters)"
         >
           <v-list-tile-action>
@@ -235,8 +241,8 @@ new Vue({
           color: "#BDBDBD"
         }]
       }, {
-        id: "sexe",
-        name: "Sexes",
+        id: "genre",
+        name: "Genres",
         icon: "wc",
         legende: [{
           name: "Femmes",
@@ -246,7 +252,7 @@ new Vue({
           color: "#90CAF9"
         }]
       }, {
-        id: "oldnew",
+        id: "renouveau",
         name: "Anciens et nouveaux élus",
         icon: "repeat",
         legende: [{
@@ -257,7 +263,7 @@ new Vue({
           color: "#B2DFDB"
         }]
       }, {
-        id: "commissions",
+        id: "debats",
         name: "Commissions & Hémicycle",
         icon: "looks",
         only: "parole",
@@ -269,7 +275,7 @@ new Vue({
           color: "#B2DFDB"
         }]
       }, {
-        id: "invectives",
+        id: "interventions",
         name: "Invectives & Interventions",
         icon: "speaker_notes",
         only: "parole",
@@ -286,27 +292,103 @@ new Vue({
       name: "Filtrer",
       filters: true,
       options: [{
+        id: "groupes",
+        name: "Groupe politique",
+        icon: "person_outline",
+        selected: "tous",
+        filters: [{
+          id: "tous",
+          name: "Tous les députés"
+        }, {
+          id: "LFI",
+          name: "LFI"
+        }, {
+          id: "GDR",
+          name: "GDR"
+        }, {
+          id: "NG",
+          name: "NG"
+        }, {
+          id: "LREM",
+          name: "LREM"
+        }, {
+          id: "MODEM",
+          name: "MODEM"
+        }, {
+          id: "LC",
+          name: "LC"
+        }, {
+          id: "LR",
+          name: "LR"
+        }, {
+          id: "NI",
+          name: "NI"
+        }]
+      }, {
+        id: "genre",
+        name: "Genre",
+        icon: "person_outline",
+        selected: "tous",
+        filters: [{
+          id: "tous",
+          name: "Tous les députés"
+        }, {
+          id: "F",
+          name: "Femmes"
+        }, {
+          id: "H",
+          name: "Hommes"
+        }]
+      }, {
+        id: "renouveau",
+        name: "Ancienneté",
+        icon: "person_outline",
+        selected: "tous",
+        filters: [{
+          id: "tous",
+          name: "Tous les députés"
+        }, {
+          id: "anciens",
+          name: "Députés réélus"
+        }, {
+          id: "nouveaux",
+          name: "Nouveaux députés"
+        }]
+      }, {
         id: "debats",
         name: "Débats",
         icon: "mic",
         only: "parole",
-        selected: "total",
+        selected: "tous",
         filters: [{
-          id: "total",
-          name: "Tous les débats",
-          icon: "account_balance"
+          id: "tous",
+          name: "Tous les débats"
         }, {
           id: "commissions",
-          name: "Commissions uniquement",
-          icon: "mic"
+          name: "en Commissions"
         }, {
           id: "hemicycle",
-          name: "Hémicycle uniquement",
-          icon: "looks"
+          name: "en Hémicycle"
+        }]
+      }, {
+        id: "interventions",
+        name: "Interventions",
+        icon: "mic",
+        only: "parole",
+        selected: "toutes",
+        filters: [{
+          id: "toutes",
+          name: "Toutes les interventions"
+        }, {
+          id: "invectives",
+          name: "Invectives (- de 20 mots)"
+        }, {
+          id: "longues",
+          name: "Interventions longues"
         }]
       }]
     }, {
-      id: "view",
+      id: "vue",
       name: "Affichage",
       multi: true,
       options: [{
@@ -522,6 +604,11 @@ new Vue({
 });
 /* TODO
 - add filters
+ + when set facet set filter's selected to all
+ + move filters out
+ + asjudt style enabled filter when diff all
+ + hide in url filter all
+ + color icon filter only when selected
 - splitted view
 - add transition d3 when switching view ?
 - remove ripple ?
