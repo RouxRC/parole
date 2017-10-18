@@ -466,7 +466,9 @@ new Vue({
             .map(function(o) { return o.id; })
             .join(",") :
           (m.filters ?
-            m.options.map(function(o) {
+            m.options.filter(function(o) {
+              return !/^tou/.test(o.selected);
+            }).map(function(o) {
               return o.id + ":" + o.selected;
             }).join(",") :
             m.selected
@@ -607,17 +609,11 @@ new Vue({
   }
 });
 /* TODO
-- add filters
- + when set facet set filter's selected to all
- + hide in url filter all
- + color icon filter only when selected
- + externalise filters and views and make view real button
-- splitted view
-- add transition d3 when switching view ?
-- remove ripple ?
-- add comparator with actual proportions when prop view
 - add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE)
 - other legislatures
+- splitted view
+- add transition d3 when switching view ?
+- add comparator with actual proportions when prop view
 - data updates
 */
  </script>
