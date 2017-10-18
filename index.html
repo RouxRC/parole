@@ -220,27 +220,35 @@ new Vue({
         name: "Groupes politiques",
         icon: "people",
         legende: [{
+          id: "LFI",
           name: "LFI",
           color: "#e53935"
         }, {
+          id: "GDR",
           name: "GDR",
           color: "#ff5252"
         }, {
+          id: "NG",
           name: "NG",
           color: "#F06292"
         }, {
+          id: "LREM",
           name: "LREM",
           color: "#FFA726"
         }, {
+          id: "MODEM",
           name: "MODEM",
           color: "#FF7043"
         }, {
+          id: "LC",
           name: "LC",
           color: "#42A5F5"
         }, {
+          id: "LR",
           name: "LR",
           color: "#5C6BC0"
         }, {
+          id: "NI",
           name: "NI",
           color: "#BDBDBD"
         }]
@@ -249,9 +257,11 @@ new Vue({
         name: "Genres",
         icon: "wc",
         legende: [{
+          id: "F",
           name: "Femmes",
           color: "#F48FB1"
         }, {
+          id: "H",
           name: "Hommes",
           color: "#90CAF9"
         }]
@@ -260,9 +270,11 @@ new Vue({
         name: "Anciens et nouveaux élus",
         icon: "repeat",
         legende: [{
+          id: "anciens",
           name: "Députés réélus",
           color: "#B39DDB"
         }, {
+          id: "nouveaux",
           name: "Nouveaux députés",
           color: "#B2DFDB"
         }]
@@ -272,9 +284,11 @@ new Vue({
         icon: "looks",
         only: "parole",
         legende: [{
+          id: "commissions",
           name: "Commissions",
           color: "#B39DDB"
         }, {
+          id: "hemicycle",
           name: "Hémicycle",
           color: "#B2DFDB"
         }]
@@ -284,9 +298,11 @@ new Vue({
         icon: "speaker_notes",
         only: "parole",
         legende: [{
+          id: "invectives",
           name: "Invectives",
           color: "#B39DDB"
         }, {
+          id: "longues",
           name: "Interventions longues",
           color: "#B2DFDB"
         }]
@@ -418,10 +434,15 @@ new Vue({
   },
   mounted: function() {
     window.addEventListener("hashchange", this.updateView);
-    var last;
-    d3.csv("data/parole-deputes.csv", function(d, idx, columns) {
+    // "data/" + this.menus[0].selected + ".csv"
+    d3.csv("data/parole.csv", function(d) {
+      d.Date = new Date(d.date);
+      d.total = +d.total;
+      return d;
+    }, this.initData);
+    /*
+    var last; 
       var key;
-      d.date = new Date(d.date);
       for (var i=1, n=columns.length; i<n; i++) {
         key = columns[i].replace(/_[^_]*$/, "");
         d[columns[i]] = +d[columns[i]];
@@ -435,8 +456,7 @@ new Vue({
         d[columns[i]+"_cumul_prop"] = (d[key+"_cumul"] ? d[columns[i]+"_cumul"] / d[key+"_cumul"] : 0);
       }
       last = d;
-      return d;
-    }, this.initData);
+    */
   },
   methods: {
     onResize: function() {
@@ -446,21 +466,20 @@ new Vue({
     selectOption: function(optionId, menuId, filterId) {
       if (filterId === true) return;
       var update = false;
-      this.menus.forEach(function(m) { if (m.id === menuId) {
+      this.menus.filter(function(m) { return m.id === menuId; })
+       .forEach(function(m) {
         if (m.multi || m.filters) {
-          m.options.forEach(function(o) { if (o.id === optionId) {
+          m.options.filter(function(o) { return o.id === optionId;})
+           .forEach(function(o) {
             o.selected = filterId || !o.selected;
             update = true;
-          } });
+           });
         } else if (m.selected !== optionId) {
           m.selected = optionId;
           update = true;
         }
-      } });
-      if (update) this.setUrl();
-    },
-    setUrl: function() {
-      window.location.hash = this.menus.map(function(m) {
+       });
+      if (update) window.location.hash = this.menus.map(function(m) {
         return m.id + "=" + ( m.multi ?
           m.options.filter(function(o) { return o.selected; })
             .map(function(o) { return o.id; })
@@ -505,36 +524,64 @@ new Vue({
       if (error) throw error;
       this.data = data;
       this.readUrl();
-      this.setUrl();
     },
     updateView: function() {
       this.readUrl();
       this.drawChart();
     },
     drawChart: function() {
-      var source = this.menus[2].options[3].selected,
+      var activity = this.menus[0].selected,
         facet = this.menus[1].selected,
-        facets = this.menus[1].options,
-        views = [""]
-          .concat(this.menus[3].options
-            .filter(function(o) { return o.selected; })
-            .map(function(o) { return o.id; })
-          ).join("_"),
-        cols = [source, facet].join("_"),
-        colors = {};
-      for (var i=0, n=facets.length; i<n; i++)
-        if (facet === facets[i].id)
-          this.legende = facets[i].legende;
-      for (var i=0, n=this.legende.length; i<n; i++)
-        colors[this.legende[i].name] = this.legende[i].color;
+        views = [""].concat(
+          this.menus[3].options
+          .filter(function(o) { return o.selected; })
+          .map(function(o) { return o.id; })
+        ).join("_"),
+        colors = {},
+        data = null;
 
+      var filters = this.menus[2].options.filter(function(filter) {
+        return (!filter.only || filter.only === activity) &&
+          filter.id !== facet && filter.selected !== "total";
+      }).map(function(filter) {
+        return [filter.id, filter.selected];
+      });
+
+      var data = d3.nest()
+      .key(function(d) { return d.date; })
+      .key(function(d) { return d[facet]; })
+      .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
+      .entries(this.data.filter(function(d) {
+        return filters.every(function(f) {
+          return d[f[0]] === f[1];
+        });
+      })).map(function(k){
+        var o = {date: new Date(k.key)};
+        k.values.forEach(function(v) {
+          o[v.key] = v.value;
+        });
+        return o;
+      });
+console.log(data);
+
+      var source = this.menus[2].options[3].selected,
+        cols = [source, facet].join("_");
+
+      this.legende = this.menus[1].options.filter(function(f) {
+        return facet === f.id;
+      })[0].legende;
+      this.legende.forEach(function(k) {
+        colors[k.id] = k.color;
+      });
       var keys = this.legende.map(function(k) {
-        return cols + "_" + k.name + views;
+        return k.id;
       });
       if (facet === "groupes") keys.reverse();
       this.view = cols + "_#" + views;
       this.prop = /prop/.test(views);
 
+
+        console.log("TEST", filters, source, facet, views, cols, keys, this.prop);
       var margin = {top: 50, right: 80, bottom: 140, left: 80},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
@@ -542,12 +589,12 @@ new Vue({
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
         xScale = d3.scaleTime().range([0, width])
-          .domain(d3.extent(this.data, function(d) { return d.date; }))
+          .domain(d3.extent(this.data, function(d) { return d.Date; }))
           .nice(),
         yScale = d3.scaleLinear().range([height, 0]);
 
       if (!this.prop)
-        yScale.domain([0, d3.max(this.data, function(d) { return d[cols + views]; })]);
+        yScale.domain([0, d3.max(data, function(d) { return d3.sum(keys, function(k) { return d[k] || 0; }); })]);
 
       d3.select("svg g").remove();
       var g = svg.append("g")
@@ -557,10 +604,10 @@ new Vue({
 
       g.append("g")
         .selectAll("g")
-        .data(stack(this.data))
+        .data(stack(data))
         .enter().append("g")
           .attr("fill", function(d) {
-            return colors[d.key.replace(cols+"_", "").replace(/_(cumul|prop)/g, "")];
+            return colors[d.key];
           })
         .selectAll("rect")
         .data(function(d) { return d; })
@@ -577,10 +624,10 @@ new Vue({
 
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(this.data)
+        .data(data)
         .enter().append("rect")
           .classed("tooltip", true)
-          .attr("x", function(d) { return xScale(d.date); })
+          .attr("x", function(d) { return xScale(d.Date); })
           .attr("y", yScale.range()[1])
           .attr("width", oneday)
           .attr("height", yScale.range()[0] - yScale.range()[1])
@@ -597,7 +644,7 @@ new Vue({
       this.resizing = null;
     },
     displayTooltip: function(x, idx, rects) {
-      this.hoverDate = d3.timeFormat("%d %B %Y")(new Date(x.date));
+      this.hoverDate = d3.timeFormat("%d %B %Y")(new Date(x.Date));
       var tot = 0;
       for (var i=0, n=this.legende.length; i<n; i++) {
         this.legende[i].value = d3.format((this.prop ? ".2%" : ","))
@@ -612,9 +659,11 @@ new Vue({
   }
 });
 /* TODO
-- add data (interventions courtes, amdmts déposés/adoptés, PPL, rapports, QE)
-- other legislatures
-- splitted view
+- reactive prop/cumul
+- button clear filters
+- add activities (amdmts, PPL, QE)
+- add other legislatures
+- add splitted view
 - add transition d3 when switching view ?
 - add comparator with actual proportions when prop view
 - data updates
