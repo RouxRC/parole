@@ -546,12 +546,13 @@ new Vue({
       if (update) this.updateUrl(menuId);
     },
     updateUrl: function(menuId) {
+      var act = this.menus[0].selected;
       window.location.hash = this.menus.map(function(m) {
         return m.id + "=" + (m.multi ?
           m.options.filter(function(o) { return o.selected; })
           .map(function(o) { return o.id; }) :
           (!m.filters ? [m.selected] :
-            m.options.filter(function(o) { return o.selected !== "total"; })
+            m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === act); })
             .map(function(o) { return o.id + ":" + o.selected; })
           )
         ).join(",");
@@ -561,6 +562,7 @@ new Vue({
     },
     readUrl: function() {
       var el, el2,
+        gpe = this.menus[1].selected,
         urlArgs = window.location.hash.slice(1).split(/&/);
       this.menus[2].options.forEach(function(o) { o.selected = "total"; });
       for (var i=0, n=urlArgs.length; i<n; i++) {
@@ -576,10 +578,16 @@ new Vue({
           else m.selected = el[1];
         });
       }
-      this.filters = this.menus[2].options.some(function(o) { return o.selected !== "total"; });
+      this.filters = this.menus[2].options.some(function(o) {
+        return o.selected !== "total" && o.id !== gpe;
+      });
     },
     loadData: function() {
       d3.select("svg g").remove();
+      var gpes = this.menus[1],
+        only = gpes.options.filter(function(o) { return gpes.selected === o.id; })[0].only;
+      if (only && only !== this.menus[0].selected)
+        this.selectOption(gpes.options[0].id, gpes.id);
       d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
         d.Date = new Date(d.date);
         d.total = +d.total;
