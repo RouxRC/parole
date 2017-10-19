@@ -219,7 +219,13 @@ new Vue({
       options: [{
         id: "parole",
         name: "Temps de parole",
-        icon: "mic"
+        icon: "mic",
+        unit: "mots"
+      }, {
+        id: "amendements",
+        name: "Amendements",
+        icon: "spellcheck",
+        unit: "amdmts"
       }]
     }, {
       id: "facet",
@@ -307,6 +313,40 @@ new Vue({
           id: "longues",
           name: "Interventions longues",
           color: "#B2DFDB"
+        }]
+      }, {
+        id: "sorts",
+        name: "Sort des amendements",
+        icon: "spellcheck",
+        only: "amendements",
+        legende: [{
+          id: "Adopté",
+          name: "Adoptés",
+          color: "#69F0AE"
+        }, {
+          id: "Retiré",
+          name: "Retirés",
+          color: "#80D8FF"
+        }, {
+          id: "Tombe",
+          name: "Tombés",
+          color: "#B2DFDB"
+        }, {
+          id: "Non soutenu",
+          name: "Non soutenus",
+          color: "#FFE57F"
+        }, {
+          id: "Irrecevable",
+          name: "Irrecevables",
+          color: "#FFAB40"
+        }, {
+          id: "Rejeté",
+          name: "Rejetés",
+          color: "#ef9a9a"
+        }, {
+          id: "Indéfini",
+          name: "Indéfinis",
+          color: "#9E9E9E"
         }]
       }]
     }, {
@@ -408,6 +448,37 @@ new Vue({
           id: "longues",
           name: "Interventions longues"
         }]
+      }, {
+        id: "sorts",
+        name: "Amendements",
+        icon: "spellcheck",
+        only: "amendements",
+        selected: "total",
+        filters: [{
+          id: "total",
+          name: "Tous les amendements"
+        }, {
+          id: "Adopté",
+          name: "Adoptés"
+        }, {
+          id: "Retiré",
+          name: "Retirés"
+        }, {
+          id: "Tombe",
+          name: "Tombés"
+        }, {
+          id: "Non soutenu",
+          name: "Non soutenus"
+        }, {
+          id: "Irrecevable",
+          name: "Irrecevables"
+        }, {
+          id: "Rejeté",
+          name: "Rejetés"
+        }, {
+          id: "Indéfini",
+          name: "Indéfinis"
+        }]
       }]
     }, {
       id: "vue",
@@ -435,13 +506,9 @@ new Vue({
     resizing: null
   },
   mounted: function() {
+    this.readUrl();
+    this.loadData();
     window.addEventListener("hashchange", this.updateView);
-    // "data/" + this.menus[0].selected + ".csv"
-    d3.csv("data/parole.csv", function(d) {
-      d.Date = new Date(d.date);
-      d.total = +d.total;
-      return d;
-    }, this.initData);
   },
   watch: {
     filters: function(data) {
@@ -473,6 +540,7 @@ new Vue({
         }
       });
       if (update) this.updateUrl();
+      if (menuId === "activite") this.loadData();
     },
     updateUrl: function() {
       window.location.hash = this.menus.map(function(m) {
@@ -506,6 +574,14 @@ new Vue({
       }
       this.filters = this.menus[2].options.some(function(o) { return o.selected !== "total"; });
     },
+    loadData: function() {
+      d3.csv("svg").empty();
+      d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
+        d.Date = new Date(d.date);
+        d.total = +d.total;
+        return d;
+      }, this.initData);
+    },
     initData: function(data, error) {
       if (error) throw error;
       this.data = data;
@@ -516,7 +592,7 @@ new Vue({
           date: d3.timeFormat("%Y-%m-%d")(x)
         };
       });
-      this.readUrl();
+      this.drawChart();
     },
     updateView: function() {
       this.readUrl();
@@ -537,6 +613,7 @@ new Vue({
       this.views = views;
 
       // Prepare legend & keys
+      this.unit = this.menus[0].options.filter(function(o) { return activity === o.id; })[0].unit;
       this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
       this.legende.forEach(function(k) { colors[k.id] = k.color; });
       var keys = this.legende.map(function(k) { return k.id; });
@@ -662,9 +739,12 @@ new Vue({
   }
 });
 /* TODO
+- add loader
+- cache downloaded/computed data
 - adjust time bin
 - adjust color/icons
-- add activities (amdmts, PPL, QE)
+- add activities (PPL, QE)
+- add filter cumul ?
 - add other legislatures
 - add splitted view
 - add transition d3 when switching view ?
