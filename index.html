@@ -22,6 +22,9 @@ html {
   background-color: #f44336;
   opacity: 1!important;
 }
+.chip {
+  cursor: pointer;
+}
 .input-group--select .input-group__selections__comma {
   font-size: 14px;
 }
@@ -111,6 +114,7 @@ rect.tooltip {
           <v-chip small outline close class="red--text"
             v-model="filters"
             v-if="list.filters"
+            @click.native.stop="filters=false"
           ><small>annuler</small></v-chip>
         </v-subheader>
         <v-list-tile ripple
@@ -539,10 +543,9 @@ new Vue({
           update = true;
         }
       });
-      if (update) this.updateUrl();
-      if (menuId === "activite") this.loadData();
+      if (update) this.updateUrl(menuId);
     },
-    updateUrl: function() {
+    updateUrl: function(menuId) {
       window.location.hash = this.menus.map(function(m) {
         return m.id + "=" + (m.multi ?
           m.options.filter(function(o) { return o.selected; })
@@ -554,6 +557,7 @@ new Vue({
         ).join(",");
       }).filter(function(d) { return /=./.test(d); })
       .join("&");
+      if (menuId === "activite") this.loadData();
     },
     readUrl: function() {
       var el, el2,
@@ -575,7 +579,7 @@ new Vue({
       this.filters = this.menus[2].options.some(function(o) { return o.selected !== "total"; });
     },
     loadData: function() {
-      d3.csv("svg").empty();
+      d3.select("svg g").remove();
       d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
         d.Date = new Date(d.date);
         d.total = +d.total;
