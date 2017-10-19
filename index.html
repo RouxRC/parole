@@ -160,7 +160,7 @@ rect.tooltip {
       <svg></svg>
       <center><div class="legende">
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
-          <div class="btn__content">{{ option.name }}</div>
+          <div class="btn__content">{{ option.name || option.id }}</div>
         </button>
       </div></center>
     </main>
@@ -169,7 +169,7 @@ rect.tooltip {
       <hr/>
       <table>
         <tr v-for="option in legende">
-          <td>{{ option.name }} :</td>
+          <td>{{ option.name || option.id }} :</td>
           <td>{{ option.value }} {{ unit }}</td>
         </tr>
       </table>
@@ -231,35 +231,27 @@ new Vue({
         icon: "people",
         legende: [{
           id: "LFI",
-          name: "LFI",
           color: "#e53935"
         }, {
           id: "GDR",
-          name: "GDR",
           color: "#ff5252"
         }, {
           id: "NG",
-          name: "NG",
           color: "#F06292"
         }, {
           id: "LREM",
-          name: "LREM",
           color: "#FFA726"
         }, {
           id: "MODEM",
-          name: "MODEM",
           color: "#FF7043"
         }, {
           id: "LC",
-          name: "LC",
           color: "#42A5F5"
         }, {
           id: "LR",
-          name: "LR",
           color: "#5C6BC0"
         }, {
           id: "NI",
-          name: "NI",
           color: "#BDBDBD"
         }]
       }, {
@@ -411,7 +403,7 @@ new Vue({
           name: "Toutes les interventions"
         }, {
           id: "invectives",
-          name: "Invectives (- de 20 mots)"
+          name: "Invectives ( - de 20 mots )"
         }, {
           id: "longues",
           name: "Interventions longues"
