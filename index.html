@@ -598,6 +598,7 @@ new Vue({
       if (error) throw error;
       this.data = data;
       this.timeExtent = d3.extent(data, function(d) { return d.Date; });
+      this.timeExtent[0].setDate(this.timeExtent[0].getDate()-1);
       this.timeRange = d3.timeDay.range(this.timeExtent[0], this.timeExtent[1]).map(function(x) {
         return {
           Date: x,
