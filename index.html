@@ -102,7 +102,14 @@ rect.tooltip {
         v-for="list in menus"
         :key="list.id"
       >
-        <v-subheader class="mt-3 grey--text text--darken-1">{{ list.name }}</v-subheader>
+        <v-subheader class="mt-3 grey--text text--darken-1">
+          {{ list.name }}
+          <v-spacer></v-spacer>
+          <v-chip small outline close class="red--text"
+            v-model="filters"
+            v-if="list.filters"
+          ><small>annuler</small></v-chip>
+        </v-subheader>
         <v-list-tile ripple
           v-for="item in list.options"
           v-if="(!item.only || item.only === menus[0].selected) && !(list.filters && item.id === menus[1].selected)"
@@ -427,6 +434,7 @@ new Vue({
     data: [],
     prop: false,
     unit: "mots",
+    filters: true,
     hoverDate: "",
     legende: [],
     resizing: null
@@ -439,6 +447,14 @@ new Vue({
       d.total = +d.total;
       return d;
     }, this.initData);
+  },
+  watch: {
+    filters: function(data) {
+      if (!data) {
+        this.menus[2].options.forEach(function(o) { o.selected = "total"; });
+        this.updateUrl();
+      }
+    }
   },
   methods: {
     onResize: function() {
@@ -461,11 +477,14 @@ new Vue({
           update = true;
         }
       });
-      if (update) window.location.hash = this.menus.map(function(m) {
+      if (update) this.updateUrl();
+    },
+    updateUrl: function() {
+      window.location.hash = this.menus.map(function(m) {
         return m.id + "=" + (m.multi ?
           m.options.filter(function(o) { return o.selected; })
           .map(function(o) { return o.id; }) :
-          (!m.filters ? m.selected :
+          (!m.filters ? [m.selected] :
             m.options.filter(function(o) { return o.selected !== "total"; })
             .map(function(o) { return o.id + ":" + o.selected; })
           )
@@ -490,6 +509,7 @@ new Vue({
           else m.selected = el[1];
         });
       }
+      this.filters = this.menus[2].options.some(function(o) { return o.selected !== "total"; });
     },
     initData: function(data, error) {
       if (error) throw error;
@@ -647,7 +667,6 @@ new Vue({
   }
 });
 /* TODO
-- button clear filters
 - adjust time bin
 - adjust color/icons
 - add activities (amdmts, PPL, QE)
