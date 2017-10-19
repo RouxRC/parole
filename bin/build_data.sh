@@ -22,3 +22,17 @@ FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id
 GROUP BY i.date, groupes, genre, renouveau, debats, interventions"
 
+query data/amendements "
+SELECT
+  a.date,
+  a.auteur_groupe_acronyme as groupes,
+  p.sexe as genre,
+  IF(p.url_ancien_cpc IS NULL, \"nouveaux\", \"anciens\") as renouveau,
+  REPLACE(a.sort, \" avant séance\", \"\") as sorts,
+  sum(a.nb_multiples) as total
+FROM amendement a
+JOIN parlementaire p ON p.id = a.auteur_id
+WHERE a.sort <> \"Rectifié\"
+GROUP BY a.date, groupes, genre, renouveau, sorts"
+
+# ADD dossier when filter autofilled

@@ -1,0 +1,828 @@
+date,groupes,genre,renouveau,sorts,total
+2017-07-03,LFI,H,nouveaux,Rejeté,1
+2017-07-04,GDR,H,nouveaux,Rejeté,27
+2017-07-04,LC,F,anciens,Non soutenu,2
+2017-07-04,LC,H,anciens,Rejeté,2
+2017-07-04,LC,H,anciens,Retiré,2
+2017-07-04,LFI,H,nouveaux,Irrecevable,1
+2017-07-04,LFI,H,nouveaux,Non soutenu,3
+2017-07-04,LFI,H,nouveaux,Rejeté,81
+2017-07-04,LFI,H,nouveaux,Retiré,4
+2017-07-04,LR,H,anciens,Non soutenu,7
+2017-07-04,LR,H,anciens,Rejeté,24
+2017-07-04,LR,H,anciens,Retiré,5
+2017-07-04,NG,H,anciens,Rejeté,18
+2017-07-04,NI,H,anciens,Rejeté,1
+2017-07-05,LC,F,anciens,Non soutenu,1
+2017-07-05,LC,H,anciens,Non soutenu,1
+2017-07-05,LC,H,anciens,Rejeté,1
+2017-07-05,LFI,F,nouveaux,Rejeté,1
+2017-07-05,LFI,H,nouveaux,Irrecevable,2
+2017-07-05,LFI,H,nouveaux,Rejeté,7
+2017-07-05,LR,H,anciens,Irrecevable,1
+2017-07-05,LR,H,anciens,Non soutenu,3
+2017-07-05,LR,H,anciens,Rejeté,5
+2017-07-05,LR,H,anciens,Retiré,1
+2017-07-05,LR,H,anciens,Tombe,1
+2017-07-05,LREM,H,anciens,Adopté,2
+2017-07-05,LREM,H,nouveaux,Adopté,1
+2017-07-05,LREM,H,nouveaux,Retiré,1
+2017-07-05,NG,F,anciens,Adopté,1
+2017-07-05,NG,H,anciens,Rejeté,1
+2017-07-05,NI,H,anciens,Non soutenu,1
+2017-07-06,LC,H,anciens,Rejeté,1
+2017-07-06,LFI,F,nouveaux,Rejeté,3
+2017-07-06,LFI,H,nouveaux,Rejeté,4
+2017-07-06,LR,H,anciens,Rejeté,13
+2017-07-07,LFI,F,nouveaux,Irrecevable,1
+2017-07-07,LFI,F,nouveaux,Rejeté,2
+2017-07-07,LFI,F,nouveaux,Retiré,2
+2017-07-07,LFI,H,nouveaux,Rejeté,1
+2017-07-07,LR,H,anciens,Rejeté,2
+2017-07-07,LR,H,anciens,Retiré,1
+2017-07-07,LR,H,nouveaux,Retiré,1
+2017-07-08,GDR,H,anciens,Rejeté,3
+2017-07-08,GDR,H,nouveaux,Adopté,5
+2017-07-08,GDR,H,nouveaux,Non soutenu,3
+2017-07-08,GDR,H,nouveaux,Rejeté,55
+2017-07-08,GDR,H,nouveaux,Tombe,1
+2017-07-08,LC,F,anciens,Rejeté,3
+2017-07-08,LC,H,anciens,Adopté,1
+2017-07-08,LC,H,anciens,Rejeté,4
+2017-07-08,LC,H,nouveaux,Rejeté,1
+2017-07-08,LFI,H,nouveaux,Non soutenu,1
+2017-07-08,LFI,H,nouveaux,Rejeté,57
+2017-07-08,LR,H,anciens,Adopté,2
+2017-07-08,LR,H,anciens,Non soutenu,2
+2017-07-08,LR,H,anciens,Rejeté,20
+2017-07-08,LREM,H,nouveaux,Adopté,12
+2017-07-08,MODEM,H,nouveaux,Adopté,3
+2017-07-08,MODEM,H,nouveaux,Rejeté,2
+2017-07-08,NG,F,anciens,Non soutenu,1
+2017-07-08,NG,H,nouveaux,Adopté,3
+2017-07-08,NG,H,nouveaux,Rejeté,24
+2017-07-08,NG,H,nouveaux,Retiré,1
+2017-07-08,NI,F,anciens,Non soutenu,3
+2017-07-08,NI,F,anciens,Rejeté,2
+2017-07-08,NI,F,anciens,Retiré,1
+2017-07-08,NI,F,nouveaux,Retiré,3
+2017-07-08,NI,H,anciens,Non soutenu,2
+2017-07-08,NI,H,anciens,Rejeté,1
+2017-07-08,NI,H,nouveaux,Rejeté,5
+2017-07-10,GDR,H,nouveaux,Non soutenu,1
+2017-07-10,GDR,H,nouveaux,Rejeté,23
+2017-07-10,LC,F,nouveaux,Rejeté,1
+2017-07-10,LC,H,anciens,Adopté,1
+2017-07-10,LC,H,anciens,Rejeté,3
+2017-07-10,LC,H,anciens,Retiré,2
+2017-07-10,LC,H,anciens,Tombe,1
+2017-07-10,LFI,H,nouveaux,Non soutenu,1
+2017-07-10,LFI,H,nouveaux,Rejeté,25
+2017-07-10,LFI,H,nouveaux,Tombe,1
+2017-07-10,LR,H,anciens,Adopté,2
+2017-07-10,LR,H,anciens,Non soutenu,14
+2017-07-10,LR,H,anciens,Rejeté,13
+2017-07-10,LR,H,anciens,Retiré,11
+2017-07-10,LREM,H,anciens,Adopté,1
+2017-07-10,LREM,H,nouveaux,Adopté,7
+2017-07-10,LREM,H,nouveaux,Retiré,2
+2017-07-10,MODEM,H,nouveaux,Adopté,1
+2017-07-10,MODEM,H,nouveaux,Rejeté,2
+2017-07-10,NG,F,anciens,Rejeté,1
+2017-07-10,NG,H,nouveaux,Rejeté,3
+2017-07-10,NG,H,nouveaux,Retiré,1
+2017-07-10,NI,H,anciens,Non soutenu,1
+2017-07-10,NI,H,anciens,Rejeté,1
+2017-07-11,GDR,H,nouveaux,Irrecevable,1
+2017-07-11,LR,F,anciens,Rejeté,1
+2017-07-11,LR,H,anciens,Irrecevable,1
+2017-07-11,LR,H,anciens,Non soutenu,1
+2017-07-11,LR,H,anciens,Rejeté,2
+2017-07-11,LR,H,anciens,Retiré,1
+2017-07-11,LREM,H,nouveaux,Adopté,14
+2017-07-11,LREM,H,nouveaux,Irrecevable,1
+2017-07-11,LREM,H,nouveaux,Retiré,2
+2017-07-11,NI,F,anciens,Retiré,1
+2017-07-12,LC,H,anciens,Rejeté,1
+2017-07-12,LREM,H,nouveaux,Adopté,1
+2017-07-17,GDR,H,nouveaux,Rejeté,2
+2017-07-17,LFI,F,nouveaux,Rejeté,6
+2017-07-17,LFI,F,nouveaux,Retiré,1
+2017-07-17,LR,H,anciens,Rejeté,1
+2017-07-17,LREM,H,nouveaux,Adopté,18
+2017-07-17,NG,H,anciens,Rejeté,1
+2017-07-17,NG,H,anciens,Retiré,1
+2017-07-17,NI,H,anciens,Non soutenu,2
+2017-07-18,LC,F,nouveaux,Non soutenu,1
+2017-07-18,LC,F,nouveaux,Rejeté,1
+2017-07-18,LC,H,anciens,Rejeté,1
+2017-07-18,LFI,F,nouveaux,Rejeté,2
+2017-07-18,LFI,F,nouveaux,Retiré,1
+2017-07-18,LFI,H,nouveaux,Rejeté,4
+2017-07-18,LR,F,nouveaux,Non soutenu,1
+2017-07-18,LR,H,anciens,Rejeté,3
+2017-07-18,LR,H,anciens,Retiré,1
+2017-07-18,LR,H,nouveaux,Rejeté,9
+2017-07-18,LREM,F,nouveaux,Adopté,1
+2017-07-18,LREM,H,anciens,Retiré,5
+2017-07-18,LREM,H,nouveaux,Adopté,1
+2017-07-18,LREM,H,nouveaux,Retiré,4
+2017-07-18,MODEM,H,nouveaux,Retiré,2
+2017-07-18,NG,F,anciens,Rejeté,1
+2017-07-18,NI,F,nouveaux,Rejeté,1
+2017-07-18,NI,H,anciens,Non soutenu,3
+2017-07-19,LC,H,anciens,Non soutenu,2
+2017-07-19,LC,H,anciens,Rejeté,2
+2017-07-19,LC,H,anciens,Retiré,1
+2017-07-19,LC,H,anciens,Tombe,1
+2017-07-19,LFI,F,nouveaux,Irrecevable,3
+2017-07-19,LFI,F,nouveaux,Rejeté,13
+2017-07-19,LFI,F,nouveaux,Tombe,13
+2017-07-19,LFI,H,nouveaux,Irrecevable,5
+2017-07-19,LFI,H,nouveaux,Rejeté,23
+2017-07-19,LFI,H,nouveaux,Tombe,9
+2017-07-19,LR,F,nouveaux,Tombe,1
+2017-07-19,LR,H,anciens,Irrecevable,7
+2017-07-19,LR,H,anciens,Non soutenu,12
+2017-07-19,LR,H,anciens,Rejeté,25
+2017-07-19,LR,H,anciens,Retiré,1
+2017-07-19,LR,H,anciens,Tombe,20
+2017-07-19,LR,H,nouveaux,Non soutenu,4
+2017-07-19,LR,H,nouveaux,Tombe,1
+2017-07-19,LREM,F,nouveaux,Adopté,78
+2017-07-19,LREM,F,nouveaux,Indéfini,1
+2017-07-19,LREM,F,nouveaux,Retiré,4
+2017-07-19,LREM,F,nouveaux,Tombe,13
+2017-07-19,LREM,H,anciens,Non soutenu,2
+2017-07-19,LREM,H,nouveaux,Non soutenu,1
+2017-07-19,MODEM,F,nouveaux,Adopté,1
+2017-07-19,MODEM,F,nouveaux,Rejeté,2
+2017-07-19,MODEM,F,nouveaux,Retiré,1
+2017-07-19,MODEM,F,nouveaux,Tombe,4
+2017-07-19,MODEM,H,nouveaux,Adopté,3
+2017-07-19,MODEM,H,nouveaux,Rejeté,3
+2017-07-19,MODEM,H,nouveaux,Tombe,6
+2017-07-19,NG,F,anciens,Adopté,1
+2017-07-19,NG,F,anciens,Irrecevable,1
+2017-07-19,NG,F,anciens,Rejeté,5
+2017-07-19,NG,F,anciens,Retiré,4
+2017-07-19,NG,F,anciens,Tombe,3
+2017-07-19,NG,H,anciens,Irrecevable,1
+2017-07-19,NG,H,anciens,Rejeté,4
+2017-07-19,NG,H,anciens,Retiré,1
+2017-07-19,NG,H,anciens,Tombe,3
+2017-07-19,NI,H,anciens,Irrecevable,1
+2017-07-19,NI,H,anciens,Non soutenu,2
+2017-07-19,NI,H,anciens,Tombe,1
+2017-07-22,GDR,H,nouveaux,Irrecevable,1
+2017-07-22,GDR,H,nouveaux,Rejeté,26
+2017-07-22,GDR,H,nouveaux,Retiré,3
+2017-07-22,GDR,H,nouveaux,Tombe,2
+2017-07-22,LC,F,nouveaux,Retiré,1
+2017-07-22,LC,H,anciens,Rejeté,8
+2017-07-22,LC,H,nouveaux,Retiré,1
+2017-07-22,LC,H,nouveaux,Tombe,2
+2017-07-22,LFI,F,nouveaux,Rejeté,11
+2017-07-22,LFI,F,nouveaux,Retiré,1
+2017-07-22,LFI,F,nouveaux,Tombe,3
+2017-07-22,LFI,H,nouveaux,Rejeté,7
+2017-07-22,LFI,H,nouveaux,Retiré,1
+2017-07-22,LFI,H,nouveaux,Tombe,2
+2017-07-22,LR,F,anciens,Rejeté,1
+2017-07-22,LR,F,nouveaux,Tombe,1
+2017-07-22,LR,H,anciens,Adopté,1
+2017-07-22,LR,H,anciens,Non soutenu,9
+2017-07-22,LR,H,anciens,Rejeté,31
+2017-07-22,LR,H,anciens,Retiré,13
+2017-07-22,LR,H,anciens,Tombe,2
+2017-07-22,LR,H,nouveaux,Non soutenu,6
+2017-07-22,LR,H,nouveaux,Rejeté,12
+2017-07-22,LR,H,nouveaux,Retiré,6
+2017-07-22,LREM,F,nouveaux,Adopté,13
+2017-07-22,LREM,F,nouveaux,Tombe,1
+2017-07-22,LREM,H,anciens,Rejeté,5
+2017-07-22,LREM,H,anciens,Retiré,4
+2017-07-22,LREM,H,nouveaux,Adopté,1
+2017-07-22,LREM,H,nouveaux,Non soutenu,1
+2017-07-22,LREM,H,nouveaux,Retiré,1
+2017-07-22,MODEM,F,nouveaux,Rejeté,1
+2017-07-22,MODEM,F,nouveaux,Retiré,2
+2017-07-22,NG,F,anciens,Adopté,2
+2017-07-22,NG,F,anciens,Irrecevable,3
+2017-07-22,NG,F,anciens,Non soutenu,2
+2017-07-22,NG,F,anciens,Rejeté,22
+2017-07-22,NG,F,anciens,Retiré,2
+2017-07-22,NG,F,anciens,Tombe,5
+2017-07-22,NG,H,anciens,Adopté,6
+2017-07-22,NG,H,anciens,Non soutenu,4
+2017-07-22,NG,H,anciens,Rejeté,17
+2017-07-22,NG,H,anciens,Tombe,12
+2017-07-22,NI,F,nouveaux,Rejeté,1
+2017-07-22,NI,F,nouveaux,Tombe,1
+2017-07-22,NI,H,nouveaux,Non soutenu,2
+2017-07-22,NI,H,nouveaux,Rejeté,1
+2017-07-22,NI,H,nouveaux,Retiré,1
+2017-07-22,NI,H,nouveaux,Tombe,1
+2017-07-24,GDR,H,anciens,Irrecevable,1
+2017-07-24,GDR,H,nouveaux,Irrecevable,6
+2017-07-24,GDR,H,nouveaux,Rejeté,24
+2017-07-24,LC,F,nouveaux,Adopté,1
+2017-07-24,LC,F,nouveaux,Non soutenu,1
+2017-07-24,LC,F,nouveaux,Rejeté,6
+2017-07-24,LC,H,anciens,Irrecevable,3
+2017-07-24,LC,H,anciens,Non soutenu,2
+2017-07-24,LC,H,anciens,Rejeté,8
+2017-07-24,LC,H,anciens,Retiré,1
+2017-07-24,LC,H,nouveaux,Non soutenu,1
+2017-07-24,LFI,F,nouveaux,Irrecevable,1
+2017-07-24,LFI,F,nouveaux,Non soutenu,1
+2017-07-24,LFI,F,nouveaux,Rejeté,10
+2017-07-24,LFI,F,nouveaux,Tombe,1
+2017-07-24,LFI,H,nouveaux,Irrecevable,2
+2017-07-24,LFI,H,nouveaux,Rejeté,17
+2017-07-24,LFI,H,nouveaux,Retiré,3
+2017-07-24,LFI,H,nouveaux,Tombe,1
+2017-07-24,LR,F,anciens,Irrecevable,1
+2017-07-24,LR,F,anciens,Rejeté,3
+2017-07-24,LR,F,anciens,Retiré,1
+2017-07-24,LR,F,nouveaux,Irrecevable,2
+2017-07-24,LR,F,nouveaux,Rejeté,1
+2017-07-24,LR,H,anciens,Adopté,1
+2017-07-24,LR,H,anciens,Irrecevable,29
+2017-07-24,LR,H,anciens,Non soutenu,16
+2017-07-24,LR,H,anciens,Rejeté,51
+2017-07-24,LR,H,anciens,Retiré,13
+2017-07-24,LR,H,nouveaux,Adopté,1
+2017-07-24,LR,H,nouveaux,Irrecevable,4
+2017-07-24,LR,H,nouveaux,Non soutenu,3
+2017-07-24,LR,H,nouveaux,Rejeté,13
+2017-07-24,LR,H,nouveaux,Retiré,4
+2017-07-24,LREM,F,nouveaux,Adopté,9
+2017-07-24,LREM,F,nouveaux,Retiré,2
+2017-07-24,LREM,H,anciens,Adopté,2
+2017-07-24,LREM,H,anciens,Non soutenu,4
+2017-07-24,LREM,H,anciens,Rejeté,5
+2017-07-24,LREM,H,anciens,Retiré,2
+2017-07-24,LREM,H,nouveaux,Non soutenu,2
+2017-07-24,MODEM,F,nouveaux,Adopté,2
+2017-07-24,MODEM,F,nouveaux,Rejeté,7
+2017-07-24,MODEM,H,nouveaux,Retiré,2
+2017-07-24,NG,F,anciens,Adopté,6
+2017-07-24,NG,F,anciens,Irrecevable,5
+2017-07-24,NG,F,anciens,Non soutenu,2
+2017-07-24,NG,F,anciens,Rejeté,26
+2017-07-24,NG,F,anciens,Retiré,5
+2017-07-24,NG,F,anciens,Tombe,9
+2017-07-24,NG,H,anciens,Adopté,2
+2017-07-24,NG,H,anciens,Irrecevable,7
+2017-07-24,NG,H,anciens,Non soutenu,3
+2017-07-24,NG,H,anciens,Rejeté,30
+2017-07-24,NG,H,anciens,Tombe,8
+2017-07-24,NG,H,nouveaux,Rejeté,2
+2017-07-24,NI,F,nouveaux,Irrecevable,2
+2017-07-24,NI,H,anciens,Non soutenu,3
+2017-07-24,NI,H,anciens,Rejeté,1
+2017-07-24,NI,H,anciens,Retiré,2
+2017-07-24,NI,H,anciens,Tombe,1
+2017-07-24,NI,H,nouveaux,Irrecevable,1
+2017-07-24,NI,H,nouveaux,Non soutenu,3
+2017-07-24,NI,H,nouveaux,Rejeté,2
+2017-07-24,NI,H,nouveaux,Retiré,5
+2017-07-24,NI,H,nouveaux,Tombe,1
+2017-07-25,GDR,H,nouveaux,Rejeté,4
+2017-07-25,LC,F,anciens,Rejeté,2
+2017-07-25,LC,H,anciens,Adopté,1
+2017-07-25,LC,H,anciens,Non soutenu,1
+2017-07-25,LC,H,anciens,Rejeté,8
+2017-07-25,LC,H,anciens,Retiré,3
+2017-07-25,LC,H,nouveaux,Non soutenu,1
+2017-07-25,LC,H,nouveaux,Rejeté,1
+2017-07-25,LFI,F,nouveaux,Irrecevable,3
+2017-07-25,LFI,F,nouveaux,Non soutenu,1
+2017-07-25,LFI,F,nouveaux,Rejeté,9
+2017-07-25,LFI,F,nouveaux,Retiré,1
+2017-07-25,LFI,H,nouveaux,Irrecevable,3
+2017-07-25,LFI,H,nouveaux,Rejeté,6
+2017-07-25,LFI,H,nouveaux,Retiré,3
+2017-07-25,LR,F,anciens,Non soutenu,3
+2017-07-25,LR,F,anciens,Rejeté,3
+2017-07-25,LR,F,nouveaux,Non soutenu,1
+2017-07-25,LR,H,anciens,Adopté,2
+2017-07-25,LR,H,anciens,Irrecevable,1
+2017-07-25,LR,H,anciens,Non soutenu,18
+2017-07-25,LR,H,anciens,Rejeté,42
+2017-07-25,LR,H,anciens,Retiré,8
+2017-07-25,LR,H,anciens,Tombe,1
+2017-07-25,LR,H,nouveaux,Adopté,1
+2017-07-25,LR,H,nouveaux,Non soutenu,4
+2017-07-25,LR,H,nouveaux,Rejeté,8
+2017-07-25,LR,H,nouveaux,Retiré,6
+2017-07-25,LR,H,nouveaux,Tombe,2
+2017-07-25,LREM,F,nouveaux,Adopté,16
+2017-07-25,LREM,F,nouveaux,Retiré,4
+2017-07-25,LREM,F,nouveaux,Tombe,4
+2017-07-25,LREM,H,anciens,Non soutenu,3
+2017-07-25,MODEM,H,nouveaux,Retiré,1
+2017-07-25,NG,F,anciens,Adopté,2
+2017-07-25,NG,F,anciens,Non soutenu,1
+2017-07-25,NG,F,anciens,Rejeté,14
+2017-07-25,NG,F,anciens,Retiré,6
+2017-07-25,NG,H,anciens,Adopté,2
+2017-07-25,NG,H,anciens,Rejeté,14
+2017-07-25,NG,H,anciens,Retiré,6
+2017-07-25,NG,H,nouveaux,Rejeté,5
+2017-07-25,NG,H,nouveaux,Retiré,2
+2017-07-25,NI,F,nouveaux,Rejeté,1
+2017-07-25,NI,F,nouveaux,Tombe,1
+2017-07-25,NI,H,anciens,Tombe,1
+2017-07-25,NI,H,nouveaux,Non soutenu,2
+2017-07-25,NI,H,nouveaux,Rejeté,2
+2017-07-26,LC,F,anciens,Rejeté,1
+2017-07-26,LFI,H,nouveaux,Rejeté,1
+2017-07-26,LR,H,anciens,Rejeté,1
+2017-07-26,LR,H,anciens,Retiré,2
+2017-07-26,NG,F,anciens,Rejeté,1
+2017-07-27,GDR,H,nouveaux,Non soutenu,1
+2017-07-27,LFI,H,nouveaux,Rejeté,1
+2017-07-27,LR,H,anciens,Rejeté,1
+2017-07-27,LR,H,nouveaux,Rejeté,1
+2017-07-27,LREM,F,nouveaux,Adopté,2
+2017-07-27,NI,F,nouveaux,Rejeté,1
+2017-08-01,LR,F,anciens,Non soutenu,1
+2017-08-01,LR,F,anciens,Rejeté,1
+2017-08-01,LR,H,anciens,Rejeté,7
+2017-08-01,LR,H,nouveaux,Rejeté,2
+2017-08-01,LREM,F,nouveaux,Adopté,24
+2017-08-02,LFI,F,nouveaux,Rejeté,1
+2017-08-02,LFI,F,nouveaux,Tombe,1
+2017-08-02,LFI,H,nouveaux,Rejeté,2
+2017-08-02,LR,H,anciens,Non soutenu,3
+2017-08-02,LREM,F,nouveaux,Adopté,2
+2017-08-03,LC,H,anciens,Non soutenu,1
+2017-08-03,LC,H,anciens,Rejeté,3
+2017-08-03,LFI,F,nouveaux,Rejeté,2
+2017-08-03,LFI,H,nouveaux,Rejeté,2
+2017-08-03,LR,H,anciens,Non soutenu,2
+2017-08-03,LR,H,anciens,Rejeté,23
+2017-08-03,LR,H,nouveaux,Non soutenu,3
+2017-08-03,LR,H,nouveaux,Rejeté,2
+2017-08-03,LREM,F,nouveaux,Adopté,10
+2017-08-03,NG,F,anciens,Adopté,3
+2017-08-03,NG,F,anciens,Non soutenu,3
+2017-08-03,NG,F,anciens,Rejeté,9
+2017-08-03,NG,F,anciens,Retiré,3
+2017-08-03,NG,H,anciens,Rejeté,2
+2017-08-03,NI,F,nouveaux,Rejeté,1
+2017-08-09,LR,H,anciens,Rejeté,11
+2017-08-09,LR,H,nouveaux,Rejeté,2
+2017-08-09,LREM,F,nouveaux,Adopté,10
+2017-09-11,LC,F,anciens,Adopté,1
+2017-09-11,LC,F,anciens,Rejeté,14
+2017-09-11,LC,F,anciens,Retiré,1
+2017-09-11,LC,H,anciens,Rejeté,2
+2017-09-11,LFI,F,nouveaux,Rejeté,24
+2017-09-11,LFI,F,nouveaux,Retiré,1
+2017-09-11,LFI,H,nouveaux,Adopté,1
+2017-09-11,LFI,H,nouveaux,Rejeté,30
+2017-09-11,LR,F,nouveaux,Non soutenu,2
+2017-09-11,LR,H,anciens,Adopté,4
+2017-09-11,LR,H,anciens,Non soutenu,3
+2017-09-11,LR,H,anciens,Rejeté,57
+2017-09-11,LR,H,anciens,Retiré,4
+2017-09-11,LR,H,anciens,Tombe,1
+2017-09-11,LR,H,nouveaux,Non soutenu,5
+2017-09-11,LR,H,nouveaux,Rejeté,17
+2017-09-11,LREM,F,nouveaux,Adopté,3
+2017-09-11,LREM,F,nouveaux,Non soutenu,4
+2017-09-11,LREM,F,nouveaux,Rejeté,3
+2017-09-11,LREM,F,nouveaux,Retiré,6
+2017-09-11,LREM,F,nouveaux,Tombe,2
+2017-09-11,LREM,H,anciens,Rejeté,2
+2017-09-11,LREM,H,anciens,Retiré,3
+2017-09-11,LREM,H,nouveaux,Adopté,43
+2017-09-11,LREM,H,nouveaux,Retiré,2
+2017-09-11,MODEM,F,nouveaux,Adopté,1
+2017-09-11,MODEM,F,nouveaux,Rejeté,5
+2017-09-11,MODEM,H,nouveaux,Rejeté,2
+2017-09-11,NG,F,anciens,Non soutenu,3
+2017-09-11,NG,F,anciens,Rejeté,4
+2017-09-11,NG,F,anciens,Retiré,3
+2017-09-11,NG,H,anciens,Adopté,1
+2017-09-11,NG,H,anciens,Retiré,1
+2017-09-12,LC,F,anciens,Rejeté,1
+2017-09-12,LFI,F,nouveaux,Rejeté,1
+2017-09-12,LR,H,anciens,Rejeté,5
+2017-09-12,LREM,F,nouveaux,Retiré,1
+2017-09-12,LREM,H,anciens,Non soutenu,1
+2017-09-12,LREM,H,nouveaux,Adopté,5
+2017-09-12,LREM,H,nouveaux,Retiré,1
+2017-09-12,MODEM,H,nouveaux,Irrecevable,1
+2017-09-12,MODEM,H,nouveaux,Rejeté,2
+2017-09-13,LR,H,anciens,Irrecevable,3
+2017-09-13,LR,H,nouveaux,Irrecevable,1
+2017-09-22,GDR,H,nouveaux,Rejeté,12
+2017-09-22,LC,F,anciens,Adopté,1
+2017-09-22,LC,F,anciens,Non soutenu,2
+2017-09-22,LC,F,anciens,Rejeté,4
+2017-09-22,LC,F,anciens,Retiré,1
+2017-09-22,LC,F,nouveaux,Rejeté,4
+2017-09-22,LC,F,nouveaux,Retiré,1
+2017-09-22,LC,H,anciens,Rejeté,4
+2017-09-22,LC,H,nouveaux,Tombe,2
+2017-09-22,LFI,F,nouveaux,Rejeté,8
+2017-09-22,LFI,F,nouveaux,Retiré,1
+2017-09-22,LFI,H,nouveaux,Rejeté,7
+2017-09-22,LR,F,anciens,Rejeté,2
+2017-09-22,LR,F,nouveaux,Adopté,1
+2017-09-22,LR,F,nouveaux,Non soutenu,3
+2017-09-22,LR,F,nouveaux,Rejeté,17
+2017-09-22,LR,H,anciens,Adopté,2
+2017-09-22,LR,H,anciens,Non soutenu,1
+2017-09-22,LR,H,anciens,Rejeté,39
+2017-09-22,LR,H,nouveaux,Adopté,1
+2017-09-22,LR,H,nouveaux,Non soutenu,3
+2017-09-22,LR,H,nouveaux,Rejeté,39
+2017-09-22,LR,H,nouveaux,Tombe,1
+2017-09-22,LREM,F,nouveaux,Non soutenu,1
+2017-09-22,LREM,F,nouveaux,Rejeté,3
+2017-09-22,LREM,F,nouveaux,Retiré,5
+2017-09-22,LREM,H,nouveaux,Adopté,7
+2017-09-22,LREM,H,nouveaux,Retiré,1
+2017-09-22,MODEM,F,nouveaux,Rejeté,3
+2017-09-22,MODEM,H,nouveaux,Rejeté,2
+2017-09-22,MODEM,H,nouveaux,Retiré,1
+2017-09-22,NG,F,anciens,Non soutenu,1
+2017-09-22,NG,F,anciens,Rejeté,7
+2017-09-22,NG,F,anciens,Retiré,1
+2017-09-22,NG,H,anciens,Adopté,1
+2017-09-22,NG,H,anciens,Rejeté,1
+2017-09-22,NG,H,anciens,Retiré,1
+2017-09-22,NG,H,nouveaux,Rejeté,2
+2017-09-22,NG,H,nouveaux,Retiré,1
+2017-09-22,NI,F,nouveaux,Non soutenu,13
+2017-09-22,NI,F,nouveaux,Rejeté,11
+2017-09-22,NI,F,nouveaux,Retiré,1
+2017-09-22,NI,H,anciens,Non soutenu,1
+2017-09-22,NI,H,anciens,Rejeté,4
+2017-09-22,NI,H,nouveaux,Non soutenu,3
+2017-09-22,NI,H,nouveaux,Rejeté,24
+2017-09-22,NI,H,nouveaux,Retiré,3
+2017-09-23,GDR,H,anciens,Non soutenu,2
+2017-09-23,GDR,H,nouveaux,Rejeté,3
+2017-09-23,LC,H,anciens,Rejeté,3
+2017-09-23,LFI,F,nouveaux,Adopté,2
+2017-09-23,LFI,F,nouveaux,Irrecevable,1
+2017-09-23,LFI,F,nouveaux,Non soutenu,1
+2017-09-23,LFI,F,nouveaux,Rejeté,8
+2017-09-23,LFI,F,nouveaux,Retiré,1
+2017-09-23,LFI,H,nouveaux,Adopté,1
+2017-09-23,LFI,H,nouveaux,Non soutenu,1
+2017-09-23,LFI,H,nouveaux,Rejeté,10
+2017-09-23,LFI,H,nouveaux,Retiré,1
+2017-09-23,LR,F,nouveaux,Non soutenu,4
+2017-09-23,LR,F,nouveaux,Rejeté,2
+2017-09-23,LR,H,anciens,Adopté,1
+2017-09-23,LR,H,anciens,Irrecevable,2
+2017-09-23,LR,H,anciens,Non soutenu,2
+2017-09-23,LR,H,anciens,Rejeté,9
+2017-09-23,LR,H,nouveaux,Irrecevable,1
+2017-09-23,LR,H,nouveaux,Rejeté,8
+2017-09-23,LR,H,nouveaux,Retiré,1
+2017-09-23,LR,H,nouveaux,Tombe,1
+2017-09-23,LREM,F,nouveaux,Adopté,11
+2017-09-23,LREM,F,nouveaux,Rejeté,1
+2017-09-23,LREM,F,nouveaux,Retiré,1
+2017-09-23,LREM,F,nouveaux,Tombe,1
+2017-09-23,LREM,H,nouveaux,Adopté,4
+2017-09-23,LREM,H,nouveaux,Irrecevable,1
+2017-09-23,LREM,H,nouveaux,Retiré,8
+2017-09-23,MODEM,H,nouveaux,Rejeté,1
+2017-09-23,MODEM,H,nouveaux,Retiré,3
+2017-09-23,NG,F,anciens,Adopté,1
+2017-09-23,NG,F,anciens,Irrecevable,2
+2017-09-23,NG,F,anciens,Rejeté,18
+2017-09-23,NG,F,anciens,Retiré,11
+2017-09-23,NG,F,anciens,Tombe,1
+2017-09-23,NI,H,nouveaux,Non soutenu,2
+2017-09-25,GDR,H,nouveaux,Irrecevable,1
+2017-09-25,GDR,H,nouveaux,Rejeté,4
+2017-09-25,LC,F,anciens,Non soutenu,2
+2017-09-25,LC,F,anciens,Rejeté,10
+2017-09-25,LC,F,nouveaux,Irrecevable,2
+2017-09-25,LC,F,nouveaux,Rejeté,1
+2017-09-25,LC,H,anciens,Non soutenu,5
+2017-09-25,LC,H,anciens,Rejeté,10
+2017-09-25,LC,H,anciens,Retiré,1
+2017-09-25,LC,H,nouveaux,Rejeté,4
+2017-09-25,LFI,F,nouveaux,Irrecevable,2
+2017-09-25,LFI,F,nouveaux,Rejeté,15
+2017-09-25,LFI,H,nouveaux,Rejeté,16
+2017-09-25,LR,F,anciens,Irrecevable,2
+2017-09-25,LR,F,anciens,Non soutenu,1
+2017-09-25,LR,F,anciens,Rejeté,3
+2017-09-25,LR,F,nouveaux,Irrecevable,1
+2017-09-25,LR,F,nouveaux,Rejeté,2
+2017-09-25,LR,H,anciens,Adopté,1
+2017-09-25,LR,H,anciens,Irrecevable,2
+2017-09-25,LR,H,anciens,Non soutenu,4
+2017-09-25,LR,H,anciens,Rejeté,40
+2017-09-25,LR,H,anciens,Retiré,3
+2017-09-25,LR,H,nouveaux,Irrecevable,1
+2017-09-25,LR,H,nouveaux,Rejeté,13
+2017-09-25,LREM,F,nouveaux,Adopté,3
+2017-09-25,LREM,F,nouveaux,Irrecevable,1
+2017-09-25,LREM,F,nouveaux,Rejeté,1
+2017-09-25,LREM,F,nouveaux,Retiré,7
+2017-09-25,LREM,H,anciens,Non soutenu,1
+2017-09-25,LREM,H,nouveaux,Adopté,48
+2017-09-25,LREM,H,nouveaux,Irrecevable,1
+2017-09-25,LREM,H,nouveaux,Non soutenu,1
+2017-09-25,LREM,H,nouveaux,Retiré,4
+2017-09-25,MODEM,H,nouveaux,Retiré,1
+2017-09-25,NG,F,anciens,Non soutenu,2
+2017-09-25,NG,F,anciens,Rejeté,5
+2017-09-25,NG,F,anciens,Tombe,3
+2017-09-25,NG,H,nouveaux,Non soutenu,1
+2017-09-25,NI,F,nouveaux,Irrecevable,3
+2017-09-25,NI,F,nouveaux,Non soutenu,14
+2017-09-25,NI,F,nouveaux,Rejeté,10
+2017-09-25,NI,H,anciens,Rejeté,1
+2017-09-25,NI,H,nouveaux,Irrecevable,2
+2017-09-25,NI,H,nouveaux,Rejeté,27
+2017-09-26,LFI,F,nouveaux,Rejeté,1
+2017-09-26,LFI,H,nouveaux,Adopté,1
+2017-09-26,LR,H,nouveaux,Rejeté,1
+2017-09-26,LREM,H,nouveaux,Adopté,6
+2017-09-26,NG,F,anciens,Adopté,1
+2017-09-26,NG,F,anciens,Rejeté,1
+2017-09-26,NG,F,anciens,Tombe,1
+2017-09-27,LREM,H,nouveaux,Adopté,2
+2017-09-27,NG,F,anciens,Adopté,1
+2017-10-02,GDR,H,nouveaux,Rejeté,2
+2017-10-02,GDR,H,nouveaux,Tombe,1
+2017-10-02,LC,H,anciens,Adopté,2
+2017-10-02,LC,H,anciens,Rejeté,7
+2017-10-02,LC,H,anciens,Retiré,2
+2017-10-02,LC,H,nouveaux,Rejeté,1
+2017-10-02,LFI,F,nouveaux,Non soutenu,3
+2017-10-02,LFI,F,nouveaux,Rejeté,17
+2017-10-02,LFI,F,nouveaux,Retiré,3
+2017-10-02,LFI,F,nouveaux,Tombe,1
+2017-10-02,LFI,H,nouveaux,Non soutenu,2
+2017-10-02,LFI,H,nouveaux,Rejeté,18
+2017-10-02,LFI,H,nouveaux,Retiré,4
+2017-10-02,LR,F,nouveaux,Rejeté,5
+2017-10-02,LR,H,anciens,Adopté,9
+2017-10-02,LR,H,anciens,Non soutenu,2
+2017-10-02,LR,H,anciens,Rejeté,25
+2017-10-02,LR,H,anciens,Retiré,7
+2017-10-02,LR,H,nouveaux,Non soutenu,1
+2017-10-02,LR,H,nouveaux,Rejeté,16
+2017-10-02,LR,H,nouveaux,Retiré,7
+2017-10-02,LR,H,nouveaux,Tombe,1
+2017-10-02,LREM,F,nouveaux,Adopté,13
+2017-10-02,LREM,F,nouveaux,Retiré,2
+2017-10-02,LREM,H,anciens,Non soutenu,2
+2017-10-02,LREM,H,anciens,Rejeté,2
+2017-10-02,LREM,H,nouveaux,Adopté,14
+2017-10-02,LREM,H,nouveaux,Retiré,17
+2017-10-02,LREM,H,nouveaux,Tombe,2
+2017-10-02,MODEM,H,nouveaux,Adopté,2
+2017-10-02,MODEM,H,nouveaux,Rejeté,3
+2017-10-02,MODEM,H,nouveaux,Retiré,5
+2017-10-02,NG,F,anciens,Adopté,6
+2017-10-02,NG,F,anciens,Rejeté,8
+2017-10-02,NG,F,anciens,Retiré,6
+2017-10-02,NG,H,anciens,Non soutenu,1
+2017-10-02,NG,H,anciens,Rejeté,4
+2017-10-02,NG,H,anciens,Retiré,8
+2017-10-02,NG,H,nouveaux,Adopté,2
+2017-10-02,NI,F,nouveaux,Rejeté,14
+2017-10-02,NI,F,nouveaux,Retiré,1
+2017-10-02,NI,H,anciens,Non soutenu,1
+2017-10-02,NI,H,nouveaux,Non soutenu,5
+2017-10-02,NI,H,nouveaux,Rejeté,3
+2017-10-03,LR,H,anciens,Irrecevable,1
+2017-10-03,LR,H,anciens,Retiré,1
+2017-10-03,LREM,F,nouveaux,Adopté,5
+2017-10-03,LREM,H,nouveaux,Adopté,7
+2017-10-03,MODEM,H,nouveaux,Adopté,2
+2017-10-03,NG,F,anciens,Adopté,1
+2017-10-03,NG,F,anciens,Irrecevable,1
+2017-10-03,NG,F,anciens,Rejeté,1
+2017-10-03,NG,F,anciens,Retiré,3
+2017-10-04,LREM,H,nouveaux,Adopté,2
+2017-10-04,LREM,H,nouveaux,Retiré,2
+2017-10-04,NG,F,anciens,Adopté,1
+2017-10-04,NG,F,anciens,Irrecevable,1
+2017-10-06,LC,F,anciens,Rejeté,1
+2017-10-06,LFI,F,nouveaux,Rejeté,2
+2017-10-06,LFI,H,nouveaux,Rejeté,1
+2017-10-06,LR,H,nouveaux,Rejeté,1
+2017-10-06,LREM,F,nouveaux,Adopté,1
+2017-10-06,LREM,F,nouveaux,Irrecevable,1
+2017-10-09,GDR,H,nouveaux,Rejeté,10
+2017-10-09,LC,H,anciens,Irrecevable,2
+2017-10-09,LC,H,anciens,Rejeté,3
+2017-10-09,LC,H,nouveaux,Rejeté,1
+2017-10-09,LC,H,nouveaux,Retiré,1
+2017-10-09,LFI,F,nouveaux,Rejeté,9
+2017-10-09,LFI,F,nouveaux,Retiré,1
+2017-10-09,LFI,H,nouveaux,Rejeté,9
+2017-10-09,LR,H,anciens,Adopté,1
+2017-10-09,LR,H,anciens,Non soutenu,1
+2017-10-09,LR,H,anciens,Retiré,2
+2017-10-09,LR,H,nouveaux,Rejeté,5
+2017-10-09,LREM,F,nouveaux,Adopté,5
+2017-10-09,LREM,H,nouveaux,Adopté,10
+2017-10-09,LREM,H,nouveaux,Irrecevable,2
+2017-10-09,LREM,H,nouveaux,Retiré,3
+2017-10-09,MODEM,H,nouveaux,Adopté,1
+2017-10-09,MODEM,H,nouveaux,Rejeté,2
+2017-10-09,NG,F,anciens,Rejeté,2
+2017-10-09,NI,F,nouveaux,Non soutenu,8
+2017-10-09,NI,F,nouveaux,Rejeté,20
+2017-10-09,NI,F,nouveaux,Retiré,1
+2017-10-09,NI,H,anciens,Non soutenu,1
+2017-10-09,NI,H,anciens,Rejeté,5
+2017-10-09,NI,H,nouveaux,Non soutenu,1
+2017-10-09,NI,H,nouveaux,Rejeté,27
+2017-10-10,GDR,H,anciens,Irrecevable,2
+2017-10-10,GDR,H,nouveaux,Adopté,1
+2017-10-10,GDR,H,nouveaux,Irrecevable,4
+2017-10-10,GDR,H,nouveaux,Non soutenu,2
+2017-10-10,GDR,H,nouveaux,Rejeté,6
+2017-10-10,GDR,H,nouveaux,Retiré,4
+2017-10-10,LC,F,anciens,Irrecevable,1
+2017-10-10,LC,F,nouveaux,Irrecevable,2
+2017-10-10,LC,H,anciens,Irrecevable,23
+2017-10-10,LC,H,anciens,Non soutenu,1
+2017-10-10,LC,H,anciens,Rejeté,10
+2017-10-10,LC,H,anciens,Retiré,4
+2017-10-10,LC,H,nouveaux,Irrecevable,2
+2017-10-10,LFI,F,nouveaux,Irrecevable,8
+2017-10-10,LFI,F,nouveaux,Rejeté,9
+2017-10-10,LFI,H,nouveaux,Adopté,1
+2017-10-10,LFI,H,nouveaux,Irrecevable,6
+2017-10-10,LFI,H,nouveaux,Rejeté,10
+2017-10-10,LR,F,anciens,Irrecevable,23
+2017-10-10,LR,F,anciens,Non soutenu,1
+2017-10-10,LR,F,anciens,Rejeté,10
+2017-10-10,LR,F,anciens,Retiré,4
+2017-10-10,LR,F,nouveaux,Irrecevable,6
+2017-10-10,LR,H,anciens,Irrecevable,7
+2017-10-10,LR,H,anciens,Non soutenu,3
+2017-10-10,LR,H,anciens,Rejeté,21
+2017-10-10,LR,H,anciens,Retiré,4
+2017-10-10,LR,H,nouveaux,Irrecevable,1
+2017-10-10,LR,H,nouveaux,Non soutenu,4
+2017-10-10,LR,H,nouveaux,Rejeté,1
+2017-10-10,LR,H,nouveaux,Retiré,4
+2017-10-10,LREM,F,nouveaux,Irrecevable,4
+2017-10-10,LREM,F,nouveaux,Retiré,1
+2017-10-10,LREM,H,anciens,Adopté,26
+2017-10-10,LREM,H,anciens,Irrecevable,6
+2017-10-10,LREM,H,anciens,Retiré,5
+2017-10-10,LREM,H,nouveaux,Irrecevable,1
+2017-10-10,LREM,H,nouveaux,Non soutenu,1
+2017-10-10,LREM,H,nouveaux,Rejeté,1
+2017-10-10,MODEM,F,nouveaux,Adopté,1
+2017-10-10,MODEM,H,nouveaux,Irrecevable,1
+2017-10-10,MODEM,H,nouveaux,Rejeté,2
+2017-10-10,MODEM,H,nouveaux,Retiré,3
+2017-10-10,NG,F,anciens,Adopté,2
+2017-10-10,NG,F,anciens,Rejeté,8
+2017-10-10,NG,F,anciens,Retiré,8
+2017-10-10,NG,H,anciens,Adopté,1
+2017-10-10,NG,H,anciens,Irrecevable,1
+2017-10-10,NG,H,anciens,Rejeté,3
+2017-10-10,NG,H,anciens,Retiré,1
+2017-10-10,NG,H,anciens,Tombe,2
+2017-10-10,NI,H,nouveaux,Rejeté,1
+2017-10-11,GDR,F,anciens,Irrecevable,2
+2017-10-11,GDR,H,anciens,Indéfini,9
+2017-10-11,GDR,H,anciens,Tombe,4
+2017-10-11,GDR,H,nouveaux,Rejeté,12
+2017-10-11,GDR,H,nouveaux,Tombe,1
+2017-10-11,LC,F,anciens,Non soutenu,2
+2017-10-11,LC,F,anciens,Tombe,1
+2017-10-11,LC,F,nouveaux,Adopté,1
+2017-10-11,LC,F,nouveaux,Non soutenu,2
+2017-10-11,LC,F,nouveaux,Rejeté,9
+2017-10-11,LC,F,nouveaux,Retiré,1
+2017-10-11,LC,F,nouveaux,Tombe,2
+2017-10-11,LC,H,anciens,Adopté,3
+2017-10-11,LC,H,anciens,Non soutenu,23
+2017-10-11,LC,H,anciens,Rejeté,42
+2017-10-11,LC,H,anciens,Retiré,8
+2017-10-11,LC,H,anciens,Tombe,9
+2017-10-11,LC,H,nouveaux,Rejeté,1
+2017-10-11,LC,H,nouveaux,Tombe,1
+2017-10-11,LFI,F,nouveaux,Indéfini,4
+2017-10-11,LFI,F,nouveaux,Non soutenu,5
+2017-10-11,LFI,F,nouveaux,Rejeté,5
+2017-10-11,LFI,H,nouveaux,Indéfini,3
+2017-10-11,LFI,H,nouveaux,Rejeté,15
+2017-10-11,LR,F,anciens,Adopté,3
+2017-10-11,LR,F,anciens,Non soutenu,13
+2017-10-11,LR,F,anciens,Rejeté,34
+2017-10-11,LR,F,anciens,Retiré,6
+2017-10-11,LR,F,anciens,Tombe,1
+2017-10-11,LR,F,nouveaux,Irrecevable,2
+2017-10-11,LR,F,nouveaux,Non soutenu,9
+2017-10-11,LR,F,nouveaux,Rejeté,5
+2017-10-11,LR,F,nouveaux,Retiré,1
+2017-10-11,LR,F,nouveaux,Tombe,3
+2017-10-11,LR,H,anciens,Adopté,1
+2017-10-11,LR,H,anciens,Indéfini,1
+2017-10-11,LR,H,anciens,Non soutenu,40
+2017-10-11,LR,H,anciens,Rejeté,43
+2017-10-11,LR,H,anciens,Retiré,2
+2017-10-11,LR,H,anciens,Tombe,28
+2017-10-11,LR,H,nouveaux,Indéfini,1
+2017-10-11,LR,H,nouveaux,Non soutenu,5
+2017-10-11,LR,H,nouveaux,Rejeté,3
+2017-10-11,LR,H,nouveaux,Retiré,2
+2017-10-11,LR,H,nouveaux,Tombe,9
+2017-10-11,LREM,F,nouveaux,Adopté,8
+2017-10-11,LREM,F,nouveaux,Retiré,6
+2017-10-11,LREM,F,nouveaux,Tombe,2
+2017-10-11,LREM,H,anciens,Adopté,23
+2017-10-11,LREM,H,anciens,Non soutenu,4
+2017-10-11,LREM,H,anciens,Rejeté,8
+2017-10-11,LREM,H,anciens,Retiré,6
+2017-10-11,LREM,H,nouveaux,Adopté,2
+2017-10-11,LREM,H,nouveaux,Non soutenu,2
+2017-10-11,LREM,H,nouveaux,Rejeté,1
+2017-10-11,LREM,H,nouveaux,Retiré,4
+2017-10-11,MODEM,F,nouveaux,Retiré,2
+2017-10-11,MODEM,H,nouveaux,Adopté,3
+2017-10-11,MODEM,H,nouveaux,Non soutenu,4
+2017-10-11,MODEM,H,nouveaux,Rejeté,12
+2017-10-11,MODEM,H,nouveaux,Retiré,6
+2017-10-11,MODEM,H,nouveaux,Tombe,1
+2017-10-11,NG,F,anciens,Non soutenu,1
+2017-10-11,NG,F,anciens,Rejeté,5
+2017-10-11,NG,F,anciens,Retiré,4
+2017-10-11,NG,H,anciens,Indéfini,1
+2017-10-11,NG,H,anciens,Irrecevable,1
+2017-10-11,NG,H,anciens,Non soutenu,6
+2017-10-11,NG,H,anciens,Rejeté,15
+2017-10-11,NG,H,nouveaux,Non soutenu,1
+2017-10-11,NI,F,nouveaux,Indéfini,1
+2017-10-11,NI,F,nouveaux,Irrecevable,3
+2017-10-11,NI,F,nouveaux,Tombe,15
+2017-10-11,NI,H,anciens,Non soutenu,1
+2017-10-11,NI,H,nouveaux,Rejeté,11
+2017-10-11,NI,H,nouveaux,Retiré,3
+2017-10-16,GDR,H,anciens,Indéfini,3
+2017-10-16,GDR,H,nouveaux,Indéfini,49
+2017-10-16,GDR,H,nouveaux,Irrecevable,6
+2017-10-16,LC,F,anciens,Indéfini,8
+2017-10-16,LC,F,anciens,Irrecevable,4
+2017-10-16,LC,F,nouveaux,Indéfini,18
+2017-10-16,LC,F,nouveaux,Irrecevable,3
+2017-10-16,LC,F,nouveaux,Retiré,1
+2017-10-16,LC,H,anciens,Indéfini,60
+2017-10-16,LC,H,anciens,Irrecevable,13
+2017-10-16,LC,H,nouveaux,Indéfini,6
+2017-10-16,LC,H,nouveaux,Irrecevable,3
+2017-10-16,LC,H,nouveaux,Retiré,1
+2017-10-16,LFI,F,nouveaux,Indéfini,29
+2017-10-16,LFI,F,nouveaux,Irrecevable,9
+2017-10-16,LFI,H,nouveaux,Indéfini,43
+2017-10-16,LFI,H,nouveaux,Irrecevable,11
+2017-10-16,LR,F,anciens,Indéfini,51
+2017-10-16,LR,F,anciens,Irrecevable,12
+2017-10-16,LR,F,nouveaux,Indéfini,19
+2017-10-16,LR,F,nouveaux,Irrecevable,6
+2017-10-16,LR,H,anciens,Indéfini,206
+2017-10-16,LR,H,anciens,Irrecevable,53
+2017-10-16,LR,H,nouveaux,Indéfini,55
+2017-10-16,LR,H,nouveaux,Irrecevable,15
+2017-10-16,LREM,F,anciens,Indéfini,1
+2017-10-16,LREM,F,nouveaux,Indéfini,24
+2017-10-16,LREM,F,nouveaux,Irrecevable,5
+2017-10-16,LREM,H,anciens,Indéfini,47
+2017-10-16,LREM,H,anciens,Irrecevable,10
+2017-10-16,LREM,H,anciens,Retiré,1
+2017-10-16,LREM,H,nouveaux,Indéfini,23
+2017-10-16,LREM,H,nouveaux,Irrecevable,11
+2017-10-16,MODEM,F,nouveaux,Indéfini,11
+2017-10-16,MODEM,F,nouveaux,Irrecevable,6
+2017-10-16,MODEM,F,nouveaux,Retiré,1
+2017-10-16,MODEM,H,nouveaux,Indéfini,17
+2017-10-16,MODEM,H,nouveaux,Irrecevable,6
+2017-10-16,NG,F,anciens,Indéfini,41
+2017-10-16,NG,F,anciens,Irrecevable,3
+2017-10-16,NG,F,nouveaux,Irrecevable,1
+2017-10-16,NG,H,anciens,Indéfini,46
+2017-10-16,NG,H,anciens,Irrecevable,7
+2017-10-16,NI,F,anciens,Indéfini,14
+2017-10-16,NI,F,anciens,Irrecevable,2
+2017-10-16,NI,F,nouveaux,Indéfini,11
+2017-10-16,NI,F,nouveaux,Irrecevable,2
+2017-10-16,NI,H,anciens,Indéfini,3
+2017-10-16,NI,H,anciens,Irrecevable,1
+2017-10-16,NI,H,nouveaux,Indéfini,9
+2017-10-16,NI,H,nouveaux,Irrecevable,1
