@@ -362,7 +362,7 @@ new Vue({
       }, {
         id: "renouveau",
         name: "Ancienneté",
-        icon: "person_outline",
+        icon: "person",
         selected: "total",
         filters: [{
           id: "total",
@@ -425,7 +425,6 @@ new Vue({
     }],
     help: false,
     data: [],
-    curData: [],
     prop: false,
     unit: "mots",
     hoverDate: "",
@@ -440,23 +439,6 @@ new Vue({
       d.total = +d.total;
       return d;
     }, this.initData);
-    /*
-    var last; 
-      var key;
-      for (var i=1, n=columns.length; i<n; i++) {
-        key = columns[i].replace(/_[^_]*$/, "");
-        d[columns[i]] = +d[columns[i]];
-        d[columns[i]+"_cumul"] = d[columns[i]] + (last ? last[columns[i]+"_cumul"] : 0);
-        d[key] = (d[key] || 0) + d[columns[i]];
-        d[key+"_cumul"] = (d[key+"_cumul"] || 0) + d[columns[i]+"_cumul"];
-      }
-      for (var i=1, n=columns.length; i<n; i++) {
-        key = columns[i].replace(/_[^_]*$/, "");
-        d[columns[i]+"_prop"] = (d[key] ? d[columns[i]] / d[key] : 0);
-        d[columns[i]+"_cumul_prop"] = (d[key+"_cumul"] ? d[columns[i]+"_cumul"] / d[key+"_cumul"] : 0);
-      }
-      last = d;
-    */
   },
   methods: {
     onResize: function() {
@@ -467,63 +449,58 @@ new Vue({
       if (filterId === true) return;
       var update = false;
       this.menus.filter(function(m) { return m.id === menuId; })
-       .forEach(function(m) {
-        if (m.multi || m.filters) {
+      .forEach(function(m) {
+        if (m.multi || m.filters)
           m.options.filter(function(o) { return o.id === optionId;})
-           .forEach(function(o) {
+          .forEach(function(o) {
             o.selected = filterId || !o.selected;
             update = true;
-           });
-        } else if (m.selected !== optionId) {
+          });
+        else if (m.selected !== optionId) {
           m.selected = optionId;
           update = true;
         }
-       });
+      });
       if (update) window.location.hash = this.menus.map(function(m) {
-        return m.id + "=" + ( m.multi ?
+        return m.id + "=" + (m.multi ?
           m.options.filter(function(o) { return o.selected; })
-            .map(function(o) { return o.id; })
-            .join(",") :
-          (m.filters ?
-            m.options.filter(function(o) {
-              return o.selected !== "total";
-            }).map(function(o) {
-              return o.id + ":" + o.selected;
-            }).join(",") :
-            m.selected
+          .map(function(o) { return o.id; }) :
+          (!m.filters ? m.selected :
+            m.options.filter(function(o) { return o.selected !== "total"; })
+            .map(function(o) { return o.id + ":" + o.selected; })
           )
-        );
+        ).join(",");
       }).filter(function(d) { return /=./.test(d); })
       .join("&");
     },
     readUrl: function() {
-      var urlArgs = window.location.hash.slice(1).split(/&/),
-        el, el2;
-      this.menus[2].options.forEach(function(o) {
-        o.selected = "total";
-      });
+      var el, el2,
+        urlArgs = window.location.hash.slice(1).split(/&/);
+      this.menus[2].options.forEach(function(o) { o.selected = "total"; });
       for (var i=0, n=urlArgs.length; i<n; i++) {
         el = urlArgs[i].split(/=/);
-        this.menus
-          .filter(function(m) { return m.id === el[0]; })
-          .forEach(function(m) {
-            if (m.multi)
-              m.options.forEach(function(o) { o.selected = !!~el[1].indexOf(o.id); });
-            else if (m.filters)
-              el[1].split(/,/).forEach(function(e) {
-                el2 = e.split(/:/);
-                m.options
-                 .filter(function(o) { return o.id === el2[0]; })
-                 .forEach(function(o) { o.selected = el2[1]; });
-              });
-            else m.selected = el[1];
+        this.menus.filter(function(m) { return m.id === el[0]; })
+        .forEach(function(m) {
+          if (m.multi) m.options.forEach(function(o) { o.selected = !!~el[1].indexOf(o.id); });
+          else if (m.filters) el[1].split(/,/).forEach(function(e) {
+            el2 = e.split(/:/);
+            m.options.filter(function(o) { return o.id === el2[0]; })
+            .forEach(function(o) { o.selected = el2[1]; });
           });
+          else m.selected = el[1];
+        });
       }
     },
     initData: function(data, error) {
       if (error) throw error;
       this.data = data;
       this.timeExtent = d3.extent(data, function(d) { return d.Date; });
+      this.timeRange = d3.timeDay.range(this.timeExtent[0], this.timeExtent[1]).map(function(x) {
+        return {
+          Date: x,
+          date: d3.timeFormat("%Y-%m-%d")(x)
+        };
+      });
       this.readUrl();
     },
     updateView: function() {
@@ -531,6 +508,7 @@ new Vue({
       this.drawChart();
     },
     drawChart: function() {
+      // Read options
       var activity = this.menus[0].selected,
         facet = this.menus[1].selected,
         views = [""].concat(
@@ -539,44 +517,59 @@ new Vue({
           .map(function(o) { return o.id; })
         ).join("_"),
         colors = {},
-        data = null;
+        cumul = /cumul/.test(views) ? "_cumul" : "";
+      this.prop = /prop/.test(views);
+      this.views = views;
 
-      var filters = this.menus[2].options.filter(function(filter) {
-        return (!filter.only || filter.only === activity) &&
-          filter.id !== facet && filter.selected !== "total";
-      }).map(function(filter) {
-        return [filter.id, filter.selected];
-      });
+      // Prepare legend & keys
+      this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
+      this.legende.forEach(function(k) { colors[k.id] = k.color; });
+      var keys = this.legende.map(function(k) { return k.id; });
+      if (facet === "groupes") keys.reverse();
+      var stack = d3.stack().keys(keys.map(function(k) { return k + views; }));
 
-      var data = d3.nest()
+      // Agregate and filter data
+      var hashdata = {},
+        filters = this.menus[2].options.filter(function(filter) {
+          return (!filter.only || filter.only === activity) &&
+            filter.id !== facet && filter.selected !== "total";
+        });
+      d3.nest()
       .key(function(d) { return d.date; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
-      .entries(this.data.filter(function(d) {
-        return filters.every(function(f) {
-          return d[f[0]] === f[1];
-        });
-      })).map(function(k){
-        var o = {date: k.key, Date: new Date(k.key)};
+      .entries(this.data.filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); }))
+      .forEach(function(k) {
+        hashdata[k.key] = {};
         k.values.forEach(function(v) {
-          o[v.key] = v.value;
+          hashdata[k.key][v.key] = v.value;
         });
-        return o;
       });
-      this.curData = data;
 
-      this.legende = this.menus[1].options.filter(function(f) {
-        return facet === f.id;
-      })[0].legende;
-      this.legende.forEach(function(k) {
-        colors[k.id] = k.color;
+      // Build all dates data with cumul & prop
+      var last = {}, data = [];
+      this.timeRange.forEach(function(d) {
+        var o = {
+          date: d.date,
+          Date: d.Date,
+          sum: 0,
+          sum_cumul: 0
+        };
+        keys.forEach(function(k) {
+          o[k] = (hashdata[d.date] || {})[k] || 0;
+          o.sum += o[k];
+          o[k+"_cumul"] = o[k] + (last[k+"_cumul"] || 0);
+          o.sum_cumul += o[k+"_cumul"];
+        });
+        keys.forEach(function(k) {
+          o[k+"_prop"] = (o.sum ? o[k] / o.sum : 0);
+          o[k+"_cumul_prop"] = (o.sum_cumul ? o[k+"_cumul"] / o.sum_cumul : 0);
+        });
+        data.push(o);
+        last = o;
       });
-      var keys = this.legende.map(function(k) {
-        return k.id;
-      });
-      if (facet === "groupes") keys.reverse();
-      this.prop = /prop/.test(views);
-
+      
+      // Setup dimensions
       var margin = {top: 50, right: 80, bottom: 140, left: 80},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
@@ -584,79 +577,79 @@ new Vue({
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
         xScale = d3.scaleTime().range([0, width]).domain(this.timeExtent).nice(),
-        yScale = d3.scaleLinear().range([height, 0]);
-
-      if (!this.prop)
-        yScale.domain([0, d3.max(data, function(d) { return d3.sum(keys, function(k) { return d[k] || 0; }); })]);
-
-      d3.select("svg g").remove();
-      var g = svg.append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
-        stack = d3.stack().keys(keys),
+        yScale = d3.scaleLinear().range([height, 0]),
         oneday = width / (xScale.domain()[1] - xScale.domain()[0]) * 86400000;
+      if (!this.prop)
+        yScale.domain([0, d3.max(data, function(d) { return d["sum"+cumul]; })]);
 
+      // Prepare svg
+      d3.select("svg g").remove();
+      var g = d3.select("svg")
+      .attr("width", svgW)
+      .attr("height", svgH)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      // Draw histogram
       g.append("g")
         .selectAll("g")
         .data(stack(data))
         .enter().append("g")
-          .attr("fill", function(d) {
-            return colors[d.key];
-          })
-        .selectAll("rect")
-        .data(function(d) { return d; })
-        .enter().append("rect")
-          .attr("x", function(d) { return xScale(d.data.Date); })
-          .attr("y", function(d) { return yScale(d[1]) || 0; })
-          .attr("width", oneday - 0.5)
-          .attr("height", function(d) { return Math.max(0, (yScale(d[0]) - yScale(d[1]) - 0.5) || 0); });
+          .attr("fill", function(d) { return colors[d.key.replace(/_.*$/, "")] || "grey"; })
+          .selectAll("rect")
+          .data(function(d) { return d; })
+          .enter().append("rect")
+            .attr("x", function(d) { return xScale(d.data.Date); })
+            .attr("y", function(d) { return yScale(d[1]); })
+            .attr("width", oneday - 0.5)
+            .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
 
+      // Draw axis
       g.append("g")
         .attr("class", "axis axis--x")
         .attr("transform", "translate(0," + (height) + ")")
         .call(d3.axisBottom(xScale).ticks(Math.floor(width / 175), d3.timeFormat("%d %b %y")));
 
+      // Draw tooltips surfaces
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(d3.timeDay.range(this.timeExtent[0], this.timeExtent[1]).map(function(x) { return {date: x, iso: d3.timeFormat("%Y-%m-%d")(x)}; }))
+        .data(data)
         .enter().append("rect")
           .classed("tooltip", true)
-          .attr("x", function(d) { return xScale(d.date); })
+          .attr("x", function(d) { return xScale(d.Date); })
           .attr("y", yScale.range()[1])
           .attr("width", oneday)
           .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", function(x, idx, rects) {
+          .on("mouseover", function(d, idx, rects) {
             d3.select(rects[idx]).style("fill-opacity", 0.15);
           })
           .on("mousemove", this.displayTooltip)
-          .on("mouseleave", function(x, idx, rects) {
+          .on("mouseleave", function(d, idx, rects) {
             d3.select(rects[idx]).style("fill-opacity", 0);
-            d3.select(".tooltipBox")
-             .style("display", "none");
-          })
+            d3.select(".tooltipBox").style("display", "none");
+          });
 
       this.resizing = null;
     },
-    displayTooltip: function(x) {
-      this.hoverDate = d3.timeFormat("%d %B %Y")(x.date);
-      var tot = 0,
-        dt = this.curData.filter(function(d) { return d.date === x.iso; });
-      dt = (dt.length ? dt[0] : {});
+    displayTooltip: function(d) {
+      this.hoverDate = d3.timeFormat("%d %B %Y")(d.Date);
+      var tot = 0;
       for (var i=0, n=this.legende.length; i<n; i++) {
-        this.legende[i].value = d3.format((this.prop ? ".2%" : ","))
-          (dt[this.legende[i].id] || 0);
-        tot += dt[this.legende[i].id] || 0;
+        var leg = this.legende[i];
+        leg.value = d3.format(this.prop ? ".2%" : ",")(d[leg.id + this.views]);
+        tot += d[leg.id + this.views];
       }
       d3.select(".tooltipBox")
-       .style("left", d3.event.pageX - 100 + "px")
-       .style("top", d3.event.pageY + 30 + "px")
-       .style("display", (tot ? "block" : "none"));
+      .style("left", d3.event.pageX - 100 + "px")
+      .style("top", d3.event.pageY + 30 + "px")
+      .style("display", (tot ? "block" : "none"));
     }
   }
 });
 /* TODO
-- reactive prop/cumul
 - button clear filters
 - adjust time bin
+- adjust color/icons
 - add activities (amdmts, PPL, QE)
 - add other legislatures
 - add splitted view
