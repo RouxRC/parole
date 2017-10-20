@@ -47,6 +47,14 @@ html {
 .application .selected .theme--light.switch.input-group--disabled .input-group--selection-controls__toggle {
   color: #f44336!important;
 }
+.input-group.input-group--dirty.input-group--hide-details.radio-group.radio-group--row {
+  padding: 0;
+}
+.application--dark .input-group.radio:not(.input-group--error) label {
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-left: -5px
+}
 .axis path, .axis line {
   stroke: grey;
 }
@@ -123,12 +131,12 @@ rect.tooltip {
           :key="item.id"
           :disabled="list.selected === item.id"
           :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && item.selected === 'total'}"
-          @click="selectOption(item.id, list.id, list.filters)"
+          @click="selectOption(item.id, list.id, list.filters || !!item.choices)"
         >
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
-          <v-list-tile-content>
+          <v-list-tile-content v-if="!item.choices">
             <v-list-tile-title v-if="!item.filters">
               {{ item.name }}
             </v-list-tile-title>
@@ -142,7 +150,11 @@ rect.tooltip {
               @change="selectOption(item.id, list.id, $event)"
             ></v-select>
           </v-list-tile-content>
-          <v-list-tile-action v-if="list.multi">
+          <v-radio-group v-else row hide-details v-model="item.selected"
+              @change="selectOption(item.id, list.id, $event)">
+            <v-radio small color="red" v-for="c in item.choices" :label="c" :value="c"></v-radio>
+          </v-radio-group>
+          <v-list-tile-action v-if="list.multi && !item.choices">
             <v-switch v-model="item.selected" light disabled></v-switch>
           </v-list-tile-action>
         </v-list-tile>
@@ -212,6 +224,17 @@ d3.timeFormatDefaultLocale({
   "months": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
   "shortMonths": ["Janv.", "Févr.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."]
 });
+
+d3.isoDate = function(d) { return d3.timeFormat("%Y-%m-%d")(d); };
+d3.weekize = function(d) {
+  var dt = new Date(d - 86400000 * (d.getDay()-1));
+  return d3.isoDate(dt);
+};
+d3.monthize = function(d) {
+  var dt = new Date(d);
+  dt.setDate(1);
+  return d3.isoDate(dt);
+};
 
 new Vue({
   el: "#parole",
@@ -498,6 +521,11 @@ new Vue({
         name: "Proportionnel",
         icon: "dashboard",
         selected: false
+      }, {
+        id: "temps",
+        icon: "date_range",
+        selected: "jours",
+        choices: ["jours", "sems", "mois"]
       }]
     }],
     help: false,
@@ -550,7 +578,7 @@ new Vue({
       window.location.hash = this.menus.map(function(m) {
         return m.id + "=" + (m.multi ?
           m.options.filter(function(o) { return o.selected; })
-          .map(function(o) { return o.id; }) :
+          .map(function(o) { return o.id + (o.choices ? ":"+o.selected : ""); }) :
           (!m.filters ? [m.selected] :
             m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === act); })
             .map(function(o) { return o.id + ":" + o.selected; })
@@ -569,7 +597,9 @@ new Vue({
         el = urlArgs[i].split(/=/);
         this.menus.filter(function(m) { return m.id === el[0]; })
         .forEach(function(m) {
-          if (m.multi) m.options.forEach(function(o) { o.selected = !!~el[1].indexOf(o.id); });
+          if (m.multi) m.options.forEach(function(o) {
+            o.selected = (o.choices ? el[1].replace(/^.*temps:([^,&]+)*$/, "$1") : !!~el[1].indexOf(o.id));
+          });
           else if (m.filters) el[1].split(/,/).forEach(function(e) {
             el2 = e.split(/:/);
             m.options.filter(function(o) { return o.id === el2[0]; })
@@ -590,6 +620,9 @@ new Vue({
         this.selectOption(gpes.options[0].id, gpes.id);
       d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
         d.Date = new Date(d.date);
+        d.jours = d.date;
+        d.sems = d3.weekize(d.Date);
+        d.mois = d3.monthize(d.Date);
         d.total = +d.total;
         return d;
       }, this.initData);
@@ -598,13 +631,6 @@ new Vue({
       if (error) throw error;
       this.data = data;
       this.timeExtent = d3.extent(data, function(d) { return d.Date; });
-      this.timeExtent[0].setDate(this.timeExtent[0].getDate()-1);
-      this.timeRange = d3.timeDay.range(this.timeExtent[0], this.timeExtent[1]).map(function(x) {
-        return {
-          Date: x,
-          date: d3.timeFormat("%Y-%m-%d")(x)
-        };
-      });
       this.drawChart();
     },
     updateView: function() {
@@ -612,14 +638,16 @@ new Vue({
       this.drawChart();
     },
     drawChart: function() {
+      if (!this.data) return;
       // Read options
       var activity = this.menus[0].selected,
         facet = this.menus[1].selected,
         views = [""].concat(
           this.menus[3].options
-          .filter(function(o) { return o.selected; })
+          .filter(function(o) { return o.selected && !o.choices; })
           .map(function(o) { return o.id; })
         ).join("_"),
+        temps = this.menus[3].options[2].selected,
         colors = {},
         cumul = /cumul/.test(views) ? "_cumul" : "";
       this.prop = /prop/.test(views);
@@ -640,7 +668,7 @@ new Vue({
             filter.id !== facet && filter.selected !== "total";
         });
       d3.nest()
-      .key(function(d) { return d.date; })
+      .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
       .entries(this.data.filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); }))
@@ -652,10 +680,23 @@ new Vue({
       });
 
       // Build all dates data with cumul & prop
-      var last = {}, data = [];
-      this.timeRange.forEach(function(d) {
+      var last = {},
+        data = [],
+        start = new Date(this.timeExtent[0]),
+        end = new Date(this.timeExtent[1]);
+      start.setDate(start.getDate() - (temps === "jours" ? 1 : (temps === "sems" ? 6 : 28)));
+      d3.timeDay.range(start, end)
+      .filter(function(d) {
+        console.log(d)
+        return temps === "jours" || (temps === "sems" && d.getDay() == 1) || (temps === "mois" && d.getDate() == 1);
+      }).map(function(d) {
+        return {
+          Date: d,
+          date: d3.isoDate(d)
+        };
+      }).forEach(function(d) {
         var o = {
-          date: d.date,
+          date: d[temps],
           Date: d.Date,
           sum: 0,
           sum_cumul: 0
@@ -681,9 +722,10 @@ new Vue({
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
-        xScale = d3.scaleTime().range([0, width]).domain(this.timeExtent).nice(),
+        xScale = d3.scaleTime().range([0, width]).domain([start, end]).nice(),
         yScale = d3.scaleLinear().range([height, 0]),
-        oneday = width / (xScale.domain()[1] - xScale.domain()[0]) * 86400000;
+        oneday = width / (xScale.domain()[1] - xScale.domain()[0]) * 86400000,
+        timeWidth = oneday * (temps === "jours" ? 1 : (temps === "sems" ? 7 : 30));
       if (!this.prop)
         yScale.domain([0, d3.max(data, function(d) { return d["sum"+cumul]; })]);
 
@@ -706,7 +748,7 @@ new Vue({
           .enter().append("rect")
             .attr("x", function(d) { return xScale(d.data.Date); })
             .attr("y", function(d) { return yScale(d[1]); })
-            .attr("width", oneday - 0.5)
+            .attr("width", function(d) { return Math.min(width - xScale(d.data.Date), timeWidth) - 0.5; })
             .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
 
       // Draw axis
@@ -723,7 +765,7 @@ new Vue({
           .classed("tooltip", true)
           .attr("x", function(d) { return xScale(d.Date); })
           .attr("y", yScale.range()[1])
-          .attr("width", oneday)
+          .attr("width", function(d) { return Math.min(width - xScale(d.Date), timeWidth); })
           .attr("height", yScale.range()[0] - yScale.range()[1])
           .on("mouseover", function(d, idx, rects) {
             d3.select(rects[idx]).style("fill-opacity", 0.15);
@@ -752,10 +794,10 @@ new Vue({
   }
 });
 /* TODO
-- add loader
 - cache downloaded/computed data
-- adjust time bin
 - adjust color/icons
+- adjust tooltips weeks
+- fix month width
 - add activities (PPL, QE)
 - add filter cumul ?
 - add other legislatures
