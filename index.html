@@ -687,7 +687,6 @@ new Vue({
       start.setDate(start.getDate() - (temps === "jours" ? 1 : (temps === "sems" ? 6 : 28)));
       d3.timeDay.range(start, end)
       .filter(function(d) {
-        console.log(d)
         return temps === "jours" || (temps === "sems" && d.getDay() == 1) || (temps === "mois" && d.getDate() == 1);
       }).map(function(d) {
         return {
