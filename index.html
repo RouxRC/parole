@@ -679,7 +679,7 @@ new Vue({
       var last = {},
         data = [],
         start = this.data[0].date,
-        end = this.data[this.data.length - 1].date;
+        end = new Date(this.data[this.data.length - 1].date);
       end.setDate(end.getDate() + 1);
       d3.timeDay.range(start, end)
       .filter(function(d, idx) {
