@@ -531,7 +531,7 @@ new Vue({
       }]
     }],
     help: false,
-    data: null,
+    data: {},
     prop: false,
     unit: "mots",
     filters: null,
@@ -552,7 +552,6 @@ new Vue({
     },
     selectOption: function(optionId, menuId, filterId) {
       if (filterId === true) return;
-      this.oldactivity = ""+this.menus[0].selected;
       this.menus.filter(function(m) { return m.id === menuId; })
       .forEach(function(m) {
         if (m.multi || m.filters)
@@ -611,7 +610,7 @@ new Vue({
         facet = this.menus[1].selected;
       this.unit = this.menus[0].options.filter(function(o) { return activity === o.id; })[0].unit;
       this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
-      if (this.oldactivity !== activity || !this.data) {
+      if (!this.data[activity]) {
         d3.select("svg g").remove();
         d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
           d.date = new Date(d.date);
@@ -623,12 +622,12 @@ new Vue({
           return d;
         }, this.drawChart);
       } else this.$nextTick(this.drawChart);
-      this.oldactivity = ""+activity;
     },
-    drawChart: function(data, error) {
+    drawChart: function(loadedData, error) {
       // Handle ajax result
       if (error) throw error;
-      if (data) this.data = data;
+      var activity = this.menus[0].selected;
+      if (loadedData) this.data[activity] = loadedData;
 
       // Clear unavailable facet choice
       var facets = this.menus[1],
@@ -639,8 +638,7 @@ new Vue({
       }
 
       // Read options
-      var activity = this.menus[0].selected,
-        facet = facets.selected,
+      var facet = facets.selected,
         views = [""].concat(
           this.menus[3].options
           .filter(function(o) { return o.selected && !o.choices; })
@@ -667,7 +665,7 @@ new Vue({
       .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
-      .entries(this.data.filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); }))
+      .entries(this.data[activity].filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); }))
       .forEach(function(k) {
         hashdata[k.key] = {};
         k.values.forEach(function(v) {
@@ -678,8 +676,8 @@ new Vue({
       // Build all dates data with cumul & prop
       var last = {},
         data = [],
-        start = this.data[0].date,
-        end = new Date(this.data[this.data.length - 1].date);
+        start = this.data[activity][0].date,
+        end = new Date(this.data[activity][this.data[activity].length - 1].date);
       end.setDate(end.getDate() + 1);
       d3.timeDay.range(start, end)
       .filter(function(d, idx) {
@@ -794,7 +792,6 @@ new Vue({
 });
 /* TODO
 - adjust color/icons
-- cache downloaded/computed data
 - add activities (PPL, QE)
 - add filter cumul ?
 - add other legislatures
