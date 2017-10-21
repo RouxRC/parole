@@ -175,7 +175,7 @@ rect.tooltip {
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
           <div class="btn__content">
             <span>{{ option.name || option.id }}</span>
-            <span v-if="option.value"><small>{{ option.value }}&nbsp;{{ unit }}</small></span>
+            <span v-if="showValues && option.value"><small>{{ option.value }}&nbsp;{{ unit }}</small></span>
           </div>
         </button>
       </div></center>
@@ -536,6 +536,7 @@ new Vue({
     unit: "mots",
     filters: null,
     hoverDate: "",
+    showValues: false,
     legende: [],
     resizing: null
   },
@@ -764,19 +765,15 @@ new Vue({
           .attr("y", yScale.range()[1])
           .attr("width", xWidth)
           .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", function(d, idx, rects) {
-            d3.select(rects[idx]).style("fill-opacity", 0.15);
-          })
+          .on("mouseover", function(d, idx, rects) { d3.select(rects[idx]).style("fill-opacity", 0.15); })
           .on("mousemove", this.displayTooltip)
-          .on("mouseleave", function(d, idx, rects) {
-            d3.select(rects[idx]).style("fill-opacity", 0);
-            d3.select(".tooltipBox").style("display", "none");
-          });
+          .on("mouseleave", this.clearTooltip);
 
       this.resizing = null;
     },
     displayTooltip: function(d) {
       this.hoverDate = d.legend;
+      this.showValues = true;
       var tot = 0;
       for (var i=0, n=this.legende.length; i<n; i++) {
         var leg = this.legende[i];
@@ -787,6 +784,11 @@ new Vue({
       .style("left", d3.event.pageX - 50 + "px")
       .style("top", d3.event.pageY - 50 + "px")
       .style("display", (tot ? "block" : "none"));
+    },
+    clearTooltip: function(d, idx, rects) {
+      this.showValues = false;
+      d3.select(rects[idx]).style("fill-opacity", 0);
+      d3.select(".tooltipBox").style("display", "none");
     }
   }
 });
