@@ -720,7 +720,7 @@ new Vue({
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 20,
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
-        xScale = d3.scaleTime().range([0, width]).domain([start, end]).nice(),
+        xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
         xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d); },
         yScale = d3.scaleLinear().range([height, 0]);
