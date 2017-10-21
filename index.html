@@ -9,7 +9,10 @@
 html {
   overflow: hidden;
 }
-.navigation-drawer--permanent.navigation-drawer--clipped, .navigation-drawer--permanent.navigation-drawer--floating, .navigation-drawer--persistent.navigation-drawer--clipped, .navigation-drawer--persistent.navigation-drawer--floating {
+aside {
+  height: 100%;
+}
+.navigation-drawer--permanent.navigation-drawer--clipped {
   max-height: calc(100vh);
 }
 .btn--floating.btn--small .icon {
@@ -63,13 +66,15 @@ html {
   font-size: 14px;
   font-family: Roboto;
 }
-.legende {
-  position: relative;
-  bottom: 90px;
-}
 .legende button {
   color: black!important;
   font-weight: bold;
+  height: 50px;
+  min-width: 125px;
+  padding: 2px;
+}
+.legende button div {
+  display: grid;
 }
 rect.tooltip {
   fill: black;
@@ -81,23 +86,13 @@ rect.tooltip {
   border-radius: 5px;
   color: black;
   display: none;
-  min-width: 200px;
+  min-width: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 7px;
+  padding: 5px;
   font-size: 14px;
   z-index: 1000;
-}
-.tooltipBox table {
-  margin: auto;
-  width: 100%;
-}
-.tooltipBox tr td:first-child {
-  font-weight: bold;
-}
-.tooltipBox tr td:last-child {
-  text-align: right;
 }
 .dialog a, .dialog a:visited {
   color: grey;
@@ -110,8 +105,8 @@ rect.tooltip {
 </head>
 <body>
   <div id="parole">
-  <v-app dark toolbar v-resize="onResize">
-    <v-navigation-drawer permanent clipped absolute>
+  <v-app dark toolbar>
+    <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
       <v-list dense
         v-for="list in menus"
         :key="list.id"
@@ -159,7 +154,8 @@ rect.tooltip {
           </v-list-tile-action>
         </v-list-tile>
       </v-list>
-    </v-navigation-drawer>
+      <div class="navigation-drawer__border"></div>
+    </aside>
     <v-toolbar class="red" fixed>
       <v-toolbar-title>
         <a href="https://www.RegardsCitoyens.org" target="_blank" class="avatar mr-3">
@@ -173,23 +169,17 @@ rect.tooltip {
       </v-btn>
     </v-toolbar>
     <main>
-      <svg></svg>
+      <svg width=0 height=6000></svg>
       <center><div class="legende">
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
-          <div class="btn__content">{{ option.name || option.id }}</div>
+          <div class="btn__content">
+            <span>{{ option.name || option.id }}</span>
+            <span v-if="option.value"><small>{{ option.value }}&nbsp;{{ unit }}</small></span>
+          </div>
         </button>
       </div></center>
     </main>
-    <div class="tooltipBox">
-      <center><b>{{ hoverDate }}</b></center>
-      <hr/>
-      <table>
-        <tr v-for="option in legende">
-          <td>{{ (option.name || option.id).replace(/ /g, "&nbsp;") }}&nbsp;:</td>
-          <td>{{ (option.value || "").replace(/ /g, "&nbsp;") }}&nbsp;{{ unit }}</td>
-        </tr>
-      </table>
-    </div>
+    <div class="tooltipBox"><center><b>{{ hoverDate }}</b></center></div>
     <v-dialog v-model="help" width="33%">
       <v-card>
         <v-card-title class="headline">Parole <small>&nbsp;&nbsp;par&nbsp;<a href="https://www.regardscitoyens.org" target="_blank">Regards Citoyens</a></small></v-card-title>
@@ -225,15 +215,15 @@ d3.timeFormatDefaultLocale({
   "shortMonths": ["Janv.", "Févr.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."]
 });
 
-d3.isoDate = function(d) { return d3.timeFormat("%Y-%m-%d")(d); };
-d3.weekize = function(d) {
+d3.iso_jours = function(d) { return d3.timeFormat("%Y-%m-%d")(d); };
+d3.iso_sems = function(d) {
   var dt = new Date(d - 86400000 * (d.getDay()-1));
-  return d3.isoDate(dt);
+  return d3.iso_jours(dt);
 };
-d3.monthize = function(d) {
+d3.iso_mois = function(d) {
   var dt = new Date(d);
   dt.setDate(1);
-  return d3.isoDate(dt);
+  return d3.iso_jours(dt);
 };
 d3.nextDate = function(d, dur) {
   var dt = new Date(d);
@@ -263,7 +253,7 @@ new Vue({
         id: "amendements",
         name: "Amendements",
         icon: "spellcheck",
-        unit: "amdmts"
+        unit: "amdts"
       }]
     }, {
       id: "facet",
@@ -540,18 +530,18 @@ new Vue({
       }]
     }],
     help: false,
-    data: [],
+    data: null,
     prop: false,
     unit: "mots",
-    filters: true,
+    filters: null,
     hoverDate: "",
     legende: [],
     resizing: null
   },
   mounted: function() {
     this.readUrl();
-    this.loadData();
-    window.addEventListener("hashchange", this.updateView);
+    window.addEventListener("hashchange", this.readUrl);
+    window.addEventListener("resize", this.onResize);
   },
   watch: {
     filters: function(data) {
@@ -568,36 +558,33 @@ new Vue({
     },
     selectOption: function(optionId, menuId, filterId) {
       if (filterId === true) return;
-      var update = false;
+      this.oldactivity = ""+this.menus[0].selected;
       this.menus.filter(function(m) { return m.id === menuId; })
       .forEach(function(m) {
         if (m.multi || m.filters)
           m.options.filter(function(o) { return o.id === optionId;})
           .forEach(function(o) {
             o.selected = filterId || !o.selected;
-            update = true;
           });
         else if (m.selected !== optionId) {
           m.selected = optionId;
-          update = true;
         }
       });
-      if (update) this.updateUrl(menuId);
+      this.updateUrl();
     },
     updateUrl: function(menuId) {
-      var act = this.menus[0].selected;
+      var activity = this.menus[0].selected;
       window.location.hash = this.menus.map(function(m) {
         return m.id + "=" + (m.multi ?
           m.options.filter(function(o) { return o.selected; })
           .map(function(o) { return o.id + (o.choices ? ":"+o.selected : ""); }) :
           (!m.filters ? [m.selected] :
-            m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === act); })
+            m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === activity); })
             .map(function(o) { return o.id + ":" + o.selected; })
           )
         ).join(",");
       }).filter(function(d) { return /=./.test(d); })
       .join("&");
-      if (menuId === "activite") this.loadData();
     },
     readUrl: function() {
       var el, el2,
@@ -622,37 +609,38 @@ new Vue({
       this.filters = this.menus[2].options.some(function(o) {
         return o.selected !== "total" && o.id !== gpe;
       });
+      var activity = this.menus[0].selected,
+        facet = this.menus[1].selected;
+      this.unit = this.menus[0].options.filter(function(o) { return activity === o.id; })[0].unit;
+      this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
+      if (this.oldactivity !== activity || !this.data) this.loadData();
+      else this.$nextTick(this.drawChart);
+      this.oldactivity = ""+activity;
     },
     loadData: function() {
       d3.select("svg g").remove();
-      var gpes = this.menus[1],
-        only = gpes.options.filter(function(o) { return gpes.selected === o.id; })[0].only;
-      if (only && only !== this.menus[0].selected)
-        this.selectOption(gpes.options[0].id, gpes.id);
       d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
         d.date = new Date(d.date);
         d.date.setHours(0);
-        d.jours = d3.isoDate(d.date);
-        d.sems = d3.weekize(d.date);
-        d.mois = d3.monthize(d.date);
+        d.jours = d3.iso_jours(d.date);
+        d.sems = d3.iso_sems(d.date);
+        d.mois = d3.iso_mois(d.date);
         d.total = +d.total;
         return d;
-      }, this.initData);
+      }, this.drawChart);
     },
-    initData: function(data, error) {
+    drawChart: function(data, error) {
       if (error) throw error;
-      this.data = data;
-      this.drawChart();
-    },
-    updateView: function() {
-      this.readUrl();
-      this.drawChart();
-    },
-    drawChart: function() {
-      if (!this.data) return;
+      if (data) this.data = data;
+      var gpes = this.menus[1],
+        only = gpes.options.filter(function(o) { return gpes.selected === o.id; })[0].only;
+      if (only && only !== this.menus[0].selected) {
+        gpes.selected = gpes.options[0].id;
+        return this.updateUrl();
+      }
       // Read options
       var activity = this.menus[0].selected,
-        facet = this.menus[1].selected,
+        facet = gpes.selected,
         views = [""].concat(
           this.menus[3].options
           .filter(function(o) { return o.selected && !o.choices; })
@@ -665,12 +653,9 @@ new Vue({
       this.views = views;
 
       // Prepare legend & keys
-      this.unit = this.menus[0].options.filter(function(o) { return activity === o.id; })[0].unit;
-      this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
       this.legende.forEach(function(k) { colors[k.id] = k.color; });
       var keys = this.legende.map(function(k) { return k.id; });
       if (facet === "groupes") keys.reverse();
-      var stack = d3.stack().keys(keys.map(function(k) { return k + views; }));
 
       // Agregate and filter data
       var hashdata = {},
@@ -703,18 +688,18 @@ new Vue({
       }).map(function(d) {
         return {
           date: d,
-          jours: d3.isoDate(d),
-          sems: d3.weekize(d),
-          mois: d3.monthize(d)
+          temps: d3["iso_"+temps](d)
         };
       }).forEach(function(d) {
         var o = {
           date: d.date,
+          legend: (temps === "sems" ? "semaine du " : "") +
+            d3.timeFormat((temps !== "mois" ? "%e " : "") + "%B %Y")(d.date),
           sum: 0,
           sum_cumul: 0
         };
         keys.forEach(function(k) {
-          o[k] = (hashdata[d[temps]] || {})[k] || 0;
+          o[k] = (hashdata[d.temps] || {})[k] || 0;
           o.sum += o[k];
           o[k+"_cumul"] = o[k] + (last[k+"_cumul"] || 0);
           o.sum_cumul += o[k+"_cumul"];
@@ -728,15 +713,15 @@ new Vue({
       });
       
       // Setup dimensions
-      var margin = {top: 50, right: 80, bottom: 140, left: 80},
+      var margin = {top: 50, right: 80, bottom: 40, left: 80},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height,
+        svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 20,
         height = svgH - margin.top - margin.bottom,
         svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
         xScale = d3.scaleTime().range([0, width]).domain([start, end]).nice(),
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
-        xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d) - 0.5; },
+        xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d); },
         yScale = d3.scaleLinear().range([height, 0]);
       if (!this.prop)
         yScale.domain([0, d3.max(data, function(d) { return d["sum"+cumul]; })]);
@@ -752,7 +737,7 @@ new Vue({
       // Draw histogram
       g.append("g")
         .selectAll("g")
-        .data(stack(data))
+        .data(d3.stack().keys(keys.map(function(k) { return k + views; }))(data))
         .enter().append("g")
           .attr("fill", function(d) { return colors[d.key.replace(/_.*$/, "")] || "grey"; })
           .selectAll("rect")
@@ -760,7 +745,7 @@ new Vue({
           .enter().append("rect")
             .attr("x", xPosition)
             .attr("y", function(d) { return yScale(d[1]); })
-            .attr("width", xWidth)
+            .attr("width", function(d) { return xWidth(d) - 0.5; })
             .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
 
       // Draw axis
@@ -791,22 +776,21 @@ new Vue({
       this.resizing = null;
     },
     displayTooltip: function(d) {
-      this.hoverDate = d3.timeFormat("%d %B %Y")(d.date);
+      this.hoverDate = d.legend;
       var tot = 0;
       for (var i=0, n=this.legende.length; i<n; i++) {
         var leg = this.legende[i];
-        leg.value = d3.format(this.prop ? ".2%" : ",")(d[leg.id + this.views]);
+        leg.value = d3.format(this.prop ? ".1%" : ",")(d[leg.id + this.views]);
         tot += d[leg.id + this.views];
       }
       d3.select(".tooltipBox")
-      .style("left", d3.event.pageX - 100 + "px")
-      .style("top", d3.event.pageY + 30 + "px")
+      .style("left", d3.event.pageX - 50 + "px")
+      .style("top", d3.event.pageY - 50 + "px")
       .style("display", (tot ? "block" : "none"));
     }
   }
 });
 /* TODO
-- adjust tooltips weeks/months
 - adjust color/icons
 - cache downloaded/computed data
 - add activities (PPL, QE)
