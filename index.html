@@ -186,7 +186,7 @@ rect.tooltip {
       <table>
         <tr v-for="option in legende">
           <td>{{ (option.name || option.id).replace(/ /g, "&nbsp;") }}&nbsp;:</td>
-          <td>{{ option.value.replace(/ /g, "&nbsp;") }}&nbsp;{{ unit }}</td>
+          <td>{{ (option.value || "").replace(/ /g, "&nbsp;") }}&nbsp;{{ unit }}</td>
         </tr>
       </table>
     </div>
