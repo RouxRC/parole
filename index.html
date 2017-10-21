@@ -86,7 +86,7 @@ rect.tooltip {
   border-radius: 5px;
   color: black;
   display: none;
-  min-width: 100px;
+  min-width: 120px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -201,7 +201,7 @@ rect.tooltip {
  <script>
 d3.formatDefaultLocale({
   "decimal": ",",
-  "thousands": " ",
+  "thousands": " ",
   "grouping": [3],
   "currency": ["€", ""],
 });
@@ -714,7 +714,7 @@ new Vue({
       });
       
       // Setup dimensions
-      var margin = {top: 50, right: 80, bottom: 40, left: 80},
+      var margin = {top: 40, right: 60, bottom: 40, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 20,
@@ -781,8 +781,8 @@ new Vue({
         tot += d[leg.id + this.views];
       }
       d3.select(".tooltipBox")
-      .style("left", d3.event.pageX - 50 + "px")
-      .style("top", d3.event.pageY - 50 + "px")
+      .style("left", d3.event.pageX - 60 + "px")
+      .style("top", d3.event.pageY + 20 + "px")
       .style("display", (tot ? "block" : "none"));
     },
     clearTooltip: function(d, idx, rects) {
