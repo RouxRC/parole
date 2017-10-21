@@ -117,7 +117,8 @@ rect.tooltip {
           <v-chip small outline close class="red--text"
             v-model="filters"
             v-if="list.filters"
-            @click.native.stop="filters=false"
+            @input="clearFilters()"
+            @click="clearFilters()"
           ><small>annuler</small></v-chip>
         </v-subheader>
         <v-list-tile ripple
@@ -543,14 +544,6 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
   },
-  watch: {
-    filters: function(data) {
-      if (!data) {
-        this.menus[2].options.forEach(function(o) { o.selected = "total"; });
-        this.updateUrl();
-      }
-    }
-  },
   methods: {
     onResize: function() {
       clearTimeout(this.resizing);
@@ -572,6 +565,10 @@ new Vue({
       });
       this.updateUrl();
     },
+    clearFilters: function() {
+      this.menus[2].options.forEach(function(o) { o.selected = "total"; });
+      this.updateUrl();
+    },
     updateUrl: function(menuId) {
       var activity = this.menus[0].selected;
       window.location.hash = this.menus.map(function(m) {
@@ -588,7 +585,7 @@ new Vue({
     },
     readUrl: function() {
       var el, el2,
-        gpe = this.menus[1].selected,
+        facet = this.menus[1].selected,
         urlArgs = window.location.hash.slice(1).split(/&/);
       this.menus[2].options.forEach(function(o) { o.selected = "total"; });
       for (var i=0, n=urlArgs.length; i<n; i++) {
@@ -607,40 +604,42 @@ new Vue({
         });
       }
       this.filters = this.menus[2].options.some(function(o) {
-        return o.selected !== "total" && o.id !== gpe;
+        return o.selected !== "total" && o.id !== facet;
       });
       var activity = this.menus[0].selected,
         facet = this.menus[1].selected;
       this.unit = this.menus[0].options.filter(function(o) { return activity === o.id; })[0].unit;
       this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
-      if (this.oldactivity !== activity || !this.data) this.loadData();
-      else this.$nextTick(this.drawChart);
+      if (this.oldactivity !== activity || !this.data) {
+        d3.select("svg g").remove();
+        d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
+          d.date = new Date(d.date);
+          d.date.setHours(0);
+          d.jours = d3.iso_jours(d.date);
+          d.sems = d3.iso_sems(d.date);
+          d.mois = d3.iso_mois(d.date);
+          d.total = +d.total;
+          return d;
+        }, this.drawChart);
+      } else this.$nextTick(this.drawChart);
       this.oldactivity = ""+activity;
     },
-    loadData: function() {
-      d3.select("svg g").remove();
-      d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
-        d.date = new Date(d.date);
-        d.date.setHours(0);
-        d.jours = d3.iso_jours(d.date);
-        d.sems = d3.iso_sems(d.date);
-        d.mois = d3.iso_mois(d.date);
-        d.total = +d.total;
-        return d;
-      }, this.drawChart);
-    },
     drawChart: function(data, error) {
+      // Handle ajax result
       if (error) throw error;
       if (data) this.data = data;
-      var gpes = this.menus[1],
-        only = gpes.options.filter(function(o) { return gpes.selected === o.id; })[0].only;
+
+      // Clear unavailable facet choice
+      var facets = this.menus[1],
+        only = facets.options.filter(function(o) { return facets.selected === o.id; })[0].only;
       if (only && only !== this.menus[0].selected) {
-        gpes.selected = gpes.options[0].id;
+        facets.selected = facets.options[0].id;
         return this.updateUrl();
       }
+
       // Read options
       var activity = this.menus[0].selected,
-        facet = gpes.selected,
+        facet = facets.selected,
         views = [""].concat(
           this.menus[3].options
           .filter(function(o) { return o.selected && !o.choices; })
