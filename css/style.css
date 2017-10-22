@@ -1,0 +1,100 @@
+html {
+  overflow: hidden;
+}
+aside {
+  height: 100%;
+}
+.navigation-drawer--permanent.navigation-drawer--clipped {
+  max-height: calc(100vh);
+}
+.btn--floating.btn--small .icon {
+  font-size: 30px;
+}
+.subheader {
+  text-transform: uppercase;
+}
+.input-group__input .input-group__prepend-icon {
+  color: white!important;
+}
+.input-group__input .input-group__append-icon {
+  color: #f44336!important;
+}
+.input-group__details, .invisible {
+  display: none!important;
+}
+.menu__content {
+  max-height: 500px!important;
+}
+.chip {
+  cursor: pointer;
+}
+.input-group--select .input-group__selections__comma {
+  font-size: 14px;
+}
+.list__tile--active, .input-group.input-group--focused .input-group__append-icon, .application--dark .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active) {
+  color: #f44336;
+}
+.unselected .list__tile--active, .unselected .input-group.input-group--focused .input-group__append-icon, .application--dark .unselected .input-group.input-group--dirty .input-group__selections__comma:not(.input-group__selections__comma--active) {
+  color: white!important;
+  opacity: 0.2!important;
+}
+.input-group.input-group--text-field:not(.input-group--single-line):not(.input-group--error).input-group--focused label {
+  color: white;
+}
+.switch {
+  left: 25%;
+}
+.select, .radio-group--row {
+  padding: 0;
+}
+.application--dark .input-group.radio:not(.input-group--error) label {
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-left: -5px
+}
+.lowercase {
+  text-transform: none!important;
+}
+.axis path, .axis line {
+  stroke: grey;
+}
+.axis text {
+  fill: grey;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.legende button {
+  color: black!important;
+  font-weight: bold;
+  height: 50px;
+  min-width: 125px;
+  padding: 2px;
+}
+.legende button div {
+  display: grid;
+}
+rect.tooltip {
+  fill: black;
+  fill-opacity: 0;
+}
+.tooltipBox {
+  background: lightgrey;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  display: none;
+  min-width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px;
+  font-size: 14px;
+  z-index: 1000;
+}
+.dialog a, .dialog a:visited {
+  color: grey;
+  text-decoration: none;
+}
+.dialog a:hover, .dialog a:visited:hover {
+  text-decoration: underline;
+}
