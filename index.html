@@ -111,49 +111,44 @@ rect.tooltip {
           <v-list-tile-action><v-icon>{{ act.icon }}</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>{{ act.name }}</v-list-tile-title></v-list-tile-content>
         </v-list-tile>
-      </v-list>
-      <v-list dense
-        v-for="list in menus"
-        :key="list.id"
-      >
-        <v-subheader class="mt-3 grey--text text--darken-1">
-          {{ list.name }}
+
+        <v-subheader class="mt-3 grey--text text--darken-1">Répartition entre</v-subheader>
+        <v-list-tile ripple
+          v-for="item in facets"
+          v-if="(!item.only || item.only === activite)"
+          :disabled="facet === item.id"
+          @click="facet = item.id"
+        >
+          <v-list-tile-action><v-icon>{{ item.icon }}</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>{{ item.facetName || item.name }}</v-list-tile-title></v-list-tile-content>
+        </v-list-tile>
+
+        <v-subheader class="mt-3 grey--text text--darken-1">Filtrer par
           <v-spacer></v-spacer>
           <v-chip small outline close class="red--text"
-            v-model="filters"
-            v-if="list.filters"
+            v-model="filtered"
             @input="clearFilters()"
             @click="clearFilters()"
           ><small>annuler</small></v-chip>
         </v-subheader>
-        <v-list-tile ripple
-          v-for="item in list.options"
-          v-if="(!item.only || item.only === activite) && !(list.filters && item.id === menus[0].selected)"
-          :key="item.id"
-          :disabled="list.selected === item.id"
-          :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && item.selected === 'total'}"
-          @click="selectOption(item.id, list.id, list.filters)"
+        <v-list-tile
+          v-for="item in facets"
+          v-if="(!item.only || item.only === activite) && item.id !== facet"
+          :class="{'unselected': item.selected === 'total'}"
         >
-          <v-list-tile-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title v-if="!item.filters">
-              {{ item.name }}
-            </v-list-tile-title>
-            <v-select v-else auto
-              v-model="item.selected"
-              :label="item.name"
-              :items="item.filters"
-              item-text="name"
-              item-value="id"
-              class="input-group--focused"
-              @change="selectOption(item.id, list.id, $event)"
-            ></v-select>
+          <v-list-tile-action><v-icon>{{ item.icon }}</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-select auto
+            v-model="item.selected"
+            :label="item.filterName"
+            :items="[{id: 'total', 'name': item.filterAll}].concat(item.legende)"
+            item-text="name"
+            item-value="id"
+            class="input-group--focused"
+            @change="selectFilter(item.id, $event)"
+          ></v-select>
           </v-list-tile-content>
         </v-list-tile>
-      </v-list>
-      <v-list dense>
+
         <v-subheader class="mt-3 grey--text text--darken-1">Affichage</v-subheader>
         <v-list-tile>
           <v-list-tile-action><v-icon>timeline</v-icon></v-list-tile-action>
@@ -270,259 +265,87 @@ new Vue({
       icon: "spellcheck",
       unit: "amdts"
     }],
-    menus: [{
-      id: "facet",
-      name: "Répartition entre",
-      selected: "groupes",
-      options: [{
-        id: "groupes",
-        name: "Groupes politiques",
-        icon: "people",
-        legende: [{
-          id: "LFI",
-          color: "#e53935"
-        }, {
-          id: "GDR",
-          color: "#ff5252"
-        }, {
-          id: "NG",
-          color: "#F06292"
-        }, {
-          id: "LREM",
-          color: "#FFA726"
-        }, {
-          id: "MODEM",
-          color: "#FF7043"
-        }, {
-          id: "LC",
-          color: "#42A5F5"
-        }, {
-          id: "LR",
-          color: "#5C6BC0"
-        }, {
-          id: "NI",
-          color: "#BDBDBD"
-        }]
-      }, {
-        id: "genre",
-        name: "Genres",
-        icon: "wc",
-        legende: [{
-          id: "F",
-          name: "Femmes",
-          color: "#F48FB1"
-        }, {
-          id: "H",
-          name: "Hommes",
-          color: "#90CAF9"
-        }]
-      }, {
-        id: "renouveau",
-        name: "Anciens et nouveaux élus",
-        icon: "repeat",
-        legende: [{
-          id: "anciens",
-          name: "Députés réélus",
-          color: "#B39DDB"
-        }, {
-          id: "nouveaux",
-          name: "Nouveaux députés",
-          color: "#B2DFDB"
-        }]
-      }, {
-        id: "debats",
-        name: "Commissions & Hémicycle",
-        icon: "looks",
-        only: "parole",
-        legende: [{
-          id: "commissions",
-          name: "Commissions",
-          color: "#B39DDB"
-        }, {
-          id: "hemicycle",
-          name: "Hémicycle",
-          color: "#B2DFDB"
-        }]
-      }, {
-        id: "interventions",
-        name: "Invectives & Interventions",
-        icon: "speaker_notes",
-        only: "parole",
-        legende: [{
-          id: "invectives",
-          name: "Invectives",
-          color: "#B39DDB"
-        }, {
-          id: "longues",
-          name: "Interventions longues",
-          color: "#B2DFDB"
-        }]
-      }, {
-        id: "sorts",
-        name: "Sort des amendements",
-        icon: "spellcheck",
-        only: "amendements",
-        legende: [{
-          id: "Adopté",
-          name: "Adoptés",
-          color: "#69F0AE"
-        }, {
-          id: "Retiré",
-          name: "Retirés",
-          color: "#80D8FF"
-        }, {
-          id: "Tombe",
-          name: "Tombés",
-          color: "#B2DFDB"
-        }, {
-          id: "Non soutenu",
-          name: "Non soutenus",
-          color: "#FFE57F"
-        }, {
-          id: "Irrecevable",
-          name: "Irrecevables",
-          color: "#FFAB40"
-        }, {
-          id: "Rejeté",
-          name: "Rejetés",
-          color: "#ef9a9a"
-        }, {
-          id: "Indéfini",
-          name: "Indéfinis",
-          color: "#9E9E9E"
-        }]
-      }]
+    facet: "groupes",
+    facets: [{
+      id: "groupes",
+      name: "Groupes politiques",
+      filterName: "Groupe politique",
+      filterAll: "Tous les députés",
+      icon: "people",
+      selected: "total",
+      legende: [
+        {color: "#e53935", id: "LFI", name: "LFI"},
+        {color: "#ff5252", id: "GDR", name: "GDR"},
+        {color: "#F06292", id: "NG", name: "NG"},
+        {color: "#FFA726", id: "LREM", name: "LREM"},
+        {color: "#FF7043", id: "MODEM", name: "MODEM"},
+        {color: "#42A5F5", id: "LC", name: "LC"},
+        {color: "#5C6BC0", id: "LR", name: "LR"},
+        {color: "#BDBDBD", id: "NI", name: "NI"}
+      ]
     }, {
-      id: "filters",
-      name: "Filtrer",
-      filters: true,
-      options: [{
-        id: "groupes",
-        name: "Groupe politique",
-        icon: "person",
-        selected: "total",
-        filters: [{
-          id: "total",
-          name: "Tous les députés"
-        }, {
-          id: "LFI",
-          name: "LFI"
-        }, {
-          id: "GDR",
-          name: "GDR"
-        }, {
-          id: "NG",
-          name: "NG"
-        }, {
-          id: "LREM",
-          name: "LREM"
-        }, {
-          id: "MODEM",
-          name: "MODEM"
-        }, {
-          id: "LC",
-          name: "LC"
-        }, {
-          id: "LR",
-          name: "LR"
-        }, {
-          id: "NI",
-          name: "NI"
-        }]
-      }, {
-        id: "genre",
-        name: "Genre",
-        icon: "person",
-        selected: "total",
-        filters: [{
-          id: "total",
-          name: "Tous les députés"
-        }, {
-          id: "F",
-          name: "Femmes"
-        }, {
-          id: "H",
-          name: "Hommes"
-        }]
-      }, {
-        id: "renouveau",
-        name: "Ancienneté",
-        icon: "person",
-        selected: "total",
-        filters: [{
-          id: "total",
-          name: "Tous les députés"
-        }, {
-          id: "anciens",
-          name: "Députés réélus"
-        }, {
-          id: "nouveaux",
-          name: "Nouveaux députés"
-        }]
-      }, {
-        id: "debats",
-        name: "Débats",
-        icon: "mic",
-        only: "parole",
-        selected: "total",
-        filters: [{
-          id: "total",
-          name: "Tous les débats"
-        }, {
-          id: "commissions",
-          name: "en Commissions"
-        }, {
-          id: "hemicycle",
-          name: "en Hémicycle"
-        }]
-      }, {
-        id: "interventions",
-        name: "Interventions",
-        icon: "mic",
-        only: "parole",
-        selected: "total",
-        filters: [{
-          id: "total",
-          name: "Toutes les interventions"
-        }, {
-          id: "invectives",
-          name: "Invectives ( - de 20 mots )"
-        }, {
-          id: "longues",
-          name: "Interventions longues"
-        }]
-      }, {
-        id: "sorts",
-        name: "Amendements",
-        icon: "spellcheck",
-        only: "amendements",
-        selected: "total",
-        filters: [{
-          id: "total",
-          name: "Tous les amendements"
-        }, {
-          id: "Adopté",
-          name: "Adoptés"
-        }, {
-          id: "Retiré",
-          name: "Retirés"
-        }, {
-          id: "Tombe",
-          name: "Tombés"
-        }, {
-          id: "Non soutenu",
-          name: "Non soutenus"
-        }, {
-          id: "Irrecevable",
-          name: "Irrecevables"
-        }, {
-          id: "Rejeté",
-          name: "Rejetés"
-        }, {
-          id: "Indéfini",
-          name: "Indéfinis"
-        }]
-      }]
+      id: "genre",
+      name: "Genres",
+      filterName: "Genre",
+      filterAll: "Tous les députés",
+      icon: "wc",
+      selected: false,
+      legende: [
+        {color: "#F48FB1", id: "F", name: "Femmes"},
+        {color: "#90CAF9", id: "H", name: "Hommes"}
+      ]
+    }, {
+      id: "renouveau",
+      name: "Anciens et nouveaux élus",
+      filterName: "Ancienneté",
+      filterAll: "Tous les députés",
+      icon: "repeat",
+      selected: "total",
+      legende: [
+        {color: "#B39DDB", id: "anciens", name: "Députés réélus"},
+        {color: "#B2DFDB", id: "nouveaux", name: "Nouveaux députés"}
+      ]
+    }, {
+      id: "debats",
+      name: "Commissions & Hémicycle",
+      filterName: "Débats",
+      filterAll: "Tous les débats",
+      icon: "looks",
+      selected: "total",
+      only: "parole",
+      legende: [
+        {color: "#B39DDB", id: "commissions", name: "en Commissions", facetName: "Commissions"},
+        {color: "#B2DFDB", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
+      ]
+    }, {
+      id: "interventions",
+      name: "Invectives & Interventions",
+      filterName: "Interventions",
+      filterAll: "Toutes les interventions",
+      icon: "speaker_notes",
+      selected: "total",
+      only: "parole",
+      legende: [
+        {color: "#B39DDB", id: "invectives", name: "Invectives ( - de 20 mots )", facetName: "Invectives"},
+        {color: "#B2DFDB", id: "longues", name: "Interventions longues"}
+      ]
+    }, {
+      id: "sorts",
+      name: "Sort des amendements",
+      filterName: "Amendements",
+      filterAll: "Tous les amendements",
+      icon: "spellcheck",
+      selected: "total",
+      only: "amendements",
+      legende: [
+        {color: "#69F0AE", id: "Adopté", name: "Adoptés"},
+        {color: "#80D8FF", id: "Retiré", name: "Retirés"},
+        {color: "#B2DFDB", id: "Tombe", name: "Tombés"},
+        {color: "#FFE57F", id: "Non soutenu", name: "Non soutenus"},
+        {color: "#FFAB40", id: "Irrecevable", name: "Irrecevables"},
+        {color: "#ef9a9a", id: "Rejeté", name: "Rejetés"},
+        {color: "#9E9E9E", id: "Indéfini", name: "Indéfinis"}
+      ]
     }],
     resizing: null,
     data: {},
@@ -535,17 +358,22 @@ new Vue({
   },
   computed: {
     unit: function() {
-      for (var i=0, n=this.activites.length; i<n; i++)
-        if (this.activite === this.activites[i].id)
-          return this.activites[i].unit;
+      var act = this.activite;
+      return this.activites.filter(function(a) { return a.id === act; })[0].unit;
     },
     legende: function() {
-      var facets = this.menus[0];
-      return facets.options.filter(function(f) { return facets.selected === f.id; })[0].legende;
+      var facet = this.facet;
+      return this.facets.filter(function(f) { return f.id === facet; })[0].legende;
     },
-    filters: function() {
-      var facet = this.menus[0].selected;
-      return this.menus[1].options.some(function(o) { return o.selected !== "total" && o.id !== facet;});
+    filtered: function() {
+      var facet = this.facet;
+      return this.facets.some(function(f) { return f.selected !== "total" && f.id !== facet; });
+    },
+    activeFilters: function() {
+      var act = this.activite, facet = this.facet;
+      return this.facets.filter(function(f) {
+        return f.selected !== "total" && (!f.only || f.only === act) && f.id !== facet;
+      });
     },
     _cumul: function() { return this.cumul ? "_cumul" : ""; },
     _prop: function() { return this.prop ? "_prop" : ""; }
@@ -555,7 +383,7 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
     this.$watch(
-      function() { return [this.activite, this.cumul, this.prop, this.temps] },
+      function() { return [this.activite, this.facet, this.cumul, this.prop, this.temps]; },
       this.updateUrl
     );
   },
@@ -564,65 +392,42 @@ new Vue({
       if (this.resizing) return clearTimeout(this.resizing);
       this.resizing = setTimeout(this.drawChart, 50);
     },
-    selectOption: function(optionId, menuId, filterId) {
-      if (filterId === true) return;
-      this.menus.filter(function(m) { return m.id === menuId; })
-      .forEach(function(m) {
-        if (m.filters)
-          m.options.filter(function(o) { return o.id === optionId;})
-          .forEach(function(o) {
-            o.selected = filterId || !o.selected;
-          });
-        else if (m.selected !== optionId) {
-          m.selected = optionId;
-        }
-      });
+    selectFilter: function(optionId, filterId) {
+      this.facets.filter(function(f) { return f.id === optionId; })
+      .forEach(function(f) { f.selected = filterId; });
       this.updateUrl();
     },
     clearFilters: function() {
-      this.menus[1].options.forEach(function(o) { o.selected = "total"; });
+      this.facets.forEach(function(f) { f.selected = "total"; });
       this.updateUrl();
     },
-    updateUrl: function(menuId) {
-      var act = this.activite;
-      window.location.hash = "activite=" + act + "&" +
-        this.menus.map(function(m) {
-          return m.id + "=" + (
-            (!m.filters ? [m.selected] :
-              m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === act); })
-              .map(function(o) { return o.id + ":" + o.selected; })
-            )
-          ).join(",");
-        }).filter(function(d) { return /=./.test(d); })
-        .join("&") +
+    updateUrl: function() {
+      window.location.hash = "activite=" + this.activite +
+        "&facet=" + this.facet +
+        (this.activeFilters.length ? "&filters=" : "") +
+        this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join(",") +
         (this.cumul ? "&cumul" : "") +
         (this.prop ? "&prop" : "") +
         "&temps=" + this.temps;
     },
     readUrl: function() {
-      var el, el2,
-        facet = this.menus[0].selected,
-        options = {},
-        urlArgs = window.location.hash.slice(1).split(/&/);
-      this.menus[1].options.forEach(function(o) { o.selected = "total"; });
-      for (var i=0, n=urlArgs.length; i<n; i++) {
-        el = urlArgs[i].split(/=/);
-        options[el[0]] = el[1] || true;
-        this.menus.filter(function(m) { return m.id === el[0]; })
-        .forEach(function(m) {
-          if (m.filters) el[1].split(/,/).forEach(function(e) {
+      var el, el2, options = {};
+      window.location.hash.slice(1).split(/&/).forEach(function(opt) {
+        el = opt.split(/=/);
+        if (el[0] === "filters") {
+          options[el[0]] = {};
+          el[1].split(/,/).forEach(function(e) {
             el2 = e.split(/:/);
-            m.options.filter(function(o) { return o.id === el2[0]; })
-            .forEach(function(o) { o.selected = el2[1]; });
+            options[el[0]][el2[0]] = el2[1];
           });
-          else m.selected = el[1];
-        });
-      }
+        } else options[el[0]] = el[1] || true;
+      })
       this.activite = options.activite || this.activite;
+      this.facet = options.facet || this.facet;
+      this.facets.forEach(function(f) { f.selected = (options.filters || {})[f.id] || "total"; });
       this.cumul = options.cumul;
       this.prop = options.prop;
       this.temps = options.temps || this.temps;
-      var facet = this.menus[0].selected;
       if (!this.data[this.activite]) {
         d3.select("svg g").remove();
         d3.csv("data/" + this.activite + ".csv", function(d) {
@@ -643,37 +448,31 @@ new Vue({
       if (loadedData) this.data[act] = loadedData;
 
       // Clear unavailable facet choice
-      var facets = this.menus[0],
-        only = facets.options.filter(function(o) { return facets.selected === o.id; })[0].only;
-      if (only && only !== this.activite) {
-        facets.selected = facets.options[0].id;
+      var facet = this.facet,
+        only = this.facets.filter(function(f) { return f.id === facet; })[0].only;
+      if (only && only !== act) {
+        this.facet = this.facets[0].id;
         return this.updateUrl();
       }
 
-      // Read options
-      var facet = facets.selected,
-        _cumul = this._cumul,
+      // Prepare view settings
+      var _cumul = this._cumul,
         _prop = this._prop,
         temps = this.temps,
         colors = {};
-
-      // Prepare legend & keys
       this.legende.forEach(function(k) { colors[k.id] = k.color; });
       var keys = this.legende.map(function(k) { return k.id; });
       if (facet === "groupes") keys.reverse();
 
       // Agregate and filter data
       var hashdata = {},
-        filters = this.menus[1].options.filter(function(filter) {
-          return (!filter.only || filter.only === act) &&
-            filter.id !== facet && filter.selected !== "total";
-        });
+        activeFilters = this.activeFilters;
       d3.nest()
       .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
       .entries(this.data[act]
-        .filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); })
+        .filter(function(d) { return activeFilters.every(function(f) { return d[f.id] === f.selected; }); })
       ).forEach(function(k) {
         hashdata[k.key] = {};
         k.values.forEach(function(v) {
