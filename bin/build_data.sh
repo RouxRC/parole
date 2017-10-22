@@ -74,13 +74,12 @@ SELECT
   p.groupe_acronyme AS groupes,
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
-  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
     CONCAT(t.type, IF(t.type_details IS NOT NULL, CONCAT(' ', t.type_details), '')),
     'Proposition de ', ''),
     'résolution tendant à la ', ''),
     'résolution modifiant le R', 'r'),
     ' en application de Article 34-1 de la Constitution', ''),
-    'résolution modifiant le R', 'r'),
     'sur les travaux conduits par les institutions européennes', 'européenne'
   ) AS typeprop,
   IF(s.id IS NULL, 'attente', 'discute') AS discute,
