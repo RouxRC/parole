@@ -543,7 +543,7 @@ new Vue({
         "&leg=" + this.legislature +
         "&facet=" + this.facet +
         (this.activeFilters.length ? "&filters=" : "") +
-        this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join(",") +
+        this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join("|") +
         (this.cumul ? "&cumul" : "") +
         (this.prop ? "&prop" : "") +
         "&temps=" + this.temps;
@@ -554,7 +554,7 @@ new Vue({
         el = opt.split(/=/);
         if (el[0] === "filters") {
           options[el[0]] = {};
-          el[1].split(/,/).forEach(function(e) {
+          el[1].split(/\|/).forEach(function(e) {
             el2 = e.split(/:/);
             options[el[0]][el2[0]] = el2[1];
           });
@@ -742,8 +742,8 @@ new Vue({
   }
 });
 /* TODO
-- adjust color/icons
-- add activities (PPL, QE)
+- adjust color/icons/displaylongnames
+- add activities (PPL)
 - add dynamic keys
 - add splitted view
 - add other legislatures data
