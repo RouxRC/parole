@@ -41,16 +41,10 @@ aside {
 .input-group.input-group--text-field:not(.input-group--single-line):not(.input-group--error).input-group--focused label {
   color: white;
 }
-.input-group.input-group--selection-controls.switch {
-  left: 35%;
+.switch {
+  left: 25%;
 }
-.application .selected .theme--light.switch.input-group--disabled .input-group--selection-controls__ripple:after {
-  background-color: #f44336!important;
-}
-.application .selected .theme--light.switch.input-group--disabled .input-group--selection-controls__toggle {
-  color: #f44336!important;
-}
-.input-group.input-group--dirty.input-group--hide-details.radio-group.radio-group--row {
+.radio-group--row {
   padding: 0;
 }
 .application--dark .input-group.radio:not(.input-group--error) label {
@@ -177,7 +171,7 @@ rect.tooltip {
         Parole
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn fab small outline class="red ml-3" @click.native.stop="help=true">
+      <v-btn fab small outline class="red ml-3" @click.native.stop="help = true">
         <v-icon medium class="red">help</v-icon>
       </v-btn>
     </v-toolbar>
