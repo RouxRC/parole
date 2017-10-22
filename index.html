@@ -127,12 +127,12 @@ rect.tooltip {
           :key="item.id"
           :disabled="list.selected === item.id"
           :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && item.selected === 'total'}"
-          @click="selectOption(item.id, list.id, list.filters || !!item.choices)"
+          @click="selectOption(item.id, list.id, list.filters)"
         >
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
-          <v-list-tile-content v-if="!item.choices">
+          <v-list-tile-content>
             <v-list-tile-title v-if="!item.filters">
               {{ item.name }}
             </v-list-tile-title>
@@ -146,13 +146,25 @@ rect.tooltip {
               @change="selectOption(item.id, list.id, $event)"
             ></v-select>
           </v-list-tile-content>
-          <v-radio-group v-else row hide-details v-model="item.selected"
-              @change="selectOption(item.id, list.id, $event)">
-            <v-radio small color="red" v-for="c in item.choices" :label="c" :value="c"></v-radio>
+        </v-list-tile>
+      </v-list>
+      <v-list dense>
+        <v-subheader class="mt-3 grey--text text--darken-1">Affichage</v-subheader>
+        <v-list-tile>
+          <v-list-tile-action><v-icon>timeline</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>Cumulatif</v-list-tile-title></v-list-tile-content>
+          <v-list-tile-action><v-switch light v-model="cumul"></v-switch></v-list-tile-action>
+        </v-list-tile>
+        <v-list-tile>
+          <v-list-tile-action><v-icon>dashboard</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>Proportionnel</v-list-tile-title></v-list-tile-content>
+          <v-list-tile-action><v-switch light v-model="prop"></v-switch></v-list-tile-action>
+        </v-list-tile>
+        <v-list-tile>
+          <v-list-tile-action><v-icon>date_range</v-icon></v-list-tile-action>
+          <v-radio-group row hide-details v-model="temps">
+            <v-radio small color="red" v-for="c in ['jours', 'sems', 'mois']" :label="c" :value="c"></v-radio>
           </v-radio-group>
-          <v-list-tile-action v-if="list.multi && !item.choices">
-            <v-switch v-model="item.selected" light disabled></v-switch>
-          </v-list-tile-action>
         </v-list-tile>
       </v-list>
       <div class="navigation-drawer__border"></div>
@@ -509,30 +521,12 @@ new Vue({
           name: "Indéfinis"
         }]
       }]
-    }, {
-      id: "vue",
-      name: "Affichage",
-      multi: true,
-      options: [{
-        id: "cumul",
-        name: "Cumulatif",
-        icon: "timeline",
-        selected: false
-      }, {
-        id: "prop",
-        name: "Proportionnel",
-        icon: "dashboard",
-        selected: false
-      }, {
-        id: "temps",
-        icon: "date_range",
-        selected: "jours",
-        choices: ["jours", "sems", "mois"]
-      }]
     }],
     help: false,
     data: {},
+    cumul: false,
     prop: false,
+    temps: "jours",
     unit: "mots",
     filters: null,
     hoverDate: "",
@@ -545,6 +539,11 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
   },
+  watch: {
+    cumul: function(d) { this.updateUrl(); },
+    prop: function(d) { this.updateUrl(); },
+    temps: function(d) { this.updateUrl(); },
+  },
   methods: {
     onResize: function() {
       clearTimeout(this.resizing);
@@ -554,7 +553,7 @@ new Vue({
       if (filterId === true) return;
       this.menus.filter(function(m) { return m.id === menuId; })
       .forEach(function(m) {
-        if (m.multi || m.filters)
+        if (m.filters)
           m.options.filter(function(o) { return o.id === optionId;})
           .forEach(function(o) {
             o.selected = filterId || !o.selected;
@@ -572,16 +571,17 @@ new Vue({
     updateUrl: function(menuId) {
       var activity = this.menus[0].selected;
       window.location.hash = this.menus.map(function(m) {
-        return m.id + "=" + (m.multi ?
-          m.options.filter(function(o) { return o.selected; })
-          .map(function(o) { return o.id + (o.choices ? ":"+o.selected : ""); }) :
+        return m.id + "=" + (
           (!m.filters ? [m.selected] :
             m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === activity); })
             .map(function(o) { return o.id + ":" + o.selected; })
           )
         ).join(",");
       }).filter(function(d) { return /=./.test(d); })
-      .join("&");
+      .join("&") +
+      (this.cumul ? "&cumul" : "") +
+      (this.prop ? "&prop" : "") +
+      "&temps=" + this.temps;
     },
     readUrl: function() {
       var el, el2,
@@ -592,10 +592,7 @@ new Vue({
         el = urlArgs[i].split(/=/);
         this.menus.filter(function(m) { return m.id === el[0]; })
         .forEach(function(m) {
-          if (m.multi) m.options.forEach(function(o) {
-            o.selected = (o.choices ? el[1].replace(/^.*temps:([^,&]+)*$/, "$1") : !!~el[1].indexOf(o.id));
-          });
-          else if (m.filters) el[1].split(/,/).forEach(function(e) {
+          if (m.filters) el[1].split(/,/).forEach(function(e) {
             el2 = e.split(/:/);
             m.options.filter(function(o) { return o.id === el2[0]; })
             .forEach(function(o) { o.selected = el2[1]; });
@@ -603,6 +600,10 @@ new Vue({
           else m.selected = el[1];
         });
       }
+      this.cumul = ~urlArgs.indexOf("cumul");
+      this.prop = ~urlArgs.indexOf("prop");
+      if (/temps=/.test(window.location))
+        this.temps = urlArgs[urlArgs.length - 1].replace(/^.*temps=([^,&]+)*$/, "$1");
       this.filters = this.menus[2].options.some(function(o) {
         return o.selected !== "total" && o.id !== facet;
       });
@@ -639,15 +640,10 @@ new Vue({
 
       // Read options
       var facet = facets.selected,
-        views = [""].concat(
-          this.menus[3].options
-          .filter(function(o) { return o.selected && !o.choices; })
-          .map(function(o) { return o.id; })
-        ).join("_"),
-        temps = this.menus[3].options[2].selected,
-        colors = {},
-        cumul = /cumul/.test(views) ? "_cumul" : "";
-      this.prop = /prop/.test(views);
+        cumul = (this.cumul ? "_cumul" : ""),
+        views = cumul + (this.prop ? "_prop" : ""),
+        temps = this.temps,
+        colors = {};
       this.views = views;
 
       // Prepare legend & keys
