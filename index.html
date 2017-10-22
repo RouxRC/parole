@@ -522,31 +522,43 @@ new Vue({
         }]
       }]
     }],
-    help: false,
+    resizing: null,
     data: {},
     cumul: false,
     prop: false,
     temps: "jours",
-    unit: "mots",
-    filters: null,
     hoverDate: "",
     showValues: false,
-    legende: [],
-    resizing: null
+    help: false
+  },
+  computed: {
+    unit: function() {
+      var acts = this.menus[0];
+      return acts.options.filter(function(o) { return acts.selected === o.id; })[0].unit;
+    },
+    legende: function() {
+      var facets = this.menus[1];
+      return facets.options.filter(function(f) { return facets.selected === f.id; })[0].legende;
+    },
+    filters: function() {
+      var facet = this.menus[1].selected;
+      return this.menus[2].options.some(function(o) { return o.selected !== "total" && o.id !== facet;});
+    },
+    _cumul: function() { return this.cumul ? "_cumul" : ""; },
+    _prop: function() { return this.prop ? "_prop" : ""; }
   },
   mounted: function() {
     this.readUrl();
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
-  },
-  watch: {
-    cumul: function(d) { this.updateUrl(); },
-    prop: function(d) { this.updateUrl(); },
-    temps: function(d) { this.updateUrl(); },
+    this.$watch(
+      function() { return [this.cumul, this.prop, this.temps] },
+      this.updateUrl
+    );
   },
   methods: {
     onResize: function() {
-      clearTimeout(this.resizing);
+      if (this.resizing) return clearTimeout(this.resizing);
       this.resizing = setTimeout(this.drawChart, 50);
     },
     selectOption: function(optionId, menuId, filterId) {
@@ -604,13 +616,8 @@ new Vue({
       this.prop = ~urlArgs.indexOf("prop");
       if (/temps=/.test(window.location))
         this.temps = urlArgs[urlArgs.length - 1].replace(/^.*temps=([^,&]+)*$/, "$1");
-      this.filters = this.menus[2].options.some(function(o) {
-        return o.selected !== "total" && o.id !== facet;
-      });
       var activity = this.menus[0].selected,
         facet = this.menus[1].selected;
-      this.unit = this.menus[0].options.filter(function(o) { return activity === o.id; })[0].unit;
-      this.legende = this.menus[1].options.filter(function(f) { return facet === f.id; })[0].legende;
       if (!this.data[activity]) {
         d3.select("svg g").remove();
         d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
@@ -640,11 +647,10 @@ new Vue({
 
       // Read options
       var facet = facets.selected,
-        cumul = (this.cumul ? "_cumul" : ""),
-        views = cumul + (this.prop ? "_prop" : ""),
+        _cumul = this._cumul,
+        _prop = this._prop,
         temps = this.temps,
         colors = {};
-      this.views = views;
 
       // Prepare legend & keys
       this.legende.forEach(function(k) { colors[k.id] = k.color; });
@@ -661,8 +667,9 @@ new Vue({
       .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
-      .entries(this.data[activity].filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); }))
-      .forEach(function(k) {
+      .entries(this.data[activity]
+        .filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); })
+      ).forEach(function(k) {
         hashdata[k.key] = {};
         k.values.forEach(function(v) {
           hashdata[k.key][v.key] = v.value;
@@ -719,7 +726,7 @@ new Vue({
         xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d); },
         yScale = d3.scaleLinear().range([height, 0]);
       if (!this.prop)
-        yScale.domain([0, d3.max(data, function(d) { return d["sum"+cumul]; })]);
+        yScale.domain([0, d3.max(data, function(d) { return d["sum"+_cumul]; })]);
 
       // Prepare svg
       d3.select("svg g").remove();
@@ -732,7 +739,7 @@ new Vue({
       // Draw histogram
       g.append("g")
         .selectAll("g")
-        .data(d3.stack().keys(keys.map(function(k) { return k + views; }))(data))
+        .data(d3.stack().keys(keys.map(function(k) { return k + _cumul + _prop; }))(data))
         .enter().append("g")
           .attr("fill", function(d) { return colors[d.key.replace(/_.*$/, "")] || "grey"; })
           .selectAll("rect")
@@ -770,9 +777,10 @@ new Vue({
       this.showValues = true;
       var tot = 0;
       for (var i=0, n=this.legende.length; i<n; i++) {
-        var leg = this.legende[i];
-        leg.value = d3.format(this.prop ? ".1%" : ",")(d[leg.id + this.views]);
-        tot += d[leg.id + this.views];
+        var leg = this.legende[i],
+          key = leg.id + this._cumul + this._prop;
+        leg.value = d3.format(this.prop ? ".1%" : ",")(d[key]);
+        tot += d[key];
       }
       d3.select(".tooltipBox")
       .style("left", d3.event.pageX - 60 + "px")
