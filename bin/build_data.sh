@@ -51,14 +51,14 @@ SELECT
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
   IF(q.motif_retrait IS NOT NULL, 'retrait', IF(q.reponse = '', 'attente', 'reponse')) AS statut,
-  ROUND(DATEDIFF(IF(q.date_cloture, q.date_cloture, CURDATE()), q.date) / 365 * 12) AS duree,
-  SUBSTRING(q.ministere, 1, POSITION('/' IN q.ministere) - 2) AS ministre,
-  SUBSTRING(q.themes, 1, POSITION('/' IN q.themes) - 2) AS theme,
+  @mois:=FLOOR(DATEDIFF(IF(q.date_cloture, q.date_cloture, CURDATE()), q.date) / 365 * 12) as mois,
+  IF(@mois < 3, @mois + 1, IF(@mois < 6, '3-6', IF(@mois < 12, '6-12', '12+'))) as duree,
+  REPLACE(SUBSTRING(q.ministere, 1, POSITION('/' IN q.ministere) - 2), '’', \"'\") AS ministre,
   COUNT(q.id) AS total
 FROM question_ecrite q
 JOIN parlementaire p ON p.id = q.parlementaire_id
-GROUP BY q.date, groupes, genre, renouveau, statut, duree, ministre, theme
-ORDER BY q.date, groupes, genre, renouveau, statut, duree, ministre, theme"
+GROUP BY q.date, groupes, genre, renouveau, statut, duree, ministre
+ORDER BY q.date, groupes, genre, renouveau, statut, duree, ministre"
 
 query data/propositions "
 SELECT
