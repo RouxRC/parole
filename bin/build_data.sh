@@ -53,7 +53,15 @@ SELECT
   IF(q.motif_retrait IS NOT NULL, 'retrait', IF(q.reponse = '', 'attente', 'reponse')) AS statut,
   @mois:=FLOOR(DATEDIFF(IF(q.date_cloture, q.date_cloture, CURDATE()), q.date) / 365 * 12) as mois,
   IF(@mois < 3, @mois + 1, IF(@mois < 6, '3-6', IF(@mois < 12, '6-12', '12+'))) as duree,
-  REPLACE(SUBSTRING(q.ministere, 1, POSITION('/' IN q.ministere) - 2), '’', \"'\") AS ministre,
+  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+    SUBSTRING(q.ministere, 1, POSITION('/' IN q.ministere) - 2),
+    '’', \"'\"),
+    'auprès de la ', 'auprès du '),
+    \"Secrétariat d'État, auprès du \", ''),
+    'Ministère auprès du ', ''),
+    \"ministre d'État, \", ''),
+    'ministre ', 'Ministère '
+  ) AS ministre,
   COUNT(q.id) AS total
 FROM question_ecrite q
 JOIN parlementaire p ON p.id = q.parlementaire_id
