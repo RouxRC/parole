@@ -1,0 +1,1948 @@
+date,groupes,genre,renouveau,statut,duree,ministre,theme,total
+2017-07-04,LC,H,anciens,attente,4,Ministère de l’intérieur,administration,1
+2017-07-04,LC,H,anciens,attente,4,Ministère de la culture,Français de l'étranger,1
+2017-07-04,LC,H,anciens,attente,4,Ministère des solidarités et de la santé,maladies,1
+2017-07-04,LFI,H,nouveaux,reponse,3,Ministère du travail,emploi et activité,1
+2017-07-04,LR,F,anciens,attente,4,Ministère de la justice,entreprises,1
+2017-07-04,LR,H,anciens,attente,4,Ministère de l'économie et des finances,industrie,1
+2017-07-04,LR,H,anciens,attente,4,Ministère de l’intérieur,communes,1
+2017-07-04,LR,H,anciens,attente,4,Ministère de l’intérieur,papiers d'identité,1
+2017-07-04,LR,H,anciens,attente,4,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-07-04,LR,H,anciens,attente,4,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-07-04,LR,H,anciens,reponse,1,Ministère de l'action et des comptes publics,anciens combattants et victimes de guerre,1
+2017-07-04,LR,H,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-04,LR,H,anciens,reponse,2,Ministère de l'action et des comptes publics,finances publiques,1
+2017-07-04,LR,H,anciens,reponse,2,Ministère de l’intérieur,police,1
+2017-07-04,LR,H,anciens,reponse,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,handicapés,1
+2017-07-04,LR,H,anciens,retrait,0,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-07-04,LR,H,anciens,retrait,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,handicapés,1
+2017-07-04,LR,H,nouveaux,attente,4,Ministère des solidarités et de la santé,médecine,1
+2017-07-04,LREM,H,anciens,attente,4,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-07-04,LREM,H,anciens,attente,4,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-07-04,LREM,H,anciens,reponse,3,Ministère de l'économie et des finances,consommation,1
+2017-07-04,LREM,H,anciens,reponse,3,Ministère de la cohésion des territoires,logement,1
+2017-07-04,LREM,H,nouveaux,reponse,3,Ministère du travail,emploi et activité,1
+2017-07-04,NG,F,anciens,attente,4,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-04,NG,F,anciens,attente,4,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-07-04,NG,F,anciens,attente,4,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-07-04,NG,F,anciens,attente,4,Ministère des solidarités et de la santé,santé,1
+2017-07-04,NG,F,anciens,reponse,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports,1
+2017-07-04,NG,F,anciens,reponse,2,Ministère des solidarités et de la santé,handicapés,1
+2017-07-04,NG,H,anciens,attente,4,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-07-04,NG,H,anciens,attente,4,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,handicapés,1
+2017-07-04,NI,H,anciens,attente,4,Ministère de l'économie et des finances,Parlement,1
+2017-07-04,NI,H,anciens,attente,4,Ministère de la culture,presse et livres,1
+2017-07-04,NI,H,anciens,reponse,1,Ministère de l’intérieur,presse et livres,1
+2017-07-11,GDR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,chasse et pêche,1
+2017-07-11,LC,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,voirie,1
+2017-07-11,LC,H,anciens,attente,3,Ministère de l'économie et des finances,emploi et activité,1
+2017-07-11,LC,H,anciens,reponse,3,Ministère des solidarités et de la santé,santé,1
+2017-07-11,LFI,F,nouveaux,attente,3,Ministère de l’intérieur,ordre public,1
+2017-07-11,LFI,H,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-11,LR,F,anciens,attente,3,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-07-11,LR,F,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-11,LR,F,anciens,reponse,3,Ministère de l'agriculture et de l'alimentation,consommation,1
+2017-07-11,LR,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-11,LR,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports routiers,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de l'économie et des finances,commerce extérieur,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de l'économie et des finances,impôt de solidarité sur la fortune,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de l'économie et des finances,Parlement,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de l'éducation nationale,culture,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de l’intérieur,administration,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de la cohésion des territoires,communes,1
+2017-07-11,LR,H,anciens,attente,3,Ministère de la justice,justice,1
+2017-07-11,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,médecine,1
+2017-07-11,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,santé,2
+2017-07-11,LR,H,anciens,attente,3,Ministère du travail,chômage,1
+2017-07-11,LR,H,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-11,LR,H,anciens,reponse,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-11,LR,H,anciens,reponse,3,Ministère de l'agriculture et de l'alimentation,chasse et pêche,1
+2017-07-11,LR,H,anciens,reponse,3,Ministère de l'éducation nationale,enseignement technique et professionnel,1
+2017-07-11,LR,H,anciens,reponse,3,Ministère des solidarités et de la santé,santé,1
+2017-07-11,LREM,H,nouveaux,attente,3,Ministère de la justice,aide aux victimes,1
+2017-07-11,NG,F,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,traités et conventions,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de l'action et des comptes publics,logement,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de l'action et des comptes publics,retraites : régimes autonomes et spéciaux,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de l’intérieur,papiers d'identité,1
+2017-07-11,NG,F,anciens,attente,3,Ministère de la transition écologique et solidaire,santé,1
+2017-07-11,NG,F,anciens,attente,3,Ministère des solidarités et de la santé,famille,1
+2017-07-11,NG,F,anciens,attente,3,Ministère du travail,formation professionnelle et apprentissage,1
+2017-07-11,NG,F,anciens,reponse,2,Ministère de la transition écologique et solidaire,entreprises,1
+2017-07-11,NG,H,anciens,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-11,NG,H,anciens,attente,3,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-07-11,NG,H,anciens,attente,3,Ministère de la cohésion des territoires,administration,1
+2017-07-11,NG,H,anciens,attente,3,Ministère de la cohésion des territoires,logement,1
+2017-07-11,NG,H,anciens,attente,3,Ministère de la justice,déchéances et incapacités,1
+2017-07-11,NG,H,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-11,NG,H,anciens,reponse,2,Ministère du travail,professions judiciaires et juridiques,1
+2017-07-11,NG,H,anciens,reponse,3,Ministère des sports,sports,1
+2017-07-11,NG,H,anciens,reponse,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,handicapés,1
+2017-07-11,NI,H,anciens,retrait,2,Ministère de l’intérieur,défense,1
+2017-07-11,NI,H,anciens,retrait,2,Ministère de l’intérieur,terrorisme,1
+2017-07-18,LC,F,anciens,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement,2
+2017-07-18,LC,F,anciens,attente,3,Ministère de la cohésion des territoires,transports,1
+2017-07-18,LC,F,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-07-18,LC,F,nouveaux,attente,3,Ministère de la justice,professions judiciaires et juridiques,1
+2017-07-18,LR,F,anciens,attente,3,Ministère de l'économie et des finances,communes,1
+2017-07-18,LR,F,anciens,attente,3,Ministère de l'économie et des finances,sécurité sociale,1
+2017-07-18,LR,F,anciens,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-07-18,LR,F,anciens,attente,3,Ministère de la transition écologique et solidaire,animaux,1
+2017-07-18,LR,F,anciens,attente,3,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-07-18,LR,F,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-07-18,LR,F,anciens,reponse,0,Ministère des solidarités et de la santé,santé,1
+2017-07-18,LR,F,anciens,reponse,2,Ministère de l’intérieur,sécurité routière,1
+2017-07-18,LR,F,anciens,reponse,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-07-18,LR,F,nouveaux,attente,3,Ministère de l’intérieur,crimes, délits et contraventions,1
+2017-07-18,LR,F,nouveaux,attente,3,Ministère de la culture,culture,1
+2017-07-18,LR,F,nouveaux,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-18,LR,F,nouveaux,reponse,2,Ministère des solidarités et de la santé,famille,1
+2017-07-18,LR,F,nouveaux,reponse,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-18,LR,F,nouveaux,reponse,3,Ministère du travail,travail,1
+2017-07-18,LR,H,anciens,attente,3,Ministère de l'action et des comptes publics,retraites : généralités,1
+2017-07-18,LR,H,anciens,attente,3,Ministère de l’intérieur,sécurité routière,1
+2017-07-18,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,maladies,1
+2017-07-18,LR,H,anciens,reponse,3,Ministère de la cohésion des territoires,communes,1
+2017-07-18,LR,H,nouveaux,attente,3,Ministère de la justice,lieux de privation de liberté,1
+2017-07-18,LR,H,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-07-18,LR,H,nouveaux,reponse,3,Ministère de l’intérieur,gendarmerie,1
+2017-07-18,LREM,F,anciens,reponse,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-07-18,LREM,F,nouveaux,reponse,3,Ministère de l'éducation nationale,personnes handicapées,1
+2017-07-18,LREM,H,anciens,attente,3,Ministère de l'éducation nationale,enseignement supérieur,1
+2017-07-18,LREM,H,anciens,attente,3,Ministère de la culture,culture,1
+2017-07-18,LREM,H,anciens,attente,3,Ministère des solidarités et de la santé,produits dangereux,1
+2017-07-18,LREM,H,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,santé,1
+2017-07-18,LREM,H,nouveaux,attente,3,Ministère de la culture,culture,1
+2017-07-18,LREM,H,nouveaux,attente,3,Ministère de la justice,justice,1
+2017-07-18,LREM,H,nouveaux,attente,3,Ministère des solidarités et de la santé,médecine,1
+2017-07-18,LREM,H,nouveaux,reponse,3,Ministère de l’intérieur,élections et référendums,1
+2017-07-18,LREM,H,nouveaux,reponse,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-18,NG,F,anciens,attente,3,Ministère de l'action et des comptes publics,finances publiques,1
+2017-07-18,NG,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports par eau,1
+2017-07-18,NG,H,anciens,attente,3,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-07-18,NI,F,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-18,NI,H,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-18,NI,H,anciens,retrait,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,immigration,1
+2017-07-18,NI,H,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-07-18,NI,H,nouveaux,reponse,1,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-07-18,NI,H,nouveaux,reponse,2,Ministère des sports,sports,1
+2017-07-25,GDR,H,anciens,attente,3,Ministère de l’intérieur,outre-mer,1
+2017-07-25,GDR,H,anciens,attente,3,Ministère des armées,défense,1
+2017-07-25,GDR,H,anciens,attente,3,Ministère des solidarités et de la santé,santé,1
+2017-07-25,GDR,H,anciens,reponse,0,Ministère des solidarités et de la santé,outre-mer,1
+2017-07-25,GDR,H,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-25,GDR,H,anciens,reponse,2,Ministère de l’intérieur,transports aériens,1
+2017-07-25,GDR,H,nouveaux,attente,3,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-07-25,GDR,H,nouveaux,attente,3,Ministère de la justice,justice,1
+2017-07-25,GDR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,politique sociale,1
+2017-07-25,GDR,H,nouveaux,attente,3,Ministère du travail,travail,1
+2017-07-25,GDR,H,nouveaux,reponse,3,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-07-25,LC,F,nouveaux,attente,3,Ministère de l'économie et des finances,immigration,1
+2017-07-25,LC,F,nouveaux,attente,3,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-07-25,LC,F,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,élevage,1
+2017-07-25,LC,H,anciens,attente,3,Ministère de l’intérieur,papiers d'identité,1
+2017-07-25,LC,H,anciens,attente,3,Ministère de la transition écologique et solidaire,animaux,1
+2017-07-25,LC,H,anciens,reponse,1,Ministère de l’intérieur,police,1
+2017-07-25,LC,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,enseignement agricole,1
+2017-07-25,LC,H,anciens,reponse,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-25,LC,H,anciens,reponse,2,Ministère des solidarités et de la santé,santé,1
+2017-07-25,LC,H,nouveaux,attente,3,Ministère de la transition écologique et solidaire,environnement,1
+2017-07-25,LC,H,nouveaux,attente,3,Ministère des solidarités et de la santé,assurance maladie maternité,1
+2017-07-25,LC,H,nouveaux,reponse,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-07-25,LC,H,nouveaux,reponse,2,Ministère de la cohésion des territoires,Internet,1
+2017-07-25,LC,H,nouveaux,reponse,3,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-25,LFI,F,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-07-25,LFI,F,nouveaux,attente,3,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-07-25,LFI,H,nouveaux,attente,3,Ministère des solidarités et de la santé,assurance maladie maternité,1
+2017-07-25,LFI,H,nouveaux,reponse,3,Premier ministre,défense,1
+2017-07-25,LR,F,anciens,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-25,LR,F,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-07-25,LR,F,anciens,reponse,2,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère de l'action et des comptes publics,finances publiques,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,médecine,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère de la transition écologique et solidaire,déchets,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère de la transition écologique et solidaire,environnement,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère des solidarités et de la santé,médecine,1
+2017-07-25,LR,F,nouveaux,attente,3,Ministère des solidarités et de la santé,santé,1
+2017-07-25,LR,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-07-25,LR,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,professions de santé,2
+2017-07-25,LR,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports aériens,1
+2017-07-25,LR,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'action et des comptes publics,agriculture,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'action et des comptes publics,fonction publique de l'État,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'économie et des finances,droit pénal,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'économie et des finances,impôts et taxes,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'économie et des finances,retraites : généralités,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'éducation nationale,entreprises,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,2
+2017-07-25,LR,H,anciens,attente,3,Ministère de l’intérieur,automobiles,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l’intérieur,catastrophes naturelles,2
+2017-07-25,LR,H,anciens,attente,3,Ministère de l’intérieur,élections et référendums,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de la cohésion des territoires,logement,1
+2017-07-25,LR,H,anciens,attente,3,Ministère de la justice,justice,1
+2017-07-25,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,dépendance,1
+2017-07-25,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,enseignement supérieur,1
+2017-07-25,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,établissements de santé,1
+2017-07-25,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,maladies,1
+2017-07-25,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,prestations familiales,1
+2017-07-25,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-07-25,LR,H,anciens,attente,3,Secrétariat d'État, auprès du ministre de l'économie et des finances,papiers d'identité,1
+2017-07-25,LR,H,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-07-25,LR,H,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-07-25,LR,H,anciens,reponse,1,Ministère de l'économie et des finances,taxe sur la valeur ajoutée,1
+2017-07-25,LR,H,anciens,reponse,1,Ministère de l'Europe et des affaires étrangères,ambassades et consulats,1
+2017-07-25,LR,H,anciens,reponse,1,Ministère de l’intérieur,crimes, délits et contraventions,1
+2017-07-25,LR,H,anciens,reponse,1,Ministère de la transition écologique et solidaire,environnement,1
+2017-07-25,LR,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-07-25,LR,H,anciens,reponse,3,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports aériens,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère de l’intérieur,automobiles,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,établissements de santé,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,politique sociale,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-25,LR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,retraites : régimes autonomes et spéciaux,1
+2017-07-25,LR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-25,LR,H,nouveaux,reponse,2,Ministère de l’intérieur,police,1
+2017-07-25,LR,H,nouveaux,reponse,2,Ministère de la cohésion des territoires,télécommunications,1
+2017-07-25,LR,H,nouveaux,reponse,2,Ministère des solidarités et de la santé,maladies,1
+2017-07-25,LR,H,nouveaux,reponse,3,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-07-25,LREM,F,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-07-25,LREM,F,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement technique et professionnel,1
+2017-07-25,LREM,F,nouveaux,attente,3,Ministère de l’intérieur,ordre public,1
+2017-07-25,LREM,F,nouveaux,reponse,2,Ministère du travail,emploi et activité,1
+2017-07-25,LREM,H,anciens,attente,3,Ministère de l'économie et des finances,impôts et taxes,1
+2017-07-25,LREM,H,anciens,attente,3,Ministère de l'Europe et des affaires étrangères,aquaculture et pêche professionnelle,1
+2017-07-25,LREM,H,anciens,attente,3,Ministère de l’intérieur,sécurité routière,1
+2017-07-25,LREM,H,anciens,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,2
+2017-07-25,LREM,H,anciens,attente,3,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-07-25,LREM,H,anciens,reponse,2,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-07-25,LREM,H,anciens,reponse,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère de l'économie et des finances,impôts et taxes,2
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère de l’intérieur,papiers d'identité,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère de la culture,audiovisuel et communication,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère de la culture,propriété intellectuelle,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère de la justice,lieux de privation de liberté,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-07-25,LREM,H,nouveaux,attente,3,Ministère des sports,politique extérieure,1
+2017-07-25,LREM,H,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-07-25,LREM,H,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-25,LREM,H,nouveaux,reponse,1,Ministère de l'économie et des finances,élevage,1
+2017-07-25,LREM,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,élevage,1
+2017-07-25,LREM,H,nouveaux,reponse,2,Ministère de la transition écologique et solidaire,catastrophes naturelles,1
+2017-07-25,LREM,H,nouveaux,reponse,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-25,LREM,H,nouveaux,reponse,3,Ministère de l’intérieur,communes,1
+2017-07-25,MODEM,F,nouveaux,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-07-25,MODEM,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-07-25,MODEM,F,nouveaux,reponse,3,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-07-25,MODEM,F,nouveaux,reponse,3,Ministère du travail,emploi et activité,1
+2017-07-25,NG,F,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-07-25,NG,F,anciens,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-25,NG,F,anciens,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-07-25,NG,F,anciens,attente,3,Ministère de la cohésion des territoires,administration,1
+2017-07-25,NG,F,anciens,attente,3,Ministère de la cohésion des territoires,ruralité,1
+2017-07-25,NG,F,anciens,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-07-25,NG,F,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,retraites : régime agricole,1
+2017-07-25,NG,H,anciens,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-07-25,NG,H,anciens,attente,3,Ministère de l'économie et des finances,commerce extérieur,1
+2017-07-25,NG,H,anciens,attente,3,Ministère de l'éducation nationale,enseignement,1
+2017-07-25,NG,H,anciens,attente,3,Ministère du travail,élus,1
+2017-07-25,NG,H,anciens,reponse,0,Ministère des solidarités et de la santé,dépendance,1
+2017-07-25,NG,H,anciens,reponse,3,Ministère de l'agriculture et de l'alimentation,agroalimentaire,1
+2017-07-25,NG,H,nouveaux,reponse,1,Ministère de l’intérieur,police,1
+2017-07-25,NI,F,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agroalimentaire,1
+2017-07-25,NI,H,anciens,attente,3,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-07-25,NI,H,anciens,retrait,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,prestations familiales,1
+2017-07-25,NI,H,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-07-25,NI,H,nouveaux,attente,3,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-07-25,NI,H,nouveaux,attente,3,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-08-01,GDR,H,anciens,attente,3,Ministère de la cohésion des territoires,logement : aides et prêts,1
+2017-08-01,GDR,H,anciens,attente,3,Ministère de la justice,lieux de privation de liberté,1
+2017-08-01,GDR,H,nouveaux,attente,3,Ministère de l’intérieur,services publics,1
+2017-08-01,GDR,H,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-08-01,GDR,H,nouveaux,reponse,3,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-08-01,LC,F,anciens,attente,3,Ministère des outre-mer,outre-mer,1
+2017-08-01,LC,F,nouveaux,attente,3,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-08-01,LC,F,nouveaux,attente,3,Ministère de l'économie et des finances,commerce et artisanat,2
+2017-08-01,LC,F,nouveaux,attente,3,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-08-01,LC,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-08-01,LC,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,LC,F,nouveaux,reponse,1,Ministère de la transition écologique et solidaire,nuisances,1
+2017-08-01,LC,H,anciens,attente,3,Ministère de l'action et des comptes publics,retraites : généralités,1
+2017-08-01,LC,H,anciens,attente,3,Ministère de l'éducation nationale,communes,1
+2017-08-01,LC,H,anciens,attente,3,Ministère de la cohésion des territoires,logement,1
+2017-08-01,LC,H,anciens,attente,3,Ministère de la cohésion des territoires,papiers d'identité,1
+2017-08-01,LC,H,anciens,attente,3,Ministère de la cohésion des territoires,postes,1
+2017-08-01,LC,H,anciens,attente,3,Ministère de la transition écologique et solidaire,animaux,1
+2017-08-01,LC,H,anciens,attente,3,Ministère des solidarités et de la santé,alcools et boissons alcoolisées,1
+2017-08-01,LC,H,anciens,attente,3,Ministère des solidarités et de la santé,assurance complémentaire,1
+2017-08-01,LC,H,anciens,attente,3,Ministère des solidarités et de la santé,assurances,1
+2017-08-01,LC,H,anciens,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-01,LC,H,anciens,attente,3,Ministère du travail,personnes handicapées,1
+2017-08-01,LC,H,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,dépendance,1
+2017-08-01,LC,H,anciens,reponse,0,Ministère des solidarités et de la santé,animaux,1
+2017-08-01,LC,H,anciens,reponse,0,Ministère des solidarités et de la santé,maladies,1
+2017-08-01,LC,H,anciens,reponse,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,LC,H,anciens,reponse,2,Ministère de la transition écologique et solidaire,commerce et artisanat,1
+2017-08-01,LC,H,anciens,reponse,3,Ministère de l'éducation nationale,enseignement,1
+2017-08-01,LC,H,nouveaux,attente,3,Ministère de l’intérieur,drogue,1
+2017-08-01,LC,H,nouveaux,attente,3,Ministère des sports,sports,1
+2017-08-01,LC,H,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-08-01,LC,H,nouveaux,reponse,2,Ministère de l’intérieur,police,1
+2017-08-01,LC,H,nouveaux,reponse,2,Ministère du travail,travail,1
+2017-08-01,LFI,H,nouveaux,reponse,3,Premier ministre,logement,1
+2017-08-01,LR,F,anciens,attente,3,Ministère de l'économie et des finances,emploi et activité,1
+2017-08-01,LR,F,anciens,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-08-01,LR,F,anciens,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,LR,F,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-08-01,LR,F,anciens,reponse,2,Ministère de l’intérieur,eau et assainissement,1
+2017-08-01,LR,F,nouveaux,attente,3,Ministère de l'action et des comptes publics,logement : aides et prêts,1
+2017-08-01,LR,F,nouveaux,attente,3,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LR,F,nouveaux,attente,3,Ministère de l'économie et des finances,impôts locaux,1
+2017-08-01,LR,F,nouveaux,attente,3,Ministère de la culture,arts et spectacles,1
+2017-08-01,LR,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,2
+2017-08-01,LR,F,nouveaux,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LR,F,nouveaux,reponse,2,Ministère du travail,outre-mer,1
+2017-08-01,LR,F,nouveaux,reponse,3,Ministère de l'économie et des finances,impôts locaux,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de l'économie et des finances,politique économique,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,2
+2017-08-01,LR,H,anciens,attente,3,Ministère de l’intérieur,cycles et motocycles,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de l’intérieur,ordre public,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de la justice,État,1
+2017-08-01,LR,H,anciens,attente,3,Ministère de la transition écologique et solidaire,logement,1
+2017-08-01,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,enfants,1
+2017-08-01,LR,H,anciens,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,3
+2017-08-01,LR,H,anciens,attente,3,Ministère du travail,travail,1
+2017-08-01,LR,H,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-08-01,LR,H,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-08-01,LR,H,anciens,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,professions de santé,2
+2017-08-01,LR,H,anciens,reponse,1,Ministère de l'action et des comptes publics,logement,1
+2017-08-01,LR,H,anciens,reponse,1,Ministère de l'éducation nationale,enseignement agricole,1
+2017-08-01,LR,H,anciens,reponse,1,Ministère de l’intérieur,police,1
+2017-08-01,LR,H,anciens,reponse,2,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-08-01,LR,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LR,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,aquaculture et pêche professionnelle,1
+2017-08-01,LR,H,anciens,reponse,2,Ministère des solidarités et de la santé,santé,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l'action et des comptes publics,commerce et artisanat,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,2
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,énergie et carburants,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,immigration,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,papiers d'identité,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,police,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,sécurité routière,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de l’intérieur,sports,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de la justice,outre-mer,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère des outre-mer,logement : aides et prêts,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-01,LR,H,nouveaux,attente,3,Ministère des solidarités et de la santé,santé,2
+2017-08-01,LR,H,nouveaux,attente,3,Ministère du travail,travail,1
+2017-08-01,LR,H,nouveaux,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,professions de santé,2
+2017-08-01,LR,H,nouveaux,reponse,1,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,1
+2017-08-01,LR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LR,H,nouveaux,reponse,2,Ministère de la transition écologique et solidaire,emploi et activité,1
+2017-08-01,LR,H,nouveaux,reponse,2,Ministère des armées,défense,1
+2017-08-01,LREM,F,anciens,attente,3,Ministère de l'éducation nationale,retraites : fonctionnaires civils et militaires,1
+2017-08-01,LREM,F,anciens,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère de l'action et des comptes publics,audiovisuel et communication,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère de l'action et des comptes publics,retraites : généralités,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère de l'action et des comptes publics,travailleurs indépendants et autoentrepreneurs,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère de l’intérieur,sécurité routière,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère de la transition écologique et solidaire,animaux,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère de la transition écologique et solidaire,déchets,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère des solidarités et de la santé,établissements de santé,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-01,LREM,F,nouveaux,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,LREM,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,3
+2017-08-01,LREM,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,télécommunications,1
+2017-08-01,LREM,F,nouveaux,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LREM,F,nouveaux,reponse,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-08-01,LREM,F,nouveaux,reponse,3,Ministère de la transition écologique et solidaire,environnement,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère de l’intérieur,sécurité routière,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère de la cohésion des territoires,urbanisme,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère de la culture,culture,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère de la transition écologique et solidaire,animaux,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère des solidarités et de la santé,santé,1
+2017-08-01,LREM,H,anciens,attente,3,Ministère des sports,sports,1
+2017-08-01,LREM,H,anciens,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-01,LREM,H,anciens,reponse,2,Ministère de la transition écologique et solidaire,environnement,1
+2017-08-01,LREM,H,anciens,reponse,2,Ministère des solidarités et de la santé,santé,1
+2017-08-01,LREM,H,anciens,reponse,2,Ministère du travail,consommation,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de l'action et des comptes publics,transports par eau,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de l'agriculture et de l'alimentation,agroalimentaire,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de l’intérieur,état civil,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de la culture,audiovisuel et communication,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de la transition écologique et solidaire,développement durable,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère de la transition écologique et solidaire,logement,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère des solidarités et de la santé,dépendance,1
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,2
+2017-08-01,LREM,H,nouveaux,attente,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,LREM,H,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,sécurité sociale,1
+2017-08-01,LREM,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-08-01,LREM,H,nouveaux,reponse,2,Ministère des solidarités et de la santé,maladies,1
+2017-08-01,LREM,H,nouveaux,reponse,2,Ministère du travail,enseignement supérieur,1
+2017-08-01,LREM,H,nouveaux,reponse,3,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-08-01,LREM,H,nouveaux,reponse,3,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-01,MODEM,F,nouveaux,attente,3,Ministère de l'économie et des finances,consommation,1
+2017-08-01,MODEM,F,nouveaux,attente,3,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-01,MODEM,F,nouveaux,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-01,MODEM,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-08-01,MODEM,F,nouveaux,attente,3,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-08-01,MODEM,F,nouveaux,reponse,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,3
+2017-08-01,NG,F,anciens,attente,3,Secrétariat d'État, auprès du ministre de l'économie et des finances,famille,1
+2017-08-01,NG,H,anciens,attente,3,Ministère de l'économie et des finances,consommation,1
+2017-08-01,NG,H,anciens,attente,3,Ministère de la cohésion des territoires,ruralité,1
+2017-08-01,NG,H,anciens,attente,3,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-01,NG,H,anciens,reponse,2,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-08-01,NG,H,nouveaux,attente,3,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-08-01,NI,H,anciens,retrait,1,Ministère de l’intérieur,sécurité routière,1
+2017-08-01,NI,H,anciens,retrait,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-01,NI,H,anciens,retrait,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,professions de santé,1
+2017-08-01,NI,H,nouveaux,attente,3,Ministère de l'économie et des finances,personnes âgées,1
+2017-08-01,NI,H,nouveaux,attente,3,Ministère de l’intérieur,immigration,3
+2017-08-01,NI,H,nouveaux,attente,3,Ministère de l’intérieur,police,1
+2017-08-01,NI,H,nouveaux,attente,3,Ministère de la cohésion des territoires,intercommunalité,1
+2017-08-01,NI,H,nouveaux,attente,3,Ministère de la transition écologique et solidaire,aménagement du territoire,1
+2017-08-01,NI,H,nouveaux,attente,3,Ministère des solidarités et de la santé,assurance complémentaire,2
+2017-08-01,NI,H,nouveaux,attente,3,Ministère des solidarités et de la santé,politique sociale,1
+2017-08-01,NI,H,nouveaux,attente,3,Premier ministre,mines et carrières,1
+2017-08-01,NI,H,nouveaux,reponse,2,Ministère de l'économie et des finances,politique extérieure,1
+2017-08-01,NI,H,nouveaux,reponse,2,Ministère de l'Europe et des affaires étrangères,ambassades et consulats,1
+2017-08-01,NI,H,nouveaux,reponse,2,Ministère de l’intérieur,ordre public,1
+2017-08-01,NI,H,nouveaux,reponse,3,Ministère de l'économie et des finances,personnes âgées,1
+2017-08-08,GDR,H,anciens,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-08,GDR,H,anciens,attente,2,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-08-08,GDR,H,anciens,attente,2,Ministère de l’intérieur,étrangers,2
+2017-08-08,GDR,H,anciens,attente,2,Ministère des solidarités et de la santé,assurance complémentaire,1
+2017-08-08,GDR,H,anciens,attente,2,Ministère des solidarités et de la santé,travail,1
+2017-08-08,GDR,H,anciens,reponse,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-08,GDR,H,anciens,reponse,2,Ministère du travail,sécurité des biens et des personnes,1
+2017-08-08,GDR,H,nouveaux,attente,2,Ministère de l'économie et des finances,politique économique,1
+2017-08-08,GDR,H,nouveaux,attente,2,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-08,GDR,H,nouveaux,attente,2,Ministère du travail,emploi et activité,1
+2017-08-08,LC,F,anciens,attente,2,Ministère des solidarités et de la santé,ruralité,1
+2017-08-08,LC,F,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-08-08,LC,F,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de l'économie et des finances,professions libérales,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de l'économie et des finances,sécurité sociale,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de l'éducation nationale,personnes handicapées,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de l'Europe et des affaires étrangères,Union européenne,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de la cohésion des territoires,collectivités territoriales,1
+2017-08-08,LC,H,anciens,attente,2,Ministère de la cohésion des territoires,ruralité,1
+2017-08-08,LC,H,anciens,attente,2,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-08-08,LC,H,anciens,attente,2,Secrétariat d'État, auprès du ministre de la cohésion des territoires,logement,1
+2017-08-08,LC,H,anciens,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LC,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,régime social des indépendants,1
+2017-08-08,LC,H,nouveaux,attente,2,Ministère de la culture,Gouvernement,1
+2017-08-08,LC,H,nouveaux,attente,2,Ministère des solidarités et de la santé,prestations familiales,1
+2017-08-08,LC,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LFI,F,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LFI,H,nouveaux,attente,2,Ministère des solidarités et de la santé,régime social des indépendants,1
+2017-08-08,LR,F,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LR,F,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,chasse et pêche,1
+2017-08-08,LR,F,anciens,attente,2,Ministère de l'économie et des finances,impôt sur le revenu,1
+2017-08-08,LR,F,anciens,attente,2,Ministère des solidarités et de la santé,religions et cultes,1
+2017-08-08,LR,F,anciens,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LR,F,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-08-08,LR,F,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-08-08,LR,F,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,eau et assainissement,1
+2017-08-08,LR,F,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,retraites : régime agricole,1
+2017-08-08,LR,F,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-08-08,LR,F,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agroalimentaire,1
+2017-08-08,LR,F,nouveaux,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-08-08,LR,F,nouveaux,attente,2,Ministère auprès du ministre de l'Europe et des affaires étrangères, chargé des affaires européennes,Union européenne,1
+2017-08-08,LR,F,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LR,F,nouveaux,attente,2,Ministère de la justice,crimes, délits et contraventions,1
+2017-08-08,LR,F,nouveaux,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-08,LR,F,nouveaux,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LR,F,nouveaux,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LR,F,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,catastrophes naturelles,1
+2017-08-08,LR,F,nouveaux,reponse,2,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-08-08,LR,H,anciens,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'action et des comptes publics,commerce et artisanat,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,2
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'économie et des finances,logement,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l'intérieur,eau et assainissement,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l’intérieur,pharmacie et médicaments,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-08,LR,H,anciens,attente,2,Ministère de la cohésion des territoires,télécommunications,1
+2017-08-08,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,famille,1
+2017-08-08,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,2
+2017-08-08,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-08-08,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,santé,2
+2017-08-08,LR,H,anciens,attente,2,Ministère du travail,emploi et activité,1
+2017-08-08,LR,H,anciens,attente,2,Secrétariat d'État, auprès du ministre de l'économie et des finances,logement,1
+2017-08-08,LR,H,anciens,attente,2,Secrétariat d'État, auprès du ministre de l'économie et des finances,sang et organes humains,1
+2017-08-08,LR,H,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,administration,1
+2017-08-08,LR,H,anciens,reponse,0,Ministère de la justice,justice,1
+2017-08-08,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,professions de santé,2
+2017-08-08,LR,H,anciens,reponse,1,Ministère des armées,défense,1
+2017-08-08,LR,H,anciens,reponse,1,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-08,LR,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-08-08,LR,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-08-08,LR,H,anciens,reponse,2,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,banques et établissements financiers,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement supérieur,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l’intérieur,ordre public,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de l’intérieur,sécurité routière,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,transports aériens,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère des solidarités et de la santé,prestations familiales,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LR,H,nouveaux,attente,2,Ministère du travail,sécurité sociale,1
+2017-08-08,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,maladies,1
+2017-08-08,LR,H,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LR,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LR,H,nouveaux,reponse,2,Premier ministre,Parlement,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,4
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l'économie et des finances,collectivités territoriales,2
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l'économie et des finances,impôts locaux,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l'économie et des finances,taxe sur la valeur ajoutée,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l'éducation nationale,santé,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de l’intérieur,ordre public,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de la culture,arts et spectacles,2
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de la transition écologique et solidaire,développement durable,2
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère de la transition écologique et solidaire,impôts et taxes,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-08,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LREM,F,nouveaux,attente,2,Secrétariat d'État, auprès du ministre de la cohésion des territoires,commerce et artisanat,1
+2017-08-08,LREM,F,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,2
+2017-08-08,LREM,F,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,2
+2017-08-08,LREM,F,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,communes,1
+2017-08-08,LREM,F,nouveaux,reponse,1,Ministère de l'Europe et des affaires étrangères,papiers d'identité,1
+2017-08-08,LREM,F,nouveaux,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LREM,F,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LREM,F,nouveaux,reponse,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de l'économie et des finances,postes,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de l'économie et des finances,tourisme et loisirs,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de l'éducation nationale,culture,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de l'Europe et des affaires étrangères,emploi et activité,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de l’intérieur,sécurité routière,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de la culture,arts et spectacles,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de la justice,justice,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de la transition écologique et solidaire,animaux,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère de la transition écologique et solidaire,économie sociale et solidaire,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère des solidarités et de la santé,mort et décès,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère des solidarités et de la santé,sécurité des biens et des personnes,1
+2017-08-08,LREM,H,anciens,attente,2,Ministère des sports,impôts et taxes,1
+2017-08-08,LREM,H,anciens,reponse,2,Ministère de la justice,famille,1
+2017-08-08,LREM,H,anciens,reponse,2,Ministère des solidarités et de la santé,santé,1
+2017-08-08,LREM,H,anciens,reponse,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère auprès du ministre de l'Europe et des affaires étrangères, chargé des affaires européennes,impôt sur les sociétés,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,collectivités territoriales,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère de l’intérieur,ordre public,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère du travail,emploi et activité,1
+2017-08-08,LREM,H,nouveaux,attente,2,Ministère du travail,professions de santé,1
+2017-08-08,LREM,H,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-08-08,LREM,H,nouveaux,reponse,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,LREM,H,nouveaux,reponse,1,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-08-08,LREM,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-08-08,LREM,H,nouveaux,reponse,2,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-08-08,LREM,H,nouveaux,reponse,2,Ministère des sports,terrorisme,1
+2017-08-08,MODEM,F,nouveaux,attente,2,Ministère de l'Europe et des affaires étrangères,Union européenne,1
+2017-08-08,MODEM,F,nouveaux,reponse,2,Ministère des solidarités et de la santé,maladies,1
+2017-08-08,MODEM,H,nouveaux,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,recherche et innovation,1
+2017-08-08,MODEM,H,nouveaux,attente,2,Ministère de l’intérieur,ordre public,1
+2017-08-08,MODEM,H,nouveaux,reponse,2,Ministère de l'économie et des finances,agriculture,1
+2017-08-08,MODEM,H,nouveaux,retrait,2,Ministère de l’intérieur,taxe sur la valeur ajoutée,1
+2017-08-08,NG,F,anciens,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-08-08,NG,F,anciens,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-08,NG,F,anciens,attente,2,Ministère de l'action et des comptes publics,logement,1
+2017-08-08,NG,F,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-08-08,NG,F,anciens,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-08,NG,F,anciens,attente,2,Ministère de la transition écologique et solidaire,économie sociale et solidaire,1
+2017-08-08,NG,F,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-08,NG,H,anciens,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports,1
+2017-08-08,NG,H,anciens,attente,2,Ministère de l'action et des comptes publics,administration,1
+2017-08-08,NG,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-08,NG,H,anciens,attente,2,Ministère de la culture,arts et spectacles,1
+2017-08-08,NG,H,anciens,attente,2,Ministère de la justice,droits fondamentaux,1
+2017-08-08,NG,H,anciens,attente,2,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-08,NG,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-08-08,NI,F,anciens,attente,2,Ministère de l'économie et des finances,consommation,1
+2017-08-08,NI,F,nouveaux,attente,2,Ministère de l’intérieur,police,1
+2017-08-08,NI,F,nouveaux,reponse,2,Ministère de l'action et des comptes publics,impôts locaux,1
+2017-08-08,NI,H,anciens,retrait,1,Ministère de l’intérieur,ordre public,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,voirie,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,aménagement du territoire,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de l’intérieur,ordre public,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de l’intérieur,police,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de la cohésion des territoires,aménagement du territoire,2
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,politique économique,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,santé,1
+2017-08-08,NI,H,nouveaux,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-15,GDR,F,anciens,reponse,1,Ministère du travail,outre-mer,1
+2017-08-15,GDR,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,mer et littoral,1
+2017-08-15,GDR,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,ordre public,1
+2017-08-15,GDR,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-08-15,GDR,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,établissements de santé,1
+2017-08-15,LC,F,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,femmes,1
+2017-08-15,LC,F,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-15,LC,H,anciens,attente,2,Ministère de la justice,justice,1
+2017-08-15,LC,H,anciens,attente,2,Ministère de la justice,professions judiciaires et juridiques,1
+2017-08-15,LC,H,nouveaux,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-08-15,LC,H,nouveaux,attente,2,Ministère de l'économie et des finances,impôt sur le revenu,1
+2017-08-15,LC,H,nouveaux,attente,2,Ministère de l’intérieur,immigration,1
+2017-08-15,LC,H,nouveaux,attente,2,Ministère de l’intérieur,transports urbains,1
+2017-08-15,LC,H,nouveaux,reponse,1,Ministère du travail,travail,1
+2017-08-15,LFI,F,nouveaux,attente,2,Ministère de l'économie et des finances,emploi et activité,1
+2017-08-15,LFI,F,nouveaux,attente,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-08-15,LFI,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,élections et référendums,1
+2017-08-15,LFI,H,nouveaux,attente,2,Ministère de l’intérieur,réfugiés et apatrides,1
+2017-08-15,LR,F,anciens,attente,2,Ministère de l'économie et des finances,développement durable,1
+2017-08-15,LR,F,anciens,attente,2,Ministère de la culture,audiovisuel et communication,1
+2017-08-15,LR,F,anciens,attente,2,Ministère des solidarités et de la santé,fonction publique hospitalière,1
+2017-08-15,LR,F,anciens,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-15,LR,F,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-15,LR,F,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-15,LR,F,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-15,LR,F,nouveaux,reponse,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-15,LR,H,anciens,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-08-15,LR,H,anciens,attente,2,Ministère de l’intérieur,fonctionnaires et agents publics,2
+2017-08-15,LR,H,anciens,attente,2,Ministère de l’intérieur,police,1
+2017-08-15,LR,H,anciens,attente,2,Ministère de la cohésion des territoires,urbanisme,1
+2017-08-15,LR,H,anciens,attente,2,Ministère de la culture,audiovisuel et communication,1
+2017-08-15,LR,H,anciens,attente,2,Ministère de la justice,déchéances et incapacités,1
+2017-08-15,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,établissements de santé,1
+2017-08-15,LR,H,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,assurance maladie maternité,1
+2017-08-15,LR,H,anciens,reponse,1,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-08-15,LR,H,anciens,reponse,1,Ministère des armées,mer et littoral,1
+2017-08-15,LR,H,anciens,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,bois et forêts,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère de l'économie et des finances,régime social des indépendants,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère de l'éducation nationale,ruralité,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère de l’intérieur,ordre public,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère de l’intérieur,papiers d'identité,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère de l’intérieur,police,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère des solidarités et de la santé,établissements de santé,1
+2017-08-15,LR,H,nouveaux,attente,2,Ministère du travail,travail,1
+2017-08-15,LR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-08-15,LR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,enseignement agricole,1
+2017-08-15,LR,H,nouveaux,reponse,2,Ministère des solidarités et de la santé,sécurité des biens et des personnes,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère de l'éducation nationale,entreprises,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère de l’intérieur,étrangers,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère de l’intérieur,immigration,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère de la cohésion des territoires,agriculture,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère de la justice,justice,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère des outre-mer,outre-mer,1
+2017-08-15,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,fonction publique hospitalière,1
+2017-08-15,LREM,F,nouveaux,reponse,1,Ministère de l’intérieur,immigration,1
+2017-08-15,LREM,F,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-15,LREM,F,nouveaux,reponse,2,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-15,LREM,F,nouveaux,reponse,2,Ministère de la transition écologique et solidaire,agriculture,1
+2017-08-15,LREM,F,nouveaux,reponse,2,Ministère de la transition écologique et solidaire,animaux,1
+2017-08-15,LREM,H,anciens,attente,2,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-08-15,LREM,H,anciens,attente,2,Ministère de l’intérieur,police,1
+2017-08-15,LREM,H,anciens,attente,2,Ministère de la culture,audiovisuel et communication,1
+2017-08-15,LREM,H,anciens,attente,2,Ministère des solidarités et de la santé,fonction publique hospitalière,1
+2017-08-15,LREM,H,anciens,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-15,LREM,H,anciens,reponse,2,Ministère des solidarités et de la santé,enfants,1
+2017-08-15,LREM,H,nouveaux,attente,2,Ministère de l'Europe et des affaires étrangères,immigration,1
+2017-08-15,LREM,H,nouveaux,attente,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-08-15,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,professions de santé,2
+2017-08-15,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-08-15,LREM,H,nouveaux,reponse,2,Ministère de l'action et des comptes publics,impôts locaux,2
+2017-08-15,LREM,H,nouveaux,reponse,2,Premier ministre,tourisme et loisirs,1
+2017-08-15,MODEM,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,santé,1
+2017-08-15,MODEM,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-15,MODEM,H,nouveaux,attente,2,Ministère des sports,sports,1
+2017-08-15,NG,H,anciens,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-15,NI,F,nouveaux,attente,2,Ministère de l'Europe et des affaires étrangères,immigration,1
+2017-08-15,NI,F,nouveaux,reponse,1,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-08-15,NI,F,nouveaux,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-08-22,GDR,H,nouveaux,attente,2,Ministère de l'économie et des finances,aménagement du territoire,1
+2017-08-22,LC,F,anciens,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-22,LC,F,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-22,LC,F,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,handicapés,1
+2017-08-22,LC,H,anciens,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-08-22,LR,H,anciens,attente,2,Ministère de l'action et des comptes publics,santé,1
+2017-08-22,LR,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-22,LR,H,anciens,attente,2,Ministère de l'économie et des finances,régime social des indépendants,1
+2017-08-22,LR,H,anciens,attente,2,Ministère de l’intérieur,étrangers,1
+2017-08-22,LR,H,anciens,attente,2,Ministère de la transition écologique et solidaire,impôt sur le revenu,1
+2017-08-22,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,handicapés,1
+2017-08-22,LR,H,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,santé,1
+2017-08-22,LR,H,anciens,reponse,1,Ministère de l'agriculture et de l'alimentation,retraites : régime agricole,1
+2017-08-22,LR,H,anciens,reponse,2,Ministère des sports,sports,1
+2017-08-22,LR,H,nouveaux,attente,2,Ministère de l’intérieur,gendarmerie,1
+2017-08-22,LR,H,nouveaux,attente,2,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-08-22,LR,H,nouveaux,reponse,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère de l'action et des comptes publics,politique économique,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère de la justice,justice,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère de la transition écologique et solidaire,animaux,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,établissements de santé,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,politique sociale,1
+2017-08-22,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,régime social des indépendants,1
+2017-08-22,LREM,F,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-08-22,LREM,F,nouveaux,reponse,2,Ministère des solidarités et de la santé,fonction publique hospitalière,1
+2017-08-22,LREM,H,anciens,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-08-22,LREM,H,nouveaux,attente,2,Ministère de l’intérieur,police,1
+2017-08-22,LREM,H,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-22,LREM,H,nouveaux,reponse,2,Ministère des armées,immigration,1
+2017-08-22,MODEM,F,nouveaux,attente,2,Ministère de la cohésion des territoires,logement : aides et prêts,1
+2017-08-22,MODEM,F,nouveaux,attente,2,Ministère de la cohésion des territoires,urbanisme,1
+2017-08-22,MODEM,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-29,GDR,H,nouveaux,attente,2,Ministère de la culture,commerce et artisanat,1
+2017-08-29,GDR,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-08-29,GDR,H,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-29,LC,F,nouveaux,attente,2,Ministère du travail,retraites : généralités,1
+2017-08-29,LC,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-29,LC,F,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-29,LC,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-29,LC,H,anciens,attente,2,Ministère de l'Europe et des affaires étrangères,défense,1
+2017-08-29,LC,H,anciens,attente,2,Ministère de l’intérieur,police,1
+2017-08-29,LC,H,anciens,attente,2,Ministère de la justice,lieux de privation de liberté,1
+2017-08-29,LC,H,anciens,attente,2,Ministère des armées,mer et littoral,1
+2017-08-29,LC,H,anciens,attente,2,Ministère des solidarités et de la santé,personnes âgées,1
+2017-08-29,LC,H,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-29,LC,H,anciens,attente,2,Secrétariat d'État, auprès du ministre d'État, ministre de la transition écologique et solidaire,agriculture,1
+2017-08-29,LC,H,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-08-29,LC,H,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-08-29,LC,H,anciens,reponse,1,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-08-29,LC,H,nouveaux,attente,2,Ministère de l’intérieur,terrorisme,1
+2017-08-29,LC,H,nouveaux,attente,2,Ministère du travail,travail,1
+2017-08-29,LR,F,anciens,attente,2,Ministère de la cohésion des territoires,logement,1
+2017-08-29,LR,F,anciens,reponse,2,Ministère des solidarités et de la santé,maladies,1
+2017-08-29,LR,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-08-29,LR,H,anciens,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-08-29,LR,H,anciens,attente,2,Ministère de l’intérieur,police,1
+2017-08-29,LR,H,anciens,attente,2,Ministère des armées,défense,1
+2017-08-29,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-29,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-08-29,LR,H,anciens,reponse,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-29,LR,H,anciens,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-29,LR,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,logement : aides et prêts,1
+2017-08-29,LR,H,nouveaux,attente,2,Ministère de l'économie et des finances,énergie et carburants,1
+2017-08-29,LR,H,nouveaux,attente,2,Ministère de l'économie et des finances,finances publiques,1
+2017-08-29,LR,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-08-29,LR,H,nouveaux,attente,2,Ministère de l’intérieur,papiers d'identité,1
+2017-08-29,LR,H,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,2
+2017-08-29,LR,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-29,LREM,F,nouveaux,attente,2,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-08-29,LREM,F,nouveaux,reponse,1,Ministère de l'Europe et des affaires étrangères,Français de l'étranger,1
+2017-08-29,LREM,F,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-29,LREM,H,anciens,reponse,1,Ministère de l'économie et des finances,consommation,1
+2017-08-29,LREM,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,finances publiques,1
+2017-08-29,LREM,H,nouveaux,attente,2,Ministère de l'économie et des finances,économie sociale et solidaire,1
+2017-08-29,LREM,H,nouveaux,attente,2,Ministère de l'économie et des finances,mines et carrières,1
+2017-08-29,LREM,H,nouveaux,attente,2,Ministère de l’intérieur,départements,1
+2017-08-29,LREM,H,nouveaux,attente,2,Ministère de la justice,Parlement,1
+2017-08-29,LREM,H,nouveaux,attente,2,Ministère du travail,travail,1
+2017-08-29,LREM,H,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-08-29,MODEM,H,nouveaux,attente,2,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-08-29,NG,F,anciens,attente,2,Ministère de l'action et des comptes publics,régime social des indépendants,1
+2017-08-29,NG,F,anciens,attente,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-08-29,NG,F,anciens,attente,2,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-08-29,NG,F,anciens,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-08-29,NG,F,anciens,attente,2,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-08-29,NG,F,anciens,reponse,1,Ministère du travail,emploi et activité,1
+2017-08-29,NG,F,anciens,reponse,2,Ministère de l'éducation nationale,fonction publique territoriale,1
+2017-08-29,NG,H,anciens,reponse,1,Ministère de l’intérieur,emploi et activité,1
+2017-08-29,NI,H,anciens,attente,2,Ministère de l’intérieur,administration,1
+2017-09-05,GDR,F,anciens,attente,2,Ministère des sports,sports,1
+2017-09-05,GDR,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-05,GDR,H,anciens,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-09-05,GDR,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-05,LC,F,nouveaux,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports routiers,1
+2017-09-05,LC,F,nouveaux,attente,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-05,LC,F,nouveaux,attente,2,Ministère de la cohésion des territoires,sécurité des biens et des personnes,1
+2017-09-05,LC,F,nouveaux,attente,2,Ministère de la justice,droits fondamentaux,1
+2017-09-05,LC,F,nouveaux,attente,2,Ministère des armées,terrorisme,1
+2017-09-05,LC,F,nouveaux,attente,2,Ministère du travail,emploi et activité,1
+2017-09-05,LC,F,nouveaux,attente,2,Secrétariat d'État, auprès du ministre de l'Europe et des affaires étrangères,élections et référendums,1
+2017-09-05,LC,F,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-05,LC,F,nouveaux,reponse,1,Ministère du travail,professions de santé,1
+2017-09-05,LC,H,anciens,attente,2,Ministère de la justice,justice,1
+2017-09-05,LC,H,anciens,attente,2,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-05,LC,H,anciens,attente,2,Ministère de la transition écologique et solidaire,environnement,1
+2017-09-05,LC,H,anciens,attente,2,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-05,LC,H,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,2
+2017-09-05,LC,H,anciens,attente,2,Ministère des solidarités et de la santé,terrorisme,1
+2017-09-05,LC,H,anciens,attente,2,Ministère du travail,retraites : généralités,1
+2017-09-05,LC,H,anciens,reponse,1,Ministère de la transition écologique et solidaire,chasse et pêche,1
+2017-09-05,LC,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,État,1
+2017-09-05,LC,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-09-05,LC,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-09-05,LC,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-09-05,LC,H,nouveaux,attente,2,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-05,LC,H,nouveaux,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-05,LC,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-09-05,LFI,F,nouveaux,attente,2,Ministère de l'éducation nationale,droits fondamentaux,1
+2017-09-05,LFI,F,nouveaux,reponse,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-05,LFI,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,environnement,1
+2017-09-05,LFI,H,nouveaux,attente,2,Ministère du travail,emploi et activité,1
+2017-09-05,LFI,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-05,LR,F,anciens,reponse,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-05,LR,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-05,LR,H,anciens,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,voirie,1
+2017-09-05,LR,H,anciens,attente,2,Ministère de l'agriculture et de l'alimentation,enseignement supérieur,1
+2017-09-05,LR,H,anciens,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-09-05,LR,H,anciens,attente,2,Ministère de la cohésion des territoires,collectivités territoriales,1
+2017-09-05,LR,H,anciens,attente,2,Ministère de la justice,justice,1
+2017-09-05,LR,H,anciens,attente,2,Ministère de la transition écologique et solidaire,transports aériens,1
+2017-09-05,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-05,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-05,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,santé,1
+2017-09-05,LR,H,anciens,attente,2,Ministère des solidarités et de la santé,sécurité des biens et des personnes,1
+2017-09-05,LR,H,anciens,attente,2,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,1
+2017-09-05,LR,H,anciens,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-09-05,LR,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-09-05,LR,H,nouveaux,attente,2,Ministère de l'économie et des finances,outre-mer,1
+2017-09-05,LR,H,nouveaux,attente,2,Ministère de l'éducation nationale,outre-mer,1
+2017-09-05,LR,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,animaux,1
+2017-09-05,LREM,F,anciens,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-09-05,LREM,F,anciens,attente,2,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports routiers,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère de l'économie et des finances,industrie,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère de l’intérieur,police,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère de l’intérieur,sécurité routière,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère de l’intérieur,terrorisme,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,enfants,1
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère des solidarités et de la santé,professions de santé,2
+2017-09-05,LREM,F,nouveaux,attente,2,Ministère du travail,emploi et activité,1
+2017-09-05,LREM,F,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-05,LREM,F,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agroalimentaire,1
+2017-09-05,LREM,F,nouveaux,reponse,1,Ministère de l'économie et des finances,tourisme et loisirs,1
+2017-09-05,LREM,F,nouveaux,reponse,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-05,LREM,H,anciens,attente,2,Ministère de l’intérieur,papiers d'identité,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports aériens,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'action et des comptes publics,services publics,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'agriculture et de l'alimentation,enseignement agricole,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'économie et des finances,tourisme et loisirs,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,2
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,santé,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l’intérieur,eau et assainissement,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de l’intérieur,numérique,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de la cohésion des territoires,aménagement du territoire,2
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de la cohésion des territoires,établissements de santé,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de la justice,presse et livres,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,animaux,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère de la transition écologique et solidaire,environnement,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des armées,droits fondamentaux,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des armées,terrorisme,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des armées,Union européenne,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,assurance maladie maternité,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,enfants,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,établissements de santé,2
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,pauvreté,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,personnes âgées,1
+2017-09-05,LREM,H,nouveaux,attente,2,Ministère des solidarités et de la santé,professions de santé,4
+2017-09-05,LREM,H,nouveaux,attente,2,Secrétariat d'État, auprès du ministre de la cohésion des territoires,logement,1
+2017-09-05,LREM,H,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,logement,1
+2017-09-05,LREM,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-09-05,LREM,H,nouveaux,reponse,1,Ministère auprès du ministre de l'Europe et des affaires étrangères, chargé des affaires européennes,Union européenne,1
+2017-09-05,LREM,H,nouveaux,reponse,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,3
+2017-09-05,LREM,H,nouveaux,reponse,1,Ministère de l’intérieur,aménagement du territoire,1
+2017-09-05,LREM,H,nouveaux,reponse,1,Ministère de l’intérieur,Parlement,1
+2017-09-05,MODEM,H,nouveaux,attente,2,Ministère de l'éducation nationale,enseignement,1
+2017-09-05,NG,F,anciens,attente,2,Ministère de l'action et des comptes publics,outre-mer,1
+2017-09-05,NG,F,anciens,attente,2,Ministère de l'éducation nationale,personnes handicapées,1
+2017-09-05,NG,F,anciens,attente,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-05,NG,F,anciens,attente,2,Ministère de l’intérieur,police,1
+2017-09-05,NG,F,anciens,attente,2,Ministère de la cohésion des territoires,logement,1
+2017-09-05,NG,F,anciens,attente,2,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-05,NG,F,anciens,attente,2,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-05,NG,F,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,outre-mer,1
+2017-09-05,NG,F,anciens,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-09-05,NG,H,anciens,attente,2,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-05,NG,H,anciens,attente,2,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-05,NG,H,anciens,attente,2,Ministère du travail,formation professionnelle et apprentissage,1
+2017-09-05,NI,F,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-05,NI,H,nouveaux,attente,2,Ministère de l'éducation nationale,laïcité,1
+2017-09-05,NI,H,nouveaux,attente,2,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-12,GDR,F,anciens,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-12,GDR,F,anciens,attente,1,Ministère des solidarités et de la santé,outre-mer,1
+2017-09-12,GDR,F,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,outre-mer,1
+2017-09-12,GDR,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,2
+2017-09-12,GDR,H,anciens,attente,1,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-09-12,GDR,H,nouveaux,attente,1,Ministère de l’intérieur,étrangers,1
+2017-09-12,LC,H,anciens,attente,1,Ministère de l'action et des comptes publics,fonction publique territoriale,1
+2017-09-12,LC,H,anciens,attente,1,Ministère de l'économie et des finances,économie sociale et solidaire,1
+2017-09-12,LC,H,anciens,attente,1,Ministère de l’intérieur,fonctionnaires et agents publics,1
+2017-09-12,LC,H,anciens,attente,1,Ministère de la transition écologique et solidaire,animaux,1
+2017-09-12,LC,H,anciens,attente,1,Ministère des solidarités et de la santé,chômage,1
+2017-09-12,LC,H,anciens,attente,1,Ministère des solidarités et de la santé,famille,1
+2017-09-12,LC,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,collectivités territoriales,1
+2017-09-12,LC,H,nouveaux,attente,1,Ministère de la culture,audiovisuel et communication,1
+2017-09-12,LFI,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-12,LFI,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,environnement,1
+2017-09-12,LFI,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,espace et politique spatiale,1
+2017-09-12,LFI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-12,LFI,H,nouveaux,attente,1,Ministère des sports,sports,1
+2017-09-12,LR,F,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-12,LR,F,anciens,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-09-12,LR,F,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-12,LR,F,anciens,attente,1,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-12,LR,F,anciens,reponse,0,Ministère des solidarités et de la santé,personnes âgées,1
+2017-09-12,LR,F,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-12,LR,F,anciens,reponse,1,Ministère du travail,emploi et activité,1
+2017-09-12,LR,F,nouveaux,attente,1,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-09-12,LR,F,nouveaux,attente,1,Ministère de l’intérieur,justice,1
+2017-09-12,LR,F,nouveaux,attente,1,Ministère de l’intérieur,police,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,énergie et carburants,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,taxe sur la valeur ajoutée,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de l’intérieur,police,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de la culture,associations et fondations,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de la culture,tourisme et loisirs,1
+2017-09-12,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,environnement,1
+2017-09-12,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,médecine,1
+2017-09-12,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-12,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-12,LR,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-09-12,LR,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-09-12,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-12,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,finances publiques,1
+2017-09-12,LR,H,nouveaux,attente,1,Ministère de l’intérieur,étrangers,1
+2017-09-12,LR,H,nouveaux,attente,1,Ministère de l’intérieur,papiers d'identité,1
+2017-09-12,LREM,F,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,moyens de paiement,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,collectivités territoriales,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,logement,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,bois et forêts,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,énergie et carburants,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,impôt sur les sociétés,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,taxe sur la valeur ajoutée,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère de la cohésion des territoires,économie sociale et solidaire,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-12,LREM,F,nouveaux,attente,1,Ministère des sports,sports,1
+2017-09-12,LREM,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-12,LREM,H,anciens,attente,1,Ministère de l'action et des comptes publics,marchés publics,1
+2017-09-12,LREM,H,anciens,attente,1,Ministère de la culture,audiovisuel et communication,1
+2017-09-12,LREM,H,anciens,attente,1,Ministère de la justice,associations et fondations,1
+2017-09-12,LREM,H,anciens,attente,1,Ministère de la justice,professions judiciaires et juridiques,1
+2017-09-12,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-12,LREM,H,anciens,attente,1,Secrétariat d'État, auprès du ministre de l'économie et des finances,impôt sur le revenu,1
+2017-09-12,LREM,H,anciens,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,2
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,santé,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,associations et fondations,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,collectivités territoriales,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère de la justice,état civil,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,fonction publique hospitalière,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-09-12,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,personnes âgées,1
+2017-09-12,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,logement,1
+2017-09-12,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-12,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-09-12,LREM,H,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,retraites : régime agricole,1
+2017-09-12,LREM,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,santé,1
+2017-09-12,MODEM,F,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,emploi et activité,1
+2017-09-12,MODEM,F,nouveaux,attente,1,Ministère de la justice,justice,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,environnement,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère de l’intérieur,police,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère des armées,terrorisme,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,alcools et boissons alcoolisées,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Ministère des sports,sports,1
+2017-09-12,MODEM,H,nouveaux,attente,1,Premier ministre,tourisme et loisirs,1
+2017-09-12,MODEM,H,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-12,NG,F,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,environnement,1
+2017-09-12,NG,F,anciens,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-09-12,NG,F,anciens,reponse,1,Ministère des solidarités et de la santé,femmes,1
+2017-09-12,NG,H,anciens,attente,1,Ministère de l'action et des comptes publics,assurance complémentaire,1
+2017-09-12,NG,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-12,NG,H,anciens,reponse,0,Ministère du travail,emploi et activité,2
+2017-09-12,NG,H,anciens,reponse,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-12,NI,F,anciens,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-09-12,NI,F,anciens,attente,1,Ministère de l'action et des comptes publics,retraites : généralités,1
+2017-09-12,NI,F,nouveaux,attente,1,Ministère de la justice,justice,1
+2017-09-12,NI,F,nouveaux,attente,1,Ministère des armées,fonctionnaires et agents publics,1
+2017-09-12,NI,H,anciens,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-12,NI,H,anciens,attente,1,Ministère de l’intérieur,étrangers,1
+2017-09-12,NI,H,anciens,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-09-12,NI,H,anciens,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-12,NI,H,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-12,NI,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-12,NI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-09-12,NI,H,nouveaux,attente,1,Ministère de la justice,justice,1
+2017-09-12,NI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,emploi et activité,1
+2017-09-19,GDR,F,anciens,attente,1,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-19,GDR,F,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,GDR,H,anciens,attente,1,Ministère de l'action et des comptes publics,outre-mer,2
+2017-09-19,GDR,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,outre-mer,1
+2017-09-19,GDR,H,anciens,reponse,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-09-19,GDR,H,anciens,reponse,0,Ministère du travail,outre-mer,1
+2017-09-19,GDR,H,anciens,reponse,1,Ministère de l'économie et des finances,outre-mer,1
+2017-09-19,GDR,H,anciens,reponse,1,Ministère des outre-mer,outre-mer,1
+2017-09-19,GDR,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-09-19,GDR,H,nouveaux,attente,1,Ministère de l'économie et des finances,énergie et carburants,1
+2017-09-19,GDR,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,2
+2017-09-19,GDR,H,nouveaux,attente,1,Ministère des sports,sports,1
+2017-09-19,GDR,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-19,LC,F,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,sécurité routière,1
+2017-09-19,LC,H,anciens,attente,1,Ministère de l'action et des comptes publics,outre-mer,1
+2017-09-19,LC,H,anciens,attente,1,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-09-19,LC,H,anciens,attente,1,Ministère des solidarités et de la santé,sports,1
+2017-09-19,LC,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-19,LC,H,nouveaux,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,2
+2017-09-19,LC,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-19,LFI,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,ministères et secrétariats d'État,1
+2017-09-19,LFI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,sports,1
+2017-09-19,LFI,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-19,LR,F,anciens,attente,1,Ministère de l’intérieur,police,1
+2017-09-19,LR,F,anciens,attente,1,Ministère de la justice,professions libérales,1
+2017-09-19,LR,F,anciens,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-19,LR,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-19,LR,F,nouveaux,attente,1,Ministère des solidarités et de la santé,établissements de santé,1
+2017-09-19,LR,F,nouveaux,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LR,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,2
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'économie et des finances,ministères et secrétariats d'État,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'économie et des finances,professions et activités immobilières,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'éducation nationale,personnes handicapées,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l’intérieur,gendarmerie,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de la justice,famille,1
+2017-09-19,LR,H,anciens,attente,1,Ministère de la justice,lieux de privation de liberté,1
+2017-09-19,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,animaux,1
+2017-09-19,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-19,LR,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,2
+2017-09-19,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LR,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-19,LR,H,anciens,reponse,1,Ministère des armées,défense,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,collectivités territoriales,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,taxe sur la valeur ajoutée,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôts et taxes,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de l’intérieur,ordre public,2
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,automobiles,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,montagne,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,télécommunications,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère des sports,sports,1
+2017-09-19,LR,H,nouveaux,attente,1,Ministère du travail,personnes handicapées,1
+2017-09-19,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,2
+2017-09-19,LR,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-19,LREM,F,anciens,attente,1,Ministère de l'économie et des finances,consommation,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,assurance maladie maternité,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,jeux et paris,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,catastrophes naturelles,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,papiers d'identité,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de la culture,arts et spectacles,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de la culture,énergie et carburants,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de la culture,patrimoine culturel,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de la justice,justice,2
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,agriculture,2
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,4
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère des armées,ordre public,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,déchéances et incapacités,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère du travail,enseignement,1
+2017-09-19,LREM,F,nouveaux,attente,1,Ministère du travail,formation professionnelle et apprentissage,1
+2017-09-19,LREM,F,nouveaux,attente,1,Secrétariat d'État, auprès de la ministre des armées,décorations, insignes et emblèmes,1
+2017-09-19,LREM,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LREM,F,nouveaux,reponse,1,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-09-19,LREM,H,anciens,attente,1,Ministère de l'action et des comptes publics,associations et fondations,1
+2017-09-19,LREM,H,anciens,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-19,LREM,H,anciens,attente,1,Ministère de la cohésion des territoires,environnement,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,produits dangereux,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,tourisme et loisirs,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,communes,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,environnement,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,logement,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,animaux,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,logement,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,alcools et boissons alcoolisées,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,établissements de santé,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,4
+2017-09-19,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,urbanisme,1
+2017-09-19,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-09-19,LREM,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,LREM,H,nouveaux,reponse,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-19,MODEM,F,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,nuisances,1
+2017-09-19,MODEM,F,nouveaux,attente,1,Ministère de l’intérieur,catastrophes naturelles,1
+2017-09-19,MODEM,F,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-19,MODEM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-19,MODEM,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,outre-mer,1
+2017-09-19,MODEM,H,nouveaux,attente,1,Ministère de l’intérieur,outre-mer,1
+2017-09-19,MODEM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,outre-mer,1
+2017-09-19,MODEM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-19,MODEM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,politique sociale,1
+2017-09-19,NG,F,anciens,attente,1,Ministère des solidarités et de la santé,médecine,1
+2017-09-19,NG,F,anciens,attente,1,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-09-19,NG,H,anciens,attente,1,Ministère de l'action et des comptes publics,finances publiques,1
+2017-09-19,NG,H,anciens,attente,1,Ministère de l'action et des comptes publics,fonction publique territoriale,2
+2017-09-19,NG,H,anciens,attente,1,Ministère de l'action et des comptes publics,jeux et paris,1
+2017-09-19,NG,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-19,NG,H,anciens,attente,1,Ministère de l'éducation nationale,enseignement,4
+2017-09-19,NG,H,anciens,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-19,NG,H,anciens,attente,1,Ministère de la culture,arts et spectacles,1
+2017-09-19,NG,H,anciens,attente,1,Ministère de la transition écologique et solidaire,pollution,1
+2017-09-19,NG,H,anciens,attente,1,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-09-19,NG,H,anciens,attente,1,Ministère des sports,associations et fondations,1
+2017-09-19,NG,H,anciens,attente,1,Ministère du travail,sécurité des biens et des personnes,1
+2017-09-19,NG,H,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-19,NG,H,nouveaux,attente,1,Ministère de la culture,culture,1
+2017-09-19,NI,F,anciens,reponse,1,Ministère des solidarités et de la santé,femmes,2
+2017-09-19,NI,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-19,NI,F,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-19,NI,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-19,NI,F,nouveaux,attente,1,Ministère de l’intérieur,étrangers,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de l'économie et des finances,finances publiques,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de l'économie et des finances,retraites : régimes autonomes et spéciaux,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,recherche et innovation,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de l’intérieur,papiers d'identité,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-09-19,NI,H,anciens,attente,1,Ministère de la transition écologique et solidaire,déchets,1
+2017-09-19,NI,H,anciens,attente,1,Premier ministre,catastrophes naturelles,1
+2017-09-26,GDR,F,anciens,attente,1,Ministère de l'économie et des finances,ministères et secrétariats d'État,1
+2017-09-26,GDR,F,anciens,attente,1,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-09-26,GDR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,catastrophes naturelles,1
+2017-09-26,GDR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,outre-mer,1
+2017-09-26,GDR,H,anciens,reponse,1,Ministère des outre-mer,outre-mer,1
+2017-09-26,GDR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-26,LC,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,agriculture,1
+2017-09-26,LC,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-09-26,LC,H,anciens,attente,1,Ministère de l’intérieur,mort et décès,1
+2017-09-26,LC,H,anciens,attente,1,Ministère de l’intérieur,papiers d'identité,1
+2017-09-26,LC,H,anciens,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-26,LC,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,outre-mer,1
+2017-09-26,LC,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports routiers,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère des solidarités et de la santé,politique sociale,1
+2017-09-26,LC,H,nouveaux,attente,1,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-09-26,LC,H,nouveaux,attente,1,Secrétariat d'État, auprès du ministre d'État, ministre de la transition écologique et solidaire,commerce extérieur,1
+2017-09-26,LC,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-09-26,LC,H,nouveaux,reponse,0,Ministère de l'action et des comptes publics,emploi et activité,1
+2017-09-26,LFI,F,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-09-26,LFI,F,nouveaux,attente,1,Ministère de l’intérieur,étrangers,1
+2017-09-26,LFI,F,nouveaux,attente,1,Ministère de la cohésion des territoires,logement,1
+2017-09-26,LFI,F,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-26,LFI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,2
+2017-09-26,LFI,H,nouveaux,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,logement,1
+2017-09-26,LFI,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,biodiversité,1
+2017-09-26,LFI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-26,LFI,H,nouveaux,attente,1,Ministère du travail,pollution,1
+2017-09-26,LFI,H,nouveaux,attente,1,Ministère du travail,professions de santé,1
+2017-09-26,LR,F,anciens,attente,1,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-09-26,LR,F,anciens,attente,1,Ministère de l’intérieur,sécurité routière,2
+2017-09-26,LR,F,anciens,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-26,LR,F,anciens,attente,1,Premier ministre,personnes âgées,1
+2017-09-26,LR,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-26,LR,F,nouveaux,attente,1,Ministère de la culture,impôts et taxes,1
+2017-09-26,LR,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,femmes,1
+2017-09-26,LR,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,santé,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,énergie et carburants,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôt de solidarité sur la fortune,2
+2017-09-26,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,6
+2017-09-26,LR,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-09-26,LR,H,anciens,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de l’intérieur,eau et assainissement,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de l’intérieur,élections et référendums,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de la cohésion des territoires,collectivités territoriales,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de la cohésion des territoires,ruralité,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de la cohésion des territoires,urbanisme,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,animaux,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,eau et assainissement,1
+2017-09-26,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,santé,1
+2017-09-26,LR,H,anciens,attente,1,Ministère du travail,tourisme et loisirs,1
+2017-09-26,LR,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-26,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,femmes,1
+2017-09-26,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,2
+2017-09-26,LR,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,associations et fondations,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôt de solidarité sur la fortune,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,4
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,chambres consulaires,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l’intérieur,élus,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère de la justice,enfants,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,dépendance,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-26,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,2
+2017-09-26,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,sécurité sociale,2
+2017-09-26,LR,H,nouveaux,attente,1,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,2
+2017-09-26,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,femmes,1
+2017-09-26,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-26,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-09-26,LR,H,nouveaux,reponse,1,Ministère du travail,emploi et activité,1
+2017-09-26,LREM,F,anciens,attente,1,Premier ministre,État,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,communes,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,impôts et taxes,2
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,urbanisme,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,étrangers,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,gens du voyage,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de la justice,état civil,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,famille,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,logement,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,prestations familiales,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-09-26,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,3
+2017-09-26,LREM,F,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-26,LREM,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,voirie,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère de l'économie et des finances,assurances,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère de l’intérieur,collectivités territoriales,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère de la justice,droit pénal,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,assurance maladie maternité,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,enseignement secondaire,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,personnes âgées,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-09-26,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,tourisme et loisirs,1
+2017-09-26,LREM,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-26,LREM,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,voirie,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,bois et forêts,2
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,produits dangereux,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,État,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôt sur les sociétés,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enfants,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,2
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,recherche et innovation,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,2
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,papiers d'identité,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,police,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,télécommunications,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,urbanisme,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,biodiversité,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,environnement,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,voirie,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,agriculture,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,commerce et artisanat,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,établissements de santé,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,produits dangereux,1
+2017-09-26,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,2
+2017-09-26,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,professions et activités sociales,1
+2017-09-26,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-09-26,LREM,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-09-26,LREM,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-26,LREM,H,nouveaux,reponse,1,Ministère du travail,personnes handicapées,1
+2017-09-26,LREM,H,nouveaux,retrait,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-09-26,MODEM,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-26,MODEM,F,nouveaux,attente,1,Ministère de l’intérieur,eau et assainissement,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,outre-mer,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de l'économie et des finances,transports aériens,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de l'économie et des finances,travail,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de l'éducation nationale,outre-mer,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,agriculture,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,eau et assainissement,1
+2017-09-26,MODEM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,outre-mer,1
+2017-09-26,MODEM,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-09-26,MODEM,H,nouveaux,reponse,1,Ministère du travail,outre-mer,1
+2017-09-26,NG,F,anciens,attente,1,Ministère de l'action et des comptes publics,impôt sur les sociétés,1
+2017-09-26,NG,F,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-09-26,NG,F,anciens,attente,1,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-09-26,NG,H,anciens,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-09-26,NG,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-09-26,NG,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,retraites : régime agricole,1
+2017-09-26,NG,H,anciens,attente,1,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-09-26,NG,H,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-09-26,NG,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôt sur le revenu,1
+2017-09-26,NG,H,nouveaux,reponse,0,Ministère du travail,décorations, insignes et emblèmes,1
+2017-09-26,NI,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-09-26,NI,H,anciens,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,travail,1
+2017-09-26,NI,H,anciens,attente,1,Ministère de l’intérieur,police,1
+2017-09-26,NI,H,anciens,attente,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,logement : aides et prêts,1
+2017-09-26,NI,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,2
+2017-09-26,NI,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,sécurité sociale,1
+2017-09-26,NI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-09-26,NI,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,outre-mer,1
+2017-10-03,GDR,F,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,enseignement agricole,1
+2017-10-03,GDR,F,anciens,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-03,GDR,F,anciens,attente,1,Ministère de l’intérieur,gendarmerie,1
+2017-10-03,GDR,H,anciens,attente,1,Ministère de l'action et des comptes publics,établissements de santé,1
+2017-10-03,GDR,H,anciens,attente,1,Ministère de l’intérieur,outre-mer,1
+2017-10-03,GDR,H,anciens,attente,1,Ministère des outre-mer,outre-mer,2
+2017-10-03,GDR,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-10-03,GDR,H,nouveaux,attente,1,Ministère de la cohésion des territoires,eau et assainissement,1
+2017-10-03,GDR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,GDR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-10-03,GDR,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-03,LC,F,nouveaux,attente,1,Ministère des solidarités et de la santé,politique sociale,1
+2017-10-03,LC,H,anciens,attente,1,Ministère de l'Europe et des affaires étrangères,tourisme et loisirs,1
+2017-10-03,LC,H,anciens,attente,1,Ministère de l’intérieur,outre-mer,1
+2017-10-03,LC,H,anciens,attente,1,Ministère de la cohésion des territoires,logement,2
+2017-10-03,LC,H,anciens,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-03,LC,H,anciens,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,LC,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-03,LC,H,anciens,reponse,0,Ministère de l'économie et des finances,emploi et activité,1
+2017-10-03,LC,H,nouveaux,attente,1,Ministère de l'éducation nationale,numérique,1
+2017-10-03,LC,H,nouveaux,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-10-03,LFI,F,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,discriminations,1
+2017-10-03,LFI,F,nouveaux,attente,1,Ministère de l'économie et des finances,politique économique,1
+2017-10-03,LFI,F,nouveaux,attente,1,Ministère de l’intérieur,droits fondamentaux,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,commerce extérieur,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,enseignement,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de l’intérieur,justice,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de la culture,outre-mer,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de la justice,justice,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,produits dangereux,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère des armées,défense,1
+2017-10-03,LFI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,outre-mer,1
+2017-10-03,LR,F,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,2
+2017-10-03,LR,F,anciens,attente,1,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,1
+2017-10-03,LR,F,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,1
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôt de solidarité sur la fortune,1
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,retraites : généralités,1
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de l’intérieur,sécurité routière,2
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de l’intérieur,terrorisme,2
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de la justice,outre-mer,1
+2017-10-03,LR,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,LR,F,nouveaux,attente,1,Premier ministre,anciens combattants et victimes de guerre,1
+2017-10-03,LR,F,nouveaux,attente,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,montagne,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôt sur le revenu,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-10-03,LR,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l'économie et des finances,communes,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l’intérieur,élections et référendums,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l’intérieur,gendarmerie,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de l’intérieur,sécurité routière,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de la cohésion des territoires,logement : aides et prêts,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de la culture,patrimoine culturel,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,économie sociale et solidaire,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,LR,H,anciens,attente,1,Ministère de la transition écologique et solidaire,femmes,1
+2017-10-03,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,enfants,1
+2017-10-03,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-03,LR,H,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,2
+2017-10-03,LR,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-03,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,fonction publique hospitalière,1
+2017-10-03,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-03,LR,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,outre-mer,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,2
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,politique sociale,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,consommation,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,environnement,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,chambres consulaires,2
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,emploi et activité,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôts locaux,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l'économie et des finances,logement,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l’intérieur,enseignement,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de l’intérieur,outre-mer,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,animaux,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,chasse et pêche,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,communes,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-10-03,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,professions de santé,2
+2017-10-03,LR,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,LR,H,nouveaux,attente,1,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,1
+2017-10-03,LR,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-03,LR,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,emploi et activité,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôt de solidarité sur la fortune,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,politique sociale,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,outre-mer,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,formation professionnelle et apprentissage,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,3
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement secondaire,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'éducation nationale,outre-mer,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,3
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,politique extérieure,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de l’intérieur,voirie,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la cohésion des territoires,logement,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la cohésion des territoires,logement : aides et prêts,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la justice,justice,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,déchets,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,urbanisme,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des armées,anciens combattants et victimes de guerre,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des armées,défense,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,professions de santé,2
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,sports,1
+2017-10-03,LREM,F,nouveaux,attente,1,Ministère des sports,sports,1
+2017-10-03,LREM,F,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,2
+2017-10-03,LREM,F,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-03,LREM,F,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,outre-mer,1
+2017-10-03,LREM,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,femmes,1
+2017-10-03,LREM,F,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-10-03,LREM,F,nouveaux,retrait,0,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l'action et des comptes publics,entreprises,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l'action et des comptes publics,professions de santé,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l'économie et des finances,consommation,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,associations et fondations,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,collectivités territoriales,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,impôts et taxes,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,lieux de privation de liberté,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,santé,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,sécurité routière,2
+2017-10-03,LREM,H,anciens,attente,1,Ministère de l’intérieur,transports routiers,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la cohésion des territoires,logement,2
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la culture,arts et spectacles,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la culture,audiovisuel et communication,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la culture,patrimoine culturel,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la culture,presse et livres,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la justice,professions judiciaires et juridiques,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,assurance complémentaire,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,ruralité,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère des sports,sports,1
+2017-10-03,LREM,H,anciens,attente,1,Ministère du travail,emploi et activité,1
+2017-10-03,LREM,H,anciens,attente,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,transports,1
+2017-10-03,LREM,H,anciens,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-10-03,LREM,H,anciens,reponse,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-03,LREM,H,anciens,reponse,0,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports aériens,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agroalimentaire,4
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,environnement,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,retraites : régime agricole,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,consommation,2
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,industrie,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,marchés publics,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'économie et des finances,sécurité routière,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l'intérieur,élections et référendums,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,gendarmerie,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de l’intérieur,immigration,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la cohésion des territoires,logement,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la culture,arts et spectacles,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la culture,emploi et activité,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la justice,élections et référendums,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la justice,fonction publique de l'État,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,agriculture,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,environnement,3
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,impôts et taxes,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des armées,examens, concours et diplômes,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,institutions sociales et médico sociales,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,maladies,2
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,politique sociale,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère des sports,sports,1
+2017-10-03,LREM,H,nouveaux,attente,1,Ministère du travail,emploi et activité,4
+2017-10-03,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,1
+2017-10-03,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du ministre de la cohésion des territoires,énergie et carburants,1
+2017-10-03,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-10-03,LREM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,3
+2017-10-03,LREM,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,santé,2
+2017-10-03,LREM,H,nouveaux,reponse,0,Ministère du travail,agroalimentaire,1
+2017-10-03,LREM,H,nouveaux,retrait,0,Ministère de l’intérieur,eau et assainissement,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère de la culture,culture,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère de la transition écologique et solidaire,transports urbains,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,maladies,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,MODEM,F,nouveaux,attente,1,Ministère des sports,sports,2
+2017-10-03,MODEM,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,santé,1
+2017-10-03,MODEM,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-03,MODEM,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,outre-mer,1
+2017-10-03,MODEM,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-10-03,NG,F,anciens,attente,1,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-03,NG,F,anciens,attente,1,Ministère de l’intérieur,état civil,1
+2017-10-03,NG,F,anciens,attente,1,Ministère des solidarités et de la santé,déchéances et incapacités,1
+2017-10-03,NG,F,anciens,attente,1,Ministère des solidarités et de la santé,emploi et activité,1
+2017-10-03,NG,F,anciens,attente,1,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-03,NG,F,anciens,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,NG,F,anciens,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-03,NG,H,anciens,attente,1,Ministère de l'action et des comptes publics,ruralité,1
+2017-10-03,NG,H,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-03,NG,H,anciens,attente,1,Ministère de l'intérieur,communes,1
+2017-10-03,NG,H,anciens,attente,1,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-10-03,NG,H,anciens,attente,1,Ministère de la transition écologique et solidaire,déchets,1
+2017-10-03,NG,H,anciens,attente,1,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-03,NG,H,anciens,attente,1,Premier ministre,État,1
+2017-10-03,NG,H,nouveaux,attente,1,Ministère de l'éducation nationale,sécurité routière,1
+2017-10-03,NG,H,nouveaux,attente,1,Ministère de la justice,état civil,1
+2017-10-03,NG,H,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,égalité des sexes et parité,1
+2017-10-03,NI,F,anciens,attente,1,Ministère de l'action et des comptes publics,impôts locaux,1
+2017-10-03,NI,F,anciens,attente,1,Ministère de l'agriculture et de l'alimentation,professions de santé,1
+2017-10-03,NI,F,nouveaux,attente,1,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-03,NI,H,anciens,attente,1,Ministère de l'action et des comptes publics,élus,1
+2017-10-03,NI,H,anciens,attente,1,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l'action et des comptes publics,impôt sur le revenu,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l'économie et des finances,automobiles,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de l’intérieur,religions et cultes,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de la cohésion des territoires,collectivités territoriales,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de la cohésion des territoires,logement,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de la cohésion des territoires,montagne,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de la culture,audiovisuel et communication,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère de la transition écologique et solidaire,eau et assainissement,2
+2017-10-03,NI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,établissements de santé,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère des solidarités et de la santé,santé,1
+2017-10-03,NI,H,nouveaux,attente,1,Ministère du travail,emploi et activité,2
+2017-10-03,NI,H,nouveaux,attente,1,Premier ministre,État,2
+2017-10-10,GDR,F,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-10,GDR,H,anciens,attente,0,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-10,GDR,H,anciens,attente,0,Ministère des armées,défense,2
+2017-10-10,GDR,H,anciens,reponse,0,Ministère des solidarités et de la santé,outre-mer,1
+2017-10-10,GDR,H,nouveaux,attente,0,Ministère de l'économie et des finances,logement,1
+2017-10-10,GDR,H,nouveaux,attente,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-10,GDR,H,nouveaux,reponse,0,Ministère du travail,agroalimentaire,1
+2017-10-10,LC,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,commerce et artisanat,1
+2017-10-10,LC,H,anciens,attente,0,Ministère de l'action et des comptes publics,fonction publique de l'État,1
+2017-10-10,LC,H,anciens,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-10,LC,H,anciens,attente,0,Ministère de l'éducation nationale,fonction publique de l'État,1
+2017-10-10,LC,H,anciens,attente,0,Ministère de la justice,aide aux victimes,1
+2017-10-10,LC,H,anciens,attente,0,Ministère des outre-mer,outre-mer,1
+2017-10-10,LC,H,anciens,attente,0,Ministère des solidarités et de la santé,maladies,1
+2017-10-10,LC,H,anciens,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-10,LC,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-10,LC,H,nouveaux,attente,0,Ministère des outre-mer,outre-mer,1
+2017-10-10,LC,H,nouveaux,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-10,LC,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de la cohésion des territoires,logement,1
+2017-10-10,LFI,F,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-10,LFI,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,déchets,1
+2017-10-10,LFI,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,eau et assainissement,1
+2017-10-10,LR,F,anciens,attente,0,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-10,LR,F,anciens,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-10,LR,F,anciens,attente,0,Ministère de l’intérieur,sécurité routière,1
+2017-10-10,LR,F,anciens,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-10,LR,F,anciens,attente,0,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-10,LR,F,anciens,attente,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-10,LR,F,anciens,attente,0,Ministère des solidarités et de la santé,santé,3
+2017-10-10,LR,F,anciens,reponse,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-10,LR,F,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-10-10,LR,F,nouveaux,attente,0,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-10-10,LR,F,nouveaux,attente,0,Ministère de la cohésion des territoires,impôts locaux,1
+2017-10-10,LR,F,nouveaux,attente,0,Ministère de la justice,justice,1
+2017-10-10,LR,F,nouveaux,attente,0,Ministère de la justice,lieux de privation de liberté,1
+2017-10-10,LR,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,eau et assainissement,1
+2017-10-10,LR,F,nouveaux,attente,0,Ministère des solidarités et de la santé,commerce et artisanat,1
+2017-10-10,LR,H,anciens,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-10-10,LR,H,anciens,attente,0,Ministère auprès du ministre de l'Europe et des affaires étrangères, chargé des affaires européennes,politique extérieure,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,2
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'économie et des finances,consommation,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'économie et des finances,impôts et taxes,2
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'économie et des finances,retraites : généralités,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'éducation nationale,terrorisme,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de l’intérieur,étrangers,2
+2017-10-10,LR,H,anciens,attente,0,Ministère de l’intérieur,papiers d'identité,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de la justice,droit pénal,1
+2017-10-10,LR,H,anciens,attente,0,Ministère de la justice,justice,15
+2017-10-10,LR,H,anciens,attente,0,Ministère des armées,défense,1
+2017-10-10,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,famille,1
+2017-10-10,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-10-10,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,régime social des indépendants,1
+2017-10-10,LR,H,anciens,attente,0,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,2
+2017-10-10,LR,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-10,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-10-10,LR,H,anciens,reponse,0,Ministère des solidarités et de la santé,santé,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,personnes handicapées,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,2
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,élevage,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,taxe sur la valeur ajoutée,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'économie et des finances,régime social des indépendants,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,outre-mer,2
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l’intérieur,collectivités territoriales,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l’intérieur,justice,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de l’intérieur,sécurité routière,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de la justice,professions judiciaires et juridiques,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,mer et littoral,1
+2017-10-10,LR,H,nouveaux,attente,0,Ministère des solidarités et de la santé,maladies,4
+2017-10-10,LR,H,nouveaux,attente,0,Ministère des sports,sports,3
+2017-10-10,LR,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre d'État, ministre de la transition écologique et solidaire,environnement,2
+2017-10-10,LR,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de l'économie et des finances,santé,1
+2017-10-10,LR,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-10-10,LREM,F,anciens,attente,0,Ministère des armées,défense,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports routiers,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,administration,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,transports urbains,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement maternel et primaire,3
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l’intérieur,commerce et artisanat,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de l’intérieur,ordre public,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de la justice,étrangers,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,animaux,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,impôts et taxes,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,enfants,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,maladies,2
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-10-10,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-10,LREM,F,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de l'économie et des finances,consommation,1
+2017-10-10,LREM,F,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,femmes,1
+2017-10-10,LREM,F,nouveaux,reponse,0,Ministère des solidarités et de la santé,femmes,1
+2017-10-10,LREM,F,nouveaux,retrait,0,Ministère de l'action et des comptes publics,Français de l'étranger,1
+2017-10-10,LREM,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,impôts et taxes,1
+2017-10-10,LREM,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,voirie,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,chasse et pêche,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,élevage,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,ambassades et consulats,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de l’intérieur,sécurité des biens et des personnes,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de la cohésion des territoires,aménagement du territoire,2
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de la culture,enseignement maternel et primaire,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,environnement,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère des armées,défense,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,Français de l'étranger,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,personnes âgées,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-10,LREM,H,nouveaux,attente,0,Ministère du travail,sécurité sociale,1
+2017-10-10,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,consommation,1
+2017-10-10,LREM,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,femmes,1
+2017-10-10,LREM,H,nouveaux,retrait,0,Ministère de la culture,audiovisuel et communication,1
+2017-10-10,MODEM,F,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,sécurité routière,1
+2017-10-10,MODEM,F,nouveaux,attente,0,Ministère de l'éducation nationale,drogue,1
+2017-10-10,MODEM,H,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports urbains,1
+2017-10-10,MODEM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,urbanisme,1
+2017-10-10,MODEM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-10-10,MODEM,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de l'économie et des finances,chambres consulaires,1
+2017-10-10,MODEM,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,Internet,2
+2017-10-10,NG,F,anciens,attente,0,Ministère de l'économie et des finances,automobiles,2
+2017-10-10,NG,F,anciens,attente,0,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-10,NG,F,anciens,attente,0,Ministère de la culture,arts et spectacles,1
+2017-10-10,NG,F,anciens,attente,0,Ministère de la transition écologique et solidaire,automobiles,1
+2017-10-10,NG,H,anciens,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,tourisme et loisirs,1
+2017-10-10,NG,H,anciens,attente,0,Ministère de l'agriculture et de l'alimentation,élevage,1
+2017-10-10,NG,H,anciens,attente,0,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-10-10,NG,H,anciens,attente,0,Ministère de la cohésion des territoires,emploi et activité,1
+2017-10-10,NG,H,anciens,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-10,NG,H,anciens,attente,0,Ministère de la justice,justice,1
+2017-10-10,NG,H,anciens,attente,0,Ministère de la transition écologique et solidaire,environnement,1
+2017-10-10,NG,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-10,NG,H,anciens,reponse,0,Ministère du travail,emploi et activité,1
+2017-10-10,NG,H,nouveaux,attente,0,Ministère de l’intérieur,administration,1
+2017-10-10,NG,H,nouveaux,attente,0,Ministère de l’intérieur,religions et cultes,1
+2017-10-10,NG,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,transports urbains,1
+2017-10-10,NG,H,nouveaux,attente,0,Ministère des armées,défense,1
+2017-10-10,NG,H,nouveaux,attente,0,Ministère des solidarités et de la santé,famille,1
+2017-10-10,NG,H,nouveaux,reponse,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-10,NG,H,nouveaux,reponse,0,Ministère du travail,emploi et activité,1
+2017-10-10,NI,F,anciens,attente,0,Ministère de l’intérieur,sécurité routière,1
+2017-10-10,NI,F,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-10,NI,H,anciens,attente,0,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-10,NI,H,anciens,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-10,NI,H,anciens,attente,0,Ministère des solidarités et de la santé,maladies,2
+2017-10-10,NI,H,anciens,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-10,NI,H,nouveaux,attente,0,Ministère de la justice,Français de l'étranger,2
+2017-10-10,NI,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,agriculture,1
+2017-10-10,NI,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-17,GDR,F,anciens,attente,0,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-17,GDR,F,anciens,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-17,GDR,F,anciens,attente,0,Ministère de l'Europe et des affaires étrangères,outre-mer,1
+2017-10-17,GDR,F,anciens,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-17,GDR,F,anciens,attente,0,Ministère des solidarités et de la santé,femmes,1
+2017-10-17,GDR,H,nouveaux,attente,0,Ministère des solidarités et de la santé,personnes âgées,1
+2017-10-17,LC,F,anciens,attente,0,Ministère des solidarités et de la santé,maladies,1
+2017-10-17,LC,F,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports par eau,1
+2017-10-17,LC,F,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-17,LC,F,nouveaux,attente,0,Ministère de l’intérieur,santé,1
+2017-10-17,LC,F,nouveaux,attente,0,Ministère des sports,sports,1
+2017-10-17,LC,H,anciens,attente,0,Ministère de l'action et des comptes publics,personnes handicapées,1
+2017-10-17,LC,H,anciens,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,2
+2017-10-17,LC,H,anciens,attente,0,Ministère de l’intérieur,établissements de santé,1
+2017-10-17,LC,H,anciens,attente,0,Ministère de l’intérieur,outre-mer,1
+2017-10-17,LC,H,anciens,attente,0,Ministère de la cohésion des territoires,impôts et taxes,1
+2017-10-17,LC,H,anciens,attente,0,Ministère de la justice,professions judiciaires et juridiques,1
+2017-10-17,LC,H,anciens,attente,0,Ministère des sports,sports,1
+2017-10-17,LC,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-17,LC,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,politique extérieure,1
+2017-10-17,LFI,F,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-17,LFI,F,nouveaux,attente,0,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-10-17,LFI,F,nouveaux,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-17,LFI,F,nouveaux,attente,0,Ministère de la culture,impôts et taxes,1
+2017-10-17,LFI,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,mines et carrières,1
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère de l'économie et des finances,emploi et activité,2
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,logement,1
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère de la cohésion des territoires,outre-mer,1
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère des outre-mer,outre-mer,1
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-10-17,LFI,H,nouveaux,attente,0,Ministère des solidarités et de la santé,outre-mer,2
+2017-10-17,LFI,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-17,LR,F,anciens,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-17,LR,F,anciens,attente,0,Ministère de la justice,justice,1
+2017-10-17,LR,F,anciens,attente,0,Ministère des solidarités et de la santé,femmes,1
+2017-10-17,LR,F,anciens,attente,0,Ministère du travail,aménagement du territoire,1
+2017-10-17,LR,F,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,enseignement agricole,1
+2017-10-17,LR,F,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,taxe sur la valeur ajoutée,1
+2017-10-17,LR,F,nouveaux,attente,0,Ministère des solidarités et de la santé,assurance maladie maternité,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l'action et des comptes publics,agriculture,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l'action et des comptes publics,emploi et activité,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,2
+2017-10-17,LR,H,anciens,attente,0,Ministère de l'économie et des finances,entreprises,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l'économie et des finances,postes,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l’intérieur,automobiles,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de l’intérieur,sécurité des biens et des personnes,2
+2017-10-17,LR,H,anciens,attente,0,Ministère de l’intérieur,voirie,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de la cohésion des territoires,logement,5
+2017-10-17,LR,H,anciens,attente,0,Ministère de la justice,professions judiciaires et juridiques,1
+2017-10-17,LR,H,anciens,attente,0,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-17,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,impôts et taxes,1
+2017-10-17,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,maladies,1
+2017-10-17,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,professions de santé,3
+2017-10-17,LR,H,anciens,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-17,LR,H,anciens,attente,0,Secrétariat d'État, auprès du ministre de l'économie et des finances,collectivités territoriales,1
+2017-10-17,LR,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,santé,1
+2017-10-17,LR,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,2
+2017-10-17,LR,H,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,entreprises,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,entreprises,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,outre-mer,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,3
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'économie et des finances,logement,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l’intérieur,collectivités territoriales,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l’intérieur,communes,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de l’intérieur,religions et cultes,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de la cohésion des territoires,aménagement du territoire,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de la cohésion des territoires,outre-mer,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de la culture,professions libérales,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de la justice,professions judiciaires et juridiques,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,environnement,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère des solidarités et de la santé,emploi et activité,1
+2017-10-17,LR,H,nouveaux,attente,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-10-17,LR,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de l'économie et des finances,chambres consulaires,1
+2017-10-17,LREM,F,anciens,attente,0,Ministère de l’intérieur,élections et référendums,1
+2017-10-17,LREM,F,anciens,attente,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,fonctionnaires et agents publics,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,Français de l'étranger,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,sports,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'action et des comptes publics,urbanisme,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'économie et des finances,impôt sur le revenu,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l’intérieur,collectivités territoriales,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l’intérieur,eau et assainissement,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l’intérieur,patrimoine culturel,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de l’intérieur,régions,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de la cohésion des territoires,urbanisme,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,animaux,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère de la transition écologique et solidaire,énergie et carburants,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,assurance maladie maternité,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,commerce et artisanat,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,fin de vie et soins palliatifs,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,interruption volontaire de grossesse,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,maladies,2
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,pharmacie et médicaments,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,professions de santé,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des solidarités et de la santé,sécurité sociale,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère des sports,sports,1
+2017-10-17,LREM,F,nouveaux,attente,0,Ministère du travail,emploi et activité,1
+2017-10-17,LREM,F,nouveaux,attente,0,Secrétariat d'État, auprès de la ministre des armées,anciens combattants et victimes de guerre,1
+2017-10-17,LREM,F,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de l'économie et des finances,chambres consulaires,1
+2017-10-17,LREM,F,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,3
+2017-10-17,LREM,H,anciens,attente,0,Ministère de l'action et des comptes publics,impôts et taxes,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère de l'économie et des finances,assurances,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère de l'éducation nationale,enseignement secondaire,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère de l'éducation nationale,sports,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère des solidarités et de la santé,agroalimentaire,1
+2017-10-17,LREM,H,anciens,attente,0,Ministère du travail,formation professionnelle et apprentissage,1
+2017-10-17,LREM,H,anciens,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,aménagement du territoire,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère auprès du ministre d'État, ministre de la transition écologique et solidaire, chargé des transports,transports ferroviaires,3
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,administration,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,travail,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,enseignement agricole,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'économie et des finances,assurances,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'économie et des finances,banques et établissements financiers,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'économie et des finances,commerce et artisanat,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'économie et des finances,emploi et activité,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'économie et des finances,tourisme et loisirs,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'éducation nationale,enseignement maternel et primaire,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,étrangers,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,politique extérieure,2
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,sports,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l'Europe et des affaires étrangères,terrorisme,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l’intérieur,commerce et artisanat,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l’intérieur,communes,2
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l’intérieur,gens du voyage,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de l’intérieur,sécurité routière,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la cohésion des territoires,commerce et artisanat,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la cohésion des territoires,énergie et carburants,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la cohésion des territoires,logement,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la culture,collectivités territoriales,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la culture,culture,2
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la justice,justice,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,agriculture,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,aménagement du territoire,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,animaux,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,chasse et pêche,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,énergie et carburants,3
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des armées,anciens combattants et victimes de guerre,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,assurances,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,enfants,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,établissements de santé,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,maladies,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,personnes handicapées,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,pharmacie et médicaments,2
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,professions de santé,2
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,régime social des indépendants,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des solidarités et de la santé,sang et organes humains,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère des sports,sports,1
+2017-10-17,LREM,H,nouveaux,attente,0,Ministère du travail,formation professionnelle et apprentissage,1
+2017-10-17,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre d'État, ministre de la transition écologique et solidaire,énergie et carburants,1
+2017-10-17,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du ministre de la cohésion des territoires,logement,2
+2017-10-17,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé de l'égalité entre les femmes et les hommes,politique sociale,2
+2017-10-17,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,enfants,1
+2017-10-17,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé des personnes handicapées,personnes handicapées,1
+2017-10-17,LREM,H,nouveaux,attente,0,Secrétariat d'État, auprès du Premier ministre, chargé du numérique,numérique,1
+2017-10-17,MODEM,F,nouveaux,attente,0,Ministère de l'intérieur,sécurité routière,1
+2017-10-17,MODEM,F,nouveaux,attente,0,Ministère des sports,sports,1
+2017-10-17,MODEM,H,nouveaux,attente,0,Ministère de l'action et des comptes publics,commerce et artisanat,1
+2017-10-17,MODEM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-17,MODEM,H,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,animaux,1
+2017-10-17,MODEM,H,nouveaux,attente,0,Ministère de l'économie et des finances,chambres consulaires,1
+2017-10-17,MODEM,H,nouveaux,attente,0,Ministère de l’intérieur,gens du voyage,1
+2017-10-17,MODEM,H,nouveaux,attente,0,Ministère de la transition écologique et solidaire,déchets,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de l'action et des comptes publics,impôt sur les sociétés,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de l'économie et des finances,impôts et taxes,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de l'économie et des finances,impôts locaux,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de l'économie et des finances,outre-mer,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de l'économie et des finances,transports aériens,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de la justice,justice,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de la transition écologique et solidaire,eau et assainissement,1
+2017-10-17,NG,F,anciens,attente,0,Ministère de la transition écologique et solidaire,transports urbains,1
+2017-10-17,NG,F,anciens,attente,0,Ministère des solidarités et de la santé,maladies,1
+2017-10-17,NG,F,anciens,attente,0,Ministère des solidarités et de la santé,santé,1
+2017-10-17,NG,H,anciens,attente,0,Ministère de l'action et des comptes publics,finances publiques,1
+2017-10-17,NG,H,anciens,attente,0,Ministère de l'action et des comptes publics,taxe sur la valeur ajoutée,1
+2017-10-17,NG,H,anciens,attente,0,Ministère de l'enseignement supérieur, de la recherche et de l'innovation,enseignement supérieur,1
+2017-10-17,NG,H,anciens,attente,0,Ministère de l’intérieur,justice,1
+2017-10-17,NG,H,anciens,attente,0,Ministère de la cohésion des territoires,logement,2
+2017-10-17,NG,H,anciens,attente,0,Ministère des solidarités et de la santé,femmes,1
+2017-10-17,NG,H,anciens,attente,0,Ministère des solidarités et de la santé,retraites : généralités,1
+2017-10-17,NG,H,anciens,attente,0,Ministère des solidarités et de la santé,travail,1
+2017-10-17,NG,H,anciens,attente,0,Ministère du travail,emploi et activité,1
+2017-10-17,NI,F,nouveaux,attente,0,Ministère de l'agriculture et de l'alimentation,agriculture,1
+2017-10-17,NI,H,anciens,attente,0,Ministère de l’intérieur,terrorisme,1
+2017-10-17,NI,H,anciens,attente,0,Ministère de l’intérieur,transports routiers,1
+2017-10-17,NI,H,anciens,attente,0,Ministère du travail,emploi et activité,1
+2017-10-17,NI,H,nouveaux,attente,0,Ministère de l’intérieur,immigration,1
