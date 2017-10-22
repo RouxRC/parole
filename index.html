@@ -569,7 +569,7 @@ new Vue({
       this.temps = options.temps || this.temps;
       if (!this.data[this.dkey]) {
         d3.select("svg g").remove();
-        d3.csv("data/" + this.dkey + ".csv", function(d) {
+        d3.tsv("data/" + this.dkey + ".tsv", function(d) {
           d.date = new Date(d.date);
           d.date.setHours(0);
           d.jours = d3.iso_jours(d.date);

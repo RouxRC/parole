@@ -9,7 +9,7 @@ if [ ! -z "$1" ]; then
 fi
 
 function query {
-  echo "$2" | mysql $MYSQLID $DBNAME | sed 's/\t/,/g' > $1_$LEGI.csv
+  echo "$2" | mysql $MYSQLID $DBNAME > $1_$LEGI.tsv
 }
 
 mkdir -p data
