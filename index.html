@@ -134,7 +134,6 @@ rect.tooltip {
             :items="activites"
             item-text="name"
             item-value="id"
-            item-disabled="disabled"
             :prepend-icon="activiteIcon"
             class="select"
             @change="activite = $event"
@@ -319,7 +318,6 @@ new Vue({
       unit: "amdts"
     }, {
       id: "propositions",
-      disabled: true,
       name: "Propositions de lois",
       icon: "playlist_add",
       unit: "props"
@@ -411,8 +409,36 @@ new Vue({
         {color: "#9E9E9E", id: "Indéfini", name: "Indéfinis"}
       ]
     }, {
+      id: "typeprop",
+      name: "Type de propositions",
+      filterName: "Types de propositions",
+      filterAll: "Toutes les propositions",
+      icon: "help",
+      selected: "total",
+      only: "propositions",
+      legende: [
+        {color: "lightgreen", id: "loi", name: "Lois (PPL)", facetName: "Lois"},
+        {color: "orange", id: "loi organique", name: "Lois organiques (PPLO)", facetName: "Lois organiques"},
+        {color: "lightyellow", id: "loi constitutionnelle", name: "Lois constitutionnelles", facetName: "Lois Constit."},
+        {color: "darkgrey", id: "règlement de l'Assemblée nationale", name: "Règlement de l'AN"},
+        {color: "grey", id: "résolution", name: "Résolutions (PPR)", facetName: "Résolutions"},
+        {color: "lightblue", id: "résolution européenne", name: "Résolutions européennes", facetName: "Résolutions EU"},
+      ]
+    }, {
+      id: "discute",
+      name: "Statut des propositions",
+      filterName: "Propositions",
+      filterAll: "Toutes les propositions",
+      icon: "help",
+      selected: "total",
+      only: "propositions",
+      legende: [
+        {color: "#B39DDB", id: "discute", name: "Discutées"},
+        {color: "#B2DFDB", id: "attente", name: "En attente"}
+      ]
+    }, {
       id: "statut",
-      name: "État de la question",
+      name: "Statut des questions",
       filterName: "Questions",
       filterAll: "Toutes les questions",
       icon: "help",
@@ -745,9 +771,8 @@ new Vue({
 });
 /* TODO
 - adjust color/icons/displaylongnames
-- add activities (PPL)
-- add dynamic keys
 - add splitted view
+- add dynamic keys ?
 - add other legislatures data
 - add comparator with actual proportions when prop view
 - data updates
