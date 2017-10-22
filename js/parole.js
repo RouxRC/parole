@@ -1,6 +1,9 @@
 /* TODO
 - adjust color/icons/displaylongnames
-- add splitted view
+- option splitted view https://github.com/densitydesign/raw/blob/master/charts/barChart.js  https://bl.ocks.org/mbostock/9490313
+- option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
+- option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
+- option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - add dynamic keys ?
 - add other legislatures data
 - add comparator with actual proportions when prop view
@@ -345,7 +348,7 @@ new Vue({
             options[el[0]][el2[0]] = el2[1];
           });
         } else options[el[0]] = el[1] || true;
-      })
+      });
       this.legislature = options.leg || this.legislature;
       this.activite = options.activite || this.activite;
       this.facet = options.facet || this.facet;
