@@ -101,6 +101,17 @@ rect.tooltip {
   <div id="parole">
   <v-app dark toolbar>
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
+      <v-list dense>
+        <v-subheader class="mt-3 grey--text text--darken-1">Type d'activité</v-subheader>
+        <v-list-tile ripple
+          v-for="act in activites"
+          :disabled="activite === act.id"
+          @click="activite = act.id"
+        >
+          <v-list-tile-action><v-icon>{{ act.icon }}</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>{{ act.name }}</v-list-tile-title></v-list-tile-content>
+        </v-list-tile>
+      </v-list>
       <v-list dense
         v-for="list in menus"
         :key="list.id"
@@ -117,7 +128,7 @@ rect.tooltip {
         </v-subheader>
         <v-list-tile ripple
           v-for="item in list.options"
-          v-if="(!item.only || item.only === menus[0].selected) && !(list.filters && item.id === menus[1].selected)"
+          v-if="(!item.only || item.only === activite) && !(list.filters && item.id === menus[0].selected)"
           :key="item.id"
           :disabled="list.selected === item.id"
           :class="{'selected': !list.filters && item.selected, 'unselected': list.filters && item.selected === 'total'}"
@@ -147,12 +158,12 @@ rect.tooltip {
         <v-list-tile>
           <v-list-tile-action><v-icon>timeline</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Cumulatif</v-list-tile-title></v-list-tile-content>
-          <v-list-tile-action><v-switch light v-model="cumul"></v-switch></v-list-tile-action>
+          <v-list-tile-action><v-switch light v-model="cumul" color="red"></v-switch></v-list-tile-action>
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action><v-icon>dashboard</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Proportionnel</v-list-tile-title></v-list-tile-content>
-          <v-list-tile-action><v-switch light v-model="prop"></v-switch></v-list-tile-action>
+          <v-list-tile-action><v-switch light v-model="prop" color="red"></v-switch></v-list-tile-action>
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action><v-icon>date_range</v-icon></v-list-tile-action>
@@ -247,22 +258,19 @@ d3.nextDate = function(d, dur) {
 new Vue({
   el: "#parole",
   data: {
-    menus: [{
-      id: "activite",
-      name: "Type d'activité",
-      selected: "parole",
-      options: [{
-        id: "parole",
-        name: "Temps de parole",
-        icon: "mic",
-        unit: "mots"
-      }, {
-        id: "amendements",
-        name: "Amendements",
-        icon: "spellcheck",
-        unit: "amdts"
-      }]
+    activite: "parole",
+    activites: [{
+      id: "parole",
+      name: "Temps de parole",
+      icon: "mic",
+      unit: "mots"
     }, {
+      id: "amendements",
+      name: "Amendements",
+      icon: "spellcheck",
+      unit: "amdts"
+    }],
+    menus: [{
       id: "facet",
       name: "Répartition entre",
       selected: "groupes",
@@ -527,16 +535,17 @@ new Vue({
   },
   computed: {
     unit: function() {
-      var acts = this.menus[0];
-      return acts.options.filter(function(o) { return acts.selected === o.id; })[0].unit;
+      for (var i=0, n=this.activites.length; i<n; i++)
+        if (this.activite === this.activites[i].id)
+          return this.activites[i].unit;
     },
     legende: function() {
-      var facets = this.menus[1];
+      var facets = this.menus[0];
       return facets.options.filter(function(f) { return facets.selected === f.id; })[0].legende;
     },
     filters: function() {
-      var facet = this.menus[1].selected;
-      return this.menus[2].options.some(function(o) { return o.selected !== "total" && o.id !== facet;});
+      var facet = this.menus[0].selected;
+      return this.menus[1].options.some(function(o) { return o.selected !== "total" && o.id !== facet;});
     },
     _cumul: function() { return this.cumul ? "_cumul" : ""; },
     _prop: function() { return this.prop ? "_prop" : ""; }
@@ -546,7 +555,7 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
     this.$watch(
-      function() { return [this.cumul, this.prop, this.temps] },
+      function() { return [this.activite, this.cumul, this.prop, this.temps] },
       this.updateUrl
     );
   },
@@ -571,31 +580,34 @@ new Vue({
       this.updateUrl();
     },
     clearFilters: function() {
-      this.menus[2].options.forEach(function(o) { o.selected = "total"; });
+      this.menus[1].options.forEach(function(o) { o.selected = "total"; });
       this.updateUrl();
     },
     updateUrl: function(menuId) {
-      var activity = this.menus[0].selected;
-      window.location.hash = this.menus.map(function(m) {
-        return m.id + "=" + (
-          (!m.filters ? [m.selected] :
-            m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === activity); })
-            .map(function(o) { return o.id + ":" + o.selected; })
-          )
-        ).join(",");
-      }).filter(function(d) { return /=./.test(d); })
-      .join("&") +
-      (this.cumul ? "&cumul" : "") +
-      (this.prop ? "&prop" : "") +
-      "&temps=" + this.temps;
+      var act = this.activite;
+      window.location.hash = "activite=" + act + "&" +
+        this.menus.map(function(m) {
+          return m.id + "=" + (
+            (!m.filters ? [m.selected] :
+              m.options.filter(function(o) { return o.selected !== "total" && (!o.only || o.only === act); })
+              .map(function(o) { return o.id + ":" + o.selected; })
+            )
+          ).join(",");
+        }).filter(function(d) { return /=./.test(d); })
+        .join("&") +
+        (this.cumul ? "&cumul" : "") +
+        (this.prop ? "&prop" : "") +
+        "&temps=" + this.temps;
     },
     readUrl: function() {
       var el, el2,
-        facet = this.menus[1].selected,
+        facet = this.menus[0].selected,
+        options = {},
         urlArgs = window.location.hash.slice(1).split(/&/);
-      this.menus[2].options.forEach(function(o) { o.selected = "total"; });
+      this.menus[1].options.forEach(function(o) { o.selected = "total"; });
       for (var i=0, n=urlArgs.length; i<n; i++) {
         el = urlArgs[i].split(/=/);
+        options[el[0]] = el[1] || true;
         this.menus.filter(function(m) { return m.id === el[0]; })
         .forEach(function(m) {
           if (m.filters) el[1].split(/,/).forEach(function(e) {
@@ -606,15 +618,14 @@ new Vue({
           else m.selected = el[1];
         });
       }
-      this.cumul = ~urlArgs.indexOf("cumul");
-      this.prop = ~urlArgs.indexOf("prop");
-      if (/temps=/.test(window.location))
-        this.temps = urlArgs[urlArgs.length - 1].replace(/^.*temps=([^,&]+)*$/, "$1");
-      var activity = this.menus[0].selected,
-        facet = this.menus[1].selected;
-      if (!this.data[activity]) {
+      this.activite = options.activite || this.activite;
+      this.cumul = options.cumul;
+      this.prop = options.prop;
+      this.temps = options.temps || this.temps;
+      var facet = this.menus[0].selected;
+      if (!this.data[this.activite]) {
         d3.select("svg g").remove();
-        d3.csv("data/" + this.menus[0].selected + ".csv", function(d) {
+        d3.csv("data/" + this.activite + ".csv", function(d) {
           d.date = new Date(d.date);
           d.date.setHours(0);
           d.jours = d3.iso_jours(d.date);
@@ -628,13 +639,13 @@ new Vue({
     drawChart: function(loadedData, error) {
       // Handle ajax result
       if (error) throw error;
-      var activity = this.menus[0].selected;
-      if (loadedData) this.data[activity] = loadedData;
+      var act = this.activite;
+      if (loadedData) this.data[act] = loadedData;
 
       // Clear unavailable facet choice
-      var facets = this.menus[1],
+      var facets = this.menus[0],
         only = facets.options.filter(function(o) { return facets.selected === o.id; })[0].only;
-      if (only && only !== this.menus[0].selected) {
+      if (only && only !== this.activite) {
         facets.selected = facets.options[0].id;
         return this.updateUrl();
       }
@@ -653,15 +664,15 @@ new Vue({
 
       // Agregate and filter data
       var hashdata = {},
-        filters = this.menus[2].options.filter(function(filter) {
-          return (!filter.only || filter.only === activity) &&
+        filters = this.menus[1].options.filter(function(filter) {
+          return (!filter.only || filter.only === act) &&
             filter.id !== facet && filter.selected !== "total";
         });
       d3.nest()
       .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
-      .entries(this.data[activity]
+      .entries(this.data[act]
         .filter(function(d) { return filters.every(function(f) { return d[f.id] === f.selected; }); })
       ).forEach(function(k) {
         hashdata[k.key] = {};
@@ -673,8 +684,8 @@ new Vue({
       // Build all dates data with cumul & prop
       var last = {},
         data = [],
-        start = this.data[activity][0].date,
-        end = new Date(this.data[activity][this.data[activity].length - 1].date);
+        start = this.data[act][0].date,
+        end = new Date(this.data[act][this.data[act].length - 1].date);
       end.setDate(end.getDate() + 1);
       d3.timeDay.range(start, end)
       .filter(function(d, idx) {
