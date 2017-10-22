@@ -102,6 +102,16 @@ rect.tooltip {
   <v-app dark toolbar>
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
       <v-list dense>
+        <v-subheader class="mt-3 grey--text text--darken-1">Législature</v-subheader>
+        <v-list-tile ripple
+          v-for="leg in legislatures"
+          :disabled="legislature === leg.id"
+          @click="legislature = leg.id"
+        >
+          <v-list-tile-action><v-icon>account_balance</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>{{ leg.name }}</v-list-tile-title></v-list-tile-content>
+        </v-list-tile>
+
         <v-subheader class="mt-3 grey--text text--darken-1">Type d'activité</v-subheader>
         <v-list-tile ripple
           v-for="act in activites"
@@ -253,6 +263,17 @@ d3.nextDate = function(d, dur) {
 new Vue({
   el: "#parole",
   data: {
+    legislature: "15",
+    legislatures: [{
+      id: "13",
+      name: "13ème (2007 - 2012)"
+    }, {
+      id: "14",
+      name: "14ème (2012 - 2017)"
+    }, {
+      id: "15",
+      name: "15ème (2017 - ...)"
+    }],
     activite: "parole",
     activites: [{
       id: "parole",
@@ -357,6 +378,7 @@ new Vue({
     help: false
   },
   computed: {
+    dkey: function() { return this.activite + "_" + this.legislature; },
     unit: function() {
       var act = this.activite;
       return this.activites.filter(function(a) { return a.id === act; })[0].unit;
@@ -383,7 +405,7 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
     this.$watch(
-      function() { return [this.activite, this.facet, this.cumul, this.prop, this.temps]; },
+      function() { return [this.dkey, this.facet, this.cumul, this.prop, this.temps]; },
       this.updateUrl
     );
   },
@@ -403,6 +425,7 @@ new Vue({
     },
     updateUrl: function() {
       window.location.hash = "activite=" + this.activite +
+        "&leg=" + this.legislature +
         "&facet=" + this.facet +
         (this.activeFilters.length ? "&filters=" : "") +
         this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join(",") +
@@ -422,15 +445,16 @@ new Vue({
           });
         } else options[el[0]] = el[1] || true;
       })
+      this.legislature = options.leg || this.legislature;
       this.activite = options.activite || this.activite;
       this.facet = options.facet || this.facet;
       this.facets.forEach(function(f) { f.selected = (options.filters || {})[f.id] || "total"; });
       this.cumul = options.cumul;
       this.prop = options.prop;
       this.temps = options.temps || this.temps;
-      if (!this.data[this.activite]) {
+      if (!this.data[this.dkey]) {
         d3.select("svg g").remove();
-        d3.csv("data/" + this.activite + ".csv", function(d) {
+        d3.csv("data/" + this.dkey + ".csv", function(d) {
           d.date = new Date(d.date);
           d.date.setHours(0);
           d.jours = d3.iso_jours(d.date);
@@ -441,16 +465,17 @@ new Vue({
         }, this.drawChart);
       } else this.$nextTick(this.drawChart);
     },
-    drawChart: function(loadedData, error) {
+    drawChart: function(curData, error) {
       // Handle ajax result
       if (error) throw error;
-      var act = this.activite;
-      if (loadedData) this.data[act] = loadedData;
+      if (curData) this.data[this.dkey] = curData;
+      else curData = this.data[this.dkey];
+      if (!curData) return console.log("No data!");
 
       // Clear unavailable facet choice
       var facet = this.facet,
         only = this.facets.filter(function(f) { return f.id === facet; })[0].only;
-      if (only && only !== act) {
+      if (only && only !== this.activite) {
         this.facet = this.facets[0].id;
         return this.updateUrl();
       }
@@ -471,9 +496,9 @@ new Vue({
       .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet]; })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
-      .entries(this.data[act]
-        .filter(function(d) { return activeFilters.every(function(f) { return d[f.id] === f.selected; }); })
-      ).forEach(function(k) {
+      .entries(curData.filter(function(d) {
+        return activeFilters.every(function(f) { return d[f.id] === f.selected; });
+      })).forEach(function(k) {
         hashdata[k.key] = {};
         k.values.forEach(function(v) {
           hashdata[k.key][v.key] = v.value;
@@ -483,8 +508,8 @@ new Vue({
       // Build all dates data with cumul & prop
       var last = {},
         data = [],
-        start = this.data[act][0].date,
-        end = new Date(this.data[act][this.data[act].length - 1].date);
+        start = curData[0].date,
+        end = new Date(curData[curData.length - 1].date);
       end.setDate(end.getDate() + 1);
       d3.timeDay.range(start, end)
       .filter(function(d, idx) {
@@ -602,8 +627,8 @@ new Vue({
 - adjust color/icons
 - add activities (PPL, QE)
 - add filter cumul ?
-- add other legislatures
 - add splitted view
+- add other legislatures data
 - add transition d3 when switching view ?
 - add comparator with actual proportions when prop view
 - data updates
