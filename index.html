@@ -60,6 +60,9 @@ aside {
   text-transform: capitalize;
   margin-left: -5px
 }
+.lowercase {
+  text-transform: none!important;
+}
 .axis path, .axis line {
   stroke: grey;
 }
@@ -223,8 +226,8 @@ rect.tooltip {
       <center><div class="legende">
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
           <div class="btn__content">
-            <span>{{ option.name || option.id }}</span>
-            <span v-if="showValues && option.value"><small>{{ option.value }}&nbsp;{{ unit }}</small></span>
+            <span>{{ option.facetName || option.name || option.id }}</span>
+            <span v-if="showValues && option.value" class="lowercase"><small>{{ option.value }}&nbsp;{{ unit }}</small></span>
           </div>
         </button>
       </div></center>
