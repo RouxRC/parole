@@ -1,13 +1,13 @@
 /* TODO
-- get infos : click ?
-- OpenData
-- vue split => display ombre globale en fond
-- cloak app
-- adjust color/icons/displaylongnames
+- adjust colors/displaylongnames
 - option splitted view https://github.com/densitydesign/raw/blob/master/charts/barChart.js  https://bl.ocks.org/mbostock/9490313
 - option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
 - option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
+- OpenData export actual view data
+- vue split => display ombre globale en fond
+- cloak app
+- better display value, on click ?
 - add dynamic keys ?
 - add other legislatures data
 - add comparator with actual proportions when prop view
@@ -140,8 +140,8 @@ new Vue({
     }, {
       id: "debats",
       name: "Commissions & Hémicycle",
-      filterName: "Débats",
-      filterAll: "Tous les débats",
+      filterName: "Type de débats",
+      filterAll: "Toutes les interventions",
       icon: "looks",
       selected: "total",
       only: "parole",
@@ -152,7 +152,7 @@ new Vue({
     }, {
       id: "interventions",
       name: "Invectives & Interventions",
-      filterName: "Interventions",
+      filterName: "Type d'interventions",
       filterAll: "Toutes les interventions",
       icon: "speaker_notes",
       selected: "total",
@@ -162,11 +162,23 @@ new Vue({
         {color: "#B2DFDB", id: "longues", name: "Interventions longues"}
       ]
     }, {
+      id: "origine",
+      name: "Commissions & Hémicycle",
+      filterName: "Type de dépôt",
+      filterAll: "Tous les amendements",
+      icon: "looks",
+      selected: "total",
+      only: "amendements",
+      legende: [
+        {color: "#B39DDB", id: "commissions", name: "en Commissions", facetName: "Commissions"},
+        {color: "#B2DFDB", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
+      ]
+    }, {
       id: "sorts",
       name: "Sorts des amendements",
-      filterName: "Amendements",
+      filterName: "Sort des amdts",
       filterAll: "Tous les amendements",
-      icon: "spellcheck",
+      icon: "check",
       selected: "total",
       only: "amendements",
       legende: [
@@ -179,35 +191,11 @@ new Vue({
         {color: "#9E9E9E", id: "Indéfini", name: "Indéfinis"}
       ]
     }, {
-      id: "origine",
-      name: "Commissions & Hémicycle",
-      filterName: "Dépôt",
-      filterAll: "Tous les amendements",
-      icon: "looks",
-      selected: "total",
-      only: "amendements",
-      legende: [
-        {color: "#B39DDB", id: "commissions", name: "en Commissions", facetName: "Commissions"},
-        {color: "#B2DFDB", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
-      ]
-    }, {
-      id: "discute",
-      name: "Statuts des propositions",
-      filterName: "Propositions",
-      filterAll: "Toutes les propositions",
-      icon: "help",
-      selected: "total",
-      only: "propositions",
-      legende: [
-        {color: "#B39DDB", id: "discute", name: "Discutées"},
-        {color: "#B2DFDB", id: "attente", name: "En attente"}
-      ]
-    }, {
       id: "typeprop",
       name: "Types de propositions",
-      filterName: "Type de propositions",
+      filterName: "Type de proposition",
       filterAll: "Toutes les propositions",
-      icon: "help",
+      icon: "format_list_bulleted",
       selected: "total",
       only: "propositions",
       legende: [
@@ -219,34 +207,16 @@ new Vue({
         {color: "lightblue", id: "résolution européenne", name: "Résolutions européennes", facetName: "Résolutions EU"},
       ]
     }, {
-      id: "statut",
-      name: "Statuts des questions",
-      filterName: "Questions",
-      filterAll: "Toutes les questions",
-      icon: "help",
+      id: "discute",
+      name: "Statuts des propositions",
+      filterName: "État de discussion",
+      filterAll: "Toutes les propositions",
+      icon: "speaker_notes",
       selected: "total",
-      only: "questions",
+      only: "propositions",
       legende: [
-        {color: "#B39DDB", id: "reponse", name: "Satisfaites"},
-        {color: "#B3B7B5", id: "retrait", name: "Retirées"},
+        {color: "#B39DDB", id: "discute", name: "Discutées"},
         {color: "#B2DFDB", id: "attente", name: "En attente"}
-      ]
-    }, {
-      id: "duree",
-      name: "Durée d'attente",
-      filterName: "Durée d'attente",
-      filterAll: "Toutes les questions",
-      icon: "help",
-      selected: "total",
-      only: "questions",
-      legende: [
-        {color: "#69F0AE", id: "1", name: "moins d'un mois", facetName: "- d'un mois"},
-        {color: "#80D8FF", id: "2", name: "moins de 2 mois", facetName: "- de 2 mois"},
-        {color: "#B2DFDB", id: "3", name: "moins de 3 mois", facetName: "- de 3 mois"},
-        {color: "#FFE57F", id: "3-6", name: "entre 3 & 6 mois", facetName: "3 à 6 mois"}
-      ], extralegende: [
-        {color: "#FFAB40", id: "6-12", name: "entre 6 mois & un an", facetName: "6 à 12 mois"},
-        {color: "#ef9a9a", id: "12+", name: "plus d'un an", facetName: "+ d'un an"}
       ]
     }, {
       id: "ministre",
@@ -279,6 +249,36 @@ new Vue({
         {color: "grey", id: "Premier ministre, chargé du numérique", name: "Numérique"},
         {color: "grey", id: "Ministère de la transition écologique et solidaire, chargé des transports", name: "Transports"},
         {color: "grey", id: "Ministère de l'Europe et des affaires étrangères, chargé des affaires européennes", name: "Affaires européennes"},
+      ]
+    }, {
+      id: "duree",
+      name: "Durée d'attente",
+      filterName: "Durée d'attente",
+      filterAll: "Toutes les questions",
+      icon: "timer",
+      selected: "total",
+      only: "questions",
+      legende: [
+        {color: "#69F0AE", id: "1", name: "moins d'un mois", facetName: "- d'un mois"},
+        {color: "#80D8FF", id: "2", name: "moins de 2 mois", facetName: "- de 2 mois"},
+        {color: "#B2DFDB", id: "3", name: "moins de 3 mois", facetName: "- de 3 mois"},
+        {color: "#FFE57F", id: "3-6", name: "entre 3 & 6 mois", facetName: "3 à 6 mois"}
+      ], extralegende: [
+        {color: "#FFAB40", id: "6-12", name: "entre 6 mois & un an", facetName: "6 à 12 mois"},
+        {color: "#ef9a9a", id: "12+", name: "plus d'un an", facetName: "+ d'un an"}
+      ]
+    }, {
+      id: "statut",
+      name: "Statuts des questions",
+      filterName: "",
+      filterAll: "Toutes les questions",
+      icon: "help",
+      selected: "total",
+      only: "questions",
+      legende: [
+        {color: "#B39DDB", id: "reponse", name: "Satisfaites"},
+        {color: "#B3B7B5", id: "retrait", name: "Retirées"},
+        {color: "#B2DFDB", id: "attente", name: "En attente"}
       ]
     }],
     resizing: null,
