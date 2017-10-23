@@ -5,7 +5,6 @@
 - vue split => display ombre globale en fond
 - cloak app
 - adjust color/icons/displaylongnames
-- amendement add filter commission/hemicycle
 - option splitted view https://github.com/densitydesign/raw/blob/master/charts/barChart.js  https://bl.ocks.org/mbostock/9490313
 - option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
 - option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
@@ -14,7 +13,6 @@
 - add other legislatures data
 - add comparator with actual proportions when prop view
 - data updates
-- add filter amdmts comm/hemi
 - add filter cumul ?
 - add filter expérience politique via autres_mandats ?
 - link (integrate?) trombi
@@ -180,6 +178,18 @@ new Vue({
         {color: "#FFAB40", id: "Irrecevable", name: "Irrecevables"},
         {color: "#ef9a9a", id: "Rejeté", name: "Rejetés"},
         {color: "#9E9E9E", id: "Indéfini", name: "Indéfinis"}
+      ]
+    }, {
+      id: "origine",
+      name: "Commissions & Hémicycle",
+      filterName: "Dépôt",
+      filterAll: "Tous les amendements",
+      icon: "looks",
+      selected: "total",
+      only: "amendements",
+      legende: [
+        {color: "#B39DDB", id: "commissions", name: "en Commissions", facetName: "Commissions"},
+        {color: "#B2DFDB", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
       ]
     }, {
       id: "discute",

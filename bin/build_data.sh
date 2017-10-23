@@ -37,12 +37,13 @@ SELECT
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
   REPLACE(a.sort, ' avant séance', '') AS sorts,
+  IF(a.numero RLIKE '^[0-9]', 'commissions', 'hemicycle') AS origine,
   SUM(a.nb_multiples) AS total
 FROM amendement a
 JOIN parlementaire p ON p.id = a.auteur_id
 WHERE a.sort <> 'Rectifié'
-GROUP BY a.date, groupes, genre, renouveau, sorts
-ORDER BY a.date, groupes, genre, renouveau, sorts"
+GROUP BY a.date, groupes, genre, renouveau, sorts, origine
+ORDER BY a.date, groupes, genre, renouveau, sorts, origine"
 
 query data/questions "
 SELECT
