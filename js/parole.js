@@ -1,6 +1,5 @@
 /* TODO
 - get infos : click ?
-- vertical axis
 - OpenData
 - vue split => display ombre globale en fond
 - cloak app
@@ -480,7 +479,7 @@ new Vue({
       });
       
       // Setup dimensions
-      var margin = {top: 40, right: 60, bottom: 40, left: 60},
+      var margin = {top: 40, right: 90, bottom: 40, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
         svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 20,
@@ -518,8 +517,12 @@ new Vue({
       // Draw axis
       g.append("g")
         .attr("class", "axis axis--x")
-        .attr("transform", "translate(0," + (height) + ")")
-        .call(d3.axisBottom(xScale).ticks(Math.floor(width / 175), d3.timeFormat("%d %b %y")));
+        .attr("transform", "translate(0, " + (height) + ")")
+        .call(d3.axisBottom(xScale).ticks(Math.floor(width / 175), d3.timeFormat("%d %b %y")).tickSizeOuter(0));
+      g.append("g")
+        .attr("class", "axis axis--y")
+        .attr("transform", "translate(" + (width) + ", 0)")
+        .call(d3.axisRight(yScale).ticks(8, d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
 
       // Draw tooltips surfaces
       g.append("g")
@@ -544,7 +547,7 @@ new Vue({
       for (var i=0, n=this.legende.length; i<n; i++) {
         var leg = this.legende[i],
           key = leg.id + this._cumul + this._prop;
-        leg.value = d3.format(this.prop ? ".1%" : ",")(d[key]);
+        leg.value = d3.format(this.prop ? ".1%" : ",d")(d[key]);
         tot += d[key];
       }
       d3.select(".tooltipBox")
