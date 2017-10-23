@@ -1,7 +1,6 @@
 /* TODO
 - get infos : click ?
 - vertical axis
-- title in tooltbar from filters
 - OpenData
 - vue split => display ombre globale en fond
 - cloak app
@@ -15,6 +14,7 @@
 - add other legislatures data
 - add comparator with actual proportions when prop view
 - data updates
+- add filter amdmts comm/hemi
 - add filter cumul ?
 - add filter expérience politique via autres_mandats ?
 - link (integrate?) trombi
@@ -78,21 +78,25 @@ new Vue({
     activites: [{
       id: "parole",
       name: "Temps de parole",
+      titre: "mots prononcés",
       icon: "mic",
       unit: "mots"
     }, {
       id: "amendements",
       name: "Amendements",
+      titre: "amendements proposés",
       icon: "spellcheck",
       unit: "amdts"
     }, {
       id: "propositions",
       name: "Propositions de lois",
+      titre: "propositions déposées",
       icon: "playlist_add",
       unit: "props"
     }, {
       id: "questions",
       name: "Questions écrites",
+      titre: "questions écrites posées",
       icon: "help_outline",
       unit: "quests"
     }],
@@ -127,7 +131,7 @@ new Vue({
       ]
     }, {
       id: "renouveau",
-      name: "Anciens et nouveaux élus",
+      name: "Anciens & nouveaux élus",
       filterName: "Ancienneté",
       filterAll: "Tous les députés",
       icon: "repeat",
@@ -162,7 +166,7 @@ new Vue({
       ]
     }, {
       id: "sorts",
-      name: "Sort des amendements",
+      name: "Sorts des amendements",
       filterName: "Amendements",
       filterAll: "Tous les amendements",
       icon: "spellcheck",
@@ -178,9 +182,21 @@ new Vue({
         {color: "#9E9E9E", id: "Indéfini", name: "Indéfinis"}
       ]
     }, {
+      id: "discute",
+      name: "Statuts des propositions",
+      filterName: "Propositions",
+      filterAll: "Toutes les propositions",
+      icon: "help",
+      selected: "total",
+      only: "propositions",
+      legende: [
+        {color: "#B39DDB", id: "discute", name: "Discutées"},
+        {color: "#B2DFDB", id: "attente", name: "En attente"}
+      ]
+    }, {
       id: "typeprop",
-      name: "Type de propositions",
-      filterName: "Types de propositions",
+      name: "Types de propositions",
+      filterName: "Type de propositions",
       filterAll: "Toutes les propositions",
       icon: "help",
       selected: "total",
@@ -194,20 +210,8 @@ new Vue({
         {color: "lightblue", id: "résolution européenne", name: "Résolutions européennes", facetName: "Résolutions EU"},
       ]
     }, {
-      id: "discute",
-      name: "Statut des propositions",
-      filterName: "Propositions",
-      filterAll: "Toutes les propositions",
-      icon: "help",
-      selected: "total",
-      only: "propositions",
-      legende: [
-        {color: "#B39DDB", id: "discute", name: "Discutées"},
-        {color: "#B2DFDB", id: "attente", name: "En attente"}
-      ]
-    }, {
       id: "statut",
-      name: "Statut des questions",
+      name: "Statuts des questions",
       filterName: "Questions",
       filterAll: "Toutes les questions",
       icon: "help",
@@ -230,14 +234,14 @@ new Vue({
         {color: "#69F0AE", id: "1", name: "moins d'un mois", facetName: "- d'un mois"},
         {color: "#80D8FF", id: "2", name: "moins de 2 mois", facetName: "- de 2 mois"},
         {color: "#B2DFDB", id: "3", name: "moins de 3 mois", facetName: "- de 3 mois"},
-        {color: "#FFE57F", id: "3-6", name: "entre 3 et 6 mois", facetName: "3 à 6 mois"}
+        {color: "#FFE57F", id: "3-6", name: "entre 3 & 6 mois", facetName: "3 à 6 mois"}
       ], extralegende: [
-        {color: "#FFAB40", id: "6-12", name: "entre 6 mois et un an", facetName: "6 à 12 mois"},
+        {color: "#FFAB40", id: "6-12", name: "entre 6 mois & un an", facetName: "6 à 12 mois"},
         {color: "#ef9a9a", id: "12+", name: "plus d'un an", facetName: "+ d'un an"}
       ]
     }, {
       id: "ministre",
-      name: "Ministère interrogé",
+      name: "Ministères interrogés",
       filterName: "Ministère interrogé",
       filterAll: "Tous les ministères",
       icon: "flag",
@@ -279,6 +283,16 @@ new Vue({
   },
   computed: {
     dkey: function() { return this.activite + "_" + this.legislature; },
+    titre: function() {
+      var act = this.activite,
+        curAct = this.activites.filter(function(a) { return a.id === act; })[0],
+        facet = this.facet,
+        curFacet = this.facets.filter(function(f) { return f.id === facet; })[0];
+      return "Répartition entre " +
+        curFacet.name.toLowerCase().replace(curAct.titre, "").replace(/ des? .*$/, "") +
+        " des " + curAct.titre +
+        " par les députés (" + this.legislature + "ème législature)";
+    },
     unit: function() {
       var act = this.activite;
       return this.activites.filter(function(a) { return a.id === act; })[0].unit;
