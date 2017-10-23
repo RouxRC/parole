@@ -9,7 +9,8 @@
 - add comparator with actual proportions when prop view
 - data updates
 - add filter cumul ?
-- add transition d3 when switching view ?
+- add filter expérience politique via autres_mandats ?
+- link (integrate?) trombi
 */
 d3.formatDefaultLocale({
   "decimal": ",",

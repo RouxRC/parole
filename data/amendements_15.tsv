@@ -833,11 +833,10 @@ date	groupes	genre	renouveau	sorts	total
 2017-10-16	LR	H	nouveaux	Tombe	7
 2017-10-16	LREM	F	anciens	Retiré	1
 2017-10-16	LREM	F	nouveaux	Adopté	6
-2017-10-16	LREM	F	nouveaux	Indéfini	1
 2017-10-16	LREM	F	nouveaux	Irrecevable	5
 2017-10-16	LREM	F	nouveaux	Non soutenu	1
 2017-10-16	LREM	F	nouveaux	Rejeté	8
-2017-10-16	LREM	F	nouveaux	Retiré	6
+2017-10-16	LREM	F	nouveaux	Retiré	7
 2017-10-16	LREM	F	nouveaux	Tombe	2
 2017-10-16	LREM	H	anciens	Adopté	20
 2017-10-16	LREM	H	anciens	Irrecevable	10
@@ -889,108 +888,107 @@ date	groupes	genre	renouveau	sorts	total
 2017-10-16	NI	H	nouveaux	Tombe	2
 2017-10-17	GDR	H	anciens	Irrecevable	1
 2017-10-17	GDR	H	anciens	Non soutenu	1
-2017-10-17	GDR	H	nouveaux	Indéfini	4
 2017-10-17	GDR	H	nouveaux	Irrecevable	4
 2017-10-17	GDR	H	nouveaux	Non soutenu	2
-2017-10-17	GDR	H	nouveaux	Rejeté	21
+2017-10-17	GDR	H	nouveaux	Rejeté	25
 2017-10-17	GDR	H	nouveaux	Retiré	1
-2017-10-17	LC	F	anciens	Indéfini	1
 2017-10-17	LC	F	anciens	Irrecevable	3
-2017-10-17	LC	F	anciens	Non soutenu	2
+2017-10-17	LC	F	anciens	Non soutenu	3
 2017-10-17	LC	F	anciens	Rejeté	1
-2017-10-17	LC	F	nouveaux	Indéfini	5
 2017-10-17	LC	F	nouveaux	Irrecevable	3
-2017-10-17	LC	F	nouveaux	Non soutenu	1
+2017-10-17	LC	F	nouveaux	Non soutenu	5
 2017-10-17	LC	F	nouveaux	Rejeté	9
 2017-10-17	LC	F	nouveaux	Retiré	1
-2017-10-17	LC	H	anciens	Indéfini	21
+2017-10-17	LC	F	nouveaux	Tombe	1
+2017-10-17	LC	H	anciens	Adopté	2
+2017-10-17	LC	H	anciens	Indéfini	2
 2017-10-17	LC	H	anciens	Irrecevable	7
-2017-10-17	LC	H	anciens	Non soutenu	15
-2017-10-17	LC	H	anciens	Rejeté	19
+2017-10-17	LC	H	anciens	Non soutenu	30
+2017-10-17	LC	H	anciens	Rejeté	21
 2017-10-17	LC	H	anciens	Retiré	5
 2017-10-17	LC	H	anciens	Tombe	1
-2017-10-17	LC	H	nouveaux	Indéfini	7
+2017-10-17	LC	H	nouveaux	Non soutenu	5
+2017-10-17	LC	H	nouveaux	Rejeté	2
 2017-10-17	LC	H	nouveaux	Retiré	1
-2017-10-17	LFI	F	nouveaux	Indéfini	6
+2017-10-17	LFI	F	nouveaux	Adopté	1
 2017-10-17	LFI	F	nouveaux	Irrecevable	2
 2017-10-17	LFI	F	nouveaux	Non soutenu	3
-2017-10-17	LFI	F	nouveaux	Rejeté	11
-2017-10-17	LFI	H	nouveaux	Indéfini	3
+2017-10-17	LFI	F	nouveaux	Rejeté	14
+2017-10-17	LFI	F	nouveaux	Tombe	2
 2017-10-17	LFI	H	nouveaux	Irrecevable	9
 2017-10-17	LFI	H	nouveaux	Non soutenu	6
-2017-10-17	LFI	H	nouveaux	Rejeté	13
+2017-10-17	LFI	H	nouveaux	Rejeté	15
 2017-10-17	LFI	H	nouveaux	Retiré	1
+2017-10-17	LFI	H	nouveaux	Tombe	1
 2017-10-17	LR	F	anciens	Adopté	1
-2017-10-17	LR	F	anciens	Indéfini	26
 2017-10-17	LR	F	anciens	Irrecevable	2
-2017-10-17	LR	F	anciens	Non soutenu	2
-2017-10-17	LR	F	anciens	Rejeté	14
-2017-10-17	LR	F	anciens	Retiré	1
-2017-10-17	LR	F	anciens	Tombe	2
-2017-10-17	LR	F	nouveaux	Indéfini	10
+2017-10-17	LR	F	anciens	Non soutenu	16
+2017-10-17	LR	F	anciens	Rejeté	23
+2017-10-17	LR	F	anciens	Retiré	2
+2017-10-17	LR	F	anciens	Tombe	4
 2017-10-17	LR	F	nouveaux	Irrecevable	4
-2017-10-17	LR	F	nouveaux	Rejeté	4
-2017-10-17	LR	H	anciens	Adopté	1
-2017-10-17	LR	H	anciens	Indéfini	35
+2017-10-17	LR	F	nouveaux	Non soutenu	4
+2017-10-17	LR	F	nouveaux	Rejeté	9
+2017-10-17	LR	F	nouveaux	Tombe	1
+2017-10-17	LR	H	anciens	Adopté	2
 2017-10-17	LR	H	anciens	Irrecevable	9
-2017-10-17	LR	H	anciens	Non soutenu	8
-2017-10-17	LR	H	anciens	Rejeté	39
-2017-10-17	LR	H	anciens	Retiré	7
-2017-10-17	LR	H	nouveaux	Indéfini	22
+2017-10-17	LR	H	anciens	Non soutenu	35
+2017-10-17	LR	H	anciens	Rejeté	45
+2017-10-17	LR	H	anciens	Retiré	8
 2017-10-17	LR	H	nouveaux	Irrecevable	5
-2017-10-17	LR	H	nouveaux	Non soutenu	1
-2017-10-17	LR	H	nouveaux	Rejeté	9
-2017-10-17	LR	H	nouveaux	Retiré	2
-2017-10-17	LREM	F	anciens	Indéfini	1
-2017-10-17	LREM	F	nouveaux	Adopté	7
-2017-10-17	LREM	F	nouveaux	Indéfini	6
+2017-10-17	LR	H	nouveaux	Non soutenu	17
+2017-10-17	LR	H	nouveaux	Rejeté	12
+2017-10-17	LR	H	nouveaux	Retiré	4
+2017-10-17	LR	H	nouveaux	Tombe	1
+2017-10-17	LREM	F	anciens	Rejeté	1
+2017-10-17	LREM	F	nouveaux	Adopté	10
 2017-10-17	LREM	F	nouveaux	Irrecevable	4
 2017-10-17	LREM	F	nouveaux	Non soutenu	1
-2017-10-17	LREM	F	nouveaux	Retiré	7
-2017-10-17	LREM	H	anciens	Adopté	44
-2017-10-17	LREM	H	anciens	Indéfini	16
+2017-10-17	LREM	F	nouveaux	Rejeté	1
+2017-10-17	LREM	F	nouveaux	Retiré	9
+2017-10-17	LREM	H	anciens	Adopté	55
 2017-10-17	LREM	H	anciens	Irrecevable	9
+2017-10-17	LREM	H	anciens	Non soutenu	5
 2017-10-17	LREM	H	anciens	Rejeté	3
 2017-10-17	LREM	H	anciens	Retiré	14
 2017-10-17	LREM	H	anciens	Tombe	1
-2017-10-17	LREM	H	nouveaux	Indéfini	12
 2017-10-17	LREM	H	nouveaux	Irrecevable	5
-2017-10-17	LREM	H	nouveaux	Retiré	6
+2017-10-17	LREM	H	nouveaux	Non soutenu	8
+2017-10-17	LREM	H	nouveaux	Rejeté	1
+2017-10-17	LREM	H	nouveaux	Retiré	9
 2017-10-17	LREM	H	nouveaux	Tombe	1
-2017-10-17	MODEM	F	nouveaux	Indéfini	1
 2017-10-17	MODEM	F	nouveaux	Irrecevable	1
-2017-10-17	MODEM	F	nouveaux	Rejeté	1
+2017-10-17	MODEM	F	nouveaux	Rejeté	2
 2017-10-17	MODEM	F	nouveaux	Retiré	1
 2017-10-17	MODEM	H	nouveaux	Adopté	4
-2017-10-17	MODEM	H	nouveaux	Indéfini	4
 2017-10-17	MODEM	H	nouveaux	Irrecevable	3
-2017-10-17	MODEM	H	nouveaux	Non soutenu	1
-2017-10-17	MODEM	H	nouveaux	Rejeté	20
+2017-10-17	MODEM	H	nouveaux	Non soutenu	2
+2017-10-17	MODEM	H	nouveaux	Rejeté	23
 2017-10-17	MODEM	H	nouveaux	Retiré	7
 2017-10-17	NG	F	anciens	Adopté	1
-2017-10-17	NG	F	anciens	Indéfini	8
 2017-10-17	NG	F	anciens	Irrecevable	3
 2017-10-17	NG	F	anciens	Non soutenu	1
-2017-10-17	NG	F	anciens	Rejeté	7
+2017-10-17	NG	F	anciens	Rejeté	14
 2017-10-17	NG	F	anciens	Retiré	1
-2017-10-17	NG	H	anciens	Indéfini	22
+2017-10-17	NG	F	anciens	Tombe	1
+2017-10-17	NG	H	anciens	Adopté	1
 2017-10-17	NG	H	anciens	Irrecevable	12
-2017-10-17	NG	H	anciens	Non soutenu	2
-2017-10-17	NG	H	anciens	Rejeté	5
+2017-10-17	NG	H	anciens	Non soutenu	5
+2017-10-17	NG	H	anciens	Rejeté	14
+2017-10-17	NG	H	anciens	Tombe	9
 2017-10-17	NG	H	nouveaux	Rejeté	1
-2017-10-17	NI	F	anciens	Indéfini	6
 2017-10-17	NI	F	anciens	Irrecevable	1
-2017-10-17	NI	F	anciens	Non soutenu	2
-2017-10-17	NI	F	nouveaux	Indéfini	8
-2017-10-17	NI	F	nouveaux	Non soutenu	2
+2017-10-17	NI	F	anciens	Non soutenu	8
+2017-10-17	NI	F	nouveaux	Indéfini	3
+2017-10-17	NI	F	nouveaux	Non soutenu	7
 2017-10-17	NI	F	nouveaux	Rejeté	3
-2017-10-17	NI	H	anciens	Indéfini	3
-2017-10-17	NI	H	nouveaux	Indéfini	10
+2017-10-17	NI	H	anciens	Non soutenu	3
 2017-10-17	NI	H	nouveaux	Irrecevable	1
-2017-10-17	NI	H	nouveaux	Rejeté	4
+2017-10-17	NI	H	nouveaux	Non soutenu	3
+2017-10-17	NI	H	nouveaux	Rejeté	11
 2017-10-18	LREM	H	anciens	Adopté	1
 2017-10-18	MODEM	H	nouveaux	Rejeté	1
 2017-10-18	NI	F	nouveaux	Non soutenu	1
 2017-10-19	LR	H	anciens	Rejeté	2
 2017-10-19	LREM	H	anciens	Adopté	1
-2017-10-20	LR	F	nouveaux	Indéfini	1
+2017-10-20	LR	F	nouveaux	Non soutenu	1
