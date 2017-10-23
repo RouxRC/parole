@@ -1,5 +1,12 @@
 /* TODO
+- get infos : click ?
+- vertical axis
+- title in tooltbar from filters
+- OpenData
+- vue split => display ombre globale en fond
+- cloak app
 - adjust color/icons/displaylongnames
+- amendement add filter commission/hemicycle
 - option splitted view https://github.com/densitydesign/raw/blob/master/charts/barChart.js  https://bl.ocks.org/mbostock/9490313
 - option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
 - option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
@@ -58,14 +65,14 @@ new Vue({
     legislatures: [{
       id: "13",
       disabled: true,
-      name: "13ème (2007 - 2012)"
+      name: "2007 — 2012 (13e)"
     }, {
       id: "14",
       disabled: true,
-      name: "14ème (2012 - 2017)"
+      name: "2012 — 2017 (14e)"
     }, {
       id: "15",
-      name: "15ème (2017 - ...)"
+      name: "2017 — 2022 (15e)"
     }],
     activite: "parole",
     activites: [{
@@ -265,7 +272,7 @@ new Vue({
     data: {},
     cumul: false,
     prop: false,
-    temps: "jours",
+    temps: "sems",
     hoverDate: "",
     showValues: false,
     help: false
@@ -382,9 +389,6 @@ new Vue({
         only = this.facets.filter(function(f) { return f.id === facet; })[0].only;
       if (only && only !== this.activite) {
         this.facet = this.facets[0].id;
-        return this.updateUrl();
-      } else if (this.activite === "questions" && this.temps === "jours") {
-        this.temps = "sems";
         return this.updateUrl();
       }
 

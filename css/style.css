@@ -19,7 +19,7 @@ aside {
 .input-group__input .input-group__append-icon {
   color: #f44336!important;
 }
-.input-group__details, .invisible {
+.input-group__details {
   display: none!important;
 }
 .menu__content {

@@ -100,7 +100,7 @@
         <v-list-tile>
           <v-list-tile-action><v-icon>date_range</v-icon></v-list-tile-action>
           <v-radio-group row hide-details v-model="temps">
-            <v-radio small color="red" v-for="c in ['jours', 'sems', 'mois']" :label="c" :value="c" :class="{'invisible': c === 'jours' && activite === 'questions'}"></v-radio>
+            <v-radio small color="red" v-for="c in ['jours', 'sems', 'mois']" :label="c" :value="c"></v-radio>
           </v-radio-group>
         </v-list-tile>
       </v-list>
