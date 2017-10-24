@@ -19,6 +19,9 @@ aside {
 .input-group__input .input-group__prepend-icon, .input-group.unselected .input-group__append-icon {
   color: white!important;
 }
+.input-group.unselected .input-group__append-icon {
+  opacity: 0.2!important;
+}
 .input-group--select.input-group--focused .input-group__append-icon {
   transform: none!important;
 }

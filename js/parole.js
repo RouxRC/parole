@@ -1,4 +1,5 @@
 /* TODO
+- filters fix tooltips + fix proporitonnel in hashchange
 - adjust colors/displaylongnames
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - OpenData export actual view data
@@ -282,7 +283,7 @@ new Vue({
     compares: [{
       id: "",
       icon: "sync_disabled",
-      name: "pas de comparaison"
+      name: ""
     }],
     resizing: null,
     data: {},
@@ -523,7 +524,7 @@ new Vue({
         temps = this.temps,
         colors = {},
         comp = this.compare,
-        comparable = (comp ? this.comparables[idx] : null),
+        comparable = (comp ? this.comparables[idx] : {}),
         margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 20, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
