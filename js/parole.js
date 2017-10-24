@@ -268,15 +268,15 @@ new Vue({
     }, {
       id: "statut",
       name: "Statuts des questions",
-      filterName: "",
+      filterName: "Satisfaction",
       filterAll: "Toutes les questions",
       icon: "help",
       selected: "total",
       only: "questions",
       legende: [
-        {color: "#B39DDB", id: "reponse", name: "Satisfaites"},
-        {color: "#B3B7B5", id: "retrait", name: "Retirées"},
-        {color: "#B2DFDB", id: "attente", name: "En attente"}
+        {color: "#B39DDB", id: "reponse", name: "Réponses obtenues", facetName: "Satisfaites"},
+        {color: "#B3B7B5", id: "retrait", name: "Questions retirées", facetName: "Retirées"},
+        {color: "#B2DFDB", id: "attente", name: "En attente", facetName: "En attente"}
       ]
     }],
     compare: "null",
