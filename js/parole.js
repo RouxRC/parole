@@ -281,6 +281,12 @@ new Vue({
         {color: "#B2DFDB", id: "attente", name: "En attente"}
       ]
     }],
+    compare: "null",
+    compares: [{
+      id: "null",
+      icon: "sync_disabled",
+      name: "pas de comparaison"
+    }],
     resizing: null,
     data: {},
     cumul: false,
@@ -309,6 +315,14 @@ new Vue({
     activiteIcon: function() {
       var act = this.activite;
       return this.activites.filter(function(a) { return a.id === act; })[0].icon;
+    },
+    compareIcon: function() {
+      var compare = this.compare;
+      return this.compares.concat(this.facets).filter(function(f) { return f.id === compare; })[0].icon;
+    },
+    availableCompare: function() {
+      var act = this.activite;
+      return this.compares.concat(this.facets.filter(function(f) { return !f.only || f.only === act ; }));
     },
     availableFacets: function() {
       var act = this.activite;
@@ -340,7 +354,7 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
     this.$watch(
-      function() { return [this.dkey, this.facet, this.cumul, this.prop, this.temps]; },
+      function() { return [this.dkey, this.facet, this.compare, this.cumul, this.prop, this.temps]; },
       this.updateUrl
     );
   },
@@ -362,6 +376,7 @@ new Vue({
       window.location.hash = "activite=" + this.activite +
         "&leg=" + this.legislature +
         "&facet=" + this.facet +
+        (this.compare !== "null" ? "&compare=" + this.compare : "") +
         (this.activeFilters.length ? "&filters=" : "") +
         this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join("|") +
         (this.cumul ? "&cumul" : "") +
@@ -384,6 +399,7 @@ new Vue({
       this.activite = options.activite || this.activite;
       this.facet = options.facet || this.facet;
       this.facets.forEach(function(f) { f.selected = (options.filters || {})[f.id] || "total"; });
+      this.compare = options.compare || this.compare;
       this.cumul = options.cumul;
       this.prop = options.prop;
       this.temps = options.temps || this.temps;

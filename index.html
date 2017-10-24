@@ -61,6 +61,24 @@
           </v-select></v-list-tile-content>
         </v-list-tile>
 
+        <v-subheader class="mt-3 grey--text text--darken-1">Comparer</v-subheader>
+        <v-list-tile ripple>
+          <v-list-tile-content><v-select auto single-line hide-details
+            v-model="compare"
+            :items="availableCompare"
+            item-text="name"
+            item-value="id"
+            :prepend-icon="compareIcon"
+            :class="{'unselected': compare === 'null', 'select': true}"
+            @change="compare = $event"
+          >
+            <template slot="item" scope="f">
+              <v-list-tile-action><v-icon v-html="f.item.icon"></v-icon></v-list-tile-action>
+              <v-list-tile-content><v-list-tile-title v-html="f.item.name"></v-list-tile-title></v-list-tile-content>
+            </template>
+          </v-select></v-list-tile-content>
+        </v-list-tile>
+
         <v-subheader class="mt-3 grey--text text--darken-1">Filtrage
           <v-spacer></v-spacer>
           <v-chip small outline close class="red--text"
