@@ -62,13 +62,13 @@
 
         <v-subheader class="grey--text text--darken-1">Comparer entre</v-subheader>
         <v-list-tile ripple>
-          <v-list-tile-content><v-select auto single-line hide-details disabled
+          <v-list-tile-content><v-select auto single-line hide-details
             v-model="compare"
             :items="availableCompare"
             item-text="name"
             item-value="id"
             :prepend-icon="compareIcon"
-            :class="{'unselected': compare === 'null', 'select': true}"
+            :class="{'unselected': !compare, 'select': true}"
             @change="compare = $event"
           >
             <template slot="item" scope="f">

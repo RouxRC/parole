@@ -72,6 +72,11 @@ aside {
   font-size: 14px;
   font-family: Roboto;
 }
+text.comparable {
+  font-size: 18px;
+  font-weight: bold:
+  font-family: Roboto;
+}
 .legende button {
   color: black!important;
   font-weight: bold;

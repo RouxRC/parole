@@ -1,10 +1,9 @@
 /* TODO
 - adjust colors/displaylongnames
-- option splitted view https://github.com/densitydesign/raw/blob/master/charts/barChart.js  https://bl.ocks.org/mbostock/9490313
-- option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
-- option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - OpenData export actual view data
+- option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
+- option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
 - vue split => display ombre globale en fond
 - cloak app
 - better display value, on click ?
@@ -279,9 +278,9 @@ new Vue({
         {color: "#B2DFDB", id: "attente", name: "En attente", facetName: "En attente"}
       ]
     }],
-    compare: "null",
+    compare: "",
     compares: [{
-      id: "null",
+      id: "",
       icon: "sync_disabled",
       name: "pas de comparaison"
     }],
@@ -378,7 +377,7 @@ new Vue({
       window.location.hash = "activite=" + this.activite +
         "&leg=" + this.legislature +
         "&facet=" + this.facet +
-        (this.compare !== "null" ? "&compare=" + this.compare : "") +
+        (this.compare ? "&compare=" + this.compare : "") +
         (this.activeFilters.length ? "&filters=" : "") +
         this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join("|") +
         (this.cumul ? "&cumul" : "") +
@@ -401,7 +400,7 @@ new Vue({
       this.activite = options.activite || this.activite;
       this.facet = options.facet || this.facet;
       this.facets.forEach(function(f) { f.selected = (options.filters || {})[f.id] || "total"; });
-      this.compare = options.compare || "null";
+      this.compare = options.compare || "";
       this.cumul = options.cumul;
       this.prop = options.prop;
       this.temps = options.temps || this.temps;
@@ -434,14 +433,15 @@ new Vue({
         update = true;
       }
       if (onlyC && onlyC !== this.activite) {
-        this.compare = "null";
+        this.compare = "";
         update = true;
       }
       if (update) return this.updateUrl();
 
       // Prepare view settings
       var temps = this.temps
-        keys = this.legende.map(function(k) { return k.id; });
+        keys = this.legende.map(function(k) { return k.id; }),
+        compKeys = (comp ? this.comparables.map(function(k) { return "|" + k.id; }) : [""]);
       if (facet === "groupes") keys.reverse();
 
       // Agregate and filter data
@@ -449,7 +449,7 @@ new Vue({
         activeFilters = this.activeFilters;
       d3.nest()
       .key(function(d) { return d[temps]; })
-      .key(function(d) { return d[facet]; })
+      .key(function(d) { return d[facet] + (comp ? "|" + d[comp] : ""); })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
       .entries(curData.filter(function(d) {
         return activeFilters.every(function(f) { return d[f.id] === f.selected; });
@@ -482,25 +482,35 @@ new Vue({
           legend: (temps === "sems" ? "semaine du " : "") +
             d3.timeFormat((temps !== "mois" ? "%e " : "") + "%B %Y")(d.date),
           sum: 0,
-          sum_cumul: 0
+          sum_cumul: 0,
+          comp: {},
+          comp_cumul: {}
         };
-        keys.forEach(function(k) {
-          o[k] = (hashdata[d.temps] || {})[k] || 0;
-          o.sum += o[k];
-          o[k+"_cumul"] = o[k] + (last[k+"_cumul"] || 0);
-          o.sum_cumul += o[k+"_cumul"];
+        keys.forEach(function(key) {
+          compKeys.forEach(function(cKey) {
+            var k = key + cKey;
+            o[k] = (hashdata[d.temps] || {})[k] || 0;
+            o.sum += o[k];
+            o[k+"_cumul"] = o[k] + (last[k+"_cumul"] || 0);
+            o.sum_cumul += o[k+"_cumul"];
+            o.comp[cKey] = o[k] + (o.comp[cKey] || 0);
+            o.comp_cumul[cKey] = o[k+"_cumul"] + (o.comp_cumul[cKey] || 0);
+          });
         });
-        keys.forEach(function(k) {
-          o[k+"_prop"] = (o.sum ? o[k] / o.sum : 0);
-          o[k+"_cumul_prop"] = (o.sum_cumul ? o[k+"_cumul"] / o.sum_cumul : 0);
+        keys.forEach(function(key) {
+          compKeys.forEach(function(cKey) {
+            var k = key + cKey;
+            o[k+"_prop"] = (o.sum ? o[k] / o.sum : 0);
+            o[k+"_cumul_prop"] = (o.sum_cumul ? o[k+"_cumul"] / o.sum_cumul : 0);
+          });
         });
         data.push(o);
         last = o;
       });
       var _cumul = this._cumul,
-        yMax = d3.max(data, function(d) { return d["sum" + _cumul]; });
+        yMax = d3.max(data, function(d) { return (comp ? d3.max(Object.values(d["comp" + _cumul])) : d["sum" + _cumul]); });
       d3.select(".svg").selectAll("*").remove();
-      if (comp === "null")
+      if (!comp)
         this.drawHistogram(data, keys, start, end, yMax);
       else for (var i=0, n=this.comparables.length; i<n; i++)
         this.drawHistogram(data, keys, start, end, yMax, i);
@@ -508,9 +518,12 @@ new Vue({
     },
     drawHistogram: function(data, keys, start, end, yMax, idx) {
       // Setup dimensions
-      var view = this._cumul + this._prop,
-        comp = this.compare !== "null",
+      var _cumul = this._cumul,
+        view = _cumul + this._prop,
         temps = this.temps,
+        colors = {},
+        comp = this.compare,
+        comparable = (comp ? this.comparables[idx] : null),
         margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 20, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
@@ -522,6 +535,7 @@ new Vue({
         xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d); },
         yScale = d3.scaleLinear().range([height, 0]);
       if (!this.prop) yScale.domain([0, yMax]);
+      this.legende.forEach(function(k) { colors[k.id] = k.color; });
 
       // Prepare svg
       var g = d3.select(".svg")
@@ -533,14 +547,14 @@ new Vue({
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw histogram
-      var colors = {};
-      this.legende.forEach(function(k) { colors[k.id] = k.color; });
       g.append("g")
         .selectAll("g")
-        .data(d3.stack().keys(keys.map(function(k) { return k + view; }))(data))
-        .enter().append("g")
-          .attr("fill", function(d) { return colors[d.key.replace(/_.*$/, "")] || "grey"; })
-          .selectAll("rect")
+        .data(d3.stack().keys(
+          keys.map(function(k) { return k + (comp ? "|" + comparable.id : "") + view; })
+        )(data)).enter().append("g")
+          .attr("fill", function(d) {
+            return colors[d.key.replace(/_.*$/, "").replace(/\|.*$/, "")] || "grey";
+          }).selectAll("rect")
           .data(function(d) { return d; })
           .enter().append("rect")
             .attr("x", xPosition)
@@ -558,17 +572,24 @@ new Vue({
         .attr("transform", "translate(" + (width) + ", 0)")
         .call(d3.axisRight(yScale).ticks((comp ? 3 : 8), d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
 
+      // Draw subtitles in comparative mode
+      g.append("text")
+        .attr("x", -40)
+        .attr("y", 15)
+        .attr("class", "comparable")
+        .attr("fill", comparable.color)
+        .text(comparable.facetName || comparable.name);
+
       // Draw tooltips surfaces
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(data)
-        .enter().append("rect")
+        .data(data).enter().append("rect")
           .classed("tooltip", true)
           .attr("x", xPosition)
           .attr("y", yScale.range()[1])
           .attr("width", xWidth)
           .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", function(d, idx, rects) { d3.select(rects[idx]).style("fill-opacity", 0.15); })
+          .on("mouseover", function(d, i, rects) { d3.select(rects[i]).style("fill-opacity", 0.15); })
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip);
 
@@ -588,9 +609,9 @@ new Vue({
       .style("top", d3.event.pageY + 20 + "px")
       .style("display", (tot ? "block" : "none"));
     },
-    clearTooltip: function(d, idx, rects) {
+    clearTooltip: function(d, i, rects) {
       this.showValues = false;
-      d3.select(rects[idx]).style("fill-opacity", 0);
+      d3.select(rects[i]).style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
     }
   }
