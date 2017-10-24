@@ -12,6 +12,9 @@ aside {
 }
 .subheader {
   text-transform: uppercase;
+  height: 26px!important;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 .input-group__input .input-group__prepend-icon, .input-group.unselected .input-group__append-icon {
   color: white!important;
