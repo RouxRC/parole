@@ -105,6 +105,12 @@
 
         <v-subheader class="mt-4 grey--text text--darken-1">Affichage</v-subheader>
         <v-list-tile>
+          <v-list-tile-action><v-icon>date_range</v-icon></v-list-tile-action>
+          <v-radio-group row hide-details v-model="temps">
+            <v-radio small color="red" v-for="c in ['jours', 'sems', 'mois']" :label="c" :value="c"></v-radio>
+          </v-radio-group>
+        </v-list-tile>
+        <v-list-tile>
           <v-list-tile-action><v-icon>timeline</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Cumulatif</v-list-tile-title></v-list-tile-content>
           <v-list-tile-action><v-switch light v-model="cumul" color="red"></v-switch></v-list-tile-action>
@@ -113,12 +119,6 @@
           <v-list-tile-action><v-icon>dashboard</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Proportionnel</v-list-tile-title></v-list-tile-content>
           <v-list-tile-action><v-switch light v-model="prop" color="red"></v-switch></v-list-tile-action>
-        </v-list-tile>
-        <v-list-tile>
-          <v-list-tile-action><v-icon>date_range</v-icon></v-list-tile-action>
-          <v-radio-group row hide-details v-model="temps">
-            <v-radio small color="red" v-for="c in ['jours', 'sems', 'mois']" :label="c" :value="c"></v-radio>
-          </v-radio-group>
         </v-list-tile>
 
         <v-subheader class="mt-4 grey--text text--darken-1">Open Data</v-subheader>
