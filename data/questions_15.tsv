@@ -1361,10 +1361,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2017-10-17	LR	H	nouveaux	attente	0	1	Ministère de l'intérieur	3
 2017-10-17	LR	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires	2
 2017-10-17	LR	H	nouveaux	attente	0	1	Ministère de la culture	1
-2017-10-17	LR	H	nouveaux	attente	0	1	Ministère de la justice	1
 2017-10-17	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
 2017-10-17	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire, chargé des transports	1
 2017-10-17	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2017-10-17	LR	H	nouveaux	retrait	0	1	Ministère de la justice	1
 2017-10-17	LREM	F	anciens	attente	0	1	Ministère de l'intérieur	1
 2017-10-17	LREM	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
 2017-10-17	LREM	F	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	4
@@ -1431,3 +1431,129 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2017-10-17	NI	H	anciens	attente	0	1	Ministère de l'intérieur	2
 2017-10-17	NI	H	anciens	attente	0	1	Ministère du travail	1
 2017-10-17	NI	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	GDR	F	anciens	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	GDR	F	anciens	attente	0	1	Ministère de la culture	1
+2017-10-24	GDR	F	anciens	attente	0	1	Ministère des sports	1
+2017-10-24	GDR	H	anciens	attente	0	1	Ministère de l'action et des comptes publics	1
+2017-10-24	GDR	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2017-10-24	GDR	H	anciens	attente	0	1	Ministère des armées	1
+2017-10-24	GDR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	GDR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	LC	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	LC	F	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	LC	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	LC	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires	1
+2017-10-24	LC	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	LC	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2017-10-24	LC	H	anciens	attente	0	1	Ministère de la culture	1
+2017-10-24	LC	H	anciens	attente	0	1	Ministère de la transition écologique et solidaire	1
+2017-10-24	LC	H	anciens	attente	0	1	Ministère des armées	1
+2017-10-24	LC	H	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	1
+2017-10-24	LC	H	nouveaux	attente	0	1	Ministère des armées	1
+2017-10-24	LC	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	LFI	F	nouveaux	attente	0	1	Premier ministre	2
+2017-10-24	LFI	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
+2017-10-24	LFI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	LR	F	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2017-10-24	LR	F	anciens	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	LR	F	anciens	attente	0	1	Ministère de l'éducation nationale	1
+2017-10-24	LR	F	anciens	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	LR	F	anciens	attente	0	1	Ministère de la culture	1
+2017-10-24	LR	F	anciens	attente	0	1	Premier ministre, chargé du numérique	1
+2017-10-24	LR	F	nouveaux	attente	0	1	Ministère de l'économie et des finances	2
+2017-10-24	LR	F	nouveaux	attente	0	1	Ministère de l'éducation nationale	1
+2017-10-24	LR	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	LR	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires	1
+2017-10-24	LR	F	nouveaux	attente	0	1	Ministère des outre-mer	1
+2017-10-24	LR	F	nouveaux	attente	0	1	Premier ministre	1
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de l'action et des comptes publics	3
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	4
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de l'économie et des finances	4
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de l'éducation nationale	1
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de l'intérieur	5
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de la cohésion des territoires	2
+2017-10-24	LR	H	anciens	attente	0	1	Ministère de la transition écologique et solidaire	2
+2017-10-24	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	4
+2017-10-24	LR	H	anciens	attente	0	1	Premier ministre	1
+2017-10-24	LR	H	anciens	attente	0	1	Premier ministre, chargé des personnes handicapées	3
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	9
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale	1
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires	4
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de la justice	2
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère des armées	1
+2017-10-24	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	8
+2017-10-24	LR	H	nouveaux	attente	0	1	Premier ministre, chargé des personnes handicapées	2
+2017-10-24	LREM	F	anciens	attente	0	1	Ministère de la cohésion des territoires	1
+2017-10-24	LREM	F	anciens	attente	0	1	Ministère de la transition écologique et solidaire	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	4
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale	5
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères, chargé des affaires européennes	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de la culture	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire, chargé des transports	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	5
+2017-10-24	LREM	F	nouveaux	attente	0	1	Ministère du travail	1
+2017-10-24	LREM	F	nouveaux	attente	0	1	Premier ministre, chargé des personnes handicapées	1
+2017-10-24	LREM	H	anciens	attente	0	1	Ministère de l'action et des comptes publics	1
+2017-10-24	LREM	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2017-10-24	LREM	H	anciens	attente	0	1	Ministère de l'éducation nationale	3
+2017-10-24	LREM	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	LREM	H	anciens	attente	0	1	Ministère des solidarités et de la santé	3
+2017-10-24	LREM	H	anciens	attente	0	1	Ministère du travail	1
+2017-10-24	LREM	H	anciens	attente	0	1	Premier ministre, chargé des personnes handicapées	1
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	1
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	4
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	4
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale	3
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	2
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires	1
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	7
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère des armées	1
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	5
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère des sports	1
+2017-10-24	LREM	H	nouveaux	attente	0	1	Ministère du travail	2
+2017-10-24	LREM	H	nouveaux	attente	0	1	Premier ministre, chargé des personnes handicapées	2
+2017-10-24	MODEM	F	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	1
+2017-10-24	MODEM	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires	2
+2017-10-24	MODEM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	MODEM	F	nouveaux	attente	0	1	Ministère du travail	1
+2017-10-24	MODEM	F	nouveaux	attente	0	1	Premier ministre, chargé des personnes handicapées	1
+2017-10-24	MODEM	F	nouveaux	attente	0	1	Premier ministre, chargé du numérique	1
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	2
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale	2
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	3
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Ministère des sports	1
+2017-10-24	MODEM	H	nouveaux	attente	0	1	Premier ministre	1
+2017-10-24	NG	F	anciens	attente	0	1	Ministère de l'action et des comptes publics	1
+2017-10-24	NG	F	anciens	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	NG	F	anciens	attente	0	1	Ministère de l'éducation nationale	2
+2017-10-24	NG	F	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2017-10-24	NG	F	anciens	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	NG	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	NG	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2017-10-24	NG	H	anciens	attente	0	1	Ministère de l'économie et des finances	1
+2017-10-24	NG	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	NG	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2017-10-24	NG	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	NG	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2017-10-24	NI	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2017-10-24	NI	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2017-10-24	NI	F	nouveaux	attente	0	1	Ministère de la culture	1
+2017-10-24	NI	F	nouveaux	attente	0	1	Ministère des armées	1
+2017-10-24	NI	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2017-10-24	NI	H	anciens	attente	0	1	Ministère de l'économie et des finances	5
+2017-10-24	NI	H	anciens	attente	0	1	Ministère des sports	1
+2017-10-24	NI	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères, chargé des affaires européennes	2
