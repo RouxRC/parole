@@ -426,12 +426,18 @@ new Vue({
       if (!curData) return console.log("No data!");
 
       // Clear unavailable facet choice
-      var facet = this.facet,
-        only = this.facets.filter(function(f) { return f.id === facet; })[0].only;
-      if (only && only !== this.activite) {
+      var facet = this.facet, comp = this.compare, update = false,
+        onlyF = this.facets.filter(function(f) { return f.id === facet; })[0].only,
+        onlyC = (this.facets.filter(function(f) { return f.id === comp; })[0] || {}).only;
+      if (onlyF && onlyF !== this.activite) {
         this.facet = this.facets[0].id;
-        return this.updateUrl();
+        update = true;
       }
+      if (onlyC && onlyC !== this.activite) {
+        this.compare = "null";
+        update = true;
+      }
+      if (update) return this.updateUrl();
 
       // Prepare view settings
       var temps = this.temps
@@ -494,7 +500,7 @@ new Vue({
       var _cumul = this._cumul,
         yMax = d3.max(data, function(d) { return d["sum" + _cumul]; });
       d3.select(".svg").selectAll("*").remove();
-      if (this.compare === "null")
+      if (comp === "null")
         this.drawHistogram(data, keys, start, end, yMax);
       else for (var i=0, n=this.comparables.length; i<n; i++)
         this.drawHistogram(data, keys, start, end, yMax, i);
