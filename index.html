@@ -60,7 +60,7 @@
           </v-select></v-list-tile-content>
         </v-list-tile>
 
-        <v-subheader class="grey--text text--darken-1">Comparer</v-subheader>
+        <v-subheader class="grey--text text--darken-1">Comparer entre</v-subheader>
         <v-list-tile ripple>
           <v-list-tile-content><v-select auto single-line hide-details disabled
             v-model="compare"
@@ -142,7 +142,7 @@
       </v-btn>
     </v-toolbar>
     <main>
-      <svg width=0 height=6000></svg>
+      <div class="svg" style="height: 6000px"></div>
       <center><div class="legende">
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
           <div class="btn__content">

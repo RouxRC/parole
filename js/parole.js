@@ -314,6 +314,10 @@ new Vue({
       var act = this.activite;
       return this.activites.filter(function(a) { return a.id === act; })[0].icon;
     },
+    comparables: function() {
+      var compare = this.compare;
+      return this.compares.concat(this.facets).filter(function(f) { return f.id === compare; })[0].legende;
+    },
     compareIcon: function() {
       var compare = this.compare;
       return this.compares.concat(this.facets).filter(function(f) { return f.id === compare; })[0].icon;
@@ -359,7 +363,7 @@ new Vue({
   methods: {
     onResize: function() {
       if (this.resizing) return clearTimeout(this.resizing);
-      this.resizing = setTimeout(this.drawChart, 50);
+      this.resizing = setTimeout(this.draw, 50);
     },
     selectFilter: function(optionId, filterId) {
       this.facets.filter(function(f) { return f.id === optionId; })
@@ -397,12 +401,12 @@ new Vue({
       this.activite = options.activite || this.activite;
       this.facet = options.facet || this.facet;
       this.facets.forEach(function(f) { f.selected = (options.filters || {})[f.id] || "total"; });
-      this.compare = options.compare || this.compare;
+      this.compare = options.compare || "null";
       this.cumul = options.cumul;
       this.prop = options.prop;
       this.temps = options.temps || this.temps;
       if (!this.data[this.dkey]) {
-        d3.select("svg g").remove();
+        d3.select(".svg").selectAll("*").remove();
         d3.tsv("data/" + this.dkey + ".tsv", function(d) {
           d.date = new Date(d.date);
           d.date.setHours(0);
@@ -411,10 +415,10 @@ new Vue({
           d.mois = d3.iso_mois(d.date);
           d.total = +d.total;
           return d;
-        }, this.drawChart);
-      } else this.$nextTick(this.drawChart);
+        }, this.draw);
+      } else this.$nextTick(this.draw);
     },
-    drawChart: function(curData, error) {
+    draw: function(curData, error) {
       // Handle ajax result
       if (error) throw error;
       if (curData) this.data[this.dkey] = curData;
@@ -430,12 +434,8 @@ new Vue({
       }
 
       // Prepare view settings
-      var _cumul = this._cumul,
-        _prop = this._prop,
-        temps = this.temps,
-        colors = {};
-      this.legende.forEach(function(k) { colors[k.id] = k.color; });
-      var keys = this.legende.map(function(k) { return k.id; });
+      var temps = this.temps
+        keys = this.legende.map(function(k) { return k.id; });
       if (facet === "groupes") keys.reverse();
 
       // Agregate and filter data
@@ -491,33 +491,47 @@ new Vue({
         data.push(o);
         last = o;
       });
-      
+      var _cumul = this._cumul,
+        yMax = d3.max(data, function(d) { return d["sum" + _cumul]; });
+      d3.select(".svg").selectAll("*").remove();
+      if (this.compare === "null")
+        this.drawHistogram(data, keys, start, end, yMax);
+      else for (var i=0, n=this.comparables.length; i<n; i++)
+        this.drawHistogram(data, keys, start, end, yMax, i);
+      this.resizing = null;
+    },
+    drawHistogram: function(data, keys, start, end, yMax, idx) {
       // Setup dimensions
-      var margin = {top: 40, right: 90, bottom: 40, left: 60},
+      var view = this._cumul + this._prop,
+        comp = this.compare !== "null",
+        temps = this.temps,
+        margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 20, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        svgH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 20,
+        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 10,
+        svgH = Math.max(140, Math.floor((mainH - margin.top - margin.bottom) / (comp ? this.comparables.length : 1))),
         height = svgH - margin.top - margin.bottom,
-        svg = d3.select("svg").attr("width", svgW).attr("height", svgH),
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
         xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d); },
         yScale = d3.scaleLinear().range([height, 0]);
-      if (!this.prop)
-        yScale.domain([0, d3.max(data, function(d) { return d["sum"+_cumul]; })]);
+      if (!this.prop) yScale.domain([0, yMax]);
 
       // Prepare svg
-      d3.select("svg g").remove();
-      var g = d3.select("svg")
-      .attr("width", svgW)
-      .attr("height", svgH)
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      var g = d3.select(".svg")
+      .style("height", mainH+"px")
+      .append("svg")
+        .attr("width", svgW)
+        .attr("height", svgH)
+        .append("g")
+          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
       // Draw histogram
+      var colors = {};
+      this.legende.forEach(function(k) { colors[k.id] = k.color; });
       g.append("g")
         .selectAll("g")
-        .data(d3.stack().keys(keys.map(function(k) { return k + _cumul + _prop; }))(data))
+        .data(d3.stack().keys(keys.map(function(k) { return k + view; }))(data))
         .enter().append("g")
           .attr("fill", function(d) { return colors[d.key.replace(/_.*$/, "")] || "grey"; })
           .selectAll("rect")
@@ -536,7 +550,7 @@ new Vue({
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
-        .call(d3.axisRight(yScale).ticks(8, d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
+        .call(d3.axisRight(yScale).ticks((comp ? 3 : 8), d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
 
       // Draw tooltips surfaces
       g.append("g")
@@ -552,7 +566,6 @@ new Vue({
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip);
 
-      this.resizing = null;
     },
     displayTooltip: function(d) {
       this.hoverDate = d.legend;
