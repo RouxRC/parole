@@ -61,11 +61,9 @@ new Vue({
     legislature: "15",
     legislatures: [{
       id: "13",
-      disabled: true,
       name: "2007 — 2012 (13e)"
     }, {
       id: "14",
-      disabled: true,
       name: "2012 — 2017 (14e)"
     }, {
       id: "15",

@@ -13,12 +13,11 @@
       <v-list dense>
         <v-subheader class="mt-3 grey--text text--darken-1">Législature</v-subheader>
         <v-list-tile ripple>
-          <v-list-tile-content><v-select auto single-line hide-details
+          <v-list-tile-content><v-select auto single-line hide-details disabled
             v-model="legislature"
             :items="legislatures"
             item-text="name"
             item-value="id"
-            item-disabled="disabled"
             prepend-icon="account_balance"
             class="select"
             @change="legislature = $event"
@@ -63,7 +62,7 @@
 
         <v-subheader class="mt-3 grey--text text--darken-1">Comparer</v-subheader>
         <v-list-tile ripple>
-          <v-list-tile-content><v-select auto single-line hide-details
+          <v-list-tile-content><v-select auto single-line hide-details disabled
             v-model="compare"
             :items="availableCompare"
             item-text="name"
