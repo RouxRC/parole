@@ -53,11 +53,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2017-10-16	LC	H	anciens	loi	attente	1
 2017-10-16	LR	H	anciens	création d'une commission d'enquête	attente	1
 2017-10-16	LR	H	nouveaux	création d'une commission d'enquête	attente	1
-2017-10-17	LC	H	anciens	loi	attente	1
-2017-10-17	LR	F	anciens	loi	attente	3
-2017-10-17	LR	H	anciens	loi	attente	1
-2017-10-17	LREM	H	anciens	loi	attente	1
-2017-10-17	MODEM	H	nouveaux	loi	attente	5
+2017-10-17	MODEM	H	nouveaux	loi	attente	2
 2017-10-18	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
 2017-10-18	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2017-10-19	NI	F	nouveaux	création d'une commission d'enquête	attente	1
@@ -70,8 +66,12 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2017-10-23	LREM	F	nouveaux	résolution européenne	attente	1
 2017-10-23	NI	H	anciens	loi	attente	1
 2017-10-24	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
+2017-10-24	LC	H	anciens	loi	attente	1
 2017-10-24	LR	F	nouveaux	loi	attente	1
-2017-10-24	LR	H	anciens	loi	attente	5
+2017-10-24	LR	H	anciens	loi	attente	6
 2017-10-24	LR	H	nouveaux	loi	attente	4
-2017-10-25	LC	H	nouveaux	loi	attente	1
+2017-10-25	LR	F	anciens	loi	attente	3
 2017-10-25	LR	H	nouveaux	loi	attente	1
+2017-10-25	LREM	H	anciens	loi	attente	1
+2017-10-25	MODEM	H	nouveaux	loi	attente	3
+2017-10-26	LC	H	nouveaux	loi	attente	1
