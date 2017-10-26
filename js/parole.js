@@ -1,5 +1,4 @@
 /* TODO
-- fix proporitonnel in hashchange
 - adjust colors/displaylongnames
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - OpenData export actual view data
@@ -500,9 +499,11 @@ new Vue({
         });
         keys.forEach(function(key) {
           compKeys.forEach(function(cKey) {
-            var k = key + cKey;
-            o[k+"_prop"] = (o.sum ? o[k] / o.sum : 0);
-            o[k+"_cumul_prop"] = (o.sum_cumul ? o[k+"_cumul"] / o.sum_cumul : 0);
+            var k = key + cKey,
+              sum = (compKeys.length > 1 ? o.comp[cKey] : o.sum),
+              tot = (compKeys.length > 1 ? o.comp_cumul[cKey] : o.sum_cumul);
+            o[k+"_prop"] = (sum ? o[k] / sum : 0);
+            o[k+"_cumul_prop"] = (tot ? o[k+"_cumul"] / tot : 0);
           });
         });
         data.push(o);
