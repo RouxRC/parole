@@ -200,6 +200,7 @@ new Vue({
         {color: "orange", id: "loi organique", name: "Lois organiques (PPLO)", facetName: "Lois organiques"},
         {color: "lightyellow", id: "loi constitutionnelle", name: "Lois constitutionnelles", facetName: "Lois Constit."},
         {color: "darkgrey", id: "règlement de l'Assemblée nationale", name: "Règlement de l'AN"},
+        {color: "#ff5252", id: "création d'une commission d'enquête", name: "Commissions d'enquête"},
         {color: "grey", id: "résolution", name: "Résolutions (PPR)", facetName: "Résolutions"},
         {color: "lightblue", id: "résolution européenne", name: "Résolutions européennes", facetName: "Résolutions EU"},
       ]
