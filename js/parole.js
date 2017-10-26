@@ -1,5 +1,5 @@
 /* TODO
-- filters fix tooltips + fix proporitonnel in hashchange
+- fix proporitonnel in hashchange
 - adjust colors/displaylongnames
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - OpenData export actual view data
@@ -512,7 +512,7 @@ new Vue({
         yMax = d3.max(data, function(d) { return (comp ? d3.max(Object.values(d["comp" + _cumul])) : d["sum" + _cumul]); });
       d3.select(".svg").selectAll("*").remove();
       if (!comp)
-        this.drawHistogram(data, keys, start, end, yMax);
+        this.drawHistogram(data, keys, start, end, yMax, 0);
       else for (var i=0, n=this.comparables.length; i<n; i++)
         this.drawHistogram(data, keys, start, end, yMax, i);
       this.resizing = null;
@@ -586,6 +586,7 @@ new Vue({
         .selectAll("rect.tooltip")
         .data(data).enter().append("rect")
           .classed("tooltip", true)
+          .attr("idx", idx)
           .attr("x", xPosition)
           .attr("y", yScale.range()[1])
           .attr("width", xWidth)
@@ -595,13 +596,14 @@ new Vue({
           .on("mouseleave", this.clearTooltip);
 
     },
-    displayTooltip: function(d) {
+    displayTooltip: function(d, i, rects) {
       this.hoverDate = d.legend;
       this.showValues = true;
-      var tot = 0;
+      var tot = 0,
+        idx = d3.select(rects[i]).attr('idx');
       for (var i=0, n=this.legende.length; i<n; i++) {
         var leg = this.legende[i],
-          key = leg.id + this._cumul + this._prop;
+          key = leg.id + (this.compare ? "|" + this.comparables[idx].id : "") + this._cumul + this._prop;
         leg.value = d3.format(this.prop ? ".1%" : ",d")(d[key]);
         tot += d[key];
       }
