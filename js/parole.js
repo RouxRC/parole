@@ -1,5 +1,4 @@
 /* TODO
-- multi-hover
 - rename nouveaux députés Premier mandat
 - adjust colors/displaylongnames
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
@@ -590,11 +589,12 @@ new Vue({
         .data(this.curData).enter().append("rect")
           .classed("tooltip", true)
           .attr("idx", idx)
+          .attr("did", function(d, i) { return i; })
           .attr("x", xPosition)
           .attr("y", yScale.range()[1])
           .attr("width", xWidth)
           .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", function(d, i, rects) { d3.select(rects[i]).style("fill-opacity", 0.25); })
+          .on("mouseover", function(d, i) { d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0.25); })
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip);
 
@@ -614,9 +614,9 @@ new Vue({
       .style("top", d3.event.pageY + 20 + "px")
       .style("display", (tot ? "block" : "none"));
     },
-    clearTooltip: function(d, i, rects) {
+    clearTooltip: function(d, i) {
       this.showValues = false;
-      d3.select(rects[i]).style("fill-opacity", 0);
+      d3.selectAll('rect[did="' + i + '"]').style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
     },
     exportData: function() {
