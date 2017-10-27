@@ -142,8 +142,15 @@
       </v-btn>
     </v-toolbar>
     <main>
-      <div class="svg" style="height: 6000px"></div>
-      <center><div class="legende">
+      <div class="svg" style="height: 6000px">
+        <div v-if="compare && showCompare" class="legende comparable">
+          <v-btn raised light disabled
+            v-for="(c, i) in comparables"
+            :style="{'background-color': c.color+'!important', 'top': (i ? svgH * i : 10) + 'px'}"
+          >{{ c.facetName || c.name }}</v-btn>
+        </div>
+      </div>
+      <center><div id="legende" class="legende">
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
           <div class="btn__content">
             <span>{{ option.facetName || option.name || option.id }}</span>

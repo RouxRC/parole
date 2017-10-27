@@ -1,16 +1,18 @@
 /* TODO
+- multi-hover
+- rename nouveaux députés Premier mandat
 - adjust colors/displaylongnames
-- option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - OpenData export actual view data
+- option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
+- data updates
+- add other legislatures data
+- add comparator with actual MP proportions when prop view
 - option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
-- option bubblechart on 3 facets https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
+- option bubblechart add view facet for color https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
 - vue split => display ombre globale en fond
 - cloak app
 - better display value, on click ?
 - add dynamic keys ?
-- add other legislatures data
-- add comparator with actual proportions when prop view
-- data updates
 - add filter cumul ?
 - add filter expérience politique via autres_mandats ?
 - link (integrate?) trombi
@@ -286,12 +288,14 @@ new Vue({
       name: ""
     }],
     resizing: null,
+    svgH: 0,
     data: {},
     cumul: false,
     prop: false,
     temps: "sems",
     hoverDate: "",
     showValues: false,
+    showCompare: false,
     help: false
   },
   computed: {
@@ -360,6 +364,9 @@ new Vue({
       this.updateUrl
     );
   },
+  watch: {
+    compare: function() { this.showCompare = false; }
+  },
   methods: {
     onResize: function() {
       if (this.resizing) return clearTimeout(this.resizing);
@@ -406,7 +413,6 @@ new Vue({
       this.prop = options.prop;
       this.temps = options.temps || this.temps;
       if (!this.data[this.dkey]) {
-        d3.select(".svg").selectAll("*").remove();
         d3.tsv("data/" + this.dkey + ".tsv", function(d) {
           d.date = new Date(d.date);
           d.date.setHours(0);
@@ -512,12 +518,13 @@ new Vue({
       });
       var _cumul = this._cumul,
         yMax = d3.max(data, function(d) { return (comp ? d3.max(Object.values(d["comp" + _cumul])) : d["sum" + _cumul]); });
-      d3.select(".svg").selectAll("*").remove();
+      d3.select(".svg").selectAll("svg").remove();
       if (!comp)
         this.drawHistogram(data, keys, start, end, yMax, 0);
       else for (var i=0, n=this.comparables.length; i<n; i++)
         this.drawHistogram(data, keys, start, end, yMax, i);
       this.resizing = null;
+      this.showCompare = true;
     },
     drawHistogram: function(data, keys, start, end, yMax, idx) {
       // Setup dimensions
@@ -527,11 +534,11 @@ new Vue({
         colors = {},
         comp = this.compare,
         comparable = (comp ? this.comparables[idx] : {}),
-        margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 20, left: 60},
+        margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 25, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.querySelector(".legende").getBoundingClientRect().height - 10,
-        svgH = Math.max(140, Math.floor((mainH - margin.top - margin.bottom) / (comp ? this.comparables.length : 1))),
+        mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legende").getBoundingClientRect().height,
+        svgH = Math.max(140, Math.floor((mainH) / (comp ? this.comparables.length : 1))),
         height = svgH - margin.top - margin.bottom,
         xScale = d3.scaleTime().range([0, width]).domain([start, end]),
         xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
@@ -539,6 +546,7 @@ new Vue({
         yScale = d3.scaleLinear().range([height, 0]);
       if (!this.prop) yScale.domain([0, yMax]);
       this.legende.forEach(function(k) { colors[k.id] = k.color; });
+      this.svgH = svgH;
 
       // Prepare svg
       var g = d3.select(".svg")
@@ -575,14 +583,6 @@ new Vue({
         .attr("transform", "translate(" + (width) + ", 0)")
         .call(d3.axisRight(yScale).ticks((comp ? 3 : 8), d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
 
-      // Draw subtitles in comparative mode
-      g.append("text")
-        .attr("x", -40)
-        .attr("y", 15)
-        .attr("class", "comparable")
-        .attr("fill", comparable.color)
-        .text(comparable.facetName || comparable.name);
-
       // Draw tooltips surfaces
       g.append("g")
         .selectAll("rect.tooltip")
@@ -593,7 +593,7 @@ new Vue({
           .attr("y", yScale.range()[1])
           .attr("width", xWidth)
           .attr("height", yScale.range()[0] - yScale.range()[1])
-          .on("mouseover", function(d, i, rects) { d3.select(rects[i]).style("fill-opacity", 0.15); })
+          .on("mouseover", function(d, i, rects) { d3.select(rects[i]).style("fill-opacity", 0.25); })
           .on("mousemove", this.displayTooltip)
           .on("mouseleave", this.clearTooltip);
 
@@ -602,13 +602,12 @@ new Vue({
       this.hoverDate = d.legend;
       this.showValues = true;
       var tot = 0,
-        idx = d3.select(rects[i]).attr('idx');
-      for (var i=0, n=this.legende.length; i<n; i++) {
-        var leg = this.legende[i],
-          key = leg.id + (this.compare ? "|" + this.comparables[idx].id : "") + this._cumul + this._prop;
-        leg.value = d3.format(this.prop ? ".1%" : ",d")(d[key]);
-        tot += d[key];
-      }
+        extra = (this.compare ? "|" + this.comparables[d3.select(rects[i]).attr('idx')].id : "") + this._cumul + this._prop,
+        fmt = d3.format(this.prop ? ".1%" : ",d");
+      this.legende.forEach(function(l) {
+        l.value = fmt(d[l.id + extra]);
+        tot += d[l.id + extra];
+      });
       d3.select(".tooltipBox")
       .style("left", d3.event.pageX - 60 + "px")
       .style("top", d3.event.pageY + 20 + "px")
