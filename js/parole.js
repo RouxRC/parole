@@ -2,7 +2,6 @@
 - multi-hover
 - rename nouveaux députés Premier mandat
 - adjust colors/displaylongnames
-- OpenData export actual view data
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - data updates
 - add other legislatures data
@@ -290,6 +289,7 @@ new Vue({
     resizing: null,
     svgH: 0,
     data: {},
+    curData: null,
     cumul: false,
     prop: false,
     temps: "sems",
@@ -424,12 +424,12 @@ new Vue({
         }, this.draw);
       } else this.$nextTick(this.draw);
     },
-    draw: function(curData, error) {
+    draw: function(data, error) {
       // Handle ajax result
       if (error) throw error;
-      if (curData) this.data[this.dkey] = curData;
-      else curData = this.data[this.dkey];
-      if (!curData) return console.log("No data!");
+      if (data) this.data[this.dkey] = data;
+      else data = this.data[this.dkey];
+      if (!data) return console.log("No data!");
 
       // Clear unavailable facet choice
       var facet = this.facet, comp = this.compare, update = false,
@@ -458,7 +458,7 @@ new Vue({
       .key(function(d) { return d[temps]; })
       .key(function(d) { return d[facet] + (comp ? "|" + d[comp] : ""); })
       .rollup(function(lvs) { return d3.sum(lvs, function(d) {return d.total;}); })
-      .entries(curData.filter(function(d) {
+      .entries(data.filter(function(d) {
         return activeFilters.every(function(f) { return d[f.id] === f.selected; });
       })).forEach(function(k) {
         hashdata[k.key] = {};
@@ -469,9 +469,9 @@ new Vue({
 
       // Build all dates data with cumul & prop
       var last = {},
-        data = [],
-        start = curData[0].date,
-        end = new Date(curData[curData.length - 1].date);
+        curData = [],
+        start = data[0].date,
+        end = new Date(data[data.length - 1].date);
       end.setDate(end.getDate() + 1);
       d3.timeDay.range(start, end)
       .filter(function(d, idx) {
@@ -513,20 +513,21 @@ new Vue({
             o[k+"_cumul_prop"] = (tot ? o[k+"_cumul"] / tot : 0);
           });
         });
-        data.push(o);
+        curData.push(o);
         last = o;
       });
+      this.curData = curData;
       var _cumul = this._cumul,
-        yMax = d3.max(data, function(d) { return (comp ? d3.max(Object.values(d["comp" + _cumul])) : d["sum" + _cumul]); });
+        yMax = d3.max(curData, function(d) { return (comp ? d3.max(Object.values(d["comp" + _cumul])) : d["sum" + _cumul]); });
       d3.select(".svg").selectAll("svg").remove();
       if (!comp)
-        this.drawHistogram(data, keys, start, end, yMax, 0);
+        this.drawHistogram(keys, start, end, yMax, 0);
       else for (var i=0, n=this.comparables.length; i<n; i++)
-        this.drawHistogram(data, keys, start, end, yMax, i);
+        this.drawHistogram(keys, start, end, yMax, i);
       this.resizing = null;
       this.showCompare = true;
     },
-    drawHistogram: function(data, keys, start, end, yMax, idx) {
+    drawHistogram: function(keys, start, end, yMax, idx) {
       // Setup dimensions
       var _cumul = this._cumul,
         view = _cumul + this._prop,
@@ -562,7 +563,7 @@ new Vue({
         .selectAll("g")
         .data(d3.stack().keys(
           keys.map(function(k) { return k + (comp ? "|" + comparable.id : "") + view; })
-        )(data)).enter().append("g")
+        )(this.curData)).enter().append("g")
           .attr("fill", function(d) {
             return colors[d.key.replace(/_.*$/, "").replace(/\|.*$/, "")] || "grey";
           }).selectAll("rect")
@@ -586,7 +587,7 @@ new Vue({
       // Draw tooltips surfaces
       g.append("g")
         .selectAll("rect.tooltip")
-        .data(data).enter().append("rect")
+        .data(this.curData).enter().append("rect")
           .classed("tooltip", true)
           .attr("idx", idx)
           .attr("x", xPosition)
@@ -617,6 +618,38 @@ new Vue({
       this.showValues = false;
       d3.select(rects[i]).style("fill-opacity", 0);
       d3.select(".tooltipBox").style("display", "none");
+    },
+    exportData: function() {
+      if (!this.curData) return;
+      var filename = [
+        d3.iso_jours(new Date()),
+        this.activite + this.legislature,
+        this.facet + (this.compare ? "-" + this.compare : ""),
+        "par-" + this.temps
+      ].join("_") + ".csv",
+        compKeys = (this.compare ? this.comparables.map(function(d) { return d.id; }) : [""]),
+        leg = this.legende,
+        data = this.curData.map(function(d) {
+          var cd = {
+            date: d3.iso_jours(d.date),
+            titre: d.legend,
+            sum: d.sum,
+            sum_cumul: d.sum_cumul
+          };
+          compKeys.forEach(function(c) {
+            if (c) {
+              cd["sum_" + c] = d.comp["|" + c];
+              cd["sum_cumul_" + c] = d.comp_cumul["|" + c];
+            }
+            leg.forEach(function(l) {
+              ["", "_prop", "_cumul", "_cumul_prop"].forEach(function(v) {
+                cd[l.id + (c ? "-" + c : "") + v] = d[l.id + (c ? "|" + c : "") + v]
+              });
+            });
+          });
+          return cd;
+        });
+      saveAs(new Blob(d3.csvFormat(data).split('\r'), {type: "text/csv; charset=utf-8"}), filename);
     }
   }
 });
