@@ -262,7 +262,7 @@ new Vue({
       selected: "total",
       only: "questions",
       legende: [
-        {color: "#69F0AE", id: "1", name: "moins d'un mois", facetName: "- d'un mois"},
+        {color: "#69F0AE", id: "1", name: "moins d'un mois", facetName: "- d'1 mois"},
         {color: "#80D8FF", id: "2", name: "moins de 2 mois", facetName: "- de 2 mois"},
         {color: "#B2DFDB", id: "3", name: "moins de 3 mois", facetName: "- de 3 mois"},
         {color: "#FFE57F", id: "3-6", name: "entre 3 & 6 mois", facetName: "3 à 6 mois"}
