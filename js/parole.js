@@ -366,6 +366,7 @@ new Vue({
       });
     });
     this.readUrl();
+    this.updateFilterColors();
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
     this.$watch(
@@ -384,11 +385,20 @@ new Vue({
     selectFilter: function(optionId, filterId) {
       this.facets.filter(function(f) { return f.id === optionId; })
       .forEach(function(f) { f.selected = filterId; });
+      this.updateFilterColors();
       this.updateUrl();
     },
     clearFilters: function() {
       this.facets.forEach(function(f) { f.selected = "total"; });
+      this.updateFilterColors();
       this.updateUrl();
+    },
+    updateFilterColors: function() {
+      this.facets.forEach(function(f) {
+        f.color = null;
+        f.legende.filter(function(l) { return l.id === f.selected; })
+        .forEach(function(l) { f.color = l.color; });
+      });
     },
     updateUrl: function() {
       window.location.hash = "activite=" + this.activite +

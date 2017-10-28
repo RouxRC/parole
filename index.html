@@ -91,7 +91,7 @@
           v-if="(!item.only || item.only === activite) && item.id !== facet"
           :class="{'unselected': item.selected === 'total'}"
         >
-          <v-list-tile-action><v-icon>{{ item.icon }}</v-icon></v-list-tile-action>
+          <v-list-tile-action><v-icon :style="{'color': item.color}">{{ item.icon }}</v-icon></v-list-tile-action>
           <v-list-tile-content><v-select auto
             v-model="item.selected"
             :label="item.filterName"
@@ -100,7 +100,12 @@
             item-value="id"
             class="input-group--focused"
             @change="selectFilter(item.id, $event)"
-          ></v-select></v-list-tile-content>
+          >
+            <template slot="item" scope="f">
+              <v-list-tile-action><v-icon :style="{'color': f.item.color}">fiber_manual_record</v-icon></v-list-tile-action>
+              <v-list-tile-content><v-list-tile-title v-html="f.item.name"></v-list-tile-title></v-list-tile-content>
+            </template>
+          </v-select></v-list-tile-content>
         </v-list-tile>
 
         <v-subheader class="mt-4 grey--text text--darken-1">Affichage</v-subheader>
