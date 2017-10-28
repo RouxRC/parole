@@ -150,7 +150,7 @@
           >{{ c.facetName || c.name }}</v-btn>
         </div>
       </div>
-      <center><div id="legende" class="legende">
+      <center><div id="legende" class="legende facets">
         <button v-for="option in legende" class="btn btn--disabled btn--raised" :style="{'background-color': option.color+'!important'}">
           <div class="btn__content">
             <span>{{ option.facetName || option.name || option.id }}</span>
