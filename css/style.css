@@ -39,6 +39,7 @@ aside {
 }
 .input-group--select .input-group__selections__comma {
   font-size: 14px;
+  white-space: nowrap;
 }
 .list__tile--active, .input-group.input-group--focused:not(.unselected) .input-group__append-icon, .application--dark .input-group.input-group--dirty:not(.unselected) .input-group__selections__comma:not(.input-group__selections__comma--active) {
   color: #f44336;

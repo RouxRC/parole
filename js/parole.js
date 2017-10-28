@@ -1,5 +1,4 @@
 /* TODO
-- adjust displaylongnames
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - data table view ?
 - data updates
