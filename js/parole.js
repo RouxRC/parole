@@ -1,7 +1,7 @@
 /* TODO
-- rename nouveaux députés Premier mandat
-- adjust colors/displaylongnames
+- adjust displaylongnames
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
+- data table view ?
 - data updates
 - add other legislatures data
 - add comparator with actual MP proportions when prop view
@@ -31,6 +31,12 @@ d3.timeFormatDefaultLocale({
   "months": ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
   "shortMonths": ["Janv.", "Févr.", "Mars", "Avr.", "Mai", "Juin", "Juil.", "Août", "Sept.", "Oct.", "Nov.", "Déc."]
 });
+d3.defaultColors = [
+  "#F48FB1", "#B39DDB", "#90CAF9", "#80DEEA", "#A5D6A7", "#E6EE9C", "#FFE082",
+  "#FFAB91", "#ef9a9a", "#CE93D8", "#9FA8DA", "#81D4FA", "#80CBC4", "#C5E1A5",
+  "#FFF59D", "#FFCC80", "#BCAAA4", "#E0E0E0", "#B0BEC5", "#64FFDA", "#40C4FF",
+  "#8C9EFF", "#EA80FC", "#ff8a80", "#FFE57F"
+];
 
 d3.iso_jours = function(d) { return d3.timeFormat("%Y-%m-%d")(d); };
 d3.iso_sems = function(d) {
@@ -131,8 +137,8 @@ new Vue({
       icon: "repeat",
       selected: "total",
       legende: [
-        {color: "#B39DDB", id: "anciens", name: "Députés réélus"},
-        {color: "#B2DFDB", id: "nouveaux", name: "Nouveaux députés"}
+        {color: "#BCAAA4", id: "anciens", name: "Députés réélus"},
+        {color: "#A5D6A7", id: "nouveaux", name: "Premier mandat"}
       ]
     }, {
       id: "debats",
@@ -143,8 +149,8 @@ new Vue({
       selected: "total",
       only: "parole",
       legende: [
-        {color: "#B39DDB", id: "commissions", name: "en Commissions", facetName: "Commissions"},
-        {color: "#B2DFDB", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
+        {color: "#CE93D8", id: "commissions", name: "en Commissions", facetName: "Commissions"},
+        {color: "#80D8FF", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
       ]
     }, {
       id: "interventions",
@@ -155,8 +161,8 @@ new Vue({
       selected: "total",
       only: "parole",
       legende: [
-        {color: "#B39DDB", id: "invectives", name: "Invectives ( - de 20 mots )", facetName: "Invectives"},
-        {color: "#B2DFDB", id: "longues", name: "Interventions longues"}
+        {color: "#FF9E80", id: "invectives", name: "Invectives ( - de 20 mots )", facetName: "Invectives"},
+        {color: "#FFE57F", id: "longues", name: "Interventions longues"}
       ]
     }, {
       id: "origine",
@@ -167,8 +173,8 @@ new Vue({
       selected: "total",
       only: "amendements",
       legende: [
-        {color: "#B39DDB", id: "commissions", name: "en Commissions", facetName: "Commissions"},
-        {color: "#B2DFDB", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
+        {color: "#CE93D8", id: "commissions", name: "en Commissions", facetName: "Commissions"},
+        {color: "#80D8FF", id: "hemicycle", name: "en Hémicycle", facetName: "Hémicycle"}
       ]
     }, {
       id: "sorts",
@@ -180,8 +186,8 @@ new Vue({
       only: "amendements",
       legende: [
         {color: "#69F0AE", id: "Adopté", name: "Adoptés"},
-        {color: "#80D8FF", id: "Retiré", name: "Retirés"},
-        {color: "#B2DFDB", id: "Tombe", name: "Tombés"},
+        {color: "#80D8FF", id: "Tombe", name: "Tombés"},
+        {color: "#B2DFDB", id: "Retiré", name: "Retirés"},
         {color: "#FFE57F", id: "Non soutenu", name: "Non soutenus"},
         {color: "#FFAB40", id: "Irrecevable", name: "Irrecevables"},
         {color: "#ef9a9a", id: "Rejeté", name: "Rejetés"},
@@ -196,13 +202,13 @@ new Vue({
       selected: "total",
       only: "propositions",
       legende: [
-        {color: "lightgreen", id: "loi", name: "Lois (PPL)", facetName: "Lois"},
-        {color: "orange", id: "loi organique", name: "Lois organiques (PPLO)", facetName: "Lois organiques"},
-        {color: "lightyellow", id: "loi constitutionnelle", name: "Lois constitutionnelles", facetName: "Lois Constit."},
-        {color: "darkgrey", id: "règlement de l'Assemblée nationale", name: "Règlement de l'AN"},
-        {color: "#ff5252", id: "création d'une commission d'enquête", name: "Commissions d'enquête"},
-        {color: "grey", id: "résolution", name: "Résolutions (PPR)", facetName: "Résolutions"},
-        {color: "lightblue", id: "résolution européenne", name: "Résolutions européennes", facetName: "Résolutions EU"},
+        {color: "#90A4AE", id: "loi constitutionnelle", name: "Lois constitutionnelles", facetName: "Lois Constit."},
+        {color: "#FFE0B2", id: "loi organique", name: "Lois organiques (PPLO)", facetName: "Lois organiques"},
+        {color: "#FFF176", id: "loi", name: "Lois (PPL)", facetName: "Lois"},
+        {color: "#80CBC4", id: "résolution", name: "Résolutions (PPR)", facetName: "Résolutions"},
+        {color: "#80D8FF", id: "résolution européenne", name: "Résolutions européennes", facetName: "Résolutions EU"},
+        {color: "#B39DDB", id: "règlement de l'Assemblée nationale", name: "Règlement de l'AN"},
+        {color: "#ff8a80", id: "création d'une commission d'enquête", name: "Commissions d'enquête"},
       ]
     }, {
       id: "discute",
@@ -213,8 +219,8 @@ new Vue({
       selected: "total",
       only: "propositions",
       legende: [
-        {color: "#B39DDB", id: "discute", name: "Discutées"},
-        {color: "#B2DFDB", id: "attente", name: "En attente"}
+        {color: "#69F0AE", id: "discute", name: "Discutées"},
+        {color: "#FFE57F", id: "attente", name: "En attente"}
       ]
     }, {
       id: "ministre",
@@ -225,28 +231,28 @@ new Vue({
       selected: "total",
       only: "questions",
       legende: [
-        {color: "grey", id: "Premier ministre", name: "Premier ministre"},
-        {color: "grey", id: "Ministère de l'intérieur", name: "Intérieur"},
-        {color: "grey", id: "Ministère de la transition écologique et solidaire", name: "Transition écologique & solidaire"},
-        {color: "grey", id: "Ministère de la justice", name: "Justice"},
-        {color: "grey", id: "Ministère de l'Europe et des affaires étrangères", name: "Europe & Affaires étrangères"},
-        {color: "grey", id: "Ministère des armées", name: "Armées"},
-        {color: "grey", id: "Ministère de la cohésion des territoires", name: "Cohésion des territoires"},
-        {color: "grey", id: "Ministère des solidarités et de la santé", name: "Solidarités & Santé"},
-        {color: "grey", id: "Ministère de l'économie et des finances", name: "Économie & Finances"},
-        {color: "grey", id: "Ministère de la culture", name: "Culture"},
-        {color: "grey", id: "Ministère du travail", name: "Travail"},
-        {color: "grey", id: "Ministère de l'éducation nationale", name: "Éducation nationale"},
-        {color: "grey", id: "Ministère de l'agriculture et de l'alimentation", name: "Agriculture & Alimentation"},
-        {color: "grey", id: "Ministère de l'action et des comptes publics", name: "Action & Comptes publics"},
-        {color: "grey", id: "Ministère de l'enseignement supérieur, de la recherche et de l'innovation", name: "Enseignement supérieur"},
-        {color: "grey", id: "Ministère des outre-mer", name: "Outre-mer"},
-        {color: "grey", id: "Ministère des sports", name: "Sports"},
-        {color: "grey", id: "Premier ministre, chargé de l'égalité entre les femmes et les hommes", name: "Égalité F / H"},
-        {color: "grey", id: "Premier ministre, chargé des personnes handicapées", name: "Personnes Handicapées"},
-        {color: "grey", id: "Premier ministre, chargé du numérique", name: "Numérique"},
-        {color: "grey", id: "Ministère de la transition écologique et solidaire, chargé des transports", name: "Transports"},
-        {color: "grey", id: "Ministère de l'Europe et des affaires étrangères, chargé des affaires européennes", name: "Affaires européennes"},
+        {id: "Premier ministre", name: "Premier ministre"},
+        {id: "Ministère de l'intérieur", name: "Intérieur"},
+        {id: "Ministère de la transition écologique et solidaire", name: "Transition écologique & solidaire"},
+        {id: "Ministère de la justice", name: "Justice"},
+        {id: "Ministère de l'Europe et des affaires étrangères", name: "Europe & Affaires étrangères"},
+        {id: "Ministère des armées", name: "Armées"},
+        {id: "Ministère de la cohésion des territoires", name: "Cohésion des territoires"},
+        {id: "Ministère des solidarités et de la santé", name: "Solidarités & Santé"},
+        {id: "Ministère de l'économie et des finances", name: "Économie & Finances"},
+        {id: "Ministère de la culture", name: "Culture"},
+        {id: "Ministère du travail", name: "Travail"},
+        {id: "Ministère de l'éducation nationale", name: "Éducation nationale"},
+        {id: "Ministère de l'agriculture et de l'alimentation", name: "Agriculture & Alimentation"},
+        {id: "Ministère de l'action et des comptes publics", name: "Action & Comptes publics"},
+        {id: "Ministère de l'enseignement supérieur, de la recherche et de l'innovation", name: "Enseignement supérieur"},
+        {id: "Ministère des outre-mer", name: "Outre-mer"},
+        {id: "Ministère des sports", name: "Sports"},
+        {id: "Premier ministre, chargé de l'égalité entre les femmes et les hommes", name: "Égalité F / H"},
+        {id: "Premier ministre, chargé des personnes handicapées", name: "Personnes Handicapées"},
+        {id: "Premier ministre, chargé du numérique", name: "Numérique"},
+        {id: "Ministère de la transition écologique et solidaire, chargé des transports", name: "Transports"},
+        {id: "Ministère de l'Europe et des affaires étrangères, chargé des affaires européennes", name: "Affaires européennes"},
       ]
     }, {
       id: "duree",
@@ -274,9 +280,9 @@ new Vue({
       selected: "total",
       only: "questions",
       legende: [
-        {color: "#B39DDB", id: "reponse", name: "Réponses obtenues", facetName: "Satisfaites"},
-        {color: "#B3B7B5", id: "retrait", name: "Questions retirées", facetName: "Retirées"},
-        {color: "#B2DFDB", id: "attente", name: "En attente", facetName: "En attente"}
+        {color: "#69F0AE", id: "reponse", name: "Réponses obtenues", facetName: "Satisfaites"},
+        {color: "#B2DFDB", id: "retrait", name: "Questions retirées", facetName: "Retirées"},
+        {color: "#FFE57F", id: "attente", name: "En attente", facetName: "En attente"}
       ]
     }],
     compare: "",
@@ -355,6 +361,11 @@ new Vue({
     _prop: function() { return this.prop ? "_prop" : ""; }
   },
   mounted: function() {
+    this.facets.forEach(function(f) {
+      f.legende.forEach(function(l, i) {
+        l.color = l.color || d3.defaultColors[i % d3.defaultColors.length];
+      });
+    });
     this.readUrl();
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
