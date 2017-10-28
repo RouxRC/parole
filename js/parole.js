@@ -1,4 +1,5 @@
 /* TODO
+- remove/disable unavailable filters ?
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - data table view ?
 - data updates
@@ -263,12 +264,12 @@ new Vue({
       only: "questions",
       legende: [
         {color: "#69F0AE", id: "1", name: "moins d'un mois", facetName: "- d'1 mois"},
-        {color: "#80D8FF", id: "2", name: "moins de 2 mois", facetName: "- de 2 mois"},
-        {color: "#B2DFDB", id: "3", name: "moins de 3 mois", facetName: "- de 3 mois"},
-        {color: "#FFE57F", id: "3-6", name: "entre 3 & 6 mois", facetName: "3 à 6 mois"}
+        {color: "#80D8FF", id: "2", name: "entre 1 et 2 mois", facetName: "1 à 2 mois"},
+        {color: "#B2DFDB", id: "3", name: "entre 2 et 3 mois", facetName: "2 à 3 mois"},
+        {color: "#FFE57F", id: "3-6", name: "entre 3 et 6 mois", facetName: "3 à 6 mois"}
       ], extralegende: [
-        {color: "#FFAB40", id: "6-12", name: "entre 6 mois & un an", facetName: "6 à 12 mois"},
-        {color: "#ef9a9a", id: "12+", name: "plus d'un an", facetName: "+ d'un an"}
+        {color: "#FFAB40", id: "6-12", name: "entre 6 mois et un an", facetName: "6 à 12 mois"},
+        {color: "#ef9a9a", id: "12+", name: "plus d'un an", facetName: "+ d'1 an"}
       ]
     }, {
       id: "statut",
@@ -506,7 +507,7 @@ new Vue({
         var o = {
           date: d.date,
           legend: (temps === "sems" ? "semaine du " : "") +
-            d3.timeFormat((temps !== "mois" ? "%e " : "") + "%B %Y")(d.date),
+            d3.timeFormat((temps !== "mois" ? "%a %e " : "") + "%B %Y")(d.date),
           sum: 0,
           sum_cumul: 0,
           comp: {},
@@ -622,17 +623,13 @@ new Vue({
     displayTooltip: function(d, i, rects) {
       this.hoverDate = d.legend;
       this.showValues = true;
-      var tot = 0,
-        extra = (this.compare ? "|" + this.comparables[d3.select(rects[i]).attr('idx')].id : "") + this._cumul + this._prop,
+      var extra = (this.compare ? "|" + this.comparables[d3.select(rects[i]).attr('idx')].id : "") + this._cumul + this._prop,
         fmt = d3.format(this.prop ? ".1%" : ",d");
-      this.legende.forEach(function(l) {
-        l.value = fmt(d[l.id + extra]);
-        tot += d[l.id + extra];
-      });
+      this.legende.forEach(function(l) { l.value = fmt(d[l.id + extra]); });
       d3.select(".tooltipBox")
       .style("left", d3.event.pageX - 60 + "px")
       .style("top", d3.event.pageY + 20 + "px")
-      .style("display", (tot ? "block" : "none"));
+      .style("display", "block");
     },
     clearTooltip: function(d, i) {
       this.showValues = false;
