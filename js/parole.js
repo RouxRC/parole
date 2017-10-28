@@ -161,8 +161,9 @@ new Vue({
       selected: "total",
       only: "parole",
       legende: [
-        {color: "#FF9E80", id: "invectives", name: "Invectives ( - de 20 mots )", facetName: "Invectives"},
-        {color: "#FFE57F", id: "longues", name: "Interventions longues"}
+        {color: "#E0E0E0", id: "presidence", name: "Présidence"},
+        {color: "#FFE57F", id: "longues", name: "Interventions longues"},
+        {color: "#FF9E80", id: "invectives", name: "Invectives ( - de 20 mots )", facetName: "Invectives"}
       ]
     }, {
       id: "origine",

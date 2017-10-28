@@ -23,7 +23,7 @@ SELECT
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
   IF(i.type = 'commission', 'commissions', 'hemicycle') AS debats,
-  IF(i.nb_mots > 20, 'longues', 'invectives') AS interventions,
+  IF(i.fonction IN ('président', 'présidente'), 'presidence', IF(i.nb_mots > 20, 'longues', 'invectives')) AS interventions,
   SUM(i.nb_mots) AS total
 FROM intervention i
 JOIN parlementaire p ON p.id = i.parlementaire_id

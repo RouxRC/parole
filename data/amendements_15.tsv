@@ -565,6 +565,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2017-09-26	NG	F	anciens	Tombe	hemicycle	1
 2017-09-27	LREM	H	nouveaux	Adopté	commissions	2
 2017-09-27	NG	F	anciens	Adopté	hemicycle	1
+2017-10-00	NG	F	anciens	Retiré	commissions	2
+2017-10-00	NG	H	anciens	Retiré	commissions	1
 2017-10-02	GDR	H	nouveaux	Rejeté	commissions	2
 2017-10-02	GDR	H	nouveaux	Tombe	commissions	1
 2017-10-02	LC	H	anciens	Adopté	commissions	2
@@ -1085,72 +1087,193 @@ date	groupes	genre	renouveau	sorts	origine	total
 2017-10-19	LR	H	anciens	Rejeté	commissions	2
 2017-10-19	LREM	H	anciens	Adopté	commissions	1
 2017-10-20	LR	F	nouveaux	Non soutenu	commissions	1
-2017-10-23	GDR	H	anciens	Indéfini	commissions	1
 2017-10-23	GDR	H	anciens	Irrecevable	commissions	4
-2017-10-23	GDR	H	nouveaux	Indéfini	commissions	33
+2017-10-23	GDR	H	anciens	Rejeté	commissions	1
+2017-10-23	GDR	H	nouveaux	Adopté	commissions	1
+2017-10-23	GDR	H	nouveaux	Indéfini	commissions	14
 2017-10-23	GDR	H	nouveaux	Irrecevable	commissions	7
-2017-10-23	LC	F	anciens	Indéfini	commissions	11
+2017-10-23	GDR	H	nouveaux	Non soutenu	commissions	1
+2017-10-23	GDR	H	nouveaux	Rejeté	commissions	17
+2017-10-23	LC	F	anciens	Indéfini	commissions	3
 2017-10-23	LC	F	anciens	Irrecevable	commissions	7
-2017-10-23	LC	F	nouveaux	Indéfini	commissions	28
+2017-10-23	LC	F	anciens	Non soutenu	commissions	1
+2017-10-23	LC	F	anciens	Rejeté	commissions	7
+2017-10-23	LC	F	nouveaux	Indéfini	commissions	14
 2017-10-23	LC	F	nouveaux	Irrecevable	commissions	8
-2017-10-23	LC	H	anciens	Indéfini	commissions	40
+2017-10-23	LC	F	nouveaux	Rejeté	commissions	10
+2017-10-23	LC	F	nouveaux	Retiré	commissions	4
+2017-10-23	LC	H	anciens	Adopté	commissions	2
+2017-10-23	LC	H	anciens	Indéfini	commissions	13
 2017-10-23	LC	H	anciens	Irrecevable	commissions	18
-2017-10-23	LC	H	anciens	Retiré	commissions	2
-2017-10-23	LC	H	nouveaux	Indéfini	commissions	13
+2017-10-23	LC	H	anciens	Non soutenu	commissions	1
+2017-10-23	LC	H	anciens	Rejeté	commissions	22
+2017-10-23	LC	H	anciens	Retiré	commissions	4
+2017-10-23	LC	H	nouveaux	Indéfini	commissions	4
 2017-10-23	LC	H	nouveaux	Irrecevable	commissions	5
-2017-10-23	LFI	F	nouveaux	Indéfini	commissions	17
-2017-10-23	LFI	F	nouveaux	Indéfini	hemicycle	19
+2017-10-23	LC	H	nouveaux	Non soutenu	commissions	5
+2017-10-23	LC	H	nouveaux	Rejeté	commissions	4
+2017-10-23	LFI	F	nouveaux	Indéfini	commissions	1
 2017-10-23	LFI	F	nouveaux	Irrecevable	commissions	6
-2017-10-23	LFI	H	nouveaux	Indéfini	commissions	42
-2017-10-23	LFI	H	nouveaux	Indéfini	hemicycle	26
+2017-10-23	LFI	F	nouveaux	Non soutenu	hemicycle	6
+2017-10-23	LFI	F	nouveaux	Rejeté	commissions	15
+2017-10-23	LFI	F	nouveaux	Rejeté	hemicycle	13
+2017-10-23	LFI	F	nouveaux	Tombe	commissions	1
+2017-10-23	LFI	H	nouveaux	Indéfini	commissions	23
 2017-10-23	LFI	H	nouveaux	Irrecevable	commissions	14
 2017-10-23	LFI	H	nouveaux	Irrecevable	hemicycle	1
-2017-10-23	LR	F	anciens	Indéfini	commissions	28
+2017-10-23	LFI	H	nouveaux	Non soutenu	hemicycle	2
+2017-10-23	LFI	H	nouveaux	Rejeté	commissions	16
+2017-10-23	LFI	H	nouveaux	Rejeté	hemicycle	22
+2017-10-23	LFI	H	nouveaux	Retiré	commissions	2
+2017-10-23	LFI	H	nouveaux	Retiré	hemicycle	2
+2017-10-23	LFI	H	nouveaux	Tombe	commissions	1
+2017-10-23	LR	F	anciens	Indéfini	commissions	16
 2017-10-23	LR	F	anciens	Irrecevable	commissions	8
+2017-10-23	LR	F	anciens	Non soutenu	commissions	7
+2017-10-23	LR	F	anciens	Rejeté	commissions	5
 2017-10-23	LR	F	anciens	Retiré	commissions	1
-2017-10-23	LR	F	nouveaux	Indéfini	commissions	54
+2017-10-23	LR	F	nouveaux	Indéfini	commissions	32
 2017-10-23	LR	F	nouveaux	Irrecevable	commissions	14
-2017-10-23	LR	H	anciens	Indéfini	commissions	128
-2017-10-23	LR	H	anciens	Indéfini	hemicycle	2
+2017-10-23	LR	F	nouveaux	Non soutenu	commissions	13
+2017-10-23	LR	F	nouveaux	Rejeté	commissions	9
+2017-10-23	LR	H	anciens	Adopté	commissions	2
+2017-10-23	LR	H	anciens	Indéfini	commissions	47
 2017-10-23	LR	H	anciens	Irrecevable	commissions	39
-2017-10-23	LR	H	anciens	Retiré	commissions	1
-2017-10-23	LR	H	nouveaux	Indéfini	commissions	41
+2017-10-23	LR	H	anciens	Non soutenu	commissions	24
+2017-10-23	LR	H	anciens	Rejeté	commissions	42
+2017-10-23	LR	H	anciens	Rejeté	hemicycle	2
+2017-10-23	LR	H	anciens	Retiré	commissions	11
+2017-10-23	LR	H	anciens	Tombe	commissions	3
+2017-10-23	LR	H	nouveaux	Indéfini	commissions	16
 2017-10-23	LR	H	nouveaux	Irrecevable	commissions	19
-2017-10-23	LREM	F	nouveaux	Indéfini	commissions	15
-2017-10-23	LREM	H	anciens	Indéfini	commissions	160
+2017-10-23	LR	H	nouveaux	Non soutenu	commissions	14
+2017-10-23	LR	H	nouveaux	Rejeté	commissions	11
+2017-10-23	LREM	F	nouveaux	Adopté	commissions	2
+2017-10-23	LREM	F	nouveaux	Indéfini	commissions	4
+2017-10-23	LREM	F	nouveaux	Rejeté	commissions	4
+2017-10-23	LREM	F	nouveaux	Retiré	commissions	5
+2017-10-23	LREM	H	anciens	Adopté	commissions	80
+2017-10-23	LREM	H	anciens	Indéfini	commissions	58
 2017-10-23	LREM	H	anciens	Irrecevable	commissions	6
-2017-10-23	LREM	H	anciens	Retiré	commissions	3
-2017-10-23	LREM	H	nouveaux	Indéfini	commissions	18
+2017-10-23	LREM	H	anciens	Non soutenu	commissions	1
+2017-10-23	LREM	H	anciens	Rejeté	commissions	6
+2017-10-23	LREM	H	anciens	Retiré	commissions	16
+2017-10-23	LREM	H	anciens	Tombe	commissions	2
+2017-10-23	LREM	H	nouveaux	Adopté	commissions	6
+2017-10-23	LREM	H	nouveaux	Indéfini	commissions	2
 2017-10-23	LREM	H	nouveaux	Irrecevable	commissions	6
-2017-10-23	LREM	H	nouveaux	Retiré	commissions	1
-2017-10-23	MODEM	F	nouveaux	Indéfini	commissions	16
+2017-10-23	LREM	H	nouveaux	Non soutenu	commissions	3
+2017-10-23	LREM	H	nouveaux	Rejeté	commissions	2
+2017-10-23	LREM	H	nouveaux	Retiré	commissions	4
+2017-10-23	LREM	H	nouveaux	Tombe	commissions	2
+2017-10-23	MODEM	F	nouveaux	Adopté	commissions	1
+2017-10-23	MODEM	F	nouveaux	Indéfini	commissions	3
 2017-10-23	MODEM	F	nouveaux	Irrecevable	commissions	1
-2017-10-23	MODEM	H	nouveaux	Indéfini	commissions	15
-2017-10-23	MODEM	H	nouveaux	Indéfini	hemicycle	1
+2017-10-23	MODEM	F	nouveaux	Rejeté	commissions	6
+2017-10-23	MODEM	F	nouveaux	Retiré	commissions	6
+2017-10-23	MODEM	H	nouveaux	Indéfini	commissions	8
 2017-10-23	MODEM	H	nouveaux	Irrecevable	commissions	6
-2017-10-23	NG	F	anciens	Indéfini	commissions	50
-2017-10-23	NG	F	anciens	Indéfini	hemicycle	2
+2017-10-23	MODEM	H	nouveaux	Rejeté	commissions	2
+2017-10-23	MODEM	H	nouveaux	Rejeté	hemicycle	1
+2017-10-23	MODEM	H	nouveaux	Retiré	commissions	5
+2017-10-23	NG	F	anciens	Indéfini	commissions	26
 2017-10-23	NG	F	anciens	Irrecevable	commissions	14
 2017-10-23	NG	F	anciens	Irrecevable	hemicycle	1
+2017-10-23	NG	F	anciens	Non soutenu	commissions	6
+2017-10-23	NG	F	anciens	Rejeté	commissions	16
+2017-10-23	NG	F	anciens	Rejeté	hemicycle	1
+2017-10-23	NG	F	anciens	Retiré	commissions	2
+2017-10-23	NG	F	anciens	Retiré	hemicycle	1
 2017-10-23	NG	F	nouveaux	Irrecevable	commissions	3
-2017-10-23	NG	H	anciens	Indéfini	commissions	30
+2017-10-23	NG	H	anciens	Adopté	commissions	1
+2017-10-23	NG	H	anciens	Indéfini	commissions	13
 2017-10-23	NG	H	anciens	Irrecevable	commissions	22
 2017-10-23	NG	H	anciens	Irrecevable	hemicycle	1
-2017-10-23	NG	H	nouveaux	Indéfini	commissions	16
+2017-10-23	NG	H	anciens	Non soutenu	commissions	2
+2017-10-23	NG	H	anciens	Rejeté	commissions	13
+2017-10-23	NG	H	anciens	Retiré	commissions	1
+2017-10-23	NG	H	nouveaux	Indéfini	commissions	8
 2017-10-23	NG	H	nouveaux	Irrecevable	commissions	2
-2017-10-23	NI	F	anciens	Indéfini	commissions	9
+2017-10-23	NG	H	nouveaux	Non soutenu	commissions	2
+2017-10-23	NG	H	nouveaux	Rejeté	commissions	6
+2017-10-23	NI	F	anciens	Indéfini	commissions	5
 2017-10-23	NI	F	anciens	Irrecevable	commissions	1
-2017-10-23	NI	F	nouveaux	Indéfini	commissions	29
+2017-10-23	NI	F	anciens	Non soutenu	commissions	1
+2017-10-23	NI	F	anciens	Rejeté	commissions	3
+2017-10-23	NI	F	nouveaux	Indéfini	commissions	12
 2017-10-23	NI	F	nouveaux	Irrecevable	commissions	9
-2017-10-23	NI	H	anciens	Indéfini	commissions	9
-2017-10-23	NI	H	anciens	Indéfini	hemicycle	1
+2017-10-23	NI	F	nouveaux	Non soutenu	commissions	3
+2017-10-23	NI	F	nouveaux	Rejeté	commissions	13
+2017-10-23	NI	F	nouveaux	Retiré	commissions	1
+2017-10-23	NI	H	anciens	Indéfini	commissions	3
 2017-10-23	NI	H	anciens	Irrecevable	commissions	4
-2017-10-23	NI	H	nouveaux	Indéfini	commissions	21
+2017-10-23	NI	H	anciens	Non soutenu	commissions	3
+2017-10-23	NI	H	anciens	Non soutenu	hemicycle	1
+2017-10-23	NI	H	anciens	Rejeté	commissions	3
+2017-10-23	NI	H	nouveaux	Indéfini	commissions	13
 2017-10-23	NI	H	nouveaux	Irrecevable	commissions	11
-2017-10-24	LR	F	anciens	Indéfini	hemicycle	1
-2017-10-24	LR	H	anciens	Indéfini	hemicycle	1
-2017-10-24	LR	H	nouveaux	Indéfini	hemicycle	1
-2017-10-24	LREM	H	nouveaux	Irrecevable	commissions	2
+2017-10-23	NI	H	nouveaux	Rejeté	commissions	8
+2017-10-24	GDR	H	nouveaux	Retiré	hemicycle	1
+2017-10-24	LFI	F	nouveaux	Rejeté	commissions	1
+2017-10-24	LR	F	anciens	Retiré	hemicycle	1
+2017-10-24	LR	H	anciens	Rejeté	hemicycle	7
+2017-10-24	LR	H	anciens	Retiré	commissions	1
+2017-10-24	LR	H	nouveaux	Non soutenu	hemicycle	1
+2017-10-24	LR	H	nouveaux	Rejeté	hemicycle	2
+2017-10-24	LR	H	nouveaux	Retiré	hemicycle	1
+2017-10-24	LREM	H	nouveaux	Rejeté	commissions	1
+2017-10-24	LREM	H	nouveaux	Retiré	commissions	1
+2017-10-24	NG	F	anciens	Adopté	commissions	1
 2017-10-24	NG	F	anciens	Indéfini	commissions	1
+2017-10-24	NG	H	anciens	Irrecevable	hemicycle	1
 2017-10-24	NI	F	anciens	Irrecevable	commissions	1
-2017-10-24	NI	H	anciens	Irrecevable	commissions	1
+2017-10-24	NI	F	nouveaux	Non soutenu	commissions	1
+2017-10-24	NI	H	anciens	Non soutenu	commissions	1
+2017-10-24	NI	H	nouveaux	Irrecevable	hemicycle	2
+2017-10-24	NI	H	nouveaux	Rejeté	commissions	1
+2017-10-24	NI	H	nouveaux	Rejeté	hemicycle	2
+2017-10-25	GDR	H	nouveaux	Adopté	commissions	1
+2017-10-25	LC	F	nouveaux	Adopté	hemicycle	1
+2017-10-25	LC	F	nouveaux	Rejeté	commissions	1
+2017-10-25	LC	H	anciens	Indéfini	commissions	3
+2017-10-25	LC	H	anciens	Non soutenu	hemicycle	1
+2017-10-25	LC	H	nouveaux	Non soutenu	hemicycle	1
+2017-10-25	LFI	F	nouveaux	Rejeté	hemicycle	9
+2017-10-25	LFI	H	nouveaux	Rejeté	hemicycle	11
+2017-10-25	LR	F	nouveaux	Rejeté	commissions	1
+2017-10-25	LR	H	anciens	Indéfini	hemicycle	3
+2017-10-25	LR	H	anciens	Non soutenu	hemicycle	4
+2017-10-25	LR	H	anciens	Rejeté	hemicycle	4
+2017-10-25	LR	H	nouveaux	Non soutenu	hemicycle	2
+2017-10-25	LREM	F	nouveaux	Adopté	hemicycle	1
+2017-10-25	LREM	H	anciens	Adopté	hemicycle	1
+2017-10-25	LREM	H	nouveaux	Indéfini	hemicycle	1
+2017-10-25	MODEM	H	nouveaux	Retiré	hemicycle	1
+2017-10-25	NI	H	nouveaux	Rejeté	hemicycle	1
+2017-10-26	LC	F	nouveaux	Irrecevable	hemicycle	3
+2017-10-26	LC	H	anciens	Irrecevable	hemicycle	4
+2017-10-26	LC	H	nouveaux	Irrecevable	hemicycle	1
+2017-10-26	LFI	F	nouveaux	Rejeté	hemicycle	4
+2017-10-26	LFI	H	nouveaux	Rejeté	hemicycle	3
+2017-10-26	LR	F	anciens	Irrecevable	hemicycle	1
+2017-10-26	LR	H	anciens	Irrecevable	hemicycle	17
+2017-10-26	LR	H	nouveaux	Irrecevable	hemicycle	5
+2017-10-26	LREM	F	nouveaux	Adopté	hemicycle	2
+2017-10-26	NG	H	anciens	Irrecevable	hemicycle	1
+2017-10-27	GDR	H	nouveaux	Rejeté	hemicycle	1
+2017-10-27	LC	H	nouveaux	Adopté	hemicycle	1
+2017-10-27	LC	H	nouveaux	Rejeté	hemicycle	1
+2017-10-27	LFI	F	nouveaux	Rejeté	hemicycle	4
+2017-10-27	LFI	H	nouveaux	Non soutenu	hemicycle	1
+2017-10-27	LR	H	anciens	Non soutenu	hemicycle	4
+2017-10-27	LR	H	anciens	Rejeté	hemicycle	2
+2017-10-27	LR	H	anciens	Retiré	hemicycle	1
+2017-10-27	LR	H	nouveaux	Non soutenu	hemicycle	4
+2017-10-27	LR	H	nouveaux	Rejeté	hemicycle	9
+2017-10-27	MODEM	H	nouveaux	Adopté	hemicycle	1
+2017-10-27	MODEM	H	nouveaux	Rejeté	hemicycle	1
+2017-10-27	NG	H	anciens	Indéfini	hemicycle	1
+2017-10-27	NG	H	anciens	Non soutenu	hemicycle	1
+2017-10-27	NG	H	anciens	Rejeté	hemicycle	7
+2017-10-27	NI	H	anciens	Non soutenu	hemicycle	1
+2017-10-27	NI	H	nouveaux	Non soutenu	hemicycle	1
