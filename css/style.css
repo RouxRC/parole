@@ -66,6 +66,8 @@ aside {
   text-transform: none!important;
 }
 .svg {
+  overflow-x: hidden;
+  overflow-y: auto;
   overflow-y: overlay;
   display: grid;
 }

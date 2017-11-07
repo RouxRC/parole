@@ -1,4 +1,5 @@
 /* TODO
+- add data on deputes (and disable view options with forced days + no cumul/prop)
 - remove/disable unavailable filters ?
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - data table view ?
