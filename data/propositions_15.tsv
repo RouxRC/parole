@@ -1,40 +1,38 @@
 date	groupes	genre	renouveau	typeprop	discute	total
-2017-07-18	LC	F	anciens	création d'une commission d'enquête	attente	1
+2017-07-18	UAI	F	anciens	création d'une commission d'enquête	attente	1
 2017-07-31	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2017-07-31	LR	H	nouveaux	loi constitutionnelle	attente	1
-2017-08-04	LC	F	anciens	création d'une commission d'enquête	attente	1
+2017-08-04	UAI	F	anciens	création d'une commission d'enquête	attente	1
 2017-08-08	LR	H	nouveaux	loi	attente	1
 2017-08-25	LR	H	nouveaux	loi organique	attente	1
-2017-08-28	LC	H	anciens	loi	attente	1
 2017-08-28	LR	H	anciens	loi	attente	6
-2017-08-29	LC	H	nouveaux	loi	attente	1
+2017-08-28	UAI	H	anciens	loi	attente	1
 2017-08-29	LR	H	anciens	loi	attente	3
 2017-08-29	LR	H	nouveaux	loi	attente	1
 2017-08-29	LREM	H	anciens	loi	attente	1
 2017-08-29	NI	H	anciens	loi	attente	2
+2017-08-29	UAI	H	nouveaux	loi	attente	1
 2017-09-05	LR	H	anciens	loi	discute	1
 2017-09-05	LR	H	nouveaux	loi	attente	1
 2017-09-06	LR	F	anciens	loi	attente	1
 2017-09-06	LR	H	anciens	loi	attente	1
 2017-09-06	LR	H	nouveaux	loi	attente	2
-2017-09-13	LC	H	anciens	loi constitutionnelle	attente	1
+2017-09-13	UAI	H	anciens	loi constitutionnelle	attente	1
 2017-09-18	NI	H	nouveaux	création d'une commission d'enquête	attente	1
 2017-09-18	NI	H	nouveaux	règlement de l'Assemblée nationale	attente	1
 2017-09-21	LREM	H	anciens	règlement de l'Assemblée nationale	discute	1
 2017-09-22	NI	H	anciens	loi	attente	1
 2017-09-25	LR	H	anciens	création d'une commission d'enquête	attente	1
 2017-09-25	LR	H	nouveaux	résolution	attente	1
-2017-09-27	LC	F	anciens	loi	attente	1
-2017-09-27	LC	H	anciens	loi	attente	7
 2017-09-27	LR	F	anciens	loi	attente	1
 2017-09-27	LR	H	anciens	loi	attente	1
 2017-09-27	LREM	H	anciens	loi	attente	1
+2017-09-27	UAI	F	anciens	loi	attente	1
+2017-09-27	UAI	H	anciens	loi	attente	7
 2017-10-02	LR	H	nouveaux	loi organique	attente	1
 2017-10-06	LR	H	anciens	loi constitutionnelle	attente	1
 2017-10-09	LR	F	anciens	création d'une commission d'enquête	attente	1
 2017-10-09	NI	H	nouveaux	création d'une commission d'enquête	attente	1
-2017-10-10	LC	F	anciens	loi	attente	8
-2017-10-10	LC	H	anciens	loi	attente	11
 2017-10-10	LR	F	anciens	loi	attente	1
 2017-10-10	LR	F	nouveaux	loi	attente	2
 2017-10-10	LR	H	anciens	loi	attente	6
@@ -42,65 +40,108 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2017-10-10	NI	F	nouveaux	loi	attente	2
 2017-10-10	NI	H	anciens	loi	attente	1
 2017-10-10	NI	H	nouveaux	loi	attente	2
-2017-10-11	LC	H	anciens	loi	attente	1
+2017-10-10	UAI	F	anciens	loi	attente	8
+2017-10-10	UAI	H	anciens	loi	attente	11
 2017-10-11	LR	F	anciens	loi	attente	10
-2017-10-13	LC	H	anciens	création d'une commission d'enquête	attente	1
-2017-10-13	LC	H	anciens	loi	attente	4
-2017-10-13	LC	H	nouveaux	loi	attente	2
+2017-10-11	UAI	H	anciens	loi	attente	1
 2017-10-13	LR	F	anciens	loi	attente	4
 2017-10-13	LR	H	anciens	loi	attente	1
-2017-10-16	LC	H	anciens	loi	attente	1
+2017-10-13	UAI	H	anciens	création d'une commission d'enquête	attente	1
+2017-10-13	UAI	H	anciens	loi	attente	4
+2017-10-13	UAI	H	nouveaux	loi	attente	1
+2017-10-13	UAI	H	nouveaux	loi	discute	1
 2017-10-16	LR	H	anciens	création d'une commission d'enquête	attente	1
 2017-10-16	LR	H	nouveaux	création d'une commission d'enquête	attente	1
+2017-10-16	UAI	H	anciens	loi	discute	1
 2017-10-17	MODEM	H	nouveaux	loi	attente	1
 2017-10-18	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
 2017-10-18	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
-2017-10-18	MODEM	H	nouveaux	loi de la La République En Marche	attente	1
+2017-10-18	MODEM	H	nouveaux	loi de la La République En Marche	discute	1
 2017-10-19	NI	F	nouveaux	création d'une commission d'enquête	attente	1
 2017-10-20	LR	H	anciens	création d'une commission d'enquête	attente	1
-2017-10-23	LC	H	anciens	loi	attente	1
-2017-10-23	LC	H	nouveaux	loi	attente	1
 2017-10-23	LR	F	anciens	loi	attente	1
 2017-10-23	LR	H	anciens	loi	attente	3
 2017-10-23	LR	H	nouveaux	loi	attente	2
 2017-10-23	LREM	F	nouveaux	résolution européenne	attente	1
 2017-10-23	NI	H	anciens	loi	attente	1
+2017-10-23	UAI	H	anciens	loi	attente	1
+2017-10-23	UAI	H	nouveaux	loi	attente	1
 2017-10-24	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
-2017-10-24	LC	H	anciens	loi	attente	1
 2017-10-24	LR	F	nouveaux	loi	attente	1
 2017-10-24	LR	H	anciens	loi	attente	6
 2017-10-24	LR	H	nouveaux	loi	attente	4
+2017-10-24	UAI	H	anciens	loi	discute	1
 2017-10-25	LR	F	anciens	loi	attente	3
 2017-10-25	LR	H	nouveaux	loi	attente	1
 2017-10-25	LREM	H	anciens	loi	attente	1
-2017-10-25	MODEM	H	nouveaux	loi	attente	3
-2017-10-26	LC	H	nouveaux	loi	attente	1
-2017-10-26	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
-2017-10-27	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
-2017-10-30	LC	H	anciens	loi	attente	1
+2017-10-25	MODEM	H	nouveaux	loi	attente	2
+2017-10-25	MODEM	H	nouveaux	loi	discute	1
+2017-10-26	UAI	H	nouveaux	loi	attente	1
 2017-10-30	LR	F	nouveaux	loi	attente	1
 2017-10-30	LR	H	anciens	création d'une commission d'enquête	attente	1
 2017-10-30	LR	H	anciens	loi	attente	2
 2017-10-30	MODEM	H	nouveaux	loi	attente	1
 2017-10-30	NI	H	anciens	loi	attente	1
-2017-10-31	LC	H	nouveaux	loi	attente	1
+2017-10-30	UAI	H	anciens	loi	discute	1
 2017-10-31	LR	H	nouveaux	loi	attente	1
 2017-10-31	NI	H	anciens	loi	attente	1
-2017-11-02	GDR	F	anciens	création d'une commission d'enquête	attente	1
-2017-11-02	LC	H	anciens	loi	attente	1
+2017-10-31	UAI	H	nouveaux	loi	attente	1
 2017-11-02	LR	H	nouveaux	loi	attente	1
+2017-11-02	UAI	H	anciens	loi	attente	1
 2017-11-03	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
-2017-11-07	LC	H	anciens	loi	attente	1
-2017-11-07	LC	H	anciens	loi organique	attente	1
 2017-11-07	LR	H	anciens	création d'une commission d'enquête	attente	1
 2017-11-07	LR	H	nouveaux	création d'une commission d'enquête	attente	1
-2017-11-08	LC	H	anciens	loi	attente	3
-2017-11-08	MODEM	H	nouveaux	résolution	attente	1
-2017-11-09	LC	H	anciens	loi	attente	2
+2017-11-07	UAI	H	anciens	loi	attente	1
+2017-11-08	MODEM	H	nouveaux	résolution	discute	1
+2017-11-08	UAI	H	anciens	loi	attente	3
 2017-11-09	LR	F	anciens	loi	attente	2
 2017-11-09	LR	H	nouveaux	loi	attente	1
-2017-11-10	LC	H	anciens	loi	attente	3
-2017-11-10	LREM	H	anciens	résolution	attente	1
+2017-11-09	UAI	H	anciens	loi	attente	2
+2017-11-10	LR	H	anciens	résolution	attente	1
+2017-11-10	LREM	H	anciens	résolution	discute	1
+2017-11-10	UAI	H	anciens	loi	attente	3
 2017-11-13	LR	H	nouveaux	loi	attente	1
 2017-11-14	LR	H	anciens	loi organique	attente	1
 2017-11-15	LR	H	nouveaux	loi	attente	1
+2017-11-17	GDR	F	anciens	création d'une commission d'enquête	attente	1
+2017-11-21	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
+2017-11-21	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2017-11-22	UAI	H	anciens	loi organique	attente	1
+2017-11-24	LR	H	anciens	résolution	attente	1
+2017-11-28	GDR	F	anciens	loi	attente	1
+2017-11-28	LR	F	anciens	loi	attente	1
+2017-11-28	LR	H	nouveaux	loi	attente	1
+2017-11-29	LR	H	anciens	loi	attente	3
+2017-11-29	LR	H	nouveaux	loi	attente	4
+2017-11-29	NI	H	nouveaux	loi	attente	2
+2017-11-30	LR	F	anciens	loi	attente	2
+2017-11-30	LR	F	nouveaux	loi	attente	2
+2017-11-30	LR	H	anciens	loi	attente	3
+2017-11-30	LR	H	nouveaux	loi	attente	2
+2017-11-30	NI	H	anciens	loi	attente	2
+2017-12-01	LR	H	nouveaux	loi	attente	1
+2017-12-06	GDR	H	nouveaux	loi	attente	1
+2017-12-06	LR	H	anciens	résolution	attente	1
+2017-12-08	LR	F	nouveaux	résolution européenne	attente	1
+2017-12-08	LREM	H	anciens	résolution européenne	attente	1
+2017-12-11	LFI	H	nouveaux	loi	attente	2
+2017-12-11	LR	H	anciens	loi	attente	1
+2017-12-11	NG	H	anciens	loi de la Nouvelle Gauche	attente	1
+2017-12-11	NI	H	anciens	loi	attente	1
+2017-12-11	NI	H	nouveaux	loi	attente	1
+2017-12-12	GDR	F	anciens	loi	attente	1
+2017-12-12	GDR	H	nouveaux	loi	attente	1
+2017-12-12	LR	H	anciens	création d'une commission d'enquête	attente	1
+2017-12-12	LR	H	anciens	loi	attente	3
+2017-12-12	LR	H	nouveaux	loi	attente	3
+2017-12-12	NG	H	anciens	loi de la Nouvelle Gauche	attente	1
+2017-12-13	GDR	F	anciens	loi	attente	1
+2017-12-13	NI	F	nouveaux	résolution	attente	1
+2017-12-13	UAI	H	anciens	loi	attente	5
+2017-12-14	LR	H	anciens	loi	attente	1
+2017-12-14	NG	H	anciens	loi	attente	1
+2017-12-14	NG	H	anciens	loi de la Nouvelle Gauche	attente	1
+2017-12-14	UAI	H	anciens	loi	attente	3
+2017-12-15	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
+2017-12-15	UAI	H	anciens	loi	attente	2
+2018-12-03	LR	F	anciens	création d'une commission d'enquête	attente	1
