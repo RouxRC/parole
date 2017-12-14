@@ -417,7 +417,7 @@ new Vue({
     readUrl: function() {
       var el, el2, options = {};
       window.location.hash.slice(1).split(/&/).forEach(function(opt) {
-        el = opt.split(/=/);
+        el = decodeURIComponent(opt).split(/=/);
         if (el[0] === "filters") {
           options[el[0]] = {};
           el[1].split(/\|/).forEach(function(e) {
