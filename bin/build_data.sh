@@ -1,20 +1,27 @@
 #!/bin/bash
 
+# TODO :
+#-------
+# - cleanup ministeres QE old legis
+# - fix renouveau field on old legis
+# - add dossier on interventions/amdmts ?
+
+
 cd $(dirname $0)/..
 source bin/config.sh
-
-LEGI=15
-if [ ! -z "$1" ]; then
-  LEGI=$1
-fi
-
-function query {
-  echo "$2" | mysql $MYSQLID $DBNAME > $1_$LEGI.tsv
-}
-
 mkdir -p data
 
-# ADD dossier on interventions/amdmts ?
+LEGI=$1
+if [ -z "$1" ]; then
+  LEGI=15
+fi
+
+
+
+function query {
+  echo $1_$LEGI.tsv
+  echo "$2" | iconv -t "$ENCODE" | mysql $MYSQLID $DBNAME | iconv -f "$ENCODE" -t "utf-8" > $1_$LEGI.tsv
+}
 
 query data/parole "
 SELECT
@@ -37,7 +44,7 @@ SELECT
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
   REPLACE(a.sort, ' avant séance', '') AS sorts,
-  IF(a.numero RLIKE '^[0-9]', 'commissions', 'hemicycle') AS origine,
+  IF(a.numero RLIKE '^[0-9]', 'hemicycle', 'commissions') AS origine,
   SUM(a.nb_multiples) AS total
 FROM amendement a
 JOIN parlementaire p ON p.id = a.auteur_id
