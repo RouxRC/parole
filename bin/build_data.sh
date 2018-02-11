@@ -16,7 +16,23 @@ if [ -z "$1" ]; then
   LEGI=15
 fi
 
+if [ $LEGI -eq 13 ]; then
+  AMDTSJOIN="JOIN parlementaire_amendement pa ON (pa.amendement_id = a.id AND pa.numero_signataire = 1)
+JOIN parlementaire p ON p.id = pa.parlementaire_id
+WHERE a.numero RLIKE '^[0-9]'
+AND"
+else
+  AMDTSJOIN="JOIN parlementaire p ON p.id = auteur_id
+WHERE"
+fi
 
+if [ $LEGI -ne 15 ]; then
+  CLEAN_MINISTERES="\"'\", \"'\"),"
+  ENCODE="iso-8859-15"
+else
+  CLEAN_MINISTERES="'’', \"'\"),"
+  ENCODE="utf-8"
+fi
 
 function query {
   echo $1_$LEGI.tsv
@@ -47,8 +63,7 @@ SELECT
   IF(a.numero RLIKE '^[0-9]', 'hemicycle', 'commissions') AS origine,
   SUM(a.nb_multiples) AS total
 FROM amendement a
-JOIN parlementaire p ON p.id = a.auteur_id
-WHERE a.sort <> 'Rectifié'
+$AMDTSJOIN a.sort <> 'Rectifié'
 GROUP BY a.date, groupes, genre, renouveau, sorts, origine
 ORDER BY a.date, groupes, genre, renouveau, sorts, origine"
 
@@ -63,7 +78,7 @@ SELECT
   IF(@mois < 3, @mois + 1, IF(@mois < 6, '3-6', IF(@mois < 12, '6-12', '12+'))) as duree,
   REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
     SUBSTRING(q.ministere, 1, POSITION('/' IN q.ministere) - 2),
-    '’', \"'\"),
+    $CLEAN_MINISTERES
     'auprès de la ', 'auprès du '),
     \"Secrétariat d'État, auprès du \", ''),
     'Ministère auprès du ', ''),
@@ -82,13 +97,14 @@ SELECT
   p.groupe_acronyme AS groupes,
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
-  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
-    CONCAT(t.type, IF(t.type_details IS NOT NULL, CONCAT(' ', t.type_details), '')),
+  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+    CONCAT(t.type, IF(t.type_details IS NOT NULL AND t.type_details NOT LIKE 'de la %', CONCAT(' ', t.type_details), '')),
     'Proposition de ', ''),
     'résolution tendant à la ', ''),
     'résolution modifiant le R', 'r'),
     ' en application de Article 34-1 de la Constitution', ''),
-    'sur les travaux conduits par les institutions européennes', 'européenne'
+    'sur les travaux conduits par les institutions européennes', 'européenne'),
+    'portant sur des propositions d\'actes communautaires', 'européenne'
   ) AS typeprop,
   IF(s.id IS NULL, 'attente', 'discute') AS discute,
   COUNT(DISTINCT(t.id)) AS total
