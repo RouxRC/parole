@@ -27,7 +27,7 @@ WHERE"
 fi
 
 if [ $LEGI -ne 15 ]; then
-  CLEAN_MINISTERES="\"'\", \"'\"),"
+  CLEAN_MINISTERES="'', \"'\"),"
   ENCODE="iso-8859-15"
 else
   CLEAN_MINISTERES="'’', \"'\"),"
@@ -76,13 +76,14 @@ SELECT
   IF(q.motif_retrait IS NOT NULL, 'retrait', IF(q.reponse = '', 'attente', 'reponse')) AS statut,
   @mois:=FLOOR(DATEDIFF(IF(q.date_cloture, q.date_cloture, CURDATE()), q.date) / 365 * 12) as mois,
   IF(@mois < 3, @mois + 1, IF(@mois < 6, '3-6', IF(@mois < 12, '6-12', '12+'))) as duree,
-  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
     SUBSTRING(q.ministere, 1, POSITION('/' IN q.ministere) - 2),
     $CLEAN_MINISTERES
     'auprès de la ', 'auprès du '),
     \"Secrétariat d'État, auprès du \", ''),
     'Ministère auprès du ', ''),
     \"ministre d'État, \", ''),
+    'chargé d', 'd'),
     'ministre ', 'Ministère '
   ) AS ministre,
   COUNT(q.id) AS total
@@ -97,12 +98,14 @@ SELECT
   p.groupe_acronyme AS groupes,
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
-  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
+  REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
     CONCAT(t.type, IF(t.type_details IS NOT NULL AND t.type_details NOT LIKE 'de la %', CONCAT(' ', t.type_details), '')),
     'Proposition de ', ''),
     'résolution tendant à la ', ''),
     'résolution modifiant le R', 'r'),
     ' en application de Article 34-1 de la Constitution', ''),
+    ' demandant la suspension de poursuites, de détention ou de mesures privatives ou restrictives de liberté', ''),
+    ' portant mise en accusation du Président de la République devant la Haute Cour de justice', ''),
     'sur les travaux conduits par les institutions européennes', 'européenne'),
     'portant sur des propositions d\'actes communautaires', 'européenne'
   ) AS typeprop,
