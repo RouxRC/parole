@@ -1,11 +1,12 @@
 /* TODO
+- add zoom
+- data updates
+- add comparator with actual MP proportions when prop view
 - add data on deputes (and disable view options with forced days + no cumul/prop)
+- add gouv to some data ?
 - remove/disable unavailable filters ?
 - option crossings heatmap on 2 facets http://bl.ocks.org/ianyfchang/8119685
 - data table view ?
-- data updates
-- add other legislatures data
-- add comparator with actual MP proportions when prop view
 - option streamgraph https://github.com/densitydesign/raw/blob/master/charts/streamgraph.js https://bl.ocks.org/mbostock/4060954
 - option bubblechart add view facet for color https://github.com/densitydesign/raw/blob/master/charts/scatterPlot.js
 - vue split => display ombre globale en fond
@@ -13,7 +14,7 @@
 - better display value, on click ?
 - add dynamic keys ?
 - add filter cumul ?
-- add filter expérience politique via autres_mandats ?
+- add filter expérience politique via autres_mandats ? http://www.bfmtv.com/politique/infographie-le-profil-des-577-deputes-elus-passes-au-crible-1189731.html
 - link (integrate?) trombi
 */
 d3.formatDefaultLocale({
@@ -110,14 +111,22 @@ new Vue({
       icon: "people",
       selected: "total",
       legende: [
-        {color: "#e53935", id: "LFI", name: "LFI"},
-        {color: "#ff5252", id: "GDR", name: "GDR"},
-        {color: "#F06292", id: "NG", name: "NG"},
-        {color: "#FFA726", id: "LREM", name: "LREM"},
-        {color: "#FF7043", id: "MODEM", name: "MODEM"},
-        {color: "#42A5F5", id: "LC", name: "LC"},
-        {color: "#5C6BC0", id: "LR", name: "LR"},
-        {color: "#BDBDBD", id: "NI", name: "NI"}
+        {color: "#e53935", id: "LFI", name: "LFI", legi: ["15"]},
+        {color: "#ff5252", id: "GDR", name: "GDR", legi: ["13", "14", "15"]},
+        {color: "#69F0AE", id: "ECOLO", name: "ECOLO", legi: ["14"]},
+        {color: "#F06292", id: "SRC", name: "SRC", legi: ["13", "14"]},
+        {color: "#F06292", id: "SER", name: "SER", legi: ["14"]},
+        {color: "#F06292", id: "NG", name: "NG", legi: ["15"]},
+        {color: "#FFA726", id: "LREM", name: "LREM", legi: ["15"]},
+        {color: "#FF7043", id: "MODEM", name: "MODEM", legi: ["15"]},
+        {color: "#42A5F5", id: "NC", name: "NC", legi: ["13"]},
+        {color: "#42A5F5", id: "UDI", name: "UDI", legi: ["14"]},
+        {color: "#42A5F5", id: "LC", name: "LC", legi: ["15"]},
+        {color: "#42A5F5", id: "UAI", name: "UAI", legi: ["15"]},
+        {color: "#5C6BC0", id: "UMP", name: "UMP", legi: ["13", "14"]},
+        {color: "#5C6BC0", id: "RUMP", name: "RUMP", legi: ["14"]},
+        {color: "#5C6BC0", id: "LR", name: "LR", legi: ["14", "15"]},
+        {color: "#BDBDBD", id: "NI", name: "NI", legi: ["13", "14", "15"]}
       ]
     }, {
       id: "genre",
@@ -326,8 +335,9 @@ new Vue({
       return this.activites.filter(function(a) { return a.id === act; })[0].icon;
     },
     comparables: function() {
-      var compare = this.compare;
-      return this.compares.concat(this.facets).filter(function(f) { return f.id === compare; })[0].legende;
+      var compare = this.compare, legi = this.legislature;
+      return this.compares.concat(this.facets).filter(function(f) { return f.id === compare; })[0].legende
+        .filter(function(l) { return !l.legi || ~l.legi.indexOf(legi); });
     },
     compareIcon: function() {
       var compare = this.compare;
@@ -346,8 +356,9 @@ new Vue({
       return this.facets.filter(function(f) { return f.id === facet; })[0].icon;
     },
     legende: function() {
-      var facet = this.facet;
-      return this.facets.filter(function(f) { return f.id === facet; })[0].legende;
+      var facet = this.facet, legi = this.legislature;
+      return this.facets.filter(function(f) { return f.id === facet; })[0].legende
+        .filter(function(l) { return !l.legi || ~l.legi.indexOf(legi); });
     },
     filtered: function() {
       var facet = this.facet;

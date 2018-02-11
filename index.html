@@ -13,7 +13,7 @@
       <v-list dense>
         <v-subheader class="mt-2 grey--text text--darken-1">Législature</v-subheader>
         <v-list-tile ripple>
-          <v-list-tile-content><v-select auto single-line hide-details disabled
+          <v-list-tile-content><v-select auto single-line hide-details
             v-model="legislature"
             :items="legislatures"
             item-text="name"
@@ -95,7 +95,7 @@
           <v-list-tile-content><v-select auto
             v-model="item.selected"
             :label="item.filterName"
-            :items="[{id: 'total', 'name': item.filterAll}].concat(item.legende)"
+            :items="[{id: 'total', 'name': item.filterAll}].concat(item.legende).filter(function(l) { return !l.legi || ~l.legi.indexOf(legislature); })"
             item-text="name"
             item-value="id"
             class="input-group--focused"
