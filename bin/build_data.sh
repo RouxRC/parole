@@ -95,7 +95,7 @@ ORDER BY q.date, groupes, genre, renouveau, statut, duree, ministre"
 query data/propositions "
 SELECT
   t.date,
-  p.groupe_acronyme AS groupes,
+  pt.parlementaire_groupe_acronyme AS groupes,
   p.sexe AS genre,
   IF(p.url_ancien_cpc IS NULL, 'nouveaux', 'anciens') AS renouveau,
   REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(
@@ -112,8 +112,8 @@ SELECT
   IF(s.id IS NULL, 'attente', 'discute') AS discute,
   COUNT(DISTINCT(t.id)) AS total
 FROM texteloi t
-JOIN parlementaire_texteloi pt ON pt.texteloi_id = t.id
-JOIN parlementaire p ON p.id = pt.parlementaire_id
+LEFT JOIN parlementaire_texteloi pt ON pt.texteloi_id = t.id
+LEFT JOIN parlementaire p ON p.id = pt.parlementaire_id
 LEFT JOIN section s ON s.id_dossier_an = t.id_dossier_an
 WHERE t.type IN ('Proposition de loi', 'Proposition de résolution')
 AND pt.importance = 1

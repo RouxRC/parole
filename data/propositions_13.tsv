@@ -94,7 +94,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2007-11-30	GDR	H	anciens	loi	attente	1
 2007-11-30	UMP	H	anciens	loi	attente	1
 2007-12-03	GDR	H	anciens	création d'une commission d'enquête	attente	1
-2007-12-03	NI	H	anciens	loi	attente	2
+2007-12-03	GDR	H	anciens	loi	attente	2
 2007-12-03	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2007-12-03	UMP	H	anciens	loi	attente	2
 2007-12-03	UMP	H	anciens	loi constitutionnelle	attente	1
@@ -111,7 +111,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2007-12-18	SRC	H	anciens	loi	attente	1
 2007-12-18	UMP	H	anciens	loi	attente	3
 2007-12-19	GDR	H	anciens	loi	attente	1
-2007-12-20	NI	H	anciens	loi	attente	1
+2007-12-20	GDR	H	anciens	loi	attente	1
 2007-12-20	UMP	H	anciens	loi	attente	17
 2007-12-21	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2007-12-21	SRC	F	anciens	loi	attente	1
@@ -124,14 +124,13 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-01-09	GDR	H	anciens	loi constitutionnelle	discute	1
 2008-01-09	UMP	H	anciens	loi	attente	2
 2008-01-10	UMP	H	anciens	loi	attente	5
-2008-01-11	NI	H	anciens	loi	attente	1
+2008-01-11	GDR	H	anciens	loi	attente	1
 2008-01-11	UMP	H	anciens	loi	attente	2
-2008-01-14	NULL	H	anciens	loi	attente	1
 2008-01-14	SRC	F	anciens	loi	attente	1
 2008-01-14	UMP	F	anciens	loi	attente	1
+2008-01-14	UMP	H	anciens	loi	attente	1
 2008-01-14	UMP	H	anciens	loi	discute	1
-2008-01-15	NULL	H	anciens	loi	attente	1
-2008-01-15	UMP	H	anciens	loi	attente	1
+2008-01-15	UMP	H	anciens	loi	attente	2
 2008-01-15	UMP	H	anciens	loi	discute	1
 2008-01-16	NC	H	anciens	loi constitutionnelle	discute	1
 2008-01-17	SRC	F	anciens	loi	attente	1
@@ -151,11 +150,12 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-01-28	GDR	H	anciens	loi	attente	1
 2008-01-28	UMP	H	anciens	loi	attente	2
 2008-01-29	UMP	H	anciens	loi	attente	2
-2008-01-30	UMP	H	anciens	loi	attente	2
+2008-01-30	NC	H	anciens	loi	attente	1
+2008-01-30	UMP	H	anciens	loi	attente	1
 2008-01-30	UMP	H	anciens	loi	discute	1
 2008-02-01	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-02-01	UMP	H	anciens	loi	attente	1
-2008-02-04	NI	H	anciens	loi	attente	1
+2008-02-04	GDR	H	anciens	loi	attente	1
 2008-02-04	UMP	H	anciens	loi	attente	1
 2008-02-04	UMP	H	anciens	loi constitutionnelle	attente	1
 2008-02-06	UMP	H	anciens	loi	attente	10
@@ -168,10 +168,9 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-02-11	UMP	F	anciens	loi	attente	1
 2008-02-11	UMP	H	anciens	loi	attente	2
 2008-02-12	GDR	H	anciens	loi constitutionnelle	attente	1
-2008-02-14	NULL	H	anciens	loi	attente	3
 2008-02-14	NC	H	anciens	loi	attente	1
 2008-02-14	NI	H	anciens	loi	attente	1
-2008-02-14	UMP	H	anciens	loi	attente	1
+2008-02-14	UMP	H	anciens	loi	attente	4
 2008-02-18	UMP	H	anciens	loi	attente	1
 2008-02-19	SRC	H	anciens	loi	attente	2
 2008-02-20	GDR	H	anciens	création d'une commission d'enquête	attente	1
@@ -181,7 +180,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-02-20	SRC	H	anciens	loi constitutionnelle	attente	1
 2008-02-20	UMP	F	anciens	loi	attente	2
 2008-02-20	UMP	H	anciens	création d'une commission d'enquête	attente	1
-2008-02-21	NULL	H	anciens	loi constitutionnelle	attente	1
+2008-02-21	UMP	H	anciens	loi constitutionnelle	attente	1
 2008-02-22	SRC	H	anciens	loi	attente	1
 2008-02-26	UMP	H	anciens	loi	attente	3
 2008-02-26	UMP	H	anciens	loi	discute	1
@@ -190,7 +189,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-02-28	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-02-28	UMP	H	anciens	loi	attente	7
 2008-02-29	UMP	H	anciens	loi	attente	1
-2008-03-03	NI	H	anciens	création d'une commission d'enquête	attente	1
+2008-03-03	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-03-03	UMP	H	anciens	loi	attente	4
 2008-03-03	UMP	H	anciens	loi organique	attente	1
 2008-03-04	UMP	H	anciens	création d'une commission d'enquête	attente	1
@@ -208,16 +207,15 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-03-25	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-03-25	SRC	H	anciens	loi	discute	1
 2008-03-25	UMP	H	anciens	loi	attente	2
-2008-03-27	NULL	H	anciens	loi	attente	1
 2008-03-27	UMP	F	anciens	loi	attente	2
-2008-03-27	UMP	H	anciens	loi	attente	1
-2008-04-01	NC	H	anciens	loi constitutionnelle	attente	1
-2008-04-02	NI	H	anciens	loi	attente	1
+2008-03-27	UMP	H	anciens	loi	attente	2
+2008-04-01	UMP	H	anciens	loi constitutionnelle	attente	1
+2008-04-02	GDR	H	anciens	loi	attente	1
 2008-04-02	UMP	H	anciens	loi	attente	1
 2008-04-03	GDR	F	anciens	loi	attente	1
 2008-04-03	UMP	F	anciens	loi	attente	1
 2008-04-03	UMP	H	anciens	loi	attente	2
-2008-04-07	NULL	H	anciens	loi	attente	1
+2008-04-07	UMP	H	anciens	loi	attente	1
 2008-04-08	UMP	F	anciens	loi	discute	1
 2008-04-09	UMP	H	anciens	loi	attente	5
 2008-04-10	UMP	H	anciens	loi	attente	1
@@ -239,7 +237,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-05-06	GDR	F	anciens	création d'une commission d'enquête	attente	1
 2008-05-06	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-05-06	NC	H	anciens	loi	attente	1
-2008-05-06	NI	H	anciens	création d'une commission d'enquête	attente	1
 2008-05-06	UMP	F	anciens	loi	attente	1
 2008-05-06	UMP	H	anciens	loi	attente	1
 2008-05-06	UMP	H	anciens	loi organique	attente	1
@@ -277,7 +274,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-06-17	UMP	H	anciens	loi	attente	1
 2008-06-19	UMP	H	anciens	loi	attente	3
 2008-06-19	UMP	H	anciens	résolution européenne	attente	1
-2008-06-20	NI	H	anciens	résolution européenne	attente	1
+2008-06-20	UMP	H	anciens	résolution européenne	attente	1
 2008-06-23	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2008-06-24	UMP	H	anciens	loi	attente	1
 2008-06-25	UMP	H	anciens	loi	attente	2
@@ -291,11 +288,11 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-07-01	UMP	H	anciens	loi	attente	2
 2008-07-01	UMP	H	anciens	loi organique	attente	1
 2008-07-02	UMP	H	anciens	loi	attente	4
-2008-07-03	NC	H	anciens	loi	attente	1
+2008-07-03	NI	H	anciens	loi	attente	1
 2008-07-03	UMP	F	anciens	loi	attente	1
 2008-07-03	UMP	H	anciens	loi	attente	3
+2008-07-07	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-07-07	GDR	H	anciens	loi organique	attente	1
-2008-07-07	NI	H	anciens	création d'une commission d'enquête	attente	1
 2008-07-09	UMP	F	anciens	loi	attente	1
 2008-07-11	UMP	H	anciens	loi	attente	1
 2008-07-11	UMP	H	anciens	résolution européenne	attente	1
@@ -309,8 +306,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-07-22	UMP	H	anciens	loi	attente	2
 2008-07-23	NC	H	anciens	loi	attente	1
 2008-07-23	UMP	H	anciens	loi	attente	1
-2008-07-24	NULL	H	anciens	loi	attente	1
 2008-07-24	UMP	F	anciens	loi	attente	1
+2008-07-24	UMP	H	anciens	loi	attente	1
 2008-07-28	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-07-28	UMP	H	anciens	loi	attente	1
 2008-07-29	UMP	H	anciens	loi	attente	5
@@ -322,7 +319,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-08-07	UMP	H	anciens	loi	attente	1
 2008-08-11	UMP	F	anciens	loi	attente	1
 2008-08-29	UMP	H	anciens	loi	attente	1
-2008-09-02	NI	H	anciens	création d'une commission d'enquête	attente	1
+2008-09-02	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-09-08	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2008-09-18	UMP	H	anciens	loi	attente	1
 2008-09-19	UMP	H	anciens	loi	attente	1
@@ -354,11 +351,10 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-10-31	UMP	H	anciens	loi	attente	2
 2008-11-03	UMP	H	anciens	loi	attente	2
 2008-11-07	UMP	H	anciens	loi	attente	1
-2008-11-13	NULL	H	anciens	loi	attente	1
 2008-11-13	GDR	F	anciens	loi	attente	1
 2008-11-13	SRC	F	anciens	création d'une commission d'enquête	attente	1
 2008-11-13	UMP	F	anciens	loi	attente	2
-2008-11-13	UMP	H	anciens	loi	attente	1
+2008-11-13	UMP	H	anciens	loi	attente	2
 2008-11-14	SRC	H	anciens	loi	attente	1
 2008-11-14	UMP	F	anciens	loi	attente	2
 2008-11-14	UMP	H	anciens	loi	attente	1
@@ -378,13 +374,13 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-12-04	UMP	F	anciens	loi	discute	1
 2008-12-05	UMP	H	anciens	loi	attente	1
 2008-12-08	NC	H	anciens	loi	attente	1
-2008-12-08	NI	H	anciens	résolution européenne	attente	1
 2008-12-08	UMP	H	anciens	loi	attente	1
+2008-12-08	UMP	H	anciens	résolution européenne	attente	1
 2008-12-09	UMP	H	anciens	loi	attente	1
 2008-12-10	GDR	H	anciens	loi	attente	1
 2008-12-10	GDR	H	anciens	résolution européenne	attente	1
 2008-12-11	UMP	H	anciens	loi	attente	1
-2008-12-12	NI	H	anciens	loi	attente	1
+2008-12-12	GDR	H	anciens	loi	attente	1
 2008-12-12	UMP	H	anciens	loi	attente	3
 2008-12-12	UMP	H	anciens	résolution européenne	attente	1
 2008-12-15	SRC	H	anciens	création d'une commission d'enquête	attente	1
@@ -393,7 +389,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2008-12-16	SRC	F	anciens	loi	discute	1
 2008-12-17	UMP	F	anciens	création d'une commission d'enquête	attente	1
 2008-12-17	UMP	H	anciens	loi	attente	9
-2008-12-18	NI	H	anciens	loi	attente	2
+2008-12-18	GDR	H	anciens	loi	attente	2
 2008-12-18	UMP	H	anciens	loi	attente	2
 2008-12-18	UMP	H	anciens	loi	discute	1
 2008-12-19	GDR	H	anciens	loi	attente	1
@@ -442,9 +438,9 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-02-23	UMP	F	anciens	loi	attente	1
 2009-02-23	UMP	H	anciens	loi	attente	2
 2009-02-24	UMP	H	anciens	loi	attente	1
-2009-03-02	NI	H	anciens	création d'une commission d'enquête	attente	1
-2009-03-02	NI	H	anciens	loi	attente	1
-2009-03-04	NI	H	anciens	loi	attente	1
+2009-03-02	GDR	H	anciens	création d'une commission d'enquête	attente	1
+2009-03-02	GDR	H	anciens	loi	attente	1
+2009-03-04	GDR	H	anciens	loi	attente	1
 2009-03-05	SRC	F	anciens	loi	discute	1
 2009-03-09	UMP	H	anciens	résolution européenne	attente	1
 2009-03-11	GDR	F	anciens	loi	attente	1
@@ -461,16 +457,15 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-03-19	GDR	H	anciens	loi	attente	1
 2009-03-19	UMP	F	anciens	loi	attente	1
 2009-03-20	GDR	H	anciens	loi	attente	1
-2009-03-24	NULL	H	anciens	loi	attente	1
-2009-03-24	UMP	H	anciens	loi	attente	2
+2009-03-24	UMP	H	anciens	loi	attente	3
 2009-03-24	UMP	H	anciens	loi	discute	1
 2009-03-24	UMP	H	anciens	règlement de l'Assemblée nationale	discute	1
-2009-03-27	NULL	H	anciens	création d'une commission d'enquête	attente	1
 2009-03-27	GDR	H	anciens	loi organique	attente	1
 2009-03-27	UMP	F	anciens	loi	attente	1
+2009-03-27	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2009-03-27	UMP	H	anciens	loi	attente	2
 2009-03-31	SRC	H	anciens	loi	discute	1
-2009-04-01	NI	H	anciens	loi	attente	1
+2009-04-01	GDR	H	anciens	loi	attente	1
 2009-04-01	SRC	H	anciens	loi	discute	2
 2009-04-01	UMP	H	anciens	loi	attente	1
 2009-04-02	NC	H	anciens	loi	attente	1
@@ -479,7 +474,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-04-03	UMP	F	anciens	résolution européenne	attente	1
 2009-04-03	UMP	H	anciens	loi organique	attente	1
 2009-04-06	UMP	H	anciens	résolution européenne	attente	1
-2009-04-07	NI	H	anciens	loi	attente	1
+2009-04-07	GDR	H	anciens	loi	attente	1
 2009-04-08	UMP	H	anciens	loi	attente	1
 2009-04-09	UMP	H	anciens	loi	attente	1
 2009-04-10	NI	F	anciens	loi	attente	1
@@ -506,8 +501,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-04-23	UMP	H	anciens	loi	attente	1
 2009-04-24	GDR	F	anciens	création d'une commission d'enquête	attente	1
 2009-04-29	UMP	H	anciens	loi	attente	2
-2009-04-30	NI	H	anciens	loi	attente	1
-2009-04-30	NI	H	anciens	loi	discute	1
+2009-04-30	GDR	H	anciens	loi	attente	1
+2009-04-30	GDR	H	anciens	loi	discute	1
 2009-04-30	UMP	H	anciens	loi	attente	1
 2009-05-04	NC	H	anciens	loi	attente	1
 2009-05-04	NC	H	anciens	loi organique	attente	1
@@ -518,10 +513,9 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-05-04	UMP	H	anciens	loi	attente	2
 2009-05-04	UMP	H	anciens	loi organique	attente	1
 2009-05-07	UMP	H	anciens	loi	attente	1
-2009-05-11	NULL	H	anciens	loi	attente	1
 2009-05-11	GDR	H	anciens	loi	attente	1
 2009-05-11	NC	H	anciens	loi	attente	2
-2009-05-11	UMP	H	anciens	loi	attente	6
+2009-05-11	UMP	H	anciens	loi	attente	7
 2009-05-11	UMP	H	anciens	loi	discute	1
 2009-05-11	UMP	H	anciens	résolution européenne	attente	1
 2009-05-12	SRC	F	anciens	loi	discute	1
@@ -529,28 +523,26 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-05-12	UMP	H	anciens	loi	attente	3
 2009-05-13	UMP	H	anciens	loi constitutionnelle	attente	1
 2009-05-15	NC	H	anciens	loi	discute	2
-2009-05-18	NULL	H	anciens	loi	attente	1
-2009-05-18	UMP	H	anciens	loi	attente	1
+2009-05-18	UMP	H	anciens	loi	attente	2
 2009-05-19	UMP	H	anciens	loi	attente	1
-2009-05-25	GDR	H	anciens	loi	attente	1
+2009-05-25	GDR	H	anciens	loi	attente	2
 2009-05-25	GDR	H	anciens	résolution européenne	attente	1
 2009-05-25	NC	H	anciens	loi	attente	1
-2009-05-25	NI	H	anciens	loi	attente	1
 2009-05-25	SRC	H	anciens	loi	attente	1
 2009-05-25	UMP	F	anciens	loi	attente	1
 2009-05-25	UMP	H	anciens	loi	attente	4
 2009-05-25	UMP	H	anciens	loi	discute	1
 2009-05-27	SRC	H	anciens	création d'une commission d'enquête	attente	1
 2009-06-02	UMP	H	anciens	création d'une commission d'enquête	attente	1
-2009-06-03	NI	H	anciens	création d'une commission d'enquête	attente	1
+2009-06-03	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2009-06-08	SRC	H	anciens	résolution européenne	attente	1
 2009-06-09	UMP	F	anciens	loi	attente	3
 2009-06-09	UMP	H	anciens	loi	attente	5
 2009-06-10	UMP	F	anciens	loi	attente	1
 2009-06-18	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2009-06-19	GDR	H	anciens	création d'une commission d'enquête	attente	1
+2009-06-24	GDR	H	anciens	loi	attente	2
 2009-06-24	NC	H	anciens	loi	attente	6
-2009-06-24	NI	H	anciens	loi	attente	2
 2009-06-24	SRC	F	anciens	loi	attente	1
 2009-06-24	SRC	H	anciens	loi	attente	1
 2009-06-24	UMP	F	anciens	loi	attente	1
@@ -565,8 +557,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-07-17	SRC	F	anciens	résolution européenne	attente	1
 2009-07-17	UMP	F	anciens	loi	attente	1
 2009-07-22	UMP	H	anciens	loi	attente	1
-2009-07-23	NI	H	anciens	création d'une commission d'enquête	attente	1
-2009-07-29	NI	H	anciens	loi	attente	4
+2009-07-23	GDR	H	anciens	création d'une commission d'enquête	attente	1
+2009-07-29	GDR	H	anciens	loi	attente	4
 2009-07-29	SRC	F	anciens	loi	attente	1
 2009-07-29	UMP	F	anciens	loi	attente	1
 2009-07-29	UMP	H	anciens	loi	attente	11
@@ -596,8 +588,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-10-14	SRC	H	anciens	loi	discute	1
 2009-10-19	UMP	H	anciens	résolution européenne	attente	1
 2009-10-27	GDR	F	anciens	loi	discute	1
-2009-10-27	GDR	H	anciens	loi	discute	2
-2009-10-27	NI	H	anciens	loi	discute	1
+2009-10-27	GDR	H	anciens	loi	discute	3
 2009-11-02	UMP	F	anciens	résolution européenne	attente	1
 2009-11-03	UMP	H	anciens	loi	attente	1
 2009-11-05	GDR	H	anciens	résolution	discute	1
@@ -616,8 +607,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2009-11-19	UMP	H	anciens	loi	discute	2
 2009-12-04	UMP	H	anciens	résolution européenne	attente	1
 2009-12-07	GDR	F	anciens	loi	attente	1
+2009-12-07	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2009-12-07	NC	H	anciens	loi	attente	2
-2009-12-07	NI	H	anciens	création d'une commission d'enquête	attente	1
 2009-12-07	SRC	F	anciens	loi	discute	1
 2009-12-07	UMP	F	anciens	loi	attente	3
 2009-12-07	UMP	H	anciens	loi	attente	12
@@ -665,7 +656,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2010-02-10	UMP	H	anciens	résolution européenne	attente	1
 2010-02-11	UMP	H	anciens	résolution	attente	1
 2010-02-12	GDR	F	anciens	loi	attente	1
-2010-02-12	NI	H	anciens	loi	attente	1
+2010-02-12	GDR	H	anciens	loi	attente	1
 2010-02-12	UMP	F	anciens	loi	attente	1
 2010-02-12	UMP	H	anciens	loi	attente	3
 2010-02-12	UMP	H	anciens	loi	discute	1
@@ -673,18 +664,17 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2010-02-15	SRC	H	anciens	loi	discute	1
 2010-02-15	SRC	H	anciens	résolution	discute	1
 2010-02-15	UMP	H	anciens	résolution	attente	1
-2010-02-24	NI	H	anciens	création d'une commission d'enquête	attente	1
+2010-02-24	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2010-02-24	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2010-03-03	UMP	H	anciens	résolution européenne	attente	1
-2010-03-08	GDR	H	anciens	loi	attente	2
-2010-03-08	NI	H	anciens	loi	attente	1
+2010-03-08	GDR	H	anciens	loi	attente	3
 2010-03-08	SRC	H	anciens	loi	attente	1
 2010-03-08	SRC	H	anciens	résolution	discute	1
 2010-03-08	UMP	H	anciens	loi	attente	16
 2010-03-11	UMP	H	anciens	loi constitutionnelle	attente	1
 2010-03-11	UMP	H	anciens	loi organique	attente	1
 2010-03-19	GDR	H	anciens	création d'une commission d'enquête	attente	1
-2010-03-24	NI	H	anciens	création d'une commission d'enquête	attente	1
+2010-03-24	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2010-03-30	UMP	H	anciens	loi constitutionnelle	attente	1
 2010-03-31	UMP	H	anciens	résolution	attente	1
 2010-04-01	GDR	F	anciens	loi	attente	1
@@ -734,7 +724,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2010-06-24	UMP	F	anciens	loi	attente	1
 2010-06-25	UMP	H	anciens	loi	attente	1
 2010-06-28	UMP	H	anciens	loi	attente	1
-2010-07-01	NI	H	anciens	création d'une commission d'enquête	attente	1
+2010-07-01	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2010-07-01	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2010-07-02	UMP	H	anciens	loi constitutionnelle	attente	1
 2010-07-05	GDR	F	anciens	loi	attente	1
@@ -748,8 +738,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2010-07-12	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2010-07-12	UMP	H	anciens	résolution européenne	attente	1
 2010-07-15	UMP	H	anciens	loi	attente	2
-2010-07-16	GDR	H	anciens	création d'une commission d'enquête	attente	1
-2010-07-16	NI	H	anciens	création d'une commission d'enquête	attente	1
+2010-07-16	GDR	H	anciens	création d'une commission d'enquête	attente	2
 2010-07-20	SRC	H	anciens	loi organique	attente	1
 2010-07-20	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2010-07-26	UMP	H	anciens	loi organique	attente	1
@@ -787,10 +776,10 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2010-10-29	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2010-11-02	GDR	F	anciens	loi constitutionnelle	discute	1
 2010-11-03	GDR	H	anciens	loi	discute	1
-2010-11-09	NI	H	anciens	loi organique	discute	1
+2010-11-09	GDR	H	anciens	loi organique	discute	1
 2010-11-10	GDR	F	anciens	création d'une commission d'enquête	attente	1
+2010-11-18	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2010-11-18	GDR	H	anciens	loi	attente	1
-2010-11-18	NI	H	anciens	création d'une commission d'enquête	attente	1
 2010-11-18	UMP	H	anciens	loi	attente	3
 2010-11-19	GDR	H	anciens	loi	attente	1
 2010-11-19	NI	H	anciens	loi	attente	1
@@ -810,8 +799,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2010-12-13	UMP	F	anciens	loi	attente	3
 2010-12-13	UMP	H	anciens	loi	attente	13
 2010-12-13	UMP	H	anciens	loi	discute	1
+2010-12-22	GDR	H	anciens	loi	attente	1
 2010-12-22	NC	H	anciens	loi	attente	1
-2010-12-22	NI	H	anciens	loi	attente	1
 2010-12-22	SRC	H	anciens	loi	attente	3
 2010-12-22	UMP	F	anciens	loi	attente	4
 2010-12-22	UMP	H	anciens	loi	attente	7
@@ -821,14 +810,13 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-01-07	SRC	H	anciens	loi	discute	2
 2011-01-07	UMP	F	anciens	loi	attente	1
 2011-01-07	UMP	H	anciens	loi	attente	13
-2011-01-11	GDR	H	anciens	création d'une commission d'enquête	attente	1
-2011-01-11	NI	H	anciens	création d'une commission d'enquête	attente	1
+2011-01-11	GDR	H	anciens	création d'une commission d'enquête	attente	2
 2011-01-13	SRC	H	anciens	résolution	attente	1
 2011-01-17	NI	H	anciens	loi	attente	1
 2011-01-21	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2011-01-26	GDR	F	anciens	loi	attente	1
+2011-01-26	GDR	H	anciens	loi	attente	1
 2011-01-26	NC	H	anciens	loi	attente	1
-2011-01-26	NI	H	anciens	loi	attente	1
 2011-01-26	SRC	H	anciens	loi	attente	1
 2011-01-26	UMP	F	anciens	loi	attente	2
 2011-01-26	UMP	H	anciens	loi	attente	11
@@ -845,8 +833,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-02-23	UMP	F	anciens	loi constitutionnelle	attente	1
 2011-02-25	UMP	H	anciens	résolution	attente	1
 2011-02-28	GDR	F	anciens	loi	attente	1
-2011-02-28	GDR	H	anciens	loi	attente	1
-2011-02-28	NI	H	anciens	loi	attente	1
+2011-02-28	GDR	H	anciens	loi	attente	2
 2011-02-28	SRC	H	anciens	loi	attente	1
 2011-02-28	UMP	F	anciens	loi	attente	1
 2011-02-28	UMP	H	anciens	loi	attente	5
@@ -858,16 +845,15 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-03-09	UMP	H	anciens	résolution européenne	attente	2
 2011-03-11	SRC	H	anciens	résolution	discute	1
 2011-03-21	GDR	H	anciens	résolution	attente	1
-2011-03-22	GDR	H	anciens	loi	attente	1
+2011-03-22	GDR	H	anciens	loi	attente	2
 2011-03-22	NC	H	anciens	loi	attente	4
-2011-03-22	NI	H	anciens	loi	attente	1
 2011-03-22	SRC	H	anciens	création d'une commission d'enquête	attente	1
 2011-03-22	SRC	H	anciens	loi	discute	1
 2011-03-22	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2011-03-22	UMP	H	anciens	loi	attente	13
 2011-03-22	UMP	H	anciens	loi	discute	1
 2011-03-31	SRC	H	anciens	résolution	attente	1
-2011-04-05	NI	H	anciens	résolution	attente	1
+2011-04-05	GDR	H	anciens	résolution	attente	1
 2011-04-05	UMP	H	anciens	loi organique	attente	1
 2011-04-06	UMP	F	anciens	loi organique	attente	1
 2011-04-07	UMP	H	anciens	loi	attente	1
@@ -920,7 +906,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-06-03	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2011-06-06	UMP	H	anciens	création d'une commission d'enquête	attente	1
 2011-06-07	UMP	H	anciens	création d'une commission d'enquête	attente	1
-2011-06-10	NI	H	anciens	création d'une commission d'enquête	attente	1
+2011-06-10	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2011-06-10	UMP	H	anciens	loi organique	attente	2
 2011-06-14	SRC	H	anciens	résolution européenne	attente	1
 2011-06-14	UMP	H	anciens	résolution européenne	attente	1
@@ -951,9 +937,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-07-18	UMP	F	anciens	loi	attente	5
 2011-07-18	UMP	H	anciens	loi	attente	17
 2011-07-21	GDR	H	anciens	création d'une commission d'enquête	attente	1
-2011-07-28	GDR	F	anciens	loi	attente	2
+2011-07-28	GDR	F	anciens	loi	attente	3
 2011-07-28	NC	H	anciens	loi	attente	3
-2011-07-28	NI	F	anciens	loi	attente	1
 2011-07-28	SRC	F	anciens	loi	attente	1
 2011-07-28	SRC	F	anciens	loi	discute	1
 2011-07-28	SRC	H	anciens	loi	attente	2
@@ -984,15 +969,14 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-10-13	UMP	F	anciens	loi	discute	1
 2011-10-13	UMP	H	anciens	loi	attente	16
 2011-10-14	GDR	H	anciens	résolution	attente	1
-2011-10-18	NI	H	anciens	loi constitutionnelle	discute	1
-2011-10-18	NI	H	anciens	loi organique	discute	1
+2011-10-18	GDR	H	anciens	loi constitutionnelle	discute	1
+2011-10-18	GDR	H	anciens	loi organique	discute	1
 2011-10-19	GDR	F	anciens	résolution	discute	1
 2011-10-19	GDR	H	anciens	résolution européenne	discute	1
 2011-10-19	UMP	F	anciens	résolution européenne	attente	1
 2011-10-21	UMP	F	anciens	loi organique	attente	1
-2011-10-24	GDR	H	anciens	loi	discute	1
+2011-10-24	GDR	H	anciens	loi	discute	2
 2011-10-24	NI	F	anciens	résolution	attente	1
-2011-10-24	NI	H	anciens	loi	discute	1
 2011-10-28	UMP	H	anciens	loi organique	attente	1
 2011-11-02	UMP	F	anciens	loi organique	attente	1
 2011-11-02	UMP	H	anciens	résolution européenne	attente	1
@@ -1000,9 +984,9 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2011-11-04	GDR	H	anciens	création d'une commission d'enquête	attente	1
 2011-11-04	SRC	H	anciens	création d'une commission d'enquête	attente	1
 2011-11-08	GDR	F	anciens	loi	attente	1
+2011-11-08	GDR	H	anciens	loi	attente	1
 2011-11-08	NC	H	anciens	loi	attente	1
 2011-11-08	NC	H	anciens	loi	discute	1
-2011-11-08	NI	H	anciens	loi	attente	1
 2011-11-08	UMP	F	anciens	loi	attente	5
 2011-11-08	UMP	H	anciens	loi	attente	14
 2011-11-08	UMP	H	anciens	loi	discute	1
