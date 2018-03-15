@@ -88,7 +88,7 @@
         </v-subheader>
         <v-list-tile
           v-for="item in facets"
-          v-if="(!item.only || item.only === activite) && item.id !== facet"
+          v-if="(!item.only || item.only === activite) && item.id !== facet && item.id !== compare"
           :class="{'unselected': item.selected === 'total'}"
         >
           <v-list-tile-action><v-icon :style="{'color': item.color}">{{ item.icon }}</v-icon></v-list-tile-action>

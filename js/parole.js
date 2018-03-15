@@ -1,6 +1,5 @@
 /* TODO
 - add zoom
-- data updates
 - add comparator with actual MP proportions when prop view
 - add data on deputes (and disable view options with forced days + no cumul/prop)
 - add gouv to some data ?
