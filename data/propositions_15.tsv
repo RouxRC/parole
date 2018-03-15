@@ -187,33 +187,78 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-01-26	NI	F	nouveaux	loi	attente	1
 2018-01-26	NI	H	anciens	création d'une commission d'enquête	attente	1
 2018-01-29	LREM	H	nouveaux	résolution européenne	attente	1
-2018-01-30	GDR	F	anciens	loi	attente	1
+2018-01-30	GDR	F	anciens	loi	discute	1
 2018-01-30	GDR	H	anciens	loi	attente	1
-2018-01-30	GDR	H	nouveaux	loi	attente	2
-2018-01-31	GDR	H	nouveaux	loi	attente	2
+2018-01-30	GDR	H	nouveaux	loi	discute	2
+2018-01-31	GDR	H	nouveaux	loi	discute	2
 2018-02-05	LR	F	anciens	création d'une commission d'enquête	attente	1
 2018-02-05	LR	H	nouveaux	résolution	attente	1
 2018-02-06	GDR	F	anciens	création d'une commission d'enquête	attente	1
 2018-02-06	LFI	H	nouveaux	loi	attente	1
 2018-02-06	LR	H	nouveaux	loi	attente	1
-2018-02-06	LREM	H	nouveaux	résolution européenne	attente	1
+2018-02-06	LREM	H	nouveaux	résolution européenne	discute	1
 2018-02-06	NI	H	anciens	loi	attente	1
 2018-02-07	LR	F	anciens	loi	attente	1
-2018-02-07	LR	H	nouveaux	création d'une commission d'enquête	attente	1
 2018-02-07	LR	H	nouveaux	loi	attente	4
 2018-02-07	LR	H	nouveaux	loi organique	attente	1
-2018-02-07	MODEM	H	nouveaux	loi constitutionnelle	attente	1
 2018-02-07	NG	H	anciens	création d'une commission d'enquête	attente	1
-2018-02-07	NI	F	nouveaux	loi	attente	1
+2018-02-09	LR	H	anciens	résolution	attente	1
 2018-02-09	NI	H	nouveaux	loi	attente	1
 2018-02-12	LR	H	anciens	création d'une commission d'enquête	attente	1
 2018-02-12	LR	H	nouveaux	loi	attente	1
-2018-02-12	LREM	H	nouveaux	résolution européenne	attente	1
+2018-02-12	LREM	H	nouveaux	résolution européenne	discute	1
 2018-02-13	LR	F	nouveaux	loi	attente	1
 2018-02-13	LR	H	anciens	création d'une commission d'enquête	attente	1
 2018-02-13	LR	H	anciens	loi	attente	5
 2018-02-13	NI	H	anciens	loi	attente	1
 2018-02-13	UAI	H	anciens	loi	attente	1
-2018-02-14	LR	F	anciens	loi	attente	1
 2018-02-14	LR	H	anciens	création d'une commission d'enquête	attente	1
 2018-02-14	LR	H	nouveaux	loi	attente	1
+2018-02-15	LR	F	anciens	loi	attente	1
+2018-02-16	LR	H	nouveaux	création d'une commission d'enquête	attente	1
+2018-02-16	MODEM	H	nouveaux	loi constitutionnelle	attente	1
+2018-02-16	NI	F	nouveaux	loi	attente	1
+2018-02-20	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2018-02-20	LR	H	anciens	résolution	attente	1
+2018-02-20	UAI	H	anciens	loi constitutionnelle	attente	1
+2018-02-23	LREM	H	nouveaux	loi	attente	1
+2018-02-23	UAI	H	anciens	création d'une commission d'enquête	attente	1
+2018-02-26	LREM	H	nouveaux	résolution européenne	attente	1
+2018-02-26	NG	H	anciens	résolution européenne	attente	1
+2018-02-27	LR	F	anciens	loi	attente	3
+2018-02-27	LR	F	nouveaux	création d'une commission d'enquête	attente	1
+2018-02-27	LR	F	nouveaux	loi	attente	1
+2018-02-27	LR	H	anciens	loi	attente	4
+2018-02-27	LR	H	nouveaux	loi	attente	5
+2018-02-27	NI	F	nouveaux	loi	attente	1
+2018-02-27	NI	H	anciens	loi	attente	2
+2018-02-28	LR	F	nouveaux	loi	attente	1
+2018-02-28	LR	H	anciens	loi	attente	1
+2018-03-02	LR	H	anciens	loi	attente	5
+2018-03-02	LR	H	nouveaux	loi	attente	2
+2018-03-02	NI	H	nouveaux	loi	attente	1
+2018-03-05	LR	F	anciens	loi	attente	1
+2018-03-05	LR	F	nouveaux	loi	attente	1
+2018-03-05	LR	H	nouveaux	loi	attente	1
+2018-03-06	LR	F	anciens	création d'une commission d'enquête	attente	1
+2018-03-06	LR	H	anciens	résolution	attente	1
+2018-03-06	LR	H	nouveaux	création d'une commission d'enquête	attente	1
+2018-03-07	LREM	H	nouveaux	loi	attente	1
+2018-03-08	LREM	F	nouveaux	résolution européenne	attente	1
+2018-03-09	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2018-03-12	LR	H	nouveaux	loi organique	attente	1
+2018-03-13	LFI	H	nouveaux	loi	attente	1
+2018-03-13	LR	H	anciens	loi	attente	4
+2018-03-13	LR	H	nouveaux	loi	attente	3
+2018-03-13	LREM	H	nouveaux	loi	attente	1
+2018-03-13	MODEM	F	nouveaux	loi	attente	1
+2018-03-13	NI	H	nouveaux	loi	attente	1
+2018-03-13	UAI	F	nouveaux	loi	attente	1
+2018-03-13	UAI	H	anciens	loi	attente	2
+2018-03-14	LR	F	anciens	résolution	attente	1
+2018-03-14	UAI	H	anciens	résolution	attente	1
+2018-03-15	LR	F	anciens	loi	attente	2
+2018-03-15	LR	H	nouveaux	loi	attente	1
+2018-03-15	LR	H	nouveaux	résolution	attente	1
+2018-03-16	LR	H	nouveaux	loi	attente	1
+2018-03-19	LR	H	nouveaux	résolution	attente	1
