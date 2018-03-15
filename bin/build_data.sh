@@ -11,12 +11,7 @@ cd $(dirname $0)/..
 source bin/config.sh
 mkdir -p data
 
-LEGI=$1
-if [ -z "$1" ]; then
-  LEGI=15
-fi
-
-if [ $LEGI -eq 13 ]; then
+if [ $LEG -eq 13 ]; then
   AMDTSJOIN="JOIN parlementaire_amendement pa ON (pa.amendement_id = a.id AND pa.numero_signataire = 1)
 JOIN parlementaire p ON p.id = pa.parlementaire_id
 WHERE a.numero RLIKE '^[0-9]'
@@ -26,7 +21,7 @@ else
 WHERE"
 fi
 
-if [ $LEGI -ne 15 ]; then
+if [ $LEG -ne 15 ]; then
   CLEAN_MINISTERES="'', \"'\"),"
   ENCODE="iso-8859-15"
 else
@@ -35,8 +30,8 @@ else
 fi
 
 function query {
-  echo $1_$LEGI.tsv
-  echo "$2" | iconv -t "$ENCODE" | mysql $MYSQLID $DBNAME | iconv -f "$ENCODE" -t "utf-8" > $1_$LEGI.tsv
+  echo $1_$LEG.tsv
+  echo "$2" | iconv -t "$ENCODE" | mysql $MYSQLID $DBNAME | iconv -f "$ENCODE" -t "utf-8" > $1_$LEG.tsv
 }
 
 query data/parole "
