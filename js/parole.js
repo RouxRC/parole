@@ -570,6 +570,7 @@ new Vue({
         margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 25, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
+        border = (width / this.curData.length > 5 ? -0.5 : 0.5),
         mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legende").getBoundingClientRect().height,
         svgH = Math.max(140, Math.floor((mainH) / (comp ? this.comparables.length : 1))),
         height = svgH - margin.top - margin.bottom,
@@ -603,7 +604,7 @@ new Vue({
           .enter().append("rect")
             .attr("x", xPosition)
             .attr("y", function(d) { return yScale(d[1]); })
-            .attr("width", function(d) { return xWidth(d) - 0.5; })
+            .attr("width", function(d) { return xWidth(d) + border; })
             .attr("height", function(d) { return Math.max(0, yScale(d[0]) - yScale(d[1]) - 0.5); });
 
       // Draw axis
