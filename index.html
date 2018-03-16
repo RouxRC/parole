@@ -12,7 +12,7 @@
     <aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--clipped navigation-drawer--is-booted navigation-drawer--is-mobile navigation-drawer--open navigation-drawer--permanent">
       <v-list dense>
         <v-subheader class="mt-2 grey--text text--darken-1">Législature</v-subheader>
-        <v-list-tile ripple>
+        <v-list-tile>
           <v-list-tile-content><v-select auto single-line hide-details
             v-model="legislature"
             :items="legislatures"
@@ -25,7 +25,7 @@
         </v-list-tile>
 
         <v-subheader class="grey--text text--darken-1">Type d'activité</v-subheader>
-        <v-list-tile ripple>
+        <v-list-tile>
           <v-list-tile-content><v-select auto single-line hide-details
             v-model="activite"
             :items="activites"
@@ -43,7 +43,7 @@
         </v-list-tile>
 
         <v-subheader class="grey--text text--darken-1">Répartir par</v-subheader>
-        <v-list-tile ripple>
+        <v-list-tile>
           <v-list-tile-content><v-select auto single-line hide-details
             v-model="facet"
             :items="availableFacets"
@@ -61,7 +61,7 @@
         </v-list-tile>
 
         <v-subheader class="grey--text text--darken-1">Comparer entre</v-subheader>
-        <v-list-tile ripple>
+        <v-list-tile>
           <v-list-tile-content><v-select auto single-line hide-details
             v-model="compare"
             :items="availableCompare"
@@ -110,24 +110,29 @@
 
         <v-subheader class="mt-4 grey--text text--darken-1">Affichage</v-subheader>
         <v-list-tile>
+          <v-list-tile-action><v-icon>sort</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>Agrégé</v-list-tile-title></v-list-tile-content>
+          <v-list-tile-action><v-switch light v-model="agrege" color="red"></v-switch></v-list-tile-action>
+        </v-list-tile>
+        <v-list-tile v-if="!agrege">
+          <v-list-tile-action><v-icon>timeline</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>Cumulatif</v-list-tile-title></v-list-tile-content>
+          <v-list-tile-action><v-switch light v-model="cumul" color="red"></v-switch></v-list-tile-action>
+        </v-list-tile>
+        <v-list-tile v-if="!agrege">
+          <v-list-tile-action><v-icon>dashboard</v-icon></v-list-tile-action>
+          <v-list-tile-content><v-list-tile-title>Proportionnel</v-list-tile-title></v-list-tile-content>
+          <v-list-tile-action><v-switch light v-model="prop" color="red"></v-switch></v-list-tile-action>
+        </v-list-tile>
+        <v-list-tile v-if="!agrege">
           <v-list-tile-action><v-icon>date_range</v-icon></v-list-tile-action>
           <v-radio-group row hide-details v-model="temps">
             <v-radio small color="red" v-for="c in ['jours', 'sems', 'mois']" :label="c" :value="c"></v-radio>
           </v-radio-group>
         </v-list-tile>
-        <v-list-tile>
-          <v-list-tile-action><v-icon>timeline</v-icon></v-list-tile-action>
-          <v-list-tile-content><v-list-tile-title>Cumulatif</v-list-tile-title></v-list-tile-content>
-          <v-list-tile-action><v-switch light v-model="cumul" color="red"></v-switch></v-list-tile-action>
-        </v-list-tile>
-        <v-list-tile>
-          <v-list-tile-action><v-icon>dashboard</v-icon></v-list-tile-action>
-          <v-list-tile-content><v-list-tile-title>Proportionnel</v-list-tile-title></v-list-tile-content>
-          <v-list-tile-action><v-switch light v-model="prop" color="red"></v-switch></v-list-tile-action>
-        </v-list-tile>
 
         <v-subheader class="mt-4 grey--text text--darken-1">Open Data</v-subheader>
-        <v-list-tile ripple @click="exportData()">
+        <v-list-tile @click="exportData()">
           <v-list-tile-action><v-icon>file_download</v-icon></v-list-tile-action>
           <v-list-tile-content><v-list-tile-title>Exporter les données</v-list-tile-title></v-list-tile-content>
         </v-list-tile>

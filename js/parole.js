@@ -307,6 +307,7 @@ new Vue({
     curData: null,
     cumul: false,
     prop: false,
+    agrege: false,
     temps: "sems",
     hoverDate: "",
     showValues: false,
@@ -383,7 +384,7 @@ new Vue({
     window.addEventListener("hashchange", this.readUrl);
     window.addEventListener("resize", this.onResize);
     this.$watch(
-      function() { return [this.dkey, this.facet, this.compare, this.cumul, this.prop, this.temps]; },
+      function() { return [this.dkey, this.facet, this.compare, this.cumul, this.prop, this.agrege, this.temps]; },
       this.updateUrl
     );
   },
@@ -422,6 +423,7 @@ new Vue({
         this.activeFilters.map(function(f) { return f.id + ":" + f.selected; }).join("|") +
         (this.cumul ? "&cumul" : "") +
         (this.prop ? "&prop" : "") +
+        (this.agrege ? "&agrege" : "") +
         "&temps=" + this.temps;
     },
     readUrl: function() {
@@ -443,6 +445,7 @@ new Vue({
       this.compare = options.compare || "";
       this.cumul = options.cumul;
       this.prop = options.prop;
+      this.agrege = options.agrege;
       this.temps = options.temps || this.temps;
       if (!this.data[this.dkey]) {
         d3.tsv("data/" + this.dkey + ".tsv", function(d) {
@@ -481,7 +484,7 @@ new Vue({
       var temps = this.temps
         keys = this.legende.map(function(k) { return k.id; }),
         compKeys = (comp ? this.comparables.map(function(k) { return "|" + k.id; }) : [""]);
-      if (facet === "groupes") keys.reverse();
+      if (facet === "groupes" && !this.agrege) keys.reverse();
 
       // Agregate and filter data
       var hashdata = {},
@@ -561,24 +564,17 @@ new Vue({
     },
     drawHistogram: function(keys, start, end, yMax, idx) {
       // Setup dimensions
-      var _cumul = this._cumul,
-        view = _cumul + this._prop,
-        temps = this.temps,
-        colors = {},
-        comp = this.compare,
-        comparable = (comp ? this.comparables[idx] : {}),
-        margin = {top: (comp && idx ? 10 : 20), right: 90, bottom: 25, left: 60},
+      var margin = {top: (this.compare && idx ? 10 : 20), right: 90, bottom: 25, left: 60},
         svgW = window.innerWidth - document.querySelector("aside").getBoundingClientRect().width,
         width = svgW - margin.left - margin.right,
-        border = (width / this.curData.length > 5 ? -0.5 : 0.5),
         mainH = window.innerHeight - document.querySelector("nav").getBoundingClientRect().height - document.getElementById("legende").getBoundingClientRect().height,
-        svgH = Math.max(140, Math.floor((mainH) / (comp ? this.comparables.length : 1))),
+        svgH = Math.max(
+          (this.agrege ? 30 + 22 * keys.length + margin.top + margin.bottom : 140),
+          Math.floor((mainH) / (this.compare ? this.comparables.length : 1))
+        ),
         height = svgH - margin.top - margin.bottom,
-        xScale = d3.scaleTime().range([0, width]).domain([start, end]),
-        xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
-        xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, temps)])) - xPosition(d); },
-        yScale = d3.scaleLinear().range([height, 0]);
-      if (!this.prop) yScale.domain([0, yMax]);
+        colors = {},
+        datakeys = keys.map(function(k) { return k + (this.compare ? "|" + this.comparables[idx].id : ""); }.bind(this));
       this.legende.forEach(function(k) { colors[k.id] = k.color; });
       this.svgH = svgH;
 
@@ -591,12 +587,61 @@ new Vue({
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      // Draw histogram
+      if (this.agrege) {
+        var curData = this.curData[this.curData.length - 1],
+          xMax = d3.max(Object.keys(curData).map(function(k) {
+            return (/_cumul$/.test(k) && !/^(comp|sum)/.test(k) ? curData[k] : 0);
+          })),
+          xScale = d3.scaleLinear().range([0, width - 100]).domain([0, xMax]),
+          yScale = d3.scaleLinear().range([30, height]).domain([0, keys.length]),
+          barHeight = yScale(1) - yScale(0);
+
+        // Draw histogram
+        g.append("g")
+          .selectAll("rect")
+          .data(datakeys)
+          .enter().append("rect")
+            .attr("x", 30)
+            .attr("y", function(d, i) { return yScale(i); })
+            .attr("width", function(d) { return Math.max(1, xScale(curData[d+"_cumul"])); })
+            .attr("height", barHeight - 5)
+            .attr("fill", function(d) { return colors[d.replace(/\|.*$/, "")] || "grey"; });
+
+        // Display values
+        g.append("g")
+          .selectAll("text")
+          .data(datakeys)
+          .enter().append("text")
+            .classed("agrege", true)
+            .attr("x", function(d) { return 40 + xScale(curData[d+"_cumul"]); })
+            .attr("y", function(d, i) { return 1 + barHeight / 2 + yScale(i); })
+            .text(function(d) {
+              return d3.format(",d")(curData[d+"_cumul"]) +
+                (curData[d+"_cumul"] ?
+                  " (" + d3.format(".1%")(curData[d+"_cumul_prop"]) + ")" :
+                  ""
+                );
+            });
+
+        // Display Total
+        // TODO
+
+        return;
+      }
+
+      var border = (width / this.curData.length > 5 ? -0.5 : 0.5),
+        xScale = d3.scaleTime().range([0, width]).domain([start, end]),
+        xPosition = function(d) { return xScale(d3.max([start, d.date || d.data.date])); },
+        xWidth = function(d) { return xScale(d3.min([end, d3.nextDate(d.date || d.data.date, this.temps)])) - xPosition(d); }.bind(this),
+        yScale = d3.scaleLinear().range([height, 0]);
+      if (!this.prop) yScale.domain([0, yMax]);
+      datakeys = datakeys.map(function(k) { return k + this._cumul + this._prop; }.bind(this));
+
+      // Draw stackchart
       g.append("g")
         .selectAll("g")
-        .data(d3.stack().keys(
-          keys.map(function(k) { return k + (comp ? "|" + comparable.id : "") + view; })
-        )(this.curData)).enter().append("g")
+        .data(d3.stack().keys(datakeys)(this.curData))
+        .enter().append("g")
           .attr("fill", function(d) {
             return colors[d.key.replace(/_.*$/, "").replace(/\|.*$/, "")] || "grey";
           }).selectAll("rect")
@@ -615,7 +660,7 @@ new Vue({
       g.append("g")
         .attr("class", "axis axis--y")
         .attr("transform", "translate(" + (width) + ", 0)")
-        .call(d3.axisRight(yScale).ticks((comp ? 3 : 8), d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
+        .call(d3.axisRight(yScale).ticks((this.compare ? 3 : 8), d3.format(this.prop ? "%" : ",d")).tickSizeOuter(0));
 
       // Draw tooltips surfaces
       g.append("g")

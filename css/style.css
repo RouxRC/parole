@@ -74,7 +74,7 @@ aside {
 .axis path, .axis line {
   stroke: grey;
 }
-.axis text {
+.axis text, text.agrege {
   fill: grey;
   font-size: 14px;
   font-family: Roboto;
