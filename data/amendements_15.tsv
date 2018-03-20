@@ -3514,10 +3514,11 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-19	LREM	H	anciens	Indéfini	commissions	1
 2018-03-19	LREM	H	anciens	Indéfini	hemicycle	25
 2018-03-19	LREM	H	anciens	Retiré	hemicycle	1
-2018-03-19	LREM	H	nouveaux	Indéfini	commissions	2
+2018-03-19	LREM	H	nouveaux	Indéfini	commissions	1
 2018-03-19	LREM	H	nouveaux	Indéfini	hemicycle	25
 2018-03-19	LREM	H	nouveaux	Irrecevable	commissions	1
 2018-03-19	LREM	H	nouveaux	Irrecevable	hemicycle	1
+2018-03-19	LREM	H	nouveaux	Retiré	commissions	1
 2018-03-19	MODEM	F	nouveaux	Indéfini	commissions	1
 2018-03-19	MODEM	F	nouveaux	Indéfini	hemicycle	5
 2018-03-19	MODEM	H	nouveaux	Indéfini	commissions	7
