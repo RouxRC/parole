@@ -74,10 +74,18 @@ aside {
 .axis path, .axis line {
   stroke: grey;
 }
-.axis text, text.agrege {
-  fill: grey;
+text {
   font-size: 14px;
   font-family: Roboto;
+}
+.axis text, text.percent {
+  fill: grey;
+}
+text.agrege {
+  font-weight: bold;
+}
+text.percent {
+  text-anchor: end;
 }
 .legende.facets {
   padding: 15px;

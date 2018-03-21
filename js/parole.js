@@ -615,12 +615,19 @@ new Vue({
             .classed("agrege", true)
             .attr("x", function(d) { return 40 + xScale(curData[d+"_cumul"]); })
             .attr("y", function(d, i) { return 1 + barHeight / 2 + yScale(i); })
+            .attr("fill", function(d) { return colors[d.replace(/\|.*$/, "")] || "grey"; })
             .text(function(d) {
-              return d3.format(",d")(curData[d+"_cumul"]) +
-                (curData[d+"_cumul"] ?
-                  " (" + d3.format(".1%")(curData[d+"_cumul_prop"]) + ")" :
-                  ""
-                );
+              return d3.format(",d")(curData[d+"_cumul"]);
+            });
+        g.append("g")
+          .selectAll("text")
+          .data(datakeys)
+          .enter().append("text")
+            .classed("percent", true)
+            .attr("x", 20)
+            .attr("y", function(d, i) { return 1 + barHeight / 2 + yScale(i); })
+            .text(function(d) {
+              return curData[d+"_cumul"] ? d3.format(".1%")(curData[d+"_cumul_prop"]) : "0%";
             });
 
         // Display Total
