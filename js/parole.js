@@ -113,8 +113,9 @@ new Vue({
         {color: "#e53935", id: "LFI", name: "LFI", legi: ["15"]},
         {color: "#ff5252", id: "GDR", name: "GDR", legi: ["13", "14", "15"]},
         {color: "#69F0AE", id: "ECOLO", name: "ECOLO", legi: ["14"]},
-        {color: "#F06292", id: "SRC", name: "SRC", legi: ["13", "14"]},
         {color: "#F06292", id: "SER", name: "SER", legi: ["14"]},
+        {color: "#F06292", id: "SRC", name: "SRC", legi: ["13", "14"]},
+        {color: "#CE93D8", id: "RRDP", name: "RRDP", legi: ["14"]},
         {color: "#F06292", id: "NG", name: "NG", legi: ["15"]},
         {color: "#FFA726", id: "LREM", name: "LREM", legi: ["15"]},
         {color: "#FF7043", id: "MODEM", name: "MODEM", legi: ["15"]},
@@ -123,7 +124,7 @@ new Vue({
         {color: "#42A5F5", id: "LC", name: "LC", legi: ["15"]},
         {color: "#42A5F5", id: "UAI", name: "UAI", legi: ["15"]},
         {color: "#5C6BC0", id: "UMP", name: "UMP", legi: ["13", "14"]},
-        {color: "#5C6BC0", id: "RUMP", name: "RUMP", legi: ["14"]},
+        {color: "#5C6BC0", id: "RUMP", name: "R-UMP", legi: ["14"]},
         {color: "#5C6BC0", id: "LR", name: "LR", legi: ["14", "15"]},
         {color: "#BDBDBD", id: "NI", name: "NI", legi: ["13", "14", "15"]}
       ]
