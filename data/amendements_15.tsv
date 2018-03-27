@@ -3632,9 +3632,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-26	LR	H	anciens	Indéfini	commissions	34
 2018-03-26	LR	H	anciens	Indéfini	hemicycle	7
 2018-03-26	LR	H	nouveaux	Indéfini	commissions	22
-2018-03-26	LREM	F	nouveaux	Indéfini	commissions	62
+2018-03-26	LREM	F	nouveaux	Indéfini	commissions	61
 2018-03-26	LREM	F	nouveaux	Indéfini	hemicycle	7
-2018-03-26	LREM	F	nouveaux	Retiré	commissions	1
+2018-03-26	LREM	F	nouveaux	Retiré	commissions	2
 2018-03-26	LREM	H	anciens	Indéfini	commissions	15
 2018-03-26	LREM	H	anciens	Indéfini	hemicycle	3
 2018-03-26	LREM	H	nouveaux	Indéfini	commissions	48
@@ -3656,3 +3656,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-26	NI	H	nouveaux	Indéfini	hemicycle	8
 2018-03-26	UAI	H	anciens	Indéfini	commissions	9
 2018-03-26	UAI	H	nouveaux	Indéfini	commissions	15
+2018-03-27	LFI	H	nouveaux	Indéfini	hemicycle	5
+2018-03-27	LFI	H	nouveaux	Irrecevable	hemicycle	1
+2018-03-27	LREM	F	nouveaux	Indéfini	commissions	7
+2018-03-27	NG	H	anciens	Indéfini	commissions	2
