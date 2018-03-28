@@ -273,8 +273,10 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-03-27	LREM	F	nouveaux	loi	attente	1
 2018-03-27	LREM	H	anciens	loi	attente	1
 2018-03-27	LREM	H	anciens	loi organique	attente	1
+2018-03-27	MODEM	F	nouveaux	création d'une commission d'enquête	attente	1
 2018-03-27	MODEM	H	nouveaux	loi	attente	2
 2018-03-27	UAI	H	anciens	loi	attente	2
+2018-03-27	UAI	H	anciens	résolution	attente	1
 2018-03-28	LR	H	nouveaux	loi	attente	3
 2018-03-28	NI	F	nouveaux	loi	attente	1
 2018-03-30	LR	H	nouveaux	résolution	attente	1
