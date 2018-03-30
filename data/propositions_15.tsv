@@ -278,8 +278,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-03-28	LR	H	nouveaux	loi	attente	3
 2018-03-28	NI	F	nouveaux	loi	attente	1
 2018-03-29	LR	H	anciens	loi	attente	1
-2018-03-29	LR	H	nouveaux	loi	attente	3
-2018-03-29	NI	F	nouveaux	loi	attente	1
+2018-03-29	LR	H	nouveaux	loi	attente	2
 2018-03-30	GDR	F	anciens	loi	attente	1
 2018-03-30	LR	H	nouveaux	résolution	attente	1
 2018-04-03	LR	H	nouveaux	loi	attente	2
@@ -289,5 +288,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-04-04	LR	H	anciens	loi	attente	1
 2018-04-04	LR	H	nouveaux	loi	attente	2
 2018-04-04	LR	H	nouveaux	loi constitutionnelle	attente	1
+2018-04-04	NI	F	nouveaux	loi	attente	1
 2018-04-04	NI	H	anciens	loi	attente	1
 2018-04-04	UAI	H	anciens	loi	attente	1
+2018-04-05	LR	H	nouveaux	loi	attente	1
