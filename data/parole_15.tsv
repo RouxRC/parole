@@ -6682,7 +6682,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-03-21	LR	F	nouveaux	commissions	longues	116
 2018-03-21	LR	H	anciens	commissions	invectives	0
 2018-03-21	LR	H	anciens	commissions	longues	2044
-2018-03-21	LR	H	anciens	commissions	presidence	0
+2018-03-21	LR	H	anciens	commissions	presidence	2033
 2018-03-21	LR	H	anciens	hemicycle	invectives	301
 2018-03-21	LR	H	anciens	hemicycle	longues	3201
 2018-03-21	LR	H	anciens	hemicycle	presidence	2268
@@ -6700,12 +6700,12 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-03-21	LREM	F	nouveaux	hemicycle	longues	4005
 2018-03-21	LREM	F	nouveaux	hemicycle	presidence	2225
 2018-03-21	LREM	H	anciens	commissions	invectives	14
-2018-03-21	LREM	H	anciens	commissions	longues	283
+2018-03-21	LREM	H	anciens	commissions	longues	424
 2018-03-21	LREM	H	anciens	hemicycle	invectives	468
 2018-03-21	LREM	H	anciens	hemicycle	longues	13457
 2018-03-21	LREM	H	anciens	hemicycle	presidence	674
 2018-03-21	LREM	H	nouveaux	commissions	invectives	272
-2018-03-21	LREM	H	nouveaux	commissions	longues	6190
+2018-03-21	LREM	H	nouveaux	commissions	longues	6867
 2018-03-21	LREM	H	nouveaux	commissions	presidence	204
 2018-03-21	LREM	H	nouveaux	hemicycle	invectives	136
 2018-03-21	LREM	H	nouveaux	hemicycle	longues	4107
@@ -6718,8 +6718,8 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-03-21	MODEM	H	nouveaux	commissions	longues	1215
 2018-03-21	MODEM	H	nouveaux	hemicycle	invectives	62
 2018-03-21	MODEM	H	nouveaux	hemicycle	longues	2856
-2018-03-21	NG	F	anciens	commissions	invectives	53
-2018-03-21	NG	F	anciens	commissions	longues	1966
+2018-03-21	NG	F	anciens	commissions	invectives	72
+2018-03-21	NG	F	anciens	commissions	longues	2168
 2018-03-21	NG	H	anciens	commissions	invectives	0
 2018-03-21	NG	H	anciens	commissions	longues	1292
 2018-03-21	NG	H	anciens	hemicycle	invectives	53
@@ -6734,6 +6734,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-03-21	NI	H	nouveaux	commissions	longues	197
 2018-03-21	NI	H	nouveaux	hemicycle	invectives	8
 2018-03-21	NI	H	nouveaux	hemicycle	longues	564
+2018-03-21	UAI	F	anciens	commissions	longues	64
 2018-03-21	UAI	F	nouveaux	commissions	invectives	0
 2018-03-21	UAI	H	anciens	commissions	invectives	0
 2018-03-21	UAI	H	anciens	commissions	longues	914
