@@ -3788,8 +3788,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-30	GDR	H	nouveaux	Indéfini	commissions	10
 2018-03-30	GDR	H	nouveaux	Rejeté	commissions	30
 2018-03-30	GDR	H	nouveaux	Retiré	commissions	1
-2018-03-30	LFI	H	nouveaux	Indéfini	commissions	3
-2018-03-30	LFI	H	nouveaux	Rejeté	commissions	16
+2018-03-30	LFI	H	nouveaux	Indéfini	commissions	2
+2018-03-30	LFI	H	nouveaux	Rejeté	commissions	17
 2018-03-30	LR	H	anciens	Indéfini	commissions	6
 2018-03-30	LR	H	anciens	Rejeté	commissions	1
 2018-03-30	LR	H	anciens	Retiré	commissions	2
@@ -3816,58 +3816,67 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-30	UAI	H	nouveaux	Indéfini	commissions	2
 2018-03-30	UAI	H	nouveaux	Retiré	commissions	1
 2018-03-31	GDR	H	nouveaux	Rejeté	commissions	1
-2018-04-02	GDR	F	nouveaux	Indéfini	commissions	33
+2018-04-02	GDR	F	nouveaux	Indéfini	commissions	28
+2018-04-02	GDR	F	nouveaux	Non soutenu	commissions	1
+2018-04-02	GDR	F	nouveaux	Rejeté	commissions	4
 2018-04-02	GDR	F	nouveaux	Retiré	commissions	1
-2018-04-02	LFI	F	nouveaux	Indéfini	commissions	41
+2018-04-02	LFI	F	nouveaux	Indéfini	commissions	38
 2018-04-02	LFI	F	nouveaux	Irrecevable	commissions	2
-2018-04-02	LFI	F	nouveaux	Rejeté	commissions	3
+2018-04-02	LFI	F	nouveaux	Rejeté	commissions	6
 2018-04-02	LFI	F	nouveaux	Retiré	commissions	2
-2018-04-02	LFI	H	nouveaux	Indéfini	commissions	39
+2018-04-02	LFI	H	nouveaux	Indéfini	commissions	38
 2018-04-02	LFI	H	nouveaux	Irrecevable	commissions	1
-2018-04-02	LFI	H	nouveaux	Rejeté	commissions	2
+2018-04-02	LFI	H	nouveaux	Rejeté	commissions	3
 2018-04-02	LR	F	anciens	Indéfini	commissions	23
 2018-04-02	LR	F	anciens	Rejeté	commissions	1
 2018-04-02	LR	F	nouveaux	Indéfini	commissions	1
-2018-04-02	LR	H	anciens	Indéfini	commissions	53
-2018-04-02	LR	H	anciens	Non soutenu	commissions	2
-2018-04-02	LR	H	anciens	Rejeté	commissions	2
+2018-04-02	LR	H	anciens	Indéfini	commissions	46
+2018-04-02	LR	H	anciens	Non soutenu	commissions	3
+2018-04-02	LR	H	anciens	Rejeté	commissions	8
 2018-04-02	LR	H	anciens	Retiré	commissions	3
-2018-04-02	LR	H	nouveaux	Indéfini	commissions	63
+2018-04-02	LR	H	nouveaux	Indéfini	commissions	53
 2018-04-02	LR	H	nouveaux	Non soutenu	commissions	1
-2018-04-02	LR	H	nouveaux	Rejeté	commissions	9
+2018-04-02	LR	H	nouveaux	Rejeté	commissions	19
 2018-04-02	LREM	F	anciens	Indéfini	commissions	2
-2018-04-02	LREM	F	nouveaux	Adopté	commissions	10
-2018-04-02	LREM	F	nouveaux	Indéfini	commissions	153
-2018-04-02	LREM	F	nouveaux	Non soutenu	commissions	1
-2018-04-02	LREM	F	nouveaux	Rejeté	commissions	3
-2018-04-02	LREM	F	nouveaux	Retiré	commissions	1
-2018-04-02	LREM	H	anciens	Indéfini	commissions	48
+2018-04-02	LREM	F	nouveaux	Adopté	commissions	11
+2018-04-02	LREM	F	nouveaux	Indéfini	commissions	144
+2018-04-02	LREM	F	nouveaux	Non soutenu	commissions	3
+2018-04-02	LREM	F	nouveaux	Rejeté	commissions	6
+2018-04-02	LREM	F	nouveaux	Retiré	commissions	4
+2018-04-02	LREM	H	anciens	Indéfini	commissions	44
 2018-04-02	LREM	H	anciens	Rejeté	commissions	3
+2018-04-02	LREM	H	anciens	Retiré	commissions	4
 2018-04-02	LREM	H	nouveaux	Adopté	commissions	1
-2018-04-02	LREM	H	nouveaux	Indéfini	commissions	74
+2018-04-02	LREM	H	nouveaux	Indéfini	commissions	67
 2018-04-02	LREM	H	nouveaux	Irrecevable	commissions	2
-2018-04-02	LREM	H	nouveaux	Rejeté	commissions	4
-2018-04-02	LREM	H	nouveaux	Retiré	commissions	1
-2018-04-02	MODEM	F	nouveaux	Indéfini	commissions	19
-2018-04-02	MODEM	H	nouveaux	Indéfini	commissions	28
+2018-04-02	LREM	H	nouveaux	Non soutenu	commissions	4
+2018-04-02	LREM	H	nouveaux	Rejeté	commissions	6
+2018-04-02	LREM	H	nouveaux	Retiré	commissions	2
+2018-04-02	MODEM	F	nouveaux	Indéfini	commissions	17
+2018-04-02	MODEM	F	nouveaux	Rejeté	commissions	2
+2018-04-02	MODEM	H	nouveaux	Indéfini	commissions	25
 2018-04-02	MODEM	H	nouveaux	Irrecevable	commissions	1
-2018-04-02	NG	F	anciens	Indéfini	commissions	43
-2018-04-02	NG	F	anciens	Rejeté	commissions	1
+2018-04-02	MODEM	H	nouveaux	Rejeté	commissions	2
+2018-04-02	MODEM	H	nouveaux	Retiré	commissions	1
+2018-04-02	NG	F	anciens	Indéfini	commissions	39
+2018-04-02	NG	F	anciens	Rejeté	commissions	5
 2018-04-02	NI	F	nouveaux	Indéfini	commissions	6
 2018-04-02	NI	F	nouveaux	Non soutenu	commissions	3
 2018-04-02	NI	H	anciens	Indéfini	commissions	2
 2018-04-02	NI	H	nouveaux	Indéfini	commissions	1
 2018-04-02	UAI	F	nouveaux	Indéfini	commissions	1
-2018-04-02	UAI	H	anciens	Indéfini	commissions	31
+2018-04-02	UAI	H	anciens	Indéfini	commissions	26
 2018-04-02	UAI	H	anciens	Irrecevable	commissions	2
-2018-04-02	UAI	H	anciens	Non soutenu	commissions	2
+2018-04-02	UAI	H	anciens	Non soutenu	commissions	5
+2018-04-02	UAI	H	anciens	Rejeté	commissions	2
 2018-04-03	GDR	F	nouveaux	Indéfini	commissions	2
 2018-04-03	GDR	F	nouveaux	Retiré	commissions	2
 2018-04-03	GDR	H	nouveaux	Irrecevable	commissions	4
 2018-04-03	GDR	H	nouveaux	Rejeté	commissions	5
-2018-04-03	LFI	F	nouveaux	Indéfini	commissions	12
+2018-04-03	LFI	F	nouveaux	Indéfini	commissions	11
 2018-04-03	LFI	F	nouveaux	Indéfini	hemicycle	6
 2018-04-03	LFI	F	nouveaux	Irrecevable	commissions	1
+2018-04-03	LFI	F	nouveaux	Rejeté	commissions	1
 2018-04-03	LFI	F	nouveaux	Retiré	hemicycle	1
 2018-04-03	LFI	H	nouveaux	Indéfini	commissions	8
 2018-04-03	LFI	H	nouveaux	Indéfini	hemicycle	12
@@ -3883,7 +3892,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-04-03	LR	H	nouveaux	Indéfini	commissions	2
 2018-04-03	LR	H	nouveaux	Indéfini	hemicycle	2
 2018-04-03	LR	H	nouveaux	Irrecevable	commissions	1
-2018-04-03	LREM	F	nouveaux	Indéfini	commissions	41
+2018-04-03	LREM	F	nouveaux	Adopté	commissions	1
+2018-04-03	LREM	F	nouveaux	Indéfini	commissions	40
 2018-04-03	LREM	F	nouveaux	Irrecevable	commissions	11
 2018-04-03	LREM	F	nouveaux	Non soutenu	commissions	1
 2018-04-03	LREM	H	anciens	Indéfini	commissions	5
@@ -3907,4 +3917,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-04-03	UAI	H	anciens	Indéfini	commissions	9
 2018-04-03	UAI	H	anciens	Irrecevable	commissions	4
 2018-04-03	UAI	H	anciens	Retiré	commissions	5
+2018-04-04	LR	H	anciens	Indéfini	hemicycle	2
+2018-04-04	LREM	H	nouveaux	Indéfini	commissions	1
 2018-04-04	LREM	H	nouveaux	Irrecevable	commissions	1
+2018-04-04	MODEM	H	nouveaux	Indéfini	hemicycle	1
