@@ -298,8 +298,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-04-10	MODEM	H	nouveaux	loi	attente	3
 2018-04-13	LR	F	anciens	résolution	attente	1
 2018-04-13	NI	F	nouveaux	loi constitutionnelle	attente	1
-2018-04-13	UAI	H	nouveaux	loi constitutionnelle	attente	1
-2018-04-13	UAI	H	nouveaux	loi organique	attente	1
 2018-04-16	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2018-04-16	NI	H	nouveaux	loi	attente	2
 2018-04-17	LR	H	anciens	loi	attente	3
@@ -315,4 +313,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-04-24	NI	H	anciens	loi	attente	1
 2018-04-24	NI	H	nouveaux	loi	attente	1
 2018-04-24	UAI	H	anciens	loi	attente	2
+2018-04-25	UAI	H	nouveaux	loi constitutionnelle	attente	1
+2018-04-25	UAI	H	nouveaux	loi organique	attente	1
 2018-04-25	UAI	H	nouveaux	règlement de l'Assemblée nationale	attente	1
