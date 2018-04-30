@@ -7104,6 +7104,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-04-03	LREM	H	nouveaux	hemicycle	longues	7820
 2018-04-03	MODEM	F	nouveaux	commissions	invectives	0
 2018-04-03	MODEM	F	nouveaux	commissions	longues	3531
+2018-04-03	MODEM	F	nouveaux	commissions	presidence	0
 2018-04-03	MODEM	F	nouveaux	hemicycle	invectives	3
 2018-04-03	MODEM	F	nouveaux	hemicycle	longues	2432
 2018-04-03	MODEM	H	nouveaux	commissions	invectives	14
@@ -7674,7 +7675,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-04-17	LREM	F	anciens	commissions	presidence	1782
 2018-04-17	LREM	F	anciens	hemicycle	invectives	6
 2018-04-17	LREM	F	nouveaux	commissions	invectives	190
-2018-04-17	LREM	F	nouveaux	commissions	longues	12944
+2018-04-17	LREM	F	nouveaux	commissions	longues	13337
 2018-04-17	LREM	F	nouveaux	commissions	presidence	0
 2018-04-17	LREM	F	nouveaux	hemicycle	invectives	216
 2018-04-17	LREM	F	nouveaux	hemicycle	longues	8744
@@ -7684,7 +7685,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-04-17	LREM	H	anciens	hemicycle	longues	2098
 2018-04-17	LREM	H	anciens	hemicycle	presidence	776
 2018-04-17	LREM	H	nouveaux	commissions	invectives	378
-2018-04-17	LREM	H	nouveaux	commissions	longues	14891
+2018-04-17	LREM	H	nouveaux	commissions	longues	15089
 2018-04-17	LREM	H	nouveaux	commissions	presidence	1538
 2018-04-17	LREM	H	nouveaux	hemicycle	invectives	177
 2018-04-17	LREM	H	nouveaux	hemicycle	longues	5461
@@ -7695,6 +7696,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-04-17	MODEM	H	nouveaux	hemicycle	invectives	57
 2018-04-17	MODEM	H	nouveaux	hemicycle	longues	767
 2018-04-17	NG	F	anciens	commissions	longues	22
+2018-04-17	NG	F	anciens	commissions	presidence	628
 2018-04-17	NG	F	anciens	hemicycle	invectives	272
 2018-04-17	NG	F	anciens	hemicycle	longues	4831
 2018-04-17	NG	F	nouveaux	hemicycle	longues	281
@@ -7758,6 +7760,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-04-18	LREM	F	anciens	commissions	presidence	2
 2018-04-18	LREM	F	nouveaux	commissions	invectives	66
 2018-04-18	LREM	F	nouveaux	commissions	longues	2547
+2018-04-18	LREM	F	nouveaux	commissions	presidence	0
 2018-04-18	LREM	F	nouveaux	hemicycle	invectives	179
 2018-04-18	LREM	F	nouveaux	hemicycle	longues	9506
 2018-04-18	LREM	F	nouveaux	hemicycle	presidence	411
