@@ -1061,9 +1061,9 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2017-09-19	NI	H	anciens	reponse	4	3-6	Ministère de la transition écologique et solidaire	1
 2017-09-26	GDR	F	anciens	reponse	3	3-6	Ministère de l'éducation nationale	1
 2017-09-26	GDR	F	anciens	reponse	6	6-12	Ministère de l'économie et des finances	1
-2017-09-26	GDR	H	anciens	attente	7	6-12	Ministère de la transition écologique et solidaire	1
 2017-09-26	GDR	H	anciens	reponse	0	1	Ministère des outre-mer	1
 2017-09-26	GDR	H	anciens	reponse	3	3-6	Ministère de la transition écologique et solidaire	1
+2017-09-26	GDR	H	anciens	retrait	7	6-12	Ministère de la transition écologique et solidaire	1
 2017-09-26	GDR	H	nouveaux	reponse	4	3-6	Ministère des solidarités et de la santé	1
 2017-09-26	LC	F	nouveaux	reponse	1	2	Ministère de la transition écologique et solidaire	1
 2017-09-26	LC	H	anciens	attente	7	6-12	Ministère de l'intérieur	1
@@ -1774,10 +1774,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2017-10-24	GDR	F	anciens	attente	6	6-12	Ministère de la culture	1
 2017-10-24	GDR	F	anciens	reponse	1	2	Ministère de l'économie et des finances	1
 2017-10-24	GDR	F	anciens	reponse	1	2	Ministère des sports	1
-2017-10-24	GDR	H	anciens	attente	6	6-12	Ministère des solidarités et de la santé	1
 2017-10-24	GDR	H	anciens	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
 2017-10-24	GDR	H	anciens	reponse	2	3	Ministère des armées	1
 2017-10-24	GDR	H	anciens	reponse	5	3-6	Ministère de l'action et des comptes publics	1
+2017-10-24	GDR	H	anciens	retrait	6	6-12	Ministère des solidarités et de la santé	1
 2017-10-24	GDR	H	nouveaux	reponse	5	3-6	Ministère des solidarités et de la santé	1
 2017-10-24	LC	F	anciens	attente	6	6-12	Ministère des solidarités et de la santé	1
 2017-10-24	LC	F	nouveaux	attente	6	6-12	Ministère de l'intérieur	1
@@ -5630,8 +5630,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-24	NI	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
 2018-04-24	NI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
 2018-04-24	UAI	F	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	1
-2018-04-24	UAI	F	nouveaux	attente	0	1	Ministère de l'éducation nationale	1
 2018-04-24	UAI	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2018-04-24	UAI	F	nouveaux	retrait	0	1	Ministère de l'éducation nationale	1
 2018-04-24	UAI	H	anciens	attente	0	1	Ministère de l'action et des comptes publics	2
 2018-04-24	UAI	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
 2018-04-24	UAI	H	anciens	attente	0	1	Ministère de l'économie et des finances	2
@@ -5648,3 +5648,110 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-24	UAI	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire, des transports	1
 2018-04-24	UAI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
 2018-04-24	UAI	H	nouveaux	attente	0	1	Ministère des sports	1
+2018-05-01	GDR	F	anciens	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	GDR	F	anciens	attente	0	1	Ministère du travail	1
+2018-05-01	GDR	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	GDR	H	nouveaux	attente	0	1	Ministère des armées	1
+2018-05-01	GDR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2018-05-01	LFI	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2018-05-01	LFI	H	nouveaux	attente	0	1	Ministère de l'éducation nationale	1
+2018-05-01	LFI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2018-05-01	LFI	H	nouveaux	attente	0	1	Ministère du travail	1
+2018-05-01	LR	F	anciens	attente	0	1	Ministère de l'action et des comptes publics	1
+2018-05-01	LR	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2018-05-01	LR	F	anciens	attente	0	1	Ministère du travail	1
+2018-05-01	LR	F	anciens	attente	0	1	Premier ministre	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire, des transports	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	4
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère des sports	1
+2018-05-01	LR	F	nouveaux	attente	0	1	Ministère du travail	1
+2018-05-01	LR	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	3
+2018-05-01	LR	H	anciens	attente	0	1	Ministère de l'économie et des finances	3
+2018-05-01	LR	H	anciens	attente	0	1	Ministère de l'intérieur	2
+2018-05-01	LR	H	anciens	attente	0	1	Ministère de la cohésion des territoires	1
+2018-05-01	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	5
+2018-05-01	LR	H	anciens	attente	0	1	Ministère des sports	1
+2018-05-01	LR	H	anciens	attente	0	1	Ministère du travail	3
+2018-05-01	LR	H	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	1
+2018-05-01	LR	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2018-05-01	LR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale	1
+2018-05-01	LR	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	LR	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires	2
+2018-05-01	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2018-05-01	LREM	F	anciens	attente	0	1	Ministère de l'action et des comptes publics	1
+2018-05-01	LREM	F	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2018-05-01	LREM	F	anciens	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	LREM	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	1
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	3
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale	3
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires	1
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de la justice	1
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	2
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire, des transports	1
+2018-05-01	LREM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	9
+2018-05-01	LREM	F	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes	1
+2018-05-01	LREM	H	anciens	attente	0	1	Ministère de l'action et des comptes publics	1
+2018-05-01	LREM	H	anciens	attente	0	1	Ministère de l'économie et des finances	1
+2018-05-01	LREM	H	anciens	attente	0	1	Ministère des solidarités et de la santé	3
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de l'action et des comptes publics	2
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	4
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale	5
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de l'intérieur	4
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires	1
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de la culture	1
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de la justice	1
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	3
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire, des transports	3
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	9
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère des sports	2
+2018-05-01	LREM	H	nouveaux	attente	0	1	Ministère du travail	2
+2018-05-01	LREM	H	nouveaux	attente	0	1	Premier ministre	1
+2018-05-01	LREM	H	nouveaux	attente	0	1	Premier ministre, des personnes handicapées	1
+2018-05-01	MODEM	F	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2018-05-01	MODEM	F	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
+2018-05-01	MODEM	F	nouveaux	attente	0	1	Ministère des sports	1
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère de la justice	2
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique et solidaire	1
+2018-05-01	MODEM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	5
+2018-05-01	NG	F	anciens	attente	0	1	Ministère de l'économie et des finances	2
+2018-05-01	NG	F	anciens	attente	0	1	Ministère de l'éducation nationale	1
+2018-05-01	NG	F	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2018-05-01	NG	F	anciens	attente	0	1	Ministère des solidarités et de la santé	5
+2018-05-01	NG	H	anciens	attente	0	1	Ministère de l'économie et des finances	1
+2018-05-01	NG	H	anciens	attente	0	1	Ministère de l'éducation nationale	1
+2018-05-01	NG	H	anciens	attente	0	1	Ministère de la justice	1
+2018-05-01	NG	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2018-05-01	NG	H	anciens	attente	0	1	Premier ministre, des personnes handicapées	1
+2018-05-01	NG	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	3
+2018-05-01	NG	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	NI	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2018-05-01	NI	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	NI	H	anciens	attente	0	1	Ministère de la justice	1
+2018-05-01	NI	H	anciens	attente	0	1	Ministère des solidarités et de la santé	2
+2018-05-01	NI	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	UAI	F	nouveaux	attente	0	1	Ministère de l'éducation nationale	1
+2018-05-01	UAI	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2018-05-01	UAI	F	nouveaux	attente	0	1	Ministère du travail	1
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de l'action et des comptes publics	3
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de l'économie et des finances	3
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de l'intérieur	4
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de la cohésion des territoires	2
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de la justice	1
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de la transition écologique et solidaire	1
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère de la transition écologique et solidaire, des transports	1
+2018-05-01	UAI	H	anciens	attente	0	1	Ministère des solidarités et de la santé	10
+2018-05-01	UAI	H	anciens	attente	0	1	Premier ministre, des personnes handicapées	1
+2018-05-01	UAI	H	nouveaux	attente	0	1	Ministère de l'économie et des finances	1
+2018-05-01	UAI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
