@@ -4417,42 +4417,50 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-04-20	NG	H	anciens	Tombe	commissions	1
 2018-04-21	LREM	H	anciens	Adopté	hemicycle	1
 2018-04-21	MODEM	H	nouveaux	Adopté	hemicycle	1
-2018-05-07	LFI	F	nouveaux	Indéfini	commissions	27
-2018-05-07	LFI	F	nouveaux	Rejeté	commissions	5
-2018-05-07	LFI	H	nouveaux	Indéfini	commissions	14
-2018-05-07	LFI	H	nouveaux	Rejeté	commissions	5
-2018-05-07	LR	F	nouveaux	Indéfini	commissions	11
+2018-05-07	LFI	F	nouveaux	Indéfini	commissions	26
+2018-05-07	LFI	F	nouveaux	Rejeté	commissions	6
+2018-05-07	LFI	H	nouveaux	Indéfini	commissions	13
+2018-05-07	LFI	H	nouveaux	Rejeté	commissions	6
+2018-05-07	LR	F	nouveaux	Indéfini	commissions	8
 2018-05-07	LR	F	nouveaux	Irrecevable	commissions	1
-2018-05-07	LR	H	anciens	Indéfini	commissions	15
+2018-05-07	LR	F	nouveaux	Non soutenu	commissions	3
+2018-05-07	LR	H	anciens	Adopté	commissions	1
+2018-05-07	LR	H	anciens	Indéfini	commissions	10
 2018-05-07	LR	H	anciens	Non soutenu	commissions	1
-2018-05-07	LR	H	anciens	Rejeté	commissions	3
-2018-05-07	LR	H	nouveaux	Indéfini	commissions	18
-2018-05-07	LR	H	nouveaux	Rejeté	commissions	7
+2018-05-07	LR	H	anciens	Rejeté	commissions	7
+2018-05-07	LR	H	nouveaux	Indéfini	commissions	10
+2018-05-07	LR	H	nouveaux	Non soutenu	commissions	4
+2018-05-07	LR	H	nouveaux	Rejeté	commissions	11
 2018-05-07	LR	H	nouveaux	Tombe	commissions	1
-2018-05-07	LREM	F	nouveaux	Adopté	commissions	1
-2018-05-07	LREM	F	nouveaux	Indéfini	commissions	69
-2018-05-07	LREM	F	nouveaux	Non soutenu	commissions	3
-2018-05-07	LREM	F	nouveaux	Rejeté	commissions	2
-2018-05-07	LREM	F	nouveaux	Retiré	commissions	7
-2018-05-07	LREM	F	nouveaux	Tombe	commissions	1
-2018-05-07	LREM	H	nouveaux	Adopté	commissions	1
-2018-05-07	LREM	H	nouveaux	Indéfini	commissions	24
-2018-05-07	LREM	H	nouveaux	Non soutenu	commissions	1
+2018-05-07	LREM	F	nouveaux	Adopté	commissions	4
+2018-05-07	LREM	F	nouveaux	Indéfini	commissions	51
+2018-05-07	LREM	F	nouveaux	Non soutenu	commissions	11
+2018-05-07	LREM	F	nouveaux	Rejeté	commissions	5
+2018-05-07	LREM	F	nouveaux	Retiré	commissions	10
+2018-05-07	LREM	F	nouveaux	Tombe	commissions	2
+2018-05-07	LREM	H	nouveaux	Adopté	commissions	3
+2018-05-07	LREM	H	nouveaux	Indéfini	commissions	20
+2018-05-07	LREM	H	nouveaux	Non soutenu	commissions	2
 2018-05-07	LREM	H	nouveaux	Rejeté	commissions	2
-2018-05-07	MODEM	F	nouveaux	Indéfini	commissions	5
-2018-05-07	MODEM	F	nouveaux	Rejeté	commissions	1
-2018-05-07	MODEM	H	nouveaux	Adopté	commissions	5
-2018-05-07	MODEM	H	nouveaux	Indéfini	commissions	6
-2018-05-07	NG	F	anciens	Indéfini	commissions	8
+2018-05-07	LREM	H	nouveaux	Retiré	commissions	1
+2018-05-07	MODEM	F	nouveaux	Indéfini	commissions	2
+2018-05-07	MODEM	F	nouveaux	Rejeté	commissions	4
+2018-05-07	MODEM	H	nouveaux	Adopté	commissions	6
+2018-05-07	MODEM	H	nouveaux	Indéfini	commissions	4
+2018-05-07	MODEM	H	nouveaux	Rejeté	commissions	1
+2018-05-07	NG	F	anciens	Indéfini	commissions	6
+2018-05-07	NG	F	anciens	Non soutenu	commissions	1
 2018-05-07	NG	F	anciens	Rejeté	commissions	1
+2018-05-07	NG	F	anciens	Tombe	commissions	1
 2018-05-07	NG	H	anciens	Adopté	commissions	1
 2018-05-07	NG	H	anciens	Indéfini	commissions	1
-2018-05-07	NI	F	nouveaux	Indéfini	commissions	13
-2018-05-07	NI	H	nouveaux	Indéfini	commissions	10
-2018-05-07	NI	H	nouveaux	Non soutenu	commissions	1
-2018-05-07	NI	H	nouveaux	Rejeté	commissions	1
-2018-05-07	UAI	F	nouveaux	Indéfini	commissions	8
-2018-05-07	UAI	F	nouveaux	Rejeté	commissions	1
+2018-05-07	NI	F	nouveaux	Indéfini	commissions	12
+2018-05-07	NI	F	nouveaux	Non soutenu	commissions	1
+2018-05-07	NI	H	nouveaux	Indéfini	commissions	5
+2018-05-07	NI	H	nouveaux	Non soutenu	commissions	4
+2018-05-07	NI	H	nouveaux	Rejeté	commissions	3
+2018-05-07	UAI	F	nouveaux	Indéfini	commissions	6
+2018-05-07	UAI	F	nouveaux	Rejeté	commissions	3
 2018-05-08	LFI	F	nouveaux	Indéfini	commissions	2
 2018-05-08	LFI	F	nouveaux	Irrecevable	commissions	2
 2018-05-08	LFI	H	nouveaux	Indéfini	commissions	1
