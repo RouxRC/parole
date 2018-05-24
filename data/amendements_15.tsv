@@ -4505,8 +4505,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-05-14	GDR	H	nouveaux	Rejeté	commissions	76
 2018-05-14	GDR	H	nouveaux	Retiré	commissions	16
 2018-05-14	GDR	H	nouveaux	Tombe	commissions	4
-2018-05-14	LFI	F	nouveaux	Adopté	hemicycle	3
-2018-05-14	LFI	F	nouveaux	Indéfini	hemicycle	1
+2018-05-14	LFI	F	nouveaux	Adopté	hemicycle	4
 2018-05-14	LFI	F	nouveaux	Non soutenu	commissions	8
 2018-05-14	LFI	F	nouveaux	Non soutenu	hemicycle	2
 2018-05-14	LFI	F	nouveaux	Rejeté	commissions	15
@@ -4514,12 +4513,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-05-14	LFI	F	nouveaux	Retiré	commissions	2
 2018-05-14	LFI	F	nouveaux	Retiré	hemicycle	1
 2018-05-14	LFI	F	nouveaux	Tombe	hemicycle	2
-2018-05-14	LFI	H	nouveaux	Indéfini	hemicycle	1
 2018-05-14	LFI	H	nouveaux	Non soutenu	commissions	8
 2018-05-14	LFI	H	nouveaux	Non soutenu	hemicycle	1
 2018-05-14	LFI	H	nouveaux	Rejeté	commissions	14
 2018-05-14	LFI	H	nouveaux	Rejeté	hemicycle	9
 2018-05-14	LFI	H	nouveaux	Retiré	commissions	1
+2018-05-14	LFI	H	nouveaux	Retiré	hemicycle	1
 2018-05-14	LFI	H	nouveaux	Tombe	commissions	1
 2018-05-14	LFI	H	nouveaux	Tombe	hemicycle	1
 2018-05-14	LR	F	anciens	Adopté	commissions	1
@@ -4596,8 +4595,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-05-14	MODEM	F	nouveaux	Tombe	hemicycle	1
 2018-05-14	MODEM	H	anciens	Non soutenu	commissions	6
 2018-05-14	MODEM	H	nouveaux	Adopté	commissions	4
-2018-05-14	MODEM	H	nouveaux	Adopté	hemicycle	13
-2018-05-14	MODEM	H	nouveaux	Indéfini	hemicycle	1
+2018-05-14	MODEM	H	nouveaux	Adopté	hemicycle	14
 2018-05-14	MODEM	H	nouveaux	Irrecevable	commissions	1
 2018-05-14	MODEM	H	nouveaux	Non soutenu	commissions	24
 2018-05-14	MODEM	H	nouveaux	Rejeté	commissions	35
@@ -4821,39 +4819,76 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-05-19	LR	F	anciens	Rejeté	hemicycle	1
 2018-05-21	GDR	H	anciens	Indéfini	hemicycle	6
 2018-05-21	GDR	H	anciens	Rejeté	hemicycle	1
-2018-05-21	GDR	H	nouveaux	Indéfini	hemicycle	11
-2018-05-21	LFI	F	nouveaux	Indéfini	hemicycle	2
+2018-05-21	GDR	H	nouveaux	Indéfini	hemicycle	4
+2018-05-21	GDR	H	nouveaux	Non soutenu	hemicycle	2
+2018-05-21	GDR	H	nouveaux	Rejeté	hemicycle	5
+2018-05-21	LFI	F	nouveaux	Indéfini	hemicycle	1
 2018-05-21	LFI	F	nouveaux	Non soutenu	hemicycle	1
-2018-05-21	LFI	H	nouveaux	Indéfini	hemicycle	3
-2018-05-21	LR	F	anciens	Indéfini	hemicycle	20
-2018-05-21	LR	F	nouveaux	Indéfini	hemicycle	39
+2018-05-21	LFI	F	nouveaux	Rejeté	hemicycle	1
+2018-05-21	LFI	H	nouveaux	Rejeté	hemicycle	2
+2018-05-21	LFI	H	nouveaux	Retiré	hemicycle	1
+2018-05-21	LR	F	anciens	Adopté	hemicycle	1
+2018-05-21	LR	F	anciens	Indéfini	hemicycle	12
+2018-05-21	LR	F	anciens	Non soutenu	hemicycle	2
+2018-05-21	LR	F	anciens	Rejeté	hemicycle	4
+2018-05-21	LR	F	anciens	Tombe	hemicycle	1
+2018-05-21	LR	F	nouveaux	Indéfini	hemicycle	30
+2018-05-21	LR	F	nouveaux	Non soutenu	hemicycle	5
+2018-05-21	LR	F	nouveaux	Rejeté	hemicycle	4
 2018-05-21	LR	F	nouveaux	Retiré	hemicycle	1
-2018-05-21	LR	H	anciens	Indéfini	hemicycle	209
-2018-05-21	LR	H	anciens	Retiré	hemicycle	1
-2018-05-21	LR	H	nouveaux	Indéfini	hemicycle	106
+2018-05-21	LR	H	anciens	Adopté	hemicycle	3
+2018-05-21	LR	H	anciens	Indéfini	hemicycle	138
+2018-05-21	LR	H	anciens	Non soutenu	hemicycle	33
+2018-05-21	LR	H	anciens	Rejeté	hemicycle	25
+2018-05-21	LR	H	anciens	Retiré	hemicycle	3
+2018-05-21	LR	H	anciens	Tombe	hemicycle	8
+2018-05-21	LR	H	nouveaux	Indéfini	hemicycle	75
+2018-05-21	LR	H	nouveaux	Non soutenu	hemicycle	8
+2018-05-21	LR	H	nouveaux	Rejeté	hemicycle	19
 2018-05-21	LR	H	nouveaux	Retiré	hemicycle	1
-2018-05-21	LREM	F	nouveaux	Indéfini	hemicycle	20
-2018-05-21	LREM	F	nouveaux	Retiré	hemicycle	1
-2018-05-21	LREM	H	anciens	Indéfini	hemicycle	10
-2018-05-21	LREM	H	anciens	Retiré	hemicycle	1
-2018-05-21	LREM	H	nouveaux	Indéfini	hemicycle	53
-2018-05-21	LREM	H	nouveaux	Retiré	hemicycle	4
+2018-05-21	LR	H	nouveaux	Tombe	hemicycle	4
+2018-05-21	LREM	F	nouveaux	Adopté	hemicycle	3
+2018-05-21	LREM	F	nouveaux	Indéfini	hemicycle	11
+2018-05-21	LREM	F	nouveaux	Non soutenu	hemicycle	3
+2018-05-21	LREM	F	nouveaux	Rejeté	hemicycle	2
+2018-05-21	LREM	F	nouveaux	Retiré	hemicycle	2
+2018-05-21	LREM	H	anciens	Indéfini	hemicycle	6
+2018-05-21	LREM	H	anciens	Non soutenu	hemicycle	1
+2018-05-21	LREM	H	anciens	Rejeté	hemicycle	2
+2018-05-21	LREM	H	anciens	Retiré	hemicycle	2
+2018-05-21	LREM	H	nouveaux	Adopté	hemicycle	4
+2018-05-21	LREM	H	nouveaux	Indéfini	hemicycle	35
+2018-05-21	LREM	H	nouveaux	Non soutenu	hemicycle	5
+2018-05-21	LREM	H	nouveaux	Rejeté	hemicycle	8
+2018-05-21	LREM	H	nouveaux	Retiré	hemicycle	5
 2018-05-21	MODEM	F	nouveaux	Indéfini	hemicycle	1
-2018-05-21	MODEM	H	nouveaux	Indéfini	hemicycle	4
-2018-05-21	NG	F	anciens	Indéfini	hemicycle	3
-2018-05-21	NG	H	anciens	Indéfini	hemicycle	18
-2018-05-21	NG	H	anciens	Rejeté	hemicycle	1
-2018-05-21	NG	H	anciens	Retiré	hemicycle	1
-2018-05-21	NI	F	anciens	Indéfini	hemicycle	10
+2018-05-21	MODEM	H	nouveaux	Adopté	hemicycle	1
+2018-05-21	MODEM	H	nouveaux	Indéfini	hemicycle	1
+2018-05-21	MODEM	H	nouveaux	Rejeté	hemicycle	1
+2018-05-21	MODEM	H	nouveaux	Retiré	hemicycle	1
+2018-05-21	NG	F	anciens	Indéfini	hemicycle	2
+2018-05-21	NG	F	anciens	Rejeté	hemicycle	1
+2018-05-21	NG	H	anciens	Indéfini	hemicycle	10
+2018-05-21	NG	H	anciens	Rejeté	hemicycle	4
+2018-05-21	NG	H	anciens	Retiré	hemicycle	6
+2018-05-21	NI	F	anciens	Indéfini	hemicycle	6
+2018-05-21	NI	F	anciens	Rejeté	hemicycle	4
 2018-05-21	NI	F	nouveaux	Indéfini	hemicycle	4
 2018-05-21	NI	H	anciens	Indéfini	hemicycle	3
-2018-05-21	NI	H	nouveaux	Indéfini	hemicycle	6
-2018-05-21	UAI	F	nouveaux	Indéfini	hemicycle	4
+2018-05-21	NI	H	nouveaux	Indéfini	hemicycle	5
+2018-05-21	NI	H	nouveaux	Rejeté	hemicycle	1
+2018-05-21	UAI	F	nouveaux	Indéfini	hemicycle	3
+2018-05-21	UAI	F	nouveaux	Rejeté	hemicycle	1
 2018-05-21	UAI	F	nouveaux	Retiré	hemicycle	2
-2018-05-21	UAI	H	anciens	Indéfini	hemicycle	30
-2018-05-21	UAI	H	anciens	Rejeté	hemicycle	1
+2018-05-21	UAI	H	anciens	Adopté	hemicycle	1
+2018-05-21	UAI	H	anciens	Indéfini	hemicycle	21
+2018-05-21	UAI	H	anciens	Non soutenu	hemicycle	1
+2018-05-21	UAI	H	anciens	Rejeté	hemicycle	6
 2018-05-21	UAI	H	anciens	Retiré	hemicycle	2
-2018-05-21	UAI	H	nouveaux	Indéfini	hemicycle	5
+2018-05-21	UAI	H	anciens	Tombe	hemicycle	2
+2018-05-21	UAI	H	nouveaux	Indéfini	hemicycle	3
+2018-05-21	UAI	H	nouveaux	Non soutenu	hemicycle	1
+2018-05-21	UAI	H	nouveaux	Retiré	hemicycle	1
 2018-05-22	GDR	F	anciens	Irrecevable	commissions	1
 2018-05-22	GDR	F	anciens	Non soutenu	commissions	1
 2018-05-22	GDR	F	anciens	Rejeté	commissions	4
@@ -4971,3 +5006,5 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-05-23	UAI	H	anciens	Rejeté	hemicycle	1
 2018-05-23	UAI	H	nouveaux	Indéfini	hemicycle	4
 2018-05-24	LR	H	anciens	Irrecevable	hemicycle	2
+2018-05-24	LREM	H	nouveaux	Indéfini	commissions	16
+2018-05-24	LREM	H	nouveaux	Indéfini	hemicycle	1
