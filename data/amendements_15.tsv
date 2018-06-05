@@ -5578,16 +5578,16 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-05-31	LREM	F	anciens	Indéfini	hemicycle	1
 2018-05-31	LREM	F	anciens	Retiré	hemicycle	2
 2018-05-31	LREM	F	nouveaux	Adopté	hemicycle	12
-2018-05-31	LREM	F	nouveaux	Indéfini	hemicycle	53
+2018-05-31	LREM	F	nouveaux	Indéfini	hemicycle	51
 2018-05-31	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2018-05-31	LREM	F	nouveaux	Rejeté	hemicycle	8
-2018-05-31	LREM	F	nouveaux	Retiré	hemicycle	13
+2018-05-31	LREM	F	nouveaux	Retiré	hemicycle	15
 2018-05-31	LREM	H	anciens	Indéfini	hemicycle	4
 2018-05-31	LREM	H	nouveaux	Adopté	hemicycle	3
-2018-05-31	LREM	H	nouveaux	Indéfini	hemicycle	53
+2018-05-31	LREM	H	nouveaux	Indéfini	hemicycle	52
 2018-05-31	LREM	H	nouveaux	Non soutenu	hemicycle	8
 2018-05-31	LREM	H	nouveaux	Rejeté	hemicycle	10
-2018-05-31	LREM	H	nouveaux	Retiré	hemicycle	20
+2018-05-31	LREM	H	nouveaux	Retiré	hemicycle	21
 2018-05-31	LREM	H	nouveaux	Tombe	commissions	1
 2018-05-31	MODEM	F	nouveaux	Adopté	commissions	1
 2018-05-31	MODEM	F	nouveaux	Indéfini	hemicycle	2
@@ -5639,12 +5639,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-06-01	LR	H	nouveaux	Adopté	hemicycle	1
 2018-06-01	LR	H	nouveaux	Indéfini	hemicycle	124
 2018-06-01	LREM	F	anciens	Indéfini	hemicycle	3
-2018-06-01	LREM	F	nouveaux	Indéfini	hemicycle	62
-2018-06-01	LREM	F	nouveaux	Retiré	hemicycle	2
+2018-06-01	LREM	F	nouveaux	Indéfini	hemicycle	61
+2018-06-01	LREM	F	nouveaux	Retiré	hemicycle	3
 2018-06-01	LREM	H	anciens	Indéfini	hemicycle	15
 2018-06-01	LREM	H	nouveaux	Adopté	hemicycle	2
-2018-06-01	LREM	H	nouveaux	Indéfini	hemicycle	89
+2018-06-01	LREM	H	nouveaux	Indéfini	hemicycle	76
 2018-06-01	LREM	H	nouveaux	Irrecevable	hemicycle	1
+2018-06-01	LREM	H	nouveaux	Retiré	hemicycle	2
 2018-06-01	MODEM	F	nouveaux	Indéfini	hemicycle	4
 2018-06-01	MODEM	H	nouveaux	Indéfini	hemicycle	32
 2018-06-01	NG	F	anciens	Indéfini	hemicycle	3
@@ -5687,3 +5688,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-06-04	LR	H	anciens	Indéfini	hemicycle	2
 2018-06-04	LREM	F	nouveaux	Indéfini	hemicycle	1
 2018-06-04	LREM	H	nouveaux	Indéfini	hemicycle	2
+2018-06-05	LREM	H	nouveaux	Indéfini	hemicycle	3
