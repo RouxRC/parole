@@ -367,9 +367,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-06-12	LR	H	nouveaux	loi	attente	2
 2018-06-12	UAI	H	nouveaux	loi organique	attente	1
 2018-06-13	GDR	H	anciens	résolution	attente	1
-2018-06-13	LR	H	anciens	loi	attente	4
+2018-06-13	LR	H	anciens	loi	attente	1
 2018-06-13	LREM	F	anciens	loi	attente	1
-2018-06-13	UAI	H	anciens	loi	attente	1
 2018-06-14	LR	H	anciens	résolution	attente	1
 2018-06-14	LREM	H	nouveaux	résolution	attente	1
 2018-06-14	MODEM	F	nouveaux	résolution	attente	1
@@ -392,3 +391,5 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-06-20	LR	H	anciens	loi	attente	3
 2018-06-20	LR	H	nouveaux	loi	attente	1
 2018-06-20	MODEM	H	nouveaux	loi	attente	1
+2018-06-22	LR	H	anciens	loi	attente	3
+2018-06-22	UAI	H	anciens	loi	attente	1
