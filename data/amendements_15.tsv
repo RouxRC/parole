@@ -6148,11 +6148,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-06-18	MODEM	H	nouveaux	Adopté	commissions	6
 2018-06-18	MODEM	H	nouveaux	Rejeté	commissions	1
 2018-06-18	MODEM	H	nouveaux	Retiré	commissions	2
-2018-06-18	NG	F	anciens	Indéfini	hemicycle	8
+2018-06-18	NG	F	anciens	Rejeté	hemicycle	1
+2018-06-18	NG	F	anciens	Retiré	hemicycle	7
 2018-06-18	NG	H	anciens	Adopté	commissions	7
 2018-06-18	NG	H	anciens	Rejeté	commissions	3
 2018-06-18	NG	H	anciens	Retiré	commissions	2
-2018-06-18	UAI	H	anciens	Indéfini	hemicycle	4
+2018-06-18	UAI	H	anciens	Rejeté	hemicycle	4
 2018-06-19	GDR	H	nouveaux	Indéfini	hemicycle	2
 2018-06-19	GDR	H	nouveaux	Non soutenu	commissions	2
 2018-06-19	GDR	H	nouveaux	Rejeté	commissions	3
@@ -6189,7 +6190,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-06-20	LFI	H	nouveaux	Indéfini	hemicycle	3
 2018-06-20	LFI	H	nouveaux	Retiré	hemicycle	1
 2018-06-20	LR	H	anciens	Indéfini	hemicycle	4
-2018-06-20	LR	H	nouveaux	Indéfini	hemicycle	9
+2018-06-20	LR	H	nouveaux	Indéfini	hemicycle	14
 2018-06-20	LREM	F	nouveaux	Indéfini	hemicycle	2
 2018-06-20	LREM	H	nouveaux	Indéfini	hemicycle	3
 2018-06-20	LREM	H	nouveaux	Retiré	hemicycle	1
