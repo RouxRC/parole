@@ -7057,7 +7057,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-07-21	LR	F	nouveaux	Indéfini	hemicycle	15
 2018-07-21	LR	H	anciens	Indéfini	hemicycle	147
 2018-07-21	LR	H	nouveaux	Indéfini	hemicycle	27
-2018-07-21	LREM	F	nouveaux	Indéfini	hemicycle	54
+2018-07-21	LREM	F	nouveaux	Indéfini	hemicycle	52
+2018-07-21	LREM	F	nouveaux	Retiré	hemicycle	2
 2018-07-21	LREM	H	anciens	Indéfini	hemicycle	1
 2018-07-21	LREM	H	nouveaux	Indéfini	hemicycle	20
 2018-07-21	MODEM	F	nouveaux	Indéfini	hemicycle	30
@@ -7070,3 +7071,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-07-21	UAI	F	nouveaux	Indéfini	hemicycle	7
 2018-07-21	UAI	H	anciens	Indéfini	hemicycle	19
 2018-07-21	UAI	H	nouveaux	Indéfini	hemicycle	7
+2018-07-23	GDR	H	nouveaux	Irrecevable	hemicycle	1
+2018-07-23	LR	H	nouveaux	Irrecevable	hemicycle	1
+2018-07-23	UAI	H	nouveaux	Irrecevable	hemicycle	1
