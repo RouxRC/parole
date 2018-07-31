@@ -430,8 +430,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-07-23	NI	F	nouveaux	création d'une commission d'enquête	attente	1
 2018-07-24	NI	F	nouveaux	création d'une commission d'enquête	attente	1
 2018-07-25	LR	H	nouveaux	loi	attente	2
-2018-07-25	UAI	H	anciens	loi	attente	1
-2018-07-25	UAI	H	nouveaux	loi	attente	1
 2018-07-26	GDR	H	anciens	résolution européenne	attente	1
 2018-07-26	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2018-07-26	LREM	H	anciens	résolution	attente	1
@@ -443,3 +441,5 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-08-02	LR	F	nouveaux	loi	attente	2
 2018-08-02	LR	H	anciens	loi	attente	2
 2018-08-03	LR	H	anciens	loi	attente	2
+2018-08-03	UAI	H	anciens	loi	attente	1
+2018-08-03	UAI	H	nouveaux	loi	attente	1
