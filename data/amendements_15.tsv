@@ -7266,3 +7266,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-07-31	LREM	H	nouveaux	Adopté	hemicycle	2
 2018-07-31	NG	F	anciens	Rejeté	hemicycle	1
 2018-09-04	LREM	F	nouveaux	Retiré	commissions	1
+2018-09-05	LR	F	nouveaux	Irrecevable	commissions	1
+2018-09-05	LR	H	anciens	Irrecevable	commissions	3
+2018-09-05	LR	H	nouveaux	Irrecevable	commissions	3
+2018-09-05	LREM	F	nouveaux	Irrecevable	commissions	1
+2018-09-05	LREM	H	nouveaux	Irrecevable	commissions	1
+2018-09-05	MODEM	H	nouveaux	Irrecevable	commissions	1
+2018-09-05	NI	H	anciens	Irrecevable	commissions	1
