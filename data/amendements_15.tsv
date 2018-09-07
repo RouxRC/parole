@@ -7284,8 +7284,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-09-05	LR	H	anciens	Tombe	commissions	7
 2018-09-05	LR	H	nouveaux	Adopté	commissions	3
 2018-09-05	LR	H	nouveaux	Irrecevable	commissions	3
-2018-09-05	LR	H	nouveaux	Non soutenu	commissions	18
-2018-09-05	LR	H	nouveaux	Rejeté	commissions	27
+2018-09-05	LR	H	nouveaux	Non soutenu	commissions	19
+2018-09-05	LR	H	nouveaux	Rejeté	commissions	26
 2018-09-05	LR	H	nouveaux	Retiré	commissions	1
 2018-09-05	LR	H	nouveaux	Tombe	commissions	1
 2018-09-05	LREM	F	nouveaux	Adopté	commissions	3
@@ -7325,62 +7325,71 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-09-05	UAI	H	nouveaux	Rejeté	commissions	6
 2018-09-05	UAI	H	nouveaux	Retiré	commissions	2
 2018-09-05	UAI	H	nouveaux	Tombe	commissions	3
-2018-09-06	GDR	H	nouveaux	Indéfini	commissions	8
-2018-09-06	GDR	H	nouveaux	Rejeté	commissions	1
+2018-09-06	GDR	H	nouveaux	Indéfini	commissions	4
+2018-09-06	GDR	H	nouveaux	Non soutenu	commissions	3
+2018-09-06	GDR	H	nouveaux	Rejeté	commissions	2
 2018-09-06	LFI	F	nouveaux	Indéfini	commissions	9
-2018-09-06	LFI	H	nouveaux	Indéfini	commissions	31
-2018-09-06	LFI	H	nouveaux	Rejeté	commissions	3
-2018-09-06	LR	F	anciens	Indéfini	commissions	35
-2018-09-06	LR	F	anciens	Non soutenu	commissions	3
-2018-09-06	LR	F	anciens	Rejeté	commissions	3
-2018-09-06	LR	F	anciens	Retiré	commissions	7
+2018-09-06	LFI	H	nouveaux	Indéfini	commissions	21
+2018-09-06	LFI	H	nouveaux	Rejeté	commissions	13
+2018-09-06	LR	F	anciens	Indéfini	commissions	26
+2018-09-06	LR	F	anciens	Non soutenu	commissions	4
+2018-09-06	LR	F	anciens	Rejeté	commissions	9
+2018-09-06	LR	F	anciens	Retiré	commissions	9
 2018-09-06	LR	F	anciens	Tombe	commissions	1
-2018-09-06	LR	F	nouveaux	Indéfini	commissions	4
+2018-09-06	LR	F	nouveaux	Indéfini	commissions	2
 2018-09-06	LR	F	nouveaux	Irrecevable	commissions	1
-2018-09-06	LR	F	nouveaux	Non soutenu	commissions	5
+2018-09-06	LR	F	nouveaux	Non soutenu	commissions	7
 2018-09-06	LR	F	nouveaux	Rejeté	commissions	1
-2018-09-06	LR	H	anciens	Indéfini	commissions	65
+2018-09-06	LR	H	anciens	Indéfini	commissions	31
 2018-09-06	LR	H	anciens	Irrecevable	commissions	7
-2018-09-06	LR	H	anciens	Non soutenu	commissions	5
-2018-09-06	LR	H	anciens	Rejeté	commissions	9
-2018-09-06	LR	H	anciens	Retiré	commissions	3
-2018-09-06	LR	H	nouveaux	Indéfini	commissions	85
+2018-09-06	LR	H	anciens	Non soutenu	commissions	21
+2018-09-06	LR	H	anciens	Rejeté	commissions	15
+2018-09-06	LR	H	anciens	Retiré	commissions	14
+2018-09-06	LR	H	anciens	Tombe	commissions	1
+2018-09-06	LR	H	nouveaux	Adopté	commissions	2
+2018-09-06	LR	H	nouveaux	Indéfini	commissions	56
 2018-09-06	LR	H	nouveaux	Irrecevable	commissions	5
-2018-09-06	LR	H	nouveaux	Non soutenu	commissions	13
-2018-09-06	LR	H	nouveaux	Rejeté	commissions	12
-2018-09-06	LR	H	nouveaux	Retiré	commissions	3
-2018-09-06	LREM	F	nouveaux	Indéfini	commissions	60
+2018-09-06	LR	H	nouveaux	Non soutenu	commissions	22
+2018-09-06	LR	H	nouveaux	Rejeté	commissions	26
+2018-09-06	LR	H	nouveaux	Retiré	commissions	7
+2018-09-06	LREM	F	nouveaux	Adopté	commissions	5
+2018-09-06	LREM	F	nouveaux	Indéfini	commissions	35
 2018-09-06	LREM	F	nouveaux	Irrecevable	commissions	2
-2018-09-06	LREM	F	nouveaux	Non soutenu	commissions	1
-2018-09-06	LREM	F	nouveaux	Retiré	commissions	17
-2018-09-06	LREM	H	anciens	Indéfini	commissions	12
+2018-09-06	LREM	F	nouveaux	Non soutenu	commissions	4
+2018-09-06	LREM	F	nouveaux	Retiré	commissions	34
+2018-09-06	LREM	H	anciens	Indéfini	commissions	10
 2018-09-06	LREM	H	anciens	Irrecevable	commissions	2
-2018-09-06	LREM	H	anciens	Non soutenu	commissions	1
-2018-09-06	LREM	H	nouveaux	Adopté	commissions	5
-2018-09-06	LREM	H	nouveaux	Indéfini	commissions	77
-2018-09-06	LREM	H	nouveaux	Non soutenu	commissions	1
-2018-09-06	LREM	H	nouveaux	Retiré	commissions	4
+2018-09-06	LREM	H	anciens	Non soutenu	commissions	3
+2018-09-06	LREM	H	nouveaux	Adopté	commissions	12
+2018-09-06	LREM	H	nouveaux	Indéfini	commissions	51
+2018-09-06	LREM	H	nouveaux	Non soutenu	commissions	14
+2018-09-06	LREM	H	nouveaux	Retiré	commissions	10
 2018-09-06	MODEM	F	nouveaux	Indéfini	commissions	9
 2018-09-06	MODEM	H	nouveaux	Adopté	commissions	1
-2018-09-06	MODEM	H	nouveaux	Indéfini	commissions	75
+2018-09-06	MODEM	H	nouveaux	Indéfini	commissions	61
 2018-09-06	MODEM	H	nouveaux	Irrecevable	commissions	1
-2018-09-06	MODEM	H	nouveaux	Non soutenu	commissions	1
-2018-09-06	MODEM	H	nouveaux	Retiré	commissions	3
-2018-09-06	NG	H	anciens	Indéfini	commissions	15
+2018-09-06	MODEM	H	nouveaux	Non soutenu	commissions	8
+2018-09-06	MODEM	H	nouveaux	Retiré	commissions	10
+2018-09-06	NG	H	anciens	Indéfini	commissions	11
 2018-09-06	NG	H	anciens	Irrecevable	commissions	1
-2018-09-06	NG	H	anciens	Rejeté	commissions	4
-2018-09-06	NI	H	nouveaux	Indéfini	commissions	18
+2018-09-06	NG	H	anciens	Rejeté	commissions	7
+2018-09-06	NG	H	anciens	Retiré	commissions	1
+2018-09-06	NI	H	nouveaux	Adopté	commissions	1
+2018-09-06	NI	H	nouveaux	Indéfini	commissions	15
 2018-09-06	NI	H	nouveaux	Irrecevable	commissions	1
-2018-09-06	NI	H	nouveaux	Non soutenu	commissions	2
-2018-09-06	UAI	F	anciens	Adopté	commissions	1
-2018-09-06	UAI	F	anciens	Indéfini	commissions	13
+2018-09-06	NI	H	nouveaux	Non soutenu	commissions	4
+2018-09-06	UAI	F	anciens	Indéfini	commissions	10
 2018-09-06	UAI	F	anciens	Irrecevable	commissions	2
-2018-09-06	UAI	F	anciens	Non soutenu	commissions	1
+2018-09-06	UAI	F	anciens	Non soutenu	commissions	2
 2018-09-06	UAI	F	anciens	Rejeté	commissions	2
-2018-09-06	UAI	F	anciens	Retiré	commissions	2
+2018-09-06	UAI	F	anciens	Retiré	commissions	5
 2018-09-06	UAI	F	nouveaux	Rejeté	commissions	1
-2018-09-06	UAI	H	anciens	Indéfini	commissions	27
+2018-09-06	UAI	H	anciens	Indéfini	commissions	23
 2018-09-06	UAI	H	anciens	Irrecevable	commissions	1
-2018-09-06	UAI	H	nouveaux	Indéfini	commissions	11
-2018-09-06	UAI	H	nouveaux	Retiré	commissions	1
+2018-09-06	UAI	H	anciens	Rejeté	commissions	2
+2018-09-06	UAI	H	anciens	Retiré	commissions	2
+2018-09-06	UAI	H	nouveaux	Adopté	commissions	1
+2018-09-06	UAI	H	nouveaux	Indéfini	commissions	3
+2018-09-06	UAI	H	nouveaux	Retiré	commissions	8
 2018-09-07	LR	H	nouveaux	Irrecevable	commissions	1
+2018-09-07	LREM	H	nouveaux	Adopté	commissions	1
