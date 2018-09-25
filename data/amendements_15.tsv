@@ -7728,8 +7728,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-09-22	LR	H	nouveaux	Indéfini	hemicycle	17
 2018-09-22	LREM	F	nouveaux	Indéfini	hemicycle	21
 2018-09-22	LREM	H	anciens	Indéfini	hemicycle	2
-2018-09-22	LREM	H	nouveaux	Indéfini	hemicycle	22
-2018-09-22	LREM	H	nouveaux	Retiré	hemicycle	1
+2018-09-22	LREM	H	nouveaux	Indéfini	hemicycle	21
+2018-09-22	LREM	H	nouveaux	Retiré	hemicycle	2
 2018-09-22	MODEM	H	nouveaux	Indéfini	hemicycle	5
 2018-09-22	NI	F	nouveaux	Indéfini	hemicycle	3
 2018-09-22	NI	H	anciens	Indéfini	hemicycle	2
@@ -7749,7 +7749,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-09-24	LR	H	nouveaux	Indéfini	hemicycle	153
 2018-09-24	LREM	F	nouveaux	Indéfini	hemicycle	65
 2018-09-24	LREM	H	anciens	Indéfini	hemicycle	3
-2018-09-24	LREM	H	nouveaux	Indéfini	hemicycle	87
+2018-09-24	LREM	H	nouveaux	Indéfini	hemicycle	79
+2018-09-24	LREM	H	nouveaux	Retiré	hemicycle	8
 2018-09-24	MODEM	F	nouveaux	Indéfini	hemicycle	9
 2018-09-24	MODEM	H	nouveaux	Indéfini	hemicycle	60
 2018-09-24	MODEM	H	nouveaux	Retiré	hemicycle	1
