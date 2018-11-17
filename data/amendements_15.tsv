@@ -9305,6 +9305,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-02	LREM	H	nouveaux	Rejeté	hemicycle	4
 2018-11-02	LREM	H	nouveaux	Retiré	hemicycle	6
 2018-11-02	MODEM	F	nouveaux	Non soutenu	hemicycle	1
+2018-11-02	NI	F	nouveaux	Indéfini	commissions	5
 2018-11-02	NI	F	nouveaux	Non soutenu	hemicycle	4
 2018-11-02	NI	H	anciens	Non soutenu	hemicycle	2
 2018-11-02	SOC	F	anciens	Rejeté	hemicycle	1
@@ -9320,21 +9321,21 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-03	LR	F	nouveaux	Indéfini	hemicycle	1
 2018-11-03	LR	H	anciens	Irrecevable	hemicycle	2
 2018-11-04	LFI	F	nouveaux	Indéfini	hemicycle	27
-2018-11-04	LFI	H	nouveaux	Indéfini	hemicycle	27
+2018-11-04	LFI	H	nouveaux	Indéfini	hemicycle	24
 2018-11-04	LR	F	anciens	Indéfini	hemicycle	10
-2018-11-04	LR	F	nouveaux	Indéfini	hemicycle	31
-2018-11-04	LR	H	anciens	Indéfini	hemicycle	39
+2018-11-04	LR	F	nouveaux	Indéfini	hemicycle	24
+2018-11-04	LR	H	anciens	Indéfini	hemicycle	37
 2018-11-04	LR	H	anciens	Retiré	hemicycle	1
-2018-11-04	LR	H	nouveaux	Indéfini	hemicycle	85
+2018-11-04	LR	H	nouveaux	Indéfini	hemicycle	68
 2018-11-04	LR	H	nouveaux	Retiré	hemicycle	3
-2018-11-04	LREM	F	nouveaux	Indéfini	hemicycle	4
+2018-11-04	LREM	F	nouveaux	Indéfini	hemicycle	2
 2018-11-04	LREM	H	nouveaux	Indéfini	hemicycle	7
 2018-11-04	LREM	H	nouveaux	Retiré	hemicycle	4
 2018-11-04	MODEM	H	nouveaux	Indéfini	hemicycle	4
-2018-11-04	NI	F	nouveaux	Indéfini	hemicycle	8
+2018-11-04	NI	F	nouveaux	Indéfini	hemicycle	5
 2018-11-04	NI	H	anciens	Indéfini	hemicycle	3
-2018-11-04	SOC	F	anciens	Indéfini	hemicycle	32
-2018-11-04	SOC	H	nouveaux	Indéfini	hemicycle	5
+2018-11-04	SOC	F	anciens	Indéfini	hemicycle	30
+2018-11-04	SOC	H	nouveaux	Indéfini	hemicycle	4
 2018-11-04	UAI	F	nouveaux	Indéfini	hemicycle	2
 2018-11-04	UAI	F	nouveaux	Retiré	hemicycle	1
 2018-11-04	UAI	H	anciens	Indéfini	hemicycle	2
@@ -9345,7 +9346,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-05	LFI	F	nouveaux	Rejeté	commissions	3
 2018-11-05	LFI	F	nouveaux	Rejeté	hemicycle	10
 2018-11-05	LFI	F	nouveaux	Retiré	commissions	2
-2018-11-05	LFI	H	nouveaux	Indéfini	hemicycle	1
 2018-11-05	LFI	H	nouveaux	Irrecevable	commissions	1
 2018-11-05	LFI	H	nouveaux	Non soutenu	hemicycle	1
 2018-11-05	LFI	H	nouveaux	Rejeté	commissions	7
@@ -9353,19 +9353,18 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-05	LFI	H	nouveaux	Retiré	hemicycle	1
 2018-11-05	LR	F	anciens	Indéfini	hemicycle	1
 2018-11-05	LR	F	anciens	Rejeté	hemicycle	1
-2018-11-05	LR	F	nouveaux	Indéfini	hemicycle	5
+2018-11-05	LR	F	nouveaux	Indéfini	hemicycle	3
 2018-11-05	LR	F	nouveaux	Rejeté	hemicycle	5
-2018-11-05	LR	H	anciens	Indéfini	hemicycle	25
+2018-11-05	LR	H	anciens	Indéfini	hemicycle	20
 2018-11-05	LR	H	anciens	Non soutenu	hemicycle	1
 2018-11-05	LR	H	anciens	Rejeté	commissions	1
 2018-11-05	LR	H	anciens	Rejeté	hemicycle	5
-2018-11-05	LR	H	anciens	Retiré	hemicycle	1
-2018-11-05	LR	H	nouveaux	Indéfini	hemicycle	31
+2018-11-05	LR	H	nouveaux	Indéfini	hemicycle	21
 2018-11-05	LR	H	nouveaux	Irrecevable	hemicycle	3
 2018-11-05	LR	H	nouveaux	Rejeté	hemicycle	7
 2018-11-05	LR	H	nouveaux	Retiré	hemicycle	1
 2018-11-05	LREM	F	nouveaux	Adopté	hemicycle	1
-2018-11-05	LREM	F	nouveaux	Indéfini	hemicycle	7
+2018-11-05	LREM	F	nouveaux	Indéfini	hemicycle	5
 2018-11-05	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2018-11-05	LREM	F	nouveaux	Rejeté	hemicycle	1
 2018-11-05	LREM	F	nouveaux	Retiré	commissions	2
@@ -9378,16 +9377,16 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-05	LREM	H	nouveaux	Retiré	commissions	3
 2018-11-05	LREM	H	nouveaux	Retiré	hemicycle	3
 2018-11-05	LT	H	anciens	Adopté	hemicycle	1
-2018-11-05	LT	H	nouveaux	Indéfini	hemicycle	4
+2018-11-05	LT	H	nouveaux	Indéfini	hemicycle	3
 2018-11-05	LT	H	nouveaux	Retiré	hemicycle	2
+2018-11-05	MODEM	F	nouveaux	Indéfini	commissions	1
 2018-11-05	MODEM	F	nouveaux	Retiré	hemicycle	1
 2018-11-05	MODEM	H	nouveaux	Adopté	commissions	1
-2018-11-05	MODEM	H	nouveaux	Indéfini	hemicycle	8
+2018-11-05	MODEM	H	nouveaux	Indéfini	hemicycle	3
 2018-11-05	MODEM	H	nouveaux	Rejeté	hemicycle	1
-2018-11-05	NI	F	nouveaux	Indéfini	hemicycle	6
+2018-11-05	NI	F	nouveaux	Indéfini	hemicycle	5
 2018-11-05	NI	F	nouveaux	Rejeté	hemicycle	12
 2018-11-05	NI	H	anciens	Non soutenu	hemicycle	1
-2018-11-05	NI	H	nouveaux	Indéfini	hemicycle	2
 2018-11-05	NI	H	nouveaux	Rejeté	hemicycle	2
 2018-11-05	SOC	F	anciens	Rejeté	commissions	3
 2018-11-05	SOC	F	anciens	Rejeté	hemicycle	5
@@ -9397,15 +9396,16 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-05	SOC	H	anciens	Rejeté	commissions	10
 2018-11-05	SOC	H	anciens	Rejeté	hemicycle	13
 2018-11-05	SOC	H	anciens	Retiré	hemicycle	2
-2018-11-05	UAI	F	anciens	Indéfini	hemicycle	1
 2018-11-05	UAI	F	nouveaux	Rejeté	hemicycle	1
 2018-11-05	UAI	F	nouveaux	Retiré	hemicycle	1
 2018-11-05	UAI	H	anciens	Indéfini	hemicycle	1
 2018-11-05	UAI	H	anciens	Retiré	hemicycle	1
 2018-11-06	GDR	F	anciens	Non soutenu	commissions	1
+2018-11-06	GDR	F	nouveaux	Indéfini	commissions	2
 2018-11-06	GDR	H	anciens	Non soutenu	commissions	1
 2018-11-06	GDR	H	anciens	Retiré	commissions	1
 2018-11-06	GDR	H	nouveaux	Adopté	commissions	2
+2018-11-06	GDR	H	nouveaux	Indéfini	commissions	1
 2018-11-06	GDR	H	nouveaux	Irrecevable	commissions	8
 2018-11-06	GDR	H	nouveaux	Irrecevable	hemicycle	2
 2018-11-06	GDR	H	nouveaux	Non soutenu	commissions	23
@@ -9413,6 +9413,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	GDR	H	nouveaux	Rejeté	commissions	15
 2018-11-06	GDR	H	nouveaux	Retiré	commissions	2
 2018-11-06	LFI	F	nouveaux	Adopté	hemicycle	1
+2018-11-06	LFI	F	nouveaux	Indéfini	commissions	5
 2018-11-06	LFI	F	nouveaux	Irrecevable	commissions	8
 2018-11-06	LFI	F	nouveaux	Irrecevable	hemicycle	1
 2018-11-06	LFI	F	nouveaux	Non soutenu	commissions	3
@@ -9420,6 +9421,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	LFI	F	nouveaux	Rejeté	hemicycle	2
 2018-11-06	LFI	F	nouveaux	Tombe	commissions	3
 2018-11-06	LFI	H	nouveaux	Adopté	commissions	1
+2018-11-06	LFI	H	nouveaux	Indéfini	commissions	11
 2018-11-06	LFI	H	nouveaux	Irrecevable	commissions	8
 2018-11-06	LFI	H	nouveaux	Irrecevable	hemicycle	1
 2018-11-06	LFI	H	nouveaux	Non soutenu	commissions	3
@@ -9442,6 +9444,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	LR	F	nouveaux	Non soutenu	hemicycle	4
 2018-11-06	LR	F	nouveaux	Rejeté	commissions	16
 2018-11-06	LR	H	anciens	Adopté	commissions	5
+2018-11-06	LR	H	anciens	Indéfini	commissions	4
 2018-11-06	LR	H	anciens	Irrecevable	commissions	15
 2018-11-06	LR	H	anciens	Irrecevable	hemicycle	3
 2018-11-06	LR	H	anciens	Non soutenu	commissions	38
@@ -9464,6 +9467,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	LREM	F	anciens	Retiré	commissions	1
 2018-11-06	LREM	F	nouveaux	Adopté	commissions	48
 2018-11-06	LREM	F	nouveaux	Adopté	hemicycle	3
+2018-11-06	LREM	F	nouveaux	Indéfini	commissions	3
 2018-11-06	LREM	F	nouveaux	Irrecevable	commissions	6
 2018-11-06	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2018-11-06	LREM	F	nouveaux	Non soutenu	commissions	6
@@ -9480,6 +9484,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	LREM	H	anciens	Retiré	hemicycle	1
 2018-11-06	LREM	H	nouveaux	Adopté	commissions	47
 2018-11-06	LREM	H	nouveaux	Adopté	hemicycle	5
+2018-11-06	LREM	H	nouveaux	Indéfini	commissions	1
 2018-11-06	LREM	H	nouveaux	Irrecevable	commissions	18
 2018-11-06	LREM	H	nouveaux	Non soutenu	commissions	33
 2018-11-06	LREM	H	nouveaux	Rejeté	commissions	35
@@ -9499,12 +9504,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	LT	H	anciens	Rejeté	hemicycle	11
 2018-11-06	LT	H	anciens	Retiré	commissions	13
 2018-11-06	LT	H	anciens	Tombe	commissions	2
+2018-11-06	LT	H	nouveaux	Indéfini	commissions	2
 2018-11-06	LT	H	nouveaux	Irrecevable	commissions	13
 2018-11-06	LT	H	nouveaux	Non soutenu	commissions	7
 2018-11-06	LT	H	nouveaux	Non soutenu	hemicycle	2
 2018-11-06	LT	H	nouveaux	Rejeté	commissions	15
 2018-11-06	LT	H	nouveaux	Retiré	commissions	2
 2018-11-06	MODEM	F	nouveaux	Adopté	commissions	2
+2018-11-06	MODEM	F	nouveaux	Indéfini	commissions	3
 2018-11-06	MODEM	F	nouveaux	Irrecevable	commissions	9
 2018-11-06	MODEM	F	nouveaux	Irrecevable	hemicycle	1
 2018-11-06	MODEM	F	nouveaux	Rejeté	commissions	6
@@ -9527,6 +9534,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	NI	F	nouveaux	Retiré	hemicycle	1
 2018-11-06	SOC	F	anciens	Adopté	commissions	1
 2018-11-06	SOC	F	anciens	Adopté	hemicycle	1
+2018-11-06	SOC	F	anciens	Indéfini	commissions	2
 2018-11-06	SOC	F	anciens	Irrecevable	commissions	3
 2018-11-06	SOC	F	anciens	Non soutenu	commissions	12
 2018-11-06	SOC	F	anciens	Rejeté	commissions	19
@@ -9534,8 +9542,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	SOC	F	anciens	Retiré	commissions	12
 2018-11-06	SOC	F	anciens	Retiré	hemicycle	3
 2018-11-06	SOC	F	anciens	Tombe	commissions	2
+2018-11-06	SOC	F	nouveaux	Indéfini	commissions	1
 2018-11-06	SOC	F	nouveaux	Retiré	hemicycle	1
 2018-11-06	SOC	H	anciens	Adopté	hemicycle	1
+2018-11-06	SOC	H	anciens	Indéfini	commissions	4
 2018-11-06	SOC	H	anciens	Rejeté	commissions	1
 2018-11-06	SOC	H	anciens	Rejeté	hemicycle	1
 2018-11-06	SOC	H	nouveaux	Irrecevable	hemicycle	2
@@ -9549,6 +9559,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-06	UAI	F	nouveaux	Retiré	commissions	11
 2018-11-06	UAI	F	nouveaux	Tombe	commissions	3
 2018-11-06	UAI	H	anciens	Adopté	commissions	1
+2018-11-06	UAI	H	anciens	Indéfini	commissions	1
 2018-11-06	UAI	H	anciens	Irrecevable	commissions	5
 2018-11-06	UAI	H	anciens	Non soutenu	commissions	4
 2018-11-06	UAI	H	anciens	Non soutenu	hemicycle	2
@@ -9605,6 +9616,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-07	LR	H	nouveaux	Tombe	commissions	4
 2018-11-07	LREM	F	nouveaux	Adopté	commissions	6
 2018-11-07	LREM	F	nouveaux	Adopté	hemicycle	2
+2018-11-07	LREM	F	nouveaux	Indéfini	commissions	3
 2018-11-07	LREM	F	nouveaux	Irrecevable	hemicycle	2
 2018-11-07	LREM	F	nouveaux	Non soutenu	commissions	16
 2018-11-07	LREM	F	nouveaux	Non soutenu	hemicycle	2
@@ -9618,6 +9630,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-07	LREM	H	anciens	Tombe	commissions	3
 2018-11-07	LREM	H	nouveaux	Adopté	commissions	72
 2018-11-07	LREM	H	nouveaux	Adopté	hemicycle	7
+2018-11-07	LREM	H	nouveaux	Indéfini	commissions	3
 2018-11-07	LREM	H	nouveaux	Irrecevable	hemicycle	4
 2018-11-07	LREM	H	nouveaux	Non soutenu	commissions	8
 2018-11-07	LREM	H	nouveaux	Non soutenu	hemicycle	1
@@ -9632,6 +9645,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-07	LT	H	anciens	Non soutenu	commissions	5
 2018-11-07	LT	H	anciens	Non soutenu	hemicycle	6
 2018-11-07	LT	H	anciens	Rejeté	hemicycle	28
+2018-11-07	LT	H	nouveaux	Indéfini	commissions	1
 2018-11-07	LT	H	nouveaux	Non soutenu	commissions	1
 2018-11-07	LT	H	nouveaux	Rejeté	hemicycle	3
 2018-11-07	LT	H	nouveaux	Tombe	commissions	2
@@ -9639,12 +9653,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-07	MODEM	F	nouveaux	Rejeté	commissions	4
 2018-11-07	MODEM	F	nouveaux	Rejeté	hemicycle	2
 2018-11-07	MODEM	H	nouveaux	Adopté	commissions	2
+2018-11-07	MODEM	H	nouveaux	Indéfini	commissions	4
 2018-11-07	MODEM	H	nouveaux	Non soutenu	hemicycle	1
 2018-11-07	MODEM	H	nouveaux	Rejeté	commissions	2
 2018-11-07	MODEM	H	nouveaux	Rejeté	hemicycle	1
 2018-11-07	MODEM	H	nouveaux	Retiré	hemicycle	3
 2018-11-07	MODEM	H	nouveaux	Tombe	commissions	3
 2018-11-07	NI	F	anciens	Rejeté	hemicycle	1
+2018-11-07	NI	F	nouveaux	Indéfini	commissions	2
 2018-11-07	NI	F	nouveaux	Non soutenu	hemicycle	4
 2018-11-07	NI	H	anciens	Non soutenu	hemicycle	2
 2018-11-07	SOC	F	anciens	Adopté	commissions	1
@@ -9896,7 +9912,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-15	LFI	F	nouveaux	Irrecevable	hemicycle	1
 2018-11-15	LFI	F	nouveaux	Rejeté	hemicycle	13
 2018-11-15	LFI	F	nouveaux	Retiré	hemicycle	2
-2018-11-15	LFI	H	nouveaux	Indéfini	hemicycle	34
+2018-11-15	LFI	H	nouveaux	Indéfini	hemicycle	36
 2018-11-15	LFI	H	nouveaux	Rejeté	hemicycle	2
 2018-11-15	LFI	H	nouveaux	Retiré	hemicycle	1
 2018-11-15	LR	F	anciens	Indéfini	hemicycle	15
@@ -9910,14 +9926,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-15	LR	F	nouveaux	Rejeté	hemicycle	1
 2018-11-15	LR	F	nouveaux	Tombe	hemicycle	1
 2018-11-15	LR	H	anciens	Adopté	hemicycle	2
-2018-11-15	LR	H	anciens	Indéfini	hemicycle	48
+2018-11-15	LR	H	anciens	Indéfini	hemicycle	52
 2018-11-15	LR	H	anciens	Irrecevable	hemicycle	19
 2018-11-15	LR	H	anciens	Non soutenu	hemicycle	12
 2018-11-15	LR	H	anciens	Rejeté	hemicycle	13
 2018-11-15	LR	H	anciens	Retiré	hemicycle	9
 2018-11-15	LR	H	anciens	Tombe	hemicycle	3
 2018-11-15	LR	H	nouveaux	Adopté	hemicycle	1
-2018-11-15	LR	H	nouveaux	Indéfini	hemicycle	37
+2018-11-15	LR	H	nouveaux	Indéfini	hemicycle	44
 2018-11-15	LR	H	nouveaux	Irrecevable	hemicycle	26
 2018-11-15	LR	H	nouveaux	Non soutenu	hemicycle	24
 2018-11-15	LR	H	nouveaux	Rejeté	hemicycle	13
@@ -9951,7 +9967,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-15	LT	H	anciens	Retiré	hemicycle	3
 2018-11-15	LT	H	anciens	Tombe	hemicycle	1
 2018-11-15	LT	H	nouveaux	Adopté	hemicycle	1
-2018-11-15	LT	H	nouveaux	Indéfini	hemicycle	7
+2018-11-15	LT	H	nouveaux	Indéfini	hemicycle	8
 2018-11-15	LT	H	nouveaux	Irrecevable	hemicycle	2
 2018-11-15	LT	H	nouveaux	Non soutenu	hemicycle	17
 2018-11-15	LT	H	nouveaux	Retiré	hemicycle	1
@@ -9962,20 +9978,20 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-15	MODEM	F	nouveaux	Rejeté	hemicycle	3
 2018-11-15	MODEM	F	nouveaux	Retiré	hemicycle	1
 2018-11-15	MODEM	H	nouveaux	Adopté	hemicycle	2
-2018-11-15	MODEM	H	nouveaux	Indéfini	hemicycle	21
+2018-11-15	MODEM	H	nouveaux	Indéfini	hemicycle	26
 2018-11-15	MODEM	H	nouveaux	Non soutenu	hemicycle	9
 2018-11-15	MODEM	H	nouveaux	Rejeté	hemicycle	4
 2018-11-15	MODEM	H	nouveaux	Retiré	hemicycle	5
 2018-11-15	NI	F	anciens	Non soutenu	hemicycle	1
-2018-11-15	NI	F	nouveaux	Indéfini	hemicycle	36
+2018-11-15	NI	F	nouveaux	Indéfini	hemicycle	40
 2018-11-15	NI	F	nouveaux	Non soutenu	hemicycle	1
 2018-11-15	NI	F	nouveaux	Retiré	hemicycle	3
 2018-11-15	NI	H	anciens	Indéfini	hemicycle	1
 2018-11-15	NI	H	anciens	Irrecevable	hemicycle	1
 2018-11-15	NI	H	anciens	Non soutenu	hemicycle	2
-2018-11-15	NI	H	nouveaux	Indéfini	hemicycle	2
+2018-11-15	NI	H	nouveaux	Indéfini	hemicycle	4
 2018-11-15	SOC	F	anciens	Adopté	hemicycle	3
-2018-11-15	SOC	F	anciens	Indéfini	hemicycle	10
+2018-11-15	SOC	F	anciens	Indéfini	hemicycle	12
 2018-11-15	SOC	F	anciens	Irrecevable	hemicycle	2
 2018-11-15	SOC	F	anciens	Rejeté	hemicycle	13
 2018-11-15	SOC	F	anciens	Retiré	hemicycle	4
@@ -9984,9 +10000,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-15	SOC	H	anciens	Irrecevable	hemicycle	3
 2018-11-15	SOC	H	anciens	Non soutenu	hemicycle	1
 2018-11-15	SOC	H	anciens	Retiré	hemicycle	1
-2018-11-15	SOC	H	nouveaux	Indéfini	hemicycle	3
+2018-11-15	SOC	H	nouveaux	Indéfini	hemicycle	4
 2018-11-15	UAI	F	anciens	Adopté	hemicycle	1
-2018-11-15	UAI	F	anciens	Indéfini	hemicycle	3
+2018-11-15	UAI	F	anciens	Indéfini	hemicycle	4
 2018-11-15	UAI	F	anciens	Irrecevable	hemicycle	5
 2018-11-15	UAI	F	anciens	Non soutenu	hemicycle	2
 2018-11-15	UAI	F	anciens	Rejeté	hemicycle	8
@@ -10010,24 +10026,24 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-16	GDR	F	nouveaux	Indéfini	hemicycle	10
 2018-11-16	GDR	H	nouveaux	Indéfini	hemicycle	57
 2018-11-16	LFI	F	nouveaux	Indéfini	hemicycle	14
-2018-11-16	LFI	H	nouveaux	Indéfini	hemicycle	23
+2018-11-16	LFI	H	nouveaux	Indéfini	hemicycle	24
 2018-11-16	LFI	H	nouveaux	Rejeté	hemicycle	5
 2018-11-16	LR	F	anciens	Indéfini	hemicycle	23
 2018-11-16	LR	F	anciens	Rejeté	hemicycle	1
-2018-11-16	LR	F	nouveaux	Indéfini	hemicycle	21
+2018-11-16	LR	F	nouveaux	Indéfini	hemicycle	30
 2018-11-16	LR	H	anciens	Adopté	hemicycle	2
-2018-11-16	LR	H	anciens	Indéfini	hemicycle	109
+2018-11-16	LR	H	anciens	Indéfini	hemicycle	112
 2018-11-16	LR	H	anciens	Rejeté	hemicycle	2
-2018-11-16	LR	H	anciens	Retiré	hemicycle	1
+2018-11-16	LR	H	anciens	Retiré	hemicycle	2
 2018-11-16	LR	H	nouveaux	Adopté	hemicycle	1
-2018-11-16	LR	H	nouveaux	Indéfini	hemicycle	121
+2018-11-16	LR	H	nouveaux	Indéfini	hemicycle	141
 2018-11-16	LR	H	nouveaux	Non soutenu	hemicycle	1
 2018-11-16	LR	H	nouveaux	Rejeté	hemicycle	3
 2018-11-16	LR	H	nouveaux	Tombe	hemicycle	2
 2018-11-16	LREM	F	anciens	Retiré	hemicycle	1
 2018-11-16	LREM	F	anciens	Tombe	hemicycle	2
 2018-11-16	LREM	F	nouveaux	Adopté	hemicycle	6
-2018-11-16	LREM	F	nouveaux	Indéfini	hemicycle	103
+2018-11-16	LREM	F	nouveaux	Indéfini	hemicycle	105
 2018-11-16	LREM	F	nouveaux	Irrecevable	hemicycle	2
 2018-11-16	LREM	F	nouveaux	Retiré	hemicycle	6
 2018-11-16	LREM	H	anciens	Adopté	hemicycle	35
@@ -10069,11 +10085,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-16	UAI	H	anciens	Retiré	hemicycle	1
 2018-11-16	UAI	H	nouveaux	Non soutenu	hemicycle	2
 2018-11-17	LFI	F	nouveaux	Indéfini	hemicycle	2
-2018-11-17	LFI	H	nouveaux	Indéfini	hemicycle	1
+2018-11-17	LFI	H	nouveaux	Indéfini	hemicycle	2
 2018-11-17	LR	F	nouveaux	Indéfini	hemicycle	8
 2018-11-17	LR	H	anciens	Indéfini	hemicycle	3
 2018-11-17	LR	H	nouveaux	Indéfini	hemicycle	6
-2018-11-17	LREM	F	nouveaux	Indéfini	hemicycle	4
+2018-11-17	LREM	F	nouveaux	Indéfini	hemicycle	7
+2018-11-17	LREM	H	nouveaux	Indéfini	commissions	1
 2018-11-17	LREM	H	nouveaux	Indéfini	hemicycle	1
 2018-11-17	NI	F	nouveaux	Indéfini	hemicycle	1
 2018-11-17	UAI	H	anciens	Indéfini	hemicycle	2
