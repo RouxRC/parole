@@ -14765,12 +14765,15 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-11-22	LFI	F	nouveaux	commissions	longues	726
 2018-11-22	LFI	F	nouveaux	hemicycle	invectives	69
 2018-11-22	LFI	F	nouveaux	hemicycle	longues	5105
+2018-11-22	LFI	H	nouveaux	commissions	invectives	23
 2018-11-22	LFI	H	nouveaux	hemicycle	invectives	382
 2018-11-22	LFI	H	nouveaux	hemicycle	longues	9855
 2018-11-22	LR	F	anciens	commissions	invectives	9
 2018-11-22	LR	F	anciens	commissions	longues	151
 2018-11-22	LR	F	nouveaux	hemicycle	invectives	73
 2018-11-22	LR	F	nouveaux	hemicycle	longues	1651
+2018-11-22	LR	H	anciens	commissions	invectives	15
+2018-11-22	LR	H	anciens	commissions	longues	115
 2018-11-22	LR	H	anciens	commissions	presidence	148
 2018-11-22	LR	H	anciens	hemicycle	invectives	488
 2018-11-22	LR	H	anciens	hemicycle	longues	8708
@@ -14782,6 +14785,9 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-11-22	LREM	H	anciens	commissions	invectives	35
 2018-11-22	LREM	H	anciens	commissions	longues	518
 2018-11-22	LREM	H	anciens	hemicycle	longues	190
+2018-11-22	LREM	H	nouveaux	commissions	invectives	38
+2018-11-22	LREM	H	nouveaux	commissions	longues	51
+2018-11-22	LREM	H	nouveaux	commissions	presidence	249
 2018-11-22	LREM	H	nouveaux	hemicycle	invectives	264
 2018-11-22	LREM	H	nouveaux	hemicycle	longues	8827
 2018-11-22	LT	H	anciens	hemicycle	longues	60
