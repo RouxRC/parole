@@ -9282,17 +9282,20 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-10-31	SOC	H	anciens	Retiré	hemicycle	1
 2018-10-31	UAI	F	nouveaux	Non soutenu	hemicycle	1
 2018-10-31	UAI	H	anciens	Retiré	hemicycle	1
+2018-11-00	GDR	H	nouveaux	Indéfini	hemicycle	3
+2018-11-00	LFI	F	nouveaux	Indéfini	hemicycle	1
 2018-11-00	LFI	H	nouveaux	Indéfini	commissions	1
 2018-11-00	LR	H	anciens	Indéfini	commissions	2
 2018-11-00	LR	H	nouveaux	Indéfini	commissions	2
 2018-11-00	LREM	F	anciens	Indéfini	commissions	1
 2018-11-00	LREM	F	nouveaux	Indéfini	commissions	3
-2018-11-00	LREM	H	nouveaux	Indéfini	commissions	4
+2018-11-00	LREM	H	nouveaux	Indéfini	commissions	5
 2018-11-00	LREM	H	nouveaux	Retiré	commissions	1
-2018-11-00	LT	H	nouveaux	Indéfini	commissions	1
 2018-11-00	MODEM	F	nouveaux	Indéfini	commissions	5
 2018-11-00	MODEM	H	nouveaux	Indéfini	commissions	5
 2018-11-00	MODEM	H	nouveaux	Retiré	commissions	1
+2018-11-00	NI	F	nouveaux	Indéfini	hemicycle	3
+2018-11-00	SOC	H	anciens	Indéfini	hemicycle	3
 2018-11-00	UAI	F	anciens	Indéfini	commissions	2
 2018-11-00	UAI	F	nouveaux	Indéfini	commissions	1
 2018-11-01	LFI	F	nouveaux	Retiré	commissions	1
@@ -9700,10 +9703,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-08	SOC	H	anciens	Rejeté	hemicycle	2
 2018-11-09	LR	F	anciens	Irrecevable	hemicycle	4
 2018-11-09	LR	H	anciens	Irrecevable	hemicycle	1
+2018-11-09	LR	H	nouveaux	Indéfini	hemicycle	3
 2018-11-09	LREM	H	nouveaux	Adopté	commissions	1
 2018-11-09	LT	H	anciens	Irrecevable	commissions	5
 2018-11-09	MODEM	H	nouveaux	Rejeté	hemicycle	3
 2018-11-09	MODEM	H	nouveaux	Retiré	hemicycle	1
+2018-11-09	NI	H	nouveaux	Indéfini	hemicycle	2
 2018-11-09	SOC	F	anciens	Adopté	hemicycle	1
 2018-11-09	UAI	F	nouveaux	Irrecevable	hemicycle	1
 2018-11-11	LREM	F	nouveaux	Irrecevable	hemicycle	1
@@ -10658,4 +10663,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-30	MODEM	H	nouveaux	Indéfini	commissions	2
 2018-11-30	UAI	F	anciens	Indéfini	commissions	4
 2018-11-30	UAI	F	nouveaux	Indéfini	commissions	2
+2018-12-01	GDR	H	anciens	Indéfini	hemicycle	1
 2018-12-01	LR	H	nouveaux	Indéfini	commissions	2
+2018-12-01	LREM	F	nouveaux	Indéfini	commissions	7
+2018-12-01	LREM	H	nouveaux	Indéfini	commissions	10
+2018-12-01	LT	H	nouveaux	Indéfini	commissions	1
+2018-12-01	MODEM	F	nouveaux	Indéfini	commissions	1
+2018-12-01	MODEM	H	nouveaux	Indéfini	commissions	8
