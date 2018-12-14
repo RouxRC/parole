@@ -10566,12 +10566,19 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-11-29	UAI	F	anciens	Tombe	hemicycle	2
 2018-11-29	UAI	H	anciens	Rejeté	hemicycle	2
 2018-11-29	UAI	H	anciens	Retiré	hemicycle	1
+2018-12-00	LR	H	nouveaux	Indéfini	hemicycle	3
+2018-12-00	MODEM	H	nouveaux	Indéfini	hemicycle	1
 2018-12-01	GDR	H	anciens	Retiré	hemicycle	1
+2018-12-01	LREM	H	nouveaux	Indéfini	hemicycle	2
 2018-12-01	MODEM	H	nouveaux	Retiré	commissions	1
+2018-12-02	LREM	H	nouveaux	Indéfini	hemicycle	8
 2018-12-03	GDR	H	nouveaux	Adopté	hemicycle	1
 2018-12-03	LFI	F	nouveaux	Rejeté	commissions	1
+2018-12-03	LFI	H	nouveaux	Indéfini	hemicycle	1
+2018-12-03	LR	H	anciens	Indéfini	hemicycle	16
 2018-12-03	LR	H	anciens	Irrecevable	commissions	2
 2018-12-03	LR	H	anciens	Rejeté	hemicycle	1
+2018-12-03	LR	H	nouveaux	Indéfini	hemicycle	11
 2018-12-03	LR	H	nouveaux	Irrecevable	commissions	1
 2018-12-03	LREM	F	nouveaux	Retiré	commissions	6
 2018-12-03	LREM	H	nouveaux	Adopté	hemicycle	11
@@ -10580,39 +10587,50 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-03	LT	H	anciens	Retiré	commissions	5
 2018-12-03	MODEM	H	nouveaux	Adopté	hemicycle	1
 2018-12-03	MODEM	H	nouveaux	Retiré	commissions	2
+2018-12-03	NI	F	nouveaux	Indéfini	hemicycle	8
+2018-12-03	UAI	H	anciens	Indéfini	hemicycle	2
 2018-12-03	UAI	H	anciens	Rejeté	hemicycle	1
+2018-12-03	UAI	H	nouveaux	Indéfini	hemicycle	1
 2018-12-03	UAI	H	nouveaux	Retiré	hemicycle	2
 2018-12-04	GDR	F	nouveaux	Rejeté	hemicycle	1
 2018-12-04	GDR	F	nouveaux	Retiré	hemicycle	1
+2018-12-04	GDR	H	anciens	Indéfini	hemicycle	19
 2018-12-04	GDR	H	nouveaux	Adopté	hemicycle	1
+2018-12-04	GDR	H	nouveaux	Indéfini	hemicycle	1
 2018-12-04	GDR	H	nouveaux	Non soutenu	commissions	1
 2018-12-04	GDR	H	nouveaux	Non soutenu	hemicycle	2
 2018-12-04	GDR	H	nouveaux	Rejeté	hemicycle	6
 2018-12-04	LFI	F	nouveaux	Adopté	commissions	1
+2018-12-04	LFI	F	nouveaux	Indéfini	hemicycle	4
 2018-12-04	LFI	F	nouveaux	Non soutenu	commissions	6
 2018-12-04	LFI	F	nouveaux	Rejeté	commissions	7
 2018-12-04	LFI	F	nouveaux	Rejeté	hemicycle	6
 2018-12-04	LFI	F	nouveaux	Retiré	commissions	2
 2018-12-04	LFI	F	nouveaux	Tombe	commissions	2
+2018-12-04	LFI	H	nouveaux	Indéfini	hemicycle	6
 2018-12-04	LFI	H	nouveaux	Irrecevable	hemicycle	1
 2018-12-04	LFI	H	nouveaux	Non soutenu	commissions	3
 2018-12-04	LFI	H	nouveaux	Rejeté	commissions	5
 2018-12-04	LFI	H	nouveaux	Rejeté	hemicycle	9
 2018-12-04	LFI	H	nouveaux	Tombe	commissions	2
-2018-12-04	LR	F	anciens	Indéfini	commissions	1
 2018-12-04	LR	F	anciens	Non soutenu	hemicycle	2
 2018-12-04	LR	F	anciens	Rejeté	hemicycle	2
+2018-12-04	LR	F	nouveaux	Indéfini	hemicycle	3
 2018-12-04	LR	F	nouveaux	Irrecevable	hemicycle	1
 2018-12-04	LR	F	nouveaux	Non soutenu	commissions	1
 2018-12-04	LR	F	nouveaux	Non soutenu	hemicycle	2
 2018-12-04	LR	F	nouveaux	Rejeté	hemicycle	2
+2018-12-04	LR	F	nouveaux	Retiré	hemicycle	2
 2018-12-04	LR	H	anciens	Adopté	commissions	3
+2018-12-04	LR	H	anciens	Indéfini	hemicycle	31
 2018-12-04	LR	H	anciens	Non soutenu	commissions	1
 2018-12-04	LR	H	anciens	Non soutenu	hemicycle	11
 2018-12-04	LR	H	anciens	Rejeté	commissions	23
 2018-12-04	LR	H	anciens	Rejeté	hemicycle	20
 2018-12-04	LR	H	anciens	Retiré	commissions	9
+2018-12-04	LR	H	anciens	Retiré	hemicycle	1
 2018-12-04	LR	H	anciens	Tombe	commissions	3
+2018-12-04	LR	H	nouveaux	Indéfini	hemicycle	11
 2018-12-04	LR	H	nouveaux	Non soutenu	commissions	4
 2018-12-04	LR	H	nouveaux	Non soutenu	hemicycle	7
 2018-12-04	LR	H	nouveaux	Rejeté	commissions	21
@@ -10622,9 +10640,11 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-04	LR	H	nouveaux	Tombe	commissions	8
 2018-12-04	LR	H	nouveaux	Tombe	hemicycle	1
 2018-12-04	LREM	F	anciens	Adopté	commissions	56
+2018-12-04	LREM	F	anciens	Indéfini	hemicycle	19
 2018-12-04	LREM	F	anciens	Retiré	commissions	4
 2018-12-04	LREM	F	nouveaux	Adopté	commissions	11
 2018-12-04	LREM	F	nouveaux	Adopté	hemicycle	2
+2018-12-04	LREM	F	nouveaux	Indéfini	hemicycle	2
 2018-12-04	LREM	F	nouveaux	Non soutenu	hemicycle	3
 2018-12-04	LREM	F	nouveaux	Rejeté	commissions	2
 2018-12-04	LREM	F	nouveaux	Retiré	commissions	7
@@ -10632,25 +10652,31 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-04	LREM	F	nouveaux	Tombe	commissions	4
 2018-12-04	LREM	H	nouveaux	Adopté	commissions	16
 2018-12-04	LREM	H	nouveaux	Adopté	hemicycle	20
+2018-12-04	LREM	H	nouveaux	Indéfini	hemicycle	12
 2018-12-04	LREM	H	nouveaux	Non soutenu	commissions	26
 2018-12-04	LREM	H	nouveaux	Non soutenu	hemicycle	1
 2018-12-04	LREM	H	nouveaux	Retiré	commissions	4
+2018-12-04	LT	H	anciens	Indéfini	hemicycle	2
 2018-12-04	LT	H	anciens	Irrecevable	hemicycle	1
 2018-12-04	LT	H	anciens	Non soutenu	hemicycle	5
 2018-12-04	LT	H	anciens	Rejeté	hemicycle	3
 2018-12-04	LT	H	nouveaux	Adopté	commissions	1
+2018-12-04	LT	H	nouveaux	Indéfini	hemicycle	8
 2018-12-04	LT	H	nouveaux	Non soutenu	commissions	1
 2018-12-04	LT	H	nouveaux	Rejeté	commissions	7
 2018-12-04	LT	H	nouveaux	Rejeté	hemicycle	3
 2018-12-04	MODEM	F	nouveaux	Adopté	commissions	2
+2018-12-04	MODEM	F	nouveaux	Indéfini	hemicycle	3
 2018-12-04	MODEM	F	nouveaux	Non soutenu	hemicycle	5
 2018-12-04	MODEM	F	nouveaux	Retiré	commissions	7
 2018-12-04	MODEM	F	nouveaux	Tombe	commissions	1
 2018-12-04	MODEM	H	nouveaux	Adopté	commissions	8
+2018-12-04	MODEM	H	nouveaux	Indéfini	hemicycle	1
 2018-12-04	MODEM	H	nouveaux	Non soutenu	commissions	1
 2018-12-04	MODEM	H	nouveaux	Rejeté	commissions	2
 2018-12-04	MODEM	H	nouveaux	Retiré	commissions	7
 2018-12-04	MODEM	H	nouveaux	Tombe	commissions	1
+2018-12-04	NI	F	nouveaux	Indéfini	hemicycle	11
 2018-12-04	NI	F	nouveaux	Irrecevable	hemicycle	2
 2018-12-04	NI	F	nouveaux	Non soutenu	hemicycle	5
 2018-12-04	NI	F	nouveaux	Rejeté	hemicycle	5
@@ -10659,6 +10685,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-04	NI	H	nouveaux	Non soutenu	hemicycle	2
 2018-12-04	SOC	F	anciens	Rejeté	hemicycle	2
 2018-12-04	SOC	F	anciens	Tombe	commissions	1
+2018-12-04	SOC	H	anciens	Indéfini	hemicycle	2
 2018-12-04	SOC	H	anciens	Non soutenu	commissions	4
 2018-12-04	SOC	H	anciens	Rejeté	commissions	2
 2018-12-04	SOC	H	anciens	Retiré	commissions	3
@@ -10666,11 +10693,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-04	SOC	H	anciens	Tombe	commissions	1
 2018-12-04	SOC	H	anciens	Tombe	hemicycle	1
 2018-12-04	SOC	H	nouveaux	Rejeté	hemicycle	5
+2018-12-04	UAI	F	anciens	Indéfini	hemicycle	3
 2018-12-04	UAI	F	anciens	Retiré	commissions	3
 2018-12-04	UAI	F	anciens	Tombe	commissions	2
 2018-12-04	UAI	F	nouveaux	Adopté	commissions	1
+2018-12-04	UAI	F	nouveaux	Indéfini	hemicycle	6
 2018-12-04	UAI	F	nouveaux	Rejeté	commissions	1
 2018-12-04	UAI	F	nouveaux	Retiré	commissions	2
+2018-12-04	UAI	H	anciens	Indéfini	hemicycle	12
 2018-12-04	UAI	H	anciens	Non soutenu	commissions	1
 2018-12-04	UAI	H	anciens	Non soutenu	hemicycle	6
 2018-12-04	UAI	H	anciens	Rejeté	commissions	2
@@ -10765,97 +10795,88 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-12	GDR	H	nouveaux	Non soutenu	hemicycle	1
 2018-12-12	LREM	F	nouveaux	Retiré	hemicycle	1
 2018-12-12	SOC	H	anciens	Adopté	hemicycle	3
-2018-12-13	GDR	F	anciens	Indéfini	commissions	1
-2018-12-13	GDR	H	nouveaux	Indéfini	commissions	8
 2018-12-13	GDR	H	nouveaux	Irrecevable	commissions	4
-2018-12-13	LFI	F	nouveaux	Indéfini	commissions	7
 2018-12-13	LFI	F	nouveaux	Irrecevable	commissions	8
 2018-12-13	LFI	F	nouveaux	Retiré	commissions	1
-2018-12-13	LFI	H	nouveaux	Indéfini	commissions	5
 2018-12-13	LFI	H	nouveaux	Irrecevable	commissions	8
-2018-12-13	LR	F	anciens	Indéfini	commissions	12
 2018-12-13	LR	F	anciens	Irrecevable	commissions	6
-2018-12-13	LR	F	nouveaux	Indéfini	commissions	1
 2018-12-13	LR	F	nouveaux	Irrecevable	commissions	4
-2018-12-13	LR	H	anciens	Indéfini	commissions	2
 2018-12-13	LR	H	anciens	Irrecevable	commissions	2
-2018-12-13	LR	H	nouveaux	Indéfini	commissions	19
 2018-12-13	LR	H	nouveaux	Irrecevable	commissions	4
-2018-12-13	LREM	F	nouveaux	Indéfini	commissions	8
 2018-12-13	LREM	F	nouveaux	Irrecevable	commissions	4
 2018-12-13	LREM	F	nouveaux	Retiré	commissions	2
-2018-12-13	LREM	H	anciens	Indéfini	commissions	73
 2018-12-13	LREM	H	anciens	Irrecevable	commissions	1
 2018-12-13	LREM	H	anciens	Retiré	commissions	3
-2018-12-13	LREM	H	nouveaux	Indéfini	commissions	8
 2018-12-13	LREM	H	nouveaux	Irrecevable	commissions	6
 2018-12-13	LREM	H	nouveaux	Retiré	commissions	1
-2018-12-13	LT	H	anciens	Indéfini	commissions	20
 2018-12-13	LT	H	anciens	Irrecevable	commissions	17
-2018-12-13	LT	H	nouveaux	Indéfini	commissions	1
 2018-12-13	LT	H	nouveaux	Irrecevable	commissions	4
-2018-12-13	MODEM	F	nouveaux	Indéfini	commissions	1
-2018-12-13	MODEM	H	nouveaux	Indéfini	commissions	2
 2018-12-13	MODEM	H	nouveaux	Irrecevable	commissions	5
-2018-12-13	SOC	F	anciens	Indéfini	commissions	32
 2018-12-13	SOC	F	anciens	Irrecevable	commissions	5
-2018-12-13	SOC	H	anciens	Indéfini	commissions	5
 2018-12-13	SOC	H	anciens	Irrecevable	commissions	4
-2018-12-13	SOC	H	nouveaux	Indéfini	commissions	2
-2018-12-13	UAI	F	anciens	Indéfini	commissions	1
 2018-12-14	GDR	F	anciens	Rejeté	commissions	2
+2018-12-14	GDR	F	anciens	Tombe	commissions	1
 2018-12-14	GDR	F	nouveaux	Tombe	commissions	1
 2018-12-14	GDR	H	nouveaux	Irrecevable	commissions	1
-2018-12-14	GDR	H	nouveaux	Non soutenu	commissions	3
+2018-12-14	GDR	H	nouveaux	Non soutenu	commissions	8
 2018-12-14	GDR	H	nouveaux	Rejeté	commissions	9
 2018-12-14	GDR	H	nouveaux	Retiré	commissions	2
-2018-12-14	GDR	H	nouveaux	Tombe	commissions	1
-2018-12-14	LFI	F	nouveaux	Indéfini	commissions	3
-2018-12-14	LFI	F	nouveaux	Non soutenu	commissions	5
+2018-12-14	GDR	H	nouveaux	Tombe	commissions	4
+2018-12-14	LFI	F	nouveaux	Non soutenu	commissions	13
 2018-12-14	LFI	F	nouveaux	Rejeté	commissions	3
-2018-12-14	LFI	H	nouveaux	Indéfini	commissions	4
-2018-12-14	LFI	H	nouveaux	Non soutenu	commissions	11
-2018-12-14	LFI	H	nouveaux	Rejeté	commissions	4
-2018-12-14	LFI	H	nouveaux	Tombe	commissions	3
+2018-12-14	LFI	F	nouveaux	Retiré	commissions	1
+2018-12-14	LFI	F	nouveaux	Tombe	commissions	1
+2018-12-14	LFI	H	nouveaux	Non soutenu	commissions	16
+2018-12-14	LFI	H	nouveaux	Rejeté	commissions	6
+2018-12-14	LFI	H	nouveaux	Tombe	commissions	5
 2018-12-14	LR	F	anciens	Adopté	commissions	1
-2018-12-14	LR	F	anciens	Rejeté	commissions	6
-2018-12-14	LR	F	anciens	Retiré	commissions	3
-2018-12-14	LR	F	anciens	Tombe	commissions	6
+2018-12-14	LR	F	anciens	Irrecevable	commissions	1
+2018-12-14	LR	F	anciens	Rejeté	commissions	11
+2018-12-14	LR	F	anciens	Retiré	commissions	7
+2018-12-14	LR	F	anciens	Tombe	commissions	9
 2018-12-14	LR	F	nouveaux	Adopté	commissions	1
 2018-12-14	LR	F	nouveaux	Rejeté	commissions	3
-2018-12-14	LR	F	nouveaux	Retiré	commissions	2
+2018-12-14	LR	F	nouveaux	Retiré	commissions	3
+2018-12-14	LR	H	anciens	Non soutenu	commissions	1
+2018-12-14	LR	H	anciens	Rejeté	commissions	1
 2018-12-14	LR	H	nouveaux	Irrecevable	commissions	2
-2018-12-14	LR	H	nouveaux	Non soutenu	commissions	7
-2018-12-14	LR	H	nouveaux	Retiré	commissions	5
-2018-12-14	LR	H	nouveaux	Tombe	commissions	4
+2018-12-14	LR	H	nouveaux	Non soutenu	commissions	17
+2018-12-14	LR	H	nouveaux	Retiré	commissions	7
+2018-12-14	LR	H	nouveaux	Tombe	commissions	11
+2018-12-14	LREM	F	anciens	Indéfini	hemicycle	1
 2018-12-14	LREM	F	nouveaux	Adopté	commissions	4
-2018-12-14	LREM	F	nouveaux	Non soutenu	commissions	1
-2018-12-14	LREM	F	nouveaux	Rejeté	commissions	4
-2018-12-14	LREM	F	nouveaux	Retiré	commissions	2
-2018-12-14	LREM	H	anciens	Adopté	commissions	104
+2018-12-14	LREM	F	nouveaux	Non soutenu	commissions	2
+2018-12-14	LREM	F	nouveaux	Rejeté	commissions	5
+2018-12-14	LREM	F	nouveaux	Retiré	commissions	3
+2018-12-14	LREM	F	nouveaux	Tombe	commissions	5
+2018-12-14	LREM	H	anciens	Adopté	commissions	176
+2018-12-14	LREM	H	anciens	Rejeté	commissions	1
 2018-12-14	LREM	H	anciens	Retiré	commissions	1
-2018-12-14	LREM	H	nouveaux	Adopté	commissions	2
-2018-12-14	LREM	H	nouveaux	Indéfini	commissions	1
-2018-12-14	LREM	H	nouveaux	Non soutenu	commissions	1
-2018-12-14	LREM	H	nouveaux	Rejeté	commissions	4
-2018-12-14	LREM	H	nouveaux	Retiré	commissions	5
-2018-12-14	LREM	H	nouveaux	Tombe	commissions	5
+2018-12-14	LREM	H	nouveaux	Adopté	commissions	4
+2018-12-14	LREM	H	nouveaux	Non soutenu	commissions	3
+2018-12-14	LREM	H	nouveaux	Rejeté	commissions	5
+2018-12-14	LREM	H	nouveaux	Retiré	commissions	6
+2018-12-14	LREM	H	nouveaux	Tombe	commissions	8
 2018-12-14	LT	F	anciens	Non soutenu	commissions	1
 2018-12-14	LT	H	anciens	Irrecevable	commissions	14
-2018-12-14	LT	H	anciens	Rejeté	commissions	11
-2018-12-14	LT	H	anciens	Tombe	commissions	10
+2018-12-14	LT	H	anciens	Non soutenu	commissions	1
+2018-12-14	LT	H	anciens	Rejeté	commissions	20
+2018-12-14	LT	H	anciens	Tombe	commissions	20
 2018-12-14	LT	H	nouveaux	Non soutenu	commissions	2
-2018-12-14	MODEM	H	nouveaux	Rejeté	commissions	3
+2018-12-14	LT	H	nouveaux	Rejeté	commissions	1
+2018-12-14	MODEM	F	nouveaux	Rejeté	commissions	1
+2018-12-14	MODEM	H	nouveaux	Adopté	commissions	1
+2018-12-14	MODEM	H	nouveaux	Rejeté	commissions	4
 2018-12-14	MODEM	H	nouveaux	Tombe	commissions	4
-2018-12-14	SOC	F	anciens	Adopté	commissions	5
-2018-12-14	SOC	F	anciens	Indéfini	commissions	5
+2018-12-14	SOC	F	anciens	Adopté	commissions	11
 2018-12-14	SOC	F	anciens	Irrecevable	commissions	7
-2018-12-14	SOC	F	anciens	Non soutenu	commissions	1
-2018-12-14	SOC	F	anciens	Rejeté	commissions	41
+2018-12-14	SOC	F	anciens	Non soutenu	commissions	2
+2018-12-14	SOC	F	anciens	Rejeté	commissions	65
 2018-12-14	SOC	F	anciens	Retiré	commissions	5
-2018-12-14	SOC	F	anciens	Tombe	commissions	6
+2018-12-14	SOC	F	anciens	Tombe	commissions	12
 2018-12-14	SOC	H	anciens	Irrecevable	commissions	6
-2018-12-14	SOC	H	anciens	Non soutenu	commissions	1
-2018-12-14	SOC	H	anciens	Rejeté	commissions	2
-2018-12-14	SOC	H	anciens	Tombe	commissions	4
-2018-12-14	SOC	H	nouveaux	Rejeté	commissions	8
+2018-12-14	SOC	H	anciens	Non soutenu	commissions	2
+2018-12-14	SOC	H	anciens	Rejeté	commissions	4
+2018-12-14	SOC	H	anciens	Tombe	commissions	6
+2018-12-14	SOC	H	nouveaux	Rejeté	commissions	10
+2018-12-14	UAI	F	anciens	Non soutenu	commissions	1
