@@ -10822,17 +10822,17 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-14	GDR	H	nouveaux	Rejeté	commissions	9
 2018-12-14	GDR	H	nouveaux	Retiré	commissions	2
 2018-12-14	GDR	H	nouveaux	Tombe	commissions	4
-2018-12-14	LFI	F	nouveaux	Non soutenu	commissions	13
+2018-12-14	LFI	F	nouveaux	Non soutenu	commissions	14
 2018-12-14	LFI	F	nouveaux	Rejeté	commissions	3
-2018-12-14	LFI	F	nouveaux	Retiré	commissions	1
 2018-12-14	LFI	F	nouveaux	Tombe	commissions	1
 2018-12-14	LFI	H	nouveaux	Non soutenu	commissions	16
 2018-12-14	LFI	H	nouveaux	Rejeté	commissions	6
 2018-12-14	LFI	H	nouveaux	Tombe	commissions	5
 2018-12-14	LR	F	anciens	Adopté	commissions	1
 2018-12-14	LR	F	anciens	Irrecevable	commissions	1
+2018-12-14	LR	F	anciens	Non soutenu	commissions	1
 2018-12-14	LR	F	anciens	Rejeté	commissions	11
-2018-12-14	LR	F	anciens	Retiré	commissions	7
+2018-12-14	LR	F	anciens	Retiré	commissions	6
 2018-12-14	LR	F	anciens	Tombe	commissions	9
 2018-12-14	LR	F	nouveaux	Adopté	commissions	1
 2018-12-14	LR	F	nouveaux	Rejeté	commissions	3
@@ -10840,9 +10840,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-14	LR	H	anciens	Non soutenu	commissions	1
 2018-12-14	LR	H	anciens	Rejeté	commissions	1
 2018-12-14	LR	H	nouveaux	Irrecevable	commissions	2
-2018-12-14	LR	H	nouveaux	Non soutenu	commissions	17
-2018-12-14	LR	H	nouveaux	Retiré	commissions	7
-2018-12-14	LR	H	nouveaux	Tombe	commissions	11
+2018-12-14	LR	H	nouveaux	Non soutenu	commissions	18
+2018-12-14	LR	H	nouveaux	Retiré	commissions	4
+2018-12-14	LR	H	nouveaux	Tombe	commissions	12
 2018-12-14	LREM	F	anciens	Indéfini	hemicycle	1
 2018-12-14	LREM	F	nouveaux	Adopté	commissions	4
 2018-12-14	LREM	F	nouveaux	Non soutenu	commissions	2
@@ -10880,3 +10880,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-12-14	SOC	H	anciens	Tombe	commissions	6
 2018-12-14	SOC	H	nouveaux	Rejeté	commissions	10
 2018-12-14	UAI	F	anciens	Non soutenu	commissions	1
+2018-12-15	LR	H	nouveaux	Tombe	commissions	1
