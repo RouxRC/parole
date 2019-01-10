@@ -15663,8 +15663,11 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-12-13	LR	F	anciens	hemicycle	invectives	20
 2018-12-13	LR	F	anciens	hemicycle	longues	2991
 2018-12-13	LR	F	nouveaux	hemicycle	invectives	14
+2018-12-13	LR	H	anciens	commissions	invectives	0
 2018-12-13	LR	H	anciens	hemicycle	invectives	56
 2018-12-13	LR	H	nouveaux	hemicycle	invectives	48
+2018-12-13	LREM	F	nouveaux	commissions	invectives	0
+2018-12-13	LREM	F	nouveaux	commissions	presidence	0
 2018-12-13	LREM	F	nouveaux	hemicycle	invectives	76
 2018-12-13	LREM	H	anciens	hemicycle	presidence	717
 2018-12-13	LREM	H	nouveaux	hemicycle	invectives	268
@@ -15680,9 +15683,11 @@ date	groupes	genre	renouveau	debats	interventions	total
 2018-12-13	NI	H	nouveaux	hemicycle	invectives	8
 2018-12-13	SOC	F	anciens	hemicycle	invectives	59
 2018-12-13	SOC	F	nouveaux	hemicycle	invectives	8
+2018-12-13	SOC	H	anciens	commissions	invectives	0
 2018-12-13	SOC	H	anciens	hemicycle	invectives	204
 2018-12-13	SOC	H	anciens	hemicycle	longues	2365
 2018-12-13	SOC	H	nouveaux	hemicycle	invectives	36
+2018-12-13	UAI	F	nouveaux	commissions	invectives	0
 2018-12-13	UAI	H	anciens	hemicycle	invectives	94
 2018-12-13	UAI	H	anciens	hemicycle	longues	2882
 2018-12-14	GDR	H	nouveaux	commissions	invectives	30
