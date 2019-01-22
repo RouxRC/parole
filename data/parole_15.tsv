@@ -15973,7 +15973,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-01-15	LR	F	anciens	hemicycle	longues	396
 2019-01-15	LR	F	nouveaux	hemicycle	invectives	60
 2019-01-15	LR	F	nouveaux	hemicycle	longues	1016
-2019-01-15	LR	H	anciens	commissions	longues	67
+2019-01-15	LR	H	anciens	commissions	longues	242
 2019-01-15	LR	H	anciens	hemicycle	invectives	311
 2019-01-15	LR	H	anciens	hemicycle	longues	7229
 2019-01-15	LR	H	anciens	hemicycle	presidence	3600
@@ -15982,13 +15982,14 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-01-15	LR	H	nouveaux	hemicycle	invectives	197
 2019-01-15	LR	H	nouveaux	hemicycle	longues	5724
 2019-01-15	LREM	F	anciens	hemicycle	invectives	17
-2019-01-15	LREM	F	nouveaux	commissions	longues	103
+2019-01-15	LREM	F	nouveaux	commissions	longues	1748
 2019-01-15	LREM	F	nouveaux	hemicycle	invectives	99
 2019-01-15	LREM	F	nouveaux	hemicycle	longues	9232
 2019-01-15	LREM	H	anciens	commissions	presidence	202
 2019-01-15	LREM	H	anciens	hemicycle	longues	293
 2019-01-15	LREM	H	anciens	hemicycle	presidence	774
 2019-01-15	LREM	H	nouveaux	commissions	longues	3973
+2019-01-15	LREM	H	nouveaux	commissions	presidence	188
 2019-01-15	LREM	H	nouveaux	hemicycle	invectives	137
 2019-01-15	LREM	H	nouveaux	hemicycle	longues	8191
 2019-01-15	LREM	H	nouveaux	hemicycle	presidence	1282
@@ -15998,6 +15999,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-01-15	LT	H	anciens	hemicycle	longues	2591
 2019-01-15	LT	H	nouveaux	hemicycle	longues	687
 2019-01-15	MODEM	F	nouveaux	hemicycle	longues	1172
+2019-01-15	MODEM	H	nouveaux	commissions	longues	268
 2019-01-15	MODEM	H	nouveaux	hemicycle	invectives	82
 2019-01-15	MODEM	H	nouveaux	hemicycle	longues	2053
 2019-01-15	NI	F	anciens	hemicycle	invectives	3
@@ -16011,6 +16013,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-01-15	SOC	F	nouveaux	hemicycle	longues	532
 2019-01-15	SOC	H	anciens	hemicycle	invectives	11
 2019-01-15	SOC	H	anciens	hemicycle	longues	1240
+2019-01-15	SOC	H	nouveaux	commissions	longues	61
 2019-01-15	SOC	H	nouveaux	hemicycle	invectives	20
 2019-01-15	UAI	H	anciens	hemicycle	invectives	6
 2019-01-15	UAI	H	anciens	hemicycle	longues	2368
