@@ -11272,7 +11272,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-01-05	LR	H	anciens	Indéfini	commissions	9
 2019-01-05	LR	H	anciens	Indéfini	hemicycle	5
 2019-01-05	LR	H	anciens	Retiré	commissions	1
-2019-01-05	LR	H	nouveaux	Indéfini	commissions	6
+2019-01-05	LR	H	nouveaux	Indéfini	commissions	5
 2019-01-05	LR	H	nouveaux	Indéfini	hemicycle	6
 2019-01-05	LREM	F	nouveaux	Indéfini	commissions	23
 2019-01-05	LREM	F	nouveaux	Indéfini	hemicycle	5
@@ -11289,7 +11289,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-01-05	SOC	H	anciens	Indéfini	commissions	9
 2019-01-05	UAI	F	anciens	Indéfini	commissions	4
 2019-01-05	UAI	F	nouveaux	Indéfini	commissions	2
-2019-01-06	LREM	F	nouveaux	Indéfini	commissions	11
+2019-01-06	LREM	F	nouveaux	Indéfini	commissions	9
 2019-01-07	LREM	F	nouveaux	Retiré	commissions	1
 2019-01-08	LFI	H	nouveaux	Retiré	commissions	1
 2019-01-08	LR	F	nouveaux	Retiré	hemicycle	1
@@ -11624,6 +11624,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-01-25	LR	H	anciens	Retiré	hemicycle	1
 2019-01-25	LR	H	nouveaux	Indéfini	commissions	14
 2019-01-25	LR	H	nouveaux	Indéfini	hemicycle	26
+2019-01-25	LR	H	nouveaux	Retiré	commissions	1
 2019-01-25	LREM	F	anciens	Indéfini	commissions	1
 2019-01-25	LREM	F	nouveaux	Indéfini	commissions	63
 2019-01-25	LREM	F	nouveaux	Indéfini	hemicycle	22
@@ -11650,3 +11651,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-01-25	UAI	H	anciens	Indéfini	hemicycle	4
 2019-01-25	UAI	H	nouveaux	Indéfini	hemicycle	4
 2019-01-27	LR	H	anciens	Indéfini	commissions	1
+2019-01-27	LREM	F	nouveaux	Indéfini	commissions	2
