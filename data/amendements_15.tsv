@@ -11857,42 +11857,38 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-01-31	UAI	F	nouveaux	Rejeté	hemicycle	1
 2019-01-31	UAI	F	nouveaux	Tombe	hemicycle	2
 2019-01-31	UAI	H	nouveaux	Rejeté	hemicycle	1
-2019-02-01	LFI	F	nouveaux	Indéfini	commissions	2
-2019-02-01	LFI	H	nouveaux	Indéfini	commissions	2
-2019-02-01	LFI	H	nouveaux	Non soutenu	commissions	1
-2019-02-01	LR	F	nouveaux	Indéfini	commissions	1
-2019-02-01	LR	H	anciens	Indéfini	commissions	4
+2019-02-01	LFI	H	nouveaux	Non soutenu	commissions	2
 2019-02-01	LR	H	anciens	Rejeté	commissions	2
+2019-02-01	LR	H	anciens	Retiré	commissions	3
 2019-02-01	LR	H	anciens	Tombe	commissions	2
-2019-02-01	LR	H	nouveaux	Indéfini	commissions	10
 2019-02-01	LR	H	nouveaux	Non soutenu	commissions	1
-2019-02-01	LR	H	nouveaux	Rejeté	commissions	1
-2019-02-01	LR	H	nouveaux	Retiré	commissions	1
-2019-02-01	LREM	F	nouveaux	Adopté	commissions	2
+2019-02-01	LR	H	nouveaux	Rejeté	commissions	4
+2019-02-01	LR	H	nouveaux	Retiré	commissions	3
+2019-02-01	LREM	F	nouveaux	Adopté	commissions	7
 2019-02-01	LREM	F	nouveaux	Adopté	hemicycle	1
-2019-02-01	LREM	F	nouveaux	Indéfini	commissions	14
+2019-02-01	LREM	F	nouveaux	Indéfini	commissions	1
 2019-02-01	LREM	F	nouveaux	Irrecevable	commissions	2
+2019-02-01	LREM	F	nouveaux	Non soutenu	commissions	2
 2019-02-01	LREM	F	nouveaux	Rejeté	commissions	1
-2019-02-01	LREM	F	nouveaux	Tombe	commissions	1
+2019-02-01	LREM	F	nouveaux	Retiré	commissions	2
+2019-02-01	LREM	F	nouveaux	Tombe	commissions	2
+2019-02-01	LREM	H	nouveaux	Adopté	commissions	1
 2019-02-01	LREM	H	nouveaux	Adopté	hemicycle	1
-2019-02-01	LREM	H	nouveaux	Indéfini	commissions	6
+2019-02-01	LREM	H	nouveaux	Indéfini	commissions	1
 2019-02-01	LREM	H	nouveaux	Irrecevable	commissions	1
+2019-02-01	LREM	H	nouveaux	Rejeté	commissions	1
 2019-02-01	LT	H	anciens	Indéfini	commissions	1
 2019-02-01	LT	H	anciens	Retiré	commissions	3
-2019-02-01	LT	H	nouveaux	Indéfini	commissions	1
-2019-02-01	MODEM	H	nouveaux	Indéfini	commissions	1
-2019-02-01	NI	F	nouveaux	Indéfini	commissions	4
-2019-02-01	SOC	F	anciens	Indéfini	commissions	6
+2019-02-01	NI	F	nouveaux	Non soutenu	commissions	4
+2019-02-01	SOC	F	anciens	Adopté	commissions	1
 2019-02-01	SOC	F	anciens	Irrecevable	commissions	1
+2019-02-01	SOC	F	anciens	Rejeté	commissions	1
+2019-02-01	SOC	F	anciens	Tombe	commissions	1
 2019-02-01	SOC	H	anciens	Indéfini	hemicycle	8
-2019-02-01	UAI	F	anciens	Indéfini	commissions	1
-2019-02-01	UAI	F	anciens	Rejeté	commissions	1
-2019-02-01	UAI	F	nouveaux	Indéfini	commissions	2
-2019-02-01	UAI	H	nouveaux	Indéfini	commissions	2
+2019-02-01	UAI	F	anciens	Rejeté	commissions	2
+2019-02-01	UAI	F	nouveaux	Retiré	commissions	1
 2019-02-01	UAI	H	nouveaux	Rejeté	commissions	2
-2019-02-01	UAI	H	nouveaux	Tombe	commissions	1
-2019-02-02	LREM	H	nouveaux	Indéfini	commissions	24
-2019-02-02	NI	F	nouveaux	Indéfini	commissions	6
+2019-02-01	UAI	H	nouveaux	Tombe	commissions	2
 2019-02-03	LFI	H	nouveaux	Tombe	commissions	1
 2019-02-03	LR	H	anciens	Tombe	commissions	2
 2019-02-03	LR	H	nouveaux	Irrecevable	commissions	2
@@ -11917,68 +11913,67 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-02-04	LFI	H	nouveaux	Irrecevable	commissions	1
 2019-02-04	LR	F	anciens	Non soutenu	commissions	1
 2019-02-04	LR	F	anciens	Tombe	commissions	1
+2019-02-04	LR	F	nouveaux	Rejeté	commissions	1
 2019-02-04	LR	F	nouveaux	Tombe	commissions	1
-2019-02-04	LR	H	anciens	Indéfini	commissions	1
 2019-02-04	LR	H	anciens	Irrecevable	commissions	1
 2019-02-04	LR	H	anciens	Non soutenu	commissions	4
-2019-02-04	LR	H	anciens	Rejeté	commissions	5
+2019-02-04	LR	H	anciens	Rejeté	commissions	6
 2019-02-04	LR	H	anciens	Retiré	commissions	2
-2019-02-04	LR	H	anciens	Tombe	commissions	6
-2019-02-04	LR	H	nouveaux	Indéfini	commissions	7
+2019-02-04	LR	H	anciens	Tombe	commissions	7
 2019-02-04	LR	H	nouveaux	Irrecevable	commissions	4
 2019-02-04	LR	H	nouveaux	Non soutenu	commissions	7
-2019-02-04	LR	H	nouveaux	Rejeté	commissions	8
-2019-02-04	LR	H	nouveaux	Retiré	commissions	3
-2019-02-04	LR	H	nouveaux	Tombe	commissions	15
-2019-02-04	LREM	F	nouveaux	Adopté	commissions	7
-2019-02-04	LREM	F	nouveaux	Indéfini	commissions	13
-2019-02-04	LREM	F	nouveaux	Rejeté	commissions	4
+2019-02-04	LR	H	nouveaux	Rejeté	commissions	11
+2019-02-04	LR	H	nouveaux	Retiré	commissions	5
+2019-02-04	LR	H	nouveaux	Tombe	commissions	21
+2019-02-04	LREM	F	nouveaux	Adopté	commissions	13
+2019-02-04	LREM	F	nouveaux	Non soutenu	commissions	3
+2019-02-04	LREM	F	nouveaux	Rejeté	commissions	5
 2019-02-04	LREM	F	nouveaux	Retiré	commissions	3
-2019-02-04	LREM	F	nouveaux	Tombe	commissions	6
+2019-02-04	LREM	F	nouveaux	Tombe	commissions	12
 2019-02-04	LREM	H	anciens	Adopté	commissions	1
 2019-02-04	LREM	H	anciens	Irrecevable	commissions	2
 2019-02-04	LREM	H	anciens	Retiré	commissions	1
-2019-02-04	LREM	H	nouveaux	Adopté	commissions	6
-2019-02-04	LREM	H	nouveaux	Indéfini	commissions	21
+2019-02-04	LREM	H	nouveaux	Adopté	commissions	23
 2019-02-04	LREM	H	nouveaux	Irrecevable	commissions	3
 2019-02-04	LREM	H	nouveaux	Non soutenu	commissions	1
-2019-02-04	LREM	H	nouveaux	Rejeté	commissions	8
-2019-02-04	LREM	H	nouveaux	Retiré	commissions	10
-2019-02-04	LREM	H	nouveaux	Tombe	commissions	9
+2019-02-04	LREM	H	nouveaux	Rejeté	commissions	9
+2019-02-04	LREM	H	nouveaux	Retiré	commissions	21
+2019-02-04	LREM	H	nouveaux	Tombe	commissions	24
 2019-02-04	LT	H	anciens	Adopté	commissions	1
 2019-02-04	LT	H	anciens	Irrecevable	commissions	6
 2019-02-04	LT	H	anciens	Non soutenu	commissions	3
 2019-02-04	LT	H	anciens	Rejeté	commissions	3
 2019-02-04	LT	H	anciens	Tombe	commissions	3
-2019-02-04	LT	H	nouveaux	Indéfini	commissions	1
 2019-02-04	LT	H	nouveaux	Non soutenu	commissions	2
+2019-02-04	LT	H	nouveaux	Rejeté	commissions	2
 2019-02-04	MODEM	F	nouveaux	Retiré	commissions	2
 2019-02-04	MODEM	H	nouveaux	Irrecevable	commissions	1
+2019-02-04	MODEM	H	nouveaux	Rejeté	commissions	1
 2019-02-04	MODEM	H	nouveaux	Retiré	commissions	2
 2019-02-04	MODEM	H	nouveaux	Tombe	commissions	2
+2019-02-04	NI	F	nouveaux	Adopté	commissions	1
 2019-02-04	NI	F	nouveaux	Irrecevable	commissions	2
-2019-02-04	SOC	F	anciens	Adopté	commissions	1
-2019-02-04	SOC	F	anciens	Indéfini	commissions	2
+2019-02-04	NI	F	nouveaux	Rejeté	commissions	5
+2019-02-04	SOC	F	anciens	Adopté	commissions	2
 2019-02-04	SOC	F	anciens	Non soutenu	commissions	1
 2019-02-04	SOC	F	anciens	Rejeté	commissions	1
-2019-02-04	SOC	F	anciens	Tombe	commissions	5
+2019-02-04	SOC	F	anciens	Retiré	commissions	1
+2019-02-04	SOC	F	anciens	Tombe	commissions	8
+2019-02-04	UAI	F	nouveaux	Rejeté	commissions	1
 2019-02-04	UAI	H	anciens	Rejeté	commissions	1
 2019-02-04	UAI	H	anciens	Retiré	commissions	1
 2019-02-04	UAI	H	anciens	Tombe	commissions	1
-2019-02-04	UAI	H	nouveaux	Indéfini	commissions	2
 2019-02-04	UAI	H	nouveaux	Irrecevable	commissions	1
-2019-02-04	UAI	H	nouveaux	Rejeté	commissions	4
-2019-02-04	UAI	H	nouveaux	Retiré	commissions	1
-2019-02-04	UAI	H	nouveaux	Tombe	commissions	2
-2019-02-05	LR	H	anciens	Indéfini	commissions	1
-2019-02-05	LR	H	anciens	Rejeté	commissions	1
+2019-02-04	UAI	H	nouveaux	Rejeté	commissions	5
+2019-02-04	UAI	H	nouveaux	Retiré	commissions	2
+2019-02-04	UAI	H	nouveaux	Tombe	commissions	3
+2019-02-05	LR	H	anciens	Rejeté	commissions	2
 2019-02-05	LR	H	nouveaux	Non soutenu	commissions	2
-2019-02-05	LREM	F	nouveaux	Adopté	commissions	5
-2019-02-05	LREM	F	nouveaux	Indéfini	commissions	1
+2019-02-05	LREM	F	nouveaux	Adopté	commissions	6
 2019-02-05	LREM	F	nouveaux	Non soutenu	commissions	1
 2019-02-05	LREM	F	nouveaux	Retiré	commissions	2
-2019-02-05	LREM	H	nouveaux	Adopté	commissions	5
-2019-02-05	LREM	H	nouveaux	Indéfini	commissions	5
+2019-02-05	LREM	H	nouveaux	Adopté	commissions	9
+2019-02-05	LREM	H	nouveaux	Indéfini	commissions	2
 2019-02-05	LREM	H	nouveaux	Retiré	commissions	13
 2019-02-05	LT	H	anciens	Adopté	commissions	1
 2019-02-05	LT	H	anciens	Non soutenu	commissions	3
@@ -11987,10 +11982,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-02-05	LT	H	anciens	Tombe	commissions	5
 2019-02-05	LT	H	nouveaux	Rejeté	commissions	1
 2019-02-05	MODEM	H	nouveaux	Non soutenu	commissions	1
-2019-02-05	SOC	F	anciens	Adopté	commissions	1
-2019-02-05	SOC	F	anciens	Indéfini	commissions	2
+2019-02-05	SOC	F	anciens	Adopté	commissions	2
+2019-02-05	SOC	F	anciens	Rejeté	commissions	1
 2019-02-05	SOC	F	anciens	Retiré	commissions	1
 2019-02-05	SOC	F	anciens	Tombe	commissions	2
 2019-02-05	UAI	H	nouveaux	Adopté	commissions	1
 2019-02-05	UAI	H	nouveaux	Rejeté	commissions	1
 2019-02-05	UAI	H	nouveaux	Retiré	commissions	2
+2019-02-06	LFI	F	nouveaux	Retiré	commissions	2
+2019-02-06	LFI	H	nouveaux	Retiré	commissions	1
+2019-02-06	LR	H	nouveaux	Rejeté	commissions	1
+2019-02-06	LREM	H	nouveaux	Adopté	commissions	1
+2019-02-06	LREM	H	nouveaux	Tombe	commissions	3
