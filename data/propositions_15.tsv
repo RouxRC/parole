@@ -617,14 +617,19 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-02-04	LR	H	nouveaux	loi	attente	1
 2019-02-05	LR	H	anciens	loi constitutionnelle	attente	1
 2019-02-05	LR	H	anciens	résolution	attente	1
-2019-02-06	LFI	F	nouveaux	loi	attente	1
 2019-02-06	LR	F	nouveaux	loi	attente	2
-2019-02-06	LR	H	anciens	loi	attente	7
-2019-02-06	LR	H	nouveaux	loi	attente	8
-2019-02-06	LREM	H	nouveaux	loi	attente	2
+2019-02-06	LR	H	anciens	loi	attente	3
+2019-02-06	LR	H	nouveaux	loi	attente	6
+2019-02-06	LREM	H	nouveaux	loi	attente	1
 2019-02-06	LT	H	anciens	loi	attente	1
-2019-02-06	NI	H	nouveaux	loi	attente	2
-2019-02-06	UAI	H	anciens	loi	attente	1
+2019-02-06	NI	H	nouveaux	loi	attente	1
+2019-02-07	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-02-08	LREM	F	nouveaux	création d'une commission d'enquête	attente	1
+2019-02-12	LFI	F	nouveaux	loi	attente	1
+2019-02-12	LR	H	anciens	loi	attente	2
+2019-02-12	NI	H	nouveaux	loi	attente	1
+2019-02-12	UAI	H	anciens	loi	attente	1
 2019-02-13	LR	F	anciens	loi	attente	2
-2019-02-13	LR	H	anciens	loi	attente	1
+2019-02-13	LR	H	anciens	loi	attente	3
+2019-02-13	LR	H	nouveaux	loi	attente	2
+2019-02-13	LREM	H	nouveaux	loi	attente	1
