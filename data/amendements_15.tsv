@@ -11857,7 +11857,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-01-31	UAI	F	nouveaux	Rejeté	hemicycle	1
 2019-01-31	UAI	F	nouveaux	Tombe	hemicycle	2
 2019-01-31	UAI	H	nouveaux	Rejeté	hemicycle	1
-2019-02-00	LFI	F	nouveaux	Indéfini	commissions	4
 2019-02-01	LFI	H	nouveaux	Non soutenu	commissions	2
 2019-02-01	LR	H	anciens	Rejeté	commissions	2
 2019-02-01	LR	H	anciens	Retiré	commissions	3
@@ -12035,13 +12034,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-02-07	LREM	F	nouveaux	Indéfini	commissions	2
 2019-02-07	LREM	F	nouveaux	Indéfini	hemicycle	76
 2019-02-07	LREM	H	anciens	Indéfini	hemicycle	2
-2019-02-07	LREM	H	nouveaux	Indéfini	commissions	2
+2019-02-07	LREM	H	nouveaux	Indéfini	commissions	1
 2019-02-07	LREM	H	nouveaux	Indéfini	hemicycle	31
 2019-02-07	LREM	H	nouveaux	Irrecevable	hemicycle	1
 2019-02-07	LREM	H	nouveaux	Retiré	hemicycle	3
 2019-02-07	LT	H	anciens	Indéfini	hemicycle	16
 2019-02-07	LT	H	anciens	Retiré	hemicycle	1
-2019-02-07	LT	H	nouveaux	Indéfini	hemicycle	39
+2019-02-07	LT	H	nouveaux	Indéfini	hemicycle	38
 2019-02-07	MODEM	F	nouveaux	Indéfini	hemicycle	14
 2019-02-07	MODEM	H	nouveaux	Indéfini	hemicycle	5
 2019-02-07	NI	F	nouveaux	Indéfini	hemicycle	33
@@ -12073,7 +12072,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-02-08	LREM	H	nouveaux	Indéfini	commissions	2
 2019-02-08	LREM	H	nouveaux	Indéfini	hemicycle	21
 2019-02-08	LT	H	anciens	Indéfini	hemicycle	7
-2019-02-08	LT	H	nouveaux	Indéfini	hemicycle	3
+2019-02-08	LT	H	nouveaux	Indéfini	hemicycle	4
 2019-02-08	MODEM	F	nouveaux	Indéfini	hemicycle	7
 2019-02-08	MODEM	H	nouveaux	Indéfini	hemicycle	16
 2019-02-08	NI	F	nouveaux	Indéfini	commissions	2
@@ -12088,10 +12087,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-02-08	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-02-09	LR	H	nouveaux	Indéfini	commissions	2
 2019-02-09	LREM	F	nouveaux	Indéfini	commissions	7
-2019-02-09	LREM	H	nouveaux	Indéfini	commissions	1
-2019-02-09	LT	H	nouveaux	Indéfini	commissions	2
-2019-02-09	NI	F	anciens	Indéfini	commissions	4
+2019-02-09	LREM	H	nouveaux	Indéfini	commissions	2
+2019-02-09	LT	H	nouveaux	Indéfini	commissions	1
+2019-02-09	NI	F	anciens	Indéfini	commissions	3
 2019-02-09	NI	F	nouveaux	Indéfini	commissions	9
 2019-02-09	SOC	F	anciens	Indéfini	commissions	12
 2019-02-09	SOC	F	anciens	Retiré	commissions	1
 2019-02-09	SOC	F	nouveaux	Indéfini	commissions	5
+2019-02-10	LFI	F	nouveaux	Indéfini	commissions	4
+2019-02-10	LT	H	nouveaux	Indéfini	commissions	1
+2019-02-10	NI	F	anciens	Indéfini	commissions	1
