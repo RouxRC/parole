@@ -17621,6 +17621,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-03-07	GDR	H	nouveaux	hemicycle	invectives	754
 2019-03-07	GDR	H	nouveaux	hemicycle	longues	13165
 2019-03-07	LFI	F	nouveaux	commissions	longues	712
+2019-03-07	LFI	F	nouveaux	commissions	presidence	972
 2019-03-07	LFI	F	nouveaux	hemicycle	invectives	78
 2019-03-07	LFI	F	nouveaux	hemicycle	longues	4202
 2019-03-07	LFI	H	nouveaux	commissions	longues	1135
@@ -17641,12 +17642,12 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-03-07	LR	H	nouveaux	hemicycle	longues	1676
 2019-03-07	LREM	F	anciens	hemicycle	invectives	10
 2019-03-07	LREM	F	nouveaux	commissions	invectives	307
-2019-03-07	LREM	F	nouveaux	commissions	longues	7738
+2019-03-07	LREM	F	nouveaux	commissions	longues	7864
 2019-03-07	LREM	F	nouveaux	commissions	presidence	1604
 2019-03-07	LREM	F	nouveaux	hemicycle	invectives	282
 2019-03-07	LREM	F	nouveaux	hemicycle	longues	14581
 2019-03-07	LREM	H	nouveaux	commissions	invectives	122
-2019-03-07	LREM	H	nouveaux	commissions	longues	5669
+2019-03-07	LREM	H	nouveaux	commissions	longues	5778
 2019-03-07	LREM	H	nouveaux	hemicycle	invectives	179
 2019-03-07	LREM	H	nouveaux	hemicycle	longues	5188
 2019-03-07	LT	F	anciens	hemicycle	longues	3747
@@ -17670,7 +17671,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-03-07	SOC	F	anciens	hemicycle	invectives	42
 2019-03-07	SOC	F	anciens	hemicycle	longues	7570
 2019-03-07	SOC	H	anciens	commissions	invectives	23
-2019-03-07	SOC	H	anciens	commissions	longues	6168
+2019-03-07	SOC	H	anciens	commissions	longues	6521
 2019-03-07	SOC	H	nouveaux	commissions	longues	286
 2019-03-07	SOC	H	nouveaux	hemicycle	longues	439
 2019-03-07	UAI	F	anciens	commissions	invectives	7
