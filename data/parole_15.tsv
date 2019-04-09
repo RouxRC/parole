@@ -18325,15 +18325,17 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-03-21	LR	F	nouveaux	hemicycle	invectives	93
 2019-03-21	LR	F	nouveaux	hemicycle	longues	2940
 2019-03-21	LR	H	anciens	commissions	longues	235
+2019-03-21	LR	H	anciens	commissions	presidence	497
 2019-03-21	LR	H	anciens	hemicycle	invectives	327
 2019-03-21	LR	H	anciens	hemicycle	longues	10078
 2019-03-21	LR	H	anciens	hemicycle	presidence	3051
+2019-03-21	LR	H	nouveaux	commissions	longues	392
 2019-03-21	LR	H	nouveaux	hemicycle	invectives	143
 2019-03-21	LR	H	nouveaux	hemicycle	longues	2553
 2019-03-21	LREM	F	anciens	hemicycle	invectives	29
 2019-03-21	LREM	F	anciens	hemicycle	longues	209
 2019-03-21	LREM	F	nouveaux	commissions	invectives	0
-2019-03-21	LREM	F	nouveaux	commissions	longues	5097
+2019-03-21	LREM	F	nouveaux	commissions	longues	5175
 2019-03-21	LREM	F	nouveaux	hemicycle	invectives	232
 2019-03-21	LREM	F	nouveaux	hemicycle	longues	5995
 2019-03-21	LREM	H	anciens	hemicycle	invectives	8
@@ -18353,6 +18355,8 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-03-21	MODEM	F	nouveaux	commissions	longues	2124
 2019-03-21	MODEM	F	nouveaux	hemicycle	invectives	8
 2019-03-21	MODEM	F	nouveaux	hemicycle	longues	1067
+2019-03-21	MODEM	H	nouveaux	commissions	invectives	9
+2019-03-21	MODEM	H	nouveaux	commissions	longues	752
 2019-03-21	MODEM	H	nouveaux	commissions	presidence	724
 2019-03-21	MODEM	H	nouveaux	hemicycle	invectives	119
 2019-03-21	MODEM	H	nouveaux	hemicycle	longues	2271
@@ -18360,6 +18364,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-03-21	NI	F	nouveaux	hemicycle	longues	2353
 2019-03-21	SOC	F	anciens	commissions	invectives	0
 2019-03-21	SOC	F	anciens	commissions	longues	138
+2019-03-21	SOC	F	anciens	commissions	presidence	1062
 2019-03-21	SOC	F	anciens	hemicycle	invectives	48
 2019-03-21	SOC	F	anciens	hemicycle	longues	1548
 2019-03-21	SOC	F	nouveaux	commissions	invectives	0

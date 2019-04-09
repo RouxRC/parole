@@ -13893,11 +13893,11 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-04-05	LT	H	anciens	Irrecevable	hemicycle	1
 2019-04-05	LT	H	anciens	Retiré	hemicycle	2
 2019-04-05	SOC	F	anciens	Indéfini	hemicycle	3
-2019-04-08	GDR	H	nouveaux	Indéfini	hemicycle	11
+2019-04-08	GDR	H	nouveaux	Indéfini	hemicycle	10
 2019-04-08	GDR	H	nouveaux	Rejeté	hemicycle	10
-2019-04-08	LFI	F	nouveaux	Indéfini	hemicycle	5
+2019-04-08	LFI	F	nouveaux	Indéfini	hemicycle	4
 2019-04-08	LFI	F	nouveaux	Rejeté	hemicycle	6
-2019-04-08	LFI	H	nouveaux	Indéfini	hemicycle	4
+2019-04-08	LFI	H	nouveaux	Indéfini	hemicycle	2
 2019-04-08	LFI	H	nouveaux	Non soutenu	hemicycle	2
 2019-04-08	LFI	H	nouveaux	Rejeté	hemicycle	6
 2019-04-08	LR	F	anciens	Indéfini	hemicycle	2
@@ -13937,10 +13937,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-04-08	SOC	F	anciens	Retiré	hemicycle	1
 2019-04-08	SOC	H	nouveaux	Indéfini	hemicycle	1
 2019-04-08	SOC	H	nouveaux	Rejeté	hemicycle	1
-2019-04-08	UAI	F	anciens	Indéfini	hemicycle	6
+2019-04-08	UAI	F	anciens	Indéfini	hemicycle	5
 2019-04-08	UAI	F	nouveaux	Indéfini	hemicycle	2
 2019-04-08	UAI	F	nouveaux	Rejeté	hemicycle	10
 2019-04-08	UAI	H	anciens	Irrecevable	hemicycle	4
 2019-04-08	UAI	H	anciens	Retiré	hemicycle	1
 2019-04-08	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-04-08	UAI	H	nouveaux	Non soutenu	hemicycle	1
+2019-04-09	GDR	H	nouveaux	Indéfini	hemicycle	1
+2019-04-09	LFI	F	nouveaux	Indéfini	hemicycle	1
+2019-04-09	LFI	H	nouveaux	Indéfini	hemicycle	2
+2019-04-09	UAI	F	anciens	Irrecevable	hemicycle	1
