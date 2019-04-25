@@ -19030,9 +19030,11 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-04-10	UAI	H	anciens	commissions	longues	165
 2019-04-10	UAI	H	nouveaux	commissions	invectives	0
 2019-04-10	UAI	H	nouveaux	hemicycle	longues	311
+2019-04-11	GDR	F	nouveaux	commissions	longues	613
 2019-04-11	GDR	H	anciens	hemicycle	longues	669
 2019-04-11	GDR	H	nouveaux	hemicycle	invectives	58
 2019-04-11	GDR	H	nouveaux	hemicycle	longues	5563
+2019-04-11	LFI	F	nouveaux	commissions	longues	170
 2019-04-11	LFI	F	nouveaux	hemicycle	invectives	19
 2019-04-11	LFI	F	nouveaux	hemicycle	longues	4575
 2019-04-11	LFI	H	nouveaux	commissions	invectives	0
@@ -19045,15 +19047,16 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-04-11	LR	H	anciens	hemicycle	invectives	66
 2019-04-11	LR	H	anciens	hemicycle	longues	3469
 2019-04-11	LR	H	nouveaux	commissions	invectives	0
+2019-04-11	LR	H	nouveaux	commissions	presidence	560
 2019-04-11	LR	H	nouveaux	hemicycle	invectives	96
 2019-04-11	LR	H	nouveaux	hemicycle	longues	257
-2019-04-11	LREM	F	nouveaux	commissions	invectives	0
-2019-04-11	LREM	F	nouveaux	commissions	longues	810
+2019-04-11	LREM	F	nouveaux	commissions	invectives	14
+2019-04-11	LREM	F	nouveaux	commissions	longues	1696
 2019-04-11	LREM	F	nouveaux	commissions	presidence	833
 2019-04-11	LREM	F	nouveaux	hemicycle	invectives	446
 2019-04-11	LREM	F	nouveaux	hemicycle	longues	2933
 2019-04-11	LREM	H	nouveaux	commissions	invectives	0
-2019-04-11	LREM	H	nouveaux	commissions	longues	635
+2019-04-11	LREM	H	nouveaux	commissions	longues	830
 2019-04-11	LREM	H	nouveaux	commissions	presidence	1552
 2019-04-11	LREM	H	nouveaux	hemicycle	invectives	329
 2019-04-11	LREM	H	nouveaux	hemicycle	longues	6494
@@ -19064,6 +19067,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-04-11	MODEM	H	nouveaux	commissions	invectives	0
 2019-04-11	MODEM	H	nouveaux	hemicycle	invectives	18
 2019-04-11	MODEM	H	nouveaux	hemicycle	longues	2251
+2019-04-11	SOC	F	anciens	commissions	longues	207
 2019-04-11	SOC	F	anciens	hemicycle	invectives	37
 2019-04-11	SOC	F	anciens	hemicycle	longues	1483
 2019-04-11	SOC	F	nouveaux	hemicycle	invectives	17
@@ -19075,3 +19079,4 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-04-11	UAI	F	anciens	hemicycle	longues	4648
 2019-04-11	UAI	F	nouveaux	hemicycle	longues	267
 2019-04-11	UAI	H	anciens	hemicycle	presidence	992
+2019-04-11	UAI	H	nouveaux	commissions	longues	305
