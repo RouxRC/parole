@@ -157,7 +157,7 @@
           <v-btn raised light disabled
             v-for="(c, i) in comparables"
             :style="{'background-color': c.color+'!important', 'top': (i ? svgH * i : 10) + 'px'}"
-          >{{ c.facetName || c.name }}</v-btn>
+          >{{ c.facetName || c.name }}{{ agrege ? " : " + c.total : "" }}</v-btn>
         </div>
       </div>
       <center><div id="legende" class="legende facets">

@@ -597,7 +597,8 @@ new Vue({
           })),
           xScale = d3.scaleLinear().range([0, width - 100]).domain([0, xMax]),
           yScale = d3.scaleLinear().range([30, height]).domain([0, keys.length]),
-          barHeight = yScale(1) - yScale(0);
+          barHeight = yScale(1) - yScale(0),
+          total = 0;
 
         // Draw histogram
         g.append("g")
@@ -606,7 +607,7 @@ new Vue({
           .enter().append("rect")
             .attr("x", 30)
             .attr("y", function(d, i) { return yScale(i); })
-            .attr("width", function(d) { return Math.max(1, xScale(curData[d+"_cumul"])); })
+            .attr("width", function(d) { total += curData[d+"_cumul"]; return Math.max(1, xScale(curData[d+"_cumul"])); })
             .attr("height", barHeight - 5)
             .attr("fill", function(d) { return colors[d.replace(/\|.*$/, "")] || "grey"; });
 
@@ -634,7 +635,9 @@ new Vue({
             });
 
         // Display Total
-        // TODO
+        this.comparables[idx].total = d3.format(",d")(total);
+        this.$forceUpdate();
+
 
         return;
       }
