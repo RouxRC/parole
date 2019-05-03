@@ -697,7 +697,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-03-29	LR	H	anciens	loi	attente	2
 2019-03-29	UAI	H	nouveaux	loi constitutionnelle	attente	1
 2019-04-03	LR	H	anciens	loi	attente	1
-2019-04-03	SOC	F	anciens	règlement de l'Assemblée nationale	attente	1
 2019-04-04	LR	F	anciens	loi	attente	2
 2019-04-04	LR	H	anciens	loi	attente	1
 2019-04-04	LR	H	nouveaux	loi	attente	2
@@ -751,10 +750,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-04-22	GDR	H	nouveaux	résolution	attente	1
 2019-04-29	LREM	H	anciens	règlement de l'Assemblée nationale	attente	1
 2019-04-30	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
-2019-04-30	LR	F	anciens	loi	attente	1
-2019-04-30	LR	F	nouveaux	loi	attente	1
-2019-04-30	NI	H	anciens	loi	attente	1
-2019-04-30	UAI	H	nouveaux	loi	attente	1
 2019-05-02	NI	H	anciens	création d'une commission d'enquête	attente	2
 2019-05-03	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-05-03	LREM	F	nouveaux	résolution européenne	attente	1
@@ -771,4 +766,9 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-05-10	LR	H	nouveaux	loi	attente	4
 2019-05-10	MODEM	H	nouveaux	loi	attente	1
 2019-05-10	NI	H	nouveaux	loi	attente	1
+2019-05-10	SOC	F	anciens	règlement de l'Assemblée nationale	attente	1
+2019-05-13	LR	F	anciens	loi	attente	1
+2019-05-13	LR	F	nouveaux	loi	attente	1
+2019-05-13	NI	H	anciens	loi	attente	1
+2019-05-13	UAI	H	nouveaux	loi	attente	1
 2019-11-18	NI	H	anciens	loi présentée en application de l'article 11 de la Constitution	attente	1
