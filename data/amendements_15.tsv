@@ -13807,8 +13807,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-03-29	SOC	H	anciens	Non soutenu	commissions	1
 2019-04-00	LR	F	anciens	Indéfini	commissions	1
 2019-04-00	LR	H	nouveaux	Indéfini	commissions	4
+2019-04-00	LR	H	nouveaux	Retiré	commissions	1
 2019-04-00	LREM	F	nouveaux	Indéfini	commissions	8
-2019-04-00	NI	F	nouveaux	Indéfini	commissions	1
+2019-04-00	NI	F	nouveaux	Retiré	commissions	1
 2019-04-00	UAI	H	nouveaux	Indéfini	commissions	1
 2019-04-01	GDR	H	nouveaux	Irrecevable	commissions	2
 2019-04-01	GDR	H	nouveaux	Irrecevable	hemicycle	2
@@ -13848,7 +13849,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-04-02	LR	H	anciens	Irrecevable	hemicycle	1
 2019-04-02	LR	H	anciens	Non soutenu	commissions	1
 2019-04-02	LR	H	anciens	Rejeté	commissions	2
-2019-04-02	LR	H	anciens	Retiré	commissions	2
+2019-04-02	LR	H	anciens	Retiré	commissions	8
 2019-04-02	LR	H	nouveaux	Indéfini	hemicycle	4
 2019-04-02	LR	H	nouveaux	Irrecevable	hemicycle	3
 2019-04-02	LR	H	nouveaux	Rejeté	commissions	4
@@ -13894,12 +13895,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-04-04	UAI	F	nouveaux	Retiré	commissions	1
 2019-04-05	GDR	H	nouveaux	Irrecevable	hemicycle	2
 2019-04-05	LR	F	nouveaux	Indéfini	commissions	1
-2019-04-05	LR	H	anciens	Indéfini	commissions	10
+2019-04-05	LR	H	anciens	Indéfini	commissions	22
 2019-04-05	LR	H	anciens	Irrecevable	hemicycle	3
 2019-04-05	LR	H	nouveaux	Irrecevable	hemicycle	3
 2019-04-05	LT	H	anciens	Irrecevable	hemicycle	1
 2019-04-05	LT	H	anciens	Retiré	hemicycle	2
+2019-04-06	LR	F	nouveaux	Indéfini	commissions	12
 2019-04-06	LR	F	nouveaux	Retiré	commissions	2
+2019-04-06	LR	H	nouveaux	Indéfini	commissions	11
 2019-04-08	GDR	H	nouveaux	Rejeté	hemicycle	12
 2019-04-08	LFI	F	nouveaux	Rejeté	hemicycle	9
 2019-04-08	LFI	H	nouveaux	Non soutenu	hemicycle	2
@@ -13944,12 +13947,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-04-08	UAI	H	anciens	Retiré	hemicycle	1
 2019-04-08	UAI	H	nouveaux	Non soutenu	hemicycle	1
 2019-04-08	UAI	H	nouveaux	Rejeté	hemicycle	1
+2019-04-09	GDR	H	nouveaux	Indéfini	commissions	11
 2019-04-09	GDR	H	nouveaux	Irrecevable	hemicycle	3
 2019-04-09	GDR	H	nouveaux	Rejeté	hemicycle	5
 2019-04-09	LFI	F	nouveaux	Rejeté	hemicycle	8
 2019-04-09	LFI	H	nouveaux	Rejeté	hemicycle	11
-2019-04-09	LR	H	anciens	Indéfini	commissions	1
-2019-04-09	LR	H	nouveaux	Indéfini	commissions	7
+2019-04-09	LR	H	anciens	Indéfini	commissions	3
+2019-04-09	LR	H	nouveaux	Indéfini	commissions	8
 2019-04-09	LR	H	nouveaux	Retiré	hemicycle	1
 2019-04-09	LREM	F	nouveaux	Indéfini	commissions	1
 2019-04-09	LREM	H	anciens	Adopté	hemicycle	2
@@ -14151,11 +14155,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-02	LR	F	nouveaux	Non soutenu	commissions	1
 2019-05-02	LR	F	nouveaux	Rejeté	commissions	4
 2019-05-02	LR	F	nouveaux	Tombe	commissions	1
-2019-05-02	LR	H	anciens	Indéfini	commissions	3
 2019-05-02	LR	H	anciens	Non soutenu	commissions	15
 2019-05-02	LR	H	anciens	Rejeté	commissions	11
 2019-05-02	LR	H	anciens	Tombe	commissions	4
-2019-05-02	LR	H	nouveaux	Indéfini	commissions	23
+2019-05-02	LR	H	nouveaux	Indéfini	commissions	21
 2019-05-02	LR	H	nouveaux	Indéfini	hemicycle	4
 2019-05-02	LR	H	nouveaux	Non soutenu	commissions	3
 2019-05-02	LR	H	nouveaux	Retiré	commissions	17
@@ -14170,7 +14173,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-02	LREM	F	nouveaux	Tombe	commissions	7
 2019-05-02	LREM	H	anciens	Indéfini	commissions	7
 2019-05-02	LREM	H	anciens	Retiré	commissions	1
-2019-05-02	LREM	H	nouveaux	Indéfini	commissions	11
 2019-05-02	LREM	H	nouveaux	Indéfini	hemicycle	13
 2019-05-02	LREM	H	nouveaux	Rejeté	commissions	2
 2019-05-02	LREM	H	nouveaux	Retiré	commissions	12
@@ -14203,19 +14205,21 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-02	UAI	H	anciens	Non soutenu	commissions	2
 2019-05-02	UAI	H	nouveaux	Indéfini	hemicycle	5
 2019-05-03	GDR	F	nouveaux	Indéfini	hemicycle	8
+2019-05-03	GDR	H	nouveaux	Indéfini	commissions	1
 2019-05-03	LFI	F	nouveaux	Indéfini	commissions	1
 2019-05-03	LFI	F	nouveaux	Indéfini	hemicycle	3
 2019-05-03	LFI	H	nouveaux	Indéfini	commissions	2
 2019-05-03	LFI	H	nouveaux	Indéfini	hemicycle	3
 2019-05-03	LR	F	anciens	Indéfini	commissions	33
 2019-05-03	LR	F	anciens	Indéfini	hemicycle	2
+2019-05-03	LR	F	nouveaux	Indéfini	commissions	1
 2019-05-03	LR	F	nouveaux	Indéfini	hemicycle	27
-2019-05-03	LR	H	anciens	Indéfini	commissions	11
-2019-05-03	LR	H	anciens	Irrecevable	commissions	3
+2019-05-03	LR	H	anciens	Indéfini	commissions	30
+2019-05-03	LR	H	anciens	Irrecevable	commissions	11
 2019-05-03	LR	H	anciens	Retiré	commissions	1
-2019-05-03	LR	H	nouveaux	Indéfini	commissions	50
+2019-05-03	LR	H	nouveaux	Indéfini	commissions	53
 2019-05-03	LR	H	nouveaux	Indéfini	hemicycle	12
-2019-05-03	LR	H	nouveaux	Irrecevable	commissions	32
+2019-05-03	LR	H	nouveaux	Irrecevable	commissions	33
 2019-05-03	LR	H	nouveaux	Rejeté	commissions	1
 2019-05-03	LR	H	nouveaux	Retiré	hemicycle	1
 2019-05-03	LREM	F	anciens	Indéfini	hemicycle	2
@@ -14227,10 +14231,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-03	LREM	F	nouveaux	Retiré	commissions	2
 2019-05-03	LREM	H	anciens	Indéfini	commissions	3
 2019-05-03	LREM	H	nouveaux	Adopté	commissions	1
-2019-05-03	LREM	H	nouveaux	Indéfini	commissions	37
+2019-05-03	LREM	H	nouveaux	Indéfini	commissions	48
 2019-05-03	LREM	H	nouveaux	Indéfini	hemicycle	9
-2019-05-03	LREM	H	nouveaux	Irrecevable	commissions	1
 2019-05-03	LREM	H	nouveaux	Non soutenu	commissions	1
+2019-05-03	LREM	H	nouveaux	Retiré	commissions	1
 2019-05-03	LT	F	anciens	Indéfini	commissions	2
 2019-05-03	LT	F	anciens	Indéfini	hemicycle	2
 2019-05-03	LT	F	anciens	Retiré	hemicycle	1
@@ -14243,7 +14247,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-03	MODEM	F	nouveaux	Indéfini	commissions	1
 2019-05-03	MODEM	F	nouveaux	Indéfini	hemicycle	5
 2019-05-03	MODEM	H	nouveaux	Indéfini	commissions	7
-2019-05-03	NI	F	nouveaux	Indéfini	commissions	2
+2019-05-03	NI	F	nouveaux	Indéfini	commissions	3
 2019-05-03	NI	F	nouveaux	Indéfini	hemicycle	4
 2019-05-03	NI	F	nouveaux	Irrecevable	commissions	17
 2019-05-03	NI	H	anciens	Indéfini	hemicycle	4
