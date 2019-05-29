@@ -15234,7 +15234,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-24	LR	H	nouveaux	Irrecevable	hemicycle	2
 2019-05-24	LR	H	nouveaux	Non soutenu	hemicycle	6
 2019-05-24	LR	H	nouveaux	Rejeté	hemicycle	5
-2019-05-24	LREM	F	nouveaux	Indéfini	hemicycle	6
+2019-05-24	LREM	F	nouveaux	Indéfini	hemicycle	5
 2019-05-24	LREM	H	nouveaux	Indéfini	hemicycle	8
 2019-05-24	LT	F	anciens	Retiré	hemicycle	1
 2019-05-24	LT	H	anciens	Indéfini	hemicycle	2
@@ -15283,10 +15283,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-27	LR	H	nouveaux	Non soutenu	hemicycle	13
 2019-05-27	LR	H	nouveaux	Rejeté	hemicycle	11
 2019-05-27	LR	H	nouveaux	Retiré	hemicycle	2
-2019-05-27	LREM	F	nouveaux	Indéfini	hemicycle	25
+2019-05-27	LREM	F	nouveaux	Indéfini	hemicycle	22
 2019-05-27	LREM	F	nouveaux	Non soutenu	hemicycle	1
 2019-05-27	LREM	F	nouveaux	Rejeté	hemicycle	3
-2019-05-27	LREM	F	nouveaux	Retiré	hemicycle	6
+2019-05-27	LREM	F	nouveaux	Retiré	hemicycle	10
 2019-05-27	LREM	H	anciens	Indéfini	hemicycle	3
 2019-05-27	LREM	H	nouveaux	Indéfini	hemicycle	13
 2019-05-27	LREM	H	nouveaux	Non soutenu	hemicycle	1
@@ -15302,7 +15302,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-27	LT	H	nouveaux	Rejeté	hemicycle	2
 2019-05-27	MODEM	F	nouveaux	Indéfini	hemicycle	5
 2019-05-27	MODEM	F	nouveaux	Retiré	hemicycle	2
-2019-05-27	MODEM	H	nouveaux	Indéfini	hemicycle	38
+2019-05-27	MODEM	H	nouveaux	Indéfini	hemicycle	34
 2019-05-27	MODEM	H	nouveaux	Irrecevable	hemicycle	4
 2019-05-27	MODEM	H	nouveaux	Non soutenu	hemicycle	1
 2019-05-27	MODEM	H	nouveaux	Rejeté	hemicycle	5
@@ -15353,7 +15353,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-05-28	MODEM	F	nouveaux	Adopté	hemicycle	1
 2019-05-28	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2019-05-28	MODEM	H	nouveaux	Adopté	hemicycle	1
-2019-05-28	MODEM	H	nouveaux	Indéfini	hemicycle	3
+2019-05-28	MODEM	H	nouveaux	Indéfini	hemicycle	7
 2019-05-28	MODEM	H	nouveaux	Rejeté	hemicycle	1
 2019-05-28	NI	F	nouveaux	Indéfini	hemicycle	4
 2019-05-28	SOC	H	anciens	Indéfini	hemicycle	1
