@@ -20,7 +20,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2017-09-13	LC	H	anciens	loi constitutionnelle	attente	1
 2017-09-18	NI	H	nouveaux	création d'une commission d'enquête	attente	1
 2017-09-18	NI	H	nouveaux	règlement de l'Assemblée nationale	attente	1
-2017-09-21	LREM	H	anciens	règlement de l'Assemblée nationale	discute	1
+2017-09-21	LREM	H	anciens	règlement de l'Assemblée nationale	attente	1
 2017-09-22	NI	H	anciens	loi	attente	1
 2017-09-25	LR	H	anciens	création d'une commission d'enquête	attente	1
 2017-09-25	LR	H	nouveaux	résolution	attente	1
@@ -747,7 +747,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-04-19	LR	H	anciens	loi	attente	2
 2019-04-19	LR	H	nouveaux	loi	attente	1
 2019-04-22	GDR	H	nouveaux	résolution	attente	1
-2019-04-29	LREM	H	anciens	règlement de l'Assemblée nationale	attente	1
+2019-04-29	LREM	H	anciens	règlement de l'Assemblée nationale	discute	1
 2019-05-02	NI	H	anciens	création d'une commission d'enquête	attente	1
 2019-05-03	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-05-03	LREM	F	nouveaux	résolution européenne	attente	1
