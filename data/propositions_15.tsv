@@ -761,14 +761,15 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-05-10	LR	F	anciens	loi	attente	1
 2019-05-10	LR	F	nouveaux	loi	attente	2
 2019-05-10	LR	H	anciens	loi	attente	3
-2019-05-10	LR	H	nouveaux	loi	attente	4
+2019-05-10	LR	H	nouveaux	loi	attente	3
+2019-05-10	LR	H	nouveaux	loi	discute	1
 2019-05-10	MODEM	H	nouveaux	loi	attente	1
 2019-05-10	NI	H	nouveaux	loi	attente	1
 2019-05-10	SOC	F	anciens	règlement de l'Assemblée nationale	attente	1
 2019-05-13	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-05-13	LR	F	anciens	loi	attente	1
 2019-05-13	LR	F	nouveaux	loi	attente	1
-2019-05-13	LREM	F	nouveaux	résolution	attente	1
+2019-05-13	LREM	F	nouveaux	résolution	discute	1
 2019-05-13	NI	H	anciens	loi	attente	1
 2019-05-13	UAI	H	nouveaux	loi	attente	1
 2019-05-14	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
@@ -778,7 +779,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-05-16	LR	H	nouveaux	loi	attente	1
 2019-05-16	NI	F	nouveaux	création d'une commission d'enquête	attente	1
 2019-05-16	NI	H	nouveaux	création d'une commission d'enquête	attente	1
-2019-05-17	LR	H	anciens	loi	attente	1
+2019-05-17	LR	H	anciens	loi	discute	1
 2019-05-17	NI	H	anciens	création d'une commission d'enquête	attente	1
 2019-05-20	SOC	H	anciens	création d'une commission d'enquête	attente	1
 2019-05-22	LFI	H	nouveaux	résolution	attente	1
@@ -801,14 +802,14 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-06-13	LR	H	anciens	résolution européenne	attente	1
 2019-06-13	LREM	H	nouveaux	résolution européenne	attente	1
 2019-06-13	MODEM	H	nouveaux	résolution	attente	1
-2019-06-14	GDR	H	nouveaux	résolution	attente	1
-2019-06-14	LFI	H	nouveaux	résolution	attente	1
+2019-06-14	GDR	H	nouveaux	résolution	discute	1
+2019-06-14	LFI	H	nouveaux	résolution	discute	1
 2019-06-14	LR	F	anciens	loi	attente	2
-2019-06-14	LR	F	anciens	résolution	attente	2
+2019-06-14	LR	F	anciens	résolution	discute	2
 2019-06-14	LR	H	anciens	loi	attente	2
 2019-06-14	LR	H	nouveaux	loi	attente	2
-2019-06-14	LREM	F	nouveaux	résolution	attente	1
-2019-06-14	LREM	H	nouveaux	résolution	attente	2
+2019-06-14	LREM	F	nouveaux	résolution	discute	1
+2019-06-14	LREM	H	nouveaux	résolution	discute	2
 2019-06-14	MODEM	F	nouveaux	résolution	discute	1
 2019-06-14	NI	F	nouveaux	loi	attente	1
 2019-06-14	SOC	F	anciens	résolution	attente	1
