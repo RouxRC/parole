@@ -16853,7 +16853,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-01	LREM	F	nouveaux	Retiré	hemicycle	3
 2019-07-01	LREM	F	nouveaux	Tombe	commissions	1
 2019-07-01	LREM	H	nouveaux	Adopté	commissions	2
-2019-07-01	LREM	H	nouveaux	Indéfini	hemicycle	5
+2019-07-01	LREM	H	nouveaux	Indéfini	hemicycle	3
 2019-07-01	LREM	H	nouveaux	Retiré	hemicycle	4
 2019-07-01	LREM	H	nouveaux	Tombe	commissions	1
 2019-07-01	LREM	H	nouveaux	Tombe	hemicycle	6
@@ -16933,7 +16933,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-02	LREM	F	nouveaux	Retiré	hemicycle	4
 2019-07-02	LREM	F	nouveaux	Tombe	hemicycle	1
 2019-07-02	LREM	H	nouveaux	Adopté	hemicycle	1
-2019-07-02	LREM	H	nouveaux	Indéfini	hemicycle	12
+2019-07-02	LREM	H	nouveaux	Indéfini	hemicycle	13
 2019-07-02	LREM	H	nouveaux	Non soutenu	hemicycle	2
 2019-07-02	LREM	H	nouveaux	Rejeté	hemicycle	1
 2019-07-02	LREM	H	nouveaux	Retiré	commissions	1
@@ -16951,7 +16951,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-02	LT	H	nouveaux	Irrecevable	hemicycle	1
 2019-07-02	LT	H	nouveaux	Rejeté	hemicycle	3
 2019-07-02	LT	H	nouveaux	Retiré	hemicycle	2
-2019-07-02	MODEM	F	nouveaux	Indéfini	hemicycle	5
+2019-07-02	MODEM	F	nouveaux	Indéfini	hemicycle	4
 2019-07-02	MODEM	F	nouveaux	Rejeté	hemicycle	4
 2019-07-02	MODEM	F	nouveaux	Retiré	hemicycle	1
 2019-07-02	MODEM	H	nouveaux	Indéfini	hemicycle	8
@@ -16998,10 +16998,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-03	LR	H	nouveaux	Adopté	hemicycle	1
 2019-07-03	LREM	F	nouveaux	Adopté	commissions	3
 2019-07-03	LREM	F	nouveaux	Adopté	hemicycle	5
-2019-07-03	LREM	F	nouveaux	Indéfini	hemicycle	13
+2019-07-03	LREM	F	nouveaux	Indéfini	hemicycle	11
 2019-07-03	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2019-07-03	LREM	F	nouveaux	Retiré	commissions	1
-2019-07-03	LREM	F	nouveaux	Retiré	hemicycle	3
+2019-07-03	LREM	F	nouveaux	Retiré	hemicycle	5
 2019-07-03	LREM	H	anciens	Indéfini	hemicycle	1
 2019-07-03	LREM	H	nouveaux	Indéfini	hemicycle	3
 2019-07-03	LREM	H	nouveaux	Retiré	commissions	1
@@ -17011,7 +17011,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-03	LT	H	anciens	Rejeté	hemicycle	1
 2019-07-03	LT	H	anciens	Retiré	hemicycle	1
 2019-07-03	LT	H	nouveaux	Indéfini	hemicycle	1
-2019-07-03	MODEM	F	nouveaux	Indéfini	hemicycle	2
+2019-07-03	MODEM	F	nouveaux	Indéfini	hemicycle	3
 2019-07-03	NI	F	nouveaux	Indéfini	hemicycle	3
 2019-07-03	NI	F	nouveaux	Retiré	hemicycle	1
 2019-07-03	NI	H	nouveaux	Retiré	hemicycle	1
@@ -17031,3 +17031,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-03	UDI	H	nouveaux	Indéfini	hemicycle	10
 2019-07-03	UDI	H	nouveaux	Rejeté	hemicycle	1
 2019-07-03	UDI	H	nouveaux	Retiré	hemicycle	1
+2019-07-04	LREM	H	nouveaux	Indéfini	hemicycle	1
