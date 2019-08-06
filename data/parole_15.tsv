@@ -22082,9 +22082,12 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-07-15	LR	F	anciens	commissions	longues	1554
 2019-07-15	LR	F	nouveaux	commissions	invectives	14
 2019-07-15	LR	F	nouveaux	commissions	longues	2324
-2019-07-15	LREM	F	nouveaux	commissions	longues	781
-2019-07-15	LREM	H	nouveaux	commissions	invectives	8
-2019-07-15	LREM	H	nouveaux	commissions	longues	1616
+2019-07-15	LREM	F	nouveaux	commissions	invectives	18
+2019-07-15	LREM	F	nouveaux	commissions	longues	1437
+2019-07-15	LREM	H	anciens	commissions	invectives	11
+2019-07-15	LREM	H	anciens	commissions	longues	78
+2019-07-15	LREM	H	nouveaux	commissions	invectives	77
+2019-07-15	LREM	H	nouveaux	commissions	longues	3005
 2019-07-15	LREM	H	nouveaux	commissions	presidence	577
 2019-07-15	LT	H	anciens	commissions	longues	472
 2019-07-15	MODEM	F	nouveaux	commissions	invectives	39
@@ -22095,6 +22098,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-07-15	SOC	F	nouveaux	commissions	longues	1950
 2019-07-15	UDI	F	nouveaux	commissions	invectives	26
 2019-07-15	UDI	F	nouveaux	commissions	longues	1629
+2019-07-15	UDI	H	anciens	commissions	presidence	2029
 2019-07-16	GDR	F	anciens	hemicycle	invectives	5
 2019-07-16	GDR	F	anciens	hemicycle	longues	3374
 2019-07-16	GDR	H	nouveaux	commissions	invectives	7
@@ -22301,6 +22305,10 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-07-18	UDI	F	nouveaux	commissions	longues	322
 2019-07-18	UDI	F	nouveaux	hemicycle	longues	1449
 2019-07-18	UDI	H	nouveaux	hemicycle	longues	1007
+2019-07-22	LREM	F	nouveaux	commissions	longues	235
+2019-07-22	LREM	H	nouveaux	commissions	invectives	88
+2019-07-22	LREM	H	nouveaux	commissions	longues	3075
+2019-07-22	UDI	H	anciens	commissions	presidence	3361
 2019-07-23	GDR	F	nouveaux	hemicycle	invectives	40
 2019-07-23	GDR	F	nouveaux	hemicycle	longues	2433
 2019-07-23	GDR	H	anciens	hemicycle	invectives	12
