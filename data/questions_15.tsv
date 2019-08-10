@@ -3633,7 +3633,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-01-09	LFI	F	nouveaux	reponse	4	3-6	Premier ministre, de l'égalité entre les femmes et les hommes	1
 2018-01-09	LFI	H	nouveaux	reponse	8	6-12	Ministère de la transition écologique et solidaire	1
 2018-01-09	LR	F	anciens	reponse	13	12+	Ministère de l'économie et des finances	1
-2018-01-09	LR	H	anciens	attente	18	12+	Ministère de l'économie et des finances	1
+2018-01-09	LR	H	anciens	attente	19	12+	Ministère de l'économie et des finances	1
 2018-01-09	LR	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-01-09	LR	H	anciens	reponse	15	12+	Ministère de l'intérieur	1
 2018-01-09	LR	H	anciens	reponse	1	2	Ministère de la justice	1
@@ -3654,7 +3654,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-01-09	LR	H	nouveaux	reponse	1	2	Ministère des armées	1
 2018-01-09	LR	H	nouveaux	reponse	5	3-6	Ministère des solidarités et de la santé	1
 2018-01-09	LR	H	nouveaux	reponse	4	3-6	Ministère du travail	1
-2018-01-09	LREM	F	nouveaux	attente	18	12+	Ministère des solidarités et de la santé	1
+2018-01-09	LREM	F	nouveaux	attente	19	12+	Ministère des solidarités et de la santé	1
 2018-01-09	LREM	F	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-01-09	LREM	F	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
 2018-01-09	LREM	F	nouveaux	reponse	2	3	Ministère de l'économie et des finances	1
@@ -3667,7 +3667,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-01-09	LREM	F	nouveaux	reponse	4	3-6	Ministère des solidarités et de la santé	1
 2018-01-09	LREM	F	nouveaux	reponse	6	6-12	Ministère de l'action et des comptes publics	1
 2018-01-09	LREM	F	nouveaux	retrait	0	1	Premier ministre, du numérique	1
-2018-01-09	LREM	H	anciens	attente	18	12+	Ministère de l'économie et des finances	1
+2018-01-09	LREM	H	anciens	attente	19	12+	Ministère de l'économie et des finances	1
 2018-01-09	LREM	H	anciens	reponse	17	12+	Ministère de l'Europe et des affaires étrangères	2
 2018-01-09	LREM	H	anciens	reponse	2	3	Ministère de la transition écologique et solidaire	1
 2018-01-09	LREM	H	nouveaux	reponse	0	1	Ministère de l'intérieur	1
@@ -5880,17 +5880,17 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-10	LFI	H	nouveaux	reponse	4	3-6	Ministère de l'intérieur	2
 2018-04-10	LFI	H	nouveaux	reponse	4	3-6	Ministère de la transition écologique et solidaire, des transports	2
 2018-04-10	LFI	H	nouveaux	reponse	5	3-6	Ministère des armées	1
-2018-04-10	LR	F	anciens	attente	15	12+	Ministère du travail	1
+2018-04-10	LR	F	anciens	attente	16	12+	Ministère du travail	1
 2018-04-10	LR	F	anciens	reponse	0	1	Ministère de la justice	1
 2018-04-10	LR	F	anciens	reponse	1	2	Ministère de l'intérieur	1
 2018-04-10	LR	F	anciens	reponse	3	3-6	Ministère de l'éducation nationale	1
 2018-04-10	LR	F	anciens	reponse	11	6-12	Ministère de l'économie et des finances	1
 2018-04-10	LR	F	anciens	reponse	11	6-12	Ministère des solidarités et de la santé	1
-2018-04-10	LR	F	nouveaux	attente	15	12+	Ministère des solidarités et de la santé	1
+2018-04-10	LR	F	nouveaux	attente	16	12+	Ministère des solidarités et de la santé	1
 2018-04-10	LR	F	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	2
 2018-04-10	LR	F	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	1
-2018-04-10	LR	H	anciens	attente	15	12+	Ministère de la transition écologique et solidaire	1
-2018-04-10	LR	H	anciens	attente	15	12+	Premier ministre	1
+2018-04-10	LR	H	anciens	attente	16	12+	Ministère de la transition écologique et solidaire	1
+2018-04-10	LR	H	anciens	attente	16	12+	Premier ministre	1
 2018-04-10	LR	H	anciens	reponse	0	1	Ministère de la transition écologique et solidaire	1
 2018-04-10	LR	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	2
 2018-04-10	LR	H	anciens	reponse	1	2	Ministère de l'action et des comptes publics	1
@@ -5921,8 +5921,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-10	LREM	F	anciens	reponse	2	3	Ministère du travail	1
 2018-04-10	LREM	F	anciens	reponse	4	3-6	Ministère de l'économie et des finances	1
 2018-04-10	LREM	F	anciens	reponse	7	6-12	Ministère de l'éducation nationale	1
-2018-04-10	LREM	F	nouveaux	attente	15	12+	Ministère de la transition écologique et solidaire	1
-2018-04-10	LREM	F	nouveaux	attente	15	12+	Ministère des solidarités et de la santé	3
+2018-04-10	LREM	F	nouveaux	attente	16	12+	Ministère de la transition écologique et solidaire	1
+2018-04-10	LREM	F	nouveaux	attente	16	12+	Ministère des solidarités et de la santé	3
 2018-04-10	LREM	F	nouveaux	reponse	0	1	Ministère des sports	1
 2018-04-10	LREM	F	nouveaux	reponse	13	12+	Ministère de la transition écologique et solidaire	3
 2018-04-10	LREM	F	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
@@ -5955,10 +5955,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-10	LREM	H	anciens	reponse	13	12+	Ministère de l'action et des comptes publics	1
 2018-04-10	LREM	H	anciens	reponse	3	3-6	Ministère de l'intérieur	1
 2018-04-10	LREM	H	anciens	reponse	9	6-12	Ministère de l'Europe et des affaires étrangères	1
-2018-04-10	LREM	H	nouveaux	attente	15	12+	Ministère de l'économie et des finances	1
-2018-04-10	LREM	H	nouveaux	attente	15	12+	Ministère de la transition écologique et solidaire	1
-2018-04-10	LREM	H	nouveaux	attente	15	12+	Ministère de la transition écologique et solidaire, des transports	1
-2018-04-10	LREM	H	nouveaux	attente	15	12+	Ministère des solidarités et de la santé	4
+2018-04-10	LREM	H	nouveaux	attente	16	12+	Ministère de l'économie et des finances	1
+2018-04-10	LREM	H	nouveaux	attente	16	12+	Ministère de la transition écologique et solidaire	1
+2018-04-10	LREM	H	nouveaux	attente	16	12+	Ministère de la transition écologique et solidaire, des transports	1
+2018-04-10	LREM	H	nouveaux	attente	16	12+	Ministère des solidarités et de la santé	4
 2018-04-10	LREM	H	nouveaux	reponse	0	1	Ministère de l'agriculture et de l'alimentation	1
 2018-04-10	LREM	H	nouveaux	reponse	0	1	Ministère des armées	1
 2018-04-10	LREM	H	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	2
@@ -5997,14 +5997,14 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-10	MODEM	H	nouveaux	reponse	9	6-12	Ministère de la justice	1
 2018-04-10	NG	F	anciens	reponse	12	12+	Ministère des solidarités et de la santé	1
 2018-04-10	NG	F	anciens	reponse	11	6-12	Ministère des solidarités et de la santé	1
-2018-04-10	NG	F	nouveaux	attente	15	12+	Ministère des solidarités et de la santé	1
+2018-04-10	NG	F	nouveaux	attente	16	12+	Ministère des solidarités et de la santé	1
 2018-04-10	NG	F	nouveaux	reponse	1	2	Ministère de l'économie et des finances	1
 2018-04-10	NG	H	anciens	reponse	1	2	Ministère de la transition écologique et solidaire	2
 2018-04-10	NG	H	anciens	reponse	1	2	Ministère des armées	1
 2018-04-10	NG	H	anciens	reponse	5	3-6	Ministère des solidarités et de la santé	1
 2018-04-10	NG	H	anciens	reponse	8	6-12	Ministère de l'agriculture et de l'alimentation	1
 2018-04-10	NG	H	anciens	reponse	9	6-12	Ministère de l'Europe et des affaires étrangères	1
-2018-04-10	NI	H	anciens	attente	15	12+	Ministère de l'intérieur	1
+2018-04-10	NI	H	anciens	attente	16	12+	Ministère de l'intérieur	1
 2018-04-10	NI	H	anciens	reponse	2	3	Ministère de la cohésion des territoires	1
 2018-04-10	NI	H	anciens	reponse	2	3	Ministère de la transition écologique et solidaire	1
 2018-04-10	NI	H	anciens	reponse	5	3-6	Ministère de l'intérieur	1
@@ -6017,7 +6017,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-04-10	UAI	F	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	1
 2018-04-10	UAI	F	nouveaux	reponse	9	6-12	Ministère de l'intérieur	1
 2018-04-10	UAI	F	nouveaux	reponse	8	6-12	Ministère des solidarités et de la santé	1
-2018-04-10	UAI	H	anciens	attente	15	12+	Ministère du travail	1
+2018-04-10	UAI	H	anciens	attente	16	12+	Ministère du travail	1
 2018-04-10	UAI	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	3
 2018-04-10	UAI	H	anciens	reponse	2	3	Ministère de l'agriculture et de l'alimentation	1
 2018-04-10	UAI	H	anciens	reponse	2	3	Ministère des armées	1
@@ -8368,8 +8368,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	GDR	H	anciens	reponse	4	3-6	Ministère de l'éducation nationale	1
 2018-07-10	GDR	H	nouveaux	reponse	1	2	Ministère de l'Europe et des affaires étrangères	1
 2018-07-10	GDR	H	nouveaux	reponse	5	3-6	Ministère de la transition écologique et solidaire	1
-2018-07-10	LFI	F	nouveaux	attente	12	12+	Ministère des solidarités et de la santé	1
-2018-07-10	LFI	F	nouveaux	attente	12	12+	Ministère du travail	1
+2018-07-10	LFI	F	nouveaux	attente	13	12+	Ministère des solidarités et de la santé	1
+2018-07-10	LFI	F	nouveaux	attente	13	12+	Ministère du travail	1
 2018-07-10	LFI	F	nouveaux	reponse	0	1	Ministère de l'Europe et des affaires étrangères	1
 2018-07-10	LFI	F	nouveaux	reponse	1	2	Ministère de l'intérieur	1
 2018-07-10	LFI	F	nouveaux	reponse	1	2	Ministère du travail	1
@@ -8380,8 +8380,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LFI	F	nouveaux	reponse	7	6-12	Ministère de la transition écologique et solidaire	1
 2018-07-10	LFI	F	nouveaux	reponse	8	6-12	Ministère des solidarités et de la santé	1
 2018-07-10	LFI	F	nouveaux	reponse	11	6-12	Ministère du travail	1
-2018-07-10	LFI	H	nouveaux	attente	12	12+	Ministère de la cohésion des territoires	1
-2018-07-10	LFI	H	nouveaux	attente	12	12+	Ministère de la transition écologique et solidaire	1
+2018-07-10	LFI	H	nouveaux	attente	13	12+	Ministère de la cohésion des territoires	1
+2018-07-10	LFI	H	nouveaux	attente	13	12+	Ministère de la transition écologique et solidaire	1
 2018-07-10	LFI	H	nouveaux	reponse	0	1	Premier ministre	1
 2018-07-10	LFI	H	nouveaux	reponse	1	2	Ministère de l'économie et des finances	1
 2018-07-10	LFI	H	nouveaux	reponse	1	2	Ministère de l'Europe et des affaires étrangères	1
@@ -8390,14 +8390,14 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LFI	H	nouveaux	reponse	4	3-6	Ministère de la transition écologique et solidaire	1
 2018-07-10	LFI	H	nouveaux	reponse	4	3-6	Ministère des solidarités et de la santé	1
 2018-07-10	LFI	H	nouveaux	reponse	11	6-12	Ministère de l'économie et des finances	2
-2018-07-10	LR	F	anciens	attente	12	12+	Ministère des solidarités et de la santé	1
+2018-07-10	LR	F	anciens	attente	13	12+	Ministère des solidarités et de la santé	1
 2018-07-10	LR	F	anciens	reponse	0	1	Ministère de la transition écologique et solidaire, des transports	1
 2018-07-10	LR	F	anciens	reponse	1	2	Ministère de l'économie et des finances	1
 2018-07-10	LR	F	anciens	reponse	1	2	Premier ministre	1
 2018-07-10	LR	F	anciens	reponse	2	3	Ministère de la transition écologique et solidaire, des transports	1
 2018-07-10	LR	F	anciens	reponse	3	3-6	Ministère des solidarités et de la santé	1
 2018-07-10	LR	F	anciens	reponse	9	6-12	Ministère de l'économie et des finances	1
-2018-07-10	LR	F	nouveaux	attente	12	12+	Ministère de la transition écologique et solidaire	1
+2018-07-10	LR	F	nouveaux	attente	13	12+	Ministère de la transition écologique et solidaire	1
 2018-07-10	LR	F	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	1
 2018-07-10	LR	F	nouveaux	reponse	2	3	Ministère de l'action et des comptes publics	1
 2018-07-10	LR	F	nouveaux	reponse	2	3	Ministère des solidarités et de la santé	2
@@ -8406,8 +8406,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LR	F	nouveaux	reponse	5	3-6	Ministère de la transition écologique et solidaire, des transports	1
 2018-07-10	LR	F	nouveaux	reponse	4	3-6	Ministère des solidarités et de la santé	1
 2018-07-10	LR	F	nouveaux	reponse	6	6-12	Ministère de l'économie et des finances	1
-2018-07-10	LR	H	anciens	attente	12	12+	Ministère de l'éducation nationale	1
-2018-07-10	LR	H	anciens	attente	12	12+	Ministère des solidarités et de la santé	1
+2018-07-10	LR	H	anciens	attente	13	12+	Ministère de l'éducation nationale	1
+2018-07-10	LR	H	anciens	attente	13	12+	Ministère des solidarités et de la santé	1
 2018-07-10	LR	H	anciens	reponse	0	1	Ministère de l'agriculture et de l'alimentation	1
 2018-07-10	LR	H	anciens	reponse	0	1	Ministère de l'intérieur	1
 2018-07-10	LR	H	anciens	reponse	0	1	Ministère de la transition écologique et solidaire, des transports	1
@@ -8423,8 +8423,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LR	H	anciens	reponse	9	6-12	Ministère de l'action et des comptes publics	1
 2018-07-10	LR	H	anciens	reponse	9	6-12	Ministère de la justice	1
 2018-07-10	LR	H	anciens	reponse	7	6-12	Ministère des solidarités et de la santé	1
-2018-07-10	LR	H	nouveaux	attente	12	12+	Ministère de l'intérieur	2
-2018-07-10	LR	H	nouveaux	attente	12	12+	Ministère des solidarités et de la santé	1
+2018-07-10	LR	H	nouveaux	attente	13	12+	Ministère de l'intérieur	2
+2018-07-10	LR	H	nouveaux	attente	13	12+	Ministère des solidarités et de la santé	1
 2018-07-10	LR	H	nouveaux	reponse	0	1	Ministère de l'agriculture et de l'alimentation	1
 2018-07-10	LR	H	nouveaux	reponse	1	2	Ministère de l'économie et des finances	4
 2018-07-10	LR	H	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	2
@@ -8441,10 +8441,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LR	H	nouveaux	reponse	11	6-12	Ministère de la justice	1
 2018-07-10	LR	H	nouveaux	reponse	9	6-12	Ministère du travail	1
 2018-07-10	LREM	F	anciens	reponse	5	3-6	Ministère des solidarités et de la santé	2
-2018-07-10	LREM	F	nouveaux	attente	12	12+	Ministère de l'action et des comptes publics	1
-2018-07-10	LREM	F	nouveaux	attente	12	12+	Ministère de l'intérieur	1
-2018-07-10	LREM	F	nouveaux	attente	12	12+	Ministère de la cohésion des territoires	1
-2018-07-10	LREM	F	nouveaux	attente	12	12+	Ministère des solidarités et de la santé	3
+2018-07-10	LREM	F	nouveaux	attente	13	12+	Ministère de l'action et des comptes publics	1
+2018-07-10	LREM	F	nouveaux	attente	13	12+	Ministère de l'intérieur	1
+2018-07-10	LREM	F	nouveaux	attente	13	12+	Ministère de la cohésion des territoires	1
+2018-07-10	LREM	F	nouveaux	attente	13	12+	Ministère des solidarités et de la santé	3
 2018-07-10	LREM	F	nouveaux	reponse	0	1	Ministère de l'Europe et des affaires étrangères	1
 2018-07-10	LREM	F	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	2
 2018-07-10	LREM	F	nouveaux	reponse	0	1	Premier ministre, de l'égalité entre les femmes et les hommes	2
@@ -8473,13 +8473,13 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LREM	H	anciens	reponse	2	3	Ministère de l'Europe et des affaires étrangères	1
 2018-07-10	LREM	H	anciens	reponse	2	3	Ministère de la cohésion des territoires	1
 2018-07-10	LREM	H	anciens	reponse	3	3-6	Ministère de l'action et des comptes publics	1
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Ministère de l'économie et des finances	1
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Ministère de l'éducation nationale	1
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Ministère de l'intérieur	1
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Ministère de la cohésion des territoires	1
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Ministère de la transition écologique et solidaire, des transports	1
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Ministère des solidarités et de la santé	5
-2018-07-10	LREM	H	nouveaux	attente	12	12+	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Ministère de l'économie et des finances	1
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Ministère de l'éducation nationale	1
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Ministère de l'intérieur	1
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Ministère de la cohésion des territoires	1
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Ministère de la transition écologique et solidaire, des transports	1
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Ministère des solidarités et de la santé	5
+2018-07-10	LREM	H	nouveaux	attente	13	12+	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
 2018-07-10	LREM	H	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-07-10	LREM	H	nouveaux	reponse	0	1	Ministère du travail	1
 2018-07-10	LREM	H	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
@@ -8509,7 +8509,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	LREM	H	nouveaux	reponse	6	6-12	Ministère des solidarités et de la santé	1
 2018-07-10	LREM	H	nouveaux	retrait	4	3-6	Ministère des solidarités et de la santé	1
 2018-07-10	LREM	H	nouveaux	retrait	7	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
-2018-07-10	MODEM	F	nouveaux	attente	12	12+	Ministère de la transition écologique et solidaire, des transports	1
+2018-07-10	MODEM	F	nouveaux	attente	13	12+	Ministère de la transition écologique et solidaire, des transports	1
 2018-07-10	MODEM	F	nouveaux	reponse	2	3	Ministère de l'économie et des finances	1
 2018-07-10	MODEM	F	nouveaux	reponse	2	3	Ministère de l'intérieur	1
 2018-07-10	MODEM	F	nouveaux	reponse	2	3	Ministère de la transition écologique et solidaire, des transports	1
@@ -8518,7 +8518,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	MODEM	F	nouveaux	reponse	3	3-6	Ministère des solidarités et de la santé	3
 2018-07-10	MODEM	F	nouveaux	reponse	3	3-6	Premier ministre, des personnes handicapées	1
 2018-07-10	MODEM	F	nouveaux	reponse	10	6-12	Ministère de la culture	1
-2018-07-10	MODEM	H	nouveaux	attente	12	12+	Ministère de l'éducation nationale	1
+2018-07-10	MODEM	H	nouveaux	attente	13	12+	Ministère de l'éducation nationale	1
 2018-07-10	MODEM	H	nouveaux	reponse	1	2	Ministère de l'économie et des finances	1
 2018-07-10	MODEM	H	nouveaux	reponse	1	2	Ministère de l'éducation nationale	1
 2018-07-10	MODEM	H	nouveaux	reponse	2	3	Ministère de l'agriculture et de l'alimentation	1
@@ -8528,8 +8528,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	MODEM	H	nouveaux	reponse	5	3-6	Ministère de la justice	2
 2018-07-10	MODEM	H	nouveaux	reponse	5	3-6	Ministère des solidarités et de la santé	2
 2018-07-10	MODEM	H	nouveaux	reponse	6	6-12	Ministère de la culture	1
-2018-07-10	NG	F	anciens	attente	12	12+	Ministère de l'intérieur	1
-2018-07-10	NG	F	anciens	attente	12	12+	Ministère des solidarités et de la santé	1
+2018-07-10	NG	F	anciens	attente	13	12+	Ministère de l'intérieur	1
+2018-07-10	NG	F	anciens	attente	13	12+	Ministère des solidarités et de la santé	1
 2018-07-10	NG	F	anciens	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-07-10	NG	F	anciens	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
 2018-07-10	NG	F	anciens	reponse	1	2	Ministère de l'économie et des finances	1
@@ -8541,14 +8541,14 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	NG	F	anciens	retrait	0	1	Ministère de la cohésion des territoires	1
 2018-07-10	NG	F	anciens	retrait	0	1	Ministère des solidarités et de la santé	1
 2018-07-10	NG	F	nouveaux	reponse	7	6-12	Ministère des solidarités et de la santé	1
-2018-07-10	NG	H	anciens	attente	12	12+	Ministère de l'économie et des finances	1
+2018-07-10	NG	H	anciens	attente	13	12+	Ministère de l'économie et des finances	1
 2018-07-10	NG	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-07-10	NG	H	anciens	reponse	1	2	Ministère de l'action et des comptes publics	1
 2018-07-10	NG	H	anciens	reponse	4	3-6	Ministère de l'économie et des finances	1
 2018-07-10	NG	H	anciens	reponse	4	3-6	Ministère de la transition écologique et solidaire	1
-2018-07-10	NG	H	nouveaux	attente	12	12+	Ministère de l'économie et des finances	1
-2018-07-10	NG	H	nouveaux	attente	12	12+	Ministère de l'intérieur	1
-2018-07-10	NG	H	nouveaux	attente	12	12+	Ministère de la cohésion des territoires	1
+2018-07-10	NG	H	nouveaux	attente	13	12+	Ministère de l'économie et des finances	1
+2018-07-10	NG	H	nouveaux	attente	13	12+	Ministère de l'intérieur	1
+2018-07-10	NG	H	nouveaux	attente	13	12+	Ministère de la cohésion des territoires	1
 2018-07-10	NG	H	nouveaux	reponse	0	1	Ministère de l'Europe et des affaires étrangères	1
 2018-07-10	NG	H	nouveaux	reponse	1	2	Ministère de l'économie et des finances	1
 2018-07-10	NG	H	nouveaux	reponse	2	3	Ministère de l'action et des comptes publics	1
@@ -8561,8 +8561,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	NI	F	nouveaux	reponse	2	3	Ministère de la transition écologique et solidaire	1
 2018-07-10	NI	F	nouveaux	reponse	5	3-6	Ministère de la culture	1
 2018-07-10	NI	F	nouveaux	reponse	3	3-6	Ministère de la justice	1
-2018-07-10	NI	H	anciens	attente	12	12+	Ministère de la cohésion des territoires	1
-2018-07-10	NI	H	anciens	attente	12	12+	Ministère des solidarités et de la santé	1
+2018-07-10	NI	H	anciens	attente	13	12+	Ministère de la cohésion des territoires	1
+2018-07-10	NI	H	anciens	attente	13	12+	Ministère des solidarités et de la santé	1
 2018-07-10	NI	H	anciens	reponse	3	3-6	Ministère des solidarités et de la santé	1
 2018-07-10	NI	H	anciens	reponse	3	3-6	Premier ministre, de l'égalité entre les femmes et les hommes	1
 2018-07-10	NI	H	nouveaux	reponse	0	1	Premier ministre, du numérique	1
@@ -8572,8 +8572,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-07-10	UAI	F	nouveaux	reponse	1	2	Ministère de l'Europe et des affaires étrangères	1
 2018-07-10	UAI	F	nouveaux	reponse	5	3-6	Ministère de l'intérieur	1
 2018-07-10	UAI	F	nouveaux	reponse	3	3-6	Ministère des solidarités et de la santé	2
-2018-07-10	UAI	H	anciens	attente	12	12+	Ministère de l'économie et des finances	1
-2018-07-10	UAI	H	anciens	attente	12	12+	Ministère du travail	1
+2018-07-10	UAI	H	anciens	attente	13	12+	Ministère de l'économie et des finances	1
+2018-07-10	UAI	H	anciens	attente	13	12+	Ministère du travail	1
 2018-07-10	UAI	H	anciens	reponse	1	2	Ministère de l'économie et des finances	1
 2018-07-10	UAI	H	anciens	reponse	1	2	Ministère de l'intérieur	1
 2018-07-10	UAI	H	anciens	reponse	1	2	Ministère des solidarités et de la santé	1
@@ -10374,17 +10374,17 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-02	UAI	H	nouveaux	reponse	6	6-12	Ministère de l'économie et des finances	1
 2018-10-02	UAI	H	nouveaux	reponse	7	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
 2018-10-09	GDR	F	anciens	reponse	3	3-6	Ministère de l'intérieur	1
-2018-10-09	GDR	F	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	GDR	F	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	GDR	H	anciens	reponse	4	3-6	Ministère des solidarités et de la santé	1
 2018-10-09	GDR	H	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-10-09	GDR	H	nouveaux	reponse	2	3	Ministère de l'agriculture et de l'alimentation	1
 2018-10-09	GDR	H	nouveaux	reponse	3	3-6	Ministère de la transition écologique et solidaire	1
 2018-10-09	GDR	H	nouveaux	reponse	3	3-6	Ministère des solidarités et de la santé	1
-2018-10-09	LFI	F	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	LFI	F	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LFI	F	nouveaux	reponse	2	3	Ministère de l'économie et des finances	1
-2018-10-09	LFI	H	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	LFI	H	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LFI	H	nouveaux	reponse	8	6-12	Ministère de l'Europe et des affaires étrangères	1
-2018-10-09	LR	F	anciens	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	LR	F	anciens	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LR	F	anciens	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-10-09	LR	F	anciens	reponse	1	2	Ministère de l'intérieur	1
 2018-10-09	LR	F	anciens	reponse	1	2	Ministère des solidarités et de la santé	1
@@ -10395,8 +10395,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	LR	F	anciens	reponse	4	3-6	Ministère de l'agriculture et de l'alimentation	2
 2018-10-09	LR	F	anciens	reponse	6	6-12	Ministère de l'éducation nationale	1
 2018-10-09	LR	F	anciens	reponse	8	6-12	Ministère de la transition écologique et solidaire, des transports	1
-2018-10-09	LR	F	nouveaux	attente	9	6-12	Ministère de la transition écologique et solidaire, des transports	1
-2018-10-09	LR	F	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	2
+2018-10-09	LR	F	nouveaux	attente	10	6-12	Ministère de la transition écologique et solidaire, des transports	1
+2018-10-09	LR	F	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	2
 2018-10-09	LR	F	nouveaux	reponse	0	1	Ministère de l'action et des comptes publics	1
 2018-10-09	LR	F	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
 2018-10-09	LR	F	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	3
@@ -10404,9 +10404,9 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	LR	F	nouveaux	reponse	2	3	Ministère des solidarités et de la santé	1
 2018-10-09	LR	F	nouveaux	reponse	2	3	Ministère des sports	1
 2018-10-09	LR	F	nouveaux	reponse	3	3-6	Ministère de l'intérieur	2
-2018-10-09	LR	H	anciens	attente	9	6-12	Ministère de l'intérieur	1
-2018-10-09	LR	H	anciens	attente	9	6-12	Ministère de la transition écologique et solidaire	1
-2018-10-09	LR	H	anciens	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	LR	H	anciens	attente	10	6-12	Ministère de l'intérieur	1
+2018-10-09	LR	H	anciens	attente	10	6-12	Ministère de la transition écologique et solidaire	1
+2018-10-09	LR	H	anciens	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LR	H	anciens	reponse	0	1	Ministère de l'action et des comptes publics	1
 2018-10-09	LR	H	anciens	reponse	2	3	Ministère de l'économie et des finances	3
 2018-10-09	LR	H	anciens	reponse	2	3	Ministère de l'éducation nationale	1
@@ -10416,8 +10416,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	LR	H	anciens	reponse	5	3-6	Ministère de l'intérieur	1
 2018-10-09	LR	H	anciens	reponse	7	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
 2018-10-09	LR	H	anciens	reponse	6	6-12	Ministère des solidarités et de la santé	1
-2018-10-09	LR	H	nouveaux	attente	9	6-12	Ministère de l'économie et des finances	2
-2018-10-09	LR	H	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	2
+2018-10-09	LR	H	nouveaux	attente	10	6-12	Ministère de l'économie et des finances	2
+2018-10-09	LR	H	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	2
 2018-10-09	LR	H	nouveaux	reponse	0	1	Ministère de la transition écologique et solidaire	1
 2018-10-09	LR	H	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	3
 2018-10-09	LR	H	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
@@ -10436,10 +10436,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	LR	H	nouveaux	reponse	6	6-12	Ministère de l'action et des comptes publics	1
 2018-10-09	LR	H	nouveaux	reponse	6	6-12	Ministère de l'éducation nationale	1
 2018-10-09	LR	H	nouveaux	reponse	8	6-12	Ministère des solidarités et de la santé	1
-2018-10-09	LREM	F	nouveaux	attente	9	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
-2018-10-09	LREM	F	nouveaux	attente	9	6-12	Ministère de la cohésion des territoires	2
-2018-10-09	LREM	F	nouveaux	attente	9	6-12	Ministère de la transition écologique et solidaire, des transports	1
-2018-10-09	LREM	F	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	3
+2018-10-09	LREM	F	nouveaux	attente	10	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2018-10-09	LREM	F	nouveaux	attente	10	6-12	Ministère de la cohésion des territoires	2
+2018-10-09	LREM	F	nouveaux	attente	10	6-12	Ministère de la transition écologique et solidaire, des transports	1
+2018-10-09	LREM	F	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	3
 2018-10-09	LREM	F	nouveaux	reponse	0	1	Ministère de la transition écologique et solidaire	1
 2018-10-09	LREM	F	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-10-09	LREM	F	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	2
@@ -10465,20 +10465,20 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	LREM	F	nouveaux	reponse	6	6-12	Ministère de la transition écologique et solidaire	2
 2018-10-09	LREM	F	nouveaux	reponse	8	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LREM	F	nouveaux	reponse	8	6-12	Ministère du travail	1
-2018-10-09	LREM	H	anciens	attente	9	6-12	Ministère de l'action et des comptes publics	1
-2018-10-09	LREM	H	anciens	attente	9	6-12	Ministère de l'agriculture et de l'alimentation	1
-2018-10-09	LREM	H	anciens	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	LREM	H	anciens	attente	10	6-12	Ministère de l'action et des comptes publics	1
+2018-10-09	LREM	H	anciens	attente	10	6-12	Ministère de l'agriculture et de l'alimentation	1
+2018-10-09	LREM	H	anciens	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LREM	H	anciens	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
 2018-10-09	LREM	H	anciens	reponse	2	3	Ministère de l'économie et des finances	1
 2018-10-09	LREM	H	anciens	reponse	2	3	Ministère de la transition écologique et solidaire	1
 2018-10-09	LREM	H	anciens	reponse	6	6-12	Ministère de l'économie et des finances	1
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Ministère de l'action et des comptes publics	1
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Ministère de l'Europe et des affaires étrangères	1
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Ministère de l'intérieur	2
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Ministère de la cohésion des territoires	3
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Ministère de la transition écologique et solidaire, des transports	1
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	4
-2018-10-09	LREM	H	nouveaux	attente	9	6-12	Premier ministre, du numérique	1
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Ministère de l'action et des comptes publics	1
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Ministère de l'Europe et des affaires étrangères	1
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Ministère de l'intérieur	2
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Ministère de la cohésion des territoires	3
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Ministère de la transition écologique et solidaire, des transports	1
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	4
+2018-10-09	LREM	H	nouveaux	attente	10	6-12	Premier ministre, du numérique	1
 2018-10-09	LREM	H	nouveaux	reponse	0	1	Ministère des solidarités et de la santé	1
 2018-10-09	LREM	H	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
 2018-10-09	LREM	H	nouveaux	reponse	1	2	Ministère de l'économie et des finances	1
@@ -10503,12 +10503,12 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	LREM	H	nouveaux	reponse	7	6-12	Ministère de l'intérieur	2
 2018-10-09	LREM	H	nouveaux	reponse	6	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	LREM	H	nouveaux	reponse	7	6-12	Ministère des sports	1
-2018-10-09	MODEM	F	nouveaux	attente	9	6-12	Ministère de la culture	1
+2018-10-09	MODEM	F	nouveaux	attente	10	6-12	Ministère de la culture	1
 2018-10-09	MODEM	F	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	1
 2018-10-09	MODEM	F	nouveaux	reponse	3	3-6	Ministère de la justice	1
-2018-10-09	MODEM	H	nouveaux	attente	9	6-12	Ministère de l'intérieur	1
-2018-10-09	MODEM	H	nouveaux	attente	9	6-12	Ministère de la cohésion des territoires	1
-2018-10-09	MODEM	H	nouveaux	attente	9	6-12	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	2
+2018-10-09	MODEM	H	nouveaux	attente	10	6-12	Ministère de l'intérieur	1
+2018-10-09	MODEM	H	nouveaux	attente	10	6-12	Ministère de la cohésion des territoires	1
+2018-10-09	MODEM	H	nouveaux	attente	10	6-12	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	2
 2018-10-09	MODEM	H	nouveaux	reponse	0	1	Ministère de l'Europe et des affaires étrangères, des affaires européennes	1
 2018-10-09	MODEM	H	nouveaux	reponse	0	1	Ministère de l'intérieur	2
 2018-10-09	MODEM	H	nouveaux	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
@@ -10534,27 +10534,27 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2018-10-09	MODEM	H	nouveaux	reponse	6	6-12	Ministère de l'intérieur	1
 2018-10-09	MODEM	H	nouveaux	reponse	6	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	NI	F	nouveaux	reponse	7	6-12	Ministère de la justice	1
-2018-10-09	NI	H	anciens	attente	9	6-12	Ministère de l'action et des comptes publics	1
-2018-10-09	NI	H	anciens	attente	9	6-12	Ministère de l'intérieur	1
-2018-10-09	NI	H	anciens	attente	9	6-12	Ministère des solidarités et de la santé	3
-2018-10-09	NI	H	anciens	attente	9	6-12	Ministère des sports	1
+2018-10-09	NI	H	anciens	attente	10	6-12	Ministère de l'action et des comptes publics	1
+2018-10-09	NI	H	anciens	attente	10	6-12	Ministère de l'intérieur	1
+2018-10-09	NI	H	anciens	attente	10	6-12	Ministère des solidarités et de la santé	3
+2018-10-09	NI	H	anciens	attente	10	6-12	Ministère des sports	1
 2018-10-09	NI	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	2
 2018-10-09	NI	H	anciens	reponse	1	2	Ministère de l'action et des comptes publics	1
 2018-10-09	NI	H	anciens	reponse	1	2	Ministère des armées	1
 2018-10-09	NI	H	anciens	reponse	2	3	Ministère de l'intérieur	1
 2018-10-09	NI	H	anciens	reponse	5	3-6	Ministère de l'économie et des finances	1
 2018-10-09	NI	H	anciens	reponse	3	3-6	Ministère des armées	1
-2018-10-09	NI	H	nouveaux	attente	9	6-12	Ministère de l'Europe et des affaires étrangères	1
-2018-10-09	NI	H	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	NI	H	nouveaux	attente	10	6-12	Ministère de l'Europe et des affaires étrangères	1
+2018-10-09	NI	H	nouveaux	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	NI	H	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	1
 2018-10-09	NI	H	nouveaux	reponse	2	3	Ministère du travail	1
-2018-10-09	SOC	F	anciens	attente	9	6-12	Ministère des solidarités et de la santé	1
+2018-10-09	SOC	F	anciens	attente	10	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	SOC	F	anciens	reponse	2	3	Ministère de l'économie et des finances	1
 2018-10-09	SOC	F	anciens	reponse	2	3	Ministère des solidarités et de la santé	1
 2018-10-09	SOC	F	anciens	reponse	6	6-12	Ministère de l'action et des comptes publics	1
 2018-10-09	SOC	F	anciens	reponse	8	6-12	Ministère des solidarités et de la santé	1
 2018-10-09	SOC	F	anciens	reponse	6	6-12	Premier ministre, du numérique	1
-2018-10-09	SOC	H	anciens	attente	9	6-12	Ministère de la justice	1
+2018-10-09	SOC	H	anciens	attente	10	6-12	Ministère de la justice	1
 2018-10-09	SOC	H	anciens	reponse	1	2	Ministère des solidarités et de la santé	1
 2018-10-09	SOC	H	anciens	reponse	2	3	Ministère de l'intérieur	1
 2018-10-09	SOC	H	nouveaux	reponse	1	2	Ministère des solidarités et de la santé	2
