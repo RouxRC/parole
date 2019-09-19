@@ -17870,7 +17870,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-09-16	NI	F	anciens	Irrecevable	hemicycle	1
 2019-09-16	NI	F	anciens	Non soutenu	hemicycle	3
 2019-09-16	NI	F	nouveaux	Non soutenu	hemicycle	3
-2019-09-16	NI	F	nouveaux	Rejeté	hemicycle	7
+2019-09-16	NI	F	nouveaux	Rejeté	hemicycle	6
 2019-09-16	NI	F	nouveaux	Retiré	hemicycle	1
 2019-09-16	SOC	F	anciens	Rejeté	hemicycle	2
 2019-09-16	SOC	F	anciens	Tombe	hemicycle	1
@@ -17890,3 +17890,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-09-17	LT	H	nouveaux	Retiré	hemicycle	1
 2019-09-17	MODEM	H	nouveaux	Adopté	hemicycle	1
 2019-09-17	NI	F	anciens	Irrecevable	hemicycle	9
+2019-09-17	NI	F	nouveaux	Rejeté	hemicycle	1
