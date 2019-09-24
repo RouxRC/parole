@@ -22813,6 +22813,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-17	GDR	H	nouveaux	hemicycle	invectives	45
 2019-09-17	GDR	H	nouveaux	hemicycle	longues	1218
 2019-09-17	LFI	F	nouveaux	hemicycle	longues	321
+2019-09-17	LFI	H	nouveaux	commissions	invectives	0
 2019-09-17	LFI	H	nouveaux	hemicycle	invectives	109
 2019-09-17	LFI	H	nouveaux	hemicycle	longues	1836
 2019-09-17	LR	F	anciens	hemicycle	invectives	5
@@ -22821,6 +22822,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-17	LR	F	nouveaux	commissions	invectives	0
 2019-09-17	LR	F	nouveaux	hemicycle	invectives	18
 2019-09-17	LR	F	nouveaux	hemicycle	longues	750
+2019-09-17	LR	H	anciens	commissions	invectives	0
 2019-09-17	LR	H	anciens	hemicycle	invectives	161
 2019-09-17	LR	H	anciens	hemicycle	longues	1270
 2019-09-17	LR	H	nouveaux	commissions	invectives	0
@@ -22829,6 +22831,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-17	LREM	F	nouveaux	commissions	invectives	0
 2019-09-17	LREM	F	nouveaux	hemicycle	invectives	13
 2019-09-17	LREM	F	nouveaux	hemicycle	longues	1149
+2019-09-17	LREM	H	anciens	commissions	invectives	0
 2019-09-17	LREM	H	anciens	hemicycle	longues	332
 2019-09-17	LREM	H	anciens	hemicycle	presidence	609
 2019-09-17	LREM	H	nouveaux	commissions	invectives	0
@@ -22842,10 +22845,12 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-17	MODEM	F	nouveaux	hemicycle	longues	362
 2019-09-17	MODEM	H	nouveaux	hemicycle	invectives	46
 2019-09-17	MODEM	H	nouveaux	hemicycle	longues	2097
+2019-09-17	NI	F	anciens	commissions	invectives	0
 2019-09-17	NI	F	nouveaux	hemicycle	invectives	5
 2019-09-17	NI	F	nouveaux	hemicycle	longues	1173
 2019-09-17	NI	H	anciens	hemicycle	invectives	5
 2019-09-17	NI	H	nouveaux	hemicycle	longues	1218
+2019-09-17	SOC	F	anciens	commissions	invectives	0
 2019-09-17	SOC	F	anciens	hemicycle	invectives	4
 2019-09-17	SOC	F	anciens	hemicycle	longues	1141
 2019-09-17	SOC	F	nouveaux	commissions	invectives	0
@@ -22903,6 +22908,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-18	MODEM	H	nouveaux	commissions	longues	498
 2019-09-18	MODEM	H	nouveaux	hemicycle	invectives	13
 2019-09-18	MODEM	H	nouveaux	hemicycle	longues	3380
+2019-09-18	NI	F	anciens	commissions	invectives	0
 2019-09-18	SOC	F	anciens	commissions	invectives	0
 2019-09-18	SOC	F	anciens	commissions	longues	192
 2019-09-18	SOC	F	anciens	hemicycle	longues	804
@@ -22911,6 +22917,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-18	SOC	H	anciens	hemicycle	invectives	170
 2019-09-18	SOC	H	anciens	hemicycle	longues	2370
 2019-09-18	SOC	H	nouveaux	hemicycle	longues	1394
+2019-09-18	UDI	F	anciens	commissions	invectives	0
 2019-09-18	UDI	F	nouveaux	commissions	invectives	0
 2019-09-18	UDI	H	anciens	hemicycle	invectives	6
 2019-09-18	UDI	H	nouveaux	commissions	invectives	0
