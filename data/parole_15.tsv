@@ -23004,6 +23004,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-25	GDR	F	nouveaux	hemicycle	invectives	19
 2019-09-25	GDR	F	nouveaux	hemicycle	longues	624
 2019-09-25	GDR	H	nouveaux	commissions	invectives	0
+2019-09-25	GDR	H	nouveaux	commissions	longues	246
 2019-09-25	GDR	H	nouveaux	hemicycle	invectives	23
 2019-09-25	GDR	H	nouveaux	hemicycle	longues	381
 2019-09-25	LFI	F	nouveaux	commissions	invectives	0
@@ -23019,16 +23020,18 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-25	LR	F	nouveaux	hemicycle	invectives	87
 2019-09-25	LR	F	nouveaux	hemicycle	longues	1591
 2019-09-25	LR	H	anciens	commissions	invectives	0
-2019-09-25	LR	H	anciens	commissions	longues	1662
+2019-09-25	LR	H	anciens	commissions	longues	2317
 2019-09-25	LR	H	anciens	hemicycle	invectives	677
 2019-09-25	LR	H	anciens	hemicycle	longues	8005
 2019-09-25	LR	H	nouveaux	commissions	invectives	0
+2019-09-25	LR	H	nouveaux	commissions	longues	261
 2019-09-25	LR	H	nouveaux	hemicycle	invectives	382
 2019-09-25	LR	H	nouveaux	hemicycle	longues	4239
 2019-09-25	LREM	F	anciens	commissions	invectives	0
+2019-09-25	LREM	F	anciens	commissions	presidence	559
 2019-09-25	LREM	F	anciens	hemicycle	invectives	5
 2019-09-25	LREM	F	nouveaux	commissions	invectives	12
-2019-09-25	LREM	F	nouveaux	commissions	longues	621
+2019-09-25	LREM	F	nouveaux	commissions	longues	1104
 2019-09-25	LREM	F	nouveaux	hemicycle	invectives	52
 2019-09-25	LREM	F	nouveaux	hemicycle	longues	5010
 2019-09-25	LREM	H	anciens	commissions	invectives	0
@@ -23037,7 +23040,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-25	LREM	H	anciens	hemicycle	longues	4509
 2019-09-25	LREM	H	anciens	hemicycle	presidence	1238
 2019-09-25	LREM	H	nouveaux	commissions	invectives	0
-2019-09-25	LREM	H	nouveaux	commissions	longues	2342
+2019-09-25	LREM	H	nouveaux	commissions	longues	2841
 2019-09-25	LREM	H	nouveaux	commissions	presidence	0
 2019-09-25	LREM	H	nouveaux	hemicycle	invectives	81
 2019-09-25	LREM	H	nouveaux	hemicycle	longues	3895
@@ -23068,6 +23071,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-09-25	SOC	H	nouveaux	commissions	invectives	0
 2019-09-25	SOC	H	nouveaux	hemicycle	invectives	18
 2019-09-25	SOC	H	nouveaux	hemicycle	longues	180
+2019-09-25	UAI	F	nouveaux	commissions	longues	173
 2019-09-25	UDI	H	anciens	commissions	invectives	0
 2019-09-25	UDI	H	anciens	commissions	presidence	751
 2019-09-25	UDI	H	anciens	hemicycle	invectives	31
