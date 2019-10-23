@@ -921,19 +921,10 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-10-17	LR	H	nouveaux	résolution	attente	1
 2019-10-17	LREM	H	nouveaux	résolution européenne	attente	1
 2019-10-17	SOC	F	anciens	résolution européenne	attente	1
-2019-10-22	GDR	H	anciens	résolution	attente	1
-2019-10-22	LFI	H	nouveaux	loi	attente	1
 2019-10-22	LFI	H	nouveaux	loi organique	attente	1
-2019-10-22	LFI	H	nouveaux	résolution	attente	1
 2019-10-22	LR	F	anciens	création d'une commission d'enquête	attente	1
-2019-10-22	LR	H	anciens	résolution	attente	1
-2019-10-22	LREM	H	nouveaux	résolution	attente	1
-2019-10-22	LT	H	anciens	résolution	attente	1
-2019-10-22	MODEM	H	nouveaux	résolution	attente	1
-2019-10-22	NI	F	nouveaux	loi	attente	1
 2019-10-22	NI	H	nouveaux	loi	attente	1
-2019-10-22	SOC	F	anciens	résolution	attente	1
-2019-10-22	UAI	H	anciens	résolution	attente	2
+2019-10-22	UAI	H	anciens	résolution	attente	1
 2019-10-23	LFI	H	nouveaux	loi	attente	1
 2019-10-23	LR	F	nouveaux	loi	attente	1
 2019-10-23	LR	H	anciens	loi	attente	2
@@ -953,9 +944,19 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-10-25	MODEM	H	nouveaux	loi	attente	1
 2019-10-28	LR	H	nouveaux	loi	attente	1
 2019-10-28	MODEM	H	nouveaux	loi organique	attente	1
+2019-10-29	GDR	H	anciens	résolution	attente	1
+2019-10-29	LFI	H	nouveaux	résolution	attente	1
 2019-10-29	LR	H	anciens	loi	attente	1
+2019-10-29	LR	H	anciens	résolution	attente	1
 2019-10-29	LR	H	nouveaux	loi	attente	2
+2019-10-29	LREM	H	nouveaux	résolution	attente	1
+2019-10-29	LT	H	anciens	résolution	attente	1
+2019-10-29	MODEM	H	nouveaux	résolution	attente	1
+2019-10-29	SOC	F	anciens	résolution	attente	1
 2019-10-29	SOC	H	anciens	loi	attente	4
 2019-10-29	SOC	H	nouveaux	loi	attente	1
+2019-10-29	UAI	H	anciens	résolution	attente	1
+2019-10-30	LFI	H	nouveaux	loi	attente	1
 2019-10-30	LR	H	nouveaux	résolution européenne	attente	1
+2019-10-30	NI	F	nouveaux	loi	attente	1
 2019-11-18	NI	H	anciens	loi présentée en application de l'article 11 de la Constitution	attente	1
