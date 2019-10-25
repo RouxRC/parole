@@ -18412,10 +18412,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-03	LR	F	nouveaux	Non soutenu	hemicycle	2
 2019-10-03	LR	F	nouveaux	Retiré	commissions	1
 2019-10-03	LR	H	anciens	Adopté	hemicycle	1
+2019-10-03	LR	H	anciens	Indéfini	hemicycle	1
 2019-10-03	LR	H	anciens	Irrecevable	commissions	2
 2019-10-03	LR	H	anciens	Non soutenu	hemicycle	1
 2019-10-03	LR	H	anciens	Rejeté	hemicycle	1
 2019-10-03	LR	H	anciens	Retiré	commissions	1
+2019-10-03	LR	H	nouveaux	Indéfini	commissions	5
 2019-10-03	LR	H	nouveaux	Irrecevable	commissions	14
 2019-10-03	LR	H	nouveaux	Rejeté	hemicycle	1
 2019-10-03	LR	H	nouveaux	Retiré	commissions	4
@@ -18423,7 +18425,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-03	LREM	F	anciens	Indéfini	commissions	3
 2019-10-03	LREM	F	anciens	Retiré	commissions	1
 2019-10-03	LREM	F	nouveaux	Adopté	hemicycle	5
-2019-10-03	LREM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-03	LREM	F	nouveaux	Irrecevable	commissions	1
 2019-10-03	LREM	F	nouveaux	Retiré	hemicycle	2
 2019-10-03	LREM	F	nouveaux	Tombe	hemicycle	1
@@ -18435,20 +18436,17 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-03	LREM	H	nouveaux	Rejeté	hemicycle	1
 2019-10-03	LREM	H	nouveaux	Retiré	commissions	2
 2019-10-03	LREM	H	nouveaux	Tombe	hemicycle	1
-2019-10-03	LT	F	anciens	Indéfini	hemicycle	1
 2019-10-03	LT	H	anciens	Irrecevable	commissions	2
 2019-10-03	LT	H	anciens	Retiré	hemicycle	1
 2019-10-03	LT	H	anciens	Tombe	hemicycle	1
 2019-10-03	LT	H	nouveaux	Irrecevable	commissions	4
 2019-10-03	LT	H	nouveaux	Retiré	commissions	1
-2019-10-03	SOC	F	anciens	Indéfini	hemicycle	1
 2019-10-03	SOC	H	anciens	Indéfini	hemicycle	3
 2019-10-03	SOC	H	nouveaux	Adopté	hemicycle	4
 2019-10-03	SOC	H	nouveaux	Non soutenu	hemicycle	1
 2019-10-03	UAI	F	anciens	Retiré	commissions	1
 2019-10-03	UAI	H	nouveaux	Retiré	hemicycle	1
 2019-10-04	GDR	H	nouveaux	Adopté	hemicycle	1
-2019-10-04	GDR	H	nouveaux	Indéfini	hemicycle	1
 2019-10-04	GDR	H	nouveaux	Irrecevable	commissions	2
 2019-10-04	GDR	H	nouveaux	Retiré	hemicycle	1
 2019-10-04	LFI	F	nouveaux	Irrecevable	commissions	3
@@ -18463,7 +18461,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-04	LR	H	anciens	Retiré	commissions	1
 2019-10-04	LR	H	anciens	Retiré	hemicycle	2
 2019-10-04	LR	H	nouveaux	Indéfini	commissions	2
-2019-10-04	LR	H	nouveaux	Indéfini	hemicycle	2
 2019-10-04	LR	H	nouveaux	Irrecevable	commissions	18
 2019-10-04	LR	H	nouveaux	Rejeté	hemicycle	1
 2019-10-04	LR	H	nouveaux	Retiré	commissions	1
@@ -18474,7 +18471,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-04	LREM	H	anciens	Irrecevable	commissions	1
 2019-10-04	LREM	H	nouveaux	Adopté	hemicycle	9
 2019-10-04	LREM	H	nouveaux	Indéfini	commissions	3
-2019-10-04	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-04	LREM	H	nouveaux	Irrecevable	commissions	5
 2019-10-04	LREM	H	nouveaux	Retiré	commissions	1
 2019-10-04	LREM	H	nouveaux	Retiré	hemicycle	2
@@ -18483,7 +18479,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-04	LT	H	anciens	Retiré	commissions	6
 2019-10-04	LT	H	anciens	Retiré	hemicycle	1
 2019-10-04	LT	H	nouveaux	Indéfini	commissions	1
-2019-10-04	LT	H	nouveaux	Indéfini	hemicycle	1
 2019-10-04	LT	H	nouveaux	Irrecevable	commissions	4
 2019-10-04	LT	H	nouveaux	Retiré	commissions	7
 2019-10-04	LT	H	nouveaux	Retiré	hemicycle	1
@@ -18495,15 +18490,20 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-04	MODEM	H	nouveaux	Retiré	hemicycle	1
 2019-10-04	NI	F	nouveaux	Non soutenu	hemicycle	1
 2019-10-04	NI	F	nouveaux	Rejeté	hemicycle	1
-2019-10-04	NI	H	nouveaux	Indéfini	hemicycle	1
+2019-10-04	SOC	F	anciens	Indéfini	hemicycle	1
 2019-10-04	SOC	F	anciens	Irrecevable	commissions	7
 2019-10-04	SOC	F	anciens	Retiré	hemicycle	1
 2019-10-04	SOC	H	nouveaux	Adopté	hemicycle	1
 2019-10-04	UAI	F	nouveaux	Retiré	commissions	1
 2019-10-04	UAI	F	nouveaux	Retiré	hemicycle	1
+2019-10-04	UAI	H	anciens	Indéfini	commissions	2
 2019-10-04	UDI	H	nouveaux	Adopté	hemicycle	1
+2019-10-05	GDR	H	nouveaux	Indéfini	commissions	3
 2019-10-05	GDR	H	nouveaux	Irrecevable	commissions	7
+2019-10-05	GDR	H	nouveaux	Retiré	hemicycle	1
+2019-10-05	LFI	F	nouveaux	Indéfini	commissions	2
 2019-10-05	LFI	F	nouveaux	Irrecevable	commissions	3
+2019-10-05	LFI	H	nouveaux	Indéfini	commissions	2
 2019-10-05	LFI	H	nouveaux	Irrecevable	commissions	1
 2019-10-05	LR	F	anciens	Irrecevable	commissions	22
 2019-10-05	LR	F	nouveaux	Irrecevable	commissions	10
@@ -18520,13 +18520,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-05	LR	H	nouveaux	Tombe	commissions	2
 2019-10-05	LREM	F	anciens	Irrecevable	commissions	2
 2019-10-05	LREM	F	nouveaux	Adopté	commissions	1
+2019-10-05	LREM	F	nouveaux	Indéfini	hemicycle	3
 2019-10-05	LREM	F	nouveaux	Irrecevable	commissions	16
 2019-10-05	LREM	F	nouveaux	Retiré	commissions	2
 2019-10-05	LREM	H	anciens	Irrecevable	commissions	5
 2019-10-05	LREM	H	nouveaux	Adopté	commissions	1
-2019-10-05	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-05	LREM	H	nouveaux	Irrecevable	commissions	30
 2019-10-05	LREM	H	nouveaux	Retiré	commissions	1
+2019-10-05	LREM	H	nouveaux	Retiré	hemicycle	2
+2019-10-05	LT	F	anciens	Indéfini	commissions	1
 2019-10-05	LT	H	anciens	Adopté	commissions	1
 2019-10-05	LT	H	anciens	Irrecevable	commissions	24
 2019-10-05	LT	H	anciens	Tombe	commissions	1
@@ -18536,9 +18538,11 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-05	MODEM	H	nouveaux	Retiré	commissions	2
 2019-10-05	SOC	F	anciens	Irrecevable	commissions	10
 2019-10-05	SOC	H	anciens	Irrecevable	commissions	1
+2019-10-05	SOC	H	nouveaux	Indéfini	commissions	7
 2019-10-05	UAI	F	nouveaux	Indéfini	commissions	1
 2019-10-05	UAI	F	nouveaux	Irrecevable	commissions	5
 2019-10-05	UAI	F	nouveaux	Retiré	commissions	2
+2019-10-05	UAI	H	anciens	Indéfini	commissions	2
 2019-10-05	UAI	H	nouveaux	Irrecevable	commissions	2
 2019-10-06	GDR	H	nouveaux	Irrecevable	commissions	2
 2019-10-06	LFI	F	nouveaux	Adopté	commissions	1
@@ -19457,28 +19461,26 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-17	UAI	H	nouveaux	Non soutenu	hemicycle	8
 2019-10-17	UAI	H	nouveaux	Retiré	hemicycle	3
 2019-10-18	GDR	F	nouveaux	Rejeté	hemicycle	1
-2019-10-18	GDR	H	nouveaux	Indéfini	hemicycle	1
 2019-10-18	GDR	H	nouveaux	Rejeté	hemicycle	2
 2019-10-18	LFI	F	nouveaux	Irrecevable	commissions	1
 2019-10-18	LFI	F	nouveaux	Rejeté	hemicycle	2
-2019-10-18	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-18	LFI	H	nouveaux	Irrecevable	commissions	1
 2019-10-18	LFI	H	nouveaux	Rejeté	hemicycle	2
 2019-10-18	LR	F	anciens	Adopté	hemicycle	2
 2019-10-18	LR	F	anciens	Non soutenu	hemicycle	3
 2019-10-18	LR	F	anciens	Rejeté	hemicycle	2
 2019-10-18	LR	F	nouveaux	Adopté	hemicycle	1
-2019-10-18	LR	F	nouveaux	Indéfini	hemicycle	6
+2019-10-18	LR	F	nouveaux	Indéfini	hemicycle	4
 2019-10-18	LR	F	nouveaux	Non soutenu	hemicycle	2
 2019-10-18	LR	F	nouveaux	Rejeté	hemicycle	4
 2019-10-18	LR	F	nouveaux	Tombe	hemicycle	1
 2019-10-18	LR	H	anciens	Adopté	hemicycle	1
-2019-10-18	LR	H	anciens	Indéfini	hemicycle	7
+2019-10-18	LR	H	anciens	Indéfini	hemicycle	5
 2019-10-18	LR	H	anciens	Non soutenu	hemicycle	1
 2019-10-18	LR	H	anciens	Rejeté	hemicycle	4
 2019-10-18	LR	H	anciens	Retiré	hemicycle	4
 2019-10-18	LR	H	nouveaux	Adopté	hemicycle	1
-2019-10-18	LR	H	nouveaux	Indéfini	hemicycle	9
+2019-10-18	LR	H	nouveaux	Indéfini	hemicycle	7
 2019-10-18	LR	H	nouveaux	Non soutenu	hemicycle	2
 2019-10-18	LR	H	nouveaux	Rejeté	hemicycle	2
 2019-10-18	LR	H	nouveaux	Retiré	hemicycle	9
@@ -19495,7 +19497,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-18	LREM	H	anciens	Retiré	hemicycle	2
 2019-10-18	LREM	H	anciens	Tombe	hemicycle	1
 2019-10-18	LREM	H	nouveaux	Adopté	hemicycle	4
-2019-10-18	LREM	H	nouveaux	Indéfini	hemicycle	2
+2019-10-18	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-18	LREM	H	nouveaux	Irrecevable	hemicycle	1
 2019-10-18	LREM	H	nouveaux	Non soutenu	hemicycle	7
 2019-10-18	LREM	H	nouveaux	Rejeté	hemicycle	3
@@ -19520,12 +19522,11 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-18	MODEM	H	nouveaux	Adopté	hemicycle	1
 2019-10-18	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2019-10-18	MODEM	H	nouveaux	Retiré	hemicycle	1
-2019-10-18	NI	F	nouveaux	Indéfini	hemicycle	4
+2019-10-18	NI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-18	NI	F	nouveaux	Irrecevable	commissions	1
 2019-10-18	NI	F	nouveaux	Non soutenu	hemicycle	3
 2019-10-18	NI	F	nouveaux	Rejeté	hemicycle	1
 2019-10-18	NI	F	nouveaux	Retiré	hemicycle	1
-2019-10-18	NI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-18	NI	H	nouveaux	Non soutenu	hemicycle	6
 2019-10-18	SOC	F	anciens	Adopté	hemicycle	2
 2019-10-18	SOC	F	anciens	Irrecevable	hemicycle	1
@@ -19533,7 +19534,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-18	SOC	F	anciens	Retiré	hemicycle	4
 2019-10-18	SOC	F	anciens	Tombe	hemicycle	3
 2019-10-18	SOC	F	nouveaux	Irrecevable	commissions	1
-2019-10-18	SOC	H	anciens	Indéfini	hemicycle	2
+2019-10-18	SOC	H	anciens	Indéfini	hemicycle	1
 2019-10-18	SOC	H	anciens	Irrecevable	hemicycle	1
 2019-10-18	SOC	H	anciens	Retiré	hemicycle	2
 2019-10-18	SOC	H	nouveaux	Retiré	hemicycle	1
@@ -19548,7 +19549,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-18	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-18	UAI	H	nouveaux	Retiré	hemicycle	5
 2019-10-19	GDR	H	anciens	Irrecevable	commissions	1
-2019-10-19	GDR	H	nouveaux	Indéfini	hemicycle	1
 2019-10-19	GDR	H	nouveaux	Rejeté	hemicycle	1
 2019-10-19	GDR	H	nouveaux	Tombe	hemicycle	1
 2019-10-19	LFI	F	nouveaux	Irrecevable	commissions	1
@@ -19557,23 +19557,22 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-19	LFI	F	nouveaux	Retiré	commissions	1
 2019-10-19	LFI	F	nouveaux	Retiré	hemicycle	1
 2019-10-19	LFI	F	nouveaux	Tombe	hemicycle	1
-2019-10-19	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-19	LFI	H	nouveaux	Retiré	commissions	1
-2019-10-19	LR	F	anciens	Indéfini	hemicycle	2
+2019-10-19	LR	F	anciens	Indéfini	hemicycle	1
 2019-10-19	LR	F	anciens	Irrecevable	hemicycle	4
 2019-10-19	LR	F	anciens	Retiré	hemicycle	1
 2019-10-19	LR	F	anciens	Tombe	hemicycle	2
 2019-10-19	LR	F	nouveaux	Adopté	hemicycle	1
-2019-10-19	LR	F	nouveaux	Indéfini	hemicycle	8
+2019-10-19	LR	F	nouveaux	Indéfini	hemicycle	2
 2019-10-19	LR	F	nouveaux	Irrecevable	hemicycle	10
 2019-10-19	LR	F	nouveaux	Non soutenu	hemicycle	3
 2019-10-19	LR	F	nouveaux	Tombe	hemicycle	1
 2019-10-19	LR	H	anciens	Indéfini	commissions	1
-2019-10-19	LR	H	anciens	Indéfini	hemicycle	6
+2019-10-19	LR	H	anciens	Indéfini	hemicycle	1
 2019-10-19	LR	H	anciens	Irrecevable	hemicycle	7
 2019-10-19	LR	H	anciens	Rejeté	hemicycle	4
 2019-10-19	LR	H	anciens	Retiré	hemicycle	2
-2019-10-19	LR	H	nouveaux	Indéfini	hemicycle	5
+2019-10-19	LR	H	nouveaux	Indéfini	hemicycle	3
 2019-10-19	LR	H	nouveaux	Irrecevable	commissions	3
 2019-10-19	LR	H	nouveaux	Irrecevable	hemicycle	28
 2019-10-19	LR	H	nouveaux	Non soutenu	hemicycle	2
@@ -19582,7 +19581,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-19	LREM	F	nouveaux	Non soutenu	hemicycle	2
 2019-10-19	LREM	F	nouveaux	Retiré	hemicycle	1
 2019-10-19	LREM	H	anciens	Adopté	hemicycle	18
-2019-10-19	LREM	H	anciens	Indéfini	hemicycle	1
 2019-10-19	LREM	H	nouveaux	Adopté	hemicycle	1
 2019-10-19	LREM	H	nouveaux	Irrecevable	hemicycle	1
 2019-10-19	LREM	H	nouveaux	Non soutenu	hemicycle	1
@@ -19592,7 +19590,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-19	LT	H	nouveaux	Indéfini	commissions	1
 2019-10-19	LT	H	nouveaux	Irrecevable	commissions	2
 2019-10-19	LT	H	nouveaux	Irrecevable	hemicycle	7
-2019-10-19	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-19	MODEM	F	nouveaux	Irrecevable	hemicycle	2
 2019-10-19	MODEM	F	nouveaux	Retiré	hemicycle	1
 2019-10-19	MODEM	H	nouveaux	Adopté	hemicycle	1
@@ -19600,51 +19597,45 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-19	MODEM	H	nouveaux	Retiré	hemicycle	3
 2019-10-19	MODEM	H	nouveaux	Tombe	hemicycle	1
 2019-10-19	NI	F	nouveaux	Indéfini	commissions	1
-2019-10-19	NI	F	nouveaux	Indéfini	hemicycle	3
+2019-10-19	NI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-19	NI	F	nouveaux	Irrecevable	commissions	1
 2019-10-19	NI	F	nouveaux	Irrecevable	hemicycle	5
 2019-10-19	NI	F	nouveaux	Non soutenu	hemicycle	1
-2019-10-19	NI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-19	NI	H	nouveaux	Irrecevable	hemicycle	1
 2019-10-19	SOC	F	anciens	Adopté	hemicycle	1
 2019-10-19	SOC	F	anciens	Indéfini	commissions	1
 2019-10-19	SOC	F	anciens	Rejeté	hemicycle	3
 2019-10-19	SOC	F	anciens	Tombe	hemicycle	1
 2019-10-19	SOC	H	anciens	Indéfini	commissions	1
-2019-10-19	SOC	H	anciens	Indéfini	hemicycle	2
+2019-10-19	SOC	H	anciens	Indéfini	hemicycle	1
 2019-10-19	SOC	H	anciens	Irrecevable	commissions	3
 2019-10-19	SOC	H	anciens	Irrecevable	hemicycle	4
 2019-10-19	UAI	F	nouveaux	Indéfini	hemicycle	3
 2019-10-19	UAI	F	nouveaux	Irrecevable	hemicycle	6
 2019-10-19	UAI	F	nouveaux	Retiré	hemicycle	1
-2019-10-19	UAI	H	nouveaux	Indéfini	hemicycle	3
+2019-10-19	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-19	UAI	H	nouveaux	Irrecevable	hemicycle	14
 2019-10-19	UAI	H	nouveaux	Non soutenu	hemicycle	1
 2019-10-19	UAI	H	nouveaux	Retiré	hemicycle	3
 2019-10-20	GDR	H	anciens	Indéfini	hemicycle	1
 2019-10-20	LFI	F	nouveaux	Irrecevable	hemicycle	2
-2019-10-20	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-20	LFI	H	nouveaux	Irrecevable	hemicycle	2
-2019-10-20	LR	F	anciens	Indéfini	hemicycle	1
 2019-10-20	LR	F	anciens	Retiré	hemicycle	1
-2019-10-20	LR	F	nouveaux	Indéfini	hemicycle	4
+2019-10-20	LR	F	nouveaux	Indéfini	hemicycle	1
 2019-10-20	LR	F	nouveaux	Irrecevable	hemicycle	9
-2019-10-20	LR	H	anciens	Indéfini	hemicycle	6
 2019-10-20	LR	H	anciens	Irrecevable	hemicycle	10
 2019-10-20	LR	H	anciens	Retiré	hemicycle	1
-2019-10-20	LR	H	nouveaux	Indéfini	hemicycle	3
+2019-10-20	LR	H	nouveaux	Indéfini	hemicycle	1
 2019-10-20	LR	H	nouveaux	Irrecevable	hemicycle	8
 2019-10-20	LR	H	nouveaux	Retiré	commissions	1
 2019-10-20	LR	H	nouveaux	Retiré	hemicycle	1
-2019-10-20	LREM	F	nouveaux	Indéfini	hemicycle	3
+2019-10-20	LREM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-20	LREM	F	nouveaux	Irrecevable	hemicycle	6
 2019-10-20	LREM	H	anciens	Irrecevable	hemicycle	2
 2019-10-20	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-20	LREM	H	nouveaux	Irrecevable	hemicycle	2
 2019-10-20	LT	H	nouveaux	Indéfini	hemicycle	1
-2019-10-20	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-20	MODEM	F	nouveaux	Irrecevable	hemicycle	3
-2019-10-20	MODEM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-20	MODEM	H	nouveaux	Irrecevable	hemicycle	3
 2019-10-20	NI	F	nouveaux	Irrecevable	hemicycle	4
 2019-10-20	NI	H	anciens	Irrecevable	hemicycle	2
@@ -19653,7 +19644,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-20	SOC	H	anciens	Irrecevable	hemicycle	5
 2019-10-20	UAI	F	nouveaux	Irrecevable	hemicycle	12
 2019-10-20	UAI	H	anciens	Irrecevable	hemicycle	2
-2019-10-20	UAI	H	nouveaux	Indéfini	hemicycle	2
+2019-10-20	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-20	UAI	H	nouveaux	Irrecevable	hemicycle	4
 2019-10-21	GDR	F	anciens	Rejeté	hemicycle	1
 2019-10-21	GDR	H	anciens	Irrecevable	hemicycle	3
@@ -19661,30 +19652,25 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	GDR	H	anciens	Non soutenu	hemicycle	2
 2019-10-21	GDR	H	anciens	Rejeté	hemicycle	2
 2019-10-21	GDR	H	anciens	Retiré	commissions	1
-2019-10-21	GDR	H	nouveaux	Indéfini	hemicycle	2
 2019-10-21	GDR	H	nouveaux	Irrecevable	commissions	2
 2019-10-21	GDR	H	nouveaux	Irrecevable	hemicycle	3
 2019-10-21	GDR	H	nouveaux	Rejeté	commissions	2
 2019-10-21	GDR	H	nouveaux	Rejeté	hemicycle	30
 2019-10-21	GDR	H	nouveaux	Tombe	hemicycle	2
-2019-10-21	LFI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-21	LFI	F	nouveaux	Irrecevable	commissions	1
 2019-10-21	LFI	F	nouveaux	Irrecevable	hemicycle	10
 2019-10-21	LFI	F	nouveaux	Rejeté	hemicycle	7
-2019-10-21	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-21	LFI	H	nouveaux	Irrecevable	commissions	2
 2019-10-21	LFI	H	nouveaux	Irrecevable	hemicycle	3
 2019-10-21	LFI	H	nouveaux	Rejeté	commissions	1
 2019-10-21	LFI	H	nouveaux	Rejeté	hemicycle	13
 2019-10-21	LR	F	anciens	Indéfini	commissions	1
-2019-10-21	LR	F	anciens	Indéfini	hemicycle	2
 2019-10-21	LR	F	anciens	Irrecevable	commissions	3
 2019-10-21	LR	F	anciens	Irrecevable	hemicycle	19
 2019-10-21	LR	F	anciens	Non soutenu	hemicycle	8
 2019-10-21	LR	F	anciens	Rejeté	hemicycle	12
 2019-10-21	LR	F	anciens	Tombe	hemicycle	9
 2019-10-21	LR	F	nouveaux	Indéfini	commissions	1
-2019-10-21	LR	F	nouveaux	Indéfini	hemicycle	3
 2019-10-21	LR	F	nouveaux	Irrecevable	commissions	11
 2019-10-21	LR	F	nouveaux	Irrecevable	hemicycle	98
 2019-10-21	LR	F	nouveaux	Non soutenu	hemicycle	10
@@ -19693,7 +19679,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	LR	F	nouveaux	Tombe	hemicycle	10
 2019-10-21	LR	H	anciens	Adopté	commissions	1
 2019-10-21	LR	H	anciens	Adopté	hemicycle	1
-2019-10-21	LR	H	anciens	Indéfini	hemicycle	2
 2019-10-21	LR	H	anciens	Irrecevable	hemicycle	61
 2019-10-21	LR	H	anciens	Non soutenu	hemicycle	13
 2019-10-21	LR	H	anciens	Rejeté	commissions	1
@@ -19703,7 +19688,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	LR	H	nouveaux	Adopté	commissions	1
 2019-10-21	LR	H	nouveaux	Adopté	hemicycle	2
 2019-10-21	LR	H	nouveaux	Indéfini	commissions	5
-2019-10-21	LR	H	nouveaux	Indéfini	hemicycle	4
 2019-10-21	LR	H	nouveaux	Irrecevable	commissions	8
 2019-10-21	LR	H	nouveaux	Irrecevable	hemicycle	91
 2019-10-21	LR	H	nouveaux	Non soutenu	commissions	6
@@ -19714,7 +19698,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	LREM	F	anciens	Non soutenu	hemicycle	3
 2019-10-21	LREM	F	nouveaux	Adopté	commissions	1
 2019-10-21	LREM	F	nouveaux	Adopté	hemicycle	2
-2019-10-21	LREM	F	nouveaux	Indéfini	hemicycle	3
 2019-10-21	LREM	F	nouveaux	Irrecevable	commissions	3
 2019-10-21	LREM	F	nouveaux	Irrecevable	hemicycle	32
 2019-10-21	LREM	F	nouveaux	Non soutenu	hemicycle	1
@@ -19723,7 +19706,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	LREM	F	nouveaux	Retiré	hemicycle	13
 2019-10-21	LREM	F	nouveaux	Tombe	hemicycle	1
 2019-10-21	LREM	H	anciens	Adopté	hemicycle	13
-2019-10-21	LREM	H	anciens	Indéfini	hemicycle	11
 2019-10-21	LREM	H	anciens	Irrecevable	hemicycle	2
 2019-10-21	LREM	H	anciens	Rejeté	commissions	1
 2019-10-21	LREM	H	anciens	Rejeté	hemicycle	4
@@ -19756,7 +19738,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	LT	H	nouveaux	Non soutenu	hemicycle	2
 2019-10-21	LT	H	nouveaux	Rejeté	hemicycle	6
 2019-10-21	LT	H	nouveaux	Tombe	hemicycle	5
-2019-10-21	MODEM	F	nouveaux	Indéfini	hemicycle	6
 2019-10-21	MODEM	F	nouveaux	Irrecevable	commissions	1
 2019-10-21	MODEM	F	nouveaux	Irrecevable	hemicycle	7
 2019-10-21	MODEM	F	nouveaux	Retiré	hemicycle	2
@@ -19791,7 +19772,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	SOC	F	nouveaux	Irrecevable	commissions	7
 2019-10-21	SOC	F	nouveaux	Rejeté	commissions	3
 2019-10-21	SOC	H	anciens	Indéfini	commissions	1
-2019-10-21	SOC	H	anciens	Indéfini	hemicycle	2
 2019-10-21	SOC	H	anciens	Irrecevable	hemicycle	20
 2019-10-21	SOC	H	anciens	Non soutenu	commissions	13
 2019-10-21	SOC	H	anciens	Non soutenu	hemicycle	1
@@ -19803,7 +19783,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	SOC	H	nouveaux	Rejeté	hemicycle	1
 2019-10-21	SOC	H	nouveaux	Tombe	hemicycle	1
 2019-10-21	UAI	F	nouveaux	Adopté	commissions	1
-2019-10-21	UAI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-21	UAI	F	nouveaux	Irrecevable	commissions	2
 2019-10-21	UAI	F	nouveaux	Irrecevable	hemicycle	47
 2019-10-21	UAI	F	nouveaux	Rejeté	hemicycle	5
@@ -19813,7 +19792,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	UAI	H	anciens	Irrecevable	hemicycle	2
 2019-10-21	UAI	H	anciens	Non soutenu	hemicycle	2
 2019-10-21	UAI	H	anciens	Retiré	hemicycle	3
-2019-10-21	UAI	H	nouveaux	Indéfini	hemicycle	2
 2019-10-21	UAI	H	nouveaux	Irrecevable	hemicycle	34
 2019-10-21	UAI	H	nouveaux	Non soutenu	commissions	3
 2019-10-21	UAI	H	nouveaux	Non soutenu	hemicycle	11
@@ -19821,75 +19799,72 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-21	UAI	H	nouveaux	Rejeté	hemicycle	8
 2019-10-21	UAI	H	nouveaux	Retiré	hemicycle	1
 2019-10-22	GDR	H	anciens	Irrecevable	commissions	4
-2019-10-22	GDR	H	nouveaux	Indéfini	hemicycle	4
+2019-10-22	GDR	H	nouveaux	Indéfini	hemicycle	3
 2019-10-22	GDR	H	nouveaux	Irrecevable	commissions	1
 2019-10-22	GDR	H	nouveaux	Irrecevable	hemicycle	1
 2019-10-22	GDR	H	nouveaux	Non soutenu	commissions	2
 2019-10-22	GDR	H	nouveaux	Non soutenu	hemicycle	1
 2019-10-22	GDR	H	nouveaux	Rejeté	commissions	3
-2019-10-22	GDR	H	nouveaux	Rejeté	hemicycle	9
+2019-10-22	GDR	H	nouveaux	Rejeté	hemicycle	10
 2019-10-22	LFI	F	nouveaux	Indéfini	commissions	1
-2019-10-22	LFI	F	nouveaux	Indéfini	hemicycle	2
 2019-10-22	LFI	F	nouveaux	Irrecevable	commissions	1
 2019-10-22	LFI	F	nouveaux	Irrecevable	hemicycle	1
 2019-10-22	LFI	F	nouveaux	Non soutenu	commissions	4
 2019-10-22	LFI	F	nouveaux	Rejeté	commissions	5
 2019-10-22	LFI	F	nouveaux	Rejeté	hemicycle	5
 2019-10-22	LFI	H	nouveaux	Indéfini	commissions	1
-2019-10-22	LFI	H	nouveaux	Indéfini	hemicycle	5
+2019-10-22	LFI	H	nouveaux	Indéfini	hemicycle	4
 2019-10-22	LFI	H	nouveaux	Irrecevable	commissions	3
 2019-10-22	LFI	H	nouveaux	Non soutenu	commissions	5
 2019-10-22	LFI	H	nouveaux	Rejeté	commissions	4
-2019-10-22	LFI	H	nouveaux	Rejeté	hemicycle	3
-2019-10-22	LR	F	anciens	Adopté	commissions	2
+2019-10-22	LFI	H	nouveaux	Rejeté	hemicycle	5
+2019-10-22	LR	F	anciens	Adopté	commissions	1
 2019-10-22	LR	F	anciens	Non soutenu	hemicycle	2
 2019-10-22	LR	F	anciens	Rejeté	hemicycle	2
 2019-10-22	LR	F	anciens	Retiré	commissions	2
 2019-10-22	LR	F	anciens	Retiré	hemicycle	1
-2019-10-22	LR	F	nouveaux	Indéfini	hemicycle	13
-2019-10-22	LR	F	nouveaux	Non soutenu	hemicycle	3
-2019-10-22	LR	F	nouveaux	Rejeté	hemicycle	11
+2019-10-22	LR	F	nouveaux	Indéfini	hemicycle	5
+2019-10-22	LR	F	nouveaux	Non soutenu	hemicycle	4
+2019-10-22	LR	F	nouveaux	Rejeté	hemicycle	12
+2019-10-22	LR	F	nouveaux	Retiré	hemicycle	2
 2019-10-22	LR	H	anciens	Adopté	commissions	1
-2019-10-22	LR	H	anciens	Indéfini	hemicycle	9
+2019-10-22	LR	H	anciens	Indéfini	hemicycle	3
 2019-10-22	LR	H	anciens	Irrecevable	hemicycle	1
-2019-10-22	LR	H	anciens	Non soutenu	hemicycle	2
+2019-10-22	LR	H	anciens	Non soutenu	hemicycle	3
 2019-10-22	LR	H	anciens	Rejeté	commissions	5
-2019-10-22	LR	H	anciens	Rejeté	hemicycle	17
+2019-10-22	LR	H	anciens	Rejeté	hemicycle	18
 2019-10-22	LR	H	anciens	Retiré	commissions	3
 2019-10-22	LR	H	anciens	Retiré	hemicycle	4
-2019-10-22	LR	H	nouveaux	Indéfini	hemicycle	12
+2019-10-22	LR	H	nouveaux	Indéfini	hemicycle	4
 2019-10-22	LR	H	nouveaux	Irrecevable	commissions	9
 2019-10-22	LR	H	nouveaux	Non soutenu	hemicycle	10
 2019-10-22	LR	H	nouveaux	Rejeté	commissions	6
-2019-10-22	LR	H	nouveaux	Rejeté	hemicycle	16
+2019-10-22	LR	H	nouveaux	Rejeté	hemicycle	19
 2019-10-22	LR	H	nouveaux	Retiré	commissions	1
 2019-10-22	LR	H	nouveaux	Retiré	hemicycle	2
 2019-10-22	LR	H	nouveaux	Tombe	commissions	1
 2019-10-22	LREM	F	anciens	Retiré	commissions	2
 2019-10-22	LREM	F	nouveaux	Adopté	commissions	6
 2019-10-22	LREM	F	nouveaux	Adopté	hemicycle	3
-2019-10-22	LREM	F	nouveaux	Indéfini	hemicycle	3
 2019-10-22	LREM	F	nouveaux	Non soutenu	hemicycle	7
 2019-10-22	LREM	F	nouveaux	Rejeté	commissions	3
 2019-10-22	LREM	F	nouveaux	Rejeté	hemicycle	3
 2019-10-22	LREM	F	nouveaux	Retiré	commissions	4
-2019-10-22	LREM	F	nouveaux	Retiré	hemicycle	5
+2019-10-22	LREM	F	nouveaux	Retiré	hemicycle	4
 2019-10-22	LREM	F	nouveaux	Tombe	commissions	1
 2019-10-22	LREM	F	nouveaux	Tombe	hemicycle	1
 2019-10-22	LREM	H	anciens	Adopté	hemicycle	2
-2019-10-22	LREM	H	anciens	Indéfini	hemicycle	17
+2019-10-22	LREM	H	anciens	Indéfini	hemicycle	1
 2019-10-22	LREM	H	anciens	Retiré	hemicycle	9
 2019-10-22	LREM	H	nouveaux	Adopté	commissions	8
 2019-10-22	LREM	H	nouveaux	Adopté	hemicycle	2
-2019-10-22	LREM	H	nouveaux	Indéfini	commissions	3
-2019-10-22	LREM	H	nouveaux	Indéfini	hemicycle	12
+2019-10-22	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-22	LREM	H	nouveaux	Irrecevable	commissions	1
 2019-10-22	LREM	H	nouveaux	Irrecevable	hemicycle	1
-2019-10-22	LREM	H	nouveaux	Non soutenu	hemicycle	2
+2019-10-22	LREM	H	nouveaux	Non soutenu	hemicycle	3
 2019-10-22	LREM	H	nouveaux	Rejeté	hemicycle	2
 2019-10-22	LREM	H	nouveaux	Retiré	commissions	1
 2019-10-22	LREM	H	nouveaux	Retiré	hemicycle	3
-2019-10-22	LT	F	anciens	Indéfini	hemicycle	1
 2019-10-22	LT	F	anciens	Rejeté	hemicycle	1
 2019-10-22	LT	F	anciens	Retiré	commissions	1
 2019-10-22	LT	H	anciens	Irrecevable	commissions	2
@@ -19903,12 +19878,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-22	LT	H	nouveaux	Rejeté	commissions	3
 2019-10-22	LT	H	nouveaux	Retiré	commissions	6
 2019-10-22	LT	H	nouveaux	Retiré	hemicycle	1
-2019-10-22	MODEM	F	nouveaux	Indéfini	hemicycle	2
+2019-10-22	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-22	MODEM	F	nouveaux	Irrecevable	commissions	1
 2019-10-22	MODEM	F	nouveaux	Rejeté	commissions	2
+2019-10-22	MODEM	F	nouveaux	Rejeté	hemicycle	1
 2019-10-22	MODEM	F	nouveaux	Retiré	commissions	3
 2019-10-22	MODEM	F	nouveaux	Retiré	hemicycle	1
-2019-10-22	MODEM	H	nouveaux	Adopté	commissions	6
+2019-10-22	MODEM	H	nouveaux	Adopté	commissions	4
 2019-10-22	MODEM	H	nouveaux	Adopté	hemicycle	2
 2019-10-22	MODEM	H	nouveaux	Irrecevable	commissions	5
 2019-10-22	MODEM	H	nouveaux	Non soutenu	commissions	3
@@ -19917,45 +19893,42 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-22	MODEM	H	nouveaux	Rejeté	hemicycle	9
 2019-10-22	MODEM	H	nouveaux	Retiré	commissions	3
 2019-10-22	MODEM	H	nouveaux	Retiré	hemicycle	2
-2019-10-22	NI	F	nouveaux	Indéfini	hemicycle	2
 2019-10-22	NI	F	nouveaux	Non soutenu	commissions	3
-2019-10-22	NI	F	nouveaux	Non soutenu	hemicycle	8
+2019-10-22	NI	F	nouveaux	Non soutenu	hemicycle	9
 2019-10-22	NI	F	nouveaux	Rejeté	hemicycle	1
-2019-10-22	NI	H	nouveaux	Indéfini	hemicycle	6
-2019-10-22	NI	H	nouveaux	Non soutenu	hemicycle	5
+2019-10-22	NI	H	nouveaux	Indéfini	hemicycle	1
+2019-10-22	NI	H	nouveaux	Non soutenu	hemicycle	6
 2019-10-22	SOC	F	anciens	Adopté	commissions	4
 2019-10-22	SOC	F	anciens	Adopté	hemicycle	1
-2019-10-22	SOC	F	anciens	Indéfini	hemicycle	4
+2019-10-22	SOC	F	anciens	Indéfini	hemicycle	2
 2019-10-22	SOC	F	anciens	Irrecevable	commissions	1
 2019-10-22	SOC	F	anciens	Rejeté	commissions	13
-2019-10-22	SOC	F	anciens	Rejeté	hemicycle	3
+2019-10-22	SOC	F	anciens	Rejeté	hemicycle	4
 2019-10-22	SOC	F	anciens	Retiré	hemicycle	1
 2019-10-22	SOC	F	anciens	Tombe	hemicycle	1
 2019-10-22	SOC	F	nouveaux	Irrecevable	commissions	1
 2019-10-22	SOC	F	nouveaux	Rejeté	commissions	49
 2019-10-22	SOC	F	nouveaux	Retiré	commissions	5
-2019-10-22	SOC	H	anciens	Indéfini	hemicycle	8
+2019-10-22	SOC	H	anciens	Indéfini	hemicycle	4
 2019-10-22	SOC	H	anciens	Irrecevable	commissions	2
 2019-10-22	SOC	H	anciens	Non soutenu	hemicycle	4
 2019-10-22	SOC	H	anciens	Rejeté	commissions	7
-2019-10-22	SOC	H	anciens	Rejeté	hemicycle	6
-2019-10-22	SOC	H	anciens	Retiré	hemicycle	1
+2019-10-22	SOC	H	anciens	Rejeté	hemicycle	8
+2019-10-22	SOC	H	anciens	Retiré	hemicycle	2
 2019-10-22	SOC	H	anciens	Tombe	commissions	1
 2019-10-22	SOC	H	anciens	Tombe	hemicycle	1
 2019-10-22	SOC	H	nouveaux	Non soutenu	commissions	1
 2019-10-22	SOC	H	nouveaux	Rejeté	commissions	2
 2019-10-22	UAI	F	nouveaux	Adopté	commissions	1
-2019-10-22	UAI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-22	UAI	F	nouveaux	Irrecevable	commissions	1
 2019-10-22	UAI	F	nouveaux	Non soutenu	hemicycle	1
 2019-10-22	UAI	F	nouveaux	Rejeté	commissions	7
-2019-10-22	UAI	F	nouveaux	Rejeté	hemicycle	7
+2019-10-22	UAI	F	nouveaux	Rejeté	hemicycle	8
 2019-10-22	UAI	F	nouveaux	Retiré	commissions	2
 2019-10-22	UAI	F	nouveaux	Retiré	hemicycle	1
-2019-10-22	UAI	H	anciens	Indéfini	hemicycle	1
 2019-10-22	UAI	H	anciens	Non soutenu	hemicycle	1
 2019-10-22	UAI	H	anciens	Rejeté	commissions	2
-2019-10-22	UAI	H	anciens	Rejeté	hemicycle	3
+2019-10-22	UAI	H	anciens	Rejeté	hemicycle	4
 2019-10-22	UAI	H	anciens	Retiré	commissions	2
 2019-10-22	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-22	UAI	H	nouveaux	Rejeté	commissions	6
@@ -19963,191 +19936,185 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-22	UAI	H	nouveaux	Retiré	hemicycle	2
 2019-10-23	GDR	H	anciens	Non soutenu	hemicycle	1
 2019-10-23	GDR	H	anciens	Rejeté	commissions	2
-2019-10-23	GDR	H	nouveaux	Indéfini	hemicycle	5
+2019-10-23	GDR	H	nouveaux	Indéfini	hemicycle	3
 2019-10-23	GDR	H	nouveaux	Rejeté	commissions	6
-2019-10-23	GDR	H	nouveaux	Rejeté	hemicycle	5
+2019-10-23	GDR	H	nouveaux	Rejeté	hemicycle	10
 2019-10-23	GDR	H	nouveaux	Retiré	hemicycle	1
+2019-10-23	GDR	H	nouveaux	Tombe	hemicycle	1
 2019-10-23	LFI	F	nouveaux	Adopté	hemicycle	1
 2019-10-23	LFI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-23	LFI	F	nouveaux	Non soutenu	commissions	6
-2019-10-23	LFI	F	nouveaux	Rejeté	hemicycle	2
-2019-10-23	LFI	H	nouveaux	Indéfini	hemicycle	2
+2019-10-23	LFI	F	nouveaux	Non soutenu	hemicycle	1
+2019-10-23	LFI	F	nouveaux	Rejeté	hemicycle	4
+2019-10-23	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-10-23	LFI	H	nouveaux	Non soutenu	commissions	6
 2019-10-23	LFI	H	nouveaux	Rejeté	commissions	2
-2019-10-23	LFI	H	nouveaux	Rejeté	hemicycle	5
-2019-10-23	LR	F	anciens	Indéfini	hemicycle	1
-2019-10-23	LR	F	anciens	Non soutenu	hemicycle	4
+2019-10-23	LFI	H	nouveaux	Rejeté	hemicycle	9
+2019-10-23	LR	F	anciens	Non soutenu	hemicycle	6
 2019-10-23	LR	F	anciens	Rejeté	commissions	1
-2019-10-23	LR	F	anciens	Rejeté	hemicycle	3
-2019-10-23	LR	F	anciens	Retiré	hemicycle	2
+2019-10-23	LR	F	anciens	Rejeté	hemicycle	5
+2019-10-23	LR	F	anciens	Retiré	hemicycle	3
 2019-10-23	LR	F	anciens	Tombe	hemicycle	1
 2019-10-23	LR	F	nouveaux	Adopté	hemicycle	3
-2019-10-23	LR	F	nouveaux	Indéfini	hemicycle	8
+2019-10-23	LR	F	nouveaux	Indéfini	hemicycle	1
 2019-10-23	LR	F	nouveaux	Non soutenu	commissions	1
-2019-10-23	LR	F	nouveaux	Non soutenu	hemicycle	6
+2019-10-23	LR	F	nouveaux	Non soutenu	hemicycle	18
 2019-10-23	LR	F	nouveaux	Rejeté	commissions	1
-2019-10-23	LR	F	nouveaux	Rejeté	hemicycle	1
-2019-10-23	LR	F	nouveaux	Tombe	hemicycle	4
-2019-10-23	LR	H	anciens	Indéfini	hemicycle	4
-2019-10-23	LR	H	anciens	Non soutenu	hemicycle	7
+2019-10-23	LR	F	nouveaux	Rejeté	hemicycle	9
+2019-10-23	LR	F	nouveaux	Retiré	hemicycle	4
+2019-10-23	LR	F	nouveaux	Tombe	hemicycle	5
+2019-10-23	LR	H	anciens	Non soutenu	hemicycle	14
 2019-10-23	LR	H	anciens	Rejeté	commissions	4
-2019-10-23	LR	H	anciens	Rejeté	hemicycle	14
+2019-10-23	LR	H	anciens	Rejeté	hemicycle	23
 2019-10-23	LR	H	anciens	Retiré	commissions	1
-2019-10-23	LR	H	anciens	Retiré	hemicycle	1
+2019-10-23	LR	H	anciens	Retiré	hemicycle	7
 2019-10-23	LR	H	nouveaux	Adopté	hemicycle	2
-2019-10-23	LR	H	nouveaux	Indéfini	hemicycle	9
-2019-10-23	LR	H	nouveaux	Non soutenu	hemicycle	8
+2019-10-23	LR	H	nouveaux	Indéfini	hemicycle	3
+2019-10-23	LR	H	nouveaux	Non soutenu	hemicycle	26
 2019-10-23	LR	H	nouveaux	Rejeté	commissions	3
-2019-10-23	LR	H	nouveaux	Rejeté	hemicycle	8
+2019-10-23	LR	H	nouveaux	Rejeté	hemicycle	10
 2019-10-23	LR	H	nouveaux	Retiré	hemicycle	4
-2019-10-23	LR	H	nouveaux	Tombe	hemicycle	2
+2019-10-23	LR	H	nouveaux	Tombe	hemicycle	3
 2019-10-23	LREM	F	nouveaux	Adopté	commissions	1
-2019-10-23	LREM	F	nouveaux	Adopté	hemicycle	2
-2019-10-23	LREM	F	nouveaux	Indéfini	hemicycle	8
+2019-10-23	LREM	F	nouveaux	Adopté	hemicycle	3
+2019-10-23	LREM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-23	LREM	F	nouveaux	Irrecevable	commissions	2
 2019-10-23	LREM	F	nouveaux	Irrecevable	hemicycle	3
-2019-10-23	LREM	F	nouveaux	Non soutenu	hemicycle	2
-2019-10-23	LREM	F	nouveaux	Rejeté	hemicycle	4
+2019-10-23	LREM	F	nouveaux	Non soutenu	hemicycle	5
+2019-10-23	LREM	F	nouveaux	Rejeté	hemicycle	6
 2019-10-23	LREM	F	nouveaux	Retiré	commissions	2
-2019-10-23	LREM	F	nouveaux	Retiré	hemicycle	4
+2019-10-23	LREM	F	nouveaux	Retiré	hemicycle	8
 2019-10-23	LREM	F	nouveaux	Tombe	hemicycle	2
 2019-10-23	LREM	H	anciens	Adopté	commissions	1
 2019-10-23	LREM	H	anciens	Adopté	hemicycle	32
-2019-10-23	LREM	H	anciens	Indéfini	hemicycle	16
+2019-10-23	LREM	H	anciens	Indéfini	hemicycle	8
 2019-10-23	LREM	H	anciens	Irrecevable	commissions	1
-2019-10-23	LREM	H	anciens	Rejeté	hemicycle	1
-2019-10-23	LREM	H	anciens	Retiré	hemicycle	4
+2019-10-23	LREM	H	anciens	Rejeté	hemicycle	2
+2019-10-23	LREM	H	anciens	Retiré	hemicycle	3
 2019-10-23	LREM	H	nouveaux	Adopté	commissions	1
 2019-10-23	LREM	H	nouveaux	Adopté	hemicycle	2
-2019-10-23	LREM	H	nouveaux	Indéfini	hemicycle	4
+2019-10-23	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-23	LREM	H	nouveaux	Irrecevable	hemicycle	2
 2019-10-23	LREM	H	nouveaux	Non soutenu	commissions	1
-2019-10-23	LREM	H	nouveaux	Non soutenu	hemicycle	3
-2019-10-23	LREM	H	nouveaux	Rejeté	hemicycle	2
+2019-10-23	LREM	H	nouveaux	Non soutenu	hemicycle	14
+2019-10-23	LREM	H	nouveaux	Rejeté	hemicycle	3
 2019-10-23	LREM	H	nouveaux	Retiré	commissions	1
 2019-10-23	LREM	H	nouveaux	Retiré	hemicycle	2
+2019-10-23	LREM	H	nouveaux	Tombe	hemicycle	1
 2019-10-23	LT	F	anciens	Adopté	hemicycle	1
-2019-10-23	LT	F	anciens	Indéfini	hemicycle	6
+2019-10-23	LT	F	anciens	Indéfini	hemicycle	2
+2019-10-23	LT	F	anciens	Non soutenu	hemicycle	4
 2019-10-23	LT	F	anciens	Rejeté	hemicycle	3
 2019-10-23	LT	F	anciens	Retiré	hemicycle	1
-2019-10-23	LT	H	anciens	Indéfini	hemicycle	2
-2019-10-23	LT	H	anciens	Non soutenu	hemicycle	5
+2019-10-23	LT	F	anciens	Tombe	hemicycle	1
+2019-10-23	LT	H	anciens	Indéfini	hemicycle	1
+2019-10-23	LT	H	anciens	Non soutenu	hemicycle	6
 2019-10-23	LT	H	anciens	Rejeté	hemicycle	6
 2019-10-23	LT	H	anciens	Retiré	hemicycle	1
-2019-10-23	LT	H	nouveaux	Indéfini	hemicycle	3
 2019-10-23	LT	H	nouveaux	Irrecevable	hemicycle	1
-2019-10-23	LT	H	nouveaux	Non soutenu	hemicycle	2
-2019-10-23	LT	H	nouveaux	Rejeté	hemicycle	2
+2019-10-23	LT	H	nouveaux	Non soutenu	hemicycle	3
+2019-10-23	LT	H	nouveaux	Rejeté	hemicycle	3
 2019-10-23	MODEM	F	nouveaux	Adopté	hemicycle	1
-2019-10-23	MODEM	F	nouveaux	Indéfini	hemicycle	7
 2019-10-23	MODEM	F	nouveaux	Non soutenu	hemicycle	1
+2019-10-23	MODEM	F	nouveaux	Rejeté	hemicycle	6
+2019-10-23	MODEM	F	nouveaux	Retiré	hemicycle	4
 2019-10-23	MODEM	F	nouveaux	Tombe	hemicycle	1
-2019-10-23	MODEM	H	nouveaux	Adopté	commissions	3
+2019-10-23	MODEM	H	nouveaux	Adopté	commissions	5
 2019-10-23	MODEM	H	nouveaux	Adopté	hemicycle	2
-2019-10-23	MODEM	H	nouveaux	Indéfini	hemicycle	1
 2019-10-23	MODEM	H	nouveaux	Irrecevable	commissions	1
-2019-10-23	MODEM	H	nouveaux	Non soutenu	hemicycle	1
+2019-10-23	MODEM	H	nouveaux	Non soutenu	hemicycle	3
 2019-10-23	MODEM	H	nouveaux	Rejeté	hemicycle	2
 2019-10-23	MODEM	H	nouveaux	Retiré	hemicycle	1
 2019-10-23	MODEM	H	nouveaux	Tombe	hemicycle	1
-2019-10-23	NI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-23	NI	F	nouveaux	Non soutenu	commissions	11
-2019-10-23	NI	F	nouveaux	Non soutenu	hemicycle	9
+2019-10-23	NI	F	nouveaux	Non soutenu	hemicycle	16
 2019-10-23	NI	F	nouveaux	Tombe	hemicycle	1
-2019-10-23	NI	H	anciens	Indéfini	hemicycle	1
-2019-10-23	NI	H	nouveaux	Indéfini	hemicycle	1
-2019-10-23	NI	H	nouveaux	Non soutenu	hemicycle	1
+2019-10-23	NI	H	anciens	Non soutenu	hemicycle	1
+2019-10-23	NI	H	nouveaux	Non soutenu	hemicycle	8
 2019-10-23	SOC	F	anciens	Adopté	hemicycle	2
-2019-10-23	SOC	F	anciens	Indéfini	hemicycle	1
 2019-10-23	SOC	F	anciens	Non soutenu	commissions	3
 2019-10-23	SOC	F	anciens	Non soutenu	hemicycle	1
 2019-10-23	SOC	F	anciens	Rejeté	commissions	15
 2019-10-23	SOC	F	anciens	Rejeté	hemicycle	1
+2019-10-23	SOC	F	anciens	Retiré	hemicycle	1
+2019-10-23	SOC	F	anciens	Tombe	hemicycle	1
 2019-10-23	SOC	F	nouveaux	Irrecevable	commissions	2
 2019-10-23	SOC	F	nouveaux	Rejeté	commissions	11
 2019-10-23	SOC	F	nouveaux	Retiré	commissions	1
 2019-10-23	SOC	H	anciens	Adopté	hemicycle	1
-2019-10-23	SOC	H	anciens	Indéfini	hemicycle	9
+2019-10-23	SOC	H	anciens	Indéfini	hemicycle	3
 2019-10-23	SOC	H	anciens	Irrecevable	hemicycle	1
 2019-10-23	SOC	H	anciens	Rejeté	commissions	12
-2019-10-23	SOC	H	anciens	Rejeté	hemicycle	9
-2019-10-23	SOC	H	anciens	Tombe	hemicycle	1
+2019-10-23	SOC	H	anciens	Rejeté	hemicycle	17
+2019-10-23	SOC	H	anciens	Retiré	hemicycle	1
+2019-10-23	SOC	H	anciens	Tombe	hemicycle	2
 2019-10-23	UAI	F	anciens	Adopté	commissions	1
-2019-10-23	UAI	F	nouveaux	Indéfini	hemicycle	4
+2019-10-23	UAI	F	nouveaux	Indéfini	hemicycle	2
 2019-10-23	UAI	F	nouveaux	Non soutenu	hemicycle	3
-2019-10-23	UAI	F	nouveaux	Rejeté	hemicycle	13
-2019-10-23	UAI	F	nouveaux	Retiré	hemicycle	6
+2019-10-23	UAI	F	nouveaux	Rejeté	hemicycle	15
+2019-10-23	UAI	F	nouveaux	Retiré	hemicycle	7
 2019-10-23	UAI	F	nouveaux	Tombe	hemicycle	2
 2019-10-23	UAI	H	anciens	Non soutenu	hemicycle	1
 2019-10-23	UAI	H	anciens	Rejeté	hemicycle	1
 2019-10-23	UAI	H	anciens	Retiré	hemicycle	1
 2019-10-23	UAI	H	nouveaux	Adopté	hemicycle	1
-2019-10-23	UAI	H	nouveaux	Indéfini	hemicycle	5
+2019-10-23	UAI	H	nouveaux	Non soutenu	hemicycle	2
 2019-10-23	UAI	H	nouveaux	Rejeté	commissions	1
-2019-10-23	UAI	H	nouveaux	Rejeté	hemicycle	21
-2019-10-23	UAI	H	nouveaux	Retiré	hemicycle	6
+2019-10-23	UAI	H	nouveaux	Rejeté	hemicycle	23
+2019-10-23	UAI	H	nouveaux	Retiré	hemicycle	10
 2019-10-23	UAI	H	nouveaux	Tombe	hemicycle	1
 2019-10-24	GDR	F	anciens	Rejeté	hemicycle	1
-2019-10-24	GDR	F	nouveaux	Indéfini	hemicycle	1
 2019-10-24	GDR	H	anciens	Indéfini	hemicycle	2
 2019-10-24	GDR	H	nouveaux	Adopté	hemicycle	3
-2019-10-24	GDR	H	nouveaux	Indéfini	commissions	1
-2019-10-24	GDR	H	nouveaux	Indéfini	hemicycle	1
 2019-10-24	GDR	H	nouveaux	Rejeté	commissions	2
 2019-10-24	GDR	H	nouveaux	Retiré	hemicycle	2
 2019-10-24	LFI	F	nouveaux	Adopté	hemicycle	1
-2019-10-24	LFI	F	nouveaux	Indéfini	commissions	2
-2019-10-24	LFI	F	nouveaux	Indéfini	hemicycle	5
+2019-10-24	LFI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-24	LFI	F	nouveaux	Irrecevable	commissions	1
 2019-10-24	LFI	F	nouveaux	Non soutenu	commissions	4
-2019-10-24	LFI	F	nouveaux	Rejeté	commissions	3
-2019-10-24	LFI	H	nouveaux	Indéfini	commissions	3
-2019-10-24	LFI	H	nouveaux	Indéfini	hemicycle	5
+2019-10-24	LFI	F	nouveaux	Rejeté	commissions	5
 2019-10-24	LFI	H	nouveaux	Non soutenu	commissions	10
-2019-10-24	LFI	H	nouveaux	Rejeté	commissions	9
+2019-10-24	LFI	H	nouveaux	Rejeté	commissions	11
 2019-10-24	LR	F	anciens	Adopté	hemicycle	1
-2019-10-24	LR	F	anciens	Indéfini	commissions	3
 2019-10-24	LR	F	anciens	Non soutenu	commissions	8
-2019-10-24	LR	F	anciens	Rejeté	commissions	2
+2019-10-24	LR	F	anciens	Rejeté	commissions	5
 2019-10-24	LR	F	anciens	Retiré	hemicycle	1
 2019-10-24	LR	F	anciens	Tombe	commissions	1
 2019-10-24	LR	F	nouveaux	Adopté	hemicycle	4
-2019-10-24	LR	F	nouveaux	Indéfini	commissions	3
-2019-10-24	LR	F	nouveaux	Indéfini	hemicycle	5
+2019-10-24	LR	F	nouveaux	Indéfini	hemicycle	1
 2019-10-24	LR	F	nouveaux	Non soutenu	commissions	9
 2019-10-24	LR	F	nouveaux	Non soutenu	hemicycle	1
-2019-10-24	LR	F	nouveaux	Rejeté	commissions	5
-2019-10-24	LR	F	nouveaux	Rejeté	hemicycle	1
+2019-10-24	LR	F	nouveaux	Rejeté	commissions	8
+2019-10-24	LR	F	nouveaux	Rejeté	hemicycle	2
 2019-10-24	LR	H	anciens	Adopté	commissions	1
 2019-10-24	LR	H	anciens	Adopté	hemicycle	2
-2019-10-24	LR	H	anciens	Indéfini	hemicycle	7
+2019-10-24	LR	H	anciens	Indéfini	hemicycle	1
 2019-10-24	LR	H	anciens	Non soutenu	commissions	2
 2019-10-24	LR	H	anciens	Non soutenu	hemicycle	1
 2019-10-24	LR	H	anciens	Rejeté	commissions	7
 2019-10-24	LR	H	anciens	Retiré	hemicycle	1
 2019-10-24	LR	H	nouveaux	Adopté	hemicycle	2
-2019-10-24	LR	H	nouveaux	Indéfini	hemicycle	7
+2019-10-24	LR	H	nouveaux	Indéfini	hemicycle	1
 2019-10-24	LR	H	nouveaux	Non soutenu	commissions	7
 2019-10-24	LR	H	nouveaux	Rejeté	commissions	4
+2019-10-24	LR	H	nouveaux	Rejeté	hemicycle	1
 2019-10-24	LR	H	nouveaux	Retiré	hemicycle	1
 2019-10-24	LREM	F	nouveaux	Adopté	commissions	1
 2019-10-24	LREM	F	nouveaux	Adopté	hemicycle	4
-2019-10-24	LREM	F	nouveaux	Indéfini	hemicycle	2
+2019-10-24	LREM	F	nouveaux	Indéfini	hemicycle	1
 2019-10-24	LREM	F	nouveaux	Irrecevable	hemicycle	2
 2019-10-24	LREM	F	nouveaux	Non soutenu	commissions	1
 2019-10-24	LREM	F	nouveaux	Rejeté	commissions	7
 2019-10-24	LREM	F	nouveaux	Rejeté	hemicycle	1
 2019-10-24	LREM	F	nouveaux	Retiré	commissions	2
-2019-10-24	LREM	F	nouveaux	Retiré	hemicycle	2
+2019-10-24	LREM	F	nouveaux	Retiré	hemicycle	1
 2019-10-24	LREM	F	nouveaux	Tombe	commissions	1
 2019-10-24	LREM	H	anciens	Adopté	commissions	3
-2019-10-24	LREM	H	anciens	Adopté	hemicycle	51
-2019-10-24	LREM	H	anciens	Indéfini	hemicycle	1
+2019-10-24	LREM	H	anciens	Adopté	hemicycle	52
 2019-10-24	LREM	H	anciens	Retiré	hemicycle	2
-2019-10-24	LREM	H	nouveaux	Adopté	commissions	9
+2019-10-24	LREM	H	nouveaux	Adopté	commissions	11
 2019-10-24	LREM	H	nouveaux	Adopté	hemicycle	1
-2019-10-24	LREM	H	nouveaux	Indéfini	commissions	1
-2019-10-24	LREM	H	nouveaux	Non soutenu	commissions	6
+2019-10-24	LREM	H	nouveaux	Non soutenu	commissions	7
 2019-10-24	LREM	H	nouveaux	Rejeté	commissions	5
 2019-10-24	LREM	H	nouveaux	Retiré	commissions	1
 2019-10-24	LREM	H	nouveaux	Retiré	hemicycle	1
@@ -20156,91 +20123,107 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-10-24	LT	F	anciens	Rejeté	commissions	4
 2019-10-24	LT	F	anciens	Tombe	commissions	1
 2019-10-24	LT	H	anciens	Adopté	commissions	4
-2019-10-24	LT	H	anciens	Indéfini	hemicycle	2
 2019-10-24	LT	H	anciens	Non soutenu	hemicycle	1
 2019-10-24	LT	H	anciens	Rejeté	commissions	37
 2019-10-24	LT	H	anciens	Retiré	commissions	4
 2019-10-24	LT	H	anciens	Tombe	commissions	2
-2019-10-24	LT	H	nouveaux	Indéfini	hemicycle	2
 2019-10-24	LT	H	nouveaux	Irrecevable	commissions	2
 2019-10-24	LT	H	nouveaux	Non soutenu	commissions	1
 2019-10-24	LT	H	nouveaux	Rejeté	commissions	4
 2019-10-24	LT	H	nouveaux	Retiré	commissions	2
 2019-10-24	MODEM	F	nouveaux	Adopté	hemicycle	1
 2019-10-24	MODEM	F	nouveaux	Irrecevable	hemicycle	1
-2019-10-24	MODEM	F	nouveaux	Rejeté	hemicycle	1
+2019-10-24	MODEM	F	nouveaux	Rejeté	hemicycle	2
 2019-10-24	MODEM	F	nouveaux	Retiré	hemicycle	1
 2019-10-24	MODEM	H	nouveaux	Adopté	commissions	2
 2019-10-24	MODEM	H	nouveaux	Adopté	hemicycle	3
-2019-10-24	MODEM	H	nouveaux	Indéfini	hemicycle	3
+2019-10-24	MODEM	H	nouveaux	Indéfini	hemicycle	2
 2019-10-24	MODEM	H	nouveaux	Non soutenu	hemicycle	3
 2019-10-24	MODEM	H	nouveaux	Rejeté	commissions	5
 2019-10-24	MODEM	H	nouveaux	Retiré	commissions	1
 2019-10-24	MODEM	H	nouveaux	Retiré	hemicycle	3
 2019-10-24	NI	F	anciens	Non soutenu	commissions	1
-2019-10-24	NI	F	nouveaux	Indéfini	hemicycle	8
 2019-10-24	NI	F	nouveaux	Non soutenu	commissions	5
-2019-10-24	NI	H	nouveaux	Indéfini	hemicycle	3
 2019-10-24	SOC	F	anciens	Adopté	commissions	3
-2019-10-24	SOC	F	anciens	Indéfini	commissions	4
-2019-10-24	SOC	F	anciens	Indéfini	hemicycle	7
 2019-10-24	SOC	F	anciens	Irrecevable	commissions	2
-2019-10-24	SOC	F	anciens	Non soutenu	commissions	4
+2019-10-24	SOC	F	anciens	Non soutenu	commissions	8
 2019-10-24	SOC	F	anciens	Non soutenu	hemicycle	1
 2019-10-24	SOC	F	anciens	Rejeté	commissions	12
 2019-10-24	SOC	F	anciens	Retiré	commissions	6
-2019-10-24	SOC	F	nouveaux	Indéfini	hemicycle	11
 2019-10-24	SOC	F	nouveaux	Rejeté	commissions	1
 2019-10-24	SOC	H	anciens	Adopté	commissions	1
 2019-10-24	SOC	H	anciens	Adopté	hemicycle	3
-2019-10-24	SOC	H	anciens	Indéfini	commissions	5
-2019-10-24	SOC	H	anciens	Indéfini	hemicycle	7
+2019-10-24	SOC	H	anciens	Non soutenu	commissions	5
 2019-10-24	SOC	H	anciens	Rejeté	commissions	8
 2019-10-24	SOC	H	anciens	Retiré	commissions	1
 2019-10-24	SOC	H	anciens	Retiré	hemicycle	1
 2019-10-24	SOC	H	anciens	Tombe	commissions	1
-2019-10-24	UAI	F	anciens	Indéfini	hemicycle	1
-2019-10-24	UAI	F	nouveaux	Indéfini	hemicycle	5
+2019-10-24	UAI	F	nouveaux	Indéfini	hemicycle	1
 2019-10-24	UAI	F	nouveaux	Non soutenu	commissions	1
-2019-10-24	UAI	H	anciens	Indéfini	hemicycle	1
 2019-10-24	UAI	H	anciens	Non soutenu	commissions	3
 2019-10-24	UAI	H	nouveaux	Adopté	hemicycle	1
 2019-10-24	UAI	H	nouveaux	Indéfini	commissions	6
-2019-10-24	UAI	H	nouveaux	Indéfini	hemicycle	2
 2019-10-24	UAI	H	nouveaux	Non soutenu	commissions	8
-2019-10-24	UAI	H	nouveaux	Rejeté	hemicycle	1
+2019-10-24	UAI	H	nouveaux	Rejeté	hemicycle	2
 2019-10-25	GDR	F	anciens	Indéfini	hemicycle	1
+2019-10-25	GDR	F	nouveaux	Indéfini	hemicycle	1
 2019-10-25	GDR	H	anciens	Indéfini	hemicycle	2
-2019-10-25	GDR	H	nouveaux	Indéfini	hemicycle	1
+2019-10-25	GDR	H	nouveaux	Indéfini	hemicycle	6
+2019-10-25	GDR	H	nouveaux	Rejeté	commissions	1
+2019-10-25	LFI	F	nouveaux	Indéfini	hemicycle	6
 2019-10-25	LFI	F	nouveaux	Rejeté	commissions	2
 2019-10-25	LFI	H	nouveaux	Adopté	hemicycle	1
-2019-10-25	LFI	H	nouveaux	Rejeté	commissions	1
+2019-10-25	LFI	H	nouveaux	Indéfini	hemicycle	11
+2019-10-25	LFI	H	nouveaux	Rejeté	commissions	2
+2019-10-25	LR	F	anciens	Adopté	commissions	1
 2019-10-25	LR	F	anciens	Rejeté	commissions	6
 2019-10-25	LR	F	nouveaux	Adopté	hemicycle	1
-2019-10-25	LR	F	nouveaux	Indéfini	hemicycle	4
-2019-10-25	LR	F	nouveaux	Retiré	hemicycle	1
-2019-10-25	LR	H	anciens	Indéfini	hemicycle	3
+2019-10-25	LR	F	nouveaux	Indéfini	hemicycle	8
+2019-10-25	LR	F	nouveaux	Retiré	hemicycle	2
+2019-10-25	LR	H	anciens	Indéfini	hemicycle	11
 2019-10-25	LR	H	anciens	Rejeté	commissions	1
-2019-10-25	LR	H	nouveaux	Indéfini	hemicycle	2
+2019-10-25	LR	H	anciens	Rejeté	hemicycle	2
+2019-10-25	LR	H	nouveaux	Indéfini	hemicycle	39
+2019-10-25	LR	H	nouveaux	Retiré	hemicycle	1
 2019-10-25	LREM	F	nouveaux	Adopté	commissions	2
-2019-10-25	LREM	F	nouveaux	Adopté	hemicycle	2
+2019-10-25	LREM	F	nouveaux	Adopté	hemicycle	8
+2019-10-25	LREM	F	nouveaux	Indéfini	hemicycle	5
+2019-10-25	LREM	F	nouveaux	Non soutenu	hemicycle	1
 2019-10-25	LREM	F	nouveaux	Rejeté	commissions	3
-2019-10-25	LREM	H	anciens	Adopté	hemicycle	28
+2019-10-25	LREM	F	nouveaux	Retiré	hemicycle	1
+2019-10-25	LREM	H	anciens	Adopté	hemicycle	63
+2019-10-25	LREM	H	anciens	Indéfini	hemicycle	1
+2019-10-25	LREM	H	nouveaux	Adopté	commissions	1
 2019-10-25	LREM	H	nouveaux	Adopté	hemicycle	1
-2019-10-25	LREM	H	nouveaux	Indéfini	hemicycle	1
+2019-10-25	LREM	H	nouveaux	Indéfini	hemicycle	5
 2019-10-25	LREM	H	nouveaux	Non soutenu	commissions	1
 2019-10-25	LREM	H	nouveaux	Rejeté	commissions	1
-2019-10-25	LREM	H	nouveaux	Retiré	hemicycle	1
-2019-10-25	LT	H	nouveaux	Indéfini	hemicycle	1
+2019-10-25	LREM	H	nouveaux	Retiré	hemicycle	2
+2019-10-25	LT	F	anciens	Indéfini	hemicycle	1
+2019-10-25	LT	H	anciens	Indéfini	commissions	1
+2019-10-25	LT	H	anciens	Indéfini	hemicycle	4
+2019-10-25	LT	H	nouveaux	Indéfini	hemicycle	5
+2019-10-25	LT	H	nouveaux	Non soutenu	hemicycle	1
 2019-10-25	LT	H	nouveaux	Retiré	commissions	1
+2019-10-25	MODEM	F	nouveaux	Adopté	hemicycle	4
 2019-10-25	MODEM	F	nouveaux	Retiré	hemicycle	1
 2019-10-25	MODEM	H	nouveaux	Adopté	hemicycle	1
-2019-10-25	MODEM	H	nouveaux	Indéfini	hemicycle	1
+2019-10-25	MODEM	H	nouveaux	Indéfini	hemicycle	3
 2019-10-25	MODEM	H	nouveaux	Non soutenu	commissions	3
+2019-10-25	MODEM	H	nouveaux	Non soutenu	hemicycle	1
 2019-10-25	MODEM	H	nouveaux	Rejeté	commissions	1
-2019-10-25	NI	F	nouveaux	Indéfini	hemicycle	5
+2019-10-25	NI	F	nouveaux	Indéfini	hemicycle	25
 2019-10-25	NI	F	nouveaux	Non soutenu	commissions	3
-2019-10-25	SOC	F	nouveaux	Indéfini	hemicycle	1
-2019-10-25	SOC	H	anciens	Adopté	hemicycle	1
+2019-10-25	NI	H	nouveaux	Indéfini	hemicycle	8
+2019-10-25	SOC	F	anciens	Indéfini	hemicycle	13
+2019-10-25	SOC	F	nouveaux	Indéfini	hemicycle	27
+2019-10-25	SOC	F	nouveaux	Retiré	hemicycle	1
+2019-10-25	SOC	H	anciens	Adopté	hemicycle	2
+2019-10-25	SOC	H	anciens	Indéfini	hemicycle	7
+2019-10-25	UAI	F	anciens	Indéfini	hemicycle	1
 2019-10-25	UAI	F	nouveaux	Adopté	hemicycle	1
-2019-10-25	UAI	H	nouveaux	Indéfini	hemicycle	1
+2019-10-25	UAI	F	nouveaux	Indéfini	hemicycle	10
+2019-10-25	UAI	H	anciens	Indéfini	hemicycle	1
+2019-10-25	UAI	H	nouveaux	Adopté	hemicycle	1
+2019-10-25	UAI	H	nouveaux	Indéfini	hemicycle	5
+2019-10-25	UAI	H	nouveaux	Rejeté	hemicycle	1
