@@ -23301,7 +23301,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-10-02	LFI	H	nouveaux	hemicycle	invectives	11
 2019-10-02	LFI	H	nouveaux	hemicycle	longues	831
 2019-10-02	LR	F	anciens	commissions	invectives	14
-2019-10-02	LR	F	anciens	commissions	longues	8932
+2019-10-02	LR	F	anciens	commissions	longues	8987
 2019-10-02	LR	F	anciens	hemicycle	invectives	178
 2019-10-02	LR	F	anciens	hemicycle	longues	1888
 2019-10-02	LR	F	nouveaux	commissions	invectives	0
@@ -23310,12 +23310,12 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-10-02	LR	F	nouveaux	hemicycle	longues	43
 2019-10-02	LR	H	anciens	commissions	invectives	27
 2019-10-02	LR	H	anciens	commissions	longues	2154
-2019-10-02	LR	H	anciens	commissions	presidence	439
+2019-10-02	LR	H	anciens	commissions	presidence	4662
 2019-10-02	LR	H	anciens	hemicycle	invectives	580
 2019-10-02	LR	H	anciens	hemicycle	longues	4786
 2019-10-02	LR	H	anciens	hemicycle	presidence	3389
 2019-10-02	LR	H	nouveaux	commissions	invectives	40
-2019-10-02	LR	H	nouveaux	commissions	longues	17235
+2019-10-02	LR	H	nouveaux	commissions	longues	17372
 2019-10-02	LR	H	nouveaux	commissions	presidence	241
 2019-10-02	LR	H	nouveaux	hemicycle	invectives	324
 2019-10-02	LR	H	nouveaux	hemicycle	longues	2845
@@ -23323,16 +23323,16 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-10-02	LREM	F	anciens	commissions	presidence	1018
 2019-10-02	LREM	F	anciens	hemicycle	invectives	16
 2019-10-02	LREM	F	nouveaux	commissions	invectives	101
-2019-10-02	LREM	F	nouveaux	commissions	longues	8054
+2019-10-02	LREM	F	nouveaux	commissions	longues	8543
 2019-10-02	LREM	F	nouveaux	commissions	presidence	2705
 2019-10-02	LREM	F	nouveaux	hemicycle	invectives	199
 2019-10-02	LREM	F	nouveaux	hemicycle	longues	14234
 2019-10-02	LREM	H	anciens	commissions	invectives	9
-2019-10-02	LREM	H	anciens	commissions	longues	945
+2019-10-02	LREM	H	anciens	commissions	longues	1254
 2019-10-02	LREM	H	anciens	hemicycle	invectives	13
 2019-10-02	LREM	H	anciens	hemicycle	longues	2068
 2019-10-02	LREM	H	nouveaux	commissions	invectives	68
-2019-10-02	LREM	H	nouveaux	commissions	longues	10316
+2019-10-02	LREM	H	nouveaux	commissions	longues	11069
 2019-10-02	LREM	H	nouveaux	commissions	presidence	498
 2019-10-02	LREM	H	nouveaux	hemicycle	invectives	26
 2019-10-02	LREM	H	nouveaux	hemicycle	longues	2127
@@ -23366,7 +23366,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-10-02	SOC	F	anciens	hemicycle	longues	1755
 2019-10-02	SOC	F	nouveaux	commissions	longues	24
 2019-10-02	SOC	H	anciens	commissions	invectives	11
-2019-10-02	SOC	H	anciens	commissions	longues	1893
+2019-10-02	SOC	H	anciens	commissions	longues	2124
 2019-10-02	SOC	H	nouveaux	commissions	invectives	0
 2019-10-02	SOC	H	nouveaux	hemicycle	invectives	9
 2019-10-02	SOC	H	nouveaux	hemicycle	longues	578
@@ -24845,6 +24845,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-11-06	LR	F	nouveaux	hemicycle	invectives	33
 2019-11-06	LR	F	nouveaux	hemicycle	longues	1567
 2019-11-06	LR	H	anciens	commissions	invectives	0
+2019-11-06	LR	H	anciens	commissions	presidence	0
 2019-11-06	LR	H	anciens	hemicycle	invectives	36
 2019-11-06	LR	H	anciens	hemicycle	presidence	1864
 2019-11-06	LR	H	nouveaux	commissions	invectives	0
@@ -24856,6 +24857,7 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-11-06	LREM	F	nouveaux	commissions	presidence	1656
 2019-11-06	LREM	H	anciens	commissions	invectives	0
 2019-11-06	LREM	H	anciens	hemicycle	presidence	428
+2019-11-06	LREM	H	nouveaux	commissions	invectives	0
 2019-11-06	LREM	H	nouveaux	commissions	longues	219
 2019-11-06	LREM	H	nouveaux	hemicycle	invectives	159
 2019-11-06	LREM	H	nouveaux	hemicycle	longues	4994
@@ -24879,3 +24881,4 @@ date	groupes	genre	renouveau	debats	interventions	total
 2019-11-06	UAI	H	nouveaux	commissions	invectives	0
 2019-11-06	UAI	H	nouveaux	hemicycle	invectives	28
 2019-11-06	UAI	H	nouveaux	hemicycle	longues	2696
+2019-11-07	LREM	F	nouveaux	commissions	presidence	104
