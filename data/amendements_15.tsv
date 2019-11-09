@@ -20930,7 +20930,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-08	LREM	H	nouveaux	Retiré	hemicycle	7
 2019-11-08	LT	F	anciens	Rejeté	hemicycle	1
 2019-11-08	LT	H	anciens	Adopté	hemicycle	1
-2019-11-08	LT	H	anciens	Indéfini	commissions	37
+2019-11-08	LT	H	anciens	Indéfini	commissions	36
 2019-11-08	LT	H	anciens	Indéfini	hemicycle	1
 2019-11-08	LT	H	anciens	Irrecevable	commissions	1
 2019-11-08	LT	H	anciens	Rejeté	hemicycle	4
@@ -20953,3 +20953,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-08	UAI	H	anciens	Rejeté	hemicycle	5
 2019-11-08	UAI	H	nouveaux	Indéfini	hemicycle	1
 2019-11-08	UAI	H	nouveaux	Non soutenu	hemicycle	3
+2019-11-09	LT	H	anciens	Indéfini	commissions	1
