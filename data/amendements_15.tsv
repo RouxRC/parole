@@ -21057,7 +21057,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-12	LT	H	anciens	Retiré	hemicycle	1
 2019-11-12	LT	H	nouveaux	Indéfini	hemicycle	25
 2019-11-12	LT	H	nouveaux	Rejeté	commissions	2
-2019-11-12	MODEM	F	nouveaux	Indéfini	hemicycle	17
+2019-11-12	MODEM	F	nouveaux	Indéfini	hemicycle	13
 2019-11-12	MODEM	F	nouveaux	Retiré	hemicycle	1
 2019-11-12	MODEM	H	nouveaux	Indéfini	hemicycle	29
 2019-11-12	NI	F	anciens	Indéfini	hemicycle	2
@@ -21135,7 +21135,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-13	LT	H	nouveaux	Irrecevable	hemicycle	4
 2019-11-13	LT	H	nouveaux	Rejeté	hemicycle	2
 2019-11-13	MODEM	F	nouveaux	Indéfini	hemicycle	1
-2019-11-13	MODEM	F	nouveaux	Irrecevable	hemicycle	1
+2019-11-13	MODEM	F	nouveaux	Rejeté	hemicycle	4
+2019-11-13	MODEM	F	nouveaux	Tombe	hemicycle	1
 2019-11-13	MODEM	H	nouveaux	Indéfini	hemicycle	9
 2019-11-13	MODEM	H	nouveaux	Rejeté	hemicycle	2
 2019-11-13	MODEM	H	nouveaux	Retiré	hemicycle	2
