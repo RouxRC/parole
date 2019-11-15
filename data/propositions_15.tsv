@@ -961,12 +961,10 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-10-30	LFI	H	nouveaux	loi	attente	1
 2019-10-30	LR	H	nouveaux	résolution européenne	attente	1
 2019-10-30	NI	F	nouveaux	loi	attente	1
-2019-11-06	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
 2019-11-06	LFI	H	nouveaux	loi	attente	1
 2019-11-06	LR	H	anciens	loi	attente	2
-2019-11-12	LREM	H	nouveaux	résolution	attente	1
 2019-11-12	UAI	H	anciens	loi	attente	1
-2019-11-13	LFI	H	nouveaux	création d'une commission d'enquête	attente	2
+2019-11-13	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-11-13	LFI	H	nouveaux	loi	attente	1
 2019-11-13	LR	F	anciens	loi	attente	2
 2019-11-13	LR	H	anciens	résolution	attente	2
@@ -986,3 +984,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-11-19	LR	H	nouveaux	loi	attente	1
 2019-11-20	LR	H	anciens	résolution	attente	1
 2019-11-20	SOC	H	anciens	loi	attente	1
+2019-11-21	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
+2019-11-21	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2019-11-21	LREM	H	nouveaux	résolution	attente	1
