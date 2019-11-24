@@ -20444,6 +20444,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-03	LFI	H	nouveaux	Irrecevable	commissions	1
 2019-11-03	LR	F	anciens	Irrecevable	commissions	9
 2019-11-03	LR	F	anciens	Retiré	commissions	1
+2019-11-03	LR	F	nouveaux	Indéfini	commissions	5
 2019-11-03	LR	F	nouveaux	Irrecevable	commissions	14
 2019-11-03	LR	H	anciens	Irrecevable	commissions	7
 2019-11-03	LR	H	nouveaux	Irrecevable	commissions	44
@@ -21692,7 +21693,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-20	LREM	F	anciens	Indéfini	commissions	11
 2019-11-20	LREM	F	nouveaux	Adopté	commissions	3
 2019-11-20	LREM	F	nouveaux	Adopté	hemicycle	2
-2019-11-20	LREM	F	nouveaux	Indéfini	commissions	71
+2019-11-20	LREM	F	nouveaux	Indéfini	commissions	70
 2019-11-20	LREM	F	nouveaux	Irrecevable	commissions	6
 2019-11-20	LREM	F	nouveaux	Irrecevable	hemicycle	5
 2019-11-20	LREM	F	nouveaux	Non soutenu	commissions	2
@@ -21933,7 +21934,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-22	LR	H	anciens	Indéfini	commissions	24
 2019-11-22	LR	H	anciens	Indéfini	hemicycle	34
 2019-11-22	LR	H	anciens	Retiré	hemicycle	1
-2019-11-22	LR	H	nouveaux	Indéfini	commissions	43
+2019-11-22	LR	H	nouveaux	Indéfini	commissions	42
 2019-11-22	LR	H	nouveaux	Indéfini	hemicycle	24
 2019-11-22	LR	H	nouveaux	Irrecevable	commissions	2
 2019-11-22	LR	H	nouveaux	Retiré	commissions	1
@@ -21948,7 +21949,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-22	LREM	H	anciens	Indéfini	hemicycle	35
 2019-11-22	LREM	H	anciens	Irrecevable	hemicycle	1
 2019-11-22	LREM	H	nouveaux	Adopté	hemicycle	4
-2019-11-22	LREM	H	nouveaux	Indéfini	commissions	35
+2019-11-22	LREM	H	nouveaux	Indéfini	commissions	29
 2019-11-22	LREM	H	nouveaux	Indéfini	hemicycle	1
 2019-11-22	LREM	H	nouveaux	Irrecevable	commissions	4
 2019-11-22	LREM	H	nouveaux	Irrecevable	hemicycle	1
@@ -21961,7 +21962,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-22	LT	H	nouveaux	Indéfini	hemicycle	1
 2019-11-22	LT	H	nouveaux	Irrecevable	commissions	7
 2019-11-22	LT	H	nouveaux	Retiré	commissions	2
-2019-11-22	MODEM	F	nouveaux	Indéfini	commissions	7
+2019-11-22	MODEM	F	nouveaux	Indéfini	commissions	5
 2019-11-22	MODEM	F	nouveaux	Indéfini	hemicycle	5
 2019-11-22	MODEM	H	nouveaux	Indéfini	commissions	21
 2019-11-22	MODEM	H	nouveaux	Indéfini	hemicycle	7
@@ -21990,16 +21991,16 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-11-23	LR	F	anciens	Indéfini	commissions	7
 2019-11-23	LR	F	nouveaux	Indéfini	commissions	25
 2019-11-23	LR	H	anciens	Indéfini	commissions	31
-2019-11-23	LR	H	nouveaux	Indéfini	commissions	60
+2019-11-23	LR	H	nouveaux	Indéfini	commissions	61
 2019-11-23	LREM	F	anciens	Indéfini	commissions	13
-2019-11-23	LREM	F	nouveaux	Indéfini	commissions	86
+2019-11-23	LREM	F	nouveaux	Indéfini	commissions	87
 2019-11-23	LREM	F	nouveaux	Retiré	commissions	2
 2019-11-23	LREM	H	anciens	Indéfini	commissions	2
-2019-11-23	LREM	H	nouveaux	Indéfini	commissions	59
+2019-11-23	LREM	H	nouveaux	Indéfini	commissions	65
 2019-11-23	LREM	H	nouveaux	Irrecevable	commissions	1
 2019-11-23	LT	H	anciens	Indéfini	commissions	45
 2019-11-23	LT	H	nouveaux	Indéfini	commissions	13
-2019-11-23	MODEM	F	nouveaux	Indéfini	commissions	16
+2019-11-23	MODEM	F	nouveaux	Indéfini	commissions	18
 2019-11-23	MODEM	H	nouveaux	Indéfini	commissions	24
 2019-11-23	NI	F	anciens	Indéfini	commissions	6
 2019-11-23	SOC	F	anciens	Indéfini	commissions	3
