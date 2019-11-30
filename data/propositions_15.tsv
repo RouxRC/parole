@@ -856,7 +856,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-07-24	LR	H	nouveaux	loi	attente	5
 2019-07-24	LREM	F	nouveaux	loi	attente	1
 2019-07-24	LT	H	nouveaux	loi	attente	1
-2019-07-24	MODEM	H	nouveaux	loi	attente	1
+2019-07-24	MODEM	H	nouveaux	loi	discute	1
 2019-07-24	NI	F	nouveaux	loi	attente	3
 2019-07-24	NI	F	nouveaux	résolution	attente	1
 2019-07-24	SOC	F	anciens	loi	attente	1
@@ -881,7 +881,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-09-18	LR	H	nouveaux	loi	attente	3
 2019-09-18	LT	H	anciens	loi	attente	1
 2019-09-18	MODEM	F	nouveaux	loi	attente	1
-2019-09-18	MODEM	H	nouveaux	loi	attente	1
+2019-09-18	MODEM	H	nouveaux	loi	discute	1
 2019-09-19	LT	H	anciens	loi	attente	1
 2019-09-19	NI	H	nouveaux	loi	attente	1
 2019-09-19	UDI	H	anciens	loi	attente	1
@@ -935,7 +935,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-10-24	LR	H	anciens	loi	attente	2
 2019-10-24	LREM	F	nouveaux	loi	attente	1
 2019-10-24	LREM	H	nouveaux	loi	attente	1
-2019-10-24	MODEM	H	nouveaux	loi	attente	1
+2019-10-24	MODEM	H	nouveaux	loi	discute	1
 2019-10-24	NI	H	nouveaux	loi	attente	1
 2019-10-25	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-10-25	LR	F	nouveaux	loi	attente	1
