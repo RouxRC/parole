@@ -684,7 +684,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-03-21	LREM	F	nouveaux	résolution européenne	attente	1
 2019-03-21	MODEM	F	nouveaux	résolution européenne	attente	1
 2019-03-27	GDR	H	anciens	loi	attente	1
-2019-03-27	LREM	H	nouveaux	loi	attente	1
+2019-03-27	LREM	H	nouveaux	loi	discute	1
 2019-03-27	NI	F	nouveaux	loi	attente	1
 2019-03-27	UAI	H	anciens	loi	attente	1
 2019-03-27	UAI	H	nouveaux	loi	attente	1
@@ -988,7 +988,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-11-26	LR	H	anciens	loi	attente	1
 2019-11-26	LR	H	nouveaux	loi	attente	1
 2019-11-26	LREM	F	nouveaux	loi	attente	1
-2019-11-26	LREM	H	nouveaux	résolution	attente	1
+2019-11-26	LREM	H	nouveaux	résolution	discute	1
 2019-11-26	UAI	F	anciens	loi	attente	1
 2019-11-27	LT	H	anciens	loi	attente	1
 2019-11-28	LR	H	anciens	loi	attente	1
