@@ -907,7 +907,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-10-04	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-10-04	UDI	H	nouveaux	loi	attente	1
 2019-10-07	LR	H	anciens	résolution	attente	1
-2019-10-08	SOC	F	anciens	création d'une commission d'enquête	attente	1
+2019-10-08	SOC	F	anciens	création d'une commission d'enquête	discute	1
 2019-10-09	LR	H	nouveaux	loi	attente	1
 2019-10-10	NI	F	anciens	création d'une commission d'enquête	attente	1
 2019-10-10	SOC	H	anciens	création d'une commission d'enquête	attente	1
@@ -954,8 +954,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-10-29	LT	H	anciens	résolution	discute	1
 2019-10-29	MODEM	H	nouveaux	résolution	discute	1
 2019-10-29	SOC	F	anciens	résolution	discute	1
-2019-10-29	SOC	H	anciens	loi	attente	2
-2019-10-29	SOC	H	anciens	loi	discute	2
+2019-10-29	SOC	H	anciens	loi	discute	4
 2019-10-29	SOC	H	nouveaux	loi	discute	1
 2019-10-29	UAI	H	anciens	résolution	discute	1
 2019-10-30	LFI	H	nouveaux	loi	attente	1
