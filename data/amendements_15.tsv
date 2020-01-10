@@ -17029,7 +17029,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-03	UDI	H	nouveaux	Tombe	hemicycle	1
 2019-07-04	GDR	H	nouveaux	Adopté	hemicycle	2
 2019-07-04	GDR	H	nouveaux	Retiré	hemicycle	1
-2019-07-04	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-07-04	LFI	H	nouveaux	Rejeté	hemicycle	1
 2019-07-04	LR	H	anciens	Adopté	hemicycle	4
 2019-07-04	LREM	F	nouveaux	Adopté	hemicycle	27
@@ -17062,6 +17061,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-07-09	GDR	H	nouveaux	Rejeté	commissions	2
 2019-07-09	LFI	F	nouveaux	Irrecevable	hemicycle	2
 2019-07-09	LFI	F	nouveaux	Rejeté	hemicycle	3
+2019-07-09	LFI	H	nouveaux	Indéfini	hemicycle	1
 2019-07-09	LFI	H	nouveaux	Rejeté	commissions	2
 2019-07-09	LR	F	anciens	Non soutenu	hemicycle	1
 2019-07-09	LR	F	anciens	Rejeté	commissions	1
@@ -23247,3 +23247,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2019-12-20	LREM	F	nouveaux	Retiré	hemicycle	1
 2019-12-20	LT	H	nouveaux	Adopté	hemicycle	1
 2019-12-20	UAI	H	nouveaux	Rejeté	hemicycle	1
+2020-01-00	UAI	H	nouveaux	Indéfini	hemicycle	2
