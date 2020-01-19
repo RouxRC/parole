@@ -23294,9 +23294,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-01-07	SOC	H	nouveaux	Retiré	hemicycle	1
 2020-01-07	UAI	F	nouveaux	Indéfini	commissions	7
 2020-01-08	LR	H	anciens	Indéfini	commissions	13
-2020-01-08	LR	H	nouveaux	Indéfini	commissions	3
-2020-01-08	LREM	F	nouveaux	Indéfini	commissions	1
-2020-01-08	LREM	H	nouveaux	Indéfini	commissions	9
+2020-01-08	LR	H	nouveaux	Indéfini	commissions	1
+2020-01-08	LREM	H	nouveaux	Indéfini	commissions	6
 2020-01-11	LFI	F	nouveaux	Irrecevable	commissions	1
 2020-01-11	LR	H	anciens	Irrecevable	commissions	2
 2020-01-11	LT	F	nouveaux	Irrecevable	commissions	1
@@ -23400,3 +23399,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-01-17	UAI	F	anciens	Indéfini	hemicycle	10
 2020-01-17	UAI	F	anciens	Retiré	hemicycle	2
 2020-01-17	UAI	H	nouveaux	Indéfini	hemicycle	1
+2020-01-18	LR	H	nouveaux	Indéfini	commissions	1
+2020-01-18	LREM	F	nouveaux	Indéfini	commissions	1
+2020-01-19	LR	H	nouveaux	Indéfini	commissions	2
+2020-01-19	LREM	H	nouveaux	Indéfini	commissions	3
