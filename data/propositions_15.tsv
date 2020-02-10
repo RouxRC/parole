@@ -407,7 +407,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-07-03	LR	F	nouveaux	loi	attente	1
 2018-07-03	LR	H	nouveaux	loi	attente	2
 2018-07-03	UAI	F	anciens	loi	attente	2
-2018-07-03	UAI	H	nouveaux	loi	attente	1
+2018-07-03	UAI	H	nouveaux	loi	discute	1
 2018-07-04	GDR	H	nouveaux	loi	attente	1
 2018-07-04	UAI	H	anciens	loi	attente	1
 2018-07-05	LR	H	nouveaux	loi	attente	1
@@ -531,7 +531,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-11-26	LR	F	nouveaux	loi	attente	1
 2018-11-26	LR	H	anciens	loi	attente	1
 2018-11-26	NI	H	anciens	loi	attente	1
-2018-11-26	UAI	F	nouveaux	loi	attente	1
+2018-11-26	UAI	F	nouveaux	loi	discute	1
 2018-11-27	LR	F	nouveaux	loi	attente	2
 2018-11-27	LR	H	anciens	loi	attente	2
 2018-11-27	LR	H	nouveaux	loi	attente	4
@@ -704,7 +704,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-04-04	LREM	H	nouveaux	loi	attente	1
 2019-04-04	MODEM	H	nouveaux	loi	discute	1
 2019-04-05	LR	F	nouveaux	loi organique	attente	1
-2019-04-05	UAI	H	anciens	loi	attente	1
+2019-04-05	UAI	H	anciens	loi	discute	1
 2019-04-09	GDR	H	nouveaux	loi constitutionnelle	attente	1
 2019-04-09	LR	H	anciens	résolution	attente	1
 2019-04-10	GDR	F	anciens	loi présentée en application de l'article 11 de la Constitution	attente	1
@@ -885,7 +885,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-09-18	MODEM	H	nouveaux	loi	discute	1
 2019-09-19	LT	H	anciens	loi	attente	1
 2019-09-19	NI	H	nouveaux	loi	attente	1
-2019-09-19	UDI	H	anciens	loi	attente	1
+2019-09-19	UDI	H	anciens	loi	discute	1
 2019-09-20	LR	F	anciens	loi	attente	1
 2019-09-20	LR	H	anciens	loi	attente	6
 2019-09-20	LR	H	nouveaux	loi	attente	4
@@ -1025,12 +1025,12 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-17	LR	H	nouveaux	loi	attente	3
 2019-12-17	LREM	H	nouveaux	loi	attente	1
 2019-12-17	NI	F	nouveaux	loi	attente	1
-2019-12-17	UAI	F	nouveaux	loi	attente	1
+2019-12-17	UAI	F	nouveaux	loi	discute	1
 2019-12-17	UAI	H	nouveaux	loi	attente	1
 2019-12-18	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-12-18	NI	H	anciens	résolution	attente	1
 2019-12-19	SOC	H	anciens	résolution	attente	1
-2019-12-19	UAI	H	anciens	loi organique	attente	1
+2019-12-19	UAI	H	anciens	loi organique	discute	1
 2019-12-24	GDR	H	anciens	loi	attente	1
 2019-12-24	LFI	H	nouveaux	loi	attente	1
 2019-12-24	LR	F	anciens	loi	attente	2
