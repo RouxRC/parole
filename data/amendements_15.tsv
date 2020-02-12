@@ -23649,10 +23649,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-01-30	UAI	H	nouveaux	Retiré	hemicycle	1
 2020-01-31	GDR	F	anciens	Indéfini	commissions	1
 2020-01-31	GDR	H	anciens	Indéfini	commissions	1
-2020-01-31	GDR	H	nouveaux	Indéfini	commissions	148
+2020-01-31	GDR	H	nouveaux	Indéfini	commissions	147
 2020-01-31	GDR	H	nouveaux	Irrecevable	commissions	18
 2020-01-31	GDR	H	nouveaux	Retiré	commissions	7
-2020-01-31	LFI	F	nouveaux	Indéfini	commissions	2537
+2020-01-31	LFI	F	nouveaux	Indéfini	commissions	2528
 2020-01-31	LFI	F	nouveaux	Irrecevable	commissions	123
 2020-01-31	LFI	F	nouveaux	Retiré	commissions	20
 2020-01-31	LFI	H	nouveaux	Indéfini	commissions	3679
@@ -23667,15 +23667,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-01-31	LR	H	anciens	Retiré	commissions	1
 2020-01-31	LR	H	nouveaux	Indéfini	commissions	113
 2020-01-31	LR	H	nouveaux	Irrecevable	commissions	12
-2020-01-31	LREM	F	nouveaux	Indéfini	commissions	39
+2020-01-31	LREM	F	nouveaux	Indéfini	commissions	38
 2020-01-31	LREM	F	nouveaux	Irrecevable	commissions	13
 2020-01-31	LREM	F	nouveaux	Retiré	commissions	8
 2020-01-31	LREM	H	anciens	Indéfini	commissions	6
 2020-01-31	LREM	H	anciens	Irrecevable	commissions	5
-2020-01-31	LREM	H	nouveaux	Indéfini	commissions	27
+2020-01-31	LREM	H	nouveaux	Indéfini	commissions	26
 2020-01-31	LREM	H	nouveaux	Irrecevable	commissions	10
 2020-01-31	LREM	H	nouveaux	Retiré	commissions	1
-2020-01-31	LT	H	anciens	Indéfini	commissions	4
+2020-01-31	LT	H	anciens	Indéfini	commissions	3
 2020-01-31	LT	H	anciens	Irrecevable	commissions	3
 2020-01-31	LT	H	nouveaux	Indéfini	commissions	2
 2020-01-31	LT	H	nouveaux	Irrecevable	commissions	3
@@ -23696,10 +23696,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-01	GDR	H	anciens	Irrecevable	commissions	5
 2020-02-01	GDR	H	nouveaux	Indéfini	commissions	53
 2020-02-01	GDR	H	nouveaux	Irrecevable	commissions	37
-2020-02-01	LFI	F	nouveaux	Indéfini	commissions	582
+2020-02-01	LFI	F	nouveaux	Indéfini	commissions	522
 2020-02-01	LFI	F	nouveaux	Irrecevable	commissions	141
 2020-02-01	LFI	F	nouveaux	Retiré	commissions	2
-2020-02-01	LFI	H	nouveaux	Indéfini	commissions	925
+2020-02-01	LFI	H	nouveaux	Indéfini	commissions	828
 2020-02-01	LFI	H	nouveaux	Irrecevable	commissions	167
 2020-02-01	LFI	H	nouveaux	Retiré	commissions	1
 2020-02-01	LR	F	anciens	Indéfini	commissions	1
@@ -23723,7 +23723,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-01	LT	H	anciens	Irrecevable	commissions	5
 2020-02-01	LT	H	nouveaux	Irrecevable	commissions	1
 2020-02-01	MODEM	H	nouveaux	Irrecevable	commissions	7
-2020-02-01	NI	F	nouveaux	Indéfini	commissions	10
+2020-02-01	NI	F	nouveaux	Indéfini	commissions	9
 2020-02-01	NI	F	nouveaux	Irrecevable	commissions	3
 2020-02-01	SOC	F	anciens	Indéfini	commissions	2
 2020-02-01	SOC	F	anciens	Irrecevable	commissions	1
@@ -23882,17 +23882,18 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-04	UAI	H	nouveaux	Irrecevable	commissions	1
 2020-02-05	GDR	H	anciens	Indéfini	commissions	1
 2020-02-05	GDR	H	nouveaux	Adopté	commissions	1
-2020-02-05	GDR	H	nouveaux	Indéfini	commissions	4
+2020-02-05	GDR	H	nouveaux	Indéfini	commissions	3
 2020-02-05	GDR	H	nouveaux	Irrecevable	commissions	1
-2020-02-05	GDR	H	nouveaux	Rejeté	commissions	5
+2020-02-05	GDR	H	nouveaux	Rejeté	commissions	6
+2020-02-05	GDR	H	nouveaux	Tombe	commissions	1
 2020-02-05	LFI	F	nouveaux	Indéfini	commissions	7
 2020-02-05	LFI	F	nouveaux	Irrecevable	commissions	26
-2020-02-05	LFI	F	nouveaux	Non soutenu	commissions	147
-2020-02-05	LFI	F	nouveaux	Rejeté	commissions	18
+2020-02-05	LFI	F	nouveaux	Non soutenu	commissions	207
+2020-02-05	LFI	F	nouveaux	Rejeté	commissions	27
 2020-02-05	LFI	H	nouveaux	Indéfini	commissions	10
 2020-02-05	LFI	H	nouveaux	Irrecevable	commissions	40
-2020-02-05	LFI	H	nouveaux	Non soutenu	commissions	181
-2020-02-05	LFI	H	nouveaux	Rejeté	commissions	55
+2020-02-05	LFI	H	nouveaux	Non soutenu	commissions	259
+2020-02-05	LFI	H	nouveaux	Rejeté	commissions	74
 2020-02-05	LR	H	anciens	Indéfini	commissions	4
 2020-02-05	LR	H	anciens	Indéfini	hemicycle	18
 2020-02-05	LR	H	anciens	Rejeté	commissions	4
@@ -23903,21 +23904,25 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-05	LR	H	nouveaux	Rejeté	commissions	2
 2020-02-05	LREM	F	anciens	Indéfini	commissions	1
 2020-02-05	LREM	F	nouveaux	Adopté	commissions	1
-2020-02-05	LREM	F	nouveaux	Indéfini	commissions	4
-2020-02-05	LREM	H	anciens	Indéfini	commissions	1
+2020-02-05	LREM	F	nouveaux	Indéfini	commissions	1
+2020-02-05	LREM	F	nouveaux	Tombe	commissions	3
 2020-02-05	LREM	H	anciens	Non soutenu	commissions	1
+2020-02-05	LREM	H	anciens	Tombe	commissions	1
 2020-02-05	LREM	H	nouveaux	Adopté	commissions	2
-2020-02-05	LREM	H	nouveaux	Indéfini	commissions	10
+2020-02-05	LREM	H	nouveaux	Indéfini	commissions	9
 2020-02-05	LREM	H	nouveaux	Irrecevable	commissions	1
-2020-02-05	LREM	H	nouveaux	Retiré	commissions	1
+2020-02-05	LREM	H	nouveaux	Retiré	commissions	2
+2020-02-05	LREM	H	nouveaux	Tombe	commissions	1
 2020-02-05	LT	H	anciens	Indéfini	hemicycle	2
+2020-02-05	LT	H	anciens	Tombe	commissions	1
 2020-02-05	NI	F	nouveaux	Indéfini	commissions	1
-2020-02-05	NI	F	nouveaux	Non soutenu	commissions	1
+2020-02-05	NI	F	nouveaux	Non soutenu	commissions	2
 2020-02-05	NI	F	nouveaux	Rejeté	commissions	3
 2020-02-05	SOC	H	nouveaux	Adopté	commissions	1
-2020-02-05	SOC	H	nouveaux	Indéfini	commissions	3
+2020-02-05	SOC	H	nouveaux	Indéfini	commissions	2
 2020-02-05	SOC	H	nouveaux	Rejeté	commissions	3
 2020-02-05	SOC	H	nouveaux	Retiré	commissions	1
+2020-02-05	SOC	H	nouveaux	Tombe	commissions	1
 2020-02-05	UAI	H	nouveaux	Indéfini	commissions	1
 2020-02-06	GDR	H	anciens	Indéfini	commissions	1
 2020-02-06	GDR	H	anciens	Irrecevable	commissions	1
@@ -24009,19 +24014,21 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-10	LR	H	anciens	Rejeté	commissions	1
 2020-02-10	LR	H	anciens	Retiré	hemicycle	2
 2020-02-10	LR	H	nouveaux	Indéfini	hemicycle	3
-2020-02-10	LREM	F	nouveaux	Indéfini	commissions	1
 2020-02-10	LREM	F	nouveaux	Indéfini	hemicycle	1
 2020-02-10	LREM	F	nouveaux	Irrecevable	commissions	1
-2020-02-10	LREM	H	anciens	Indéfini	commissions	8
-2020-02-10	LREM	H	nouveaux	Indéfini	commissions	3
+2020-02-10	LREM	F	nouveaux	Retiré	commissions	1
+2020-02-10	LREM	F	nouveaux	Tombe	commissions	1
+2020-02-10	LREM	H	anciens	Indéfini	commissions	6
+2020-02-10	LREM	H	nouveaux	Adopté	commissions	1
 2020-02-10	LREM	H	nouveaux	Indéfini	hemicycle	3
 2020-02-10	LREM	H	nouveaux	Retiré	hemicycle	3
+2020-02-10	LREM	H	nouveaux	Tombe	commissions	2
 2020-02-10	LT	F	nouveaux	Indéfini	hemicycle	1
 2020-02-10	LT	H	anciens	Indéfini	hemicycle	5
 2020-02-10	LT	H	nouveaux	Indéfini	hemicycle	1
 2020-02-10	LT	H	nouveaux	Irrecevable	commissions	1
 2020-02-10	MODEM	F	nouveaux	Indéfini	hemicycle	1
-2020-02-10	MODEM	H	nouveaux	Indéfini	commissions	1
+2020-02-10	MODEM	H	nouveaux	Non soutenu	commissions	1
 2020-02-10	NI	F	nouveaux	Indéfini	hemicycle	7
 2020-02-10	SOC	F	nouveaux	Indéfini	hemicycle	1
 2020-02-10	UAI	F	nouveaux	Indéfini	hemicycle	1
@@ -24035,6 +24042,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-11	LR	H	anciens	Indéfini	hemicycle	7
 2020-02-11	LR	H	anciens	Retiré	hemicycle	1
 2020-02-11	LREM	F	nouveaux	Indéfini	hemicycle	1
+2020-02-11	LREM	H	anciens	Indéfini	commissions	1
+2020-02-11	LREM	H	anciens	Retiré	commissions	1
 2020-02-11	LREM	H	nouveaux	Indéfini	hemicycle	6
 2020-02-11	LREM	H	nouveaux	Retiré	hemicycle	1
 2020-02-11	LT	H	anciens	Indéfini	hemicycle	6
