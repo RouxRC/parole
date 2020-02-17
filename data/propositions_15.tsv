@@ -976,7 +976,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-11-14	LR	H	nouveaux	résolution	attente	1
 2019-11-15	LR	H	anciens	loi	attente	3
 2019-11-15	LR	H	nouveaux	loi	attente	2
-2019-11-15	LT	F	anciens	loi	attente	1
+2019-11-15	LT	F	anciens	loi	discute	1
 2019-11-15	LT	H	anciens	loi	attente	1
 2019-11-18	NI	H	anciens	loi présentée en application de l'article 11 de la Constitution	attente	1
 2019-11-19	LR	H	nouveaux	loi	attente	1
@@ -1040,7 +1040,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-24	LREM	F	nouveaux	loi	attente	1
 2019-12-25	LR	F	anciens	loi	attente	1
 2019-12-26	LR	H	nouveaux	loi	attente	1
-2019-12-26	LREM	H	nouveaux	loi	attente	1
+2019-12-26	LREM	H	nouveaux	loi	discute	1
 2019-12-26	LT	H	nouveaux	loi	attente	2
 2019-12-26	SOC	H	anciens	loi	attente	1
 2019-12-26	UAI	H	anciens	loi	attente	2
