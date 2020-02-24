@@ -23754,6 +23754,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-02	GDR	H	nouveaux	Irrecevable	commissions	5
 2020-02-02	LFI	F	nouveaux	Indéfini	commissions	1
 2020-02-02	LFI	H	nouveaux	Indéfini	commissions	2
+2020-02-02	LFI	H	nouveaux	Indéfini	hemicycle	1
 2020-02-02	LR	F	anciens	Irrecevable	commissions	2
 2020-02-02	LR	F	nouveaux	Indéfini	commissions	3
 2020-02-02	LR	F	nouveaux	Irrecevable	commissions	2
@@ -24007,6 +24008,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-02-07	LR	H	anciens	Indéfini	commissions	2
 2020-02-07	LR	H	anciens	Irrecevable	commissions	3
 2020-02-07	LR	H	anciens	Non soutenu	commissions	1
+2020-02-07	LR	H	anciens	Rejeté	commissions	1
 2020-02-07	LR	H	nouveaux	Indéfini	commissions	1
 2020-02-07	LR	H	nouveaux	Irrecevable	commissions	3
 2020-02-07	LR	H	nouveaux	Rejeté	commissions	1
