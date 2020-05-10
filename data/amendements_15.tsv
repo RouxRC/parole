@@ -25877,8 +25877,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-05-08	LFI	H	nouveaux	Rejeté	hemicycle	6
 2020-05-08	LR	F	anciens	Rejeté	hemicycle	1
 2020-05-08	LR	H	anciens	Adopté	hemicycle	1
-2020-05-08	LR	H	anciens	Non soutenu	hemicycle	1
-2020-05-08	LR	H	anciens	Rejeté	hemicycle	15
+2020-05-08	LR	H	anciens	Rejeté	hemicycle	16
 2020-05-08	LR	H	anciens	Retiré	hemicycle	2
 2020-05-08	LR	H	anciens	Tombe	hemicycle	1
 2020-05-08	LR	H	nouveaux	Rejeté	hemicycle	9
@@ -25892,12 +25891,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-05-08	LREM	H	anciens	Rejeté	hemicycle	2
 2020-05-08	LREM	H	anciens	Tombe	hemicycle	2
 2020-05-08	LREM	H	nouveaux	Adopté	hemicycle	2
-2020-05-08	LREM	H	nouveaux	Rejeté	hemicycle	4
+2020-05-08	LREM	H	nouveaux	Non soutenu	hemicycle	1
+2020-05-08	LREM	H	nouveaux	Rejeté	hemicycle	3
 2020-05-08	LREM	H	nouveaux	Retiré	hemicycle	3
 2020-05-08	LREM	H	nouveaux	Tombe	hemicycle	3
 2020-05-08	LT	H	anciens	Adopté	hemicycle	1
-2020-05-08	LT	H	anciens	Non soutenu	hemicycle	1
-2020-05-08	LT	H	anciens	Rejeté	hemicycle	23
+2020-05-08	LT	H	anciens	Non soutenu	hemicycle	2
+2020-05-08	LT	H	anciens	Rejeté	hemicycle	22
 2020-05-08	LT	H	anciens	Tombe	hemicycle	2
 2020-05-08	LT	H	nouveaux	Rejeté	hemicycle	6
 2020-05-08	MODEM	F	nouveaux	Adopté	hemicycle	2
