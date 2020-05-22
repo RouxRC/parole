@@ -25719,8 +25719,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-04-18	SOC	F	anciens	Adopté	hemicycle	2
 2020-04-18	SOC	F	nouveaux	Retiré	hemicycle	1
 2020-04-18	UAI	F	nouveaux	Retiré	hemicycle	2
+2020-05-00	LFI	H	nouveaux	Indéfini	hemicycle	1
+2020-05-00	NI	F	nouveaux	Indéfini	hemicycle	10
 2020-05-01	LT	H	nouveaux	Retiré	commissions	1
 2020-05-01	MODEM	H	nouveaux	Retiré	commissions	1
+2020-05-02	LR	F	nouveaux	Indéfini	hemicycle	2
+2020-05-02	NI	F	nouveaux	Indéfini	hemicycle	3
 2020-05-03	LREM	H	nouveaux	Retiré	hemicycle	2
 2020-05-03	NI	H	anciens	Retiré	hemicycle	1
 2020-05-06	GDR	H	nouveaux	Adopté	commissions	1
@@ -26088,3 +26092,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-05-18	LFI	H	nouveaux	Indéfini	commissions	1
 2020-05-19	LR	H	nouveaux	Rejeté	commissions	1
 2020-05-20	LFI	H	nouveaux	Rejeté	commissions	2
+2020-05-22	NI	F	nouveaux	Indéfini	hemicycle	5
