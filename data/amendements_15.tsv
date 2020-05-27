@@ -26094,12 +26094,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-05-23	LR	F	nouveaux	Irrecevable	hemicycle	1
 2020-05-23	LREM	H	nouveaux	Irrecevable	commissions	2
 2020-05-23	LT	H	nouveaux	Irrecevable	commissions	1
-2020-05-25	LFI	H	nouveaux	Indéfini	commissions	1
 2020-05-25	LR	H	anciens	Adopté	commissions	1
 2020-05-25	LR	H	anciens	Tombe	commissions	2
-2020-05-25	LREM	F	nouveaux	Indéfini	commissions	5
 2020-05-25	LREM	H	nouveaux	Adopté	commissions	3
-2020-05-25	LREM	H	nouveaux	Indéfini	commissions	2
 2020-05-25	LT	H	nouveaux	Non soutenu	commissions	5
 2020-05-25	NI	F	nouveaux	Retiré	hemicycle	14
 2020-05-26	EDS	H	nouveaux	Adopté	commissions	1
@@ -26112,17 +26109,19 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-05-26	LFI	H	nouveaux	Rejeté	commissions	1
 2020-05-26	LR	F	nouveaux	Retiré	hemicycle	1
 2020-05-26	LREM	F	nouveaux	Adopté	commissions	4
-2020-05-26	LREM	F	nouveaux	Indéfini	commissions	1
 2020-05-26	LREM	H	anciens	Adopté	commissions	1
 2020-05-26	LREM	H	anciens	Retiré	commissions	1
 2020-05-26	LREM	H	nouveaux	Adopté	commissions	2
 2020-05-26	NI	F	nouveaux	Retiré	hemicycle	8
 2020-05-27	LFI	F	nouveaux	Adopté	commissions	1
 2020-05-27	LFI	F	nouveaux	Rejeté	commissions	4
-2020-05-27	LFI	H	nouveaux	Rejeté	commissions	10
-2020-05-27	LREM	F	nouveaux	Indéfini	commissions	1
-2020-05-27	LREM	H	nouveaux	Adopté	commissions	2
-2020-05-27	LREM	H	nouveaux	Indéfini	commissions	3
+2020-05-27	LFI	H	nouveaux	Rejeté	commissions	11
+2020-05-27	LREM	F	nouveaux	Adopté	commissions	3
+2020-05-27	LREM	F	nouveaux	Irrecevable	commissions	1
+2020-05-27	LREM	F	nouveaux	Retiré	commissions	2
+2020-05-27	LREM	F	nouveaux	Tombe	commissions	1
+2020-05-27	LREM	H	nouveaux	Adopté	commissions	8
+2020-05-27	LREM	H	nouveaux	Retiré	commissions	2
 2020-05-27	LT	H	nouveaux	Non soutenu	commissions	1
 2020-05-27	SOC	H	anciens	Rejeté	commissions	3
 2020-05-27	UAI	F	nouveaux	Retiré	commissions	1
