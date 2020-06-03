@@ -26177,15 +26177,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-02	AE	H	nouveaux	Indéfini	hemicycle	1
 2020-06-02	AE	H	nouveaux	Rejeté	commissions	1
 2020-06-02	EDS	F	nouveaux	Indéfini	hemicycle	2
-2020-06-02	GDR	H	nouveaux	Indéfini	commissions	1
+2020-06-02	GDR	H	nouveaux	Rejeté	commissions	1
 2020-06-02	GDR	H	nouveaux	Rejeté	hemicycle	1
 2020-06-02	LFI	H	nouveaux	Rejeté	hemicycle	1
-2020-06-02	LR	F	nouveaux	Indéfini	commissions	1
+2020-06-02	LR	F	nouveaux	Adopté	commissions	1
 2020-06-02	LR	H	anciens	Adopté	hemicycle	1
-2020-06-02	LR	H	anciens	Indéfini	commissions	3
 2020-06-02	LR	H	anciens	Irrecevable	hemicycle	6
-2020-06-02	LR	H	anciens	Rejeté	commissions	1
+2020-06-02	LR	H	anciens	Rejeté	commissions	3
 2020-06-02	LR	H	anciens	Rejeté	hemicycle	1
+2020-06-02	LR	H	anciens	Retiré	commissions	1
 2020-06-02	LR	H	anciens	Tombe	hemicycle	1
 2020-06-02	LR	H	nouveaux	Irrecevable	commissions	1
 2020-06-02	LR	H	nouveaux	Rejeté	commissions	1
@@ -26208,4 +26208,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-02	UDI	H	anciens	Adopté	hemicycle	1
 2020-06-02	UDI	H	anciens	Rejeté	commissions	2
 2020-06-02	UDI	H	anciens	Retiré	commissions	3
-2020-06-03	LR	H	anciens	Indéfini	commissions	1
+2020-06-03	LR	H	anciens	Retiré	commissions	1
