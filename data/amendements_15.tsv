@@ -26153,7 +26153,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-01	EDS	F	nouveaux	Irrecevable	hemicycle	1
 2020-06-01	EDS	F	nouveaux	Retiré	hemicycle	1
 2020-06-01	EDS	H	nouveaux	Indéfini	hemicycle	1
-2020-06-01	LFI	F	nouveaux	Indéfini	commissions	3
+2020-06-01	LFI	F	nouveaux	Indéfini	commissions	1
 2020-06-01	LFI	F	nouveaux	Indéfini	hemicycle	6
 2020-06-01	LFI	H	nouveaux	Indéfini	commissions	1
 2020-06-01	LFI	H	nouveaux	Irrecevable	commissions	1
@@ -26168,7 +26168,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-01	LREM	H	nouveaux	Indéfini	hemicycle	1
 2020-06-01	MODEM	F	nouveaux	Indéfini	commissions	6
 2020-06-01	NI	F	nouveaux	Indéfini	hemicycle	1
-2020-06-01	UDI	F	nouveaux	Indéfini	commissions	3
 2020-06-01	UDI	H	nouveaux	Irrecevable	hemicycle	4
 2020-06-02	AE	H	nouveaux	Rejeté	commissions	1
 2020-06-02	AE	H	nouveaux	Rejeté	hemicycle	2
@@ -26206,7 +26205,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-02	LREM	H	nouveaux	Retiré	commissions	4
 2020-06-02	LREM	H	nouveaux	Retiré	hemicycle	2
 2020-06-02	LREM	H	nouveaux	Tombe	hemicycle	1
-2020-06-02	LT	F	anciens	Indéfini	hemicycle	5
+2020-06-02	LT	F	anciens	Indéfini	hemicycle	2
 2020-06-02	LT	F	nouveaux	Indéfini	commissions	2
 2020-06-02	LT	H	anciens	Indéfini	commissions	1
 2020-06-02	LT	H	anciens	Indéfini	hemicycle	1
@@ -26231,7 +26230,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-03	LR	H	anciens	Rejeté	commissions	1
 2020-06-03	LR	H	anciens	Retiré	commissions	1
 2020-06-03	LREM	F	nouveaux	Indéfini	commissions	3
-2020-06-03	LREM	H	anciens	Indéfini	commissions	2
 2020-06-03	LREM	H	nouveaux	Indéfini	commissions	1
 2020-06-03	UDI	H	nouveaux	Indéfini	hemicycle	1
 2020-06-04	AE	H	nouveaux	Retiré	hemicycle	2
@@ -26239,7 +26237,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-04	LFI	H	nouveaux	Rejeté	hemicycle	1
 2020-06-04	LREM	H	nouveaux	Adopté	hemicycle	1
 2020-06-04	NI	F	nouveaux	Irrecevable	hemicycle	1
-2020-06-04	SOC	F	nouveaux	Indéfini	commissions	1
 2020-06-04	SOC	H	anciens	Rejeté	hemicycle	1
 2020-06-04	UDI	H	anciens	Rejeté	hemicycle	4
 2020-06-04	UDI	H	nouveaux	Rejeté	hemicycle	5
@@ -26254,7 +26251,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-05	MODEM	H	nouveaux	Adopté	hemicycle	1
 2020-06-05	NI	F	nouveaux	Rejeté	hemicycle	1
 2020-06-05	SOC	F	anciens	Retiré	hemicycle	2
-2020-06-05	SOC	H	anciens	Indéfini	hemicycle	2
+2020-06-05	SOC	H	anciens	Indéfini	hemicycle	1
 2020-06-05	UDI	H	anciens	Indéfini	hemicycle	1
 2020-06-05	UDI	H	anciens	Rejeté	hemicycle	3
 2020-06-05	UDI	H	anciens	Retiré	hemicycle	1
@@ -26346,13 +26343,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-12	LFI	F	nouveaux	Irrecevable	hemicycle	1
 2020-06-12	SOC	F	anciens	Irrecevable	hemicycle	2
 2020-06-12	SOC	H	nouveaux	Irrecevable	hemicycle	1
-2020-06-12	UDI	F	nouveaux	Indéfini	commissions	1
+2020-06-12	UDI	F	nouveaux	Indéfini	commissions	2
 2020-06-13	AE	H	nouveaux	Indéfini	commissions	5
 2020-06-13	EDS	F	nouveaux	Indéfini	commissions	5
 2020-06-13	EDS	F	nouveaux	Rejeté	commissions	5
 2020-06-13	EDS	F	nouveaux	Retiré	commissions	1
 2020-06-13	EDS	F	nouveaux	Tombe	commissions	1
-2020-06-13	LFI	F	nouveaux	Indéfini	commissions	3
+2020-06-13	LFI	F	nouveaux	Indéfini	commissions	4
 2020-06-13	LFI	F	nouveaux	Rejeté	commissions	1
 2020-06-13	LFI	H	nouveaux	Indéfini	commissions	3
 2020-06-13	LFI	H	nouveaux	Rejeté	commissions	1
@@ -26361,7 +26358,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-13	LR	H	anciens	Rejeté	commissions	3
 2020-06-13	LR	H	nouveaux	Indéfini	commissions	4
 2020-06-13	LR	H	nouveaux	Rejeté	commissions	2
-2020-06-13	LREM	H	anciens	Indéfini	commissions	2
+2020-06-13	LREM	H	anciens	Indéfini	commissions	4
 2020-06-13	LREM	H	nouveaux	Adopté	commissions	2
 2020-06-13	LREM	H	nouveaux	Indéfini	commissions	2
 2020-06-13	LREM	H	nouveaux	Retiré	commissions	5
@@ -26387,8 +26384,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-14	LT	H	anciens	Rejeté	commissions	2
 2020-06-14	MODEM	F	nouveaux	Adopté	commissions	1
 2020-06-14	NI	F	nouveaux	Rejeté	commissions	2
-2020-06-14	SOC	F	nouveaux	Indéfini	commissions	11
-2020-06-14	UDI	F	nouveaux	Indéfini	commissions	2
+2020-06-14	SOC	F	nouveaux	Indéfini	commissions	12
+2020-06-14	UDI	F	nouveaux	Indéfini	commissions	3
 2020-06-15	EDS	F	nouveaux	Rejeté	commissions	1
 2020-06-15	EDS	F	nouveaux	Rejeté	hemicycle	4
 2020-06-15	EDS	F	nouveaux	Retiré	hemicycle	2
@@ -26412,6 +26409,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-15	LREM	H	nouveaux	Irrecevable	hemicycle	1
 2020-06-15	LREM	H	nouveaux	Retiré	hemicycle	2
 2020-06-15	LT	F	anciens	Adopté	hemicycle	1
+2020-06-15	LT	F	anciens	Indéfini	hemicycle	3
 2020-06-15	LT	F	anciens	Rejeté	hemicycle	5
 2020-06-15	LT	F	anciens	Tombe	hemicycle	4
 2020-06-15	LT	H	anciens	Adopté	commissions	1
@@ -26427,11 +26425,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-06-15	SOC	F	anciens	Rejeté	hemicycle	8
 2020-06-15	SOC	F	anciens	Retiré	hemicycle	1
 2020-06-15	SOC	F	nouveaux	Indéfini	commissions	2
-2020-06-15	SOC	H	anciens	Indéfini	hemicycle	2
+2020-06-15	SOC	H	anciens	Indéfini	hemicycle	3
 2020-06-15	SOC	H	nouveaux	Rejeté	hemicycle	3
 2020-06-15	SOC	H	nouveaux	Retiré	hemicycle	1
 2020-06-15	UDI	H	anciens	Indéfini	hemicycle	1
 2020-06-15	UDI	H	nouveaux	Adopté	commissions	1
 2020-06-15	UDI	H	nouveaux	Irrecevable	hemicycle	1
 2020-06-15	UDI	H	nouveaux	Rejeté	hemicycle	5
+2020-06-16	LFI	F	nouveaux	Retiré	commissions	1
 2020-06-16	LREM	F	nouveaux	Adopté	hemicycle	1
+2020-06-16	LREM	H	nouveaux	Indéfini	commissions	8
+2020-06-16	UDI	F	nouveaux	Indéfini	commissions	1
