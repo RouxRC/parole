@@ -27555,7 +27555,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-07-03	UDI	F	anciens	Retiré	hemicycle	1
 2020-07-03	UDI	H	anciens	Non soutenu	hemicycle	1
 2020-07-03	UDI	H	nouveaux	Non soutenu	hemicycle	1
-2020-07-04	LREM	F	nouveaux	Indéfini	commissions	1
 2020-07-07	AE	F	nouveaux	Rejeté	hemicycle	1
 2020-07-07	AE	H	anciens	Non soutenu	hemicycle	1
 2020-07-07	AE	H	nouveaux	Rejeté	commissions	1
@@ -27657,9 +27656,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-07-09	SOC	F	anciens	Tombe	hemicycle	1
 2020-07-09	SOC	H	anciens	Adopté	hemicycle	1
 2020-07-09	SOC	H	anciens	Tombe	hemicycle	1
-2020-07-12	AE	H	nouveaux	Indéfini	commissions	4
-2020-07-12	EDS	F	nouveaux	Indéfini	commissions	2
-2020-07-12	GDR	H	nouveaux	Indéfini	commissions	3
-2020-07-12	LR	H	anciens	Indéfini	commissions	1
-2020-07-12	LREM	F	nouveaux	Indéfini	commissions	2
-2020-07-12	LREM	H	nouveaux	Indéfini	commissions	2
+2020-07-14	AE	H	nouveaux	Adopté	commissions	3
+2020-07-14	EDS	F	nouveaux	Rejeté	commissions	1
+2020-07-14	GDR	H	nouveaux	Rejeté	commissions	2
+2020-07-14	LR	H	anciens	Rejeté	commissions	1
+2020-07-14	LREM	F	nouveaux	Adopté	commissions	1
+2020-07-14	LREM	F	nouveaux	Irrecevable	commissions	1
+2020-07-14	LREM	H	nouveaux	Adopté	commissions	1
+2020-07-15	AE	H	nouveaux	Adopté	commissions	1
+2020-07-15	EDS	F	nouveaux	Adopté	commissions	1
+2020-07-15	GDR	H	nouveaux	Adopté	commissions	1
+2020-07-15	LREM	F	nouveaux	Irrecevable	commissions	1
+2020-07-15	LREM	H	nouveaux	Adopté	commissions	1
