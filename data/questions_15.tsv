@@ -23058,10 +23058,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-04-28	UAI	F	nouveaux	attente	2	3	Ministère des solidarités et de la santé	2
 2020-04-28	UAI	H	anciens	attente	2	3	Ministère de l'économie et des finances	4
 2020-04-28	UAI	H	anciens	attente	2	3	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
-2020-04-28	UAI	H	anciens	attente	2	3	Ministère des solidarités et de la santé	1
 2020-04-28	UAI	H	anciens	attente	2	3	Secrétariat d'État auprès du Ministère de l'économie et des finances et du Ministère de l'action et des comptes publics, du numérique	1
 2020-04-28	UAI	H	anciens	reponse	0	1	Secrétariat d'État auprès du Ministère de l'économie et des finances et du Ministère de l'action et des comptes publics, du numérique	1
 2020-04-28	UAI	H	anciens	reponse	1	2	Ministère de l'agriculture et de l'alimentation	1
+2020-04-28	UAI	H	anciens	retrait	2	3	Ministère des solidarités et de la santé	1
 2020-04-28	UAI	H	nouveaux	attente	2	3	Ministère de l'action et des comptes publics	1
 2020-04-28	UAI	H	nouveaux	attente	2	3	Ministère de l'économie et des finances	2
 2020-04-28	UAI	H	nouveaux	attente	2	3	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
@@ -23349,9 +23349,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-05-12	UAI	H	anciens	attente	2	3	Ministère de l'économie et des finances	2
 2020-05-12	UAI	H	anciens	attente	2	3	Ministère de l'Europe et des affaires étrangères	1
 2020-05-12	UAI	H	anciens	attente	2	3	Ministère de la culture	2
-2020-05-12	UAI	H	anciens	attente	2	3	Ministère des solidarités et de la santé	2
+2020-05-12	UAI	H	anciens	attente	2	3	Ministère des solidarités et de la santé	1
 2020-05-12	UAI	H	anciens	attente	2	3	Ministère des sports	1
 2020-05-12	UAI	H	anciens	attente	2	3	Secrétariat d'État auprès du Ministère de l'Europe et des affaires étrangères	1
+2020-05-12	UAI	H	anciens	retrait	2	3	Ministère des solidarités et de la santé	1
 2020-05-19	GDR	F	anciens	attente	2	3	Secrétariat d'État auprès du Ministère de l'Europe et des affaires étrangères	1
 2020-05-19	GDR	F	anciens	retrait	1	2	Ministère des solidarités et de la santé	1
 2020-05-19	GDR	F	nouveaux	attente	2	3	Ministère de l'Europe et des affaires étrangères	1
@@ -24406,9 +24407,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-07-14	SOC	H	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
 2020-07-14	SOC	H	anciens	attente	0	1	Ministère de la transition écologique, des transports	1
 2020-07-14	SOC	H	anciens	attente	0	1	Ministère des solidarités et de la santé	2
-2020-07-14	SOC	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	3
+2020-07-14	SOC	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
 2020-07-14	SOC	H	nouveaux	attente	0	1	Ministère de la culture	1
 2020-07-14	SOC	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-07-14	SOC	H	nouveaux	retrait	0	1	Ministère de l'agriculture et de l'alimentation	1
 2020-07-14	UDI	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
 2020-07-14	UDI	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
 2020-07-14	UDI	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	2
@@ -24484,3 +24486,133 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-07-21	UDI	H	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
 2020-07-21	UDI	H	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
 2020-07-21	UDI	H	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	2
+2020-07-28	AE	F	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-07-28	AE	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-07-28	AE	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2020-07-28	AE	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	AE	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	AE	F	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	AE	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-07-28	AE	H	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	AE	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	AE	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	EDS	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	EDS	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	EDS	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-07-28	EDS	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	2
+2020-07-28	EDS	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-07-28	GDR	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-07-28	GDR	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	GDR	H	anciens	attente	0	1	Ministère de la culture	1
+2020-07-28	GDR	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	GDR	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LFI	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	LFI	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LFI	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	LFI	F	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-07-28	LFI	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-07-28	LFI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	LFI	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	LFI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé, de l'autonomie	1
+2020-07-28	LR	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	LR	F	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	LR	F	anciens	attente	0	1	Ministère de la transition écologique	2
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	3
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des comptes publics	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de la transformation et de la fonction publiques	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Premier ministre	1
+2020-07-28	LR	F	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes, de la diversité et de l'égalité des chances	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de la transformation et de la fonction publiques	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de la transition écologique	3
+2020-07-28	LR	H	anciens	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-07-28	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	5
+2020-07-28	LR	H	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	2
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique	2
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	2
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	4
+2020-07-28	LR	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	2
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	4
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	3
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	4
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de la justice	5
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de la mer	1
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique	3
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	11
+2020-07-28	LREM	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-07-28	LREM	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	LREM	H	anciens	attente	0	1	Ministère des solidarités et de la santé	2
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	4
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	4
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	1
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	3
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de l'intérieur	6
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de la justice	1
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de la mer	2
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique	3
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	8
+2020-07-28	LREM	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	4
+2020-07-28	LT	H	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	LT	H	anciens	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	LT	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-07-28	LT	H	nouveaux	attente	0	1	Ministère de la mer	2
+2020-07-28	LT	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-07-28	MODEM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	MODEM	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-07-28	MODEM	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2020-07-28	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	MODEM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2020-07-28	NI	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	NI	F	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-07-28	NI	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	NI	H	anciens	attente	0	1	Ministère des armées	1
+2020-07-28	NI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2020-07-28	NI	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	NI	H	nouveaux	attente	0	1	Ministère de la justice	1
+2020-07-28	NI	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	NI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-07-28	NI	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-07-28	SOC	F	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	SOC	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	SOC	F	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	SOC	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-07-28	SOC	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	SOC	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-07-28	SOC	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	SOC	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance, de l'industrie	1
+2020-07-28	SOC	H	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	SOC	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	SOC	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2020-07-28	UDI	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	UDI	F	nouveaux	attente	0	1	Ministère des armées	1
+2020-07-28	UDI	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-07-28	UDI	H	anciens	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	UDI	H	anciens	attente	0	1	Ministère de la justice	3
+2020-07-28	UDI	H	anciens	attente	0	1	Ministère de la transformation et de la fonction publiques	2
+2020-07-28	UDI	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-07-28	UDI	H	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	2
+2020-07-28	UDI	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	4
+2020-07-28	UDI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-07-28	UDI	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-07-28	UDI	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-07-28	UDI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	4
