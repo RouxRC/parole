@@ -28008,7 +28008,33 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-08-01	LREM	H	anciens	Adopté	hemicycle	1
 2020-08-01	LREM	H	nouveaux	Adopté	hemicycle	4
 2020-08-01	MODEM	H	nouveaux	Adopté	hemicycle	1
-2020-08-07	LR	F	nouveaux	Indéfini	commissions	6
+2020-08-07	LR	F	nouveaux	Indéfini	commissions	4
+2020-09-00	AE	F	anciens	Indéfini	commissions	8
+2020-09-00	AE	H	nouveaux	Indéfini	commissions	3
+2020-09-00	EDS	F	nouveaux	Indéfini	commissions	13
+2020-09-00	GDR	H	anciens	Indéfini	commissions	23
+2020-09-00	GDR	H	anciens	Retiré	commissions	1
+2020-09-00	LFI	F	nouveaux	Indéfini	commissions	5
+2020-09-00	LFI	H	nouveaux	Indéfini	commissions	5
+2020-09-00	LR	F	nouveaux	Indéfini	commissions	2
+2020-09-00	LR	H	anciens	Indéfini	commissions	5
+2020-09-00	LR	H	nouveaux	Indéfini	commissions	4
+2020-09-00	LREM	F	nouveaux	Indéfini	commissions	35
+2020-09-00	LREM	H	nouveaux	Indéfini	commissions	61
+2020-09-00	LREM	H	nouveaux	Retiré	commissions	2
+2020-09-00	LT	F	anciens	Indéfini	commissions	1
+2020-09-00	LT	F	nouveaux	Indéfini	commissions	2
+2020-09-00	LT	H	anciens	Indéfini	commissions	1
+2020-09-00	MODEM	F	nouveaux	Indéfini	commissions	3
+2020-09-00	MODEM	H	nouveaux	Indéfini	commissions	8
+2020-09-00	NI	F	anciens	Indéfini	commissions	1
+2020-09-00	NI	F	nouveaux	Indéfini	commissions	28
+2020-09-00	SOC	F	anciens	Indéfini	commissions	2
+2020-09-00	UDI	F	nouveaux	Indéfini	commissions	1
+2020-09-00	UDI	H	anciens	Indéfini	commissions	16
+2020-09-03	LR	F	nouveaux	Indéfini	commissions	6
+2020-09-03	LR	H	nouveaux	Indéfini	commissions	1
+2020-09-04	LR	H	nouveaux	Indéfini	commissions	1
 2020-09-05	AE	H	nouveaux	Retiré	commissions	1
 2020-09-05	EDS	F	nouveaux	Irrecevable	commissions	3
 2020-09-05	EDS	H	nouveaux	Irrecevable	commissions	3
@@ -28028,13 +28054,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-07	EDS	F	nouveaux	Tombe	commissions	1
 2020-09-07	EDS	H	nouveaux	Irrecevable	commissions	1
 2020-09-07	GDR	H	nouveaux	Irrecevable	commissions	5
-2020-09-07	LFI	F	nouveaux	Indéfini	commissions	1
+2020-09-07	LFI	F	nouveaux	Irrecevable	commissions	1
 2020-09-07	LFI	H	nouveaux	Irrecevable	commissions	4
 2020-09-07	LR	F	anciens	Irrecevable	commissions	1
-2020-09-07	LR	F	nouveaux	Indéfini	commissions	11
+2020-09-07	LR	F	nouveaux	Indéfini	commissions	8
 2020-09-07	LR	F	nouveaux	Irrecevable	commissions	17
 2020-09-07	LR	F	nouveaux	Retiré	commissions	3
 2020-09-07	LR	H	anciens	Indéfini	commissions	1
+2020-09-07	LR	H	nouveaux	Indéfini	commissions	1
 2020-09-07	LR	H	nouveaux	Irrecevable	commissions	18
 2020-09-07	LR	H	nouveaux	Rejeté	commissions	9
 2020-09-07	LR	H	nouveaux	Retiré	commissions	1
@@ -28056,6 +28083,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-07	NI	F	nouveaux	Non soutenu	commissions	18
 2020-09-07	SOC	F	anciens	Irrecevable	commissions	1
 2020-09-07	SOC	F	anciens	Rejeté	commissions	2
+2020-09-07	SOC	H	nouveaux	Indéfini	commissions	1
 2020-09-07	SOC	H	nouveaux	Irrecevable	commissions	7
 2020-09-07	UDI	F	anciens	Adopté	commissions	1
 2020-09-07	UDI	F	anciens	Retiré	commissions	1
@@ -28076,7 +28104,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-08	EDS	H	nouveaux	Rejeté	commissions	2
 2020-09-08	EDS	H	nouveaux	Retiré	commissions	2
 2020-09-08	EDS	H	nouveaux	Tombe	commissions	1
-2020-09-08	GDR	F	anciens	Indéfini	commissions	20
+2020-09-08	GDR	F	anciens	Indéfini	commissions	14
 2020-09-08	GDR	F	nouveaux	Indéfini	commissions	4
 2020-09-08	GDR	H	nouveaux	Adopté	commissions	4
 2020-09-08	GDR	H	nouveaux	Rejeté	commissions	9
@@ -28090,30 +28118,32 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-08	LFI	H	nouveaux	Non soutenu	commissions	1
 2020-09-08	LFI	H	nouveaux	Rejeté	commissions	1
 2020-09-08	LR	F	nouveaux	Adopté	commissions	3
+2020-09-08	LR	F	nouveaux	Indéfini	commissions	1
 2020-09-08	LR	F	nouveaux	Non soutenu	commissions	7
 2020-09-08	LR	F	nouveaux	Rejeté	commissions	1
 2020-09-08	LR	F	nouveaux	Retiré	commissions	3
-2020-09-08	LR	H	anciens	Indéfini	commissions	7
+2020-09-08	LR	H	anciens	Indéfini	commissions	10
 2020-09-08	LR	H	anciens	Retiré	commissions	1
 2020-09-08	LR	H	nouveaux	Adopté	commissions	5
+2020-09-08	LR	H	nouveaux	Indéfini	commissions	1
 2020-09-08	LR	H	nouveaux	Irrecevable	commissions	2
 2020-09-08	LR	H	nouveaux	Non soutenu	commissions	10
 2020-09-08	LR	H	nouveaux	Rejeté	commissions	15
 2020-09-08	LR	H	nouveaux	Retiré	commissions	11
 2020-09-08	LR	H	nouveaux	Tombe	commissions	5
 2020-09-08	LREM	F	nouveaux	Adopté	commissions	58
-2020-09-08	LREM	F	nouveaux	Indéfini	commissions	1
+2020-09-08	LREM	F	nouveaux	Indéfini	commissions	2
 2020-09-08	LREM	F	nouveaux	Irrecevable	commissions	1
 2020-09-08	LREM	F	nouveaux	Non soutenu	commissions	1
 2020-09-08	LREM	F	nouveaux	Rejeté	commissions	5
 2020-09-08	LREM	F	nouveaux	Retiré	commissions	12
 2020-09-08	LREM	F	nouveaux	Tombe	commissions	4
 2020-09-08	LREM	H	nouveaux	Adopté	commissions	11
-2020-09-08	LREM	H	nouveaux	Indéfini	commissions	1
+2020-09-08	LREM	H	nouveaux	Indéfini	commissions	10
 2020-09-08	LREM	H	nouveaux	Irrecevable	commissions	7
 2020-09-08	LREM	H	nouveaux	Non soutenu	commissions	2
 2020-09-08	LREM	H	nouveaux	Rejeté	commissions	5
-2020-09-08	LREM	H	nouveaux	Retiré	commissions	7
+2020-09-08	LREM	H	nouveaux	Retiré	commissions	8
 2020-09-08	LREM	H	nouveaux	Tombe	commissions	3
 2020-09-08	LT	H	anciens	Non soutenu	commissions	2
 2020-09-08	LT	H	anciens	Rejeté	commissions	4
@@ -28151,41 +28181,47 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-08	UDI	H	nouveaux	Irrecevable	commissions	2
 2020-09-08	UDI	H	nouveaux	Non soutenu	commissions	3
 2020-09-08	UDI	H	nouveaux	Tombe	commissions	1
+2020-09-09	AE	F	anciens	Indéfini	commissions	1
+2020-09-09	AE	F	nouveaux	Indéfini	commissions	8
+2020-09-09	AE	F	nouveaux	Retiré	commissions	2
 2020-09-09	AE	H	nouveaux	Adopté	commissions	1
 2020-09-09	AE	H	nouveaux	Retiré	commissions	1
-2020-09-09	EDS	F	nouveaux	Indéfini	commissions	5
+2020-09-09	EDS	F	nouveaux	Indéfini	commissions	3
 2020-09-09	EDS	F	nouveaux	Non soutenu	commissions	1
 2020-09-09	EDS	H	nouveaux	Adopté	commissions	1
-2020-09-09	EDS	H	nouveaux	Indéfini	commissions	49
+2020-09-09	EDS	H	nouveaux	Indéfini	commissions	45
+2020-09-09	EDS	H	nouveaux	Irrecevable	commissions	1
 2020-09-09	EDS	H	nouveaux	Rejeté	commissions	1
 2020-09-09	EDS	H	nouveaux	Retiré	commissions	1
-2020-09-09	GDR	F	anciens	Indéfini	commissions	4
-2020-09-09	GDR	F	nouveaux	Indéfini	commissions	2
+2020-09-09	GDR	F	anciens	Indéfini	commissions	7
+2020-09-09	GDR	F	nouveaux	Indéfini	commissions	1
 2020-09-09	GDR	H	nouveaux	Adopté	commissions	3
 2020-09-09	GDR	H	nouveaux	Rejeté	commissions	3
-2020-09-09	LFI	F	nouveaux	Indéfini	commissions	13
+2020-09-09	LFI	F	nouveaux	Indéfini	commissions	12
 2020-09-09	LFI	F	nouveaux	Non soutenu	commissions	1
 2020-09-09	LFI	F	nouveaux	Rejeté	commissions	1
 2020-09-09	LFI	H	nouveaux	Indéfini	commissions	14
 2020-09-09	LFI	H	nouveaux	Rejeté	commissions	1
 2020-09-09	LR	F	nouveaux	Adopté	commissions	1
-2020-09-09	LR	F	nouveaux	Indéfini	commissions	25
+2020-09-09	LR	F	nouveaux	Indéfini	commissions	23
 2020-09-09	LR	H	anciens	Adopté	commissions	1
-2020-09-09	LR	H	anciens	Indéfini	commissions	7
+2020-09-09	LR	H	anciens	Indéfini	commissions	6
 2020-09-09	LR	H	anciens	Irrecevable	commissions	1
 2020-09-09	LR	H	anciens	Rejeté	commissions	2
 2020-09-09	LR	H	anciens	Retiré	commissions	1
 2020-09-09	LR	H	nouveaux	Adopté	commissions	3
+2020-09-09	LR	H	nouveaux	Indéfini	commissions	36
 2020-09-09	LR	H	nouveaux	Non soutenu	commissions	4
 2020-09-09	LR	H	nouveaux	Rejeté	commissions	6
 2020-09-09	LR	H	nouveaux	Retiré	commissions	1
 2020-09-09	LREM	F	nouveaux	Adopté	commissions	13
-2020-09-09	LREM	F	nouveaux	Indéfini	commissions	56
+2020-09-09	LREM	F	nouveaux	Indéfini	commissions	50
+2020-09-09	LREM	F	nouveaux	Irrecevable	commissions	2
 2020-09-09	LREM	F	nouveaux	Rejeté	commissions	3
 2020-09-09	LREM	F	nouveaux	Retiré	commissions	2
 2020-09-09	LREM	F	nouveaux	Tombe	commissions	2
 2020-09-09	LREM	H	nouveaux	Adopté	commissions	11
-2020-09-09	LREM	H	nouveaux	Indéfini	commissions	28
+2020-09-09	LREM	H	nouveaux	Indéfini	commissions	29
 2020-09-09	LREM	H	nouveaux	Rejeté	commissions	2
 2020-09-09	LREM	H	nouveaux	Tombe	commissions	1
 2020-09-09	LT	H	anciens	Non soutenu	commissions	1
@@ -28194,12 +28230,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-09	LT	H	nouveaux	Indéfini	commissions	11
 2020-09-09	LT	H	nouveaux	Non soutenu	commissions	3
 2020-09-09	MODEM	F	nouveaux	Adopté	commissions	1
-2020-09-09	MODEM	F	nouveaux	Indéfini	commissions	3
+2020-09-09	MODEM	F	nouveaux	Indéfini	commissions	4
 2020-09-09	MODEM	F	nouveaux	Rejeté	commissions	3
+2020-09-09	MODEM	F	nouveaux	Retiré	commissions	1
 2020-09-09	MODEM	H	nouveaux	Adopté	commissions	1
 2020-09-09	MODEM	H	nouveaux	Indéfini	commissions	3
 2020-09-09	MODEM	H	nouveaux	Non soutenu	commissions	1
 2020-09-09	SOC	F	anciens	Adopté	commissions	1
+2020-09-09	SOC	F	anciens	Indéfini	commissions	19
 2020-09-09	SOC	F	anciens	Rejeté	commissions	5
 2020-09-09	SOC	F	anciens	Retiré	commissions	3
 2020-09-09	SOC	F	nouveaux	Indéfini	commissions	49
@@ -28209,11 +28247,43 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-09-09	SOC	H	nouveaux	Rejeté	commissions	3
 2020-09-09	SOC	H	nouveaux	Tombe	commissions	1
 2020-09-09	UDI	F	anciens	Rejeté	commissions	1
-2020-09-09	UDI	F	nouveaux	Indéfini	commissions	26
+2020-09-09	UDI	F	nouveaux	Indéfini	commissions	18
 2020-09-09	UDI	H	anciens	Indéfini	commissions	2
-2020-09-10	GDR	F	anciens	Indéfini	commissions	1
+2020-09-09	UDI	H	nouveaux	Indéfini	commissions	11
+2020-09-10	AE	F	anciens	Indéfini	commissions	20
+2020-09-10	AE	F	anciens	Retiré	commissions	1
+2020-09-10	AE	F	nouveaux	Indéfini	commissions	1
+2020-09-10	AE	H	nouveaux	Indéfini	commissions	4
+2020-09-10	EDS	F	nouveaux	Indéfini	commissions	12
+2020-09-10	EDS	H	nouveaux	Indéfini	commissions	3
+2020-09-10	GDR	F	anciens	Indéfini	commissions	4
+2020-09-10	GDR	F	nouveaux	Indéfini	commissions	1
+2020-09-10	GDR	H	anciens	Indéfini	commissions	21
+2020-09-10	GDR	H	anciens	Irrecevable	commissions	1
+2020-09-10	GDR	H	anciens	Retiré	commissions	2
+2020-09-10	LFI	F	nouveaux	Indéfini	commissions	1
 2020-09-10	LFI	H	nouveaux	Indéfini	commissions	1
-2020-09-10	LR	F	nouveaux	Indéfini	commissions	7
-2020-09-10	LREM	F	nouveaux	Indéfini	commissions	1
+2020-09-10	LR	F	nouveaux	Indéfini	commissions	25
+2020-09-10	LR	H	anciens	Indéfini	commissions	9
+2020-09-10	LR	H	anciens	Retiré	commissions	1
+2020-09-10	LR	H	nouveaux	Indéfini	commissions	16
+2020-09-10	LR	H	nouveaux	Irrecevable	commissions	1
+2020-09-10	LREM	F	nouveaux	Indéfini	commissions	36
+2020-09-10	LREM	F	nouveaux	Irrecevable	commissions	2
+2020-09-10	LREM	F	nouveaux	Retiré	commissions	1
+2020-09-10	LREM	H	anciens	Indéfini	commissions	1
+2020-09-10	LREM	H	nouveaux	Indéfini	commissions	35
+2020-09-10	LREM	H	nouveaux	Irrecevable	commissions	1
+2020-09-10	LREM	H	nouveaux	Retiré	commissions	2
 2020-09-10	LT	H	nouveaux	Indéfini	commissions	1
+2020-09-10	MODEM	F	nouveaux	Indéfini	commissions	1
+2020-09-10	MODEM	H	nouveaux	Indéfini	commissions	15
+2020-09-10	MODEM	H	nouveaux	Irrecevable	commissions	1
+2020-09-10	MODEM	H	nouveaux	Retiré	commissions	6
+2020-09-10	NI	F	nouveaux	Indéfini	commissions	9
+2020-09-10	NI	H	anciens	Indéfini	commissions	1
+2020-09-10	SOC	F	anciens	Indéfini	commissions	2
 2020-09-10	SOC	F	nouveaux	Indéfini	commissions	1
+2020-09-10	UDI	F	nouveaux	Indéfini	commissions	8
+2020-09-10	UDI	H	anciens	Indéfini	commissions	5
+2020-09-10	UDI	H	nouveaux	Indéfini	commissions	1
