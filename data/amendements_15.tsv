@@ -32621,7 +32621,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-13	LREM	F	nouveaux	Tombe	hemicycle	2
 2020-11-13	LREM	H	anciens	Adopté	hemicycle	1
 2020-11-13	LREM	H	nouveaux	Adopté	hemicycle	7
-2020-11-13	LREM	H	nouveaux	Indéfini	hemicycle	65
+2020-11-13	LREM	H	nouveaux	Indéfini	hemicycle	64
 2020-11-13	LREM	H	nouveaux	Irrecevable	hemicycle	4
 2020-11-13	LREM	H	nouveaux	Retiré	hemicycle	3
 2020-11-13	LREM	H	nouveaux	Tombe	hemicycle	6
@@ -32672,15 +32672,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-14	LFI	H	nouveaux	Indéfini	hemicycle	23
 2020-11-14	LR	F	anciens	Indéfini	hemicycle	15
 2020-11-14	LR	F	nouveaux	Indéfini	hemicycle	21
-2020-11-14	LR	H	anciens	Indéfini	hemicycle	27
-2020-11-14	LR	H	nouveaux	Indéfini	hemicycle	99
-2020-11-14	LREM	F	nouveaux	Indéfini	hemicycle	61
+2020-11-14	LR	H	anciens	Indéfini	hemicycle	26
+2020-11-14	LR	H	nouveaux	Indéfini	hemicycle	98
+2020-11-14	LREM	F	nouveaux	Indéfini	hemicycle	59
 2020-11-14	LREM	F	nouveaux	Irrecevable	hemicycle	2
 2020-11-14	LREM	F	nouveaux	Rejeté	hemicycle	1
 2020-11-14	LREM	F	nouveaux	Retiré	commissions	1
-2020-11-14	LREM	F	nouveaux	Retiré	hemicycle	2
+2020-11-14	LREM	F	nouveaux	Retiré	hemicycle	4
 2020-11-14	LREM	H	nouveaux	Indéfini	commissions	1
-2020-11-14	LREM	H	nouveaux	Indéfini	hemicycle	87
+2020-11-14	LREM	H	nouveaux	Indéfini	hemicycle	88
 2020-11-14	LREM	H	nouveaux	Irrecevable	hemicycle	3
 2020-11-14	LREM	H	nouveaux	Retiré	hemicycle	2
 2020-11-14	LT	F	nouveaux	Indéfini	hemicycle	3
@@ -32705,7 +32705,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-15	LR	F	nouveaux	Indéfini	hemicycle	3
 2020-11-15	LR	H	anciens	Indéfini	hemicycle	2
 2020-11-15	LR	H	anciens	Irrecevable	hemicycle	1
-2020-11-15	LR	H	nouveaux	Indéfini	hemicycle	18
+2020-11-15	LR	H	nouveaux	Indéfini	hemicycle	19
 2020-11-15	LREM	F	nouveaux	Indéfini	hemicycle	8
 2020-11-15	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2020-11-15	LREM	F	nouveaux	Retiré	hemicycle	1
@@ -32722,3 +32722,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-15	UDI	F	nouveaux	Retiré	hemicycle	1
 2020-11-15	UDI	H	anciens	Indéfini	hemicycle	1
 2020-11-15	UDI	H	nouveaux	Indéfini	hemicycle	2
+2020-11-16	LR	H	anciens	Indéfini	hemicycle	1
