@@ -22465,7 +22465,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-03-17	LREM	H	nouveaux	attente	8	6-12	Ministère de l'intérieur	3
 2020-03-17	LREM	H	nouveaux	attente	8	6-12	Ministère de la culture	1
 2020-03-17	LREM	H	nouveaux	attente	8	6-12	Ministère de la transition écologique et solidaire	3
-2020-03-17	LREM	H	nouveaux	attente	8	6-12	Ministère des solidarités et de la santé	5
+2020-03-17	LREM	H	nouveaux	attente	8	6-12	Ministère des solidarités et de la santé	4
 2020-03-17	LREM	H	nouveaux	attente	8	6-12	Ministère du travail	2
 2020-03-17	LREM	H	nouveaux	attente	8	6-12	Premier ministre	1
 2020-03-17	LREM	H	nouveaux	attente	8	6-12	Secrétariat d'État auprès du Ministère de l'action et des comptes publics	1
@@ -22480,6 +22480,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-03-17	LREM	H	nouveaux	reponse	5	3-6	Ministère de la culture	1
 2020-03-17	LREM	H	nouveaux	reponse	3	3-6	Ministère des sports	1
 2020-03-17	LREM	H	nouveaux	reponse	5	3-6	Secrétariat d'État auprès du Ministère de l'économie et des finances	1
+2020-03-17	LREM	H	nouveaux	retrait	8	6-12	Ministère des solidarités et de la santé	1
 2020-03-17	LT	F	anciens	reponse	4	3-6	Ministère des armées	1
 2020-03-17	LT	F	anciens	reponse	7	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
 2020-03-17	LT	H	anciens	attente	8	6-12	Ministère des solidarités et de la santé	1
@@ -26903,3 +26904,123 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-11-10	UDI	H	anciens	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
 2020-11-10	UDI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
 2020-11-10	UDI	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-11-17	AE	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2020-11-17	AE	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	2
+2020-11-17	AE	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	AE	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-11-17	AE	F	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes, de la diversité et de l'égalité des chances	1
+2020-11-17	AE	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	AE	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	AE	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	AE	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-11-17	AE	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	2
+2020-11-17	GDR	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-11-17	GDR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2020-11-17	GDR	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-11-17	GDR	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-11-17	GDR	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-11-17	LFI	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-11-17	LFI	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	LFI	F	nouveaux	attente	0	1	Ministère des outre-mer	1
+2020-11-17	LFI	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	LFI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	LFI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-11-17	LR	F	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2020-11-17	LR	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	4
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports, des sports	1
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère de la culture	1
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-11-17	LR	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2020-11-17	LR	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports, des sports	1
+2020-11-17	LR	H	anciens	attente	0	1	Ministère de l'intérieur	5
+2020-11-17	LR	H	anciens	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2020-11-17	LR	H	anciens	attente	0	1	Ministère de la culture	1
+2020-11-17	LR	H	anciens	attente	0	1	Ministère de la transformation et de la fonction publiques	1
+2020-11-17	LR	H	anciens	attente	0	1	Ministère de la transition écologique	1
+2020-11-17	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	3
+2020-11-17	LR	H	anciens	attente	0	1	Premier ministre	1
+2020-11-17	LR	H	anciens	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	9
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports, des sports	1
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	2
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	5
+2020-11-17	LR	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-11-17	LR	H	nouveaux	attente	0	1	Premier ministre	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	4
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	5
+2020-11-17	LREM	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Premier ministre	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Secrétariat d'État auprès des ministres de l'économie, des finances et de la relance, et de la cohésion des territoires et des relations avec les collectivités territoriales, de la transition numérique et des communications électroniques	1
+2020-11-17	LREM	F	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de l'Europe et des affaires étrangères, du tourisme, des Français de l'étranger et de la francophonie	4
+2020-11-17	LREM	F	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de la transition écologique, de la biodiversité	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des comptes publics	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de la culture	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de la transformation et de la fonction publiques	3
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère des outre-mer	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2020-11-17	LREM	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	2
+2020-11-17	LREM	H	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes, de la diversité et de l'égalité des chances	1
+2020-11-17	LREM	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2020-11-17	LT	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2020-11-17	LT	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-11-17	LT	H	anciens	attente	0	1	Ministère des solidarités et de la santé	3
+2020-11-17	MODEM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2020-11-17	MODEM	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2020-11-17	MODEM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	MODEM	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2020-11-17	MODEM	H	anciens	attente	0	1	Ministère de la justice	1
+2020-11-17	MODEM	H	anciens	attente	0	1	Ministère de la transition écologique	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des comptes publics	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère de la culture	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique	2
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	MODEM	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de l'Europe et des affaires étrangères, du tourisme, des Français de l'étranger et de la francophonie	1
+2020-11-17	NI	F	nouveaux	attente	0	1	Ministère de la justice	1
+2020-11-17	NI	F	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2020-11-17	NI	F	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	1
+2020-11-17	NI	F	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-11-17	NI	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	NI	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2020-11-17	NI	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-11-17	NI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2020-11-17	NI	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	2
+2020-11-17	NI	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2020-11-17	NI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-11-17	NI	H	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes, de la diversité et de l'égalité des chances	1
+2020-11-17	SOC	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	SOC	F	anciens	attente	0	1	Ministère de la culture	1
+2020-11-17	SOC	F	anciens	attente	0	1	Ministère de la transformation et de la fonction publiques	1
+2020-11-17	SOC	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2020-11-17	SOC	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	SOC	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2020-11-17	SOC	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	SOC	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2020-11-17	SOC	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	SOC	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2020-11-17	UDI	F	nouveaux	attente	0	1	Ministère des armées	1
+2020-11-17	UDI	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2020-11-17	UDI	H	anciens	attente	0	1	Ministère de la transition écologique, du logement	1
