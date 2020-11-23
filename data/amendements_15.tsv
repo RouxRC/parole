@@ -31680,7 +31680,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-00	LFI	H	nouveaux	Indéfini	commissions	7
 2020-11-00	LR	H	anciens	Indéfini	commissions	1
 2020-11-00	LR	H	anciens	Retiré	hemicycle	1
-2020-11-00	LR	H	nouveaux	Indéfini	commissions	14
+2020-11-00	LR	H	nouveaux	Indéfini	commissions	12
 2020-11-00	LR	H	nouveaux	Retiré	hemicycle	1
 2020-11-00	LREM	F	nouveaux	Indéfini	commissions	16
 2020-11-00	LREM	H	anciens	Indéfini	commissions	3
@@ -33055,7 +33055,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-20	LR	H	nouveaux	Retiré	hemicycle	2
 2020-11-20	LR	H	nouveaux	Tombe	hemicycle	17
 2020-11-20	LREM	F	nouveaux	Adopté	hemicycle	1
-2020-11-20	LREM	F	nouveaux	Indéfini	commissions	8
+2020-11-20	LREM	F	nouveaux	Indéfini	commissions	7
 2020-11-20	LREM	F	nouveaux	Indéfini	hemicycle	3
 2020-11-20	LREM	F	nouveaux	Retiré	hemicycle	1
 2020-11-20	LREM	F	nouveaux	Tombe	hemicycle	13
@@ -33120,6 +33120,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-21	LR	F	nouveaux	Indéfini	commissions	5
 2020-11-21	LR	H	anciens	Indéfini	commissions	9
 2020-11-21	LR	H	nouveaux	Indéfini	commissions	14
+2020-11-21	LR	H	nouveaux	Retiré	commissions	2
 2020-11-21	LREM	F	nouveaux	Adopté	hemicycle	7
 2020-11-21	LREM	F	nouveaux	Indéfini	commissions	20
 2020-11-21	LREM	F	nouveaux	Retiré	commissions	1
@@ -33147,7 +33148,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-11-22	LR	H	anciens	Indéfini	commissions	1
 2020-11-22	LR	H	nouveaux	Indéfini	commissions	5
 2020-11-22	LR	H	nouveaux	Retiré	commissions	1
-2020-11-22	LREM	F	nouveaux	Indéfini	commissions	6
+2020-11-22	LREM	F	nouveaux	Indéfini	commissions	7
 2020-11-22	LREM	H	anciens	Indéfini	commissions	6
 2020-11-22	LREM	H	nouveaux	Indéfini	commissions	18
 2020-11-22	LT	F	nouveaux	Indéfini	commissions	2
