@@ -33869,7 +33869,6 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-12-13	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2020-12-13	LREM	H	nouveaux	Irrecevable	hemicycle	1
 2020-12-13	LREM	H	nouveaux	Retiré	hemicycle	1
-2020-12-13	LT	F	anciens	Indéfini	hemicycle	1
 2020-12-13	MODEM	H	anciens	Irrecevable	hemicycle	8
 2020-12-13	NI	F	nouveaux	Irrecevable	hemicycle	1
 2020-12-13	SOC	F	anciens	Irrecevable	hemicycle	6
@@ -34001,7 +34000,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-12-15	LREM	H	nouveaux	Rejeté	hemicycle	9
 2020-12-15	LREM	H	nouveaux	Retiré	hemicycle	5
 2020-12-15	LREM	H	nouveaux	Tombe	hemicycle	2
-2020-12-15	LT	F	anciens	Rejeté	hemicycle	2
+2020-12-15	LT	F	anciens	Rejeté	hemicycle	3
 2020-12-15	LT	F	nouveaux	Non soutenu	hemicycle	1
 2020-12-15	LT	F	nouveaux	Rejeté	hemicycle	1
 2020-12-15	LT	H	anciens	Irrecevable	hemicycle	1
@@ -34027,7 +34026,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-12-15	SOC	F	anciens	Retiré	hemicycle	2
 2020-12-15	SOC	F	anciens	Tombe	hemicycle	1
 2020-12-15	SOC	F	nouveaux	Rejeté	hemicycle	7
-2020-12-15	SOC	H	anciens	Adopté	hemicycle	2
+2020-12-15	SOC	H	anciens	Adopté	hemicycle	1
 2020-12-15	SOC	H	anciens	Rejeté	hemicycle	23
 2020-12-15	SOC	H	anciens	Tombe	hemicycle	3
 2020-12-15	SOC	H	nouveaux	Rejeté	hemicycle	19
@@ -34037,3 +34036,4 @@ date	groupes	genre	renouveau	sorts	origine	total
 2020-12-16	LREM	H	nouveaux	Adopté	hemicycle	1
 2020-12-16	NI	F	nouveaux	Rejeté	hemicycle	1
 2020-12-16	NI	H	nouveaux	Non soutenu	hemicycle	1
+2020-12-16	SOC	H	anciens	Rejeté	hemicycle	1
