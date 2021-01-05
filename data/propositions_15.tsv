@@ -407,7 +407,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2018-07-03	LR	F	nouveaux	loi	attente	1
 2018-07-03	LR	H	nouveaux	loi	attente	2
 2018-07-03	UAI	F	anciens	loi	attente	2
-2018-07-03	UAI	H	nouveaux	loi	discute	1
+2018-07-03	UAI	H	nouveaux	loi	attente	1
 2018-07-04	GDR	H	nouveaux	loi	attente	1
 2018-07-04	UAI	H	anciens	loi	attente	1
 2018-07-05	LR	H	nouveaux	loi	attente	1
@@ -971,7 +971,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-11-13	LREM	F	nouveaux	résolution	discute	1
 2019-11-13	NI	H	nouveaux	loi	attente	1
 2019-11-13	UAI	H	anciens	loi	attente	1
-2019-11-13	UAI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-11-13	UAI	H	nouveaux	loi	attente	1
 2019-11-14	LR	H	nouveaux	résolution	attente	1
 2019-11-15	LR	H	anciens	loi	attente	3
@@ -997,7 +996,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-02	LFI	F	nouveaux	résolution	attente	1
 2019-12-02	LREM	F	nouveaux	loi organique	attente	1
 2019-12-03	LR	F	nouveaux	loi	attente	1
-2019-12-03	LR	H	nouveaux	loi	attente	2
 2019-12-04	GDR	F	anciens	création d'une commission d'enquête	attente	1
 2019-12-04	LR	H	anciens	création d'une commission d'enquête	attente	1
 2019-12-04	LR	H	anciens	loi	attente	1
@@ -1005,7 +1003,6 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-05	UAI	H	anciens	création d'une commission d'enquête	attente	1
 2019-12-09	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-12-09	LR	H	anciens	résolution	attente	1
-2019-12-09	LR	H	nouveaux	loi constitutionnelle	attente	1
 2019-12-10	GDR	H	nouveaux	loi	attente	3
 2019-12-10	LFI	F	nouveaux	loi	attente	1
 2019-12-10	LR	F	nouveaux	loi	attente	1
@@ -1021,12 +1018,9 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-13	SOC	H	anciens	résolution	attente	1
 2019-12-16	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-12-16	LR	H	nouveaux	loi	attente	1
-2019-12-17	LR	H	anciens	loi	attente	2
-2019-12-17	LR	H	nouveaux	loi	attente	3
+2019-12-17	LR	H	anciens	loi	attente	1
+2019-12-17	LR	H	nouveaux	loi	attente	1
 2019-12-17	LREM	H	nouveaux	loi	attente	1
-2019-12-17	NI	F	nouveaux	loi	attente	1
-2019-12-17	UAI	F	nouveaux	loi	discute	1
-2019-12-17	UAI	H	nouveaux	loi	attente	1
 2019-12-18	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
 2019-12-18	NI	H	anciens	résolution	attente	1
 2019-12-19	SOC	H	anciens	résolution	attente	1
@@ -1039,11 +1033,403 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-24	LR	H	nouveaux	loi	attente	2
 2019-12-24	LREM	F	nouveaux	loi	attente	1
 2019-12-25	LR	F	anciens	loi	attente	1
+2019-12-26	LR	H	anciens	loi	attente	1
 2019-12-26	LR	H	nouveaux	loi	attente	1
 2019-12-26	LREM	H	nouveaux	loi	discute	1
 2019-12-26	LT	H	nouveaux	loi	attente	2
 2019-12-26	SOC	H	anciens	loi	attente	1
 2019-12-26	UAI	H	anciens	loi	attente	2
 2019-12-27	LR	F	anciens	loi	attente	1
+2019-12-27	LR	H	nouveaux	loi	attente	2
 2019-12-27	NI	F	nouveaux	loi	attente	1
+2019-12-27	UAI	F	nouveaux	loi	discute	1
 2019-12-27	UAI	H	nouveaux	loi	attente	1
+2020-01-02	UAI	H	nouveaux	loi	attente	1
+2020-01-06	LR	H	nouveaux	loi constitutionnelle	attente	1
+2020-01-07	LT	F	anciens	loi	discute	1
+2020-01-07	LT	H	anciens	loi	discute	1
+2020-01-07	LT	H	nouveaux	loi	discute	1
+2020-01-07	MODEM	H	anciens	loi	discute	1
+2020-01-14	LR	F	anciens	loi	attente	1
+2020-01-14	LR	H	nouveaux	loi	attente	1
+2020-01-16	UAI	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-01-20	LR	H	nouveaux	loi	attente	2
+2020-01-21	GDR	H	nouveaux	loi	attente	1
+2020-01-21	LFI	F	nouveaux	loi	attente	1
+2020-01-21	LR	F	nouveaux	loi	attente	1
+2020-01-21	LR	H	nouveaux	loi	attente	3
+2020-01-22	AE	H	nouveaux	loi	attente	2
+2020-01-22	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-01-22	LFI	H	nouveaux	loi	attente	1
+2020-01-22	LR	F	anciens	loi	attente	1
+2020-01-22	LR	H	anciens	loi	attente	2
+2020-01-22	LR	H	nouveaux	loi	attente	2
+2020-01-23	LFI	H	nouveaux	loi organique	attente	1
+2020-01-23	LR	H	nouveaux	loi constitutionnelle	attente	1
+2020-01-23	LREM	F	nouveaux	loi	attente	1
+2020-01-24	LFI	F	nouveaux	résolution	attente	1
+2020-01-24	MODEM	H	nouveaux	résolution	attente	1
+2020-01-27	LR	F	nouveaux	résolution	attente	1
+2020-01-27	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-01-28	LFI	F	nouveaux	loi	attente	2
+2020-01-28	LFI	H	nouveaux	loi	attente	2
+2020-01-28	LFI	H	nouveaux	loi	discute	1
+2020-01-28	LR	F	anciens	loi	attente	1
+2020-01-28	LR	H	nouveaux	loi	attente	1
+2020-01-28	LREM	F	nouveaux	résolution	attente	1
+2020-01-28	NI	F	nouveaux	loi	attente	1
+2020-01-28	UDI	H	anciens	loi	attente	2
+2020-01-29	LFI	H	nouveaux	loi	attente	1
+2020-02-03	NI	F	nouveaux	loi	attente	1
+2020-02-07	GDR	H	anciens	création d'une commission d'enquête	attente	1
+2020-02-07	LREM	F	nouveaux	résolution	attente	1
+2020-02-11	GDR	F	anciens	loi	attente	2
+2020-02-11	GDR	F	nouveaux	loi	attente	1
+2020-02-11	LR	F	anciens	loi	attente	1
+2020-02-11	LR	F	nouveaux	loi	attente	1
+2020-02-11	LR	H	anciens	loi	attente	2
+2020-02-11	LR	H	nouveaux	loi	attente	2
+2020-02-11	UDI	H	anciens	loi	attente	1
+2020-02-12	GDR	H	anciens	loi	attente	1
+2020-02-12	LR	F	nouveaux	loi	attente	3
+2020-02-12	LR	H	nouveaux	loi	attente	3
+2020-02-12	LREM	F	nouveaux	résolution	attente	1
+2020-02-12	LREM	H	nouveaux	loi	attente	2
+2020-02-17	LR	F	anciens	loi	attente	1
+2020-02-17	LR	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-02-17	LR	H	nouveaux	résolution	attente	1
+2020-02-17	NI	H	nouveaux	loi	attente	1
+2020-02-17	SOC	F	anciens	création d'une commission d'enquête	attente	1
+2020-02-18	GDR	H	anciens	création d'une commission d'enquête	attente	1
+2020-02-18	LR	H	anciens	loi	attente	4
+2020-02-18	LR	H	anciens	loi constitutionnelle	attente	1
+2020-02-18	LR	H	nouveaux	loi	attente	1
+2020-02-18	NI	F	anciens	loi	attente	1
+2020-02-18	NI	H	anciens	loi	attente	1
+2020-02-19	LR	H	anciens	loi constitutionnelle	attente	1
+2020-02-20	LR	H	anciens	résolution	attente	1
+2020-02-21	LR	H	nouveaux	loi	attente	1
+2020-02-21	LR	H	nouveaux	loi constitutionnelle	attente	1
+2020-02-26	LR	H	anciens	résolution	attente	1
+2020-02-28	SOC	H	anciens	loi organique	attente	1
+2020-03-02	LR	F	nouveaux	loi	attente	1
+2020-03-02	LR	H	nouveaux	loi	attente	1
+2020-03-02	LREM	F	nouveaux	résolution	attente	1
+2020-03-03	GDR	H	nouveaux	loi	attente	1
+2020-03-03	LR	F	nouveaux	loi	attente	1
+2020-03-03	LR	H	anciens	loi	attente	1
+2020-03-04	LR	F	anciens	loi constitutionnelle	attente	1
+2020-03-04	LR	H	anciens	création d'une commission d'enquête	attente	1
+2020-03-04	LR	H	anciens	loi	attente	2
+2020-03-04	LR	H	nouveaux	loi	attente	4
+2020-03-04	UDI	H	anciens	loi organique	attente	1
+2020-03-06	LR	H	nouveaux	loi	attente	1
+2020-03-06	LR	H	nouveaux	résolution	attente	1
+2020-03-06	NI	H	anciens	résolution	attente	1
+2020-03-06	NI	H	nouveaux	résolution	attente	1
+2020-03-10	LR	H	nouveaux	loi	attente	1
+2020-03-16	NI	H	anciens	résolution	attente	1
+2020-03-16	NI	H	nouveaux	résolution	attente	1
+2020-03-17	GDR	H	nouveaux	loi	attente	2
+2020-03-17	LREM	F	nouveaux	loi	discute	1
+2020-03-18	GDR	F	nouveaux	résolution	attente	1
+2020-03-19	LR	H	anciens	résolution	attente	1
+2020-03-19	LR	H	nouveaux	résolution	attente	1
+2020-03-20	LR	H	anciens	création d'une commission d'enquête	attente	1
+2020-03-24	LR	F	nouveaux	loi	attente	3
+2020-03-24	LR	H	anciens	loi	attente	3
+2020-03-24	LR	H	nouveaux	loi	attente	5
+2020-03-24	LREM	F	nouveaux	loi	attente	1
+2020-03-24	SOC	H	anciens	loi	attente	1
+2020-03-24	UDI	H	nouveaux	loi	attente	1
+2020-03-30	NI	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-03-30	UDI	H	anciens	résolution	attente	1
+2020-03-31	LR	F	nouveaux	résolution	attente	1
+2020-04-02	NI	H	nouveaux	loi constitutionnelle	attente	1
+2020-04-07	GDR	H	anciens	loi	attente	1
+2020-04-07	LFI	H	nouveaux	loi	attente	4
+2020-04-07	LR	F	anciens	loi	attente	1
+2020-04-07	LR	F	nouveaux	loi	attente	8
+2020-04-07	LR	H	anciens	loi	attente	5
+2020-04-07	LR	H	nouveaux	loi	attente	3
+2020-04-07	LREM	H	nouveaux	loi	attente	1
+2020-04-07	NI	F	nouveaux	loi	attente	1
+2020-04-07	SOC	F	anciens	loi	attente	1
+2020-04-07	SOC	H	anciens	loi	attente	1
+2020-04-07	SOC	H	nouveaux	loi	attente	1
+2020-04-07	UDI	H	anciens	loi	attente	1
+2020-04-08	GDR	H	anciens	création d'une commission d'enquête	attente	1
+2020-04-15	LR	H	anciens	résolution	attente	1
+2020-04-17	LFI	H	nouveaux	résolution	attente	1
+2020-04-17	LR	H	anciens	résolution	attente	1
+2020-04-20	LR	H	nouveaux	résolution	attente	1
+2020-04-20	NI	H	nouveaux	résolution	attente	1
+2020-04-21	NI	F	nouveaux	résolution	attente	1
+2020-04-22	LR	F	anciens	résolution	attente	1
+2020-04-23	GDR	H	nouveaux	résolution	attente	1
+2020-04-23	LR	H	nouveaux	résolution	attente	1
+2020-04-24	UDI	H	anciens	résolution	attente	1
+2020-04-28	GDR	H	nouveaux	loi	attente	2
+2020-04-28	LFI	F	nouveaux	loi	attente	1
+2020-04-28	LFI	H	nouveaux	résolution	attente	1
+2020-04-28	LR	F	anciens	loi	attente	3
+2020-04-28	LR	F	nouveaux	loi	attente	4
+2020-04-28	LR	H	anciens	loi	attente	18
+2020-04-28	LR	H	nouveaux	loi	attente	9
+2020-04-28	LT	F	nouveaux	loi	attente	1
+2020-04-28	NI	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-04-28	NI	F	nouveaux	loi	attente	3
+2020-04-28	NI	H	nouveaux	loi	attente	2
+2020-04-28	SOC	F	anciens	loi	attente	1
+2020-04-28	SOC	F	anciens	résolution	attente	1
+2020-04-28	SOC	H	anciens	loi	attente	2
+2020-04-28	UDI	F	nouveaux	loi	attente	1
+2020-04-28	UDI	H	anciens	loi	attente	3
+2020-04-28	UDI	H	nouveaux	loi	attente	2
+2020-04-29	AE	H	anciens	résolution	attente	1
+2020-04-29	LR	H	nouveaux	résolution	attente	2
+2020-04-29	UDI	H	anciens	résolution	attente	1
+2020-05-04	LR	H	anciens	création d'une commission d'enquête	attente	1
+2020-05-05	LR	F	nouveaux	résolution	attente	1
+2020-05-06	LR	H	nouveaux	résolution	attente	1
+2020-05-06	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-05-11	LR	H	anciens	résolution	attente	3
+2020-05-11	SOC	H	anciens	loi constitutionnelle	attente	1
+2020-05-12	LFI	F	nouveaux	loi	attente	1
+2020-05-12	LFI	H	nouveaux	loi	attente	4
+2020-05-12	LR	F	anciens	loi	attente	1
+2020-05-12	LR	F	nouveaux	loi	attente	5
+2020-05-12	LR	H	anciens	loi	attente	7
+2020-05-12	LR	H	nouveaux	loi	attente	10
+2020-05-12	LREM	H	anciens	loi	attente	1
+2020-05-12	NI	F	nouveaux	loi	attente	1
+2020-05-12	NI	H	anciens	loi	attente	1
+2020-05-12	NI	H	nouveaux	loi	attente	1
+2020-05-12	UDI	H	anciens	loi	attente	4
+2020-05-12	UDI	H	nouveaux	loi	attente	2
+2020-05-14	LR	H	anciens	résolution	attente	1
+2020-05-15	UDI	H	anciens	résolution	attente	1
+2020-05-19	LR	F	nouveaux	loi	attente	3
+2020-05-19	LR	H	anciens	loi	attente	3
+2020-05-19	LR	H	anciens	résolution	attente	2
+2020-05-19	LR	H	nouveaux	loi	attente	4
+2020-05-19	UDI	H	anciens	loi	attente	1
+2020-05-20	NI	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-05-22	LR	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-05-25	GDR	H	nouveaux	résolution	attente	1
+2020-05-26	AE	H	anciens	résolution	attente	1
+2020-05-26	GDR	H	nouveaux	loi	attente	2
+2020-05-26	LR	F	nouveaux	loi	attente	1
+2020-05-26	LR	H	anciens	loi	attente	5
+2020-05-26	LR	H	nouveaux	loi	attente	2
+2020-05-26	LREM	H	nouveaux	résolution	attente	1
+2020-05-26	NI	H	nouveaux	loi	attente	1
+2020-05-26	UDI	H	anciens	loi	attente	1
+2020-05-29	LR	H	anciens	résolution	attente	1
+2020-06-02	GDR	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-06-02	LFI	F	nouveaux	loi	attente	1
+2020-06-02	LR	H	anciens	loi	attente	2
+2020-06-02	LR	H	nouveaux	loi	attente	4
+2020-06-02	LREM	F	nouveaux	loi	attente	1
+2020-06-02	MODEM	H	nouveaux	loi	attente	1
+2020-06-02	MODEM	H	nouveaux	loi	discute	1
+2020-06-02	UDI	H	anciens	loi	attente	1
+2020-06-03	LR	F	anciens	loi organique	attente	1
+2020-06-03	UDI	H	anciens	loi constitutionnelle	attente	1
+2020-06-04	GDR	F	anciens	résolution	attente	1
+2020-06-04	LFI	F	nouveaux	résolution	discute	1
+2020-06-04	LFI	H	nouveaux	loi	discute	1
+2020-06-04	LFI	H	nouveaux	résolution	discute	1
+2020-06-04	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-06-05	LR	H	anciens	résolution	attente	1
+2020-06-09	GDR	F	anciens	création d'une commission d'enquête	attente	1
+2020-06-10	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-06-11	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-06-11	LR	F	nouveaux	loi	discute	1
+2020-06-11	LR	H	anciens	loi	attente	3
+2020-06-11	LR	H	nouveaux	loi	discute	1
+2020-06-11	UDI	H	anciens	règlement de l'Assemblée nationale	attente	1
+2020-06-15	MODEM	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-06-16	AE	H	anciens	loi	attente	1
+2020-06-16	GDR	F	anciens	loi	attente	1
+2020-06-16	GDR	H	nouveaux	résolution	attente	1
+2020-06-16	LFI	F	nouveaux	loi	attente	1
+2020-06-16	LR	F	nouveaux	loi	attente	2
+2020-06-16	LR	H	anciens	loi	attente	2
+2020-06-16	LR	H	nouveaux	loi	attente	5
+2020-06-16	LREM	F	nouveaux	loi	attente	1
+2020-06-16	SOC	H	anciens	loi	attente	2
+2020-06-16	SOC	H	nouveaux	loi	attente	1
+2020-06-17	SOC	F	anciens	résolution	attente	1
+2020-06-18	GDR	F	anciens	résolution	discute	1
+2020-06-18	GDR	H	nouveaux	loi	discute	3
+2020-06-18	GDR	H	nouveaux	résolution	attente	1
+2020-06-22	LREM	F	nouveaux	résolution	discute	1
+2020-06-22	LREM	H	nouveaux	loi	discute	1
+2020-06-23	LR	H	nouveaux	résolution européenne	attente	1
+2020-06-24	LREM	F	nouveaux	loi	discute	1
+2020-06-25	LR	H	anciens	loi	discute	1
+2020-06-25	LR	H	nouveaux	loi	discute	1
+2020-06-25	LR	H	nouveaux	résolution	attente	1
+2020-06-29	AE	F	nouveaux	règlement de l'Assemblée nationale	attente	1
+2020-06-30	AE	H	nouveaux	loi	attente	1
+2020-06-30	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-06-30	GDR	H	nouveaux	loi	attente	1
+2020-06-30	LFI	H	nouveaux	loi	attente	2
+2020-06-30	LR	F	nouveaux	loi	attente	1
+2020-06-30	LR	H	anciens	loi	attente	2
+2020-06-30	LR	H	nouveaux	loi	attente	2
+2020-06-30	LR	H	nouveaux	loi	discute	1
+2020-06-30	LR	H	nouveaux	résolution	attente	1
+2020-06-30	LREM	F	nouveaux	loi	attente	1
+2020-06-30	LREM	H	nouveaux	loi	attente	1
+2020-06-30	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-07-01	LR	H	nouveaux	résolution	attente	1
+2020-07-01	LREM	H	nouveaux	résolution européenne	attente	1
+2020-07-06	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-07-07	AE	H	anciens	loi	attente	1
+2020-07-07	LR	F	anciens	loi	attente	3
+2020-07-07	LR	H	nouveaux	loi	attente	3
+2020-07-07	MODEM	F	nouveaux	loi	attente	1
+2020-07-07	UDI	F	nouveaux	loi	attente	1
+2020-07-08	LR	H	anciens	règlement de l'Assemblée nationale	attente	1
+2020-07-08	LR	H	nouveaux	loi	attente	1
+2020-07-08	LR	H	nouveaux	résolution européenne	attente	1
+2020-07-08	UDI	H	anciens	loi	attente	1
+2020-07-09	LR	H	anciens	loi constitutionnelle	attente	1
+2020-07-09	UDI	H	anciens	résolution européenne	attente	1
+2020-07-10	GDR	H	nouveaux	loi	attente	1
+2020-07-10	LR	H	anciens	loi	attente	1
+2020-07-10	LR	H	anciens	résolution	attente	1
+2020-07-10	LR	H	nouveaux	résolution	attente	1
+2020-07-10	LREM	H	nouveaux	loi	attente	1
+2020-07-15	LFI	H	nouveaux	loi	attente	1
+2020-07-15	LR	F	anciens	loi	attente	1
+2020-07-15	LR	F	nouveaux	loi	attente	1
+2020-07-15	LR	H	anciens	création d'une commission d'enquête	attente	1
+2020-07-15	LR	H	nouveaux	loi	attente	1
+2020-07-15	MODEM	F	nouveaux	loi	attente	1
+2020-07-15	UDI	H	anciens	loi	attente	1
+2020-07-15	UDI	H	nouveaux	loi	attente	1
+2020-07-17	GDR	F	anciens	loi	attente	1
+2020-07-17	GDR	H	nouveaux	loi	attente	1
+2020-07-17	LR	H	anciens	loi constitutionnelle	attente	1
+2020-07-21	LR	H	nouveaux	résolution	attente	1
+2020-07-21	NI	H	nouveaux	loi	attente	2
+2020-07-22	LR	F	nouveaux	loi	attente	1
+2020-07-22	LR	H	anciens	loi	attente	1
+2020-07-22	LR	H	anciens	résolution	attente	1
+2020-07-22	LR	H	nouveaux	loi	attente	1
+2020-07-22	NI	F	nouveaux	loi	attente	1
+2020-07-23	GDR	H	nouveaux	loi	attente	1
+2020-07-23	NI	H	nouveaux	résolution européenne	attente	1
+2020-07-27	AE	F	nouveaux	loi	attente	1
+2020-07-27	LR	H	anciens	résolution européenne	attente	1
+2020-07-27	LR	H	nouveaux	résolution européenne	attente	1
+2020-07-27	UDI	H	anciens	résolution	attente	1
+2020-07-28	AE	H	nouveaux	loi	attente	1
+2020-07-28	LFI	H	nouveaux	loi	attente	1
+2020-07-28	LR	F	nouveaux	loi	attente	1
+2020-07-28	LR	H	nouveaux	loi	attente	1
+2020-07-28	LREM	F	nouveaux	loi	attente	1
+2020-07-28	LREM	H	nouveaux	loi	attente	1
+2020-07-28	NI	F	nouveaux	loi	attente	4
+2020-07-28	NI	H	nouveaux	loi	attente	1
+2020-07-28	UDI	H	nouveaux	loi	attente	1
+2020-07-29	UDI	H	anciens	résolution	attente	1
+2020-07-30	LR	F	anciens	résolution	attente	1
+2020-07-30	NI	F	nouveaux	loi organique	attente	1
+2020-08-03	LR	F	nouveaux	loi	attente	1
+2020-08-03	LR	H	nouveaux	loi	attente	3
+2020-08-03	NI	H	nouveaux	loi	attente	2
+2020-08-03	NI	H	nouveaux	loi constitutionnelle	attente	1
+2020-08-03	UDI	H	nouveaux	loi	attente	1
+2020-08-04	GDR	H	nouveaux	loi	attente	1
+2020-08-04	LR	H	anciens	loi	attente	1
+2020-08-05	AE	F	nouveaux	loi	attente	1
+2020-08-05	GDR	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-08-05	GDR	H	nouveaux	résolution	attente	1
+2020-08-05	LR	F	anciens	loi	attente	1
+2020-08-05	LR	H	nouveaux	loi	attente	1
+2020-08-07	LR	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-08-07	LR	H	nouveaux	résolution européenne	attente	1
+2020-08-13	LR	H	nouveaux	loi organique	attente	1
+2020-08-25	NI	F	nouveaux	loi	attente	1
+2020-09-01	UDI	H	anciens	résolution	attente	1
+2020-09-10	AE	F	nouveaux	résolution	attente	1
+2020-09-10	LR	H	nouveaux	résolution	attente	1
+2020-09-14	LR	H	anciens	règlement de l'Assemblée nationale	attente	1
+2020-09-15	AE	F	nouveaux	loi	attente	1
+2020-09-15	AE	H	nouveaux	loi	attente	1
+2020-09-15	LFI	F	nouveaux	loi	attente	1
+2020-09-15	LR	F	anciens	loi	attente	2
+2020-09-15	LR	F	nouveaux	loi	attente	3
+2020-09-15	LR	H	anciens	loi	attente	8
+2020-09-15	LR	H	nouveaux	loi	attente	3
+2020-09-15	LT	F	nouveaux	loi	attente	2
+2020-09-15	MODEM	F	nouveaux	loi	attente	1
+2020-09-15	NI	H	nouveaux	loi	attente	3
+2020-09-15	UDI	H	anciens	loi	attente	1
+2020-09-16	LFI	H	nouveaux	loi	attente	1
+2020-09-16	LREM	F	nouveaux	loi	discute	1
+2020-09-17	LR	F	anciens	résolution	attente	1
+2020-09-18	LR	F	nouveaux	loi	attente	1
+2020-09-23	LFI	H	nouveaux	loi	attente	1
+2020-09-23	LR	H	nouveaux	loi	attente	2
+2020-09-23	UDI	H	anciens	loi	attente	2
+2020-09-24	AE	F	nouveaux	résolution	attente	1
+2020-09-24	LR	H	nouveaux	loi	attente	1
+2020-09-25	LREM	H	nouveaux	loi constitutionnelle	attente	1
+2020-09-28	LREM	F	nouveaux	résolution européenne	attente	1
+2020-09-29	LFI	H	nouveaux	loi	attente	1
+2020-09-29	LR	F	nouveaux	loi	attente	1
+2020-09-29	LR	H	anciens	loi	attente	2
+2020-09-29	LR	H	nouveaux	loi	attente	1
+2020-09-29	LREM	H	nouveaux	loi	attente	1
+2020-09-29	NI	F	anciens	loi	attente	1
+2020-09-29	NI	F	nouveaux	loi	discute	1
+2020-09-29	NI	H	nouveaux	loi	attente	3
+2020-10-02	LR	H	nouveaux	résolution	attente	1
+2020-10-02	NI	H	anciens	loi	attente	1
+2020-10-06	LR	H	anciens	loi	attente	1
+2020-10-06	LR	H	anciens	résolution	attente	1
+2020-10-06	MODEM	F	nouveaux	loi	attente	1
+2020-10-06	NI	F	nouveaux	loi	attente	1
+2020-10-06	UDI	H	nouveaux	loi	attente	1
+2020-10-07	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
+2020-10-08	AE	F	nouveaux	loi	attente	1
+2020-10-08	GDR	H	nouveaux	loi	attente	1
+2020-10-08	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-10-08	LR	F	nouveaux	résolution européenne	attente	1
+2020-10-08	LREM	F	nouveaux	loi	attente	1
+2020-10-08	UDI	H	anciens	loi	attente	1
+2020-10-09	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-10-09	LR	F	nouveaux	résolution	attente	1
+2020-10-14	LR	F	nouveaux	loi	attente	3
+2020-10-14	LR	H	anciens	loi	attente	3
+2020-10-14	LR	H	anciens	résolution européenne	attente	1
+2020-10-14	LR	H	nouveaux	loi	attente	1
+2020-10-14	LR	H	nouveaux	résolution	attente	2
+2020-10-14	LREM	F	nouveaux	résolution européenne	attente	1
+2020-10-14	LREM	H	nouveaux	loi	attente	1
+2020-10-14	LT	H	anciens	résolution	attente	1
+2020-10-14	NI	F	nouveaux	loi	attente	1
+2020-10-14	SOC	F	anciens	résolution	attente	1
+2020-10-14	UDI	H	anciens	loi	attente	2
+2020-10-15	AE	H	nouveaux	loi	attente	1
+2020-10-16	LT	F	nouveaux	loi organique	attente	1
+2020-10-16	MODEM	H	anciens	résolution	attente	1
+2020-10-19	LR	H	anciens	résolution	attente	1
+2020-10-22	AE	H	nouveaux	loi	attente	1
+2020-10-23	LFI	H	nouveaux	loi	attente	1
+2020-10-23	LR	H	anciens	loi	attente	1
+2020-10-23	LR	H	nouveaux	loi	attente	2
+2020-10-23	LREM	F	nouveaux	loi	attente	1
+2020-10-23	UDI	H	anciens	loi	attente	1
+2020-10-30	AE	H	nouveaux	loi	discute	1
+2020-10-30	LR	F	anciens	création d'une commission d'enquête	attente	1
+2020-10-30	LREM	H	nouveaux	loi	attente	1
+2020-10-30	UDI	H	anciens	loi	attente	1
+2020-11-24	LR	H	anciens	loi	discute	1
+2020-12-02	LREM	H	nouveaux	loi	discute	1
+2020-12-04	LREM	F	nouveaux	loi	discute	1
