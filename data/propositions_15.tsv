@@ -1045,6 +1045,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2019-12-27	UAI	F	nouveaux	loi	discute	1
 2019-12-27	UAI	H	nouveaux	loi	attente	1
 2020-01-02	UAI	H	nouveaux	loi	attente	1
+2020-01-05	LR	H	nouveaux	résolution	attente	1
 2020-01-06	LR	H	nouveaux	loi constitutionnelle	attente	1
 2020-01-07	LT	F	anciens	loi	discute	1
 2020-01-07	LT	H	anciens	loi	discute	1
@@ -1433,3 +1434,57 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2020-11-24	LR	H	anciens	loi	discute	1
 2020-12-02	LREM	H	nouveaux	loi	discute	1
 2020-12-04	LREM	F	nouveaux	loi	discute	1
+2020-12-14	AE	F	anciens	loi	attente	2
+2020-12-14	LR	F	nouveaux	loi	attente	1
+2020-12-14	LR	H	nouveaux	loi	attente	4
+2020-12-14	LREM	F	nouveaux	loi	attente	1
+2020-12-14	MODEM	F	nouveaux	loi	attente	1
+2020-12-14	MODEM	H	nouveaux	loi	attente	2
+2020-12-17	LFI	H	nouveaux	création d'une commission d'enquête	attente	1
+2020-12-22	AE	F	anciens	loi	attente	2
+2020-12-22	LREM	F	nouveaux	loi	attente	1
+2020-12-22	LREM	H	nouveaux	résolution	attente	1
+2020-12-22	LT	F	nouveaux	loi	attente	1
+2020-12-22	LT	F	nouveaux	résolution	attente	1
+2020-12-22	MODEM	H	nouveaux	loi	attente	2
+2020-12-22	SOC	H	anciens	résolution	attente	1
+2020-12-22	UDI	H	anciens	loi	attente	1
+2020-12-23	LREM	F	nouveaux	loi	attente	1
+2020-12-24	LREM	F	nouveaux	loi	attente	1
+2020-12-24	MODEM	F	nouveaux	loi	attente	1
+2020-12-24	UDI	H	anciens	loi	attente	3
+2020-12-28	LREM	H	anciens	résolution	attente	1
+2020-12-28	LREM	H	nouveaux	résolution	attente	1
+2020-12-30	LREM	H	nouveaux	création d'une commission d'enquête	attente	1
+2021-01-05	SOC	F	anciens	loi organique	attente	1
+2021-01-05	SOC	F	nouveaux	loi	attente	1
+2021-01-05	SOC	H	anciens	loi	attente	3
+2021-01-05	SOC	H	nouveaux	loi	attente	1
+2021-01-06	MODEM	F	nouveaux	loi	attente	1
+2021-01-07	LREM	H	nouveaux	loi	attente	1
+2021-01-12	LR	H	nouveaux	résolution	attente	1
+2021-01-15	LR	H	anciens	résolution	attente	1
+2021-01-15	NI	F	nouveaux	résolution	attente	1
+2021-01-18	GDR	H	nouveaux	résolution	attente	1
+2021-01-18	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
+2021-01-19	AE	F	nouveaux	loi	attente	1
+2021-01-19	GDR	H	nouveaux	loi	attente	1
+2021-01-19	LFI	F	nouveaux	loi	attente	1
+2021-01-19	LR	F	anciens	loi	attente	1
+2021-01-19	LR	F	nouveaux	loi	attente	4
+2021-01-19	LR	H	anciens	loi	attente	1
+2021-01-19	LR	H	nouveaux	loi	attente	6
+2021-01-19	LR	H	nouveaux	résolution	attente	1
+2021-01-19	MODEM	F	nouveaux	loi	attente	1
+2021-01-19	NI	F	nouveaux	loi	attente	2
+2021-01-19	SOC	H	nouveaux	loi	attente	1
+2021-01-19	UDI	H	anciens	loi	attente	1
+2021-01-20	AE	F	nouveaux	loi organique	attente	1
+2021-01-20	LR	H	nouveaux	résolution	attente	1
+2021-01-21	AE	F	nouveaux	résolution	attente	1
+2021-01-21	LREM	H	nouveaux	résolution	attente	1
+2021-01-26	LR	H	nouveaux	loi	attente	2
+2021-01-26	NI	F	nouveaux	loi	attente	1
+2021-01-26	SOC	H	anciens	loi	attente	1
+2021-01-26	UDI	H	anciens	loi	attente	1
+2021-01-28	LREM	H	nouveaux	loi	attente	1
