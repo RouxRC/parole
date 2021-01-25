@@ -34878,7 +34878,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-01-21	LR	F	nouveaux	Indéfini	hemicycle	1
 2021-01-21	LR	F	nouveaux	Irrecevable	hemicycle	1
 2021-01-21	LR	H	anciens	Indéfini	hemicycle	10
-2021-01-21	LR	H	nouveaux	Indéfini	hemicycle	17
+2021-01-21	LR	H	nouveaux	Indéfini	hemicycle	16
+2021-01-21	LR	H	nouveaux	Irrecevable	hemicycle	1
 2021-01-21	LREM	F	nouveaux	Adopté	commissions	3
 2021-01-21	LREM	F	nouveaux	Indéfini	hemicycle	1
 2021-01-21	LREM	H	nouveaux	Indéfini	hemicycle	2
@@ -34899,17 +34900,17 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-01-22	LFI	H	nouveaux	Retiré	hemicycle	1
 2021-01-22	LR	F	nouveaux	Indéfini	hemicycle	14
 2021-01-22	LR	F	nouveaux	Irrecevable	hemicycle	1
-2021-01-22	LR	H	anciens	Indéfini	hemicycle	16
+2021-01-22	LR	H	anciens	Charge	hemicycle	1
+2021-01-22	LR	H	anciens	Indéfini	hemicycle	15
 2021-01-22	LR	H	anciens	Non soutenu	commissions	3
 2021-01-22	LR	H	anciens	Retiré	hemicycle	1
-2021-01-22	LR	H	nouveaux	Indéfini	hemicycle	96
+2021-01-22	LR	H	nouveaux	Indéfini	hemicycle	95
+2021-01-22	LR	H	nouveaux	Irrecevable	hemicycle	1
 2021-01-22	LR	H	nouveaux	Retiré	hemicycle	1
 2021-01-22	LREM	F	nouveaux	Indéfini	hemicycle	62
 2021-01-22	LREM	F	nouveaux	Retiré	hemicycle	1
 2021-01-22	LREM	H	anciens	Indéfini	hemicycle	1
-2021-01-22	LREM	H	nouveaux	Gage	hemicycle	1
-2021-01-22	LREM	H	nouveaux	Indéfini	hemicycle	45
-2021-01-22	LREM	H	nouveaux	Irrecevable	hemicycle	1
+2021-01-22	LREM	H	nouveaux	Indéfini	hemicycle	47
 2021-01-22	LREM	H	nouveaux	Retiré	commissions	2
 2021-01-22	LREM	H	nouveaux	Retiré	hemicycle	1
 2021-01-22	LT	H	anciens	Indéfini	hemicycle	15
@@ -34917,8 +34918,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-01-22	MODEM	H	nouveaux	Indéfini	hemicycle	7
 2021-01-22	NI	F	nouveaux	Indéfini	hemicycle	21
 2021-01-22	NI	F	nouveaux	Retiré	hemicycle	2
-2021-01-22	NI	H	nouveaux	Indéfini	hemicycle	54
-2021-01-22	NI	H	nouveaux	Irrecevable	hemicycle	1
+2021-01-22	NI	H	nouveaux	Indéfini	hemicycle	53
+2021-01-22	NI	H	nouveaux	Irrecevable	hemicycle	2
 2021-01-22	SOC	H	nouveaux	Indéfini	hemicycle	2
-2021-01-22	UDI	F	nouveaux	Indéfini	hemicycle	12
+2021-01-22	UDI	F	nouveaux	Indéfini	hemicycle	11
+2021-01-22	UDI	F	nouveaux	Retiré	hemicycle	1
 2021-01-23	LREM	F	nouveaux	Indéfini	hemicycle	1
