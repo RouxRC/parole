@@ -1476,17 +1476,27 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-01-19	LR	F	nouveaux	loi	attente	4
 2021-01-19	LR	H	anciens	loi	attente	1
 2021-01-19	LR	H	nouveaux	loi	attente	6
-2021-01-19	LR	H	nouveaux	résolution	attente	1
 2021-01-19	MODEM	F	nouveaux	loi	attente	1
 2021-01-19	NI	F	nouveaux	loi	attente	2
 2021-01-19	SOC	H	nouveaux	loi	attente	1
 2021-01-19	UDI	H	anciens	loi	attente	1
-2021-01-20	AE	F	nouveaux	loi organique	attente	1
 2021-01-20	LR	H	nouveaux	résolution	attente	1
-2021-01-21	AE	F	nouveaux	résolution	attente	1
 2021-01-21	LREM	H	nouveaux	résolution	attente	1
-2021-01-26	LR	H	nouveaux	loi	attente	2
+2021-01-26	LR	H	anciens	loi	attente	2
+2021-01-26	LR	H	nouveaux	loi	attente	3
+2021-01-26	LREM	F	nouveaux	loi	attente	2
+2021-01-26	LREM	H	anciens	loi	attente	1
+2021-01-26	LREM	H	nouveaux	loi	attente	2
+2021-01-26	MODEM	H	nouveaux	règlement de l'Assemblée nationale	attente	1
 2021-01-26	NI	F	nouveaux	loi	attente	1
 2021-01-26	SOC	H	anciens	loi	attente	1
 2021-01-26	UDI	H	anciens	loi	attente	1
+2021-01-27	AE	F	nouveaux	loi organique	attente	1
 2021-01-28	LREM	H	nouveaux	loi	attente	1
+2021-01-31	LR	H	nouveaux	loi	attente	1
+2021-02-01	AE	F	nouveaux	résolution	attente	1
+2021-02-01	LR	H	nouveaux	résolution	attente	1
+2021-02-03	LR	H	anciens	résolution	attente	1
+2021-02-08	AE	F	nouveaux	résolution	attente	1
+2021-02-08	LR	H	nouveaux	loi	attente	1
+2021-02-10	NI	F	nouveaux	création d'une commission d'enquête	attente	1
