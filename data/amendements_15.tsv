@@ -35982,7 +35982,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-02-19	LREM	H	nouveaux	Retiré	commissions	4
 2021-02-19	SOC	F	anciens	Rejeté	hemicycle	1
 2021-02-21	NI	F	nouveaux	Indéfini	commissions	9
-2021-02-22	NI	F	nouveaux	Indéfini	commissions	2
+2021-02-22	NI	F	nouveaux	Irrecevable	commissions	2
 2021-02-23	AE	H	nouveaux	Rejeté	hemicycle	1
 2021-02-23	LR	F	nouveaux	Indéfini	commissions	5
 2021-02-23	LR	H	anciens	Rejeté	hemicycle	1
@@ -36007,6 +36007,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-02-27	AE	H	nouveaux	Indéfini	commissions	1
 2021-02-27	GDR	F	anciens	Indéfini	commissions	1
 2021-02-27	GDR	F	nouveaux	Indéfini	commissions	4
-2021-02-27	LREM	F	nouveaux	Indéfini	commissions	5
+2021-02-27	LREM	F	nouveaux	Indéfini	commissions	4
+2021-02-27	LREM	F	nouveaux	Irrecevable	commissions	1
 2021-02-27	LREM	F	nouveaux	Retiré	commissions	2
-2021-02-27	LREM	H	nouveaux	Indéfini	commissions	9
+2021-02-27	LREM	H	nouveaux	Indéfini	commissions	5
+2021-02-27	LREM	H	nouveaux	Irrecevable	commissions	4
