@@ -36003,8 +36003,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-02-22	LR	F	nouveaux	Rejeté	hemicycle	4
 2021-02-22	LR	F	nouveaux	Tombe	commissions	2
 2021-02-22	LR	H	anciens	Adopté	commissions	1
-2021-02-22	LR	H	anciens	Non soutenu	commissions	1
-2021-02-22	LR	H	anciens	Rejeté	commissions	26
+2021-02-22	LR	H	anciens	Rejeté	commissions	27
 2021-02-22	LR	H	anciens	Tombe	commissions	7
 2021-02-22	LR	H	nouveaux	Irrecevable	commissions	7
 2021-02-22	LR	H	nouveaux	Non soutenu	hemicycle	1
@@ -36065,9 +36064,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-02-25	LR	F	nouveaux	Rejeté	hemicycle	1
 2021-02-25	LR	F	nouveaux	Tombe	commissions	3
 2021-02-25	LR	H	anciens	Irrecevable	commissions	6
+2021-02-25	LR	H	anciens	Non soutenu	commissions	1
 2021-02-25	LR	H	anciens	Rejeté	commissions	9
 2021-02-25	LR	H	anciens	Rejeté	hemicycle	14
-2021-02-25	LR	H	anciens	Tombe	commissions	5
+2021-02-25	LR	H	anciens	Tombe	commissions	4
 2021-02-25	LR	H	nouveaux	Irrecevable	commissions	5
 2021-02-25	LR	H	nouveaux	Rejeté	commissions	15
 2021-02-25	LR	H	nouveaux	Retiré	commissions	1
@@ -36089,8 +36089,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-02-25	NI	H	nouveaux	Non soutenu	hemicycle	1
 2021-02-25	NI	H	nouveaux	Rejeté	hemicycle	1
 2021-02-25	UDI	H	nouveaux	Irrecevable	commissions	2
-2021-02-25	UDI	H	nouveaux	Non soutenu	commissions	4
-2021-02-25	UDI	H	nouveaux	Rejeté	commissions	13
+2021-02-25	UDI	H	nouveaux	Non soutenu	commissions	5
+2021-02-25	UDI	H	nouveaux	Rejeté	commissions	12
 2021-02-25	UDI	H	nouveaux	Tombe	commissions	6
 2021-02-26	GDR	F	anciens	Tombe	commissions	2
 2021-02-26	LR	F	nouveaux	Adopté	commissions	2
@@ -36426,8 +36426,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-03-03	MODEM	H	nouveaux	Irrecevable	commissions	67
 2021-03-03	MODEM	H	nouveaux	Non soutenu	commissions	3
 2021-03-03	MODEM	H	nouveaux	Rejeté	commissions	77
-2021-03-03	MODEM	H	nouveaux	Retiré	commissions	29
-2021-03-03	MODEM	H	nouveaux	Tombe	commissions	20
+2021-03-03	MODEM	H	nouveaux	Retiré	commissions	31
+2021-03-03	MODEM	H	nouveaux	Tombe	commissions	18
 2021-03-03	NI	F	anciens	Irrecevable	commissions	4
 2021-03-03	NI	F	anciens	Rejeté	commissions	1
 2021-03-03	NI	F	nouveaux	Adopté	commissions	1
@@ -36465,8 +36465,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-03-03	SOC	H	nouveaux	Retiré	hemicycle	1
 2021-03-03	SOC	H	nouveaux	Tombe	commissions	13
 2021-03-03	UDI	F	nouveaux	Irrecevable	commissions	1
-2021-03-03	UDI	F	nouveaux	Non soutenu	commissions	2
-2021-03-03	UDI	F	nouveaux	Rejeté	commissions	3
+2021-03-03	UDI	F	nouveaux	Non soutenu	commissions	3
+2021-03-03	UDI	F	nouveaux	Rejeté	commissions	2
 2021-03-03	UDI	F	nouveaux	Tombe	commissions	2
 2021-03-03	UDI	H	anciens	Irrecevable	commissions	15
 2021-03-03	UDI	H	anciens	Non soutenu	commissions	9
