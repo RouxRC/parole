@@ -38387,12 +38387,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-05-07	LREM	H	anciens	Indéfini	commissions	1
 2021-05-07	LREM	H	nouveaux	Adopté	commissions	1
 2021-05-07	LREM	H	nouveaux	Adopté	hemicycle	9
-2021-05-07	LREM	H	nouveaux	Indéfini	commissions	5
+2021-05-07	LREM	H	nouveaux	Indéfini	commissions	21
 2021-05-07	LREM	H	nouveaux	Indéfini	hemicycle	26
 2021-05-07	LREM	H	nouveaux	Irrecevable	commissions	3
 2021-05-07	LREM	H	nouveaux	Irrecevable	hemicycle	4
 2021-05-07	LREM	H	nouveaux	Rejeté	hemicycle	2
-2021-05-07	LREM	H	nouveaux	Retiré	commissions	2
+2021-05-07	LREM	H	nouveaux	Retiré	commissions	3
 2021-05-07	LREM	H	nouveaux	Retiré	hemicycle	3
 2021-05-07	LT	F	anciens	Irrecevable	hemicycle	1
 2021-05-07	LT	H	anciens	Indéfini	commissions	5
@@ -38426,9 +38426,21 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-05-07	UDI	H	nouveaux	Indéfini	commissions	2
 2021-05-07	UDI	H	nouveaux	Non soutenu	hemicycle	2
 2021-05-07	UDI	H	nouveaux	Retiré	commissions	1
+2021-05-08	LREM	H	nouveaux	Indéfini	commissions	7
 2021-05-08	LREM	H	nouveaux	Irrecevable	commissions	1
 2021-05-09	LREM	H	nouveaux	Retiré	hemicycle	1
 2021-05-09	LT	H	nouveaux	Indéfini	commissions	1
 2021-05-10	LREM	H	nouveaux	Adopté	hemicycle	1
-2021-05-10	LREM	H	nouveaux	Indéfini	commissions	19
+2021-05-10	LREM	H	nouveaux	Indéfini	commissions	30
 2021-05-10	LREM	H	nouveaux	Retiré	commissions	1
+2021-05-11	LFI	H	nouveaux	Rejeté	hemicycle	1
+2021-05-11	LR	H	anciens	Rejeté	hemicycle	7
+2021-05-11	LREM	F	nouveaux	Indéfini	hemicycle	7
+2021-05-11	LREM	F	nouveaux	Irrecevable	hemicycle	2
+2021-05-11	LREM	F	nouveaux	Retiré	hemicycle	1
+2021-05-11	LREM	H	nouveaux	Indéfini	commissions	30
+2021-05-11	LT	H	anciens	Rejeté	hemicycle	1
+2021-05-11	LT	H	nouveaux	Indéfini	hemicycle	1
+2021-05-11	MODEM	H	nouveaux	Adopté	hemicycle	1
+2021-05-11	UDI	H	nouveaux	Rejeté	hemicycle	4
+2021-05-12	LFI	H	nouveaux	Rejeté	hemicycle	1
