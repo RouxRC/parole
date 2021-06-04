@@ -39300,7 +39300,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-02	NI	F	nouveaux	Indéfini	commissions	1
 2021-06-02	NI	H	nouveaux	Rejeté	commissions	1
 2021-06-02	NI	H	nouveaux	Retiré	commissions	1
-2021-06-02	SOC	F	anciens	Indéfini	commissions	4
+2021-06-02	SOC	F	anciens	Indéfini	commissions	3
+2021-06-02	SOC	F	anciens	Retiré	commissions	1
 2021-06-02	UDI	F	nouveaux	Irrecevable	commissions	4
 2021-06-02	UDI	F	nouveaux	Non soutenu	commissions	4
 2021-06-02	UDI	F	nouveaux	Rejeté	commissions	9
@@ -39314,7 +39315,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-03	LR	H	nouveaux	Indéfini	commissions	33
 2021-06-03	LR	H	nouveaux	Irrecevable	commissions	1
 2021-06-03	LREM	F	nouveaux	Indéfini	commissions	50
-2021-06-03	LREM	H	nouveaux	Indéfini	commissions	62
+2021-06-03	LREM	H	nouveaux	Indéfini	commissions	61
+2021-06-03	LREM	H	nouveaux	Retiré	commissions	1
 2021-06-03	LT	H	anciens	Indéfini	commissions	31
 2021-06-03	MODEM	F	nouveaux	Indéfini	commissions	24
 2021-06-03	MODEM	F	nouveaux	Retiré	commissions	1
