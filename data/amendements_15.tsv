@@ -39800,6 +39800,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-09	MODEM	F	nouveaux	Indéfini	commissions	5
 2021-06-09	MODEM	F	nouveaux	Irrecevable	commissions	1
 2021-06-09	MODEM	F	nouveaux	Retiré	commissions	1
+2021-06-09	NI	F	nouveaux	Indéfini	commissions	1
 2021-06-09	NI	F	nouveaux	Irrecevable	commissions	1
 2021-06-09	NI	F	nouveaux	Rejeté	hemicycle	2
 2021-06-09	SOC	F	nouveaux	Indéfini	commissions	16
@@ -39811,7 +39812,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-09	UDI	H	anciens	Indéfini	commissions	8
 2021-06-10	AE	F	anciens	Adopté	hemicycle	1
 2021-06-10	LFI	F	nouveaux	Indéfini	commissions	2
+2021-06-10	LFI	F	nouveaux	Indéfini	hemicycle	1
 2021-06-10	LFI	H	nouveaux	Indéfini	commissions	2
+2021-06-10	LFI	H	nouveaux	Indéfini	hemicycle	2
 2021-06-10	LFI	H	nouveaux	Retiré	commissions	1
 2021-06-10	LR	H	anciens	Indéfini	commissions	14
 2021-06-10	LR	H	anciens	Retiré	commissions	1
@@ -39821,6 +39824,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-10	LREM	H	anciens	Indéfini	commissions	1
 2021-06-10	LREM	H	nouveaux	Adopté	hemicycle	4
 2021-06-10	LREM	H	nouveaux	Indéfini	commissions	22
+2021-06-10	LREM	H	nouveaux	Indéfini	hemicycle	1
 2021-06-10	LREM	H	nouveaux	Retiré	hemicycle	1
 2021-06-10	LT	H	anciens	Rejeté	hemicycle	1
 2021-06-10	MODEM	F	nouveaux	Indéfini	commissions	3
@@ -39835,7 +39839,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-11	AE	H	anciens	Indéfini	commissions	18
 2021-06-11	AE	H	nouveaux	Indéfini	commissions	9
 2021-06-11	LFI	F	nouveaux	Indéfini	commissions	10
-2021-06-11	LFI	H	nouveaux	Indéfini	commissions	19
+2021-06-11	LFI	H	nouveaux	Indéfini	commissions	21
 2021-06-11	LR	F	nouveaux	Indéfini	commissions	19
 2021-06-11	LR	F	nouveaux	Irrecevable	commissions	1
 2021-06-11	LR	H	anciens	Indéfini	commissions	21
@@ -39850,6 +39854,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-11	LREM	H	nouveaux	Irrecevable	commissions	1
 2021-06-11	LREM	H	nouveaux	Retiré	commissions	1
 2021-06-11	LT	H	anciens	Indéfini	commissions	9
+2021-06-11	LT	H	anciens	Indéfini	hemicycle	8
 2021-06-11	LT	H	anciens	Irrecevable	hemicycle	1
 2021-06-11	MODEM	F	nouveaux	Indéfini	commissions	20
 2021-06-11	MODEM	H	nouveaux	Indéfini	commissions	5
@@ -39858,11 +39863,16 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-11	NI	H	nouveaux	Indéfini	commissions	3
 2021-06-11	SOC	F	anciens	Irrecevable	hemicycle	6
 2021-06-11	SOC	H	anciens	Indéfini	commissions	10
+2021-06-11	SOC	H	anciens	Indéfini	hemicycle	1
 2021-06-11	SOC	H	anciens	Retiré	commissions	1
 2021-06-11	UDI	H	anciens	Indéfini	commissions	3
 2021-06-11	UDI	H	anciens	Retiré	commissions	1
-2021-06-12	LR	F	nouveaux	Indéfini	commissions	1
-2021-06-12	LR	H	anciens	Indéfini	commissions	1
-2021-06-12	LREM	F	nouveaux	Indéfini	commissions	2
+2021-06-12	LR	F	nouveaux	Indéfini	commissions	6
+2021-06-12	LR	H	anciens	Indéfini	commissions	7
+2021-06-12	LR	H	nouveaux	Indéfini	commissions	1
+2021-06-12	LREM	F	nouveaux	Indéfini	commissions	13
+2021-06-12	LREM	H	anciens	Indéfini	commissions	5
 2021-06-12	LREM	H	nouveaux	Indéfini	commissions	1
+2021-06-12	MODEM	F	nouveaux	Indéfini	commissions	10
 2021-06-12	SOC	H	anciens	Indéfini	commissions	1
+2021-06-12	SOC	H	anciens	Indéfini	hemicycle	4
