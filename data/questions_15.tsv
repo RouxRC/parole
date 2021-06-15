@@ -31690,7 +31690,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-06-08	LREM	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
 2021-06-08	LREM	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
 2021-06-08	LREM	H	anciens	attente	0	1	Ministère de l'intérieur	1
-2021-06-08	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	5
+2021-06-08	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	4
 2021-06-08	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	3
 2021-06-08	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	1
 2021-06-08	LREM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
@@ -31703,6 +31703,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-06-08	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
 2021-06-08	LREM	H	nouveaux	attente	0	1	Secrétariat d'État auprès des ministres de l'économie, des finances et de la relance, et de la cohésion des territoires et des relations avec les collectivités territoriales, de la transition numérique et des communications électroniques	2
 2021-06-08	LREM	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de l'éducation nationale, de la jeunesse et des sports, de l'éducation prioritaire	1
+2021-06-08	LREM	H	nouveaux	retrait	0	1	Ministère de l'agriculture et de l'alimentation	1
 2021-06-08	LT	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-06-08	LT	H	anciens	attente	0	1	Ministère des solidarités et de la santé	2
 2021-06-08	LT	H	nouveaux	attente	0	1	Ministère de la culture	1
@@ -31746,3 +31747,86 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-06-08	UDI	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
 2021-06-08	UDI	H	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
 2021-06-08	UDI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	AE	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-06-15	AE	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-06-15	GDR	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-06-15	GDR	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	GDR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-06-15	GDR	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-06-15	GDR	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-06-15	GDR	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	LFI	F	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-06-15	LFI	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-06-15	LFI	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-06-15	LFI	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-06-15	LR	F	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-06-15	LR	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	LR	F	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	LR	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-06-15	LR	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2021-06-15	LR	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-06-15	LR	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	LR	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2021-06-15	LR	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	3
+2021-06-15	LR	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-06-15	LR	H	anciens	attente	0	1	Ministère de l'intérieur	2
+2021-06-15	LR	H	anciens	attente	0	1	Ministère de la transition écologique	1
+2021-06-15	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	2
+2021-06-15	LR	H	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère de la culture	1
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique	2
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	2
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	5
+2021-06-15	LR	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	LREM	F	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2021-06-15	LREM	F	anciens	attente	0	1	Ministère de l'intérieur	1
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	2
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	1
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	3
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	4
+2021-06-15	LREM	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	3
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	5
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	2
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de l'intérieur	3
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique	2
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé, de l'autonomie	1
+2021-06-15	LREM	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	LREM	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de la cohésion des territoires et des relations avec les collectivités territoriales, de la ruralité	1
+2021-06-15	LT	H	anciens	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-06-15	LT	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-06-15	MODEM	F	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-06-15	MODEM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2021-06-15	MODEM	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-06-15	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-06-15	MODEM	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2021-06-15	MODEM	H	nouveaux	attente	0	1	Ministère des armées	1
+2021-06-15	MODEM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	MODEM	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	NI	F	nouveaux	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2021-06-15	NI	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2021-06-15	NI	H	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2021-06-15	NI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	NI	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	SOC	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-06-15	SOC	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	SOC	F	nouveaux	attente	0	1	Ministère des outre-mer	1
+2021-06-15	SOC	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	SOC	F	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes, de la diversité et de l'égalité des chances	1
+2021-06-15	SOC	H	anciens	attente	0	1	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
+2021-06-15	SOC	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2021-06-15	SOC	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-06-15	UDI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-06-15	UDI	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-06-15	UDI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-06-15	UDI	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
