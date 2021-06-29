@@ -40003,19 +40003,21 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-17	LFI	H	nouveaux	Irrecevable	hemicycle	1
 2021-06-17	LFI	H	nouveaux	Rejeté	hemicycle	1
 2021-06-17	LR	F	anciens	Adopté	hemicycle	1
-2021-06-17	LR	F	anciens	Indéfini	hemicycle	4
+2021-06-17	LR	F	anciens	Indéfini	hemicycle	2
+2021-06-17	LR	F	anciens	Rejeté	hemicycle	2
 2021-06-17	LR	F	nouveaux	Adopté	hemicycle	2
-2021-06-17	LR	F	nouveaux	Indéfini	hemicycle	1
+2021-06-17	LR	F	nouveaux	Indéfini	hemicycle	2
 2021-06-17	LR	F	nouveaux	Irrecevable	hemicycle	1
 2021-06-17	LR	F	nouveaux	Non soutenu	hemicycle	3
 2021-06-17	LR	F	nouveaux	Rejeté	hemicycle	9
 2021-06-17	LR	H	anciens	Adopté	hemicycle	1
-2021-06-17	LR	H	anciens	Indéfini	hemicycle	57
+2021-06-17	LR	H	anciens	Indéfini	hemicycle	63
 2021-06-17	LR	H	anciens	Irrecevable	hemicycle	2
 2021-06-17	LR	H	anciens	Non soutenu	commissions	1
 2021-06-17	LR	H	anciens	Rejeté	hemicycle	15
 2021-06-17	LR	H	anciens	Retiré	hemicycle	5
 2021-06-17	LR	H	anciens	Tombe	hemicycle	2
+2021-06-17	LR	H	nouveaux	Indéfini	hemicycle	1
 2021-06-17	LR	H	nouveaux	Rejeté	hemicycle	3
 2021-06-17	LR	H	nouveaux	Tombe	hemicycle	1
 2021-06-17	LREM	F	nouveaux	Adopté	hemicycle	2
@@ -40026,13 +40028,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-17	LT	H	anciens	Rejeté	hemicycle	1
 2021-06-17	LT	H	anciens	Tombe	hemicycle	2
 2021-06-17	MODEM	F	nouveaux	Adopté	hemicycle	3
+2021-06-17	MODEM	H	nouveaux	Indéfini	hemicycle	1
 2021-06-17	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2021-06-17	MODEM	H	nouveaux	Rejeté	hemicycle	1
 2021-06-17	NI	F	anciens	Rejeté	hemicycle	1
 2021-06-17	NI	F	anciens	Tombe	hemicycle	3
-2021-06-17	NI	F	nouveaux	Indéfini	hemicycle	31
+2021-06-17	NI	F	nouveaux	Indéfini	hemicycle	28
 2021-06-17	NI	F	nouveaux	Irrecevable	hemicycle	2
-2021-06-17	NI	F	nouveaux	Rejeté	hemicycle	5
+2021-06-17	NI	F	nouveaux	Rejeté	hemicycle	9
 2021-06-17	NI	F	nouveaux	Retiré	hemicycle	1
 2021-06-17	SOC	F	anciens	Tombe	hemicycle	3
 2021-06-17	SOC	F	nouveaux	Adopté	hemicycle	1
@@ -40052,20 +40055,22 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-18	LFI	F	nouveaux	Rejeté	hemicycle	12
 2021-06-18	LFI	H	nouveaux	Irrecevable	hemicycle	10
 2021-06-18	LFI	H	nouveaux	Rejeté	hemicycle	12
+2021-06-18	LR	F	anciens	Indéfini	hemicycle	1
 2021-06-18	LR	F	anciens	Irrecevable	hemicycle	1
 2021-06-18	LR	F	anciens	Rejeté	hemicycle	3
 2021-06-18	LR	F	anciens	Retiré	hemicycle	1
+2021-06-18	LR	F	nouveaux	Indéfini	hemicycle	1
 2021-06-18	LR	F	nouveaux	Irrecevable	hemicycle	1
 2021-06-18	LR	F	nouveaux	Non soutenu	hemicycle	1
 2021-06-18	LR	F	nouveaux	Rejeté	hemicycle	7
 2021-06-18	LR	F	nouveaux	Retiré	hemicycle	1
-2021-06-18	LR	H	anciens	Indéfini	hemicycle	1
+2021-06-18	LR	H	anciens	Indéfini	hemicycle	4
 2021-06-18	LR	H	anciens	Irrecevable	hemicycle	2
 2021-06-18	LR	H	anciens	Non soutenu	hemicycle	1
 2021-06-18	LR	H	anciens	Rejeté	hemicycle	12
 2021-06-18	LR	H	anciens	Retiré	hemicycle	6
 2021-06-18	LR	H	anciens	Tombe	hemicycle	1
-2021-06-18	LR	H	nouveaux	Indéfini	hemicycle	13
+2021-06-18	LR	H	nouveaux	Indéfini	hemicycle	14
 2021-06-18	LR	H	nouveaux	Irrecevable	hemicycle	3
 2021-06-18	LR	H	nouveaux	Rejeté	hemicycle	23
 2021-06-18	LR	H	nouveaux	Retiré	hemicycle	4
@@ -40095,7 +40100,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-18	MODEM	H	nouveaux	Non soutenu	hemicycle	1
 2021-06-18	MODEM	H	nouveaux	Rejeté	hemicycle	3
 2021-06-18	MODEM	H	nouveaux	Retiré	hemicycle	4
-2021-06-18	NI	F	nouveaux	Indéfini	hemicycle	10
+2021-06-18	NI	F	nouveaux	Indéfini	hemicycle	15
 2021-06-18	NI	F	nouveaux	Irrecevable	hemicycle	3
 2021-06-18	NI	F	nouveaux	Non soutenu	hemicycle	6
 2021-06-18	NI	F	nouveaux	Rejeté	hemicycle	3
@@ -40118,6 +40123,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-20	LR	H	nouveaux	Rejeté	hemicycle	5
 2021-06-20	LR	H	nouveaux	Retiré	hemicycle	1
 2021-06-20	MODEM	H	nouveaux	Indéfini	hemicycle	1
+2021-06-21	AE	F	nouveaux	Indéfini	hemicycle	1
 2021-06-21	AE	H	anciens	Rejeté	hemicycle	6
 2021-06-21	AE	H	anciens	Retiré	hemicycle	7
 2021-06-21	AE	H	nouveaux	Adopté	hemicycle	5
@@ -40136,9 +40142,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-21	LR	F	nouveaux	Retiré	hemicycle	7
 2021-06-21	LR	F	nouveaux	Tombe	hemicycle	1
 2021-06-21	LR	H	anciens	Adopté	hemicycle	1
+2021-06-21	LR	H	anciens	Indéfini	hemicycle	1
 2021-06-21	LR	H	anciens	Rejeté	hemicycle	9
 2021-06-21	LR	H	anciens	Retiré	hemicycle	6
-2021-06-21	LR	H	nouveaux	Indéfini	hemicycle	5
+2021-06-21	LR	H	nouveaux	Indéfini	hemicycle	7
 2021-06-21	LR	H	nouveaux	Irrecevable	hemicycle	4
 2021-06-21	LR	H	nouveaux	Rejeté	hemicycle	21
 2021-06-21	LR	H	nouveaux	Retiré	hemicycle	3
@@ -40166,10 +40173,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-21	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2021-06-21	MODEM	H	nouveaux	Rejeté	hemicycle	6
 2021-06-21	MODEM	H	nouveaux	Retiré	hemicycle	4
-2021-06-21	NI	F	nouveaux	Indéfini	hemicycle	67
+2021-06-21	NI	F	nouveaux	Indéfini	hemicycle	74
 2021-06-21	NI	F	nouveaux	Irrecevable	hemicycle	4
 2021-06-21	NI	F	nouveaux	Non soutenu	hemicycle	13
-2021-06-21	NI	F	nouveaux	Rejeté	hemicycle	3
+2021-06-21	NI	F	nouveaux	Rejeté	hemicycle	4
 2021-06-21	NI	H	nouveaux	Non soutenu	hemicycle	4
 2021-06-21	NI	H	nouveaux	Rejeté	hemicycle	1
 2021-06-21	SOC	F	anciens	Rejeté	hemicycle	4
@@ -40185,11 +40192,11 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-21	UDI	H	anciens	Retiré	hemicycle	3
 2021-06-22	LFI	H	nouveaux	Indéfini	hemicycle	33
 2021-06-22	LFI	H	nouveaux	Irrecevable	hemicycle	1
-2021-06-22	LR	F	anciens	Indéfini	hemicycle	12
-2021-06-22	LR	F	anciens	Rejeté	hemicycle	1
-2021-06-22	LR	H	anciens	Indéfini	hemicycle	64
+2021-06-22	LR	F	anciens	Indéfini	hemicycle	11
+2021-06-22	LR	F	anciens	Rejeté	hemicycle	2
+2021-06-22	LR	H	anciens	Indéfini	hemicycle	65
 2021-06-22	LR	H	anciens	Irrecevable	hemicycle	2
-2021-06-22	LR	H	anciens	Rejeté	hemicycle	6
+2021-06-22	LR	H	anciens	Rejeté	hemicycle	8
 2021-06-22	LR	H	nouveaux	Indéfini	hemicycle	3
 2021-06-22	LR	H	nouveaux	Irrecevable	hemicycle	2
 2021-06-22	LREM	F	nouveaux	Adopté	hemicycle	3
@@ -40197,55 +40204,62 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-22	LREM	F	nouveaux	Retiré	hemicycle	2
 2021-06-22	LREM	H	nouveaux	Adopté	hemicycle	1
 2021-06-22	LREM	H	nouveaux	Rejeté	hemicycle	1
-2021-06-22	SOC	F	anciens	Indéfini	hemicycle	16
+2021-06-22	SOC	F	anciens	Indéfini	hemicycle	17
 2021-06-22	SOC	F	anciens	Rejeté	hemicycle	2
 2021-06-23	AE	F	anciens	Rejeté	hemicycle	1
 2021-06-23	LR	F	nouveaux	Indéfini	hemicycle	13
 2021-06-23	LR	F	nouveaux	Irrecevable	hemicycle	3
+2021-06-23	LR	F	nouveaux	Rejeté	hemicycle	1
 2021-06-23	LR	H	anciens	Indéfini	hemicycle	4
 2021-06-23	LR	H	anciens	Rejeté	hemicycle	2
 2021-06-23	LR	H	nouveaux	Indéfini	commissions	7
-2021-06-23	LR	H	nouveaux	Indéfini	hemicycle	42
+2021-06-23	LR	H	nouveaux	Indéfini	hemicycle	43
 2021-06-23	LR	H	nouveaux	Irrecevable	hemicycle	7
-2021-06-23	LR	H	nouveaux	Rejeté	hemicycle	2
+2021-06-23	LR	H	nouveaux	Rejeté	hemicycle	3
 2021-06-23	LREM	F	nouveaux	Adopté	hemicycle	2
 2021-06-23	LREM	F	nouveaux	Retiré	hemicycle	1
 2021-06-23	LREM	F	nouveaux	Tombe	hemicycle	1
 2021-06-23	LREM	H	nouveaux	Indéfini	commissions	5
+2021-06-23	LREM	H	nouveaux	Indéfini	hemicycle	1
 2021-06-23	LREM	H	nouveaux	Irrecevable	hemicycle	2
 2021-06-23	MODEM	H	nouveaux	Indéfini	hemicycle	1
-2021-06-23	NI	F	nouveaux	Indéfini	hemicycle	1
+2021-06-23	NI	F	nouveaux	Indéfini	hemicycle	3
 2021-06-23	NI	F	nouveaux	Irrecevable	hemicycle	17
 2021-06-23	NI	F	nouveaux	Non soutenu	hemicycle	1
 2021-06-23	NI	F	nouveaux	Rejeté	hemicycle	1
-2021-06-23	UDI	H	nouveaux	Indéfini	hemicycle	2
+2021-06-23	SOC	F	anciens	Indéfini	hemicycle	1
+2021-06-23	UDI	H	nouveaux	Indéfini	hemicycle	3
 2021-06-23	UDI	H	nouveaux	Irrecevable	hemicycle	1
 2021-06-24	AE	H	nouveaux	Indéfini	hemicycle	1
-2021-06-24	GDR	F	anciens	Indéfini	hemicycle	8
+2021-06-24	GDR	F	anciens	Indéfini	hemicycle	12
 2021-06-24	GDR	F	nouveaux	Indéfini	hemicycle	2
-2021-06-24	GDR	H	nouveaux	Indéfini	hemicycle	7
-2021-06-24	LR	F	anciens	Indéfini	hemicycle	20
+2021-06-24	GDR	H	nouveaux	Indéfini	hemicycle	10
+2021-06-24	LR	F	anciens	Indéfini	hemicycle	19
 2021-06-24	LR	F	anciens	Irrecevable	hemicycle	1
-2021-06-24	LR	F	nouveaux	Indéfini	hemicycle	83
+2021-06-24	LR	F	anciens	Rejeté	hemicycle	2
+2021-06-24	LR	F	nouveaux	Indéfini	hemicycle	85
 2021-06-24	LR	F	nouveaux	Irrecevable	hemicycle	11
 2021-06-24	LR	F	nouveaux	Retiré	hemicycle	1
-2021-06-24	LR	H	anciens	Indéfini	hemicycle	28
+2021-06-24	LR	H	anciens	Indéfini	hemicycle	24
 2021-06-24	LR	H	anciens	Irrecevable	hemicycle	4
+2021-06-24	LR	H	anciens	Rejeté	hemicycle	4
 2021-06-24	LR	H	nouveaux	Indéfini	commissions	24
-2021-06-24	LR	H	nouveaux	Indéfini	hemicycle	48
+2021-06-24	LR	H	nouveaux	Indéfini	hemicycle	50
 2021-06-24	LR	H	nouveaux	Irrecevable	hemicycle	15
+2021-06-24	LR	H	nouveaux	Rejeté	hemicycle	1
 2021-06-24	LREM	F	nouveaux	Indéfini	commissions	15
-2021-06-24	LREM	F	nouveaux	Indéfini	hemicycle	40
+2021-06-24	LREM	F	nouveaux	Indéfini	hemicycle	42
 2021-06-24	LREM	F	nouveaux	Irrecevable	hemicycle	4
+2021-06-24	LREM	F	nouveaux	Non soutenu	hemicycle	1
 2021-06-24	LREM	F	nouveaux	Retiré	hemicycle	3
 2021-06-24	LREM	H	anciens	Indéfini	hemicycle	7
-2021-06-24	LREM	H	nouveaux	Indéfini	hemicycle	39
+2021-06-24	LREM	H	nouveaux	Indéfini	hemicycle	42
 2021-06-24	LREM	H	nouveaux	Irrecevable	hemicycle	14
 2021-06-24	LREM	H	nouveaux	Rejeté	hemicycle	1
 2021-06-24	LT	F	nouveaux	Indéfini	hemicycle	1
 2021-06-24	LT	H	anciens	Indéfini	hemicycle	22
 2021-06-24	LT	H	anciens	Non soutenu	hemicycle	1
-2021-06-24	LT	H	anciens	Rejeté	hemicycle	1
+2021-06-24	LT	H	anciens	Rejeté	hemicycle	2
 2021-06-24	LT	H	nouveaux	Indéfini	hemicycle	14
 2021-06-24	LT	H	nouveaux	Irrecevable	hemicycle	1
 2021-06-24	MODEM	F	nouveaux	Indéfini	hemicycle	6
@@ -40255,19 +40269,20 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-24	MODEM	H	anciens	Irrecevable	hemicycle	9
 2021-06-24	MODEM	H	nouveaux	Indéfini	hemicycle	1
 2021-06-24	MODEM	H	nouveaux	Irrecevable	hemicycle	1
-2021-06-24	NI	F	nouveaux	Indéfini	hemicycle	74
+2021-06-24	NI	F	nouveaux	Indéfini	hemicycle	78
 2021-06-24	NI	F	nouveaux	Irrecevable	hemicycle	11
-2021-06-24	NI	F	nouveaux	Rejeté	hemicycle	3
+2021-06-24	NI	F	nouveaux	Rejeté	hemicycle	4
 2021-06-24	NI	H	nouveaux	Indéfini	commissions	25
-2021-06-24	NI	H	nouveaux	Indéfini	hemicycle	30
+2021-06-24	NI	H	nouveaux	Indéfini	hemicycle	32
 2021-06-24	NI	H	nouveaux	Irrecevable	commissions	1
 2021-06-24	NI	H	nouveaux	Irrecevable	hemicycle	7
 2021-06-24	UDI	F	nouveaux	Indéfini	commissions	7
-2021-06-24	UDI	F	nouveaux	Indéfini	hemicycle	10
+2021-06-24	UDI	F	nouveaux	Indéfini	hemicycle	11
 2021-06-24	UDI	F	nouveaux	Irrecevable	commissions	2
 2021-06-24	UDI	F	nouveaux	Irrecevable	hemicycle	2
 2021-06-24	UDI	H	anciens	Indéfini	hemicycle	3
 2021-06-24	UDI	H	anciens	Irrecevable	hemicycle	1
+2021-06-24	UDI	H	anciens	Non soutenu	hemicycle	1
 2021-06-24	UDI	H	nouveaux	Indéfini	hemicycle	8
 2021-06-25	GDR	F	anciens	Indéfini	commissions	3
 2021-06-25	GDR	F	nouveaux	Indéfini	commissions	9
@@ -40308,3 +40323,5 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-06-27	LFI	F	nouveaux	Indéfini	commissions	1
 2021-06-27	LR	H	anciens	Indéfini	commissions	1
 2021-06-27	LREM	F	nouveaux	Indéfini	commissions	4
+2021-06-28	LREM	F	nouveaux	Indéfini	hemicycle	1
+2021-06-28	MODEM	H	anciens	Indéfini	hemicycle	1
