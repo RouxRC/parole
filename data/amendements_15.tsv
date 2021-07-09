@@ -40445,10 +40445,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-02	LFI	F	nouveaux	Irrecevable	hemicycle	8
 2021-07-02	LFI	F	nouveaux	Rejeté	hemicycle	8
 2021-07-02	LFI	F	nouveaux	Retiré	hemicycle	1
-2021-07-02	LFI	H	nouveaux	Indéfini	hemicycle	1
 2021-07-02	LFI	H	nouveaux	Irrecevable	hemicycle	10
 2021-07-02	LFI	H	nouveaux	Non soutenu	hemicycle	1
-2021-07-02	LFI	H	nouveaux	Rejeté	hemicycle	31
+2021-07-02	LFI	H	nouveaux	Rejeté	hemicycle	32
 2021-07-02	LFI	H	nouveaux	Retiré	hemicycle	9
 2021-07-02	LFI	H	nouveaux	Tombe	hemicycle	5
 2021-07-02	LR	F	anciens	Non soutenu	hemicycle	1
@@ -40474,9 +40473,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-02	LREM	F	nouveaux	Tombe	hemicycle	1
 2021-07-02	LREM	H	anciens	Irrecevable	hemicycle	1
 2021-07-02	LREM	H	nouveaux	Adopté	hemicycle	5
-2021-07-02	LREM	H	nouveaux	Indéfini	hemicycle	1
 2021-07-02	LREM	H	nouveaux	Irrecevable	hemicycle	4
-2021-07-02	LREM	H	nouveaux	Non soutenu	hemicycle	6
+2021-07-02	LREM	H	nouveaux	Non soutenu	hemicycle	7
 2021-07-02	LREM	H	nouveaux	Rejeté	hemicycle	2
 2021-07-02	LREM	H	nouveaux	Retiré	hemicycle	1
 2021-07-02	LT	F	anciens	Irrecevable	hemicycle	2
