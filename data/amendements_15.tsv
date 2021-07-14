@@ -40566,6 +40566,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-07	LFI	F	nouveaux	Retiré	hemicycle	2
 2021-07-07	LFI	H	nouveaux	Irrecevable	hemicycle	3
 2021-07-07	LFI	H	nouveaux	Retiré	hemicycle	2
+2021-07-07	LR	F	nouveaux	Retiré	commissions	1
 2021-07-07	MODEM	F	nouveaux	Irrecevable	hemicycle	1
 2021-07-07	MODEM	F	nouveaux	Rejeté	hemicycle	2
 2021-07-07	NI	H	nouveaux	Irrecevable	hemicycle	6
@@ -40593,7 +40594,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-09	LREM	H	nouveaux	Adopté	commissions	1
 2021-07-09	LREM	H	nouveaux	Indéfini	commissions	2
 2021-07-09	LREM	H	nouveaux	Irrecevable	commissions	1
-2021-07-09	LREM	H	nouveaux	Retiré	commissions	1
+2021-07-09	LREM	H	nouveaux	Retiré	commissions	2
 2021-07-09	LT	H	anciens	Indéfini	commissions	5
 2021-07-09	MODEM	H	nouveaux	Indéfini	commissions	4
 2021-07-09	MODEM	H	nouveaux	Retiré	commissions	1
@@ -40606,6 +40607,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-09	UDI	H	anciens	Irrecevable	commissions	2
 2021-07-10	LFI	F	nouveaux	Indéfini	commissions	2
 2021-07-10	LREM	H	nouveaux	Adopté	commissions	5
+2021-07-10	LREM	H	nouveaux	Indéfini	commissions	13
 2021-07-10	MODEM	F	nouveaux	Indéfini	commissions	1
 2021-07-10	MODEM	F	nouveaux	Retiré	commissions	1
 2021-07-10	MODEM	H	nouveaux	Indéfini	commissions	7
@@ -40620,3 +40622,25 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-12	AE	H	nouveaux	Retiré	commissions	3
 2021-07-12	LFI	F	nouveaux	Indéfini	commissions	3
 2021-07-12	LFI	F	nouveaux	Irrecevable	commissions	2
+2021-07-12	LR	H	anciens	Indéfini	commissions	1
+2021-07-12	LREM	H	nouveaux	Indéfini	commissions	41
+2021-07-12	SOC	F	anciens	Rejeté	hemicycle	12
+2021-07-13	GDR	F	anciens	Irrecevable	hemicycle	1
+2021-07-13	GDR	F	anciens	Rejeté	hemicycle	8
+2021-07-13	GDR	H	nouveaux	Indéfini	commissions	3
+2021-07-13	GDR	H	nouveaux	Rejeté	hemicycle	4
+2021-07-13	LFI	H	nouveaux	Irrecevable	hemicycle	1
+2021-07-13	LFI	H	nouveaux	Rejeté	hemicycle	7
+2021-07-13	LR	H	anciens	Indéfini	commissions	1
+2021-07-13	LREM	H	nouveaux	Indéfini	commissions	26
+2021-07-13	LT	F	nouveaux	Non soutenu	hemicycle	5
+2021-07-13	LT	H	nouveaux	Non soutenu	hemicycle	1
+2021-07-13	MODEM	H	nouveaux	Adopté	hemicycle	1
+2021-07-13	MODEM	H	nouveaux	Indéfini	commissions	3
+2021-07-13	NI	F	nouveaux	Indéfini	hemicycle	5
+2021-07-13	NI	F	nouveaux	Irrecevable	hemicycle	6
+2021-07-13	NI	F	nouveaux	Non soutenu	hemicycle	21
+2021-07-13	NI	F	nouveaux	Rejeté	hemicycle	3
+2021-07-13	NI	H	nouveaux	Irrecevable	hemicycle	7
+2021-07-13	NI	H	nouveaux	Non soutenu	hemicycle	8
+2021-07-13	NI	H	nouveaux	Rejeté	hemicycle	1
