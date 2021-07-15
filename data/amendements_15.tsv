@@ -40585,19 +40585,22 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-08	NI	H	nouveaux	Irrecevable	hemicycle	5
 2021-07-09	GDR	H	nouveaux	Indéfini	commissions	15
 2021-07-09	GDR	H	nouveaux	Irrecevable	commissions	3
-2021-07-09	LFI	F	nouveaux	Indéfini	commissions	10
+2021-07-09	LFI	F	nouveaux	Indéfini	commissions	9
 2021-07-09	LFI	F	nouveaux	Irrecevable	commissions	3
-2021-07-09	LFI	H	nouveaux	Indéfini	commissions	9
+2021-07-09	LFI	F	nouveaux	Retiré	commissions	1
+2021-07-09	LFI	H	nouveaux	Indéfini	commissions	7
 2021-07-09	LFI	H	nouveaux	Irrecevable	commissions	2
+2021-07-09	LFI	H	nouveaux	Retiré	commissions	2
 2021-07-09	LR	H	anciens	Irrecevable	commissions	1
-2021-07-09	LREM	F	nouveaux	Indéfini	commissions	6
+2021-07-09	LREM	F	nouveaux	Indéfini	commissions	5
+2021-07-09	LREM	F	nouveaux	Retiré	commissions	1
 2021-07-09	LREM	H	nouveaux	Adopté	commissions	1
 2021-07-09	LREM	H	nouveaux	Indéfini	commissions	2
 2021-07-09	LREM	H	nouveaux	Irrecevable	commissions	1
 2021-07-09	LREM	H	nouveaux	Retiré	commissions	2
 2021-07-09	LT	H	anciens	Indéfini	commissions	5
-2021-07-09	MODEM	H	nouveaux	Indéfini	commissions	4
-2021-07-09	MODEM	H	nouveaux	Retiré	commissions	1
+2021-07-09	MODEM	H	nouveaux	Indéfini	commissions	2
+2021-07-09	MODEM	H	nouveaux	Retiré	commissions	3
 2021-07-09	NI	F	nouveaux	Irrecevable	commissions	7
 2021-07-09	NI	F	nouveaux	Non soutenu	commissions	4
 2021-07-09	NI	F	nouveaux	Tombe	commissions	9
@@ -40637,10 +40640,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-13	LT	H	nouveaux	Non soutenu	hemicycle	1
 2021-07-13	MODEM	H	nouveaux	Adopté	hemicycle	1
 2021-07-13	MODEM	H	nouveaux	Indéfini	commissions	3
-2021-07-13	NI	F	nouveaux	Indéfini	hemicycle	5
 2021-07-13	NI	F	nouveaux	Irrecevable	hemicycle	6
-2021-07-13	NI	F	nouveaux	Non soutenu	hemicycle	21
-2021-07-13	NI	F	nouveaux	Rejeté	hemicycle	3
+2021-07-13	NI	F	nouveaux	Non soutenu	hemicycle	23
+2021-07-13	NI	F	nouveaux	Rejeté	hemicycle	6
 2021-07-13	NI	H	nouveaux	Irrecevable	hemicycle	7
 2021-07-13	NI	H	nouveaux	Non soutenu	hemicycle	8
 2021-07-13	NI	H	nouveaux	Rejeté	hemicycle	1
