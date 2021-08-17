@@ -23472,7 +23472,6 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-04-21	LREM	H	anciens	retrait	5	3-6	Ministère des armées	1
 2020-04-21	LREM	H	nouveaux	attente	15	12+	Ministère de l'économie et des finances	5
 2020-04-21	LREM	H	nouveaux	attente	15	12+	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
-2020-04-21	LREM	H	nouveaux	attente	15	12+	Ministère de l'intérieur	1
 2020-04-21	LREM	H	nouveaux	attente	15	12+	Ministère de la justice	1
 2020-04-21	LREM	H	nouveaux	attente	15	12+	Ministère des solidarités et de la santé	5
 2020-04-21	LREM	H	nouveaux	attente	15	12+	Ministère du travail	2
@@ -23490,6 +23489,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2020-04-21	LREM	H	nouveaux	reponse	7	6-12	Ministère des sports	1
 2020-04-21	LREM	H	nouveaux	reponse	6	6-12	Secrétariat d'État auprès du Ministère des solidarités et de la santé	1
 2020-04-21	LREM	H	nouveaux	reponse	7	6-12	Secrétariat d'État auprès du Premier ministre, chargée de l'égalité entre les femmes et les hommes et de la lutte contre les discriminations	1
+2020-04-21	LREM	H	nouveaux	retrait	15	12+	Ministère de l'intérieur	1
 2020-04-21	LREM	H	nouveaux	retrait	12	12+	Ministère des solidarités et de la santé	1
 2020-04-21	LT	F	anciens	attente	15	12+	Ministère de l'éducation nationale et de la jeunesse	1
 2020-04-21	LT	F	nouveaux	attente	15	12+	Ministère de la transition écologique et solidaire	1
@@ -31341,7 +31341,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-04-27	LREM	H	nouveaux	attente	3	3-6	Ministère de l'Europe et des affaires étrangères	3
 2021-04-27	LREM	H	nouveaux	attente	3	3-6	Ministère de l'intérieur	1
 2021-04-27	LREM	H	nouveaux	attente	3	3-6	Ministère de la transition écologique, du logement	1
-2021-04-27	LREM	H	nouveaux	attente	3	3-6	Ministère des solidarités et de la santé	3
+2021-04-27	LREM	H	nouveaux	attente	3	3-6	Ministère des solidarités et de la santé	2
 2021-04-27	LREM	H	nouveaux	attente	3	3-6	Ministère du travail, de l'emploi et de l'insertion	1
 2021-04-27	LREM	H	nouveaux	attente	3	3-6	Secrétariat d'État auprès du Ministère de l'économie, des finances et de la relance, de l'économie sociale, solidaire et responsable	1
 2021-04-27	LREM	H	nouveaux	attente	3	3-6	Secrétariat d'État auprès du Ministère de l'Europe et des affaires étrangères, du tourisme, des Français de l'étranger et de la francophonie	1
@@ -31351,6 +31351,7 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-04-27	LREM	H	nouveaux	reponse	2	3	Ministère de l'agriculture et de l'alimentation	1
 2021-04-27	LREM	H	nouveaux	reponse	2	3	Ministère de l'économie, des finances et de la relance, des comptes publics	1
 2021-04-27	LREM	H	nouveaux	reponse	2	3	Ministère des solidarités et de la santé, de l'autonomie	1
+2021-04-27	LREM	H	nouveaux	retrait	3	3-6	Ministère des solidarités et de la santé	1
 2021-04-27	LT	F	anciens	attente	3	3-6	Ministère de l'économie, des finances et de la relance	1
 2021-04-27	LT	F	anciens	attente	3	3-6	Ministère des solidarités et de la santé	2
 2021-04-27	LT	F	anciens	reponse	2	3	Ministère de l'agriculture et de l'alimentation	1
@@ -32996,3 +32997,33 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-08-10	SOC	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
 2021-08-10	UDI	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
 2021-08-10	UDI	H	nouveaux	attente	0	1	Premier ministre, de l'égalité entre les femmes et les hommes, de la diversité et de l'égalité des chances	1
+2021-08-17	AE	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-08-17	LFI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-08-17	LR	F	anciens	attente	0	1	Ministère de la transition écologique	1
+2021-08-17	LR	F	nouveaux	attente	0	1	Ministère des armées	1
+2021-08-17	LR	F	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-08-17	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	3
+2021-08-17	LR	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2021-08-17	LR	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-08-17	LR	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-08-17	LR	H	nouveaux	attente	0	1	Ministère de la transition écologique	2
+2021-08-17	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-08-17	LR	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-08-17	LR	H	nouveaux	attente	0	1	Premier ministre, des relations avec le Parlement et de la participation citoyenne	1
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2021-08-17	LREM	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-08-17	LT	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-08-17	MODEM	F	nouveaux	attente	0	1	Secrétariat d'État auprès des ministres de l'économie, des finances et de la relance, et de la cohésion des territoires et des relations avec les collectivités territoriales, de la transition numérique et des communications électroniques	1
+2021-08-17	NI	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-08-17	SOC	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-08-17	SOC	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-08-17	SOC	H	anciens	attente	0	1	Ministère de l'intérieur	1
+2021-08-17	SOC	H	anciens	attente	0	1	Ministère de la culture	1
+2021-08-17	SOC	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-08-17	UDI	H	anciens	attente	0	1	Ministère de la transformation et de la fonction publiques	1
