@@ -40896,7 +40896,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-07-22	NI	F	nouveaux	Rejeté	hemicycle	16
 2021-07-22	NI	F	nouveaux	Retiré	hemicycle	2
 2021-07-22	SOC	F	nouveaux	Rejeté	hemicycle	4
-2021-08-31	LREM	H	nouveaux	Indéfini	commissions	5
+2021-08-31	LREM	H	nouveaux	Indéfini	commissions	4
+2021-08-31	LREM	H	nouveaux	Non soutenu	commissions	1
 2021-09-02	NI	F	nouveaux	Indéfini	commissions	3
 2021-09-03	LFI	F	nouveaux	Irrecevable	commissions	6
 2021-09-03	LFI	F	nouveaux	Irrecevable	hemicycle	5
@@ -40927,36 +40928,54 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-07	UDI	H	nouveaux	Indéfini	commissions	2
 2021-09-08	LR	H	anciens	Indéfini	commissions	6
 2021-09-09	GDR	F	anciens	Indéfini	commissions	1
-2021-09-09	LR	F	nouveaux	Indéfini	commissions	4
+2021-09-09	LR	F	nouveaux	Indéfini	commissions	1
+2021-09-09	LR	F	nouveaux	Non soutenu	commissions	3
 2021-09-09	LR	H	anciens	Indéfini	commissions	4
 2021-09-09	LR	H	anciens	Irrecevable	commissions	1
-2021-09-09	LR	H	nouveaux	Indéfini	commissions	22
+2021-09-09	LR	H	nouveaux	Indéfini	commissions	16
 2021-09-09	LR	H	nouveaux	Irrecevable	commissions	7
-2021-09-09	NI	F	nouveaux	Indéfini	commissions	60
+2021-09-09	LR	H	nouveaux	Non soutenu	commissions	1
+2021-09-09	LR	H	nouveaux	Rejeté	commissions	4
+2021-09-09	LR	H	nouveaux	Retiré	commissions	1
+2021-09-09	NI	F	nouveaux	Indéfini	commissions	50
 2021-09-09	NI	F	nouveaux	Irrecevable	commissions	10
-2021-09-09	NI	F	nouveaux	Retiré	commissions	1
-2021-09-09	SOC	F	anciens	Indéfini	commissions	22
+2021-09-09	NI	F	nouveaux	Rejeté	commissions	9
+2021-09-09	NI	F	nouveaux	Retiré	commissions	2
+2021-09-09	SOC	F	anciens	Indéfini	commissions	20
 2021-09-09	SOC	F	anciens	Irrecevable	commissions	3
+2021-09-09	SOC	F	anciens	Rejeté	commissions	1
+2021-09-09	SOC	F	anciens	Retiré	commissions	1
 2021-09-09	SOC	F	nouveaux	Indéfini	commissions	7
 2021-09-09	UDI	H	anciens	Irrecevable	commissions	1
 2021-09-09	UDI	H	nouveaux	Indéfini	commissions	2
 2021-09-10	AE	F	nouveaux	Indéfini	commissions	4
 2021-09-10	AE	H	nouveaux	Indéfini	commissions	4
-2021-09-10	GDR	F	anciens	Indéfini	commissions	6
-2021-09-10	LFI	F	nouveaux	Indéfini	commissions	8
+2021-09-10	GDR	F	anciens	Indéfini	commissions	4
+2021-09-10	GDR	F	anciens	Non soutenu	commissions	2
+2021-09-10	LFI	F	nouveaux	Indéfini	commissions	7
 2021-09-10	LFI	F	nouveaux	Irrecevable	commissions	7
-2021-09-10	LFI	H	nouveaux	Indéfini	commissions	8
+2021-09-10	LFI	F	nouveaux	Rejeté	commissions	1
+2021-09-10	LFI	H	nouveaux	Indéfini	commissions	7
 2021-09-10	LFI	H	nouveaux	Irrecevable	commissions	8
-2021-09-10	LR	H	anciens	Indéfini	commissions	15
+2021-09-10	LFI	H	nouveaux	Rejeté	commissions	1
+2021-09-10	LR	H	anciens	Indéfini	commissions	12
 2021-09-10	LR	H	anciens	Irrecevable	commissions	2
-2021-09-10	LR	H	nouveaux	Indéfini	commissions	15
-2021-09-10	LREM	F	nouveaux	Indéfini	commissions	13
-2021-09-10	LREM	H	nouveaux	Indéfini	commissions	17
+2021-09-10	LR	H	anciens	Non soutenu	commissions	3
+2021-09-10	LR	H	nouveaux	Indéfini	commissions	14
+2021-09-10	LR	H	nouveaux	Rejeté	commissions	1
+2021-09-10	LREM	F	nouveaux	Indéfini	commissions	12
+2021-09-10	LREM	F	nouveaux	Rejeté	commissions	1
+2021-09-10	LREM	H	nouveaux	Indéfini	commissions	15
 2021-09-10	LREM	H	nouveaux	Irrecevable	commissions	1
-2021-09-10	LT	H	anciens	Indéfini	commissions	3
+2021-09-10	LREM	H	nouveaux	Retiré	commissions	2
+2021-09-10	LT	H	anciens	Indéfini	commissions	1
+2021-09-10	LT	H	anciens	Rejeté	commissions	2
 2021-09-10	LT	H	nouveaux	Indéfini	commissions	2
 2021-09-10	LT	H	nouveaux	Irrecevable	commissions	2
 2021-09-10	MODEM	F	nouveaux	Indéfini	commissions	2
 2021-09-10	NI	F	nouveaux	Indéfini	commissions	2
-2021-09-10	NI	H	nouveaux	Indéfini	commissions	8
+2021-09-10	NI	H	nouveaux	Indéfini	commissions	2
 2021-09-10	NI	H	nouveaux	Irrecevable	commissions	1
+2021-09-10	NI	H	nouveaux	Non soutenu	commissions	1
+2021-09-10	NI	H	nouveaux	Rejeté	commissions	2
+2021-09-10	NI	H	nouveaux	Retiré	commissions	3
