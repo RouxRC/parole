@@ -41123,6 +41123,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-24	LFI	H	nouveaux	Indéfini	commissions	16
 2021-09-24	LFI	H	nouveaux	Indéfini	hemicycle	10
 2021-09-24	LFI	H	nouveaux	Irrecevable	commissions	6
+2021-09-24	LFI	H	nouveaux	Retiré	hemicycle	1
 2021-09-24	LR	F	nouveaux	Indéfini	hemicycle	6
 2021-09-24	LR	H	anciens	Indéfini	commissions	14
 2021-09-24	LR	H	anciens	Indéfini	hemicycle	6
@@ -41140,6 +41141,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-24	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2021-09-24	NI	F	nouveaux	Indéfini	commissions	3
 2021-09-24	NI	F	nouveaux	Indéfini	hemicycle	5
+2021-09-24	NI	F	nouveaux	Retiré	commissions	1
 2021-09-24	NI	H	nouveaux	Indéfini	commissions	17
 2021-09-24	NI	H	nouveaux	Indéfini	hemicycle	4
 2021-09-24	SOC	H	nouveaux	Indéfini	hemicycle	14
@@ -41157,5 +41159,5 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-25	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2021-09-25	NI	F	nouveaux	Indéfini	commissions	20
 2021-09-25	NI	H	nouveaux	Indéfini	commissions	3
-2021-09-25	NI	H	nouveaux	Retiré	commissions	3
+2021-09-25	NI	H	nouveaux	Retiré	commissions	4
 2021-09-25	UDI	F	nouveaux	Indéfini	hemicycle	11
