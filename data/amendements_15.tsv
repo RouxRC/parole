@@ -41223,6 +41223,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-30	AE	F	nouveaux	Indéfini	commissions	35
 2021-09-30	AE	F	nouveaux	Retiré	commissions	1
 2021-09-30	AE	H	nouveaux	Indéfini	commissions	5
+2021-09-30	GDR	F	anciens	Indéfini	hemicycle	2
 2021-09-30	GDR	H	anciens	Indéfini	commissions	6
 2021-09-30	GDR	H	nouveaux	Indéfini	commissions	6
 2021-09-30	LFI	F	nouveaux	Indéfini	commissions	30
@@ -41232,10 +41233,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-30	LR	F	nouveaux	Indéfini	commissions	41
 2021-09-30	LR	H	anciens	Indéfini	commissions	27
 2021-09-30	LR	H	anciens	Retiré	commissions	2
-2021-09-30	LR	H	nouveaux	Indéfini	commissions	54
+2021-09-30	LR	H	nouveaux	Indéfini	commissions	53
+2021-09-30	LR	H	nouveaux	Irrecevable	commissions	1
 2021-09-30	LREM	F	nouveaux	Indéfini	commissions	35
 2021-09-30	LREM	H	anciens	Indéfini	commissions	2
 2021-09-30	LREM	H	nouveaux	Indéfini	commissions	50
+2021-09-30	LREM	H	nouveaux	Indéfini	hemicycle	4
 2021-09-30	LT	F	anciens	Indéfini	commissions	19
 2021-09-30	LT	F	nouveaux	Indéfini	commissions	8
 2021-09-30	LT	H	anciens	Indéfini	commissions	82
@@ -41248,6 +41251,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-30	MODEM	H	nouveaux	Irrecevable	commissions	1
 2021-09-30	MODEM	H	nouveaux	Retiré	commissions	1
 2021-09-30	NI	F	nouveaux	Indéfini	commissions	21
+2021-09-30	NI	F	nouveaux	Indéfini	hemicycle	15
 2021-09-30	NI	H	nouveaux	Indéfini	commissions	24
 2021-09-30	SOC	F	anciens	Indéfini	commissions	17
 2021-09-30	SOC	F	nouveaux	Indéfini	commissions	9
@@ -41255,3 +41259,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-09-30	SOC	H	nouveaux	Indéfini	commissions	2
 2021-09-30	UDI	H	anciens	Indéfini	commissions	27
 2021-09-30	UDI	H	nouveaux	Indéfini	commissions	6
+2021-10-01	AE	H	nouveaux	Indéfini	hemicycle	1
+2021-10-01	GDR	F	anciens	Indéfini	hemicycle	1
+2021-10-01	LFI	H	nouveaux	Indéfini	hemicycle	17
+2021-10-01	LR	H	anciens	Indéfini	hemicycle	10
+2021-10-01	LR	H	anciens	Irrecevable	hemicycle	1
+2021-10-01	LR	H	nouveaux	Indéfini	hemicycle	1
+2021-10-01	LREM	F	nouveaux	Indéfini	hemicycle	3
+2021-10-01	MODEM	H	nouveaux	Indéfini	hemicycle	4
+2021-10-01	NI	F	nouveaux	Indéfini	hemicycle	9
+2021-10-01	NI	H	nouveaux	Indéfini	hemicycle	9
+2021-10-01	SOC	F	nouveaux	Indéfini	hemicycle	11
