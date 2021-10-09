@@ -41423,7 +41423,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-10-04	GDR	H	nouveaux	Rejeté	hemicycle	1
 2021-10-04	LFI	F	nouveaux	Irrecevable	hemicycle	2
 2021-10-04	LFI	F	nouveaux	Rejeté	hemicycle	1
-2021-10-04	LR	F	anciens	Indéfini	hemicycle	44
+2021-10-04	LR	F	anciens	Indéfini	hemicycle	43
+2021-10-04	LR	F	anciens	Irrecevable	hemicycle	1
 2021-10-04	LR	F	nouveaux	Indéfini	hemicycle	20
 2021-10-04	LR	H	anciens	Indéfini	hemicycle	4
 2021-10-04	LR	H	nouveaux	Indéfini	hemicycle	105
@@ -41480,7 +41481,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-10-06	NI	F	nouveaux	Indéfini	hemicycle	9
 2021-10-06	NI	H	nouveaux	Indéfini	hemicycle	28
 2021-10-06	SOC	F	anciens	Indéfini	hemicycle	16
-2021-10-06	SOC	F	nouveaux	Indéfini	hemicycle	2
+2021-10-06	SOC	F	nouveaux	Retiré	hemicycle	2
 2021-10-06	SOC	H	anciens	Indéfini	hemicycle	21
 2021-10-06	SOC	H	nouveaux	Indéfini	hemicycle	3
 2021-10-06	UDI	H	anciens	Indéfini	hemicycle	7
@@ -41496,8 +41497,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-10-07	LFI	F	nouveaux	Indéfini	hemicycle	25
 2021-10-07	LFI	H	nouveaux	Indéfini	hemicycle	26
 2021-10-07	LR	F	anciens	Indéfini	hemicycle	27
-2021-10-07	LR	F	nouveaux	Indéfini	hemicycle	99
-2021-10-07	LR	F	nouveaux	Irrecevable	hemicycle	2
+2021-10-07	LR	F	nouveaux	Indéfini	hemicycle	98
+2021-10-07	LR	F	nouveaux	Irrecevable	hemicycle	3
 2021-10-07	LR	F	nouveaux	Retiré	hemicycle	1
 2021-10-07	LR	H	anciens	Indéfini	hemicycle	46
 2021-10-07	LR	H	anciens	Rejeté	hemicycle	1
@@ -41512,13 +41513,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-10-07	LT	F	anciens	Indéfini	hemicycle	3
 2021-10-07	LT	F	nouveaux	Indéfini	hemicycle	3
 2021-10-07	LT	H	anciens	Indéfini	commissions	1
-2021-10-07	LT	H	anciens	Indéfini	hemicycle	92
+2021-10-07	LT	H	anciens	Indéfini	hemicycle	91
+2021-10-07	LT	H	anciens	Irrecevable	hemicycle	1
 2021-10-07	LT	H	anciens	Retiré	hemicycle	2
 2021-10-07	LT	H	nouveaux	Indéfini	hemicycle	17
 2021-10-07	LT	H	nouveaux	Retiré	hemicycle	2
 2021-10-07	MODEM	F	nouveaux	Indéfini	hemicycle	18
 2021-10-07	MODEM	H	anciens	Indéfini	hemicycle	52
-2021-10-07	MODEM	H	nouveaux	Indéfini	hemicycle	48
+2021-10-07	MODEM	H	nouveaux	Indéfini	hemicycle	47
+2021-10-07	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2021-10-07	MODEM	H	nouveaux	Retiré	hemicycle	1
 2021-10-07	NI	F	anciens	Indéfini	hemicycle	1
 2021-10-07	NI	F	nouveaux	Indéfini	hemicycle	59
