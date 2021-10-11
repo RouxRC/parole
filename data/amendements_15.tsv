@@ -41511,8 +41511,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-10-07	LR	F	nouveaux	Retiré	hemicycle	1
 2021-10-07	LR	H	anciens	Indéfini	hemicycle	46
 2021-10-07	LR	H	anciens	Rejeté	hemicycle	1
-2021-10-07	LR	H	nouveaux	Indéfini	hemicycle	105
-2021-10-07	LR	H	nouveaux	Irrecevable	hemicycle	3
+2021-10-07	LR	H	nouveaux	Indéfini	hemicycle	104
+2021-10-07	LR	H	nouveaux	Irrecevable	hemicycle	4
 2021-10-07	LREM	F	nouveaux	Indéfini	hemicycle	70
 2021-10-07	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2021-10-07	LREM	F	nouveaux	Retiré	hemicycle	2
@@ -41597,4 +41597,5 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-10-09	MODEM	H	nouveaux	Indéfini	commissions	21
 2021-10-09	MODEM	H	nouveaux	Retiré	commissions	1
 2021-10-09	NI	F	nouveaux	Indéfini	commissions	4
-2021-10-09	NI	H	nouveaux	Indéfini	commissions	16
+2021-10-09	NI	H	nouveaux	Indéfini	commissions	14
+2021-10-09	NI	H	nouveaux	Irrecevable	commissions	2
