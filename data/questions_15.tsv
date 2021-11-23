@@ -34198,9 +34198,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-10-19	SOC	F	nouveaux	attente	1	2	Ministère des solidarités et de la santé	1
 2021-10-19	SOC	H	anciens	attente	1	2	Ministère de l'économie, des finances et de la relance, des comptes publics	1
 2021-10-19	SOC	H	anciens	attente	1	2	Ministère de la cohésion des territoires et des relations avec les collectivités territoriales	1
-2021-10-19	SOC	H	anciens	attente	1	2	Ministère de la transition écologique	2
+2021-10-19	SOC	H	anciens	attente	1	2	Ministère de la transition écologique	1
 2021-10-19	SOC	H	anciens	attente	1	2	Ministère des solidarités et de la santé	5
 2021-10-19	SOC	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	1
+2021-10-19	SOC	H	anciens	retrait	1	2	Ministère de la transition écologique	1
 2021-10-19	SOC	H	nouveaux	attente	1	2	Ministère des solidarités et de la santé	1
 2021-10-19	UDI	H	anciens	attente	1	2	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
 2021-10-19	UDI	H	anciens	reponse	0	1	Ministère des solidarités et de la santé	1
@@ -34603,3 +34604,98 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-11-16	UDI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
 2021-11-16	UDI	H	nouveaux	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
 2021-11-16	UDI	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de la cohésion des territoires et des relations avec les collectivités territoriales, de la ruralité	1
+2021-11-23	AE	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-11-23	AE	F	nouveaux	attente	0	1	Ministère des armées, de la mémoire et des anciens combattants	1
+2021-11-23	AE	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-11-23	AE	H	nouveaux	attente	0	1	Ministère des armées	1
+2021-11-23	AE	H	nouveaux	attente	0	1	Ministère des armées, de la mémoire et des anciens combattants	2
+2021-11-23	LFI	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-11-23	LFI	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-11-23	LFI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	2
+2021-11-23	LFI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, de l'industrie	1
+2021-11-23	LFI	H	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2021-11-23	LFI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé, de l'autonomie	1
+2021-11-23	LR	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance, des comptes publics	1
+2021-11-23	LR	F	anciens	attente	0	1	Ministère de la transition écologique, du logement	1
+2021-11-23	LR	F	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports, des sports	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère de la transition écologique, du logement	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère des outre-mer	1
+2021-11-23	LR	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	4
+2021-11-23	LR	F	nouveaux	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère de la justice	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère de la transition écologique, du logement	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère des armées, de la mémoire et des anciens combattants	1
+2021-11-23	LR	H	anciens	attente	0	1	Ministère des solidarités et de la santé	4
+2021-11-23	LR	H	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	2
+2021-11-23	LR	H	anciens	attente	0	1	Premier ministre	1
+2021-11-23	LR	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	LR	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	1
+2021-11-23	LR	H	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-11-23	LR	H	nouveaux	attente	0	1	Ministère de la justice	1
+2021-11-23	LR	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	7
+2021-11-23	LR	H	nouveaux	attente	0	1	Premier ministre	2
+2021-11-23	LR	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère du travail, de l'emploi et de l'insertion, des retraites et de la santé au travail	2
+2021-11-23	LR	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	2
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de l'Europe et des affaires étrangères	2
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de la culture	1
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère de la transition écologique	2
+2021-11-23	LREM	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2021-11-23	LREM	F	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère des solidarités et de la santé, de l'enfance et des familles	2
+2021-11-23	LREM	F	nouveaux	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2021-11-23	LREM	H	anciens	attente	0	1	Ministère de la justice	1
+2021-11-23	LREM	H	anciens	attente	0	1	Ministère de la transition écologique	1
+2021-11-23	LREM	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des comptes publics	1
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	2
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère de l'intérieur	2
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère des armées	1
+2021-11-23	LREM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	4
+2021-11-23	LREM	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Ministère de l'Europe et des affaires étrangères, des affaires européennes	1
+2021-11-23	LREM	H	nouveaux	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2021-11-23	LT	H	anciens	attente	0	1	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
+2021-11-23	LT	H	anciens	attente	0	1	Premier ministre	1
+2021-11-23	LT	H	nouveaux	attente	0	1	Ministère de la culture	1
+2021-11-23	LT	H	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-11-23	MODEM	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance, des petites et moyennes entreprises	2
+2021-11-23	MODEM	H	nouveaux	attente	0	1	Ministère de l'intérieur	1
+2021-11-23	MODEM	H	nouveaux	attente	0	1	Ministère de la culture	1
+2021-11-23	MODEM	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	2
+2021-11-23	NI	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-11-23	NI	F	nouveaux	attente	0	1	Ministère de la culture	1
+2021-11-23	NI	F	nouveaux	attente	0	1	Ministère des armées, de la mémoire et des anciens combattants	2
+2021-11-23	SOC	F	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance, de l'industrie	1
+2021-11-23	SOC	F	anciens	attente	0	1	Ministère des solidarités et de la santé	2
+2021-11-23	SOC	F	anciens	attente	0	1	Ministère du travail, de l'emploi et de l'insertion	1
+2021-11-23	SOC	F	nouveaux	attente	0	1	Ministère de la culture	1
+2021-11-23	SOC	F	nouveaux	attente	0	1	Ministère de la transition écologique	1
+2021-11-23	SOC	F	nouveaux	attente	0	1	Ministère de la transition écologique, des transports	1
+2021-11-23	SOC	F	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2021-11-23	SOC	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	SOC	H	anciens	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-11-23	SOC	H	anciens	attente	0	1	Ministère de la transition écologique	1
+2021-11-23	SOC	H	anciens	attente	0	1	Ministère des solidarités et de la santé	1
+2021-11-23	SOC	H	nouveaux	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	SOC	H	nouveaux	attente	0	1	Ministère des armées	1
+2021-11-23	SOC	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	1
+2021-11-23	UDI	F	nouveaux	attente	0	1	Ministère de l'éducation nationale, de la jeunesse et des sports	1
+2021-11-23	UDI	H	anciens	attente	0	1	Ministère de l'agriculture et de l'alimentation	1
+2021-11-23	UDI	H	anciens	attente	0	1	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
+2021-11-23	UDI	H	nouveaux	attente	0	1	Ministère de l'économie, des finances et de la relance	1
+2021-11-23	UDI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé	3
+2021-11-23	UDI	H	nouveaux	attente	0	1	Ministère des solidarités et de la santé, de l'autonomie	1
+2021-11-23	UDI	H	nouveaux	attente	0	1	Secrétariat d'État auprès des ministres de l'économie, des finances et de la relance, et de la cohésion des territoires et des relations avec les collectivités territoriales, de la transition numérique et des communications électroniques	2
