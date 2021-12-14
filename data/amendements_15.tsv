@@ -44846,9 +44846,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-08	MODEM	F	nouveaux	Adopté	hemicycle	1
 2021-12-08	MODEM	F	nouveaux	Indéfini	hemicycle	1
 2021-12-08	MODEM	H	nouveaux	Adopté	hemicycle	4
-2021-12-08	NI	F	nouveaux	Indéfini	hemicycle	2
 2021-12-08	NI	F	nouveaux	Irrecevable	hemicycle	10
-2021-12-08	NI	F	nouveaux	Non soutenu	hemicycle	19
+2021-12-08	NI	F	nouveaux	Non soutenu	hemicycle	21
 2021-12-08	NI	F	nouveaux	Rejeté	hemicycle	23
 2021-12-08	NI	H	nouveaux	Irrecevable	hemicycle	14
 2021-12-08	NI	H	nouveaux	Non soutenu	hemicycle	5
@@ -44893,8 +44892,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-09	LR	H	nouveaux	Non soutenu	hemicycle	2
 2021-12-09	LR	H	nouveaux	Rejeté	hemicycle	1
 2021-12-09	LREM	F	nouveaux	Adopté	hemicycle	3
-2021-12-09	LREM	F	nouveaux	Indéfini	commissions	3
-2021-12-09	LREM	F	nouveaux	Irrecevable	commissions	1
+2021-12-09	LREM	F	nouveaux	Indéfini	commissions	2
+2021-12-09	LREM	F	nouveaux	Irrecevable	commissions	2
 2021-12-09	LREM	F	nouveaux	Irrecevable	hemicycle	17
 2021-12-09	LREM	F	nouveaux	Non soutenu	hemicycle	1
 2021-12-09	LREM	H	anciens	Retiré	hemicycle	1
@@ -44920,9 +44919,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-09	MODEM	H	nouveaux	Rejeté	hemicycle	1
 2021-12-09	MODEM	H	nouveaux	Retiré	hemicycle	2
 2021-12-09	NI	F	nouveaux	Non soutenu	hemicycle	16
-2021-12-09	NI	H	nouveaux	Indéfini	hemicycle	5
 2021-12-09	NI	H	nouveaux	Irrecevable	hemicycle	7
-2021-12-09	NI	H	nouveaux	Non soutenu	hemicycle	6
+2021-12-09	NI	H	nouveaux	Non soutenu	hemicycle	11
 2021-12-09	SOC	F	anciens	Irrecevable	hemicycle	6
 2021-12-09	SOC	F	anciens	Non soutenu	hemicycle	1
 2021-12-09	SOC	F	anciens	Rejeté	hemicycle	2
@@ -44953,7 +44951,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-10	LT	H	nouveaux	Adopté	hemicycle	1
 2021-12-10	LT	H	nouveaux	Irrecevable	hemicycle	2
 2021-12-10	MODEM	H	anciens	Adopté	hemicycle	1
-2021-12-10	MODEM	H	nouveaux	Indéfini	commissions	6
+2021-12-10	MODEM	H	nouveaux	Indéfini	commissions	7
 2021-12-10	MODEM	H	nouveaux	Irrecevable	commissions	1
 2021-12-10	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2021-12-10	MODEM	H	nouveaux	Retiré	commissions	1
@@ -44962,3 +44960,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-10	SOC	H	anciens	Irrecevable	commissions	1
 2021-12-10	SOC	H	nouveaux	Indéfini	commissions	5
 2021-12-10	SOC	H	nouveaux	Irrecevable	commissions	1
+2021-12-12	LREM	F	nouveaux	Indéfini	commissions	1
+2021-12-13	AE	F	anciens	Indéfini	hemicycle	2
+2021-12-13	LR	H	nouveaux	Indéfini	hemicycle	2
+2021-12-13	LREM	F	nouveaux	Indéfini	commissions	6
+2021-12-13	MODEM	H	nouveaux	Indéfini	commissions	2
