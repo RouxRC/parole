@@ -44988,3 +44988,42 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-16	MODEM	F	nouveaux	Adopté	hemicycle	5
 2021-12-16	MODEM	F	nouveaux	Retiré	hemicycle	1
 2021-12-16	MODEM	H	nouveaux	Non soutenu	hemicycle	2
+2021-12-28	LFI	F	nouveaux	Irrecevable	commissions	7
+2021-12-28	LFI	F	nouveaux	Non soutenu	commissions	2
+2021-12-28	LFI	F	nouveaux	Rejeté	commissions	35
+2021-12-28	LFI	H	nouveaux	Irrecevable	commissions	1
+2021-12-28	LFI	H	nouveaux	Rejeté	commissions	12
+2021-12-28	LR	H	nouveaux	Rejeté	commissions	4
+2021-12-28	LREM	F	nouveaux	Tombe	commissions	1
+2021-12-28	LREM	H	nouveaux	Irrecevable	commissions	1
+2021-12-28	LREM	H	nouveaux	Rejeté	commissions	2
+2021-12-28	MODEM	H	nouveaux	Non soutenu	commissions	1
+2021-12-28	NI	F	nouveaux	Non soutenu	commissions	33
+2021-12-28	NI	H	nouveaux	Non soutenu	commissions	5
+2021-12-29	GDR	H	anciens	Non soutenu	commissions	1
+2021-12-29	LR	F	nouveaux	Non soutenu	commissions	6
+2021-12-29	LR	H	anciens	Adopté	commissions	1
+2021-12-29	LR	H	anciens	Non soutenu	commissions	2
+2021-12-29	LR	H	anciens	Rejeté	commissions	5
+2021-12-29	LR	H	anciens	Retiré	commissions	1
+2021-12-29	LR	H	anciens	Tombe	commissions	1
+2021-12-29	LREM	F	nouveaux	Adopté	commissions	1
+2021-12-29	LREM	F	nouveaux	Irrecevable	commissions	1
+2021-12-29	LREM	H	nouveaux	Adopté	commissions	18
+2021-12-29	LREM	H	nouveaux	Non soutenu	commissions	1
+2021-12-29	LREM	H	nouveaux	Rejeté	commissions	6
+2021-12-29	LREM	H	nouveaux	Retiré	commissions	5
+2021-12-29	LT	H	anciens	Non soutenu	commissions	1
+2021-12-29	LT	H	anciens	Rejeté	commissions	19
+2021-12-29	MODEM	F	nouveaux	Adopté	commissions	1
+2021-12-29	NI	F	nouveaux	Non soutenu	commissions	14
+2021-12-29	NI	F	nouveaux	Retiré	commissions	3
+2021-12-29	NI	H	nouveaux	Non soutenu	commissions	39
+2021-12-29	SOC	F	anciens	Adopté	commissions	1
+2021-12-29	SOC	F	anciens	Irrecevable	commissions	4
+2021-12-29	SOC	F	anciens	Rejeté	commissions	15
+2021-12-29	SOC	F	anciens	Retiré	commissions	3
+2021-12-29	SOC	H	nouveaux	Non soutenu	commissions	2
+2021-12-29	SOC	H	nouveaux	Tombe	commissions	1
+2021-12-29	UDI	H	anciens	Non soutenu	commissions	5
+2021-12-29	UDI	H	nouveaux	Non soutenu	commissions	1
