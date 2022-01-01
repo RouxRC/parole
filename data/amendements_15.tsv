@@ -44988,6 +44988,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-16	MODEM	F	nouveaux	Adopté	hemicycle	5
 2021-12-16	MODEM	F	nouveaux	Retiré	hemicycle	1
 2021-12-16	MODEM	H	nouveaux	Non soutenu	hemicycle	2
+2021-12-16	UDI	F	nouveaux	Indéfini	commissions	1
+2021-12-27	LR	H	nouveaux	Indéfini	commissions	3
 2021-12-28	LFI	F	nouveaux	Irrecevable	commissions	7
 2021-12-28	LFI	F	nouveaux	Non soutenu	commissions	2
 2021-12-28	LFI	F	nouveaux	Rejeté	commissions	35
@@ -45027,3 +45029,53 @@ date	groupes	genre	renouveau	sorts	origine	total
 2021-12-29	SOC	H	nouveaux	Tombe	commissions	1
 2021-12-29	UDI	H	anciens	Non soutenu	commissions	5
 2021-12-29	UDI	H	nouveaux	Non soutenu	commissions	1
+2021-12-30	AE	H	anciens	Indéfini	hemicycle	1
+2021-12-30	GDR	H	nouveaux	Indéfini	hemicycle	18
+2021-12-30	LFI	F	nouveaux	Indéfini	hemicycle	23
+2021-12-30	LFI	H	nouveaux	Indéfini	commissions	2
+2021-12-30	LFI	H	nouveaux	Indéfini	hemicycle	15
+2021-12-30	LR	F	anciens	Indéfini	hemicycle	1
+2021-12-30	LR	F	nouveaux	Indéfini	hemicycle	35
+2021-12-30	LR	H	anciens	Indéfini	commissions	2
+2021-12-30	LR	H	anciens	Indéfini	hemicycle	49
+2021-12-30	LR	H	nouveaux	Indéfini	commissions	1
+2021-12-30	LR	H	nouveaux	Indéfini	hemicycle	51
+2021-12-30	LREM	H	nouveaux	Indéfini	hemicycle	6
+2021-12-30	MODEM	H	nouveaux	Indéfini	hemicycle	3
+2021-12-30	NI	F	nouveaux	Indéfini	hemicycle	38
+2021-12-30	NI	H	nouveaux	Indéfini	hemicycle	32
+2021-12-30	SOC	H	nouveaux	Indéfini	hemicycle	3
+2021-12-30	SOC	H	nouveaux	Retiré	hemicycle	1
+2021-12-30	UDI	F	nouveaux	Indéfini	commissions	1
+2021-12-30	UDI	F	nouveaux	Indéfini	hemicycle	1
+2021-12-30	UDI	H	anciens	Indéfini	hemicycle	9
+2021-12-31	GDR	F	nouveaux	Indéfini	hemicycle	1
+2021-12-31	GDR	H	anciens	Indéfini	hemicycle	3
+2021-12-31	LFI	F	nouveaux	Indéfini	hemicycle	48
+2021-12-31	LFI	H	nouveaux	Indéfini	hemicycle	29
+2021-12-31	LR	F	anciens	Indéfini	hemicycle	2
+2021-12-31	LR	F	nouveaux	Indéfini	hemicycle	5
+2021-12-31	LR	H	anciens	Indéfini	hemicycle	51
+2021-12-31	LR	H	anciens	Irrecevable	hemicycle	1
+2021-12-31	LR	H	nouveaux	Indéfini	hemicycle	13
+2021-12-31	LREM	F	anciens	Indéfini	hemicycle	2
+2021-12-31	LREM	F	nouveaux	Indéfini	hemicycle	11
+2021-12-31	LREM	H	anciens	Indéfini	hemicycle	1
+2021-12-31	LREM	H	nouveaux	Indéfini	commissions	2
+2021-12-31	LREM	H	nouveaux	Indéfini	hemicycle	22
+2021-12-31	LT	F	nouveaux	Indéfini	hemicycle	1
+2021-12-31	LT	H	anciens	Indéfini	hemicycle	23
+2021-12-31	MODEM	F	nouveaux	Indéfini	hemicycle	1
+2021-12-31	MODEM	H	anciens	Indéfini	hemicycle	1
+2021-12-31	MODEM	H	nouveaux	Indéfini	hemicycle	9
+2021-12-31	NI	F	nouveaux	Indéfini	commissions	1
+2021-12-31	NI	F	nouveaux	Indéfini	hemicycle	68
+2021-12-31	NI	F	nouveaux	Retiré	hemicycle	4
+2021-12-31	NI	H	anciens	Indéfini	hemicycle	13
+2021-12-31	NI	H	nouveaux	Indéfini	hemicycle	52
+2021-12-31	SOC	F	anciens	Indéfini	commissions	4
+2021-12-31	SOC	F	anciens	Indéfini	hemicycle	28
+2021-12-31	SOC	H	nouveaux	Indéfini	hemicycle	1
+2021-12-31	UDI	F	nouveaux	Indéfini	hemicycle	5
+2021-12-31	UDI	H	anciens	Indéfini	hemicycle	2
+2021-12-31	UDI	H	nouveaux	Indéfini	hemicycle	12
