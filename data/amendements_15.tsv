@@ -45220,7 +45220,8 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-06	AE	H	nouveaux	Indéfini	hemicycle	3
 2022-01-06	GDR	H	anciens	Indéfini	hemicycle	15
 2022-01-06	LFI	F	nouveaux	Indéfini	hemicycle	7
-2022-01-06	LFI	H	nouveaux	Indéfini	hemicycle	6
+2022-01-06	LFI	H	nouveaux	Indéfini	hemicycle	5
+2022-01-06	LFI	H	nouveaux	Retiré	hemicycle	1
 2022-01-06	LR	F	nouveaux	Indéfini	hemicycle	11
 2022-01-06	LR	H	nouveaux	Indéfini	hemicycle	12
 2022-01-06	LREM	F	anciens	Indéfini	hemicycle	8
@@ -45228,8 +45229,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-06	LREM	H	nouveaux	Indéfini	hemicycle	14
 2022-01-06	LREM	H	nouveaux	Retiré	hemicycle	2
 2022-01-06	LT	H	nouveaux	Indéfini	hemicycle	2
-2022-01-06	MODEM	H	nouveaux	Indéfini	hemicycle	38
+2022-01-06	MODEM	H	nouveaux	Indéfini	hemicycle	37
 2022-01-06	MODEM	H	nouveaux	Irrecevable	hemicycle	1
+2022-01-06	MODEM	H	nouveaux	Retiré	hemicycle	1
 2022-01-06	NI	F	nouveaux	Indéfini	hemicycle	10
 2022-01-06	NI	H	nouveaux	Indéfini	hemicycle	6
 2022-01-06	SOC	H	anciens	Indéfini	hemicycle	9
