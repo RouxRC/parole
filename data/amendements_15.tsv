@@ -45412,7 +45412,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-10	MODEM	H	nouveaux	Adopté	hemicycle	1
 2022-01-10	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2022-01-10	MODEM	H	nouveaux	Retiré	hemicycle	1
-2022-01-10	NI	F	nouveaux	Indéfini	hemicycle	4
+2022-01-10	NI	F	nouveaux	Indéfini	hemicycle	5
 2022-01-10	NI	H	nouveaux	Indéfini	hemicycle	5
 2022-01-10	NI	H	nouveaux	Irrecevable	hemicycle	2
 2022-01-10	SOC	F	anciens	Indéfini	hemicycle	1
@@ -45436,3 +45436,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-11	SOC	H	anciens	Rejeté	commissions	2
 2022-01-11	SOC	H	nouveaux	Rejeté	commissions	1
 2022-01-11	UDI	F	nouveaux	Rejeté	commissions	2
+2022-01-12	AE	F	nouveaux	Irrecevable	hemicycle	2
+2022-01-12	AE	F	nouveaux	Rejeté	hemicycle	1
+2022-01-12	GDR	H	anciens	Rejeté	hemicycle	1
+2022-01-12	LR	H	anciens	Irrecevable	hemicycle	3
+2022-01-12	LR	H	anciens	Rejeté	hemicycle	1
+2022-01-12	LREM	F	nouveaux	Retiré	hemicycle	1
+2022-01-12	LT	H	anciens	Rejeté	hemicycle	1
+2022-01-12	SOC	F	nouveaux	Rejeté	commissions	2
+2022-01-12	SOC	H	anciens	Irrecevable	hemicycle	1
+2022-01-12	SOC	H	anciens	Rejeté	hemicycle	1
