@@ -45279,10 +45279,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-06	NI	H	nouveaux	Non soutenu	hemicycle	2
 2022-01-06	NI	H	nouveaux	Rejeté	hemicycle	2
 2022-01-06	SOC	H	anciens	Adopté	hemicycle	1
-2022-01-06	SOC	H	anciens	Indéfini	hemicycle	3
 2022-01-06	SOC	H	anciens	Irrecevable	commissions	1
 2022-01-06	SOC	H	anciens	Rejeté	commissions	2
-2022-01-06	SOC	H	anciens	Rejeté	hemicycle	6
+2022-01-06	SOC	H	anciens	Rejeté	hemicycle	9
 2022-01-06	SOC	H	anciens	Retiré	hemicycle	1
 2022-01-06	SOC	H	anciens	Tombe	hemicycle	1
 2022-01-06	SOC	H	nouveaux	Adopté	hemicycle	1
@@ -45395,16 +45394,14 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-08	UDI	F	nouveaux	Tombe	commissions	1
 2022-01-08	UDI	H	anciens	Irrecevable	hemicycle	4
 2022-01-08	UDI	H	anciens	Rejeté	hemicycle	1
-2022-01-10	LFI	H	nouveaux	Indéfini	hemicycle	1
 2022-01-10	LFI	H	nouveaux	Irrecevable	hemicycle	1
-2022-01-10	LFI	H	nouveaux	Rejeté	hemicycle	5
+2022-01-10	LFI	H	nouveaux	Rejeté	hemicycle	6
 2022-01-10	LR	F	anciens	Rejeté	commissions	1
 2022-01-10	LR	F	anciens	Retiré	hemicycle	1
 2022-01-10	LR	F	nouveaux	Retiré	hemicycle	1
 2022-01-10	LR	H	anciens	Indéfini	hemicycle	1
 2022-01-10	LREM	F	nouveaux	Adopté	commissions	3
-2022-01-10	LREM	F	nouveaux	Adopté	hemicycle	2
-2022-01-10	LREM	F	nouveaux	Indéfini	hemicycle	2
+2022-01-10	LREM	F	nouveaux	Adopté	hemicycle	4
 2022-01-10	LREM	F	nouveaux	Retiré	hemicycle	2
 2022-01-10	LREM	H	nouveaux	Adopté	commissions	34
 2022-01-10	LREM	H	nouveaux	Indéfini	hemicycle	3
@@ -45414,9 +45411,10 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-10	MODEM	H	nouveaux	Irrecevable	hemicycle	1
 2022-01-10	MODEM	H	nouveaux	Retiré	hemicycle	1
 2022-01-10	NI	F	nouveaux	Indéfini	hemicycle	5
-2022-01-10	NI	H	nouveaux	Indéfini	hemicycle	5
+2022-01-10	NI	H	nouveaux	Indéfini	hemicycle	4
 2022-01-10	NI	H	nouveaux	Irrecevable	hemicycle	2
-2022-01-10	SOC	F	anciens	Indéfini	hemicycle	1
+2022-01-10	NI	H	nouveaux	Non soutenu	hemicycle	1
+2022-01-10	SOC	F	anciens	Rejeté	hemicycle	1
 2022-01-10	SOC	H	anciens	Adopté	hemicycle	1
 2022-01-10	SOC	H	anciens	Irrecevable	hemicycle	1
 2022-01-10	SOC	H	nouveaux	Rejeté	commissions	3
