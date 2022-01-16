@@ -45207,6 +45207,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-03	SOC	H	anciens	Non soutenu	commissions	1
 2022-01-04	LFI	H	nouveaux	Rejeté	commissions	3
 2022-01-04	LFI	H	nouveaux	Retiré	commissions	1
+2022-01-04	LR	F	nouveaux	Indéfini	commissions	1
 2022-01-04	LR	H	nouveaux	Irrecevable	hemicycle	2
 2022-01-04	LREM	H	nouveaux	Adopté	commissions	21
 2022-01-04	MODEM	H	nouveaux	Adopté	commissions	2
@@ -45229,6 +45230,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-05	LT	H	anciens	Irrecevable	hemicycle	2
 2022-01-05	LT	H	anciens	Rejeté	hemicycle	4
 2022-01-05	LT	H	nouveaux	Retiré	hemicycle	1
+2022-01-05	NI	F	nouveaux	Indéfini	commissions	8
 2022-01-05	SOC	F	anciens	Rejeté	hemicycle	1
 2022-01-06	AE	F	nouveaux	Adopté	hemicycle	1
 2022-01-06	AE	F	nouveaux	Irrecevable	hemicycle	1
@@ -45470,6 +45472,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-13	LT	H	nouveaux	Rejeté	commissions	4
 2022-01-13	LT	H	nouveaux	Tombe	commissions	2
 2022-01-13	MODEM	F	nouveaux	Adopté	commissions	1
+2022-01-13	MODEM	F	nouveaux	Indéfini	commissions	1
 2022-01-13	NI	F	nouveaux	Indéfini	hemicycle	41
 2022-01-13	SOC	F	anciens	Adopté	commissions	1
 2022-01-13	SOC	F	anciens	Rejeté	commissions	2
@@ -45527,7 +45530,12 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-14	SOC	F	anciens	Rejeté	hemicycle	15
 2022-01-14	SOC	F	anciens	Tombe	hemicycle	1
 2022-01-14	SOC	F	nouveaux	Indéfini	hemicycle	1
+2022-01-14	UDI	F	nouveaux	Indéfini	commissions	5
 2022-01-14	UDI	F	nouveaux	Non soutenu	hemicycle	1
 2022-01-14	UDI	H	nouveaux	Non soutenu	hemicycle	2
 2022-01-14	UDI	H	nouveaux	Rejeté	hemicycle	13
 2022-01-14	UDI	H	nouveaux	Tombe	hemicycle	1
+2022-01-15	LR	H	anciens	Indéfini	commissions	6
+2022-01-15	LREM	F	nouveaux	Indéfini	commissions	1
+2022-01-15	LREM	H	anciens	Indéfini	commissions	5
+2022-01-15	LREM	H	nouveaux	Indéfini	commissions	9
