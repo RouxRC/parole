@@ -45505,10 +45505,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-14	LFI	H	nouveaux	Retiré	hemicycle	2
 2022-01-14	LFI	H	nouveaux	Tombe	hemicycle	1
 2022-01-14	LR	F	anciens	Retiré	hemicycle	1
-2022-01-14	LR	F	nouveaux	Indéfini	hemicycle	2
 2022-01-14	LR	F	nouveaux	Irrecevable	hemicycle	9
-2022-01-14	LR	F	nouveaux	Non soutenu	hemicycle	15
-2022-01-14	LR	F	nouveaux	Rejeté	hemicycle	11
+2022-01-14	LR	F	nouveaux	Non soutenu	hemicycle	16
+2022-01-14	LR	F	nouveaux	Rejeté	hemicycle	12
 2022-01-14	LR	H	anciens	Irrecevable	hemicycle	8
 2022-01-14	LR	H	anciens	Non soutenu	hemicycle	14
 2022-01-14	LR	H	anciens	Rejeté	hemicycle	34
@@ -45531,10 +45530,9 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-14	LT	H	nouveaux	Tombe	hemicycle	1
 2022-01-14	MODEM	F	nouveaux	Rejeté	hemicycle	3
 2022-01-14	MODEM	F	nouveaux	Retiré	hemicycle	2
-2022-01-14	NI	F	nouveaux	Indéfini	hemicycle	1
 2022-01-14	NI	F	nouveaux	Irrecevable	hemicycle	11
 2022-01-14	NI	F	nouveaux	Non soutenu	hemicycle	17
-2022-01-14	NI	F	nouveaux	Rejeté	hemicycle	112
+2022-01-14	NI	F	nouveaux	Rejeté	hemicycle	113
 2022-01-14	NI	F	nouveaux	Retiré	hemicycle	3
 2022-01-14	NI	F	nouveaux	Tombe	hemicycle	3
 2022-01-14	NI	H	anciens	Non soutenu	hemicycle	6
@@ -45548,7 +45546,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-14	UDI	F	nouveaux	Irrecevable	commissions	1
 2022-01-14	UDI	F	nouveaux	Non soutenu	hemicycle	1
 2022-01-14	UDI	F	nouveaux	Retiré	commissions	4
-2022-01-14	UDI	H	anciens	Indéfini	hemicycle	4
+2022-01-14	UDI	H	anciens	Rejeté	hemicycle	4
 2022-01-14	UDI	H	nouveaux	Non soutenu	hemicycle	2
 2022-01-14	UDI	H	nouveaux	Rejeté	hemicycle	13
 2022-01-14	UDI	H	nouveaux	Tombe	hemicycle	1
@@ -45569,35 +45567,40 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-01-16	LT	H	anciens	Rejeté	hemicycle	2
 2022-01-16	NI	F	nouveaux	Irrecevable	hemicycle	2
 2022-01-16	NI	H	anciens	Rejeté	hemicycle	2
-2022-01-16	NI	H	nouveaux	Indéfini	hemicycle	2
 2022-01-16	NI	H	nouveaux	Irrecevable	hemicycle	5
+2022-01-16	NI	H	nouveaux	Non soutenu	hemicycle	2
 2022-01-16	SOC	F	anciens	Rejeté	hemicycle	2
-2022-01-17	GDR	H	nouveaux	Indéfini	hemicycle	1
 2022-01-17	GDR	H	nouveaux	Irrecevable	hemicycle	1
-2022-01-17	LFI	H	nouveaux	Indéfini	hemicycle	3
+2022-01-17	GDR	H	nouveaux	Retiré	hemicycle	1
+2022-01-17	LFI	H	nouveaux	Indéfini	hemicycle	1
 2022-01-17	LFI	H	nouveaux	Irrecevable	hemicycle	3
+2022-01-17	LFI	H	nouveaux	Rejeté	hemicycle	2
 2022-01-17	LR	F	nouveaux	Indéfini	hemicycle	1
 2022-01-17	LR	H	nouveaux	Indéfini	hemicycle	4
-2022-01-17	LREM	F	nouveaux	Indéfini	hemicycle	3
+2022-01-17	LREM	F	nouveaux	Adopté	hemicycle	3
 2022-01-17	LREM	H	nouveaux	Adopté	commissions	1
-2022-01-17	LT	H	nouveaux	Indéfini	hemicycle	2
+2022-01-17	LT	H	nouveaux	Non soutenu	hemicycle	2
 2022-01-17	MODEM	H	nouveaux	Irrecevable	hemicycle	2
 2022-01-17	NI	F	nouveaux	Indéfini	hemicycle	1
 2022-01-17	NI	F	nouveaux	Rejeté	hemicycle	2
-2022-01-17	NI	H	nouveaux	Indéfini	hemicycle	4
+2022-01-17	NI	H	nouveaux	Indéfini	hemicycle	2
+2022-01-17	NI	H	nouveaux	Retiré	hemicycle	1
+2022-01-17	NI	H	nouveaux	Tombe	hemicycle	1
 2022-01-17	SOC	F	nouveaux	Indéfini	hemicycle	11
-2022-01-17	SOC	H	anciens	Indéfini	hemicycle	4
 2022-01-17	SOC	H	anciens	Irrecevable	hemicycle	4
-2022-01-17	SOC	H	nouveaux	Indéfini	hemicycle	6
+2022-01-17	SOC	H	anciens	Rejeté	hemicycle	4
+2022-01-17	SOC	H	nouveaux	Rejeté	hemicycle	4
+2022-01-17	SOC	H	nouveaux	Retiré	hemicycle	1
+2022-01-17	SOC	H	nouveaux	Tombe	hemicycle	1
 2022-01-17	UDI	F	nouveaux	Indéfini	hemicycle	4
 2022-01-17	UDI	F	nouveaux	Irrecevable	hemicycle	1
 2022-01-18	LFI	H	nouveaux	Indéfini	hemicycle	1
 2022-01-18	LR	H	anciens	Retiré	hemicycle	1
 2022-01-18	LREM	H	nouveaux	Adopté	commissions	2
-2022-01-18	SOC	H	anciens	Indéfini	hemicycle	1
+2022-01-18	SOC	H	anciens	Rejeté	hemicycle	1
 2022-01-19	LREM	F	nouveaux	Irrecevable	hemicycle	1
 2022-01-19	NI	F	nouveaux	Rejeté	commissions	3
 2022-01-19	NI	F	nouveaux	Retiré	commissions	1
 2022-01-19	UDI	F	nouveaux	Rejeté	commissions	4
-2022-01-19	UDI	H	anciens	Indéfini	hemicycle	1
+2022-01-19	UDI	H	anciens	Rejeté	hemicycle	1
 2022-01-19	UDI	H	anciens	Retiré	hemicycle	1
