@@ -45765,3 +45765,15 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-02-02	LREM	H	nouveaux	Rejeté	commissions	1
 2022-02-02	LREM	H	nouveaux	Retiré	commissions	2
 2022-02-02	MODEM	H	nouveaux	Tombe	hemicycle	1
+2022-02-03	AE	H	nouveaux	Indéfini	commissions	2
+2022-02-03	LREM	F	nouveaux	Indéfini	commissions	4
+2022-02-03	LREM	H	anciens	Indéfini	commissions	2
+2022-02-03	LT	H	anciens	Indéfini	hemicycle	1
+2022-02-03	LT	H	nouveaux	Indéfini	hemicycle	1
+2022-02-03	MODEM	F	nouveaux	Indéfini	commissions	2
+2022-02-03	NI	F	nouveaux	Indéfini	commissions	3
+2022-02-03	NI	F	nouveaux	Tombe	hemicycle	1
+2022-02-03	NI	H	nouveaux	Irrecevable	hemicycle	1
+2022-02-03	NI	H	nouveaux	Non soutenu	hemicycle	1
+2022-02-03	SOC	F	anciens	Irrecevable	hemicycle	2
+2022-02-03	SOC	F	nouveaux	Indéfini	commissions	5
