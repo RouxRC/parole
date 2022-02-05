@@ -45754,14 +45754,13 @@ date	groupes	genre	renouveau	sorts	origine	total
 2022-02-01	MODEM	F	nouveaux	Adopté	commissions	4
 2022-02-01	MODEM	F	nouveaux	Non soutenu	commissions	1
 2022-02-01	MODEM	F	nouveaux	Retiré	commissions	1
-2022-02-01	NI	F	nouveaux	Indéfini	hemicycle	1
-2022-02-01	NI	F	nouveaux	Non soutenu	hemicycle	4
+2022-02-01	NI	F	nouveaux	Non soutenu	hemicycle	5
 2022-02-01	NI	H	nouveaux	Irrecevable	commissions	2
 2022-02-01	NI	H	nouveaux	Non soutenu	commissions	1
 2022-02-01	NI	H	nouveaux	Tombe	commissions	1
 2022-02-01	SOC	H	anciens	Adopté	commissions	3
-2022-02-01	SOC	H	anciens	Indéfini	hemicycle	1
 2022-02-01	SOC	H	anciens	Rejeté	commissions	2
+2022-02-01	SOC	H	anciens	Rejeté	hemicycle	1
 2022-02-01	SOC	H	anciens	Retiré	commissions	2
 2022-02-01	SOC	H	anciens	Tombe	commissions	5
 2022-02-02	LREM	F	nouveaux	Adopté	commissions	43
