@@ -1637,6 +1637,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-02-18	LR	H	anciens	résolution européenne	attente	1
 2021-02-18	LR	H	nouveaux	loi constitutionnelle	attente	1
 2021-02-18	LR	H	nouveaux	résolution	attente	1
+2021-02-23	LR	F	nouveaux	loi	attente	1
 2021-02-23	LR	H	anciens	loi	attente	2
 2021-02-23	LR	H	nouveaux	loi	attente	4
 2021-02-23	LREM	H	nouveaux	loi	attente	2
@@ -1644,6 +1645,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-02-23	NI	F	nouveaux	loi	attente	2
 2021-02-23	NI	H	nouveaux	loi	attente	2
 2021-02-23	SOC	H	anciens	loi	attente	1
+2021-02-23	UDI	H	nouveaux	loi organique	attente	1
 2021-02-26	NI	F	nouveaux	loi constitutionnelle	attente	1
 2021-03-04	AE	F	nouveaux	résolution	attente	1
 2021-03-04	LR	H	anciens	résolution	attente	1
@@ -1688,12 +1690,13 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-03-25	UDI	F	nouveaux	loi	discute	1
 2021-03-25	UDI	H	anciens	résolution	discute	1
 2021-03-31	AE	F	nouveaux	résolution	attente	1
+2021-03-31	LFI	F	nouveaux	loi	attente	1
 2021-03-31	LFI	H	nouveaux	loi	attente	2
 2021-03-31	LR	F	nouveaux	loi	attente	1
 2021-03-31	LR	H	nouveaux	loi	attente	1
 2021-03-31	LREM	F	nouveaux	loi	attente	1
 2021-03-31	NI	F	nouveaux	loi	attente	1
-2021-03-31	NI	F	nouveaux	résolution	attente	1
+2021-03-31	NI	F	nouveaux	résolution	attente	2
 2021-04-02	LT	H	anciens	création d'une commission d'enquête	attente	1
 2021-04-02	LT	H	nouveaux	création d'une commission d'enquête	attente	1
 2021-04-07	LFI	H	nouveaux	loi	attente	1
@@ -1752,9 +1755,10 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-05-18	LR	F	nouveaux	loi	attente	1
 2021-05-18	LR	F	nouveaux	résolution	attente	1
 2021-05-18	LR	H	anciens	loi	attente	1
-2021-05-18	LR	H	nouveaux	loi	attente	4
+2021-05-18	LR	H	nouveaux	loi	attente	5
 2021-05-18	LREM	H	nouveaux	loi	attente	1
 2021-05-18	MODEM	F	nouveaux	loi	attente	1
+2021-05-18	MODEM	F	nouveaux	résolution	attente	1
 2021-05-18	NI	F	anciens	loi	attente	1
 2021-05-19	LREM	H	nouveaux	résolution	attente	1
 2021-05-21	LR	H	anciens	résolution	attente	1
@@ -1780,6 +1784,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-06-15	LR	F	anciens	résolution	attente	1
 2021-06-15	LR	F	nouveaux	loi	attente	1
 2021-06-15	LR	H	anciens	loi	attente	4
+2021-06-15	LR	H	nouveaux	loi	attente	1
+2021-06-15	LREM	F	anciens	loi	attente	1
 2021-06-15	LREM	F	nouveaux	loi	attente	3
 2021-06-15	MODEM	H	nouveaux	loi	attente	1
 2021-06-15	NI	H	nouveaux	loi	attente	1
@@ -1804,7 +1810,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-06-29	NI	F	nouveaux	loi	attente	2
 2021-06-29	SOC	F	nouveaux	loi	attente	1
 2021-06-30	LR	H	nouveaux	résolution	attente	1
-2021-06-30	UDI	H	anciens	résolution	attente	1
+2021-06-30	UDI	H	anciens	résolution	attente	2
 2021-07-01	LREM	F	nouveaux	résolution	attente	1
 2021-07-07	SOC	H	anciens	résolution européenne	attente	1
 2021-07-08	LR	H	nouveaux	résolution	attente	1
@@ -1882,7 +1888,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-10-12	AE	F	anciens	résolution	attente	1
 2021-10-12	AE	F	nouveaux	loi	attente	1
 2021-10-12	LR	F	anciens	loi	attente	2
-2021-10-12	LR	F	nouveaux	loi	attente	5
+2021-10-12	LR	F	nouveaux	loi	attente	6
 2021-10-12	LR	H	anciens	loi	attente	1
 2021-10-12	LR	H	nouveaux	loi	attente	5
 2021-10-12	LREM	H	anciens	loi	attente	1
@@ -1958,7 +1964,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-11-30	LFI	F	nouveaux	loi	attente	1
 2021-11-30	LR	F	nouveaux	loi	attente	1
 2021-11-30	LR	H	anciens	loi	attente	1
-2021-11-30	LR	H	nouveaux	loi	attente	2
+2021-11-30	LR	H	nouveaux	loi	attente	3
+2021-11-30	LR	H	nouveaux	résolution européenne	attente	1
 2021-11-30	LREM	F	nouveaux	loi	attente	1
 2021-11-30	LT	H	anciens	loi	attente	1
 2021-11-30	NI	H	nouveaux	loi	attente	4
@@ -1969,6 +1976,7 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2021-12-02	GDR	F	anciens	loi	attente	1
 2021-12-02	GDR	H	nouveaux	loi	attente	1
 2021-12-02	GDR	H	nouveaux	résolution	attente	1
+2021-12-02	LREM	H	anciens	résolution européenne	attente	1
 2021-12-02	SOC	H	nouveaux	résolution	attente	1
 2021-12-03	MODEM	H	nouveaux	résolution	attente	1
 2021-12-06	LFI	F	nouveaux	résolution	attente	1
@@ -2021,8 +2029,8 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2022-01-11	LREM	F	nouveaux	loi	attente	2
 2022-01-11	MODEM	H	nouveaux	loi	attente	1
 2022-01-11	NI	F	nouveaux	loi	attente	1
-2022-01-11	UDI	H	anciens	loi	attente	2
-2022-01-11	UDI	H	nouveaux	loi	attente	1
+2022-01-11	UDI	H	anciens	loi	attente	3
+2022-01-11	UDI	H	nouveaux	loi	attente	2
 2022-01-12	LREM	H	nouveaux	résolution européenne	attente	1
 2022-01-12	SOC	F	anciens	résolution	attente	1
 2022-01-12	SOC	F	anciens	résolution européenne	attente	1
@@ -2036,14 +2044,14 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2022-01-25	GDR	H	nouveaux	loi	attente	2
 2022-01-25	LR	F	nouveaux	loi	attente	1
 2022-01-25	LR	H	nouveaux	loi	attente	4
-2022-01-25	LREM	F	nouveaux	loi	attente	1
+2022-01-25	LREM	F	nouveaux	loi	attente	2
 2022-01-25	LREM	F	nouveaux	résolution	attente	1
 2022-01-25	LREM	H	anciens	loi	attente	1
 2022-01-25	LREM	H	nouveaux	loi	attente	2
 2022-01-25	MODEM	H	nouveaux	loi	attente	1
 2022-01-25	NI	H	nouveaux	loi	attente	4
 2022-01-25	UDI	H	anciens	loi	attente	1
-2022-01-25	UDI	H	nouveaux	loi	attente	2
+2022-01-25	UDI	H	nouveaux	loi	attente	3
 2022-01-26	GDR	H	anciens	résolution européenne	attente	1
 2022-01-26	LR	F	nouveaux	résolution européenne	attente	1
 2022-01-26	LR	H	nouveaux	résolution	attente	1
@@ -2075,17 +2083,17 @@ date	groupes	genre	renouveau	typeprop	discute	total
 2022-02-21	LR	H	nouveaux	résolution	attente	1
 2022-02-22	AE	H	nouveaux	loi	attente	1
 2022-02-22	GDR	F	nouveaux	loi	attente	1
-2022-02-22	GDR	H	nouveaux	loi	attente	2
+2022-02-22	GDR	H	nouveaux	loi	attente	3
 2022-02-22	LR	F	nouveaux	loi	attente	1
 2022-02-22	LR	F	nouveaux	résolution	attente	1
-2022-02-22	LR	H	anciens	loi	attente	3
+2022-02-22	LR	H	anciens	loi	attente	4
 2022-02-22	LR	H	nouveaux	loi	attente	6
-2022-02-22	LREM	F	nouveaux	loi	attente	4
+2022-02-22	LREM	F	nouveaux	loi	attente	6
 2022-02-22	LREM	H	nouveaux	loi	attente	4
 2022-02-22	NI	F	nouveaux	loi	attente	3
 2022-02-22	NI	H	nouveaux	loi	attente	5
 2022-02-22	UDI	H	anciens	loi	attente	2
-2022-02-22	UDI	H	nouveaux	loi	attente	3
+2022-02-22	UDI	H	nouveaux	loi	attente	4
 2022-02-25	GDR	F	nouveaux	résolution	attente	1
 2022-02-28	LFI	F	nouveaux	création d'une commission d'enquête	attente	1
 2022-02-28	LR	F	nouveaux	loi organique	attente	1
