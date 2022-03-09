@@ -31856,8 +31856,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-05-11	AE	H	nouveaux	reponse	9	6-12	Ministère de la transition écologique	1
 2021-05-11	AE	H	nouveaux	reponse	7	6-12	Ministère des solidarités et de la santé	1
 2021-05-11	AE	H	nouveaux	reponse	6	6-12	Ministère des solidarités et de la santé, de l'autonomie	1
-2021-05-11	GDR	H	nouveaux	attente	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-05-11	GDR	H	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	1
+2021-05-11	GDR	H	nouveaux	reponse	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-05-11	GDR	H	nouveaux	reponse	7	6-12	Ministère des solidarités et de la santé	1
 2021-05-11	LFI	H	nouveaux	attente	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	2
 2021-05-11	LFI	H	nouveaux	attente	9	6-12	Ministère de l'enseignement supérieur, de la recherche et de l'innovation	1
@@ -31979,8 +31979,8 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-05-11	NI	F	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	1
 2021-05-11	NI	F	nouveaux	reponse	2	3	Ministère de la justice	1
 2021-05-11	NI	F	nouveaux	reponse	4	3-6	Ministère de la culture	1
-2021-05-11	NI	H	anciens	attente	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-05-11	NI	H	anciens	reponse	3	3-6	Ministère des armées	2
+2021-05-11	NI	H	anciens	reponse	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-05-11	NI	H	nouveaux	attente	9	6-12	Ministère de l'économie, des finances et de la relance	1
 2021-05-11	NI	H	nouveaux	reponse	1	2	Ministère de l'économie, des finances et de la relance	1
 2021-05-11	NI	H	nouveaux	reponse	1	2	Ministère de l'Europe et des affaires étrangères	1
@@ -32006,10 +32006,10 @@ date	groupes	genre	renouveau	statut	mois	duree	ministre	total
 2021-05-18	AE	F	nouveaux	attente	9	6-12	Secrétariat d'État auprès du Ministère des solidarités et de la santé, de l'enfance et des familles	1
 2021-05-18	AE	F	nouveaux	reponse	1	2	Ministère de la culture	1
 2021-05-18	AE	F	nouveaux	reponse	8	6-12	Ministère des solidarités et de la santé	1
-2021-05-18	AE	H	nouveaux	attente	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-05-18	AE	H	nouveaux	reponse	1	2	Ministère de la culture	1
 2021-05-18	AE	H	nouveaux	reponse	3	3-6	Ministère de l'économie, des finances et de la relance	1
 2021-05-18	AE	H	nouveaux	reponse	3	3-6	Ministère de la transition écologique	1
+2021-05-18	AE	H	nouveaux	reponse	9	6-12	Ministère de l'éducation nationale, de la jeunesse et des sports	1
 2021-05-18	AE	H	nouveaux	reponse	8	6-12	Secrétariat d'État auprès du Premier ministre, des personnes handicapées	1
 2021-05-18	GDR	H	anciens	attente	9	6-12	Ministère du travail, de l'emploi et de l'insertion	1
 2021-05-18	GDR	H	nouveaux	attente	9	6-12	Ministère des solidarités et de la santé	2
