@@ -44471,9 +44471,10 @@ date	groupes	genre	renouveau	debats	interventions	total
 2022-02-22	LT	F	anciens	commissions	longues	1741
 2022-02-22	MODEM	F	nouveaux	commissions	longues	8384
 2022-02-22	MODEM	H	nouveaux	commissions	longues	6240
+2022-02-22	NI	H	nouveaux	commissions	longues	889
 2022-02-22	SOC	F	anciens	commissions	longues	3505
 2022-02-22	SOC	F	nouveaux	commissions	longues	372
-2022-02-22	SOC	H	nouveaux	commissions	longues	140
+2022-02-22	SOC	H	nouveaux	commissions	longues	2542
 2022-02-22	UDI	F	nouveaux	commissions	longues	3182
 2022-02-22	UDI	H	nouveaux	commissions	longues	2238
 2022-02-23	AE	F	nouveaux	commissions	longues	4559
@@ -44630,3 +44631,10 @@ date	groupes	genre	renouveau	debats	interventions	total
 2022-03-25	NI	F	anciens	commissions	longues	230
 2022-03-25	SOC	H	anciens	commissions	longues	432
 2022-03-25	UDI	H	anciens	commissions	longues	272
+2022-03-30	AE	H	nouveaux	commissions	longues	974
+2022-03-30	LR	H	nouveaux	commissions	longues	1074
+2022-03-30	LREM	F	anciens	commissions	presidence	2255
+2022-03-30	LREM	F	nouveaux	commissions	longues	2406
+2022-03-30	LREM	H	nouveaux	commissions	longues	1927
+2022-03-30	LT	H	nouveaux	commissions	longues	1109
+2022-03-30	MODEM	H	nouveaux	commissions	longues	1164
