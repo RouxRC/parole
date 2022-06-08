@@ -3953,6 +3953,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-28	LREM	H	nouveaux	Retiré	commissions	1
 2018-03-29	LR	H	anciens	Indéfini	hemicycle	3
 2018-03-29	LREM	H	nouveaux	Adopté	commissions	3
+2018-03-29	MODEM	F	nouveaux	Tombe	commissions	1
 2018-03-29	MODEM	H	nouveaux	Irrecevable	commissions	1
 2018-03-29	NG	H	anciens	Adopté	commissions	1
 2018-03-29	NI	F	nouveaux	Indéfini	hemicycle	1
@@ -3977,7 +3978,7 @@ date	groupes	genre	renouveau	sorts	origine	total
 2018-03-30	MODEM	F	nouveaux	Adopté	commissions	1
 2018-03-30	MODEM	F	nouveaux	Rejeté	commissions	1
 2018-03-30	MODEM	F	nouveaux	Retiré	commissions	3
-2018-03-30	MODEM	F	nouveaux	Tombe	commissions	2
+2018-03-30	MODEM	F	nouveaux	Tombe	commissions	1
 2018-03-30	MODEM	H	nouveaux	Rejeté	commissions	1
 2018-03-30	MODEM	H	nouveaux	Retiré	commissions	1
 2018-03-30	NG	H	anciens	Adopté	commissions	1
